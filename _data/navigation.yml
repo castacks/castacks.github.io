@@ -12,7 +12,12 @@
 - name: News 
   link: /news/
 - name: Code
-  link: /code/
+  link: /#
+  dropdown:
+    - name: BitBucket
+      link: https://bitbucket.org/castacks/
+    - name: GitHub 
+      link: https://github.com/castacks
 - name: Datasets
   link: /datasets/
 - name: Openings
