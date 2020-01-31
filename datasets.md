@@ -6,72 +6,15 @@ hero_height: is-large
 show_sidebar: false
 ---
 
-## General page content
-
-This is the rest of the page content. You can add what you like here.
-
-## Hero Link
-
-If you would like to add a call to action button in the hero then add `hero_link` and `hero_link_text` to the page's frontmatter
-
-```yaml
-layout: page
-title: Example Landing Page
-subtitle: This is an example landing page with callouts
-hero_height: is-large
-hero_link: /page-1/
-hero_link_text: Example Call To Action
-```
+## [ALFA dataset](../datasets/2019/08/01/alfa/)
 
 
-## Create a callout data file
 
-Create a data file following the below format. The style is for classes to set the background colour and sizes you would like to use of the Bulma hero container for the callouts.
+## CMU Corridor Dataset
 
-**New in 0.5.7** You can set the height of the callouts in the data file, such as is-small, is-medium or is-large. If unset it will be is-medium by default.
+<div>
+This is an image dataset (967 images) for corridor environments. All the images are annotated as ground or wall using polygons. It is a mixture of processed SUN RGBD (349, "corridor" category), SUN Database (327, "corridor" category), and self-collected images (291, in CMU). <h4>Download <span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;"><strong><a style="color: #ff0000; text-decoration: underline;" href="http://www.frc.ri.cmu.edu/~syang/dataset/icra_pop_corridor_16/cmu_corridor_dataset.zip">here</a></strong></span></span>.</h4> <h4>More detail about this project is <a href="http://theairlab.org/indoor-scene-understanding"><span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;"><strong>here</strong></span></span></a></h4> &nbsp; If you use this dataset for research use, please cite the paper: @inproceedings{syang2016pop, title={Real-time 3D Scene Layout from a Single Image Using Convolutional Neural Networks}, author={Yang, Shichao and Maturana, Daniel and Scherer, Sebastian}, booktitle={Robotics and automation (ICRA), 2016 IEEE international conference on}, year={2016}, organization={IEEE} }
+</div>
 
-The items have 5 fields, but only the title and subtitle are required. 
+## Bridge  Inspection
 
-```yaml
-style: is-light
-height: is-medium
-items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-space-shuttle
-    description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
-  - title: Example callout 2
-    subtitle: Example subtitle 2
-    icon: fa-wrench
-    description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this.
-    call_to_action_name: Call to action 2
-    call_to_action_link: /page-2/
-  - title: Example callout 3
-    subtitle: Example subtitle 3
-    icon: fab fa-github
-    description: >
-      The example description text goes here and can be multiple lines.
-
-      For example, such as this.
-    call_to_action_name: Call to action 3
-    call_to_action_link: /page-3/
-```
-
-## Set the callouts in the frontmatter
-
-To display the callouts on your page, add a callouts property in the frontmatter and set it to the name of your data file without the extension.
-
-```yaml
-layout: page
-title: Example Landing Page
-subtitle: This is an example landing page
-callouts: example_callouts
-```
