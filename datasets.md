@@ -1,12 +1,9 @@
 ---
 layout: page
-title: Example Landing Page
-subtitle: This is an example landing page with callouts
+title: Datasets
+subtitle: Open Datasets released by the AIR Lab
 hero_height: is-large
-hero_link: /page-1/
-hero_link_text: Example Call To Action
 show_sidebar: false
-callouts: example_callouts
 ---
 
 ## General page content

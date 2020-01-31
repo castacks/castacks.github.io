@@ -1,3 +1,10 @@
+# Build instructions
+```
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve --watch --incremental
+```
+
 # bulma-clean-theme
 
 [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
