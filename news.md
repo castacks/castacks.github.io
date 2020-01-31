@@ -1,10 +1,8 @@
 ---
-title: Page without sidebar
-subtitle: Demo page without the sidebar
+title: Latest News
 layout: page
 show_sidebar: false
 hide_footer: true
-hide_hero: true
 ---
 
 <div id="medium-widget"></div>

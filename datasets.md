@@ -6,7 +6,7 @@ hero_height: is-large
 show_sidebar: false
 ---
 
-## [ALFA dataset](../datasets/2019/08/01/alfa/)
+## [ALFA Dataset](../datasets/2019/08/01/alfa/)
 
 ## CMU Corridor Dataset
 
