@@ -1,0 +1,21 @@
+- name: Team 
+  link: /#
+  dropdown:
+    - name: Current Members 
+      link: /current-members/
+    - name: Alumni 
+      link: /alumni/
+- name: Research 
+  link: /research/
+- name: Publications 
+  link: /publications/
+- name: News 
+  link: /news/
+- name: Code
+  link: /code/
+- name: Datasets
+  link: /datasets/
+- name: Openings
+  link: /openings/
+- name: Contact
+  link: /contact/
