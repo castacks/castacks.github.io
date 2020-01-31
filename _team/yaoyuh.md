@@ -6,7 +6,7 @@ image: /img/team/yaoyuh.png
 hide_footer: true
 ---
 
-I am a post-doc in the Field Robotics Center of the Robotics Institute at CMU. I received my Ph.D. degree in nuclear engineering (yeah, that's true) from Shanghai Jiao Tong University. I am always willing to experience, learn and implement the most awesome technology in the world. I am particularly interested in advancing artificial intelligence techniques and deploying and testing them in the real world. 
+Yaoyu Hu is a post-doc in the Field Robotics Center of the Robotics Institute at CMU. He received his Ph.D. degree in nuclear engineering (yeah, that's true) from Shanghai Jiao Tong University. He is always willing to experience, learn and implement the most awesome technology in the world. He is particularly interested in advancing artificial intelligence techniques and deploying and testing them in the real world. 
 
 # Research interest #
 - Binocular stereo reconstruction.
@@ -16,3 +16,5 @@ I am a post-doc in the Field Robotics Center of the Robotics Institute at CMU. I
 # Email #
 yaoyuh@andrew.cmu.edu
 
+# Private webpage #
+<a href="http://huyaoyu.com" target="_blank">huyaoyu.com</a>
