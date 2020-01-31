@@ -12,7 +12,7 @@ To reach our lab by car please park in the Collaborative Innovation Center garag
 
 <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=newell%20simon%20hall&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div>
 
-## Principal Systems Scientist
+## Associate Research Professor
 
 ### Sebastian Scherer
 NSH 2113, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
