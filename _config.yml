@@ -4,7 +4,7 @@ tagline: We build intelligent aerial robots
 email: contact@theairlab.org
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: 
+baseurl:
 url: "https://theairlab.org"
 permalink: pretty
 #favicon: /path/to/favicon.png
@@ -71,6 +71,36 @@ footer_menu: example_footer_menu
 
 collections:
   team:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  gradStudents:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  postDocFellows:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  projScientists:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  undergraduates:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  visitors:
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  staff:
     output: true
     layout: product
     image: https://via.placeholder.com/800x600
