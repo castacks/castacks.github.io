@@ -1,6 +1,6 @@
 ---
 title: Cherie Ho
-subtitle: PhD Student
+subtitle: Graduate Student
 layout: product
 image: /img/team/cherie.jpg
 hide_footer: true
