@@ -1,4 +1,5 @@
 # Build locally
+First install Jekyll according to [these instructions](https://jekyllrb.com/docs/installation/).
 ```bash
 $ git clone https://github.com/castacks/website-dev
 $ cd website-dev
