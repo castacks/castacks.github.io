@@ -2,9 +2,13 @@
 layout: default
 ---
 
+{% if page.image %}
+  {% include post-featured-image.html image=page.image alt=page.title %}
+{% endif %}
+
 <div class="content">
 
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+    <p>Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time> by {{ page.author }}</p>
 
     {{ content }}
 </div>
