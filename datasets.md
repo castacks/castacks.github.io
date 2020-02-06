@@ -6,7 +6,12 @@ show_sidebar: false
 hide_footer: true
 ---
 
-## [ALFA Dataset](../datasets/2019/08/01/alfa/)
+## [AirLab Fault and Anomaly (ALFA) Dataset](../alfa-dataset/)
+  [![AirLab Fault and Anomaly (ALFA) Dataset](../img/posts/2019-08-01-alfa/alfa.jpg "AirLab Fault and Anomaly (ALFA) Dataset")](../alfa-dataset/)
+
+This dataset includes the data collected from tens of autonomous flights for failure detection and anomaly detection research.
+
+<br/><br/>
 
 ## CMU Corridor Dataset
 
