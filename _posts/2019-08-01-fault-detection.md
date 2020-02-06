@@ -26,19 +26,23 @@ The real-time anomaly detection method for the autonomous aerial vehicles is des
 
 *BibTeX:* 
 
-@inproceedings{keipour:detection:2019, \\
-author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer}, \\
-booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)}, \\
-title={Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles}, \\
-year={2019}, \\
-month={May}, \\
-pages={5679-5685}, \\
-doi={10.1109/ICRA.2019.8794286},\\
+```
+@inproceedings{keipour:detection:2019,
+author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer},
+booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)},
+title={Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles},
+year={2019},
+month={May},
+pages={5679-5685},
+doi={10.1109/ICRA.2019.8794286}
 } 
+```
 
 *IEEE Style:* 
 
+```
 A. Keipour, M. Mousaei, and S. Scherer, “Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles,” in 2019 IEEE International Conference on Robotics and Automation (ICRA), May 2019, pp.5679-5685. doi: 10.1109/ICRA.2019.8794286. 
+```
 
 <br/>
 
@@ -46,19 +50,23 @@ The dataset is described [here](../alfa-dataset) and in the following publicatio
 
 *BibTeX:* 
 
-@article{keipour:dataset:2019, \\
-author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer}, \\
-title={ALFA: A Dataset for UAV Fault and Anomaly Detection}, \\
-journal = {The International Journal of Robotics Research}, \\
-volume = {}, \\
-number = {}, \\
-pages = {}, \\
-year = {In press}, \\
+```
+@article{keipour:dataset:2019,
+author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer},
+title={ALFA: A Dataset for UAV Fault and Anomaly Detection},
+journal = {The International Journal of Robotics Research},
+volume = {},
+number = {},
+pages = {},
+year = {In press},
 } 
+```
 
 *IEEE Style:* 
 
+```
 A. Keipour, M. Mousaei, and S. Scherer, “ALFA: A dataset for UAV fault and anomaly detection,” The International Journal of Robotics Research, In press. 
+```
 
 <br/>
 
