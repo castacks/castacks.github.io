@@ -1,27 +1,13 @@
-{% if page.menubar and page.show_sidebar %} {% assign content_width = 'is-4' %} {% elsif page.menubar or page.show_sidebar %} {% assign content_width = 'is-8' %} {% else %} {% assign content_width = 'is-12' %} {% endif %}
+{% if page.menubar and page.show_sidebar %} 
+    {% assign content_width = 'is-4' %} 
+{% elsif page.menubar or page.show_sidebar %}
+    {% assign content_width = 'is-8' %}
+{% else %}
+    {% assign content_width = 'is-12' %} 
+{% endif %}
 <!DOCTYPE html>
-
-<head>
-    {% if page.datatable == true %}
-    <!-- Include the standard DataTables bits -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
-            $('table.display').DataTable({
-                paging: false,
-                stateSave: true,
-                searching: true
-            });
-        });
-    </script>
-    {% endif %}
-</head>
 <html>
 {% include head.html %}
-
 <body>
     {% include header.html %} {% unless page.hide_hero %} {% include hero.html %} {% endunless %} {% include callouts.html %}
     <section class="section">
