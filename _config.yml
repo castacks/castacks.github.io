@@ -59,7 +59,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Air Lab"
       layout: post
       show_sidebar: true
 
