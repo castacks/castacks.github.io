@@ -7,7 +7,7 @@ description: >
 baseurl:
 url: "https://theairlab.org"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: favicon.ico
 
 paginate: 5
 paginate_path: "/research/page:num"
