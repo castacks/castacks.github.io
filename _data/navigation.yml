@@ -1,5 +1,4 @@
 - name: Team 
-  link: /#
   dropdown:
     - name: Current Members 
       link: /current-members/
@@ -12,7 +11,11 @@
 - name: News 
   link: /news/
 - name: Code
-  link: /code/
+  dropdown:
+    - name: BitBucket
+      link: https://bitbucket.org/castacks/
+    - name: GitHub 
+      link: https://github.com/castacks
 - name: Datasets
   link: /datasets/
 - name: Openings

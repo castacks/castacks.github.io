@@ -1,6 +1,7 @@
 ---
 title: Jay Patrikar
-subtitle: Graduate Student
+subtitle: RI Master Student
+category: master_student
 layout: product
 image: /img/team/jay.jpg
 hide_footer: true

@@ -1,9 +1,12 @@
 ---
 title: Sourish Ghosh
-subtitle: PhD Student
+subtitle: Ph.D. Student
+category: phd_student
 layout: product
 image: /img/team/sourish.jpg
 hide_footer: true
 ---
 
-Bio goes here.
+Sourish is a Ph.D. student at the [Robotics Institute](https://www.ri.cmu.edu/){:target="_blank"}. Prior to this, he received his Bachelor's and Master's degree in *Mathematics and Computing* from [IIT Kharagpur](http://www.iitkgp.ac.in){:target="_blank"}.
+
+On most days he is cheerful and friendly, but he knows all about pain and suffering being a religious [Arsenal](https://www.youtube.com/watch?v=1pZIcO06x6w){:target="_blank"} fan. Apart from football, he loves playing table tennis, and he currently plays for the CMU Table Tennis club.

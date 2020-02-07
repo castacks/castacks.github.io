@@ -3,11 +3,10 @@ title: Air Lab
 tagline: We build intelligent aerial robots
 email: contact@theairlab.org
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: 
+  Researching, developing, and testing autonomous flying robots at Carnegie Mellon University
+baseurl:
 url: "https://theairlab.org"
 permalink: pretty
-#favicon: /path/to/favicon.png
 
 paginate: 5
 paginate_path: "/research/page:num"
@@ -45,7 +44,7 @@ sass:
   style: compressed
   source_dir: _sass
 
-#google_analytics: UA-code-here
+google_analytics: UA-157913889-1
 
 defaults:
   -
@@ -59,9 +58,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Air Lab"
       layout: post
-      image: https://via.placeholder.com/1200x800
       show_sidebar: true
 
 markdown: kramdown
@@ -75,6 +73,7 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+
 
 scholar:
   style: simple-ieee.csl

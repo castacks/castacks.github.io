@@ -1,6 +1,7 @@
 ---
 title: Yaoyu Hu
-subtitle: Postdoctoral Fellow 
+subtitle: Postdoctoral Fellow
+category: postdoc
 layout: product
 image: /img/team/yaoyuh.png
 hide_footer: true
@@ -16,5 +17,5 @@ Yaoyu Hu is a post-doc in the Field Robotics Center of the Robotics Institute at
 # Email #
 yaoyuh@andrew.cmu.edu
 
-# Private webpage #
+# Personal webpage #
 <a href="http://huyaoyu.com" target="_blank">huyaoyu.com</a>

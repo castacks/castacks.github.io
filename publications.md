@@ -1,7 +1,7 @@
 ---
 layout: page
+title: Publications
 show_sidebar: false
-hide_hero: true
 hide_footer: true
 ---
 

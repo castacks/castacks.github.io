@@ -1,60 +1,31 @@
 ---
-title: Page with Tabs
-subtitle: Demo page with tabs
+title: Contact
+subtitle: Get in touch with us
 layout: page
 show_sidebar: false
-tabs: example_tabs
-menubar: example_menu
+hide_footer: true
 ---
 
-## Displaying tabs
+## How to reach our lab
 
-The tabs gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the frontmatter. 
+To reach our lab by car please park in the Collaborative Innovation Center garage. Note that the garage is not reachable from Forbes Ave. You need to turn left on Craig St., right on Filmore St, and right on S. Neville St. to get into the garage.
 
-```yml
-title: Page with tabs
-subtitle: Demo page with tabs
-layout: page
-show_sidebar: false
-menubar: example_menu
-tabs: example_tabs
-```
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=newell%20simon%20hall&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div>
 
-Tabs can be used in conjunction with menubar and/or sidebar if you wish. 
+## Associate Research Professor
 
-## Creating a tabs data file
+### Sebastian Scherer
+NSH 2113, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
 
-Create a data file in the _data directory and use the following format (if using yml)
+Phone: (412) 589-9581
 
-```yml
-alignment: is-left
-style: is-boxed
-size: is-large
-items:
-  - name: Tabs
-    link: /page-4/
-    icon: fa-smile-wink
-  - name: Sidebar
-    link: /page-1/
-    icon: fa-square
-  - name: No Sidebar
-    link: /page-2/
-    icon: fa-ellipsis-v
-  - name: Menubar
-    link: /page-3/
-    icon: fa-bars
-```
+Email: [basti@andrew.cmu.edu](mailto:basti@andrew.cmu.edu)
 
-## Settings
+## Administrative Assistant
 
-You can control the alignment, style and size of the tabs by using the relevant [Bulma tabs classes](https://bulma.io/documentation/components/tabs/). 
+### Nora Kazour
+NSH 2107, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
 
-## Active Tab Highlighting
+Phone: (412) 268-6556
 
-It will automatically mark the active tab based on the current page.
-
-## Icons
-
-You can add icons to your tab by passing in the [Font Awesome icon class](https://fontawesome.com/icons?d=gallery).
-
-If you don't wish to show icons then simply omit the option from your yaml file.
+Email: [nkazour@andrew.cmu.edu](mailto:nkazour@andrew.cmu.edu)
