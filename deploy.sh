@@ -10,5 +10,5 @@ echo "theairlab.org" >> CNAME
 git add -A
 git commit -m "Auto deploy"
 git push origin master -f
-cd ..
+cd ../../
 rm -rf airlab-temp
