@@ -1,6 +1,7 @@
 ---
 title: Wenshan Wang
 subtitle: Project Scientist
+category: scientist
 layout: product
 image: /img/team/wenshan.jpg
 hide_footer: true

@@ -1,6 +1,7 @@
 ---
 title: Yaoyu Hu
-subtitle: Postdoctoral Fellow 
+subtitle: Postdoctoral Fellow
+category: postdoc
 layout: product
 image: /img/team/yaoyuh.png
 hide_footer: true

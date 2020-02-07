@@ -1,6 +1,7 @@
 ---
 title: Brady Moon
-subtitle: Graduate Student
+subtitle: RI Master Student
+category: master_student
 layout: product
 image: /img/team/brady.jpg
 hide_footer: true

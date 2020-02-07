@@ -1,6 +1,7 @@
 ---
 title: Weikun Zhen
-subtitle: Graduate Student
+subtitle: Ph.D. Student
+category: phd_student
 layout: product
 image: /img/team/weikun.jpg
 hide_footer: true

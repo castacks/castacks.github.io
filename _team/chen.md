@@ -1,6 +1,7 @@
 ---
 title: Chen Wang
 subtitle: Postdoctoral Fellow
+category: postdoc
 layout: product
 image: /img/team/chen.jpg
 hide_footer: true

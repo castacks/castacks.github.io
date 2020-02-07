@@ -1,6 +1,7 @@
 ---
 title: Sebastian Scherer
 subtitle: Associate Research Professor
+category: lab_head
 layout: product
 image: /img/team/basti.jpg
 hide_footer: true

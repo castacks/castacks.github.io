@@ -1,6 +1,7 @@
 ---
 title: Cherie Ho
-subtitle: Graduate Student
+subtitle: Ph.D. Student
+category: phd_student
 layout: product
 image: /img/team/cherie.jpg
 hide_footer: true
