@@ -7,6 +7,8 @@ cd _site
 touch .nojekyll
 touch CNAME
 echo "theairlab.org" >> CNAME
+git init
+git remote add origin https://github.com/castacks/castacks.github.io
 git add -A
 git commit -m "Auto deploy"
 git push origin master -f
