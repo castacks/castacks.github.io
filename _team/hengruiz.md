@@ -3,7 +3,7 @@ title: Henry Zhang
 subtitle: RI Master Student
 category: master_student
 layout: product
-image: /img/team/hengruiz.jpg
+image: /img/team/hengruiz640x480.png
 hide_footer: true
 ---
 
@@ -14,5 +14,7 @@ environments.
 <br>
 
 **Website** [hengruizhang.com](https://hengruizhang.com)
+
 **Email**: hengruiz@andrew.cmu.edu
+
 **Github**: [henryzh47](https://github.com/HenryZh47)
