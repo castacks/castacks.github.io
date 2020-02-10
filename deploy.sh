@@ -9,18 +9,22 @@ if [ $last_commit -ge $last_push ]; then
   cd ..
   rm -rf _site
   docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll build
-  cd _site
-  git init
-  git remote add origin https://github.com/castacks/castacks.github.io
-  touch .nojekyll
-  touch CNAME
-  echo "theairlab.org" >> CNAME
-  git add -A
-  git commit -m "Auto deploy"
-  git push origin master -f
-  cd ../../
-  rm -rf airlab-temp
-  echo "Pushed changes!"
+  if [ -d "_site" ]; then
+    cd _site
+    git init
+    git remote add origin https://github.com/castacks/castacks.github.io
+    touch .nojekyll
+    touch CNAME
+    echo "theairlab.org" >> CNAME
+    git add -A
+    git commit -m "Auto deploy"
+    git push origin master -f
+    cd ../../
+    rm -rf airlab-temp
+    echo "Pushed changes!"
+  else
+    echo "Failed to push!"
+  fi
 else
   cd ../../
   rm -rf airlab-temp
