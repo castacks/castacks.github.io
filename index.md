@@ -1,6 +1,6 @@
 ---
 title: Air Lab
-subtitle: We build autonomous aerial robots
+subtitle: We research autonomous aerial robots
 layout: page
 show_sidebar: false
 hide_footer: true
