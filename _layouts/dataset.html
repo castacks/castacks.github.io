@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign datasets = site.posts | where:"categories","datasets" %}
+<div class="columns is-multiline">
+    {% for post in datasets %}
+    <div class="column is-3-desktop is-6-tablet">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
