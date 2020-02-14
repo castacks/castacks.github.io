@@ -1,8 +1,9 @@
 ---
 title: Rohit Garg
-subtitle: MSR Student
+subtitle: Master Student
+job_title: MSR Student
 category: master_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/rohitg.png
 hide_footer: true
 ---

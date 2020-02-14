@@ -1,8 +1,9 @@
 ---
 title: Vikram Bhat
-subtitle: Undergraduate Research Assistant, ECE
+subtitle: Research Assistant
+job_title: Undergraduate Research Assistant, ECE
 category: staff
-layout: product
+layout: team_member_personal_page
 image: /img/team/placeholder.png
 hide_footer: true
 ---

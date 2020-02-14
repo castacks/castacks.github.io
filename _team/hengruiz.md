@@ -1,8 +1,9 @@
 ---
 title: Henry Zhang
-subtitle: RI Master Student
+subtitle: Master Student
+job_title: MSR Student
 category: master_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/hengruiz640x480.png
 hide_footer: true
 ---

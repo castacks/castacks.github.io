@@ -1,8 +1,9 @@
 ---
 title: John Keller
-subtitle: Software / Robotics Engineer
+subtitle: Engineer
+job_title: Software / Robotics Engineer
 category: staff
-layout: product
+layout: team_member_personal_page
 image: /img/team/johnk.png
 hide_footer: true
 ---

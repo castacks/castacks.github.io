@@ -1,8 +1,9 @@
 ---
 title: Mohammadreza Mousaei
-subtitle: RI Ph.D. Student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
 category: phd_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/mohammadrezam.png
 hide_footer: true
 ---

@@ -1,8 +1,9 @@
 ---
 title: Yuheng Qiu
 subtitle: Visiting Scholar
+job_title: Visiting Scholar
 category: visitor
-layout: product
+layout: team_member_personal_page
 image: /img/team/yuheng.jpg
 hide_footer: true
 ---

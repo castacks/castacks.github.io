@@ -1,8 +1,9 @@
 ---
 title: Jay Patrikar
-subtitle: RI Master Student
+subtitle: Master Student
+job_title: MSR Student
 category: master_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/jay.jpg
 hide_footer: true
 ---

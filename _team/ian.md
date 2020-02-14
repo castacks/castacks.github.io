@@ -1,8 +1,9 @@
 ---
 title: Ian Higgins
 subtitle: Staff
+job_title: Staff
 category: staff
-layout: product
+layout: team_member_personal_page
 image: /img/team/ian.jpg
 hide_footer: true
 ---

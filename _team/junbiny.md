@@ -1,8 +1,9 @@
 ---
 title: Junbin Yuan
 subtitle: Visiting Scholar
+job_title: Visiting Scholar
 category: visitor
-layout: product
+layout: team_member_personal_page
 image: /img/team/placeholder_male.png
 hide_footer: true
 ---

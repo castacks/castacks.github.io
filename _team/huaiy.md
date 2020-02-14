@@ -1,8 +1,9 @@
 ---
 title: Huai Yu
-subtitle: Visiting Scholar/Intern
+subtitle: Visiting Scholar
+job_title: Visiting Scholar / Internship
 category: visitor
-layout: product
+layout: team_member_personal_page
 image: /img/team/huaiy.jpg
 hide_footer: true
 ---

@@ -1,8 +1,9 @@
 ---
 title: Sourish Ghosh
 subtitle: Ph.D. Student
+job_title: Ph.D. Student
 category: phd_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/sourish.jpg
 hide_footer: true
 ---

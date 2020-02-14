@@ -1,8 +1,9 @@
 ---
 title: Rogerio Bonatti
-subtitle: RI Ph.D. Student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
 category: phd_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/rbonatti.png
 hide_footer: true
 ---

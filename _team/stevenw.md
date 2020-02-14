@@ -1,8 +1,9 @@
 ---
 title: Steven Willits
-subtitle: Field Test Engineer
+subtitle: Engineer
+job_title: Field Test Engineer
 category: staff
-layout: product
+layout: team_member_personal_page
 image: /img/team/stevenw.png
 hide_footer: true
 ---

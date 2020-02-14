@@ -1,8 +1,9 @@
 ---
 title: Anish Bhattacharya
-subtitle: RI MSR Student
+subtitle: Master Student
+job_title: MSR Student
 category: master_student
-layout: product
+layout: team_member_personal_page
 image: /img/team/anishb.png
 hide_footer: true
 ---

@@ -1,8 +1,9 @@
 ---
 title: Andrew Saba 
-subtitle: Systems Software/Hardware Engineer
+subtitle: Engineer
+job_title: Systems Software/Hardware Engineer
 category: staff
-layout: product
+layout: team_member_personal_page
 image: /img/team/andrews.png
 hide_footer: true
 ---

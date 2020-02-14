@@ -1,8 +1,9 @@
 ---
 title: Sebastian Scherer
-subtitle: Associate Research Professor
+subtitle: Lab Head
+job_title: Associate Research Professor
 category: lab_head
-layout: product
+layout: team_member_personal_page
 image: /img/team/basti.jpg
 hide_footer: true
 ---
