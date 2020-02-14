@@ -2,7 +2,7 @@
 layout: post
 title:  "Autonomous Drone Safety"
 date:   2016-5-01 10:50:07
-categories: articles
+categories: research
 description: "Safety"
 published: true
 ---
