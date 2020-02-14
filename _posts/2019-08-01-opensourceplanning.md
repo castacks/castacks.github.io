@@ -2,7 +2,7 @@
 layout: post
 title:  "Open Source Planning Packages"
 date:   2016-11-01 10:50:07
-categories: software
+categories: research
 description: "Planning Packages"
 author: "Sanjiban Choudhury"
 published: true

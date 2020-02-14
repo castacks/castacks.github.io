@@ -1,6 +1,6 @@
 ---
 title: Brady Moon
-subtitle: Master Student
+subtitle: Master's Student
 job_title: MSR Student
 category: master_student
 layout: team_member_personal_page
@@ -16,7 +16,7 @@ His research is primarily focused on path planning, motion planning, machine lea
 
 <br>
 
-**Website**: [bradygm.github.io](https://bradygm.github.io) 
+**Website**: [bradygm.github.io](https://bradygm.github.io)
 
 **Email**: [bradygmoon@cmu.edu](mailto:bradygmoon@cmu.edu)
 
