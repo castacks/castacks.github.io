@@ -1,7 +1,7 @@
 ---
 title: Brady Moon
-subtitle: Master's Student
-job_title: MSR Student
+subtitle: Master Student
+job_title: Master Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/brady.jpg

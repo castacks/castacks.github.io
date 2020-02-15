@@ -1,7 +1,7 @@
 ---
 title: Henry Zhang
 subtitle: Master Student
-job_title: MSR Student
+job_title: Master Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/hengruiz640x480.png
