@@ -8,7 +8,7 @@ author: "Brady Moon"
 published: true
 sidebar:  false
 permalink: /smart-landing-obstacle-avoidance/
-image: /img/posts/2019-08-01-smartlanding/landObs.png/
+image: /img/posts/2019-08-01-smartlanding/landObs.png
 ---
 
 Below are various projects that allow the drone to fly and land safely in challenging environments.
