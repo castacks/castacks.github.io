@@ -1,6 +1,58 @@
 ---
 title: Alumni
-layout: page
+layout: default
 show_sidebar: false
 hide_footer: true
 ---
+
+<hr>
+<h1 style="font-size:35px;">Past Ph.D. Students ( ordered by year of graduation )</h1>
+<br>
+<div class="columns is-multiline">
+{% assign sorted_person = site.team | where:"category","past_phd" | sort: "graduation_year" | reverse %}
+{% for person in sorted_person %}
+<div class="column is-3-desktop is-6-tablet">
+  <a href="{{ person.url | prepend: site.baseurl }}">
+    <div class="card">
+      {% if person.image %}
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" />
+        </figure>
+      </div>
+      {% endif %}
+      <div class="card-content">
+        <p class="title is-5">{{ person.title }}</p>
+        <p class="subtitle is-5">{{ person.starting_year }}-{{ person.graduation_year }}</p>
+      </div>
+    </div>
+  </a>
+</div>
+{% endfor %}
+</div>
+
+<hr>
+<h1 style="font-size:35px;">Past Master's Students ( ordered by year of graduation )</h1>
+<br>
+<div class="columns is-multiline">
+{% assign sorted_person = site.team | where:"category","past_master" | sort: "graduation_year" | reverse %}
+{% for person in sorted_person %}
+<div class="column is-3-desktop is-6-tablet">
+  <a href="{{ person.url | prepend: site.baseurl }}">
+    <div class="card">
+      {% if person.image %}
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" />
+        </figure>
+      </div>
+      {% endif %}
+      <div class="card-content">
+        <p class="title is-5">{{ person.title }}</p>
+        <p class="subtitle is-5">{{ person.starting_year }}-{{ person.graduation_year }}</p>
+      </div>
+    </div>
+  </a>
+</div>
+{% endfor %}
+</div>

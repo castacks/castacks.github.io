@@ -1,6 +1,6 @@
 ---
 title: Huai Yu
-subtitle: Visiting Scholar
+subtitle: Visitor
 job_title: Visiting Scholar / Internship
 category: visitor
 layout: team_member_personal_page

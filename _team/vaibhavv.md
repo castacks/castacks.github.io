@@ -1,7 +1,7 @@
 ---
 title: Vaibhav (Vai) Viswanathan
-subtitle: Master Student
-job_title: Master Student
+subtitle: Master's Student
+job_title: Master's Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/vaibhavv.png

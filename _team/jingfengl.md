@@ -1,7 +1,7 @@
 ---
 title: Jingfeng Liu
-subtitle: Master student
-job_title: Master student in Mechanical Engineering
+subtitle: Master's student
+job_title: Master's student in Mechanical Engineering
 category: master_student
 layout: team_member_personal_page
 image: /img/team/jingfengl.jpg

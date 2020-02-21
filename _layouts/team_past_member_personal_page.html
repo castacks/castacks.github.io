@@ -16,6 +16,13 @@ layout: team_member_base
 
         <div class="content">
             {{ content }}
+        <h1>Thesis</h1>
+        <a href="{{ page.thesis_link }}" target="_blank">{{page.thesis_title}}</a>
+
+        <h1>Advisors</h1>
+        {% for advisor in page.advisors %}
+        <p> {{ advisor.name }} </p>
+        {% endfor %}
         </div>
     </div>
 
