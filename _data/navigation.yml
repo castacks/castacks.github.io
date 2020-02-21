@@ -1,20 +1,21 @@
-- name: Team 
+- name: Team
+  link: /current-members/
   dropdown:
-    - name: Current Members 
+    - name: Current Members
       link: /current-members/
-    - name: Alumni 
+    - name: Alumni
       link: /alumni/
-- name: Research 
+- name: Research
   link: /research/
-- name: Publications 
+- name: Publications
   link: /publications/
-- name: News 
+- name: News
   link: /news/
 - name: Code
   dropdown:
     - name: BitBucket
       link: https://bitbucket.org/castacks/
-    - name: GitHub 
+    - name: GitHub
       link: https://github.com/castacks
 - name: Datasets
   link: /datasets/
