@@ -5,5 +5,6 @@ layout: team_members
 show_sidebar: false
 hide_footer: true
 sort: subtitle
+hero_image: /img/group_pic.JPG
+hero_height: is-large
 ---
-

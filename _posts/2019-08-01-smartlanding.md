@@ -11,7 +11,7 @@ permalink: /smart-landing-obstacle-avoidance/
 image: /img/posts/2019-08-01-smartlanding/landObs.png
 ---
 
-Below are various projects that allow the drone to fly and land safely in challenging environments.
+Below are various projects that allow a drone to fly and land safely in challenging environments.
 
 ### Return To Home
 {% youtube Ge_W4uE8qfM %}
