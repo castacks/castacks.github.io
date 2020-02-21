@@ -1,11 +1,29 @@
-<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: linear-gradient(180deg, rgba(204,0,44,.672),rgba(204,0,44,0)), url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: linear-gradient(180deg, rgba(204,0,44,.7),rgba(204,0,44,.3)), url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
     <div class="hero-body">
         <div class="container">
             <p class="title is-2">{{ page.title }}</p>
             <p class="subtitle is-3">{{ page.subtitle }}</p>
+            <p class="subtitle is-3">
             {% if page.hero_link %}
                 <a href="{{ page.hero_link | prepend: site.baseurl  }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
             {% endif %}
+            {% if page.hero_link2 %}
+                <a href="{{ page.hero_link2 | prepend: site.baseurl  }}" class="button is-info is-large">{{ page.hero_link_text2 }}</a>
+            {% endif %}
+        </p>
         </div>
     </div>
 </section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
