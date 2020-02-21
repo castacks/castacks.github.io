@@ -8,8 +8,6 @@ image: /img/team/cherie.jpg
 hide_footer: true
 ---
 
-This is the content about the product.
+Hi, I’m Cherie! I’m a second-year PhD Student in the Robotics Institute at Carnegie Mellon University advised by Prof. Sebastian Scherer. I graduated from Harvey Mudd College in 2017, where I worked with Prof. Chris Clark on shark-tracking underwater robots. I am supported by the Croucher Foundation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis.
-
-Praesent ut accumsan mauris. Maecenas tempus finibus lectus, in iaculis mauris lobortis ac. Proin ipsum erat, imperdiet at arcu a, egestas hendrerit turpis. Suspendisse in lectus lacinia, sollicitudin felis non, auctor urna. Ut lacinia, ligula a cursus fringilla, diam arcu semper orci, quis sagittis eros quam nec ante.
+My research interest is in the intersection of field robotics, control theory and machine learning towards the goal of bringing robots to uncertain safety-critical environments. Specifically, I’m interested in developing robot learning and control algorithms that provide theoretical safety guarantees whilst deployed in the field.
