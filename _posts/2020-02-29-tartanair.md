@@ -73,7 +73,7 @@ By unleashing the power of the [Unreal Engine][UnrealEngine] and [AirSim][AirSim
 [AirSimSite]: https://github.com/microsoft/AirSim
 
 <figure>
- <img src="/img/posts/2020-02-29-tartanair/multimodal_data.png" alt="Data and ground truth labels." />
+ <img src="/img/posts/2020-02-29-tartanair/multimodal_data_20200301.png" alt="Data and ground truth labels." />
  <figcaption>
  Data and ground truth labels.
  </figcaption>
@@ -84,7 +84,7 @@ By unleashing the power of the [Unreal Engine][UnrealEngine] and [AirSim][AirSim
 We develop a highly automated pipe-line to facilitate data acquisition. For each environment, we build an occupancy map by incremental mapping. Base on the map, we then sample a bunch of trajectories for the virtual camera to follow. A set of virtual cameras follow the trajectories to capture raw data from Unreal Engine and AirSim. Raw data are processed to generate labels such as optical flow, stereo disparity, simulated LiDAR points, and simualated IMU readings. Data verification. Verify the data synchronization and the accuracy of the derived labels.
 
 <figure>
- <img src="/img/posts/2020-02-29-tartanair/pipeline.png" alt="Data acquisition pipeline." />
+ <img src="/img/posts/2020-02-29-tartanair/pipeline_20200301.png" alt="Data acquisition pipeline." />
  <figcaption>
  Data acquisition pipeline.
  </figcaption>
