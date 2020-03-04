@@ -8,6 +8,7 @@ graduation_year: 2018
 graduation_month: October
 thesis_title: Safe Data Gathering in Physical Spaces
 thesis_link: https://www.ri.cmu.edu/publications/safe-data-gathering-in-physical-spaces/
+linkedin: https://www.linkedin.com/in/sankalp-arora-3515a511/
 advisors:
  - name: Sebastian Scherer
 layout: team_past_member_personal_page

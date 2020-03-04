@@ -8,6 +8,7 @@ graduation_year: 2020
 graduation_month: December
 thesis_title: Ground Up Design of a Multi-modal Object Detection System
 thesis_link: https://www.ri.cmu.edu/publications/ground-up-design-of-a-multi-modal-object-detection-system/
+linkedin: https://www.linkedin.com/in/vasuagrawal/
 advisors:
  - name: Sebastian Scherer
 layout: team_past_member_personal_page
