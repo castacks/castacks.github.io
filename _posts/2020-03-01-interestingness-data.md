@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robot Interestingness: A Dataset to Push the Limits of Online Visual Interesting Scene Prediction"
+title: "Robotic Interestingness: A Dataset to Push the Limits of Online Visual Interesting Scene Prediction"
 date: 2019 Nov
 categories: datasets
 description: "Interestingness"
@@ -13,12 +13,7 @@ datatable: true
 link-new-tab: true
 ---
 
-# The mission #
-
-Visual interesting scene prediction for mobile robots is one of the most fundamental research area in robotic.
-It is crucial for many robotic applications, such as robot exploration, decision making, and robot coorpertation, etc.
-Therefore, it is important to establish a sense of "visual interestingness" like humans for mobile robots.
-To promote the development visual interesting scene prediction for such purpose, we create this dataset for robots to better sense the world.
+Visual interesting scene prediction for mobile robots is one of the most fundamental research area in robotic. It is crucial for many robotic applications, such as robot exploration, decision making, and robot coorpertation, etc. Therefore, it is important to establish a sense of "visual interestingness" like humans for mobile robots. To promote the development visual interesting scene prediction for such purpose, we create this dataset for robots to better sense the world.
 
 ## Why this data important?
 
@@ -29,7 +24,7 @@ In this challenge, the teams must deploy robotic systems which search and explor
 Since the environments are fully GPS and wireless communication denied, the robots has to do self-localization, pathing planning, exploration, etc., fully autonomously.
 We release this data to help the robotists establish a sense of "visual interestingness" for real robots.
 
-In general, the robots has to learn online, detect the 'interesting' scenes, and lose interests on repetive scenes.
+In general, the robots has to learn online, detect the 'interesting' scenes, and lose interests on repetitive scenes.
 
 
 ## Who record this data?
@@ -44,9 +39,9 @@ The [DARPA Subterranean Challenge](https://www.subtchallenge.com/) tasks teams, 
 Each of the tunnels has a cumulative linear distance of 4-8km.
 The SubT front camera (SubTF) dataset listed in the following table, contains seven long videos (1 hour) recorded by two fully autonomous unmanned ground vehicles (UGV).
 For better evaluation, we asked multiple volunteers to label the interesting scenes at every 2 seconds so that each sequence is evaluated by at least 3 participants.
-It can be seen that SubTF dataset is very challenging, as the human annotation varies a lot, i.e., only 15% and 3.6% of the frames are labeled as interesting by at least 1 (Category-1) and 2 subjects (Category-2), respectively. 
+It can be seen that SubTF dataset is very challenging, as the human annotation varies a lot, i.e., only 15% and 3.6% of the frames are labeled as interesting by at least 1 (Normal) and 2 subjects (Difficult), respectively.
 
-| Video    |   Length  |  Category-1  |  Category-2 |
+| Video    |   Length  |     Normal   |  Difficult  |
 |----------|:---------:|-------------:| -----------:|
 |    1     |  53.1 min |   11.11%     |    2.76%    |
 |    2     |  55.7 min |   15.07%     |    4.49%    |
