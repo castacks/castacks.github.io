@@ -8,6 +8,7 @@ graduation_year: 2015
 graduation_month: May
 thesis_title: (Not available)
 thesis_link: 
+linkedin: https://www.linkedin.com/in/lukeayoder/
 advisors:
  - name: Sebastian Scherer
 layout: team_past_member_personal_page

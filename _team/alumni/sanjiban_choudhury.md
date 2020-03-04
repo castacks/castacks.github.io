@@ -8,6 +8,7 @@ graduation_year: 2018
 graduation_month: May
 thesis_title: Adaptive Motion Planning
 thesis_link: https://www.ri.cmu.edu/wp-content/uploads/2018/01/Sanjiban-Choudhury-Thesis-2018.pdf
+linkedin: https://www.linkedin.com/in/sanjiban-choudhury-689a9711/
 advisors:
  - name: Sebastian Scherer
 layout: team_past_member_personal_page

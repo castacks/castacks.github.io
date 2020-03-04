@@ -8,6 +8,7 @@ graduation_year: 2018
 graduation_month: Auguset
 thesis_title: "Learning Reactive Flight Control Policies: From LIDAR Measurements to Actions"
 thesis_link: https://www.ri.cmu.edu/publications/learning-reactive-flight-control-policies-from-lidar-measurements-to-actions/
+linkedin: https://www.linkedin.com/in/zengsam/
 advisors:
  - name: Sebastian Scherer
 layout: team_past_member_personal_page
