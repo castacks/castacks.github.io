@@ -26,7 +26,9 @@ The four most important features of our dataset are:
 - Diversity of motion patterns
 - Challenging Scenes
 
-<span style="color:red"> A youtube video should go here. </span>
+<!-- <span style="color:red"> A youtube video should go here. </span> -->
+
+{% youtube qDwfHvTbJx4 %}
 
 # A wide variety of data #
 
