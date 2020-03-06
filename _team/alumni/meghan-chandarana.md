@@ -12,6 +12,7 @@ linkedin: https://www.linkedin.com/in/meghanchandarana/
 advisors:
  - name: Sebastian Scherer
  - name: Katia Sycara
+current_status: NASA Langley Research Center
 layout: team_past_member_personal_page
 image: /img/team/past_members/meghan_chandarana.png
 hide_footer: true

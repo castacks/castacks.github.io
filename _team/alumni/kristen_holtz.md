@@ -11,6 +11,7 @@ thesis_link:
 linkedin: https://www.linkedin.com/in/kristen-holtz-1847605a/
 advisors:
  - name: Sebastian Scherer
+current_status: Skydio
 layout: team_past_member_personal_page
 image: /img/team/placeholder_male.png
 hide_footer: true

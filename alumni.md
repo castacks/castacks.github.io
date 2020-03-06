@@ -24,6 +24,7 @@ hide_footer: true
       <div class="card-content">
         <p class="title is-5">{{ person.title }}</p>
         <p class="subtitle is-5">{{ person.starting_year }}-{{ person.graduation_year }}</p>
+        <p class="subtitle is-5">{{ person.current_status }}</p>
       </div>
     </div>
   </a>
@@ -50,6 +51,7 @@ hide_footer: true
       <div class="card-content">
         <p class="title is-5">{{ person.title }}</p>
         <p class="subtitle is-5">{{ person.starting_year }}-{{ person.graduation_year }}</p>
+        <p class="subtitle is-5">{{ person.current_status }}</p>
       </div>
     </div>
   </a>

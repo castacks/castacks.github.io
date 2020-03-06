@@ -11,6 +11,7 @@ thesis_link: https://www.ri.cmu.edu/publications/learning-reactive-flight-contro
 linkedin: https://www.linkedin.com/in/zengsam/
 advisors:
  - name: Sebastian Scherer
+current_status: Cruise
 layout: team_past_member_personal_page
 image: /img/team/past_members/sam_zeng.png
 hide_footer: true

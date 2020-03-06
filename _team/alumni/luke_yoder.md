@@ -11,6 +11,7 @@ thesis_link:
 linkedin: https://www.linkedin.com/in/lukeayoder/
 advisors:
  - name: Sebastian Scherer
+current_status: Yoder Mechatronic LLC
 layout: team_past_member_personal_page
 image: /img/team/past_members/luke_yoder.png
 hide_footer: true
