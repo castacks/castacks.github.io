@@ -4,7 +4,7 @@ subtitle: Engineer
 job_title: Software / Robotics Engineer
 category: staff
 layout: team_member_personal_page
-image: /img/team/placeholder_female.png
+image: /img/team/katarina_cujic.png
 hide_footer: true
 ---
 
