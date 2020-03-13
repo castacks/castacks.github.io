@@ -10,4 +10,4 @@ hide_footer: true
 
 Ian Higgins is a Research Associate with the Air Lab, currently working on the DARPA Subterranean Challenge.
 
-Ian has a Bachelor's degree in Mathematics with a certificate in Computer Science from the University of Wisconsin - Madison.
+Ian has a bachelor's degree in Mathematics with a certificate in Computer Science from the University of Wisconsin - Madison.
