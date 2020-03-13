@@ -8,8 +8,8 @@ image: /img/team/shibozNew.png
 hide_footer: true
 ---
 
-He is currently a research associate at AIR lab, Robotics Institute, advised by Professor. Sebastian Scherer. He is also currently a member of Team Explorer for the DARPA Subterranean Challenge.
-His recent research has been on enabling mobile robots to achieve robust perception and localization in some challenging environments such as night, smoke and fog. 
+He is currently a research associate at AIR lab, Robotics Institute, advised by Professor Sebastian Scherer. He is also currently a member of Team Explorer for the DARPA Subterranean Challenge.
+His recent research has been on enabling mobile robots to achieve robust perception and localization in some challenging environments such as night, smoke, and fog. 
 
 # Email #
 shibowing@gmail.com
