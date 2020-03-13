@@ -37,24 +37,26 @@ show_sidebar: false
 </div>
 
 <hr>
-<h1 style="font-size:35px;">Scientists</h1>
+<h1 style="font-size:35px;">Scientists & Postdocs</h1>
 <br>
 <div class="columns is-multiline">
-{% assign sorted_products = site.team | where:"category","scientist" %}
-{% for product in sorted_products %}
+{% assign sorted_scientists = site.team | where:"category","scientist" %}
+{% assign sorted_postdocs = site.team | where:"category","postdoc" %}
+{% assign sorted_persons = sorted_scientists | concat: sorted_postdocs %}
+{% for person in sorted_persons %}
 <div class="column is-3-desktop is-6-tablet">
-  <a href="{{ product.url | prepend: site.baseurl }}">
+  <a href="{{ person.url | prepend: site.baseurl }}">
     <div class="card">
-      {% if product.image %}
+      {% if person.image %}
       <div class="card-image">
         <figure class="image is-4by3">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+          <img src="{{ person.image }}" alt="{{ person.title }}" />
         </figure>
       </div>
       {% endif %}
       <div class="card-content">
-        <p class="title is-5">{{ product.title }}</h2>
-        <p class="subtitle is-5">{{ product.subtitle }}</p>
+        <p class="title is-5">{{ person.title }}</h2>
+        <p class="subtitle is-5">{{ person.subtitle }}</p>
       </div>
     </div>
   </a>
@@ -62,7 +64,7 @@ show_sidebar: false
 {% endfor %}
 </div>
 
-<hr>
+<!-- <hr>
 <h1 style="font-size:35px;">Postdoctors</h1>
 <br>
 <div class="columns is-multiline">
@@ -86,7 +88,7 @@ show_sidebar: false
   </a>
 </div>
 {% endfor %}
-</div>
+</div> -->
 
 <hr>
 <h1 style="font-size:35px;">Graduate Students</h1>
