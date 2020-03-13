@@ -11,7 +11,7 @@ thesis_link: https://www.ri.cmu.edu/wp-content/uploads/2018/08/cmu_thesis-1.pdf
 linkedin: https://www.linkedin.com/in/ratneshmadaan/
 advisors:
  - name: Sebastian Scherer
-current_status: Microsoft (AirSim)
+current_status: Research Software Development Engineer at Microsoft
 layout: team_past_member_personal_page
 image: /img/team/placeholder_male.png
 hide_footer: true

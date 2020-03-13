@@ -1,19 +1,19 @@
 ---
-title: Kristen Holtz
+title: Puru Rastogi
 subtitle: Master
 job_title: Master
 category: past_master
-starting_year: 2012
-graduation_year: 2015
+starting_year: 2016
+graduation_year: 2017
 graduation_month: May
-thesis_title: "Robust Architectures for Long-term Autonomy of Micro Aerial Vehicles"
+thesis_title: "Fast landing of a quadrotor on a moving deck"
 thesis_link: NOT PROVIDED
-linkedin: https://www.linkedin.com/in/kristen-holtz-1847605a/
+linkedin: https://www.linkedin.com/in/pururastogi/
 advisors:
  - name: Sebastian Scherer
-current_status: Skydio
+current_status: Founder at Mowito
 layout: team_past_member_personal_page
-image: /img/team/placeholder_female.png
+image: /img/team/placeholder_male.png
 hide_footer: true
 ---
 

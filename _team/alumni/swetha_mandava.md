@@ -1,17 +1,17 @@
 ---
-title: Kristen Holtz
+title: Swetha Mandava
 subtitle: Master
 job_title: Master
 category: past_master
-starting_year: 2012
-graduation_year: 2015
-graduation_month: May
-thesis_title: "Robust Architectures for Long-term Autonomy of Micro Aerial Vehicles"
+starting_year: 2016
+graduation_year: 2017
+graduation_month: August
+thesis_title: "Coverage Planning for Inspection Applications"
 thesis_link: NOT PROVIDED
-linkedin: https://www.linkedin.com/in/kristen-holtz-1847605a/
+linkedin: https://www.linkedin.com/in/swethmandava/
 advisors:
  - name: Sebastian Scherer
-current_status: Skydio
+current_status: Deep Learning Software Engineer
 layout: team_past_member_personal_page
 image: /img/team/placeholder_female.png
 hide_footer: true
