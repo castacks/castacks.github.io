@@ -3,7 +3,7 @@ title: Ratnesh Madaan
 subtitle: Master
 job_title: Master
 category: past_master
-starting_year: 2015
+starting_year: 2016
 graduation_year: 2018
 graduation_month: August
 thesis_title: (Not available)Wire Detection, Reconstruction, and Avoidance for Unmanned Aerial Vehicles
@@ -13,7 +13,7 @@ advisors:
  - name: Sebastian Scherer
 current_status: Research Software Development Engineer at Microsoft
 layout: team_past_member_personal_page
-image: /img/team/placeholder_male.png
+image: /img/team/past_members/retnesh_madaan.png
 hide_footer: true
 ---
 
