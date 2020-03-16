@@ -1,5 +1,5 @@
 #!/bin/bash
-source .bashrc
+source ~/.bashrc
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 rm -rf airlab-temp
@@ -12,7 +12,7 @@ last_push=$(git log -1 --format="%at" | xargs -I{} date -d @{} +%s)
 if [ $last_commit -ge $last_push ]; then
   cd ..
   rm -rf _site
-  sudo docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll build
+  sudo docker run --rm --volume="$PWD:/srv/jekyll"  jekyll/jekyll:4.0 jekyll build
   if [ -d "_site" ]; then
     cd _site
     git init
