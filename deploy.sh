@@ -1,18 +1,22 @@
 #!/bin/bash
-git clone https://github.com/castacks/website-dev airlab-temp
+source .bashrc
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd $DIR
+rm -rf airlab-temp
+git clone git@github.com:castacks/website-dev.git airlab-temp
 cd airlab-temp
 last_commit=$(git log -1 --format="%at" | xargs -I{} date -d @{} +%s)
-git clone https://github.com/castacks/castacks.github.io _site
+git clone git@github.com:castacks/castacks.github.io.git _site
 cd _site
 last_push=$(git log -1 --format="%at" | xargs -I{} date -d @{} +%s)
 if [ $last_commit -ge $last_push ]; then
   cd ..
   rm -rf _site
-  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll build
+  sudo docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll build
   if [ -d "_site" ]; then
     cd _site
     git init
-    git remote add origin https://github.com/castacks/castacks.github.io
+    git remote add origin git@github.com:castacks/castacks.github.io.git
     touch .nojekyll
     touch CNAME
     echo "theairlab.org" >> CNAME
