@@ -3,6 +3,7 @@ source ~/.bashrc
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 rm -rf airlab-temp
+
 git clone git@github.com:castacks/website-dev.git airlab-temp
 cd airlab-temp
 last_commit=$(git log -1 --format="%at" | xargs -I{} date -d @{} +%s)
