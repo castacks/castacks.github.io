@@ -13,9 +13,16 @@ advisors:
  - name: Sebastian Scherer
 current_status: Deep Learning Software Engineer
 layout: team_past_member_personal_page
-image: /img/team/placeholder_female.png
+image: /img/team/past_members/swetha_mandava.png
 hide_footer: true
+link-new-tab: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
+
+She is now working as a Deep Learning Engineer at Nvidia. 
+
+[Twitter](https://twitter.com/swethmandava)
+
+[Github](https://github.com/swethmandava/)
 

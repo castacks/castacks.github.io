@@ -13,9 +13,10 @@ advisors:
  - name: Sebastian Scherer
 current_status: Facebook Reality Lab (Oculus Research)
 layout: team_past_member_personal_page
-image: /img/team/past_members/shichao_yang.png
+image: /img/team/past_members/shichao_yang_new.png
 hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
 
+His is now working on the research of SLAM in AR/VR applications at Facebook.
