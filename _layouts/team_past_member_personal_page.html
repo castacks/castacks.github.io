@@ -15,17 +15,20 @@ layout: team_member_base
         <p class="subtitle is-3">{{ page.job_title }}</p> -->
 
         <div class="content">
-            {{ content }}
-        <h1>Thesis</h1>
-        <a href="{{ page.thesis_link }}" target="_blank">{{page.thesis_title}}</a>
+            <div class="content-large-font">
+                {{ content }}
+            </div>
 
-        <h1>Advisors</h1>
-        {% for advisor in page.advisors %}
-        <p> {{ advisor.name }} </p>
-        {% endfor %}
+            <h1>Thesis</h1>
+            <a href="{{ page.thesis_link }}" target="_blank">{{page.thesis_title}}</a>
 
-        <h1>Where are they now?</h1>
-        <a href="{{ page.linkedin }}" target="_blank">{{page.linkedin}}</a>
+            <h1>Advisors</h1>
+            {% for advisor in page.advisors %}
+            <p> {{ advisor.name }} </p>
+            {% endfor %}
+
+            <h1>Where are they now?</h1>
+            <a href="{{ page.linkedin }}" target="_blank">{{page.linkedin}}</a>
 
 
         </div>
