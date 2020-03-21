@@ -1,7 +1,33 @@
+<style>
+  #blocks {
+      width:100%;
+      height:100px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
 <footer class="footer">
     <div class="container">
-        
-        {% if site.footer_menu %}
+        <!-- {% if site.footer_menu %}
         <div class="columns is-multiline">
             {% for item in site.data[site.footer_menu] %}
             <div class="column has-text-centered">
@@ -11,10 +37,42 @@
             </div>
             {% endfor %}
         </div>
-        {% endif %}
+        {% endif %} -->
+        <div id="blocks">
+          <div id="block1"><img src="img/air_lab_logo-1.png" alt="AirLab Logo" style="height:66px;"></div>
+          <div id="block2">
+            <center>
 
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"</i>
+              </a> -->
+              <a class="button is-large" itemprop="facebook" href="https://www.facebook.com/airlabcmu/" target="_blank">
+                <i class="fab fa-facebook fa-lg"></i>
+              </a>
+              <a class="button is-large" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button is-large" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button is-large" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button is-large" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+            </center>
+          </div>
+          <div id="block3"><img src="img/riLogo2019.svg" alt="RI Logo"></div>
+        </div>
+        <!-- <div>
+          <a href="{{ page.hero_link | prepend: site.baseurl  }}" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
         <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+            <p class="">© 2020</p>
         </div>
     </div>
 </footer>
