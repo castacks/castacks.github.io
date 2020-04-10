@@ -6,9 +6,30 @@ layout: default
   {% include post-featured-image.html image=page.image alt=page.title %}
 {% endif %}
 
+<!-- Figure out the relative link to the author -->
+{% assign link_name = page.author | replace: ' ', '_' | downcase %}
+
+{% assign person_link = '' %}
+
+{% for person in site.data.team_member_profiles.links %}
+	{% if person.name == link_name %}
+		{% assign person_link = person.link %}
+			{% break %}
+	{% endif %}
+{% endfor %}
+
 <div class="content">
 
-    <p><div style="font-size: 13px">Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time> by <div style="font-weight: bold; color: #3399ff; display: inline">{{ page.author }}</div></div></p>
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		{% if person_link == '' %}
+			{{ page.author }}
+		{% else %}
+			<a href="{{ person_link }}">{{ page.author }}</a>
+		{% endif %}
+		</div>
+	</div></p>
 
     <h1>{{ page.title }}</h1>
 
