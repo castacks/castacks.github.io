@@ -4,7 +4,7 @@ title:  "Real-time Fault Detection for Autonomous Aerial Vehicles"
 date:   2019-08-01 10:50:07
 categories: research
 description: "Real-time Fault Detection for Autonomous Aerial Vehicles"
-author: "Azarakhsh  Keipour"
+author: "Azarakhsh Keipour"
 published: true
 sidebar:  false
 permalink: /fault-detection/
