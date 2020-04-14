@@ -36,11 +36,32 @@ The dataset is published using Azure Open Dataset platform. Please contact wensh
 
 Sample trajectories can be downloaded here. 
 
-| <img src="/img/posts/2020-02-29-tartanair/abandonedfactory.gif" /> <br/> [abandonedfactory](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/abandonedfactory_night.gif" /> <br/> [abandonedfactory_night](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/amusement.gif" /> <br/> [amusement](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/carwelding.gif" /> <br/> [carwelding](http://dummy) | 
-| <img src="/img/posts/2020-02-29-tartanair/endofworld.gif" /> <br/> [endofworld](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/gascola.gif" /> <br/> [gascola](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/hongkongalley.gif" /> <br/> [hongkongalley](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/hospital.gif" /> <br/> [hospital](http://dummy) |
-| <img src="/img/posts/2020-02-29-tartanair/house.gif" /> <br/> [house](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/jananesealley.gif" /> <br/> [japanesealley](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/neighborhood.gif" /> <br/> [neighborhood](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/ocean.gif" /> <br/> [ocean](http://dummy) |
-| <img src="/img/posts/2020-02-29-tartanair/office.gif" /> <br/> [office](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/oldtown.gif" /> <br/> [oldtown](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/seasidetown.gif" /> <br/> [seasidetown](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/seasonsforest.gif" /> <br/> [seasonsforest](http://dummy) |
-| <img src="/img/posts/2020-02-29-tartanair/seasonsforest_winter.gif" /> <br/> [seasonsforest_winter](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/slaughter.gif" /> <br/> [slaughter](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/soulcity.gif" /> <br/> [soulcity](http://dummy) | <img src="/img/posts/2020-02-29-tartanair/westerndesert.gif" /> <br/> [westerndesert](http://dummy) |
+| <img src="/img/posts/2020-02-29-tartanair/abandonedfactory.gif" /> <br/> [abandonedfactory][abandonedfactory_sample] | <img src="/img/posts/2020-02-29-tartanair/abandonedfactory_night.gif" /> <br/> [abandonedfactory_night][abandonedfactory_night_sample] | <img src="/img/posts/2020-02-29-tartanair/amusement.gif" /> <br/> [amusement][amusement_sample] | <img src="/img/posts/2020-02-29-tartanair/carwelding.gif" /> <br/> [carwelding][carwelding_sample] | 
+| <img src="/img/posts/2020-02-29-tartanair/endofworld.gif" /> <br/> [endofworld][endofworld_sample] | <img src="/img/posts/2020-02-29-tartanair/gascola.gif" /> <br/> [gascola][gascola_sample] |  <img src="/img/posts/2020-02-29-tartanair/hospital.gif" /> <br/> [hospital][hospital_sample] | <img src="/img/posts/2020-02-29-tartanair/jananesealley.gif" /> <br/> [japanesealley][japanesealley_sample] |
+| <img src="/img/posts/2020-02-29-tartanair/neighborhood.gif" /> <br/> [neighborhood][neighborhood_sample] | <img src="/img/posts/2020-02-29-tartanair/ocean.gif" /> <br/> [ocean][ocean_sample] | <img src="/img/posts/2020-02-29-tartanair/office.gif" /> <br/> [office][office_sample] |  <img src="/img/posts/2020-02-29-tartanair/seasidetown.gif" /> <br/> [seasidetown][seasidetown_sample] |
+| <img src="/img/posts/2020-02-29-tartanair/seasonsforest.gif" /> <br/> [seasonsforest][seasonsforest_sample] | <img src="/img/posts/2020-02-29-tartanair/seasonsforest_winter.gif" /> <br/> [seasonsforest_winter][seasonsforest_winter_sample] | <img src="/img/posts/2020-02-29-tartanair/soulcity.gif" /> <br/> [soulcity][soulcity_sample] | <img src="/img/posts/2020-02-29-tartanair/westerndesert.gif" /> <br/> [westerndesert][westerndesert_sample] |
+
+<!-- <img src="/img/posts/2020-02-29-tartanair/hongkongalley.gif" /> <br/> [hongkongalley](http://dummy) --> 
+<!-- <img src="/img/posts/2020-02-29-tartanair/house.gif" /> <br/> [house](http://dummy)  -->
+<!-- <img src="/img/posts/2020-02-29-tartanair/oldtown.gif" /> <br/> [oldtown](http://dummy)  -->
+<!-- <img src="/img/posts/2020-02-29-tartanair/slaughter.gif" /> <br/> [slaughter](http://dummy)  -->
+
+[abandonedfactory_sample]: https://cmu.box.com/s/5ycmyx1q3vumesl0bozfze1a54ejwgmq
+[abandonedfactory_night_sample]: https://cmu.box.com/s/zohqnu8mglwh4hw2zszxoqt69hc1pwha
+[amusement_sample]: https://cmu.box.com/s/mn7z8dwr93wl23zngwi3q76kyq4dbkv7
+[carwelding_sample]: https://cmu.box.com/s/qpoikn7owhhj2v718m8u9cdmpsqmuq14
+[endofworld_sample]: https://cmu.box.com/s/jk2pihbq94eicvd0vr7hjme26bn1u2tt
+[gascola_sample]: https://cmu.box.com/s/fxtytvvbbn0e2g9flhr2br1eiibj8dfs
+[hospital_sample]: https://cmu.box.com/s/clj21v7ancdhxe6u87tp56b638e4rur0
+[japanesealley_sample]: https://cmu.box.com/s/19aj7mob1s4912tmg36lotuiwgf0x5fh
+[neighborhood_sample]: https://cmu.box.com/s/5trtb7f3ogjao33lgk6xu6t9y9nu79wg
+[ocean_sample]: https://cmu.box.com/s/1egqcvrfqzg84ctpu81x2ww00y1xcpfv
+[office_sample]: https://cmu.box.com/s/nem5fglri6fbfa0t5rm854l67q0fu0l9
+[seasidetown_sample]: https://cmu.box.com/s/zzwyrrqm2ir2z0z75tqowpq91gny2sjk
+[seasonsforest_sample]: https://cmu.box.com/s/nssib68sq3ilp0qy0r3zl347wtkophgb
+[seasonsforest_winter_sample]: https://cmu.box.com/s/lwrzi0d338857qy79odarmsgtbp5j0qg
+[soulcity_sample]: https://cmu.box.com/s/cusfpmiskrgn8l3h0t1hivwt81mcfdk9
+[westerndesert_sample]: https://cmu.box.com/s/0dz8ybjgontw59k3g2s2l43b80hyk1u1
 
 ## The mission ##
 
@@ -130,4 +151,8 @@ Sebastian Scherer - (basti [at] cmu [dot] edu)
 
 ### Acknowledgments 
 
-This work was supported by Office of Naval Research under award number N0014-19-1-2266.
+This work was supported by Office of Naval Research under award number N0014-19-1-2266. We thank Ratnesh Madaan, Guada Casuso, Rashaud Savage and other team members from Microsoft for the technical support! 
+
+### Term of use
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
