@@ -4,29 +4,48 @@
     {{reference}}
 </div>
 
-<button class="button0" onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
+<button class="button0" onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">Bibtex</button>
+
+<script>
+    function toggle{{entry.key | replace : '-':'' | replace : ':':''}}() {
+        var x= document.getElementById('a{{entry.key}}');
+        // console.log("haha %o",typeof {{entry.key}});
+        if (x.style.display === 'block') {
+            x.style.display = 'none';
+        } else {
+            x.style.display = 'block';
+        }
+    }
+    </script>
+{% if entry.abstract %}
+<button class="button3" onclick="toggle2{{entry.key  | replace: '-':'' | replace: ':':''}}()">Abstract</button>
+{% endif %}
+
+<script>
+    function toggle2{{entry.key | replace : '-':'' | replace : ':':''}}() {
+        var x= document.getElementById('b{{entry.key}}');
+        // console.log("haha %o",typeof {{entry.key}});
+        if (x.style.display === 'block') {
+            x.style.display = 'none';
+        } else {
+            x.style.display = 'block';
+        }
+    }
+    </script>
+
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input type='button' class='button1' value='doi'/></a>
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input type='button' class='button1' value='link'/></a>
 {% endif %}
 {% if entry.preprint %}
 <a href="{{ entry.preprint }}"><input type='button' class='button2' value='preprint'/></a>
 {% endif %}
-{% if entry.link %}
-<a href="{{ entry.link }}"><input type='button' class='button4' value='link'/></a>
+{% if entry.url %}
+<a href="{{ entry.url }}"><input type='button' class='button4' value='link'/></a>
 {% endif %}
-{% if entry.code %}
-<a href="{{ entry.code }}"><input type='button' class='button3' value='code'/></a>
-{% endif %}
+<!-- {% if entry.code %} -->
+<!-- <a href="{{ entry.code }}"><input type='button' class='button3' value='code'/></a> -->
+<!-- {% endif %} -->
 
 <div id="a{{entry.key}}" style="display:none"><pre>{{entry.bibtex}}</pre></div>
+<div id="b{{entry.key}}" style="display:none"><pre>{{entry.abstract}}</pre></div>
 
-<script>
-function toggleBibtex{{entry.key}}(parameter) {
-    var x= document.getElementById('a{{entry.key}}');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
