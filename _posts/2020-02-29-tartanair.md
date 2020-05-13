@@ -145,6 +145,8 @@ We develop a highly automated pipe-line to facilitate data acquisition. For each
  -->
 ### Contact
 
+Email tartanair@hotmail.com if you have any questions about the data source. You can also reach out to contributors on the associated [GitHub}(https://github.com/microsoft/AirSim).
+
 Wenshan Wang - (wenshanw [at] andrew [dot] cmu [dot] edu) 
 
 Sebastian Scherer - (basti [at] cmu [dot] edu)
