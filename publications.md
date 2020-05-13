@@ -29,6 +29,8 @@ hide_footer: true
    list-style-type: none;
 }
 </style>
+# 2020
+{% bibliography --query @*[year=2020] %}
 
 # 2019
 {% bibliography --query @*[year=2019] %}
