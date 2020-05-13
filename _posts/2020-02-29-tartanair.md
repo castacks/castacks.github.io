@@ -32,7 +32,7 @@ We present a challenging dataset, the TartanAir, for robot navigation task and m
 
 ## Download
 
-The dataset is published using Azure Open Dataset platform. Please contact wenshanw [at] andrew [dot] cmu [dot] edu for accessing the whole dataset. 
+The dataset is published using Azure Open Dataset platform. Please checkout [here](https://github.com/castacks/tartanair_tools) for the instruction of accessing the data.  
 
 Sample trajectories can be downloaded here. 
 
@@ -82,7 +82,7 @@ The four most important features of our dataset are:
 ## Dataset features ##
 
 ### Simulated scenes ###
-We have adopted more than 50 photo-realistic simulation environments in the [Unreal Engine][UnrealEngine]. The environments provide us a wide range of scenarios that cover many interesting yet challenging situations. The simulation scenes consist of
+We have adopted 30 photo-realistic simulation environments in the [Unreal Engine][UnrealEngine]. The environments provide us a wide range of scenarios that cover many interesting yet challenging situations. The simulation scenes consist of
 
 [UnrealEngine]: https://www.unrealengine.com/
 
