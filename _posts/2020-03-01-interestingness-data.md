@@ -111,3 +111,11 @@ Please contant [Chen Wang](mailto:chenwang@dr.com) to acquire the download links
 ### Acknowledgments 
 
 The human subject survey was approved under #2019_00000522.
+
+### Citation
+    @article{wang2020visual,
+    title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
+    author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
+    journal={arXiv preprint arXiv:2005.08829},
+    year={2020}
+    }

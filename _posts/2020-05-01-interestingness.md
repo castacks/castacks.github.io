@@ -73,6 +73,15 @@ Compared to human indicated interestingness the algorithm achieves an average 20
 * Yafei Hu
 * Sebastian Scherer
 
-<!-- ### Publications
-* R. Bonatti, W. Wang, C. Ho, A. Ahuja, M. Gschwindt, E. Camci, E. Kayacan, S. Choudhury, S. Scherer, "Autonomous Aerial Cinematography Among Unstructured Environments With Learned Artistic Decision-Making". Journal of Field Robotics, 2019 [[Link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/rob.21931)][[PDF](https://www.cs.cmu.edu/~rbonatti/files/bonatti_jfr.pdf)][[Video](https://youtu.be/ookhHnqmlaU)] -->
+### Publication
 
+* Chen Wang, Wenshan Wang, Yuheng Qiu, Yafei Hu, Sebastian Scherer, "Visual Memorability for Robotic Interestingness Prediction via Unsupervised Online Learning". arXiv preprint arXiv:2005.08829, 2020 [[PDF](https://arxiv.org/abs/2005.08829)]
+
+### Citation
+
+      @article{wang2020visual,
+      title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
+      author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
+      journal={arXiv preprint arXiv:2005.08829},
+      year={2020}
+      }
