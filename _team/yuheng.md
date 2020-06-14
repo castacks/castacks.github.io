@@ -1,8 +1,8 @@
 ---
 title: Yuheng Qiu
-subtitle: Visitor
-job_title: Visiting Scholar
-category: visitor
+subtitle: Research Associate
+job_title: Research Associate I
+category: staff
 layout: team_member_personal_page
 image: /img/team/yuheng.jpg
 hide_footer: true

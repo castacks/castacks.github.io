@@ -88,25 +88,29 @@ Features of this data:
  </figcaption>
 </figure>
 
-<!-- ### Citation
-
-Please use the following BibTex entry for citation: 
-
-    @misc{subtfdata,
-    author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
-    title={Robot Interestingness: A dataset to push the limits of online visual interesting scene prediction},
-    howpublished = {\url{http://theairlab.org/interestingness/dataset}},
-    } -->
 
 ### Download
 
 Please contant [Chen Wang](mailto:chenwang@dr.com) to acquire the download links.
+
+### Evaluation Tools
+
+Go to the [GitHub Repo](https://github.com/wang-chen/SubT).
 
 ### Maintenance
 
 [Chen Wang](https://chenwang.site) (chenwang[at]dr[dot]com; chenwan3[at]cs[dot]cmu[dot]edu) 
 
 [Sebastian Scherer](http://theairlab.org/team/sebastian/) (basti [at] cmu [dot] edu)
+
+
+### Citation
+    @article{wang2020visual,
+    title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
+    author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
+    journal={arXiv preprint arXiv:2005.08829},
+    year={2020}
+    }
 
 ### Acknowledgments 
 
