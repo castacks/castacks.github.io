@@ -10,11 +10,9 @@ hero_image: /img/tartan2.png
 # General Information
 The goal of this boot camp is to get each student started with the basics, broaden their horizon beyond their own research topic, understand the tradeoffs of different approaches in our context (real-time, flying robots, etc.) and make our students more “dangerous” with some code/tools that they can use to jump start their research. 
 
-Each session will consist of a 1 hour lecture followed by a 1.5 hour lab. 
+There will be three sessions per day, covering the topics of <span style="color:blue">Perception</span>, <span style="color:#b50000">State Estimation</span>, <span style="color:green">Action</span>, and <span style="color:#e68200">Infrastructure</span>. Each session will consist of a 1 hour lecture followed by a 1.5 hour lab.
 
-There will be multiples sessions on the topics of <span style="color:blue">Perception</span>, <span style="color:#b50000">State Estimation</span>, <span style="color:green">Action</span>, and <span style="color:#e68200">Infrastructure</span>.
-
-Click on the session in the schedule to jump to the session overview.
+Click on a session in the schedule to jump to its session overview.
 
 <!-- Add instructions for how streaming will work-->
 
@@ -23,19 +21,19 @@ Click on the session in the schedule to jump to the session overview.
 
 |Day  |Time   | Session |Host   |Links   |
 |---|---|---|---|---|
-|Mon  | 9:00-11:30 AM EST| <span style="color:green">3.1 Motion planning tutorial basics</span>            | [Basti](/team/sebastian/)  | [lecture]() \| [slides]() \| [repo]()  |
+|Mon. July 6  | 9:00-11:30 AM EST| <span style="color:green">3.1 Motion planning tutorial basics</span>            | [Basti](/team/sebastian/)  | [lecture]() \| [slides]() \| [repo]()  |
 |     | 12:30-3:00 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | [lecture]() \| [slides]() \| [repo]()  |
 |     | 3:30-6:00 PM EST | <span style="color:#e68200">4.1 Setup in cloud and cluster</span>                 | [Kat](/team/katarinac/)  |  [lecture]() \| [slides]() \| [repo]() |
-|Tues | 9:00-11:30 AM EST| <span style="color:#b50000">2.1 Visual Odometry (Basic)</span>                    | [Shibo](/team/shiboz/)  | [lecture]() \| [slides]() \| [repo]()  |
+|Tues. July 7| 9:00-11:30 AM EST| <span style="color:#b50000">2.1 Visual Odometry (Basic)</span>                    | [Shibo](/team/shiboz/)  | [lecture]() \| [slides]() \| [repo]()  |
 |     | 12:30-3:00 PM EST| <span style="color:green">3.2 Motion planning and exploration (Advanced)</span> | [Jay](/team/jay/) & [Brady](/team/bradym/) |  [lecture]() \| [slides]() \| [repo]() |
 |     | 3:30-6:00 PM EST | <span style="color:#e68200">4.2 Core stack</span>                                 | [John](/team/johnk/)  |  [lecture]() \| [slides]() \| [repo]() |
-|Wed  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)| [lecture]() \| [slides]() \| [repo]()  |
+|Wed. July 8  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)| [lecture]() \| [slides]() \| [repo]()  |
 |     | 12:30-3:00 PM EST| <span style="color:#b50000">2.2 Visual odometry (learning-based)</span>           | [Yafei](/team/yafeih/)  |  [lecture]() \| [slides]() \| [repo]() |
 |     | 3:30-6:00 PM EST | <span style="color:#e68200">4.3 Simulation & 3.3 Reinforcement learning</span>    | [Wenshan](/team/wenshan/) & [Rogerio](/team/rogeriob/) & [Jay](/team/jay/) & [Sourish](/team/sourish/)|  [lecture]() \| [slides]() \| [repo]() |
-|Thurs| 9:00-11:30 AM EST| <span style="color:blue">1.3 Stereo Basics and Advanded Stereo</span>          | [Yaoyu](/team/yaoyuh/)  | [lecture]() \| [slides]() \| [repo]()  |
+|Thurs. July 9| 9:00-11:30 AM EST| <span style="color:blue">1.3 Stereo Basics and Advanded Stereo</span>          | [Yaoyu](/team/yaoyuh/)  | [lecture]() \| [slides]() \| [repo]()  |
 |     | 12:30-3:00 PM EST| <span style="color:green">3.3 Exploration and OpenVDB</span>                    | [Rohit](/team/rohitg/)  |  [lecture]() \| [slides]() \| [repo]() |
 |     | 3:30-6:00 PM EST | <span style="color:green">3.5 Formulating and Enforcing Safety</span>           | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)  |  [lecture]() \| [slides]() \| [repo]() |
-|Fri  | 9:00-11:30 AM EST| <span style="color:#b50000">2.3 SLAM / GTSAM</span>                               | [Weikun](/team/weikun/)  | [lecture]() \| [slides]() \| [repo]()  |
+|Fri. July 10  | 9:00-11:30 AM EST| <span style="color:#b50000">2.3 SLAM / GTSAM</span>                               | [Weikun](/team/weikun/)  | [lecture]() \| [slides]() \| [repo]()  |
 |     | 12:30-3:00 PM EST| <span style="color:green">3.6 Control</span>                                    | [Azarakhsh](/team/azarakshs/)  |  [lecture]() \| [slides]() \| [repo]() |
 |     | 3:30-6:00 PM EST | <span style="color:#e68200">4.4 Project management</span>                         | [Vai](/team/vaibhavv/)  |  [lecture]() \| [slides]() \| [repo]() |
 
