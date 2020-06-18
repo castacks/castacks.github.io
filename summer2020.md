@@ -4,6 +4,7 @@ title: Air Lab Summer School
 subtitle: 6-10 July 2020
 show_sidebar: false
 hide_footer: false
+permalink: /summer2020/
 hero_image: /img/tartan2.png
 ---
 
@@ -35,7 +36,7 @@ Click on a session in the schedule to jump to its session overview.
 |     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>                     | [Rohit](/team/rohitg/)  |     |
 |     | 3:30-6:00 PM EST | <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>            | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)  |     |
 |Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Control</span></a>                                     | [Azarakhsh](/team/azarakshs/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  |     |
 |     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>                          | [Vai](/team/vaibhavv/)  |     |
 
 # Dependencies
