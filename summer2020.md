@@ -23,11 +23,11 @@ Click on a session in the schedule to jump to its session overview.
 
 |Day  |Time   | Session |Host   |Links   |
 |---|---|---|---|---|
-|Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial Basics</span></a>             | [Basti](/team/sebastian/)  |     |
+|Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  |     |
 |     | 12:30-3:00 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        |     |
 |     | 3:30-6:00 PM EST | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  |     |
 |Tues. July 7| 9:00-11:30 AM EST| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry (Traditional)</span></a>                    | [Shibo](/team/shiboz/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning and Exploration (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
+|     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
 |     | 3:30-6:00 PM EST | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |     |
 |Wed. July 8  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|     |
 |     | 12:30-3:00 PM EST| <a href="#2.2"><span style="color:#b50000">2.2 Visual Odometry (Learning-Based)</span></a>           | [Yafei](/team/yafeih/)  |     |
@@ -52,7 +52,7 @@ Various labs will require these specifications:
 
 
 ### <span style="color:blue">Perception</span>
-<hr>
+---
 
 <a id="1.1" />
 **1.1 Graph Learning**
@@ -98,7 +98,7 @@ Various labs will require these specifications:
 
 
 ### <span style="color:#b50000">State Estimation</span>
-<hr>
+---
 
 <a id="2.1" />
 **2.1 Visual Odometry (Traditional)**
@@ -126,16 +126,16 @@ Various labs will require these specifications:
 
 
 ### <span style="color:green">Action</span>
-<hr>
+---
 
 <a id="3.1" />
-**3.1 Motion Planning Tutorial Basics**
+**3.1 Motion Planning Tutorial (Basics)**
 
 <a id="3.2" />
-**3.2 Motion Planning and Exploration (Advanced)**
+**3.2 Motion Planning (Advanced)**
 * Intro to using XPlane for simulation
 * Informed-based algorithms (A*)
-* Sampling-based planners (RRT, RRT*, BIT*)
+* Sampling-based planners (RRT, RRT\*, BIT*)
 * OMPL overview
 
 
@@ -188,7 +188,7 @@ Various labs will require these specifications:
 
 
 ### <span style="color:#e68200">Infrastructure</span>
-<hr>
+---
 
 <a id="4.1" />
 **4.1 Setup in Cloud and Cluster**
