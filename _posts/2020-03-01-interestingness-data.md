@@ -105,12 +105,15 @@ Go to the [GitHub Repo](https://github.com/wang-chen/SubT).
 
 
 ### Citation
-    @article{wang2020visual,
-    title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
-    author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
-    journal={arXiv preprint arXiv:2005.08829},
-    year={2020}
-    }
+
+      @inproceedings{wang2020visual,
+         title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
+         author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
+         booktitle={European Conference on Computer Vision (ECCV)},
+         year={2020},
+      }
+
+Download [this paper](https://arxiv.org/pdf/2005.08829.pdf).
 
 ### Acknowledgments 
 
