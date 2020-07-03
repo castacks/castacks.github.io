@@ -36,7 +36,7 @@ Click on a session in the schedule to jump to its session overview.
 |     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>                     | [Rohit](/team/rohitg/)  |     |
 |     | 3:30-6:00 PM EST | <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>            | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)  |     |
 |Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 |     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>                          | [Vai](/team/vaibhavv/)  |     |
 
 # Dependencies
@@ -179,11 +179,11 @@ Various labs will require these specifications:
 
 
 <a id="3.6" />
-**3.6 Control**
-* Modeling a quadrotor (kinematics and dynamics)
+**3.6 Modeling and Control**
+* Modeling a multirotor (kinematics and dynamics)
 * The general architecture of the control system with PX4 as an example
 * PID for attitude and position controllers
-* Simple quadrotor MATLAB simulation with fill-ins for position, attitude and the plant model
+* MATLAB simulation with analysis for multirotor, attitude control and position control designs (including fully-actuated multirotors)
 
 
 
