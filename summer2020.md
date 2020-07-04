@@ -24,7 +24,7 @@ Click on a session in the schedule to jump to its session overview.
 |Day  |Time   | Session |Host   |Links   |
 |---|---|---|---|---|
 |Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
-|     | 12:30-3:00 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        |     |
+|     | 13:00-3:30 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        |     |
 |     | 3:30-6:00 PM EST | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  |     |
 |Tues. July 7| 9:00-11:30 AM EST| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry (Traditional)</span></a>                    | [Shibo](/team/shiboz/)  |     |
 |     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
