@@ -75,13 +75,20 @@ Compared to human indicated interestingness the algorithm achieves an average 20
 
 ### Publication
 
-* Chen Wang, Wenshan Wang, Yuheng Qiu, Yafei Hu, Sebastian Scherer, "Visual Memorability for Robotic Interestingness Prediction via Unsupervised Online Learning". arXiv preprint arXiv:2005.08829, 2020 [[PDF](https://arxiv.org/abs/2005.08829)]
+* Chen Wang, Wenshan Wang, Yuheng Qiu, Yafei Hu, Sebastian Scherer, "Visual Memorability for Robotic Interestingness Prediction via Unsupervised Online Learning". European Conference on Computer Vision (ECCV), 2020 [[PDF](https://arxiv.org/abs/2005.08829)]
+
+### Source Codes
+
+   * Plain Python Package: [interestingness](https://github.com/wang-chen/interestingness)
+
+   * ROS Package: [interestingness_ros](https://github.com/wang-chen/interestingness_ros)
+
 
 ### Citation
 
-      @article{wang2020visual,
-      title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
-      author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
-      journal={arXiv preprint arXiv:2005.08829},
-      year={2020}
+      @inproceedings{wang2020visual,
+         title={Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
+         author={Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
+         booktitle={European Conference on Computer Vision (ECCV)},
+         year={2020},
       }

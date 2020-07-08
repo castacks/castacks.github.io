@@ -23,21 +23,20 @@ Click on a session in the schedule to jump to its session overview.
 
 |Day  |Time   | Session |Host   |Links   |
 |---|---|---|---|---|
-|Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        |     |
+|Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
+|     | 1:00-3:30 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | [slides](https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA) \| [repo](https://classroom.github.com/a/h3ktCkJ5)    |
 |     | 3:30-6:00 PM EST | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  |     |
-|Tues. July 7| 9:00-11:30 AM EST| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry (Traditional)</span></a>                    | [Shibo](/team/shiboz/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
+|Tues. July 7| 9:00-11:30 AM EST| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
 |     | 3:30-6:00 PM EST | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |     |
 |Wed. July 8  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|     |
-|     | 12:30-3:00 PM EST| <a href="#2.2"><span style="color:#b50000">2.2 Visual Odometry (Learning-Based)</span></a>           | [Yafei](/team/yafeih/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
 |     | 3:30-6:00 PM EST | <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a> & <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>    | [Wenshan](/team/wenshan/) & [Rogerio](/team/rogeriob/) & [Jay](/team/jay/) & [Sourish](/team/sourish/)|     |
 |Thurs. July 9| 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>          | [Yaoyu](/team/yaoyuh/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>                     | [Rohit](/team/rohitg/)  |     |
-|     | 3:30-6:00 PM EST | <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>            | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |     |
+|     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>              |[Vai](/team/vaibhavv/)  |     |
 |Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  |     |
-|     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>                          | [Vai](/team/vaibhavv/)  |     |
+|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 
 # Dependencies
 Various labs will require these specifications:
@@ -130,13 +129,25 @@ Various labs will require these specifications:
 
 <a id="3.1" />
 **3.1 Motion Planning Tutorial (Basics)**
+* Introduction to motion planning
+* Problem formulation
+* Abstraction and approaches
+  * Regular graph search: A\*-grid search
+  * Sampling-based: RRT\*
+  * Trajectory optimization: CHOMP
+* Results
+* Matlab exploration of planners
 
 <a id="3.2" />
 **3.2 Motion Planning (Advanced)**
-* Intro to using XPlane for simulation
-* Informed-based algorithms (A*)
-* Sampling-based planners (RRT, RRT\*, BIT*)
-* OMPL overview
+* Review of motion planning basics
+* Overview of newer planners and development
+  * FMT\*
+  * Informed RRT\*
+  * BIT\*
+  * RABIT\*
+* Open Motion Planning Library (OMPL) overview
+* Exercises using OMPL
 
 
 <a id="3.3" />
@@ -179,11 +190,11 @@ Various labs will require these specifications:
 
 
 <a id="3.6" />
-**3.6 Control**
-* Modeling a quadrotor (kinematics and dynamics)
+**3.6 Modeling and Control**
+* Modeling a multirotor (kinematics and dynamics)
 * The general architecture of the control system with PX4 as an example
 * PID for attitude and position controllers
-* Simple quadrotor MATLAB simulation with fill-ins for position, attitude and the plant model
+* MATLAB simulation with analysis for multirotor, attitude control and position control designs (including fully-actuated multirotors)
 
 
 
