@@ -32,9 +32,9 @@ Click on a session in the schedule to jump to its session overview.
 |Wed. July 8  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|     |
 |     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
 |     | 3:30-6:00 PM EST | <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a> & <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>    | [Wenshan](/team/wenshan/) & [Rogerio](/team/rogeriob/) & [Jay](/team/jay/) & [Sourish](/team/sourish/)|     |
-|Thurs. July 9| 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>          | [Yaoyu](/team/yaoyuh/)  |     |
+|Thurs. July 9| 9:00-11:30 AM EST| <a href="#1.2"><span style="color:#e68200">4.4 Project Management</span></a>          | [Vai](/team/vaibhavv/)  |     |
 |     | 12:30-3:00 PM EST| <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |     |
-|     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>              |[Vai](/team/vaibhavv/)  |     |
+|     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |     |
 |Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
 |     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 
