@@ -36,7 +36,7 @@ Click on a session in the schedule to jump to its session overview.
 |     | 12:30-3:00 PM EST| <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |     |
 |     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [C++](https://github.com/huyaoyu/Tutorial2020_Stereo_ROS), [Deep models](https://github.com/huyaoyu/Tutorial2020_Stereo)  |
 |Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
+|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) \| [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) |
 
 # Dependencies
 Various labs will require these specifications:
