@@ -26,7 +26,7 @@ Please read our [paper](https://arxiv.org/abs/2003.14338) for details.
 ```
 @article{tartanair2020iros,
   title =   {TartanAir: A Dataset to Push the Limits of Visual SLAM},
-  author =  {Wenshan Wang, Delong Zhu, Xiangwei Wang, Yaoyu Hu, Yuheng Qiu, Chen Wang, Yafei Hu, Ashish Kapoor, Sebastian Scherer},
+  author =  {Wang, Wenshan and Zhu, Delong and Wang, Xiangwei and Hu, Yaoyu and Qiu, Yuheng and Wang, Chen and Hu, Yafei and Kapoor, Ashish and Scherer, Sebastian},
   booktitle = {2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year =    {2020}
 }
