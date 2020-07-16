@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Real-time Fault Detection for Autonomous Aerial Vehicles"
-date:   2019-08-01 10:50:07
+date:   2020-07-15 10:50:07
 categories: research
 description: "Real-time Fault Detection for Autonomous Aerial Vehicles"
 author: "Azarakhsh Keipour"
@@ -19,6 +19,10 @@ In this project, we developed a real-time approach to detecting anomalies in the
 More information about the dataset is available [here](../alfa-dataset). 
 
 {% youtube HCtGbnqjKj8 %}
+
+### Source Code
+
+An early version of the source code for the method written in C++ (with ROS Kinetic) can be accessed from [here](https://bitbucket.org/castacks/online_system_identification/). The code can be used with the `rosbag` files in the ALFA dataset without any modification.
 
 ### Publications
 
