@@ -11,8 +11,10 @@
   link: /publications/
 - name: News
   link: /news/
-- name: Code
+- name: Resources
   dropdown:
+    - name: Summer School 2020
+      link: /summer2020/
     - name: BitBucket
       link: https://bitbucket.org/castacks/
     - name: GitHub

@@ -11,32 +11,33 @@ hero_image: /img/tartan2.png
 # General Information
 The goal of this boot camp is to get each student started with the basics, broaden their horizon beyond their own research topic, understand the tradeoffs of different approaches in our context (real-time, flying robots, etc.) and make our students more “dangerous” with some code/tools that they can use to jump start their research.
 
-There will be three sessions per day, covering the topics of <span style="color:blue">Perception</span>, <span style="color:#b50000">State Estimation</span>, <span style="color:green">Action</span>, and <span style="color:#e68200">Infrastructure</span>. Each session will consist of a 1 hour lecture followed by a 1.5 hour lab.
+Sessions cover topics in <span style="color:blue">Perception</span>, <span style="color:#b50000">State Estimation</span>, <span style="color:green">Action</span>, and <span style="color:#e68200">Infrastructure</span>. Each session will consist of a lecture followed by hands-on exercises.
 
-Click on a session in the schedule to jump to its session overview.
+Click on a session in the overview below to jump to its summary, outline, links, and video.
 
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
 <!-- Need to add slides and video links later -->
 <!-- Make sure to save presentation video -->
-# Schedule
+# Sessions Overview
 
-|Day  |Time   | Session |Host   |Links   |
-|---|---|---|---|---|
-|Mon. July 6  | 9:00-11:30 AM EST| <a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
-|     | 1:00-3:30 PM EST| <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | [slides](https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA) \| [repo](https://classroom.github.com/a/h3ktCkJ5)    |
-|     | 3:30-6:00 PM EST | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/infrastructure/src/master/)    |
-|Tues. July 7| 9:00-11:30 AM EST| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |   [slides](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/)  \| [repo](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/)
-|     | 12:30-3:00 PM EST| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
-|     | 3:30-6:00 PM EST | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   [slides](https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf) \| [repo](https://bitbucket.org/castacks/core_central/src/master/)   |
-|Wed. July 8  | 9:00-11:30 AM EST| <a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  [detection slides](https://www.icloud.com/keynote/0Xvw5vU-4onTdsls9KCF3hJYA#Object_Detection_-_Airlab_Tutorial_Week) \| [tracking slides](https://drive.google.com/file/d/1YEEzmm4W66Y11aOiV85lCJ9VZqmJiZaW/view?usp=sharing) \| [tools slides](https://docs.google.com/presentation/d/1iCvZ21RRh4KcZOkFcX5OxDrJL3Tzlxi3XCabYKL-UUc/edit?usp=sharing) <br> [detection colab 1](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb) \| [detection colab 2](https://colab.research.google.com/drive/1aJ5t-54OTUL25NhQpuDEiEA2oh5U8n65?usp=sharing) <br> [tracking tutorial](https://bitbucket.org/castacks/tracker_tutorial_ws/src/master/)   |
-|     | 12:30-3:00 PM EST| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
-|     | 3:30-6:00 PM EST | <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a> & <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>    | [Wenshan](/team/wenshan/) & [Rogerio](/team/rogeriob/) & [Jay](/team/jay/) & [Sourish](/team/sourish/)|  [slides](https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing) \| [repo-RL](https://github.com/Amigoshan/tut20_people_avoidance) \| [repo-AirSim-CoreStack](https://bitbucket.org/castacks/core_central/src/airsim/rosinstalls/airsim.rosinstall) \| [repo-AirSim-ROS](https://bitbucket.org/castacks/airsimros/src/master/) |
-|Thurs. July 9| 9:00-11:30 AM EST| <a href="#1.2"><span style="color:#e68200">4.4 Project Management</span></a>          | [Vai](/team/vaibhavv/)  |  [slides](https://docs.google.com/presentation/d/1d2m3kN9ZtP25zR_z3RLb9PAYOIdlrzDaAEtIVfxL2_I/edit#slide=id.g8b4bc3bf06_0_161)   |
-|     | 12:30-3:00 PM EST| <a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |     |
-|     | 3:30-6:00 PM EST | <a href="#4.4"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [C++](https://github.com/huyaoyu/Tutorial2020_Stereo_ROS), [Deep models](https://github.com/huyaoyu/Tutorial2020_Stereo)  |
-|Fri. July 10  | 9:00-11:30 AM EST| <a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                                | [Weikun](/team/weikun/)  |     |
-|     | 12:30-3:00 PM EST| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) \| [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) |
+| Session |Host   |Links   |
+|---|---|---|
+|  <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | [slides](https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA) \| [repo](https://classroom.github.com/a/h3ktCkJ5)    |
+|<a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  [detection slides](https://www.icloud.com/keynote/0Xvw5vU-4onTdsls9KCF3hJYA#Object_Detection_-_Airlab_Tutorial_Week) \| [tracking slides](https://drive.google.com/file/d/1YEEzmm4W66Y11aOiV85lCJ9VZqmJiZaW/view?usp=sharing) \| [tools slides](https://docs.google.com/presentation/d/1iCvZ21RRh4KcZOkFcX5OxDrJL3Tzlxi3XCabYKL-UUc/edit?usp=sharing) <br> [detection colab 1](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb) \| [detection colab 2](https://colab.research.google.com/drive/1aJ5t-54OTUL25NhQpuDEiEA2oh5U8n65?usp=sharing) <br> [tracking tutorial](https://bitbucket.org/castacks/tracker_tutorial_ws/src/master/)   |
+| <a href="#4.4"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [C++](https://github.com/huyaoyu/Tutorial2020_Stereo_ROS), [Deep models](https://github.com/huyaoyu/Tutorial2020_Stereo)  |
+|<a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
+| <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
+| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
+| <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>  & <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a>  | [Wenshan](/team/wenshan/) & [Rogerio](/team/rogeriob/) & [Jay](/team/jay/) & [Sourish](/team/sourish/)|  [slides](https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing) \| [repo-RL](https://github.com/Amigoshan/tut20_people_avoidance) \| [repo-AirSim-CoreStack](https://bitbucket.org/castacks/core_central/src/airsim/rosinstalls/airsim.rosinstall) \| [repo-AirSim-ROS](https://bitbucket.org/castacks/airsimros/src/master/) |
+|<a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |     |
+| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) \| [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) |
+| <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/infrastructure/src/master/)    |
+| <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   [slides](https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf) \| [repo](https://bitbucket.org/castacks/core_central/src/master/)   |
+|<a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>          | [Vai](/team/vaibhavv/)  |  [slides](https://docs.google.com/presentation/d/1d2m3kN9ZtP25zR_z3RLb9PAYOIdlrzDaAEtIVfxL2_I/edit#slide=id.g8b4bc3bf06_0_161)   |
+| <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |   [slides](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/)  \| [repo](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/)
+|<a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  |     |
+
 
 # Dependencies
 Various labs will require these specifications:
@@ -54,10 +55,30 @@ Various labs will require these specifications:
 ---
 
 <a id="1.1" />
-**1.1 Graph Learning**
-* Graph Convolutional Networks
-* Graph Sampling Methods
-* Application and PyTorch Implementation
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>1.1 Graph Learning</h4>
+        <i>This is a one line summary of what this goes over and it will maybe be
+        kind of long and may wrap</i>
+        <ul>
+          <li>Graph Convolutional Networks</li>
+          <li>Graph Sampling Methods</li>
+          <li>Application and PyTorch Implementation</li>
+        </ul>
+        <a href="url">slides</a> | <a href="url">repo</a>
+      </td>
+      <td align="right"><div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> <div class="extensions extensions--video"><iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe></div></div></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
 
 <a id="1.2" />
 **1.2 Object Detection and Tracking**
