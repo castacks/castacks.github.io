@@ -15,7 +15,7 @@ image: /img/posts/2020-05-01-interestingness/cover.png
 <hr>
 The problem of visual interestingness detection, which is crucial for many practical applications such as search and rescue, is explored in this project. Although prior research is able to detect significant objects or scenes, it is not able to adapt in real-time and loose interest over time after repeatedly observing the same objects or exploring the same scenes. To enable such behaviours for robots, we argue that a learning system should have both life-time human-like experience learned from a large amount of unlabeled data and a short-term learning capability for limited negative labeled data. This is because robots normally only know uninteresting objects before a mission and have to change their interests during a mission. To this end, we introduce an unsupervised learning model with a memory mechanism, which is able to train in real-time without back-propagation, resulting in a much faster learning speed. Our experiments show that, although implemented on a single machine, our approach is still able to learn online and find meaningful objects for a practical search task in mine tunnels. 
 
-{% youtube Gy15Hx6qiGE %}
+{% youtube PXIcm17fEko %}
 
 ### Approaches
 We propose to establish an **online learning** scheme to search for interesting scenes for robot exploration. On the other hand, existing algorithms are heavily dependent on back-propagation algorithm for learning, which is very computationally expensive. To solve this problem, we introduce a novel translation-invariant 4-D visual memory to identify and recall visually interesting scenes. Human beings have a great capacity to direct visual attention and judge the interestingness of a scene.
