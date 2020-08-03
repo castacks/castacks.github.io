@@ -361,12 +361,43 @@ Various labs will require these specifications:
 
 
 <a id="3.6" />
-**3.6 Modeling and Control**
-* Modeling a multirotor (kinematics and dynamics)
-* The general architecture of the control system with PX4 as an example
-* PID for attitude and position controllers
-* MATLAB simulation with analysis for multirotor, attitude control and position control designs (including fully-actuated multirotors)
-
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>3.6 Modeling and Control</h4>
+        <i>A practical introduction to modeling and control for Multirotor Aerial Vehicles with interactive MATLAB exercises</i>
+        <ul>
+          <li>Introduction</li>
+          <li>Modeling Multirotors</li>
+          <li>Multirotor Controller Architecture (with PX4 as an example)</li>
+          <li>PID Controllers</li>
+          <li>Underactuated vs. Fully-Actuated UAVs</li>
+          <li>Matlab exercises
+            <ul>
+              <li>Attitude Controller and PID Tuning</li>
+              <li>Position Controller</li>
+              <li>Fully-Actuated Multirotors</li>
+            </ul>
+          </li>
+        </ul>
+        <a href="https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/multirotor_control_tutorial">repo</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/fLg7p8Yl984" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 ### <span style="color:#e68200">Infrastructure</span>
