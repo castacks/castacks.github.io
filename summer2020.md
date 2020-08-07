@@ -36,12 +36,12 @@ Click on a session in the overview below to jump to its summary, outline, links,
 | <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/infrastructure/src/master/)    |
 | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   [slides](https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf) \| [repo](https://bitbucket.org/castacks/core_central/src/master/)   |
-|<a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>          | [Vai](/team/vaibhavv/)  |  [slides](https://docs.google.com/presentation/d/1d2m3kN9ZtP25zR_z3RLb9PAYOIdlrzDaAEtIVfxL2_I/edit#slide=id.g8b4bc3bf06_0_161)   |
+
 
 
 <!-- | Session |Host   |
 |---|---|---|
-|  <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | 
+|  <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        |
 |<a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  
 | <a href="#1.3"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |  
 | <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |  
@@ -51,8 +51,8 @@ Click on a session in the overview below to jump to its summary, outline, links,
 | <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |    
 | <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>  & <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a>  | [Wenshan](/team/wenshan/) & [Sourish](/team/sourish/)|  
 |<a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>   | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |  
-| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | 
-| <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | 
+| <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  |
+| <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  |
 | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   
 |<a href="#4.4"><span style="color:#e68200">4.4 Project Management</span></a>          | [Vai](/team/vaibhavv/)  |   -->
 
@@ -91,7 +91,7 @@ Various labs will require these specifications:
         <a href="https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA">slides</a> | <a href="https://classroom.github.com/a/h3ktCkJ5">repo</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
             <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe> -->
           </div>
@@ -112,7 +112,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>1.2 Object Detection and Tracking</h4>
-        <i></i>
+        <i>An overview of popular methods used for object detection and tracking with a brief introduction to platform tools for inference</i>
         <ul>
           <li>Review of object detection methods based on two flavors
             <ul>
@@ -132,7 +132,7 @@ Various labs will require these specifications:
             </ul>
           </li>
         </ul>
-        <a href="https://www.icloud.com/keynote/0Xvw5vU-4onTdsls9KCF3hJYA#Object_Detection_-_Airlab_Tutorial_Week">detection slides</a> | 
+        <a href="https://www.icloud.com/keynote/0Xvw5vU-4onTdsls9KCF3hJYA#Object_Detection_-_Airlab_Tutorial_Week">detection slides</a> |
         <a href="https://drive.google.com/file/d/1YEEzmm4W66Y11aOiV85lCJ9VZqmJiZaW/view?usp=sharing">tracking slides</a> |
         <a href="https://docs.google.com/presentation/d/1iCvZ21RRh4KcZOkFcX5OxDrJL3Tzlxi3XCabYKL-UUc/edit?usp=sharing">tools slides</a>
         <br>
@@ -141,9 +141,9 @@ Various labs will require these specifications:
         <a href="https://bitbucket.org/castacks/tracker_tutorial_ws/src/master/">tracking tutorial</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/yggi7QjfOUM" frameborder="0" allowfullscreen></iframe> -->
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/pG0B9hTiPRQ" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -162,7 +162,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>1.3 Stereo Basics and Advanced Stereo</h4>
-        <i></i>
+        <i>Revision and implementation of the recent binocular stereo methods including non-leanring and learning-based </i>
         <ul>
           <li>Review
             <ul>
@@ -199,14 +199,14 @@ Various labs will require these specifications:
             </ul>
           </li>
         </ul>
-        <a href="https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing">slides</a> | 
+        <a href="https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing">slides</a> |
         <a href="https://github.com/huyaoyu/Tutorial2020_Stereo_ROS">C++</a> |
-        <a href="https://github.com/huyaoyu/Tutorial2020_Stereo">Deep models</a> 
+        <a href="https://github.com/huyaoyu/Tutorial2020_Stereo">Deep models</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/yggi7QjfOUM" frameborder="0" allowfullscreen></iframe> -->
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/lwX5S0MIFzs" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -274,7 +274,7 @@ Various labs will require these specifications:
         <a href="https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf">slides</a> | <a href="https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/">repo</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
             <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe>
           </div>
@@ -312,7 +312,7 @@ Various labs will require these specifications:
         <a href="https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf">slides</a> | <a href="https://bitbucket.org/castacks/core_planning_tutorial/src/master/">repo</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
             <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/yggi7QjfOUM" frameborder="0" allowfullscreen></iframe>
           </div>
@@ -428,7 +428,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>4.3 & 3.4 Simulation and Reinforcement Learning</h4>
-        <i></i>
+        <i>An introduction of doing drone simulation in AirSim, using the core stack package in the simulation, as well as doing reinforcement learning in it</i>
         <ul>
           <li>Presentation
             <ul>
@@ -460,15 +460,15 @@ Various labs will require these specifications:
             </ul>
           </li>
         </ul>
-        <a href="https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing">slides</a> | 
+        <a href="https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing">slides</a> |
         <a href="https://github.com/Amigoshan/tut20_people_avoidance">repo-RL</a> |
         <a href="https://bitbucket.org/castacks/core_central/src/airsim/rosinstalls/airsim.rosinstall">repo-AirSim-CoreStack</a>
-        <a href="https://bitbucket.org/castacks/airsimros/src/master/">repo-AirSim-ROS</a> 
+        <a href="https://bitbucket.org/castacks/airsimros/src/master/">repo-AirSim-ROS</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;"> 
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/yggi7QjfOUM" frameborder="0" allowfullscreen></iframe> -->
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/r_V1JYSGOCc" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -478,7 +478,7 @@ Various labs will require these specifications:
 <hr>
 
 
-<a id="4.4" />
+<!-- <a id="4.4" />
 **4.4 Project Management**
 * Why project management/systems engineering
 * Different methods
@@ -487,4 +487,4 @@ Various labs will require these specifications:
   * Etc
 * Tools
   * Airtable
-  * Trello
+  * Trello -->
