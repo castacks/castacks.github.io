@@ -27,15 +27,15 @@ Click on a session in the overview below to jump to its summary, outline, links,
 |<a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  [slides](#1.2) \| [repo](#1.2)  |
 | <a href="#1.3"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [repo](#1.3) |
 | <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |   [slides](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/)  \| [repo](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/)
-|<a href="#2.3"><span style="color:#b50000">2.3 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  |     |
+|<a href="#2.3"><span style="color:#b50000">2.2 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  |     |
 |<a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
 | <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
 | <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
-| <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>  & <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a>  | [Wenshan](/team/wenshan/) & [Sourish](/team/sourish/)|  [slides](https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing) \| [repo](#4.3)  |
 |<a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |  [slides](https://github.com/hocherie/cbf_quadrotor/blob/master/docs/ensuring-safety-pdf.pdf) \| [repo](https://github.com/hocherie/cbf_quadrotor)   |
 | <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/infrastructure/src/master/)    |
 | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   [slides](https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf) \| [repo](https://bitbucket.org/castacks/core_central/src/master/)   |
+| <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a> & <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>   | [Wenshan](/team/wenshan/) & [Sourish](/team/sourish/)|  [slides](https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing) \| [repo](#4.3)  |
 
 
 
@@ -229,15 +229,15 @@ Various labs will require these specifications:
   * Epipolar Search
 
 
-<a id="2.2" />
+<!-- <a id="2.2" />
 **2.2 Visual Odometry (Learning-Based)**
 * Deep Learning for feature detection and matching
 * Supervised learning for visual odometry
-* Self-supervised learning for monocular depth and pose estimation
+* Self-supervised learning for monocular depth and pose estimation -->
 
 
 <a id="2.3" />
-**2.3 SLAM / GTSAM**
+**2.2 SLAM / GTSAM**
 * Intro to factor graph
 * Example to solve factor graph
 * Tools for back-end SLAM: GTSAM/Ceres
