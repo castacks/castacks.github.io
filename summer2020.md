@@ -82,7 +82,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>1.1 Graph Learning</h4>
-        <i></i>
+        <i>An introduction to graph neural network and its application in robotics, with an exercise and implementation in Github Classroom</i>
         <ul>
           <li>Graph Convolutional Networks</li>
           <li>Graph Sampling Methods</li>
@@ -93,7 +93,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe> -->
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -404,17 +404,69 @@ Various labs will require these specifications:
 ---
 
 <a id="4.1" />
-**4.1 Setup in Cloud and Cluster**
-* Docker
-* Cluster & SLURM
-* Azure
-* Continuous Intergration
-* Git, Ansible, Deployer
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>4.1 Setup in Cloud and Cluster</h4>
+        <i></i>
+        <ul>
+          <li>Docker</li>
+          <li>Cluster & SLURM</li>
+          <li>Azure</li>
+          <li>Continuous Intergration</li>
+          <li>Git, Ansible, Deployer</li>
+        </ul>
+        <a href="https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/infrastructure/src/master/">repo</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
 
 
 
 <a id="4.2" />
-**4.2 Air Lab Core Stack**
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>4.2 Air Lab Core Stack</h4>
+        <i></i>
+        <ul>
+          <!-- <li>Graph Convolutional Networks</li>
+          <li>Graph Sampling Methods</li>
+          <li>Application and PyTorch Implementation</li> -->
+        </ul>
+        <a href="https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf">slides</a> | <a href="https://bitbucket.org/castacks/core_central/src/master/">repo</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 <a id="4.3" />
