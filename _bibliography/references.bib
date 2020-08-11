@@ -1,3 +1,43 @@
+
+@inproceedings{jaekel2020,
+abstract = {In this paper we present a novel multi-stereo visual-inertial odometry (VIO) framework which aims to improve the robustness of a robotâ€™s state estimate during aggressive motion and in visually challenging environments. Our system uses a fixed-lag smoother which jointly optimizes for poses and landmarks across all stereo pairs. We propose a 1-point RANdom SAmple Consensus (RANSAC) algorithm which is able to perform outlier rejection across features from all stereo pairs. To handle the problem of noisy extrinsics, we account for uncertainty in the calibration of each stereo pair and model it in both our front-end and back-end. The result is a VIO system which is able to maintain an accurate state estimate under conditions that have typically proven to be challenging for traditional state-of-the-art VIO systems. We demonstrate the benefits of our proposed multi-stereo algorithm by evaluating it with both simulated and real world data. We show that our proposed algorithm is able to maintain a state estimate in scenarios where traditional VIO algorithms fail.},
+author = {Jaekel, Joshua and Mangelson, Joshua and Scherer, Sebastian and Kaess, Michael},
+booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
+title = {{A Robust Multi-Stereo Visual-Inertial Odometry Pipeline}},
+url = {https://www.cs.cmu.edu/~kaess/pub/Jaekel20iros.html},
+year = {2020}
+}
+
+@inproceedings{dexheimer2020,
+abstract = {Fast, aerial navigation in cluttered environments requires a suitable map representation for path planning. In this paper, we propose the use of an efficient, structured multiresolution representation that expands the sensor range of dense local grids for memory-constrained platforms. While similar data structures have been proposed, we avoid processing redundant occupancy information and use the organization of the grid to improve efficiency. By layering 3D circular buffers that double in resolution at each level, obstacles near the robot are represented at finer resolutions while coarse spatial information is maintained at greater distances. We also introduce a novel method for efficiently calculating the Euclidean distance transform on the multiresolution grid by leveraging its structure. Lastly, we utilize our proposed framework to demonstrate improved stereo camera-based MAV obstacle avoidance with an optimization-based planner in simulation.},
+author = {Dexheimer, Eric and Mangelson, Joshua and Scherer, Sebastian and Kaess, Michael},
+booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
+title = {{Efficient Multiresolution Scrolling Grid for Stereo Vision-based MAV Obstacle Avoidance}},
+url = {https://www.cs.cmu.edu/~kaess/pub/Dexheimer20iros.html},
+year = {2020}
+}
+
+@inproceedings{patrikar2020,
+author = {Patrikar, Jay and Moon, Brady and Scherer, Sebastian},
+booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
+title = {{Wind and the City: Utilizing UAV-Based In-Situ Measurements for Estimating Urban Wind Fields}},
+year = {2020}
+}
+
+@inproceedings{shibo2020,
+author = {Zhao, Shibo and Wang, Peng and Zhang, Hengrui and Fang, Zheng and Scherer, Sebastian},
+booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
+title = {{TP-TIO: A Robust Thermal-Inertial Odometry with Deep ThermalPoint}},
+year = {2020}
+}
+
+@inproceedings{vai2020,
+author = {Viswanathan, Vaibhav and Dexheimer, Eric and Li, Guanrui and Loianno, Giuseppe and Kaess, Michael and Scherer, Sebastian},
+booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
+title = {{Efficient Trajectory Library Filtering for Quadrotor Flight in Unknown Environments}},
+year = {2020}
+}
+
 @inproceedings{wang2020visual,
     abstract = {In this paper, we aim to solve the problem of interesting scene prediction for mobile robots. This area is currently under explored but is crucial for many practical applications such as autonomous exploration and decision making. First, we expect a robot to detect novel and interesting scenes in unknown environments and lose interests over time after repeatedly observing similar objects. Second, we expect the robots to learn from unbalanced data in a short time, as the robots normally only know the uninteresting scenes before they are deployed. Inspired by those industrial demands, we first propose a novel translation-invariant visual memory for recalling and identifying interesting scenes, then design a three-stage architecture of long-term, short-term, and online learning for human-like experience, environmental knowledge, and online adaption, respectively. It is demonstrated that our approach is able to learn online and find interesting scenes for practical exploration tasks. It also achieves a much higher accuracy than the state-of-the-art algorithm on very challenging robotic interestingness prediction datasets.},
     author = {Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
