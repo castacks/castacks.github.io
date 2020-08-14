@@ -3,7 +3,7 @@ title: Contact
 subtitle: Get in touch with us
 layout: page
 show_sidebar: false
-hide_footer: true
+hide_footer: false
 ---
 
 ## How to reach our lab

@@ -2,7 +2,7 @@
 title: Latest News
 layout: page
 show_sidebar: false
-hide_footer: true
+hide_footer: false
 ---
 
 <div id="medium-widget"></div>

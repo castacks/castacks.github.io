@@ -1,12 +1,13 @@
 ---
 title: Alumni
+subtitle: Ordered by year of graduation
 layout: default
 show_sidebar: false
-hide_footer: true
+hide_footer: false
 ---
 
 <hr>
-<h1 style="font-size:35px;">Past Ph.D. Students ( ordered by year of graduation )</h1>
+<h1 style="font-size:35px;">Former Ph.D. Students</h1>
 <br>
 <div class="columns is-multiline">
 {% assign sorted_person = site.team | where:"category","past_phd" | sort: "graduation_year" | reverse %}
@@ -33,7 +34,7 @@ hide_footer: true
 </div>
 
 <hr>
-<h1 style="font-size:35px;">Past Master's Students ( ordered by year of graduation )</h1>
+<h1 style="font-size:35px;">Former Master's Students</h1>
 <br>
 <div class="columns is-multiline">
 {% assign sorted_person = site.team | where:"category","past_master" | sort: "graduation_year" | reverse %}

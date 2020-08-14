@@ -2,7 +2,7 @@
 layout: page
 title: Current Openings
 show_sidebar: false
-hide_footer: true
+hide_footer: false
 ---
 
 ## Prospective Graduate Students

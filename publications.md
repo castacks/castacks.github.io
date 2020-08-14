@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 show_sidebar: false
-hide_footer: true
+hide_footer: false
 ---
 
 <style>
