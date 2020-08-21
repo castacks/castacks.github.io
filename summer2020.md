@@ -13,7 +13,7 @@ The goal of this boot camp is to get each student started with the basics, broad
 
 Sessions cover topics in <span style="color:blue">Perception</span>, <span style="color:#b50000">State Estimation</span>, <span style="color:green">Action</span>, and <span style="color:#e68200">Infrastructure</span>. Each session will consist of a lecture followed by hands-on exercises.
 
-Click on a session in the overview below to jump to its summary, outline, links, and video.
+Click on a session in the overview below to jump to its summary, video, outline, and links.
 
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
@@ -342,22 +342,61 @@ Various labs will require these specifications:
 
 
 <a id="3.5" />
-**3.5 Formulating and Enforcing Safety**
-* Purpose: Building intuition on different safety tools and where they fail
-* Where things fit in?
-* Common use cases… I want to make a safety claim on my planning stack
-  * AACUS - Emergency maneuver library
-* Key tools
-  * Reachability
-  * Curse of dimensionality
-* Control barrier functions
-  * How does CBF makes a safety claim?
-* Interactive Lab Session with ECBF
-  * Single robot (with safe control and without) with fill-ins on base QP optimization
-  * Multirobot
-  * Problems with CBF
-    * Deadlock and how to address
-    * Unsolvable cases
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>3.5 Formulating and Enforcing Safety</h4>
+        <i></i>
+        <ul>
+          <li>Purpose: Building intuition on different safety tools and where they fail</li>
+          <li>Where things fit in?</li>
+          <li>Common use cases… I want to make a safety claim on my planning stack
+            <ul>
+              <li>AACUS - Emergency maneuver library</li>
+            </ul>
+          </li>
+          <li>Key tools
+            <ul>
+              <li>Reachability</li>
+              <li>Curse of dimensionality</li>
+            </ul>
+          </li>
+          <li>Control barrier functions
+            <ul>
+              <li>How does CBF makes a safety claim?</li>
+            </ul>
+          </li>
+          <li>Interactive Lab Session with ECBF
+            <ul>
+              <li>Single robot (with safe control and without) with fill-ins on base QP optimization</li>
+              <li>Multirobot</li>
+              <li>Problems with CBF
+                <ul>
+                  <li>Deadlock and how to address</li>
+                  <li>Unsolvable cases</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a href="https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/multirotor_control_tutorial">repo</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/vmRl8swiEyc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 <a id="3.6" />
