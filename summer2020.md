@@ -219,14 +219,40 @@ Various labs will require these specifications:
 ---
 
 <a id="2.1" />
-**2.1 Visual Odometry (Traditional)**
-* Feature based visual odometry
-  * Pose estimation method from 2D to 2D
-  * Pose estimation method from 3D to 2D
-  * Pose estimation method from 3D to 3D
-* Direct based visual odometry
-  * Optical Flow
-  * Epipolar Search
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>2.1 Visual Odometry (Traditional)</h4>
+        <i></i>
+        <ul>
+          <li>Feature based visual odometry
+            <ul>
+              <li>Pose estimation method from 2D to 2D</li>
+              <li>Pose estimation method from 3D to 2D</li>
+              <li>Pose estimation method from 3D to 3D</li>
+            </ul>
+          </li>
+          <li>Direct based visual odometry
+            <ul>
+              <li>Optical Flow</li>
+              <li>Epipolar Search</li>
+            </ul>
+          </li>
+        </ul>
+        <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/">slides</a> | <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/">repo</a>
+      </td>
+      <td align="right">
+        Video Coming Soon
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 <!-- <a id="2.2" />
@@ -237,10 +263,30 @@ Various labs will require these specifications:
 
 
 <a id="2.3" />
-**2.2 SLAM / GTSAM**
-* Intro to factor graph
-* Example to solve factor graph
-* Tools for back-end SLAM: GTSAM/Ceres
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>2.2 SLAM / GTSAM</h4>
+        <i></i>
+        <ul>
+          <li>Intro to factor graph</li>
+          <li>Example to solve factor graph</li>
+          <li>Tools for back-end SLAM: GTSAM/Ceres</li>
+        </ul>
+        <!-- <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/">slides</a> | <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/">repo</a> -->
+      </td>
+      <td align="right">
+        Video Coming Soon
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 ### <span style="color:green">Action</span>
@@ -326,17 +372,43 @@ Various labs will require these specifications:
 
 
 <a id="3.3" />
-**3.3 Exploration and OpenVDB**
-* Presentation:
-  * Planning for exploration of a-priori unknown environments
-  * vdbmap - an occupancy grid mapping pipeline that uses a specialized sparse volumetric data structure
-  * Frontier based exploration and its integration with the core_autonomy stack
-* Hands-On Session:
-  * Setting up the workspace
-  * Walk through the grid mapping pipeline
-  * Playing with the grid mapping parameters for different sensor types
-  * Walk through the frontier based exploration planner
-  * Running and visualizing the planner in simulation
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h4>3.3 Exploration and OpenVDB</h4>
+        <i></i>
+        <ul>
+          <li>Presentation
+            <ul>
+              <li>Planning for exploration of a-priori unknown environments</li>
+              <li>vdbmap - an occupancy grid mapping pipeline that uses a specialized sparse volumetric data structure</li>
+              <li>Frontier based exploration and its integration with the core_autonomy stack</li>
+            </ul>
+          </li>
+          <li>Hands-On Session
+            <ul>
+              <li>Setting up the workspace</li>
+              <li>Walk through the grid mapping pipeline</li>
+              <li>Playing with the grid mapping parameters for different sensor types</li>
+              <li>Walk through the frontier based exploration planner</li>
+              <li>Running and visualizing the planner in simulation</li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <a href="https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/multirotor_control_tutorial">repo</a> -->
+      </td>
+      <td align="right">
+        Video Coming Soon
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 
@@ -463,11 +535,7 @@ Various labs will require these specifications:
         <a href="https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/infrastructure/src/master/">repo</a>
       </td>
       <td align="right">
-        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-          <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe> -->
-          </div>
-        </div>
+        Video Coming Soon
       </td>
     </tr>
   </tbody>
@@ -486,19 +554,22 @@ Various labs will require these specifications:
   <tbody>
     <tr>
       <td>
-        <h4>4.2 Air Lab Core Stack</h4>
-        <i></i>
+        <h4>4.2 Air Lab Core Autonomy Stack</h4>
+        <i>An overview of the Air Lab Core Autonomy Stack, including the setup, walkthrough, and running examples</i>
         <ul>
-          <!-- <li>Graph Convolutional Networks</li>
-          <li>Graph Sampling Methods</li>
-          <li>Application and PyTorch Implementation</li> -->
+          <li>Behavior Trees</li>
+          <li>Global and Local Planners</li>
+          <li>Trajectory, Pose, and Velocity Controllers</li>
+          <li>State Estimation</li>
+          <li>Gazebo Sim</li>
+          <li>Exercises</li>
         </ul>
         <a href="https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf">slides</a> | <a href="https://bitbucket.org/castacks/core_central/src/master/">repo</a>
       </td>
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <!-- <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe> -->
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/xNz92Qbesug" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -559,7 +630,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/r_V1JYSGOCc" frameborder="0" allowfullscreen></iframe>
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/pcI08fHL9Nw" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>

@@ -1,8 +1,8 @@
 ---
 title: Jay Patrikar
-subtitle: Master's Student
-job_title: Master's Student
-category: master_student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category: phd_student
 layout: team_member_personal_page
 image: /img/team/jay.jpg
 hide_footer: true
