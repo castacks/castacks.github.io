@@ -33,7 +33,7 @@ Click on a session in the overview below to jump to its summary, video, outline,
 | <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
 |<a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |  [slides](https://github.com/hocherie/cbf_quadrotor/blob/master/docs/ensuring-safety-pdf.pdf) \| [repo](https://github.com/hocherie/cbf_quadrotor)   |
 | <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
-| <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/infrastructure/src/master/)    |
+| <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/airlab_infrastructure/src/master/)    |
 | <a href="#4.2"><span style="color:#e68200">4.2 Air Lab Core Stack</span></a>                                  | [John](/team/johnk/)  |   [slides](https://bitbucket.org/castacks/core_central/src/master/CoreAutonomyStack.pdf) \| [repo](https://bitbucket.org/castacks/core_central/src/master/)   |
 | <a href="#4.3"><span style="color:#e68200">4.3 Simulation</span></a> & <a href="#3.4"><span style="color:green">3.4 Reinforcement Learning</span></a>   | [Wenshan](/team/wenshan/) & [Sourish](/team/sourish/)|  [slides](https://docs.google.com/presentation/d/1WjDkEG4gcHYCdHq_0fyOBeLErEVZ-gJwwwx4O2I3ook/edit?usp=sharing) \| [repo](#4.3)  |
 
@@ -532,7 +532,7 @@ Various labs will require these specifications:
           <li>Continuous Intergration</li>
           <li>Git, Ansible, Deployer</li>
         </ul>
-        <a href="https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/infrastructure/src/master/">repo</a>
+        <a href="https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/airlab_infrastructure/src/master/">repo</a>
       </td>
       <td align="right">
         Video Coming Soon
