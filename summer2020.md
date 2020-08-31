@@ -524,7 +524,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>4.1 Setup in Cloud and Cluster</h4>
-        <i></i>
+        <i>An intro to setting up infrastructure on the cloud & cluster and an overview of various Air Lab development operations tools</i>
         <ul>
           <li>Docker</li>
           <li>Cluster & SLURM</li>
@@ -535,7 +535,11 @@ Various labs will require these specifications:
         <a href="https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/airlab_infrastructure/src/master/">repo</a>
       </td>
       <td align="right">
-        Video Coming Soon
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/BOK5cRdgVYM" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
