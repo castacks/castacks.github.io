@@ -27,7 +27,7 @@ Click on a session in the overview below to jump to its summary, video, outline,
 |<a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  [slides](#1.2) \| [repo](#1.2)  |
 | <a href="#1.3"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [repo](#1.3) |
 | <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |   [slides](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/)  \| [repo](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/)
-|<a href="#2.3"><span style="color:#b50000">2.2 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  |     |
+|<a href="#2.3"><span style="color:#b50000">2.2 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  | [slides](https://drive.google.com/drive/folders/1_MLRQMvRuXvyxVl6514M20zcFY4-O4pI?usp=sharing) \| [repo](https://drive.google.com/drive/folders/1_MLRQMvRuXvyxVl6514M20zcFY4-O4pI?usp=sharing)    |
 |<a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
 | <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
 | <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
@@ -276,12 +276,17 @@ Various labs will require these specifications:
         <ul>
           <li>Intro to factor graph</li>
           <li>Example to solve factor graph</li>
+          <li>Derivation of Gauss Newton</li>
           <li>Tools for back-end SLAM: GTSAM/Ceres</li>
         </ul>
-        <!-- <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/">slides</a> | <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/">repo</a> -->
+        <a href="https://drive.google.com/drive/folders/1_MLRQMvRuXvyxVl6514M20zcFY4-O4pI?usp=sharing">slides, notes, and practice problems</a> 
       </td>
       <td align="right">
-        Video Coming Soon
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/FhwFyA0NQkE" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
