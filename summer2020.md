@@ -247,7 +247,11 @@ Various labs will require these specifications:
         <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/">slides</a> | <a href="https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/">repo</a>
       </td>
       <td align="right">
-        Video Coming Soon
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/VOlYuK6AtAE" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
