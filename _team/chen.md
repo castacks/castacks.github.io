@@ -10,18 +10,29 @@ hide_footer: true
 
 Chen Wang is currently a postdoctoral fellow at the Robotics Institute, Carnegie Mellon University (CMU). He received the Ph.D. degree from Nanyang Technological University (NTU) Singapore in 2019 and Bachelor degree from Beijing Institute of Technology (BIT) in 2014. His research interests include robot perception, vision, and machine learning.
 
+- [CMU Scholar Page](https://scholars.cmu.edu/8810-chen-wang)
+
+- [Personal Website](https://chenwang.site)
 
 - [Google Scholar](https://scholar.google.com/citations?user=vZfmKl4AAAAJ)
 
 - [GitHub Page](https://github.com/wang-chen)
 
-- [LinkedIn Profile](https://www.linkedin.com/in/wang-chen)
-
-- Contact:
-    - chenwang[at]dr.com
+- Follow Dr. Chen Wang:
+    <div class="sharethis-inline-follow-buttons"></div>
 
 - Office:
-    - 5000 Forbes Ave, NSH 2104, Pittsburgh, PA 15213
+    - NSH 2104, 5000 Forbes Ave, Pittsburgh, PA 15213
 
+- Contact:
+    - chenwang@dr.com
+    - chenwan3@andrew.cmu.edu
 
-More information is avaiable on his [personal webpage](https://chenwang.site).
+<a class="twitter-timeline"
+        data-tweet-limit="3"
+        data-theme="light"
+        width="100%"
+        data-height="2010"
+        href="https://twitter.com/DrChenWang">News from Twitter @DrChenWang<br>You need VPN if you see this.
+</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
