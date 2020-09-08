@@ -16,8 +16,6 @@ Chen Wang is currently a postdoctoral fellow at the Robotics Institute, Carnegie
 
 - [Google Scholar](https://scholar.google.com/citations?user=vZfmKl4AAAAJ)
 
-- [GitHub Page](https://github.com/wang-chen)
-
 - Follow Dr. Chen Wang:
     <div class="sharethis-inline-follow-buttons"></div>
 
@@ -25,8 +23,8 @@ Chen Wang is currently a postdoctoral fellow at the Robotics Institute, Carnegie
     - NSH 2104, 5000 Forbes Ave, Pittsburgh, PA 15213
 
 - Contact:
-    - chenwang@dr.com
-    - chenwan3@andrew.cmu.edu
+    - <chenwang@dr.com> (Preferred)
+    - <chenwan3@andrew.cmu.edu>
 
 <a class="twitter-timeline"
         data-tweet-limit="3"
