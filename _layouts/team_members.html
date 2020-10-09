@@ -138,8 +138,10 @@ show_sidebar: false
   </div>
   {% endfor %}
 </div>
-
 <hr>
+
+{% assign members = site.team | where:"subtitle","Undergraduate" %}
+{% if members.size > 0 %}
 <h1 style="font-size:35px;">Undergraduate Students</h1>
 <br>
 <div class="columns is-multiline">
@@ -164,8 +166,9 @@ show_sidebar: false
 </div>
 {% endfor %}
 </div>
-
 <hr>
+{% endif %}
+
 <h1 style="font-size:35px;">Staff</h1>
 <br>
 <div class="columns is-multiline">
