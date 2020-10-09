@@ -3,7 +3,7 @@
 <div class="text-justify">
     {{reference}}
     <br />
-<button class="button0"  onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">Bibtex</button>
+<button class="button0"  onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">bibtex</button>
 
 <script>
     function toggle{{entry.key | replace : '-':'' | replace : ':':''}}() {
@@ -17,7 +17,7 @@
     }
     </script>
 {% if entry.abstract %}
-<button class="button3" onclick="toggle2{{entry.key  | replace: '-':'' | replace: ':':''}}()">Abstract</button>
+<button class="button3" onclick="toggle2{{entry.key  | replace: '-':'' | replace: ':':''}}()">abstract</button>
 {% endif %}
 
 <script>
@@ -39,7 +39,10 @@
 <a href="{{ entry.preprint }}"><input type='button' class='button2' value='preprint'/></a>
 {% endif %}
 {% if entry.url %}
-<a href="{{ entry.url }}"><input type='button' class='button4' value='link'/></a>
+<a href='{{ entry.url | escape }}'><input type='button' class='button4' value='link'/></a>
+{% endif %}
+{% if entry.video %}
+<a href="{{ entry.video}}"><input type='button' class='button5' value='video'/></a>
 {% endif %}
 <!-- {% if entry.code %} -->
 <!-- <a href="{{ entry.code }}"><input type='button' class='button3' value='code'/></a> -->
@@ -48,4 +51,3 @@
 
 <div id="a{{entry.key}}" style="display:none"><pre>{{entry.bibtex}}</pre></div>
 <div id="b{{entry.key}}" style="display:none"><pre>{{entry.abstract}}</pre></div>
-
