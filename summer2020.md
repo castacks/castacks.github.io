@@ -410,7 +410,7 @@ Various labs will require these specifications:
             </ul>
           </li>
         </ul>
-        <a href="https://drive.google.com/file/d/192jlFvuLza5CjEN619KeG9tpIoHRyp9M/view?usp=sharing>slides</a>
+        <a href="https://drive.google.com/file/d/192jlFvuLza5CjEN619KeG9tpIoHRyp9M/view?usp=sharing">slides</a>
       </td>
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
