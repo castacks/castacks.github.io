@@ -415,7 +415,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://youtu.be/vCzQDLjywwU" frameborder="0" allowfullscreen></iframe>
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/vCzQDLjywwU" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
