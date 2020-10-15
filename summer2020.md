@@ -30,7 +30,7 @@ Click on a session in the overview below to jump to its summary, video, outline,
 |<a href="#2.3"><span style="color:#b50000">2.2 SLAM / GTSAM</span></a>                        | [Weikun](/team/weikun/)  | [slides](https://drive.google.com/drive/folders/1_MLRQMvRuXvyxVl6514M20zcFY4-O4pI?usp=sharing) \| [repo](https://drive.google.com/drive/folders/1_MLRQMvRuXvyxVl6514M20zcFY4-O4pI?usp=sharing)    |
 |<a href="#3.1"><span style="color:green">3.1 Motion Planning Tutorial (Basics)</span></a>             | [Basti](/team/sebastian/)  | [slides](https://bitbucket.org/castacks/matlab_planning_toolbox/raw/92f2e209e271db058a3453e45fda2cf134fef536/doc/lecture-slides.pdf) \| [repo](https://bitbucket.org/castacks/matlab_planning_toolbox/src/master/)    |
 | <a href="#3.2"><span style="color:green">3.2 Motion Planning (Advanced)</span></a>  | [Jay](/team/jay/) & [Brady](/team/bradym/) |    [slides](https://bitbucket.org/castacks/core_planning_tutorial/raw/c8da578242cf8313aafbb986e5f265a9823ad6c1/doc/planning_presentation.pdf) \| [repo](https://bitbucket.org/castacks/core_planning_tutorial/src/master/) |
-| <a href="#3.3"><span style="color:green">3.3 Exploration and OpenVDB</span></a>         | [Rohit](/team/rohitg/)  |     |
+| <a href="#3.3"><span style="color:green">3.3 Planning for Exploration</span></a>         | [Rohit](/team/rohitg/)  |  [slides](https://drive.google.com/file/d/192jlFvuLza5CjEN619KeG9tpIoHRyp9M/view?usp=sharing)  \|
 |<a href="#3.5"><span style="color:green">3.5 Formulating and Enforcing Safety</span></a>                  | [Cherie](/team/cherie/) & [Mohammad](/team/mohammadrezam/)   |  [slides](https://github.com/hocherie/cbf_quadrotor/blob/master/docs/ensuring-safety-pdf.pdf) \| [repo](https://github.com/hocherie/cbf_quadrotor)   |
 | <a href="#3.6"><span style="color:green">3.6 Modeling and Control</span></a>                                     | [Azarakhsh](/team/azarakhsh/)  | [slides](https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/multirotor_control_tutorial) |
 | <a href="#4.1"><span style="color:#e68200">4.1 Setup in Cloud and Cluster</span>                 | [Kat](/team/katarinac/)  | [slides](https://docs.google.com/presentation/d/1aya8EygLIi8N0VZmuGtoAuVA4PaNnNa7YE2311xi_5c/edit?usp=sharing) \| [repo](https://bitbucket.org/castacks/airlab_infrastructure/src/master/)    |
@@ -379,7 +379,6 @@ Various labs will require these specifications:
 <hr>
 
 
-
 <a id="3.3" />
 <table>
   <colgroup>
@@ -389,30 +388,36 @@ Various labs will require these specifications:
   <tbody>
     <tr>
       <td>
-        <h4>3.3 Exploration and OpenVDB</h4>
+        <h4>3.3 Planning for Exploration</h4>
         <i></i>
         <ul>
-          <li>Presentation
+          <li>Part I - Mapping
             <ul>
-              <li>Planning for exploration of a-priori unknown environments</li>
-              <li>vdbmap - an occupancy grid mapping pipeline that uses a specialized sparse volumetric data structure</li>
-              <li>Frontier based exploration and its integration with the core_autonomy stack</li>
+              <li>Occupancy Grid Maps</li>
+              <li>Ray Casting</li>
+              <li>Underlying data structure - OpenVDB</li>
+              <li>Example 2D/3D occupancy grid maps</li>
+              <li>Hands-on session</li>
             </ul>
           </li>
-          <li>Hands-On Session
+          <li>Part II - Frontier Based Exploration
             <ul>
-              <li>Setting up the workspace</li>
-              <li>Walk through the grid mapping pipeline</li>
-              <li>Playing with the grid mapping parameters for different sensor types</li>
-              <li>Walk through the frontier based exploration planner</li>
-              <li>Running and visualizing the planner in simulation</li>
+              <li>Frontiers for exploration planning</li>
+              <li>Example Drone Autonomy Architecture - I</li>
+              <li>Example Drone Autonomy Architecture - II</li>
+              <li>Overview of modules</li>
+              <li>Hands-on session</li>
             </ul>
           </li>
         </ul>
-        <!-- <a href="https://docs.google.com/presentation/d/1sj_OA_V3O1K3__uBnEqJCfCVsIN37c7nBWB59Qtfq-I/edit?usp=sharing">slides</a> | <a href="https://bitbucket.org/castacks/multirotor_control_tutorial">repo</a> -->
+        <a href="https://drive.google.com/file/d/192jlFvuLza5CjEN619KeG9tpIoHRyp9M/view?usp=sharing>slides</a>
       </td>
       <td align="right">
-        Video Coming Soon
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://youtu.be/vCzQDLjywwU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
