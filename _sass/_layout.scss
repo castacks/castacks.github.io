@@ -37,9 +37,11 @@ div.highlight {
         }
     }
     .navbar-logo {
-        background: url("../../img/logo.png") no-repeat;
+        background: url("../../img/logos/HorizontalInvert@0.5x.png") no-repeat;
+        background-size: 172px auto;
+        background-position: 0 7px;
         text-indent: -9999px;
-        width: 72px;
+        width: 182px;
     }
 }
 
