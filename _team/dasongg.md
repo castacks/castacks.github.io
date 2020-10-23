@@ -8,7 +8,7 @@ image: /img/team/dasongg.jpg
 hide_footer: true
 ---
 
-Daosng is a first-year MSML student at the Air Lab. His research interests include
+Daosng is a first-year MSML student at the AirLab. His research interests include
 deep learning based SLAM and motion planning.
 
 **Email**: <dasongg@andrew.cmu.edu>

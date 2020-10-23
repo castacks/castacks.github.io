@@ -1,5 +1,5 @@
 ---
-title: Air Lab
+title: AirLab
 subtitle: We research autonomous aerial robots
 layout: page
 show_sidebar: false

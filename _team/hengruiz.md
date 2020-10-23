@@ -8,7 +8,7 @@ image: /img/team/hengruiz640x480.png
 hide_footer: true
 ---
 
-Henry is a master student in the Air Lab at Robotics Institute, Carnegie Mellon 
+Henry is a master student in the AirLab at Robotics Institute, Carnegie Mellon 
 University. He currently focuses on thermal inertial odometry in subterranean 
 environments.
 

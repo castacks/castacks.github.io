@@ -1,5 +1,5 @@
 # Site Settings
-title: Air Lab
+title: AirLab
 tagline: We build intelligent aerial robots
 email: contact@theairlab.org
 description: >
@@ -58,7 +58,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Air Lab"
+      author: "AirLab"
       layout: post
       show_sidebar: true
 

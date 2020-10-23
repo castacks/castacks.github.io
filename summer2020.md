@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Air Lab Summer School
+title: AirLab Summer School
 subtitle: 6-10 July 2020
 show_sidebar: false
 hide_footer: false
@@ -538,7 +538,7 @@ Various labs will require these specifications:
     <tr>
       <td>
         <h4>4.1 Setup in Cloud and Cluster</h4>
-        <i>An intro to setting up infrastructure on the cloud & cluster and an overview of various Air Lab development operations tools</i>
+        <i>An intro to setting up infrastructure on the cloud & cluster and an overview of various AirLab development operations tools</i>
         <ul>
           <li>Docker</li>
           <li>Cluster & SLURM</li>
@@ -572,8 +572,8 @@ Various labs will require these specifications:
   <tbody>
     <tr>
       <td>
-        <h4>4.2 Air Lab Core Autonomy Stack</h4>
-        <i>An overview of the Air Lab Core Autonomy Stack, including the setup, walkthrough, and running examples</i>
+        <h4>4.2 AirLab Core Autonomy Stack</h4>
+        <i>An overview of the AirLab Core Autonomy Stack, including the setup, walkthrough, and running examples</i>
         <ul>
           <li>Behavior Trees</li>
           <li>Global and Local Planners</li>

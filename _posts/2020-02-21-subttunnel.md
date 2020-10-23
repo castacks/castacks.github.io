@@ -16,5 +16,5 @@ Congratulations to Team Explorer (CMU + OSU SubT Team) for winning the tunnel ci
 
 Read more about it in our linked article below:
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Team Explorer Places First in DARPA Subterranean Challenge Tunnel Circuit <a href="https://t.co/EbdTcjZ8oT">https://t.co/EbdTcjZ8oT</a></p>&mdash; Air Lab (@airlabcmu) <a href="https://twitter.com/airlabcmu/status/1203025791270948864?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Team Explorer Places First in DARPA Subterranean Challenge Tunnel Circuit <a href="https://t.co/EbdTcjZ8oT">https://t.co/EbdTcjZ8oT</a></p>&mdash; AirLab (@airlabcmu) <a href="https://twitter.com/airlabcmu/status/1203025791270948864?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </center>
