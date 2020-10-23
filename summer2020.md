@@ -134,7 +134,7 @@ Various labs will require these specifications:
         </ul>
         <a href="https://www.icloud.com/keynote/0Xvw5vU-4onTdsls9KCF3hJYA#Object_Detection_-_Airlab_Tutorial_Week">detection slides</a> |
         <a href="https://drive.google.com/file/d/1YEEzmm4W66Y11aOiV85lCJ9VZqmJiZaW/view?usp=sharing">tracking slides</a> |
-        <a href="https://docs.google.com/presentation/d/1iCvZ21RRh4KcZOkFcX5OxDrJL3Tzlxi3XCabYKL-UUc/edit?usp=sharing">tools slides</a>
+        <a href="https://docs.google.com/presentation/d/1iWB-YZalBz-FVvxxE2onWGF5wsE9CXV-Jk1zQWoXwm8/edit?usp=sharing">tools slides</a>
         <br>
         <a href="https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb">detection colab 1</a> |
         <a href="https://colab.research.google.com/drive/1aJ5t-54OTUL25NhQpuDEiEA2oh5U8n65?usp=sharing">detection colab 2</a> |
