@@ -32,14 +32,13 @@
     }
     </script>
 
-{% if entry.doi %}
+{% if entry.url %}
+<a href='{{ entry.url | escape }}'><input type='button' class='button1' value='link'/></a>
+{% elsif entry.doi %}
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input type='button' class='button1' value='link'/></a>
 {% endif %}
 {% if entry.preprint %}
 <a href="{{ entry.preprint }}"><input type='button' class='button2' value='preprint'/></a>
-{% endif %}
-{% if entry.url %}
-<a href='{{ entry.url | escape }}'><input type='button' class='button4' value='link'/></a>
 {% endif %}
 {% if entry.video %}
 <a href="{{ entry.video}}"><input type='button' class='button5' value='video'/></a>
