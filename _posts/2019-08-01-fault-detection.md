@@ -26,7 +26,7 @@ An early version of the source code for the method written in C++ (with ROS Kine
 
 ### Publications
 
-The real-time anomaly detection method for the autonomous aerial vehicles is described in the following publication ([PDF available on arXiv](https://arxiv.org/abs/1907.00511) and [IEEE Xplore](https://ieeexplore.ieee.org/document/8794286)): 
+The real-time anomaly detection method for the autonomous aerial vehicles is described in the following publication (access on [arXiv](https://arxiv.org/abs/1907.00511) or [IEEE Xplore](https://ieeexplore.ieee.org/document/8794286)): 
 
 *BibTeX:* 
 
@@ -50,7 +50,7 @@ A. Keipour, M. Mousaei, and S. Scherer, “Automatic Real-time Anomaly Detection
 
 <br/>
 
-The dataset is described [here](../alfa-dataset) and in the following publication ([PDF available on arXiv](https://arxiv.org/abs/1907.06268)):
+The dataset is described [here](../alfa-dataset) and in the following publication (access on [arXiv](https://arxiv.org/abs/1907.06268) or [The International Journal of Robotics Research website](https://doi.org/10.1177/0278364920966642)):
 
 *BibTeX:* 
 
@@ -59,17 +59,21 @@ The dataset is described [here](../alfa-dataset) and in the following publicatio
 author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer},
 title={ALFA: A Dataset for UAV Fault and Anomaly Detection},
 journal = {The International Journal of Robotics Research},
-volume = {},
-number = {},
-pages = {},
-year = {In press},
+volume = {0},
+number = {0},
+pages = {1-6},
+month = {October},
+year = {2020},
+doi = {10.1177/0278364920966642},
+URL = {https://doi.org/10.1177/0278364920966642},
+eprint = {https://doi.org/10.1177/0278364920966642}
 } 
 ```
 
 *IEEE Style:* 
 
 ```
-A. Keipour, M. Mousaei, and S. Scherer, “ALFA: A dataset for UAV fault and anomaly detection,” The International Journal of Robotics Research, In press. 
+A. Keipour, M. Mousaei, and S. Scherer, “ALFA: A dataset for UAV fault and anomaly detection,” The International Journal of Robotics Research, vol. 0. no.  0,  pp.  1–6,  October  2020.  [Online]. Available:https://doi.org/10.1177/0278364920966642
 ```
 
 <br/>
