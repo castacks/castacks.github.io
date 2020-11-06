@@ -68,6 +68,9 @@ hide_footer: false
 # 2008
 {% bibliography --query @*[year=2008] %}
 
+# 2007
+{% bibliography --query @*[year=2007] %}
+
 # 2006
 {% bibliography --query @*[year=2006] %}
 

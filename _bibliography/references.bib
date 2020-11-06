@@ -44,10 +44,12 @@ year = {2020}
 }
 
 @inproceedings{patrikar2020,
+abstract = {A high-quality estimate of wind fields can potentially improve the safety and performance of Unmanned Aerial Vehicles (UAVs) operating in dense urban areas. Computational Fluid Dynamics (CFD) simulations can help provide a wind field estimate, but their accuracy depends on the knowledge of the distribution of the inlet boundary conditions. This paper provides a real-time methodology using a Particle Filter (PF) that utilizes wind measurements from a UAV to solve the inverse problem of predicting the inlet conditions as the UAV traverses the flow field. A Gaussian Process Regression (GPR) approach is used as a surrogate function to maintain the real-time nature of the proposed methodology. Real-world experiments with a UAV at an urban test-site prove the efficacy of the proposed method. The flight test shows that the 95%confidence interval for the difference between the mean estimated inlet conditions and mean ground truth measurements closely bound zero, with the difference in mean angles being between −3.7° and 1.3° and the difference in mean magnitudes being between −0.2 m/s and 0.0 m/s. Video: https://youtu.be/U4XdYgSJRZM },
 author = {Patrikar, Jay and Moon, Brady and Scherer, Sebastian},
 booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) },
 title = {{Wind and the City: Utilizing UAV-Based In-Situ Measurements for Estimating Urban Wind Fields}},
 video = {https://youtu.be/U4XdYgSJRZM},
+url = {https://www.ri.cmu.edu/publications/wind-and-the-city-utilizing-uav-based-in-situ-measurements-for-estimating-urban-wind-fields/},
 year = {2020}
 }
 
@@ -134,7 +136,7 @@ title = {{A multi-sensor fusion MAV state estimation from long-range stereo, IMU
 volume = {17},
 year = {2017}
 }
-@techreport{Urmson_2007_6906,
+@techreport{Urmson_2008_6906,
 abstract = {This article presents a practical approach to engineering a robot to effectively navigate in an urban environment. Inherent in this approach is the use of relatively simple sensors, actuators, and processors to generate robot vision, intelligence, and planning. Sensor data are fused from multiple low-cost, two-dimensional laser scanners with an innovative rotational mount to provide three-dimensional coverage with image processing using both range and intensity data. Information is combined with Doppler radar returns to yield a world view processed by a context-based reasoning control system to yield tactical mission commands forwarded to traditional proportional-integral-derivative (PID) control loops. As an example of simplicity and robustness, steering control successfully utilized a relatively simple follow-the-carrot guidance approach that has been successfully demonstrated at speeds of 60 mph (97 km/h). The approach yielded a robot that reached the finals of the Urban Challenge and completed approximately 2 h of the event before being forced to withdraw as a result of a global positioning system data failure. {\textcopyright} 2008 Wiley Periodicals, Inc.},
 address = {Pittsburgh, PA},
 author = {Patz, Benjamin J. and Papelis, Yiannis and Pillat, Remo and Stein, Gary and Harper, Don},
@@ -199,7 +201,7 @@ isbn = {9781509046331},
 issn = {10504729},
 month = {may},
 pages = {109--116},
-title = {{A $\kappa$iTE in the wind: Smooth trajectory optimization in a moving reference frame}},
+title = {{A KITE in the wind: Smooth trajectory optimization in a moving reference frame}},
 year = {2017}
 }
 @inproceedings{Zhen:2018uf,
@@ -489,7 +491,7 @@ isbn = {9781538626825},
 issn = {21530866},
 month = {sep},
 pages = {1324--1330},
-title = {{DROAN - Disparity-space representation for obstacle AvoidaNce}},
+title = {{DROAN - Disparity-space representation for obstacle Avoidance}},
 volume = {2017-September},
 year = {2017}
 }
@@ -588,22 +590,7 @@ publisher = {IEEE},
 title = {{First results in detecting and avoiding frontal obstacles from a monocular camera for micro unmanned aerial vehicles}},
 year = {2013}
 }
-@inproceedings{SchererSinghChamberlain07,
-abstract = {Safe autonomous flight is essential for widespread acceptance of aircraft that must fly close to the ground. We have developed a method of collision avoidance that can be used in three dimensions in much the same way as autonomous ground vehicles that navigate over unexplored terrain. Safe navigation is accomplished by a combination of online environmental sensing, path planning and collision avoidance. Here we outline our methodology and report results with an autonomous helicopter that operates at low elevations in uncharted environments, some of which are densely populated with obstacles such as buildings, trees and wires. We have recently completed over 700 successful runs in which the helicopter traveled between coarsely specified waypoints separated by hundreds of meters, at speeds of up to 10 m s-1 at elevations of 5-11 m above ground level. The helicopter safely avoids large objects such as buildings and trees but also wires as thin as 6 mm. We believe this represents the first time an air vehicle has traveled this fast so close to obstacles. The collision avoidance method learns to avoid obstacles by observing the performance of a human operator. {\textcopyright} SAGE Publications 2008.},
-address = {Rome, Italy},
-author = {Scherer, Sebastian and Singh, Sanjiv and Chamberlain, Lyle and Elgersma, Mike},
-booktitle = {International Journal of Robotics Research},
-doi = {10.1177/0278364908090949},
-issn = {02783649},
-keywords = {Aerial robotics,Learning},
-month = {may},
-number = {5},
-pages = {549--574},
-publisher = {IEEE},
-title = {{Flying fast and low among obstacles: Methodology and experiments}},
-volume = {27},
-year = {2008}
-}
+
 @article{Scherer:2008kx,
 abstract = {Safe autonomous flight is essential for widespread acceptance of aircraft that must fly close to the ground. We have developed a method of collision avoidance that can be used in three dimensions in much the same way as autonomous ground vehicles that navigate over unexplored terrain. Safe navigation is accomplished by a combination of online environmental sensing, path planning and collision avoidance. Here we outline our methodology and report results with an autonomous helicopter that operates at low elevations in uncharted environments, some of which are densely populated with obstacles such as buildings, trees and wires. We have recently completed over 700 successful runs in which the helicopter traveled between coarsely specified waypoints separated by hundreds of meters, at speeds of up to 10 m s-1 at elevations of 5-11 m above ground level. The helicopter safely avoids large objects such as buildings and trees but also wires as thin as 6 mm. We believe this represents the first time an air vehicle has traveled this fast so close to obstacles. The collision avoidance method learns to avoid obstacles by observing the performance of a human operator. {\textcopyright} SAGE Publications 2008.},
 author = {Scherer, Sebastian and Singh, Sanjiv and Chamberlain, Lyle and Elgersma, Mike},
@@ -795,16 +782,6 @@ isbn = {142440259X},
 month = {oct},
 pages = {2663--2669},
 publisher = {IEEE},
-title = {{Learning to drive among obstacles}},
-year = {2006}
-}
-@inproceedings{Hamner:2005wu,
-abstract = {This paper reports on an outdoor mobile robot that learns to avoid collisions by observing a human driver operate a vehicle equipped with sensors that continuously produce a map of the local environment. We have implemented steering control that models human behavior in trying to avoid obstacles while trying to follow a desired path. Here we present the formulation for this control system and its independent parameters, and then show how these parameters can be automatically estimated by observation of a human driver. We present results from experiments with a vehicle (both real and simulated) that avoids obstacles while following a prescribed path at speeds up to 4 m/sec. We compare the proposed method with another method based on Principal Component Analysis, a commonly used learning technique. We find that the proposed method generalizes well and is capable of learning from a small number of examples. {\textcopyright} 2006 IEEE.},
-author = {Hamner, Bradley and Scherer, Sebastian and Singh, Sanjiv},
-booktitle = {IEEE International Conference on Intelligent Robots and Systems},
-doi = {10.1109/IROS.2006.281987},
-isbn = {142440259X},
-pages = {2663--2669},
 title = {{Learning to drive among obstacles}},
 year = {2006}
 }
@@ -1580,4 +1557,34 @@ pages = {3487--3494},
 title = {{Wire detection using synthetic data and dilated convolutional networks for unmanned aerial vehicles}},
 volume = {2017-September},
 year = {2017}
+}
+
+@inproceedings{SchererSinghChamberlain07,
+author = {Scherer, Sebastian and Singh, Sanjiv and Chamberlain, Lyle and Saripalli, Srikanth},
+title = {{Flying Fast and Low Among Obstacles}},
+booktitle = { IEEE International Conference on Robotics and Automation ICRA},
+year = {2007},
+pages = {2023--2029},
+publisher = {IEEE},
+address = {Rome, Italy},
+month = may
+}
+
+@inproceedings{Chambers:2011vm,
+author = {Chambers, Andrew and Achar, Supreeth and Nuske, Stephen and Rehder, Joern and Kitt, Bernd and Chamberlain, Lyle and Haines, Justin and Scherer, Sebastian and Singh, Sanjiv},
+title = {{Perception for a River Mapping Robot}},
+booktitle = {Workshop on 3D Exploration, Mapping, and Surveillance with Aerial Robots, RSS},
+year = {2011},
+month = jul
+}
+
+@techreport{Urmson_2007_6906,
+author = {Urmson, Christopher and Anhalt, Joshua and Bagnell, Drew and Baker, Christopher and Bittner, Robert and Dolan, John and Duggins, Dave and Ferguson, David and Galatali, and et al.},
+title = {{Tartan Racing: A Multi-Modal Approach to the DARPA Urban Challenge}},
+year = {2007},
+abstract={The Urban Challenge represents a technological leap beyond the previous Grand Challenges. The challenge encompasses three primary behaviors: driving on roads, handling intersections and maneuvering in zones. In implementing urban driving we have decomposed the problem into five components. Mission Planning determines an efficient route through an urban network of roads. A behavioral layer executes the route through the environment, adapting to local traffic and exceptional situations as necessary. A motion planning layer safeguards the robot by considering the feasible trajectories available, and selecting the best option. Perception combines data from lidar, radar and vision systems to estimate the location of other vehicles, static obstacles and the shape of the road. Finally, the robot is a mechatronic system engineered to provide the power, sensing and mobility necessary to navigate an urban course. Rigorous component and system testing evaluates progress using standardized tests. Observations from these experiments shape the design of subsequent development spirals and enable the rapid detection and correction of bugs. The system described in the paper exhibits a majority of the basic navigation and traffic skills required for the Urban Challenge. From these building blocks more advanced capabilities will quickly develop.}, 
+url={https://kilthub.cmu.edu/articles/journal_contribution/Tartan_Racing_A_Multi-Modal_Approach_to_the_DARPA_Urban_Challenge/6561125/1}, 
+DOI={10.1184/R1/6561125.v1}, 
+publisher={Carnegie Mellon University}, 
+month = {Apr}
 }
