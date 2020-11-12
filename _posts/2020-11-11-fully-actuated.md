@@ -5,7 +5,7 @@ date: 2020-01-11 10:50:07
 categories: research
 description: "Control, Analysis and Applications of Fully-Actuated UAVs"
 author: "Azarakhsh Keipour"
-published: false
+published: true
 sidebar: false
 permalink: /fully-actuated/
 image: /img/posts/2020-11-11-fully-actuated/fully-actuated.jpg
@@ -31,7 +31,7 @@ In summer 2020, the AirLab held an [online summer shcool](http://theairlab.org/s
 
 ### Source Code
 
-The source code for the PX4 autopilot modified to work with fully-actuated robots and enhanced with our thrust and attitude strategies can be found [here](https://github.com/keipour/Firmware). Note that the code has been published with our ICRA 2021 paper (under review). For the correct citation, please see the Publications section below.
+The source code for the PX4 autopilot modified to work with fully-actuated robots and enhanced with our thrust and attitude strategies can be found [here](https://github.com/castacks/PX4-fully-actuated). Note that the code has been published with our ICRA 2021 paper (under review). For the correct citation, please see the Publications section below.
 
 ### Publications
 
