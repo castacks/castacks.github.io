@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fully-Actuated UAVs: Control, Analysis and Applications"
-date: 2020-01-11 10:50:07
+date: 2020-11-11 10:50:07
 categories: research
 description: "Control, Analysis and Applications of Fully-Actuated UAVs"
 author: "Azarakhsh Keipour"
