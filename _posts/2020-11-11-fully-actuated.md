@@ -35,18 +35,19 @@ The source code for the PX4 autopilot modified to work with fully-actuated robot
 
 ### Publications
 
-The general design for the proposed controller along with the sets of attitude and thrust strategies are described in the following publication (access on [arXiv](https://arxiv.org/abs/): 
+The general design for the proposed controller along with the sets of attitude and thrust strategies are described in the following publication (access on [arXiv](https://arxiv.org/abs/2011.06666)): 
 
 *BibTeX:* 
 
 ```
-@inproceedings{keipour:icra:2021,
+@article{keipour:icra:2021,
 author={Azarakhsh Keipour and Mohammadreza Mousaei and Andrew Ashley and Sebastian Scherer},
 booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
-title={Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles},
-year={2021},
-pages={Under Review},
-} 
+title={Attitude and Thrust Strategies for Fully-Actuated Multirotors: The Fast-Track to Real-World Applications}, 
+year={in press},
+pages={1-7},
+link={https://arxiv.org/abs/2011.06666},
+}
 ```
 
 *IEEE Style:* 
