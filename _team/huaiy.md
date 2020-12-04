@@ -1,14 +1,14 @@
 ---
 title: Huai Yu
-subtitle: Visitor
-job_title: Visiting Scholar / Internship
-category: visitor
+subtitle: Postdoctor
+job_title: Postdoctoral Fellow
+category: postdoc
 layout: team_member_personal_page
 image: /img/team/huaiy.jpg
 hide_footer: true
 ---
 
-Huai is a visiting student in the AirLab at Robotics Institute, Carnegie Mellon University and  a  PhD student at [Wuhan Univeristy](http://dsp.whu.edu.cn). His research is about 2D-3D visual correspondences and camera localization.
+Huai Yu is a post-doc in the AirLab at Robotics Institute, Carnegie Mellon University. He received his Ph.D. degree in Communication and Information System from Wuhan University in Nov. 2020. His research is about 2D-3D visual correspondences and camera localization.
 
 [Website](https://levenberg.github.io)
 
