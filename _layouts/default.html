@@ -2,6 +2,8 @@
     {% assign content_width = 'is-4' %} 
 {% elsif page.menubar or page.show_sidebar %}
     {% assign content_width = 'is-8' %}
+{% elsif page.slim_content_width %}
+    {% assign content_width = 'is-8' %} 
 {% else %}
     {% assign content_width = 'is-12' %} 
 {% endif %}
@@ -16,6 +18,11 @@
                 {% if page.menubar %}
                 <div class="column is-4-desktop is-4-tablet">
                     {% include menubar.html %}
+                </div>
+                {% endif %}
+                {% if page.slim_content_width %}
+                <div class="column is-2">
+
                 </div>
                 {% endif %}
                 <div class="column {{ content_width }}">
