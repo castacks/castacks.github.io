@@ -2,7 +2,9 @@
 <div class="card" style="height: 100%;">
     {% if post.image %}
     <div class="card-image">
-        <img src="{{ post.image }}" alt="{{ post.title }}" style="text-align:center">
+        <figure class="image is-4by3">
+            <img src="{{ post.image }}" alt="{{ post.title }}" style="object-fit: cover">
+        </figure>
     </div>
     {% else %}
     <header class="card-header">
@@ -12,9 +14,9 @@
     <div class="card-content">
         <div class="content">
             {% if post.image %}
-            <div class="title is-4">{{ post.title}}</div>
+            <div class="title is-5">{{ post.title}}</div>
             {% endif %}
-            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
+            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
         </div>
     </div>
     <footer class="card-footer">
