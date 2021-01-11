@@ -10,6 +10,98 @@ url = {https://arxiv.org/abs/2011.06666},
 video = {https://www.youtube.com/watch?v=lZ3ye1il0W0},
 year = {in press}
 }
+
+
+@article{zhao2020robust,
+  title={A Robust Laser-Inertial Odometry and Mapping Method for Large-Scale Highway Environments},
+  author={Zhao, Shibo and Fang, Zheng and Li, HaoLai and Scherer, Sebastian},
+  journal={arXiv preprint arXiv:2009.02622},
+  year={2020}
+}
+
+@article{izquierdo2020feasibility,
+  title={Feasibility of discriminating UAV propellers noise from distress signals to locate people in enclosed environments using MEMS microphone arrays},
+  author={Izquierdo, Alberto and Val, Lara Del and Villacorta, Juan J and Zhen, Weikun and Scherer, Sebastian and Fang, Zheng},
+  journal={Sensors},
+  volume={20},
+  number={3},
+  pages={597},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@inproceedings{chandarana2020human,
+  title={Human-in-the-loop Planning and Monitoring of Swarm Search and Service Missions},
+  author={Chandarana, Meghan and Lewis, Michael and Sycara, Katia and Scherer, Sebastin},
+  booktitle={International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS'2020)},
+  year={2020},
+  organization={IFMAS}
+}
+
+@article{he2021model,
+  title={Model-based real-time robust controller for a small helicopter},
+  author={He, Miaolei and He, Jilin and Scherer, Sebastian},
+  journal={Mechanical Systems and Signal Processing},
+  volume={146},
+  pages={107022},
+  year={2021},
+  publisher={Academic Press}
+}
+
+@article{dai2020rgb,
+  title={RGB-D SLAM in Dynamic Environments Using Point Correlations},
+  author={Dai, Weichen and Zhang, Yu and Li, Ping and Fang, Zheng and Scherer, Sebastian},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{wang2020lifelong,
+  title={Lifelong Graph Learning},
+  author={Wang, Chen and Qiu, Yuheng and Scherer, Sebastian},
+  journal={arXiv preprint arXiv:2009.00647},
+  year={2020}
+}
+
+@inproceedings{patrikar2020real,
+  title={Real-time Motion Planning of Curvature Continuous Trajectories for Urban UAV Operations in Wind},
+  author={Patrikar, Jay and Dugar, Vishal and Arcot, Vaibhav and Scherer, Sebastian},
+  booktitle={2020 International Conference on Unmanned Aircraft Systems (ICUAS)},
+  pages={854--861},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{fang20203d,
+  title={3D-SiamRPN: An End-to-end Learning Method for Real-time 3D Single Object Tracking using Raw Point Cloud},
+  author={Fang, Zheng and Zhou, Sifan and Cui, Yubo and Scherer, Sebastian},
+  journal={IEEE Sensors Journal},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{li2020ulsd,
+  title={ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras},
+  author={Li, Hao and Yu, Huai and Yang, Wen and Yu, Lei and Scherer, Sebastian},
+  journal={arXiv preprint arXiv:2011.03174},
+  year={2020}
+}
+
+@article{bucker2020you,
+  title={Do You See What I See? Coordinating Multiple Aerial Cameras for Robot Cinematography},
+  author={Bucker, Arthur and Bonatti, Rogerio and Scherer, Sebastian},
+  journal={arXiv preprint arXiv:2011.05437},
+  year={2020}
+}
+
+@article{bonatti2020batteries,
+  title={Batteries, camera, action! Learning a semantic control space for expressive robot cinematography},
+  author={Bonatti, Rogerio and Bucker, Arthur and Scherer, Sebastian and Mukadam, Mustafa and Hodgins, Jessica},
+  journal={arXiv preprint arXiv:2011.10118},
+  year={2020}
+}
+
+
 @article{tartanvo2020corl,
   abstract = {We present the first learning-based visual odometry (VO) model, which generalizes to multiple datasets and real-world scenarios and outperforms geometry-based methods in challenging scenes. We achieve this by leveraging the SLAM dataset TartanAir, which provides a large amount of diverse synthetic data in challenging environments. Furthermore, to make our VO model generalize across datasets, we propose an up-to-scale loss function and incorporate the camera intrinsic parameters into the model. Experiments show that a single model, TartanVO, trained only on synthetic data, without any finetuning, can be generalized to real-world datasets such as KITTI and EuRoC, demonstrating significant advantages over the geometry-based methods on challenging trajectories. Our code is available at https://github.com/castacks/tartanvo},
   title =   {TartanVO: A Generalizable Learning-based VO},
@@ -795,6 +887,16 @@ publisher = {IEEE},
 title = {{Learning to drive among obstacles}},
 year = {2006}
 }
+
+@inproceedings{chandarana2019hybrid,
+  title={Hybrid Model for A Priori Performance Prediction of Multi-Job Type Swarm Search and Service Missions},
+  author={Chandarana, Meghan and Hughes, Dana and Lewis, Michael and Sycara, Katia and Scherer, Sebastian},
+  booktitle={2019 19th International Conference on Advanced Robotics (ICAR)},
+  pages={714--719},
+  year={2019},
+  organization={IEEE}
+}
+
 @article{Bonatti:2019vp,
 abstract = {Machines are a long way from robustly solving open-world perception-control tasks, such as first-person view (FPV) aerial navigation. While recent advances in end-to-end Machine Learning, especially Imitation and Reinforcement Learning appear promising, they are constrained by the need of large amounts of difficult-to-collect labeled real-world data. Simulated data, on the other hand, is easy to generate, but generally does not render safe behaviors in diverse real-life scenarios. In this work we propose a novel method for learning robust visuomotor policies for real-world deployment which can be trained purely with simulated data. We develop rich state representations that combine supervised and unsupervised environment data. Our approach takes a cross-modal perspective, where separate modalities correspond to the raw camera data and the system states relevant to the task, such as the relative pose of gates to the drone in the case of drone racing. We feed both data modalities into a novel factored architecture, which learns a joint low-dimensional embedding via Variational Auto Encoders. This compact representation is then fed into a control policy, which we trained using imitation learning with expert trajectories in a simulator. We analyze the rich latent spaces learned with our proposed representations, and show that the use of our cross-modal architecture significantly improves control policy performance as compared to end-to-end learning or purely unsupervised feature extractors. We also present real-world results for drone navigation through gates in different track configurations and environmental conditions. Our proposed method, which runs fully onboard, can successfully generalize the learned representations and policies across simulation and reality, significantly outperforming baseline approaches. Supplementary video: https://youtu.be/VKc3A5HlUU8},
 archivePrefix = {arXiv},
