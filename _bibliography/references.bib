@@ -427,7 +427,7 @@ booktitle = {Springer Tracts in Advanced Robotics},
 doi = {10.1007/978-3-319-07488-7_7},
 isbn = {9783319074870},
 issn = {1610742X},
-month = {dec},
+month = dec,
 pages = {93--106},
 title = {{Autonomous river exploration}},
 volume = {105},
@@ -1079,14 +1079,16 @@ year = {2011}
 abstract = {Micro-air vehicles have been increasingly employed in diverse research projects in both military and civilian applications. That is because their high maneuverability and accurate mobility. Many of them have been successfully used in outdoor areas, while some have been operated indoors. However, very few have dedicated especial attention to the case of high pitch and roll movements while doing scan-line based odometry. In this paper, we present a general approach consisting of algorithms that enable small aerial robots to fly indoors. We solve the overall problem of large movement change in pitch and roll angles by improving the standard scan matching algorithm. We also validate the effectiveness of the upgraded algorithm by a set of experiments that demonstrate the ability of a small quad-rotor to autonomously operate in cluttered indoor scenarios.},
 address = {Pittsburgh, PA},
 author = {Molero, Rudolph and Scherer, Sebastian and Chamberlain, Lyle J},
-booktitle = {Cmu-Ri-Tr-10-08},
+booktitle = {CMU-RI-TR-10-08},
 institution = {Carnegie Mellon University},
 keywords = {GPS-denied,MAV,UAV,control,navigation},
-month = {jun},
+month = jun,
 number = {CMU-RI-TR-10-08},
 title = {{Navigation and Control for Micro Aerial Vehicles in GPS-Denied Environments}},
 year = {2011}
 }
+
+
 @article{Choudhury:2017tka,
 abstract = {Robotic motion-planning problems, such as a UAV flying fast in a partially-known environment or a robot arm moving around cluttered objects, require finding collision-free paths quickly. Typically, this is solved by constructing a graph, where vertices represent robot configurations and edges represent potentially valid movements of the robot between these configurations. The main computational bottlenecks are expensive edge evaluations to check for collisions. State of the art planning methods do not reason about the optimal sequence of edges to evaluate in order to find a collision free path quickly. In this paper, we do so by drawing a novel equivalence between motion planning and the Bayesian active learning paradigm of decision region determination (DRD). Unfortunately, a straight application of existing methods requires computation exponential in the number of edges in a graph. We present BISECT, an efficient and near-optimal algorithm to solve the DRD problem when edges are independent Bernoulli random variables. By leveraging this property, we are able to significantly reduce computational complexity from exponential to linear in the number of edges. We show that BISECT outperforms several state of the art algorithms on a spectrum of planning problems for mobile robots, manipulators, and real flight data collected from a full scale helicopter.},
 author = {Choudhury, Sanjiban and Javdani, Shervin and Srinivasa, Siddhartha and Scherer, Sebastian},
@@ -1343,7 +1345,7 @@ title = {{River mapping from a flying robot: State estimation, river detection, 
 volume = {33},
 year = {2012}
 }
-@article{Chamberlain:2013hn,
+@article{Chamberlain:2013,
 abstract = {We're standing on the edge of the hot Arizona tarmac, radio in hand, holding our breath as the helicopter passes 50 meters overhead. We watch as the precious sensor on its blunt nose scans every detail of the area, the test pilot and engineer looking down with coolly professional curiosity as they wait for the helicopter to decide where to land. They¿re just onboard observers. The helicopter itself is in charge here. {\textcopyright} 1964-2012 IEEE.},
 author = {Chamberlain, Lyle and Scherer, Sebastian},
 doi = {10.1109/MSPEC.2013.6607012},
@@ -1355,6 +1357,7 @@ title = {{Robocopters to the rescue}},
 volume = {50},
 year = {2013}
 }
+
 @article{Fang:2017ho,
 abstract = {This paper addresses the problem of autonomous navigation of a micro aerial vehicle (MAV) for inspection and damage assessment inside a constrained shipboard environment, which might be perilous or inaccessible for humans, especially in emergency scenarios. The environment is GPS-denied and visually degraded, containing narrow passageways, doorways, and small objects protruding from the wall. This causes existing two-dimensional LIDAR, vision, or mechanical bumper-based autonomous navigation solutions to fail. To realize autonomous navigation in such challenging environments, we first propose a robust state estimation method that fuses estimates from a real-time odometry estimation algorithm and a particle filtering localization algorithm with other sensor information in a two-layer fusion framework. Then, an online motion-planning algorithm that combines trajectory optimization with a receding horizon control framework is proposed for fast obstacle avoidance. All the computations are done in real time on the onboard computer. We validate the system by running experiments under different environmental conditions in both laboratory and practical shipboard environments. The field experiment results of over 10 runs show that our vehicle can robustly navigate 20-m-long and only 1-m-wide corridors and go through a very narrow doorway (66-cm width, only 4-cm clearance on each side) autonomously even when it is completely dark or full of light smoke. These experiments show that despite the challenges associated with flying robustly in challenging shipboard environments, it is possible to use a MAV to autonomously fly into a confined shipboard environment to rapidly gather situational information to guide firefighting and rescue efforts.},
 author = {Fang, Zheng and Yang, Shichao and Jain, Sezal and Dubey, Geetesh and Roth, Stephan and Maeta, Silvio and Nuske, Stephen and Zhang, Yu and Scherer, Sebastian},
@@ -1688,50 +1691,7 @@ publisher={Carnegie Mellon University},
 month = {Apr}
 }
 
-@Article{Keipour2019a,
-  author        = {Keipour, Azarakhsh and Mousaei, Mohammadreza and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles}},
-  year          = {2019},
-  month         = jun,
-  pages         = {5679--5685},
-  annote        = {2019 IEEE International Conference on Robotics and Automation (ICRA) [7 pages, 7 figures]},
-  archiveprefix = {arxiv},
-  eprint        = {1907.00511v1},
-  primaryclass  = {eess.SY},
-}
 
-@InProceedings{Bonatti2018,
-  author    = {Bonatti, Rogerio and Yanfu, Zhang and Choudhury, Sanjiban and Wang, Wenshan and Scherer, Sebastian},
-  booktitle = {International Symposium on Experimental Robotics},
-  title     = {{Autonomous drone cinematographer: Using artistic principles to create smooth, safe, occlusion-free trajectories for aerial filming}},
-  year      = {2018},
-  month     = nov,
-  publisher = {Springer},
-}
-
-@Article{Das2018,
-  author        = {Das, Manash Pratim and Dong, Zhen and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{Joint Point Cloud and Image Based Localization For Efficient Inspection in Mixed Reality}},
-  year          = {2018},
-  month         = nov,
-  pages         = {6357--6363},
-  archiveprefix = {arxiv},
-  eprint        = {1811.02563v1},
-  primaryclass  = {cs.RO},
-}
-
-@Article{Dorneich2015,
-  author  = {Dorneich, Michael Christian and Letsu-Dake, Emmanuel and Singh, Sanjiv and Scherer, Sebastian and Chamberlain, Lyle and Bergerman, Marcel},
-  journal = {Journal of Human-Robot Interaction},
-  title   = {{Mixed-Initiative Control of a Roadable Air Vehicle for Non-Pilots}},
-  year    = {2015},
-  month   = jan,
-  number  = {3},
-  pages   = {38{\textendash}61},
-  volume  = {4},
-}
 
 @Article{Hu2019,
   author        = {Hu, Yaoyu and Zhen, Weikun and Scherer, Sebastian},
@@ -1757,14 +1717,6 @@ month = {Apr}
   primaryclass  = {cs.CV},
 }
 
-@InProceedings{Yanfu2018,
-  author    = {Yanfu, Zhang and Wang, Wenshan and Bonatti, Rogerio and Maturana, Daniel and Scherer, Sebastian},
-  booktitle = {Conference on Robot Learning},
-  title     = {{Integrating kinematics and environment context into deep inverse reinforcement learning for predicting off-road vehicle trajectories}},
-  year      = {2018},
-  month     = oct,
-  publisher = {Journal of Machine Learning Research},
-}
 
 @Article{Yang2017,
   author        = {Yang, Shichao and Scherer, Sebastian},
@@ -1790,31 +1742,6 @@ month = {Apr}
   primaryclass  = {cs.RO},
 }
 
-@InProceedings{Yang2017a,
-  author    = {Shichao Yang and Scherer, Sebastian},
-  booktitle = {IEEE International Conference on Robotics and Automation ICRA},
-  title     = {{Direct Monocular Odometry Using Points and Lines}},
-  year      = {2017},
-  address   = {Singapore, Singapore},
-  month     = may,
-}
-
-@InProceedings{Jain2013,
-  author    = {Jain, Sezal and Nuske, Stephen and Chambers, Andrew and Yoder, Luke and Scherer, Sebastian and Singh, Sanjiv},
-  booktitle = {Field and Service Robotics},
-  title     = {{Autonomous River Exploration}},
-  year      = {2013},
-  address   = {Brisbanne, Australia},
-  month     = dec,
-}
-
-@InProceedings{Choudhury2017,
-  author    = {Choudhury, Sanjiban and Javdani, Shervin and Srinivasa, Siddhartha and Scherer, Sebastian},
-  booktitle = {Advances in Neural Information Processing Systems 30 (NIPS 2017) pre-proceedings},
-  title     = {{Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs}},
-  year      = {2017},
-  pages     = {4634--4644},
-}
 
 @InProceedings{Liu2017,
   author    = {Liu, Xiangzeng and Ai, Yunfeng and Scherer, Sebastian},
@@ -1824,29 +1751,7 @@ month = {Apr}
   month     = sep,
 }
 
-@Article{Yang2017b,
-  author        = {Yang, Shichao and Song, Yu and Kaess, Michael and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{Pop-up SLAM: Semantic Monocular Plane SLAM for Low-texture Environments}},
-  year          = {2017},
-  month         = mar,
-  annote        = {International Conference on Intelligent Robots and Systems (IROS) 2016},
-  archiveprefix = {arxiv},
-  eprint        = {1703.07334v1},
-  primaryclass  = {cs.CV},
-}
 
-@InCollection{Ju2015,
-  author    = {Ju, Jaeyong and Yang, Cheoljong and Scherer, Sebastian and Ko, Hanseok},
-  booktitle = {Advances in Multimedia Information Processing -- PCM},
-  publisher = {Springer},
-  title     = {{Recognition of Human Group Activity for Video Analytics}},
-  year      = {2015},
-  address   = {Cham},
-  editor    = {Ho, Yo-Sung and Sang, Jitao and Ro, Yong Man and Kim, Junmo and Wu, Fei},
-  month     = sep,
-  pages     = {735},
-}
 
 @Article{Bonatti2018a,
   author        = {Bonatti, Rogerio and Zhang, Yanfu and Choudhury, Sanjiban and Wang, Wenshan and Scherer, Sebastian},
@@ -1859,15 +1764,7 @@ month = {Apr}
   primaryclass  = {cs.RO},
 }
 
-@Article{Chamberlain2013,
-  author  = {Chamberlain, Lyle and Scherer, Sebastian},
-  journal = {Spectrum, IEEE},
-  title   = {{Robocopters to the rescue}},
-  year    = {2013},
-  number  = {10},
-  pages   = {28--33},
-  volume  = {50},
-}
+
 
 @Article{Choudhury2017a,
   author        = {Choudhury, Sanjiban and Srinivasa, Siddhartha and Scherer, Sebastian},
@@ -1891,22 +1788,8 @@ month = {Apr}
   primaryclass  = {cs.RO},
 }
 
-@InProceedings{Zhen2017,
-  author    = {Zhen, Weikun and Zeng, Sam and Scherer, Sebastian},
-  booktitle = {IEEE International Conference on Robotics and Automation ICRA},
-  title     = {{Robust Localization and Localizability Estimation with a Rotating Laser Scanner}},
-  year      = {2017},
-  address   = {Singapore, Singapore},
-  month     = may,
-}
 
-@Article{Choudhury2015,
-  author  = {Choudhury, Sanjiban and Scherer, Sebastian and Bagnell, J A},
-  journal = {Proceedings of Robotics Science and Systems},
-  title   = {{Theoretical Limits of Speed and Resolution for Kinodynamic Planning in a Poisson Forest}},
-  year    = {2015},
-  volume  = {11},
-}
+
 
 @Article{Bonatti2019,
   author        = {Bonatti, Rogerio and Madaan, Ratnesh and Vineet, Vibhav and Scherer, Sebastian and Kapoor, Ashish},
@@ -1919,29 +1802,7 @@ month = {Apr}
   primaryclass  = {cs.CV},
 }
 
-@TechReport{MoleroFernandez2011,
-  author  = {Molero Fernandez, Rudolph and Scherer, Sebastian and Chamberlain, Lyle and Singh, Sanjiv},
-  title   = {{Navigation and Control for Micro Aerial Vehicles in GPS-Denied Environments}},
-  year    = {2011},
-  address = {Pittsburgh, PA},
-  month   = jun,
-  number  = {CMU-RI-TR-10-08},
-  school  = {Carnegie Mellon University},
-}
 
-@Article{Yang2018,
-  author        = {Yang, Shichao and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{CubeSLAM: Monocular 3D Object SLAM}},
-  year          = {2018},
-  month         = jun,
-  number        = {4},
-  pages         = {925--938},
-  annote        = {IEEE Transactions on Robotics},
-  archiveprefix = {arxiv},
-  eprint        = {1806.00557v2},
-  primaryclass  = {cs.RO},
-}
 
 @Article{Bonatti2019a,
   author        = {Bonatti, Rogerio and Wang, Wenshan and Ho, Cherie and Ahuja, Aayush and Gschwindt, Mirko and Camci, Efe and Kayacan, Erdal and Choudhury, Sanjiban and Scherer, Sebastian},
