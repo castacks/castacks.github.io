@@ -3,13 +3,13 @@
 abstract = {The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots. As far as we know, all the groups currently working on the fully-actuated multirotors develop new full-pose (6-D) tools and methods to use their robots, which is inefficient, time-consuming, and requires many resources. We propose methods that extend the existing flight controllers to support the new fully-actuated robots and bridge the gap between the tools already available for underactuated robots and the new fully-actuated vehicles. We introduce attitude strategies that work with the underactuated planners, controllers, tools, and remote control interfaces, all while allowing taking advantage of the full actuation. Moreover, new methods are proposed that can properly handle the limited lateral thrust suffered by many fully-actuated UAV designs. The strategies are lightweight, simple, and allow rapid integration of the available tools with these new vehicles for the fast development of new real-world applications. The real experiments on our robots and simulations on several UAV architectures show how the strategies can be utilized. The source code of the PX4 firmware enhanced with the proposed methods and its simulator with our fully-actuated hexarotor model are provided with this paper. For more information, please visit https://theairlab.org/fully-actuated/.},
 archivePrefix = {arXiv},
 arxivId = {2011.06666},
+journal={arXiv preprint arXiv:2011.06666},
 author={Azarakhsh Keipour and Mohammadreza Mousaei and Andrew Ashley and Sebastian Scherer},
 eprint = {2011.06666},
-pages = {1-7},
 title={Attitude and Thrust Strategies for Fully-Actuated Multirotors: The Fast-Track to Real-World Applications}, 
 url = {https://arxiv.org/abs/2011.06666},
 video = {https://www.youtube.com/watch?v=lZ3ye1il0W0},
-year = {in press}
+year = {2020}
 }
 
 
@@ -21,7 +21,7 @@ year = {in press}
 }
 
 @article{izquierdo2020feasibility,
-  title={Feasibility of discriminating UAV propellers noise from distress signals to locate people in enclosed environments using MEMS microphone arrays},
+  title={Feasibility of discriminating {UAV} propellers noise from distress signals to locate people in enclosed environments using {MEMS} microphone arrays},
   author={Izquierdo, Alberto and Val, Lara Del and Villacorta, Juan J and Zhen, Weikun and Scherer, Sebastian and Fang, Zheng},
   journal={Sensors},
   volume={20},
@@ -50,11 +50,12 @@ year = {in press}
 }
 
 @article{dai2020rgb,
-  title={RGB-D SLAM in Dynamic Environments Using Point Correlations},
+  title={{RGB-D SLAM} in Dynamic Environments Using Point Correlations},
   author={Dai, Weichen and Zhang, Yu and Li, Ping and Fang, Zheng and Scherer, Sebastian},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2020},
-  publisher={IEEE}
+  publisher={IEEE},  
+  doi={10.1109/TPAMI.2020.3010942}
 }
 
 @article{wang2020lifelong,
@@ -65,31 +66,31 @@ year = {in press}
 }
 
 @inproceedings{patrikar2020real,
-  title={Real-time Motion Planning of Curvature Continuous Trajectories for Urban UAV Operations in Wind},
+  title={Real-time Motion Planning of Curvature Continuous Trajectories for Urban {UAV} Operations in Wind},
   author={Patrikar, Jay and Dugar, Vishal and Arcot, Vaibhav and Scherer, Sebastian},
   booktitle={2020 International Conference on Unmanned Aircraft Systems (ICUAS)},
   pages={854--861},
-  year={2020},
-  organization={IEEE}
+  year={2020}
 }
 
 @article{fang20203d,
-  title={3D-SiamRPN: An End-to-end Learning Method for Real-time 3D Single Object Tracking using Raw Point Cloud},
+  title={{3D-SiamRPN}: {An} End-to-end Learning Method for Real-time {3D} Single Object Tracking using Raw Point Cloud},
   author={Fang, Zheng and Zhou, Sifan and Cui, Yubo and Scherer, Sebastian},
   journal={IEEE Sensors Journal},
   year={2020},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/JSEN.2020.3033034}
 }
 
 @article{li2020ulsd,
-  title={ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras},
+  title={{ULSD:} {Unified} Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras},
   author={Li, Hao and Yu, Huai and Yang, Wen and Yu, Lei and Scherer, Sebastian},
   journal={arXiv preprint arXiv:2011.03174},
   year={2020}
 }
 
 @article{bucker2020you,
-  title={Do You See What I See? Coordinating Multiple Aerial Cameras for Robot Cinematography},
+  title={Do You See What I See? {Coordinating} Multiple Aerial Cameras for Robot Cinematography},
   author={Bucker, Arthur and Bonatti, Rogerio and Scherer, Sebastian},
   journal={arXiv preprint arXiv:2011.05437},
   year={2020}
@@ -103,9 +104,9 @@ year = {in press}
 }
 
 
-@article{tartanvo2020corl,
+@inproceedings{tartanvo2020corl,
   abstract = {We present the first learning-based visual odometry (VO) model, which generalizes to multiple datasets and real-world scenarios and outperforms geometry-based methods in challenging scenes. We achieve this by leveraging the SLAM dataset TartanAir, which provides a large amount of diverse synthetic data in challenging environments. Furthermore, to make our VO model generalize across datasets, we propose an up-to-scale loss function and incorporate the camera intrinsic parameters into the model. Experiments show that a single model, TartanVO, trained only on synthetic data, without any finetuning, can be generalized to real-world datasets such as KITTI and EuRoC, demonstrating significant advantages over the geometry-based methods on challenging trajectories. Our code is available at https://github.com/castacks/tartanvo},
-  title =   {TartanVO: A Generalizable Learning-based VO},
+  title =   {{TartanVO: A} Generalizable Learning-based {VO}},
   author =  {Wang, Wenshan and Hu, Yaoyu and Scherer, Sebastian},
   booktitle = {Conference on Robot Learning (CoRL)},
   url = {https://arxiv.org/abs/2011.00359},
@@ -122,10 +123,10 @@ eprint = {1907.06268},
 issn = {0278-3649},
 journal = {The International Journal of Robotics Research},
 keywords = {Dataset,actuator failure,anomaly detection,autonomous robots,engine failure,evaluation metrics,fault detection and isolation,fixed-wing robots,flight safety,unmanned aerial vehicles},
-month = {oct},
+month = oct,
 pages = {027836492096664},
 publisher = {SAGE Publications Ltd STM},
-title = {{ALFA: A dataset for UAV fault and anomaly detection}},
+title = {{ALFA:} A dataset for {UAV} fault and anomaly detection},
 url = {https://arxiv.org/abs/1907.06268},
 year = {2020}
 }
@@ -133,7 +134,7 @@ year = {2020}
 @InProceedings{jaekel2020,
   author    = {Jaekel, Joshua and Mangelson, Joshua and Scherer, Sebastian and Kaess, Michael},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title     = {{A Robust Multi-Stereo Visual-Inertial Odometry Pipeline}},
+  title     = {A Robust Multi-Stereo Visual-Inertial Odometry Pipeline},
   year      = {2020},
   abstract  = {In this paper we present a novel multi-stereo visual-inertial odometry (VIO) framework which aims to improve the robustness of a robotâ€™s state estimate during aggressive motion and in visually challenging environments. Our system uses a fixed-lag smoother which jointly optimizes for poses and landmarks across all stereo pairs. We propose a 1-point RANdom SAmple Consensus (RANSAC) algorithm which is able to perform outlier rejection across features from all stereo pairs. To handle the problem of noisy extrinsics, we account for uncertainty in the calibration of each stereo pair and model it in both our front-end and back-end. The result is a VIO system which is able to maintain an accurate state estimate under conditions that have typically proven to be challenging for traditional state-of-the-art VIO systems. We demonstrate the benefits of our proposed multi-stereo algorithm by evaluating it with both simulated and real world data. We show that our proposed algorithm is able to maintain a state estimate in scenarios where traditional VIO algorithms fail.},
   url       = {https://www.cs.cmu.edu/%7Ekaess/pub/Jaekel20iros.html},
@@ -142,7 +143,7 @@ year = {2020}
 @InProceedings{dexheimer2020,
   author    = {Dexheimer, Eric and Mangelson, Joshua and Scherer, Sebastian and Kaess, Michael},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title     = {{Efficient Multiresolution Scrolling Grid for Stereo Vision-based MAV Obstacle Avoidance}},
+  title     = {Efficient Multiresolution Scrolling Grid for Stereo Vision-based {MAV} Obstacle Avoidance},
   year      = {2020},
   abstract  = {Fast, aerial navigation in cluttered environments requires a suitable map representation for path planning. In this paper, we propose the use of an efficient, structured multiresolution representation that expands the sensor range of dense local grids for memory-constrained platforms. While similar data structures have been proposed, we avoid processing redundant occupancy information and use the organization of the grid to improve efficiency. By layering 3D circular buffers that double in resolution at each level, obstacles near the robot are represented at finer resolutions while coarse spatial information is maintained at greater distances. We also introduce a novel method for efficiently calculating the Euclidean distance transform on the multiresolution grid by leveraging its structure. Lastly, we utilize our proposed framework to demonstrate improved stereo camera-based MAV obstacle avoidance with an optimization-based planner in simulation.},
   url       = {https://www.cs.cmu.edu/%7Ekaess/pub/Dexheimer20iros.html},
@@ -151,7 +152,7 @@ year = {2020}
 @InProceedings{patrikar2020,
   author    = {Patrikar, Jay and Moon, Brady and Scherer, Sebastian},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title     = {{Wind and the City: Utilizing UAV-Based In-Situ Measurements for Estimating Urban Wind Fields}},
+  title     = {Wind and the City: Utilizing {UAV}-Based In-Situ Measurements for Estimating Urban Wind Fields},
   year      = {2020},
   abstract  = {A high-quality estimate of wind fields can potentially improve the safety and performance of Unmanned Aerial Vehicles (UAVs) operating in dense urban areas. Computational Fluid Dynamics (CFD) simulations can help provide a wind field estimate, but their accuracy depends on the knowledge of the distribution of the inlet boundary conditions. This paper provides a real-time methodology using a Particle Filter (PF) that utilizes wind measurements from a UAV to solve the inverse problem of predicting the inlet conditions as the UAV traverses the flow field. A Gaussian Process Regression (GPR) approach is used as a surrogate function to maintain the real-time nature of the proposed methodology. Real-world experiments with a UAV at an urban test-site prove the efficacy of the proposed method. The flight test shows that the 95%confidence interval for the difference between the mean estimated inlet conditions and mean ground truth measurements closely bound zero, with the difference in mean angles being between −3.7° and 1.3° and the difference in mean magnitudes being between −0.2 m/s and 0.0 m/s. Video: https://youtu.be/U4XdYgSJRZM},
   url       = {https://www.ri.cmu.edu/publications/wind-and-the-city-utilizing-uav-based-in-situ-measurements-for-estimating-urban-wind-fields/},
@@ -161,7 +162,7 @@ year = {2020}
 @InProceedings{shibo2020,
   author    = {Zhao, Shibo and Wang, Peng and Zhang, Hengrui and Fang, Zheng and Scherer, Sebastian},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title     = {{TP-TIO: A Robust Thermal-Inertial Odometry with Deep ThermalPoint}},
+  title     = {{TP-TIO: A} Robust Thermal-Inertial Odometry with Deep ThermalPoint},
   year      = {2020},
   video     = {https://youtu.be/sBqW6GD9Vjg},
 }
@@ -169,7 +170,7 @@ year = {2020}
 @InProceedings{vai2020,
   author    = {Viswanathan, Vaibhav and Dexheimer, Eric and Li, Guanrui and Loianno, Giuseppe and Kaess, Michael and Scherer, Sebastian},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title     = {{Efficient Trajectory Library Filtering for Quadrotor Flight in Unknown Environments}},
+  title     = {Efficient Trajectory Library Filtering for Quadrotor Flight in Unknown Environments},
   year      = {2020},
   video     = {https://youtu.be/y_lVtT8lJMk},
 }
@@ -177,9 +178,9 @@ year = {2020}
 @InProceedings{wang2020visual,
   author    = {Wang, Chen and Wang, Wenshan and Qiu, Yuheng and Hu, Yafei and Scherer, Sebastian},
   booktitle = {European Conference on Computer Vision (ECCV)},
-  title     = {{Visual Memorability for Robotic Interestingness via Unsupervised Online Learning}},
+  title     = {Visual Memorability for Robotic Interestingness via Unsupervised Online Learning},
   year      = {2020},
-  publisher = {Springer},
+  
   abstract  = {In this paper, we aim to solve the problem of interesting scene prediction for mobile robots. This area is currently under explored but is crucial for many practical applications such as autonomous exploration and decision making. First, we expect a robot to detect novel and interesting scenes in unknown environments and lose interests over time after repeatedly observing similar objects. Second, we expect the robots to learn from unbalanced data in a short time, as the robots normally only know the uninteresting scenes before they are deployed. Inspired by those industrial demands, we first propose a novel translation-invariant visual memory for recalling and identifying interesting scenes, then design a three-stage architecture of long-term, short-term, and online learning for human-like experience, environmental knowledge, and online adaption, respectively. It is demonstrated that our approach is able to learn online and find interesting scenes for practical exploration tasks. It also achieves a much higher accuracy than the state-of-the-art algorithm on very challenging robotic interestingness prediction datasets.},
   keywords  = {Unsupervised, Online, Memorability, Interestingness},
   url       = {https://arxiv.org/abs/2005.08829},
@@ -191,11 +192,10 @@ author = {Maturana, Daniel and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139679},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {3471--3478},
-publisher = {IEEE},
-title = {{3D Convolutional Neural Networks for landing zone detection from LiDAR}},
-volume = {2015-June},
+
+title = {{3D} Convolutional Neural Networks for landing zone detection from {LiDAR}},
 year = {2015}
 }
 @inproceedings{Pereira:2016jd,
@@ -206,8 +206,8 @@ booktitle = {2016 International Conference on Unmanned Aircraft Systems, ICUAS 2
 doi = {10.1109/ICUAS.2016.7502525},
 isbn = {9781467393331},
 pages = {261--266},
-publisher = {IEEE},
-title = {{A framework for optimal repairing of vector field-based motion plans}},
+
+title = {A framework for optimal repairing of vector field-based motion plans},
 year = {2016}
 }
 @article{Zhen:2019fv,
@@ -220,10 +220,10 @@ eprint = {1907.00930},
 issn = {23773766},
 journal = {IEEE Robotics and Automation Letters},
 keywords = {Calibration and Identification,Mapping,Sensor Fusion},
-month = {oct},
+month = oct,
 number = {4},
 pages = {3585--3592},
-title = {{A Joint Optimization Approach of LiDAR-Camera Fusion for Accurate Dense 3-D Reconstructions}},
+title = {A Joint Optimization Approach of {LiDAR-Camera} Fusion for Accurate Dense {3-D} Reconstructions},
 volume = {4},
 year = {2019}
 }
@@ -232,12 +232,12 @@ abstract = {State estimation is the most critical capability for MAV (Micro-Aeri
 author = {Song, Yu and Nuske, Stephen and Scherer, Sebastian},
 doi = {10.3390/s17010011},
 issn = {14248220},
-journal = {Sensors (Switzerland)},
+journal = {Sensors},
 keywords = {Absolute and relative state measurements,GPS-denied state estimation,Long-range stereo visual odometry,Multi-sensor fusion,Stochastic cloning EKF},
-month = {dec},
+month = dec,
 number = {1},
 pages = {11},
-title = {{A multi-sensor fusion MAV state estimation from long-range stereo, IMU, GPS and barometric sensors}},
+title = {A multi-sensor fusion {MAV} state estimation from long-range stereo, {IMU}, {GPS} and barometric sensors},
 volume = {17},
 year = {2017}
 }
@@ -249,9 +249,9 @@ author = {Arora, Sankalp and Choudhury, Sanjiban and Althoff, Daniel and Scherer
 booktitle = {Annual Forum Proceedings - AHS International},
 isbn = {9781632666918},
 issn = {15522938},
-month = {may},
+month = may,
 pages = {3228--3236},
-title = {{A principled approach to enable safe and high performance maneuvers for autonomous rotorcraft}},
+title = {A principled approach to enable safe and high performance maneuvers for autonomous rotorcraft},
 volume = {4},
 year = {2014}
 }
@@ -263,8 +263,8 @@ arxivId = {1910.04874},
 author = {Keller, John and Scherer, Sebastian},
 eprint = {1910.04874},
 journal = {arXiv.org},
-month = {oct},
-title = {{A Stereo Algorithm for Thin Obstacles and Reflective Objects}},
+month = oct,
+title = {A Stereo Algorithm for Thin Obstacles and Reflective Objects},
 url = {http://arxiv.org/abs/1910.04874},
 year = {2019}
 }
@@ -276,10 +276,10 @@ author = {Zhen, Weikun and Scherer, Sebastian},
 booktitle = {International Symposium on Experimental Robotics},
 doi = {10.1007/978-3-030-33950-0_60},
 eprint = {1810.12515},
-month = {nov},
+month = nov,
 pages = {702--711},
-publisher = {Springer},
-title = {{A Unified 3D Mapping Framework Using a 3D or 2D LiDAR}},
+
+title = {A Unified {3D} Mapping Framework Using a {3D} or {2D} {LiDAR}},
 year = {2018}
 }
 @inproceedings{Dugar:2017vo,
@@ -290,9 +290,9 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2017.7989017},
 isbn = {9781509046331},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {109--116},
-title = {{A KITE in the wind: Smooth trajectory optimization in a moving reference frame}},
+title = {A {KITE} in the wind: Smooth trajectory optimization in a moving reference frame},
 year = {2017}
 }
 @inproceedings{Zhen:2018uf,
@@ -300,8 +300,8 @@ abstract = {Although many methods have been proposed to localize a robot using o
 address = {Pittsburgh, Pa},
 author = {Zhen, Weikun and Scherer, Sebastian},
 booktitle = {Workshop on Challenges and Opportunities for Resilient Collective Intelligence in Subterranean Environments},
-month = {jun},
-title = {{Achieving Robust Localization in Geometrically Degenerated Tunnels}},
+month = jun,
+title = {Achieving Robust Localization in Geometrically Degenerated Tunnels},
 year = {2018}
 }
 @article{Choudhury:2017tr,
@@ -315,18 +315,12 @@ eprint = {1705.07834},
 isbn = {9780992374730},
 issn = {2330765X},
 journal = {Robotics: Science and Systems},
-month = {may},
-title = {{Adaptive information gathering via imitation learning}},
+month = may,
+title = {Adaptive information gathering via imitation learning},
 volume = {13},
 year = {2017}
 }
-@article{Scherer:2019ub,
-author = {Scherer, Sebastian},
-month = {aug},
-pages = {1--11},
-title = {{Aerial Contact Sensing for Improved Inspection of Transportation Infrastructure}},
-year = {2019}
-}
+
 @article{Dong:2018cg,
 abstract = {Automatic 3D plane segmentation is necessary for many applications including point cloud registration, building information model (BIM) reconstruction, simultaneous localization and mapping (SLAM), and point cloud compression. However, most of the existing 3D plane segmentation methods still suffer from low precision and recall, and inaccurate and incomplete boundaries, especially for low-quality point clouds collected by RGB-D sensors. To overcome these challenges, this paper formulates the plane segmentation problem as a global energy optimization because it is robust to high levels of noise and clutter. First, the proposed method divides the raw point cloud into multiscale supervoxels, and considers planar supervoxels and individual points corresponding to nonplanar supervoxels as basic units. Then, an efficient hybrid region growing algorithm is utilized to generate initial plane set by incrementally merging adjacent basic units with similar features. Next, the initial plane set is further enriched and refined in a mutually reinforcing manner under the framework of global energy optimization. Finally, the performances of the proposed method are evaluated with respect to six metrics (i.e., plane precision, plane recall, under-segmentation rate, over-segmentation rate, boundary precision, and boundary recall) on two benchmark datasets. Comprehensive experiments demonstrate that the proposed method obtained good performances both in high-quality TLS point clouds (i.e., SEMANTIC3D.NET dataset) and low-quality RGB-D point clouds (i.e., S3DIS dataset) with six metrics of (94.2{\%}, 95.1{\%}, 2.9{\%}, 3.8{\%}, 93.6{\%}, 94.1{\%}) and (90.4{\%}, 91.4{\%}, 8.2{\%}, 7.6{\%}, 90.8{\%}, 91.7{\%}) respectively.},
 author = {Dong, Zhen and Yang, Bisheng and Hu, Pingbo and Scherer, Sebastian},
@@ -334,9 +328,9 @@ doi = {10.1016/j.isprsjprs.2018.01.013},
 issn = {09242716},
 journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
 keywords = {Energy optimization,Guided sampling,Hybrid region growing,Multiscale supervoxel,Plane segmentation,Simulated annealing},
-month = {mar},
+month = mar,
 pages = {112--133},
-title = {{An efficient global energy optimization approach for robust 3D plane segmentation of point clouds}},
+title = {An efficient global energy optimization approach for robust {3D} plane segmentation of point clouds},
 volume = {137},
 year = {2018}
 }
@@ -348,10 +342,10 @@ booktitle = {2019 International Conference on Robotics and Automation (ICRA)},
 doi = {10.1109/ICRA.2019.8794286},
 isbn = {978-1-5386-6027-0},
 keywords = {Actuators,Aircraft,Atmospheric modeling,Computational modeling,Fault detection,Reliability,Safety,actuators,aerospace components,aerospace simulation,aircraft model,aircraft testing,anomaly detection method,autonomous aerial vehicles,autonomous aircraft,correlated input-output pairs,fault detection open dataset,fault detection research,fault diagnosis,fault tolerant control,fixed-wing flights,ground truth,least squares approximations,mid-flight actuator failures,mobile robots,recursive least squares method},
-month = {may},
+month = may,
 pages = {5679--5685},
-publisher = {IEEE},
-title = {{Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles}},
+
+title = {Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles},
 url = {https://arxiv.org/abs/1907.00511},
 video = {https://www.youtube.com/watch?v=HCtGbnqjKj8},
 year = {2019}
@@ -363,8 +357,8 @@ doi = {10.1002/rob.21931},
 issn = {15564967},
 journal = {Journal of Field Robotics},
 keywords = {aerial robotics,cinematography,computer vision,learning,mapping,motion planning},
-month = {Jan},
-title = {{Autonomous aerial cinematography in unstructured environments with learned artistic decision-making}},
+month = jan,
+title = {Autonomous aerial cinematography in unstructured environments with learned artistic decision-making},
 year = {2020}
 }
 @inproceedings{Bonatti-2018-111051,
@@ -375,10 +369,10 @@ author = {Bonatti, Rogerio and Zhang, Yanfu and Choudhury, Sanjiban and Wang, We
 booktitle = {International Symposium on Experimental Robotics},
 doi = {10.1007/978-3-030-33950-0_11},
 eprint = {1808.09563},
-month = {nov},
+month = nov,
 pages = {119--129},
-publisher = {Springer},
-title = {{Autonomous Drone Cinematographer: Using Artistic Principles to Create Smooth, Safe, Occlusion-Free Trajectories for Aerial Filming}},
+
+title = {Autonomous Drone Cinematographer: Using Artistic Principles to Create Smooth, Safe, Occlusion-Free Trajectories for Aerial Filming},
 year = {2020}
 }
 @inproceedings{Choudhury:2013vz,
@@ -387,9 +381,9 @@ address = {Phoenix, AZ},
 author = {Choudhury, Sanjiban and Scherer, Sebastian and Singh, Sanjiv},
 booktitle = {Annual Forum Proceedings - AHS International},
 issn = {15522938},
-month = {may},
+month = may,
 pages = {2236--2249},
-title = {{Autonomous emergency landing of a helicopter: Motion planning with hard time-constraints}},
+title = {Autonomous emergency landing of a helicopter: Motion planning with hard time-constraints},
 volume = {3},
 year = {2013}
 }
@@ -401,7 +395,7 @@ issn = {15564967},
 journal = {Journal of Field Robotics},
 number = {8},
 pages = {1141--1162},
-title = {{Autonomous exploration and motion planning for an unmanned aerial vehicle navigating rivers}},
+title = {Autonomous exploration and motion planning for an unmanned aerial vehicle navigating rivers},
 volume = {32},
 year = {2015}
 }
@@ -412,10 +406,10 @@ doi = {10.1016/j.robot.2012.09.004},
 issn = {09218890},
 journal = {Robotics and Autonomous Systems},
 keywords = {3D perception,Landing zone selection,Lidar,Rotorcraft,UAV},
-month = {dec},
+month = dec,
 number = {12},
 pages = {1545--1562},
-title = {{Autonomous landing at unprepared sites by a full-scale helicopter}},
+title = {Autonomous landing at unprepared sites by a full-scale helicopter},
 volume = {60},
 year = {2012}
 }
@@ -429,15 +423,15 @@ isbn = {9783319074870},
 issn = {1610742X},
 month = dec,
 pages = {93--106},
-title = {{Autonomous river exploration}},
+title = {Autonomous river exploration},
 volume = {105},
 year = {2015}
 }
 @inproceedings{Arora:2015vr,
 author = {Arora, S and Dubey, G and Jain, S and Maturana, D and Song, Y and Nuske, S and Scherer, Sebastian},
 booktitle = {Workshop on Vision-based Control and Navigation of Small Lightweight UAVs, IROS 2015},
-month = {oct},
-title = {{Autonomous Semantic Exploration Using Unmanned Aerial Vehicles}},
+month = oct,
+title = {Autonomous Semantic Exploration Using Unmanned Aerial Vehicles},
 year = {2015}
 }
 @article{Choudhury:2017wf,
@@ -450,10 +444,9 @@ eprint = {1711.07329},
 isbn = {9780999241127},
 issn = {10450823},
 journal = {IJCAI International Joint Conference on Artificial Intelligence},
-month = {nov},
+month = nov,
 pages = {4890--4897},
-title = {{Bayesian active edge evaluation on expensive graphs}},
-volume = {2018-July},
+title = {Bayesian active edge evaluation on expensive graphs},
 year = {2018}
 }
 @inproceedings{Althoff:2015ge,
@@ -463,21 +456,27 @@ author = {Althoff, Daniel and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139651},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {3279--3285},
-publisher = {IEEE},
-title = {{Connected invariant sets for high-speed motion planning in partially-known environments}},
-volume = {2015-June},
+
+title = {Connected invariant sets for high-speed motion planning in partially-known environments},
 year = {2015}
 }
 @techreport{Choudhury:2016uz,
+abstraxt = {CHOMP is a popular trajectory optimization algorithm that uses covari- ant gradient techniques to produce high quality solutions. In its original formulation, it solves an unconstrained sequentially quadratic problem with extensions for handling equality constraints. In this paper we present an approach to solve sequentially quadratic problem with linear inequality con- straints. We present a dual projected newton method to efficiently solve this problem. The proposed method alternates between primal and dual up- dates thus leading to faster convergence than solving a constrained quadratic program at each iteration.},
 address = {Pittsburgh, PA},
 author = {Choudhury, Sanjiban and Scherer, Sebastian},
 institution = {Carnegie Mellon University},
-number = {April},
-title = {{Constrained CHOMP using Dual Projected Newton Method}},
-year = {2016}
+title = {Constrained {CHOMP} using Dual Projected {Newton} Method},
+number = {CMU-RI-TR-16-17},
+month = apr,
+year = {2016},
+url ={https://www.ri.cmu.edu/pub_files/2016/5/main-choudhury.pdf}
 }
+
+
+
+
 @article{Yang:2018eo,
 abstract = {In this paper, we present a method for single image three-dimensional (3-D) cuboid object detection and multiview object simultaneous localization and mapping in both static and dynamic environments, and demonstrate that the two parts can improve each other. First, for single image object detection, we generate high-quality cuboid proposals from two-dimensional (2-D) bounding boxes and vanishing points sampling. The proposals are further scored and selected based on the alignment with image edges. Second, multiview bundle adjustment with new object measurements is proposed to jointly optimize poses of cameras, objects, and points. Objects can provide long-range geometric and scale constraints to improve camera pose estimation and reduce monocular drift. Instead of treating dynamic regions as outliers, we utilize object representation and motion model constraints to improve the camera pose estimation. The 3-D detection experiments on SUN RGBD and KITTI show better accuracy and robustness over existing approaches. On the public TUM, KITTI odometry and our own collected datasets, our SLAM method achieves the state-of-the-art monocular camera pose estimation and at the same time, improves the 3-D object detection accuracy.},
 annote = {IEEE Transactions on Robotics},
@@ -489,7 +488,7 @@ eprint = {1806.00557},
 issn = {19410468},
 journal = {IEEE Transactions on Robotics},
 keywords = {Dynamic SLAM,SLAM,object detection,object simultaneous localization and mapping (SLAM)},
-month = {jun},
+month = jun,
 number = {4},
 pages = {925--938},
 title = {{CubeSLAM: Monocular 3-D Object SLAM}},
@@ -506,10 +505,10 @@ eprint = {1711.06391},
 issn = {17413176},
 journal = {International Journal of Robotics Research},
 keywords = {,Imitation learning,POMDPs,QMDPs,heuristic search,sequential decision making},
-month = {dec},
+month = dec,
 number = {13-14},
 pages = {1632--1672},
-title = {{Data-driven planning via imitation learning}},
+title = {Data-driven planning via imitation learning},
 volume = {37},
 year = {2018}
 }
@@ -519,12 +518,12 @@ author = {Chandarana, Meghan and Luo, Wenhao and Lewis, Michael and Sycara, Kati
 booktitle = {Proceedings - 2018 IEEE International Conference on Systems, Man, and Cybernetics, SMC 2018},
 doi = {10.1109/SMC.2018.00212},
 isbn = {9781538666500},
-month = {oct},
+month = oct,
 pages = {1209--1214},
-title = {{Decentralized Method for Sub-Swarm Deployment and Rejoining}},
+title = {Decentralized Method for Sub-Swarm Deployment and Rejoining},
 year = {2019}
 }
-@article{Hu:2019vf,
+@inproceedings{Hu:2019vf,
 abstract = {This work presents dense stereo reconstruction using high-resolution images for infrastructure inspections. The state-of-the-art stereo reconstruction methods, both learning and non-learning ones, consume too much computational resource on high-resolution data. Recent learning-based methods achieve top ranks on most benchmarks. However, they suffer from the generalization issue due to lack of task-specific training data. We propose to use a less resource demanding non-learning method, guided by a learning-based model, to handle high-resolution images and achieve accurate stereo reconstruction. The deep-learning model produces an initial disparity prediction with uncertainty for each pixel of the down-sampled stereo image pair. The uncertainty serves as a self-measurement of its generalization ability and the per-pixel searching range around the initially predicted disparity. The downstream process performs a modified version of the Semi-Global Block Matching method with the up-sampled per-pixel searching range. The proposed deep-learning assisted method is evaluated on the Middlebury dataset and high-resolution stereo images collected by our customized binocular stereo camera. The combination of learning and non-learning methods achieves better performance on 12 out of 15 cases of the Middlebury dataset. In our infrastructure inspection experiments, the average 3D reconstruction error is less than 0.004m.},
 author = {Hu, Yaoyu and Zhen, Weikun and Scherer, Sebastian},
 booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
@@ -542,7 +541,7 @@ author = {Chakraborty, Satyaki and Maturana, Daniel and Scherer, Sebastian},
 institution = {Carnegie Mellon University},
 keywords = {Deconvolution nets,Neural networks,—Object detection},
 number = {CMU-RI-TR-16-60},
-title = {{Detecting cars in aerial photographs with a hierarchy of deconvolution nets}},
+title = {Detecting cars in aerial photographs with a hierarchy of deconvolution nets},
 year = {2016}
 }
 @inproceedings{Chandarana-2018-107676,
@@ -552,9 +551,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2018.8593919},
 isbn = {9781538680940},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {4848--4853},
-title = {{Determining Effective Swarm Sizes for Multi-Job Type Missions}},
+title = {Determining Effective Swarm Sizes for Multi-Job Type Missions},
 year = {2018}
 }
 @article{Yang:2017uf,
@@ -565,9 +564,9 @@ doi = {10.1109/ICRA.2017.7989446},
 isbn = {9781509046331},
 issn = {10504729},
 journal = {Proceedings - IEEE International Conference on Robotics and Automation},
-month = {mar},
+month = mar,
 pages = {3871--3877},
-title = {{Direct monocular odometry using points and lines}},
+title = {Direct monocular odometry using points and lines},
 year = {2017}
 }
 @inproceedings{Dubey:2017wo,
@@ -578,10 +577,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2017.8202309},
 isbn = {9781538626825},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {1324--1330},
-title = {{DROAN - Disparity-space representation for obstacle Avoidance}},
-volume = {2017-September},
+title = {{DROAN} - {Disparity-space} representation for obstacle Avoidance},
 year = {2017}
 }
 @inproceedings{Dubey-2018-107515,
@@ -591,9 +589,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2018.8593499},
 isbn = {9781538680940},
 issn = {21530866},
-month = {oct},
+month = oct,
 pages = {6311--6318},
-title = {{DROAN - Disparity-Space Representation for Obstacle Avoidance: Enabling Wire Mapping Avoidance}},
+title = {{DROAN - D}isparity-Space Representation for Obstacle Avoidance: Enabling Wire Mapping Avoidance},
 year = {2018}
 }
 @inproceedings{Scherer:2009hu,
@@ -604,10 +602,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ROBOT.2009.5152790},
 isbn = {9781424427895},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {2049--2054},
-publisher = {IEEE},
-title = {{Efficient C-space and cost function updates in 3D for unmanned aerial vehicles}},
+
+title = {Efficient {C}-space and cost function updates in {3D} for unmanned aerial vehicles},
 year = {2009}
 }
 @inproceedings{Arora:2015fo,
@@ -617,11 +615,10 @@ author = {Arora, Sankalp and Choudhury, Sanjiban and Althoff, Daniel and Scherer
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7140102},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {6431--6438},
-publisher = {IEEE},
-title = {{Emergency maneuver library - Ensuring safe navigation in partially known environments}},
-volume = {2015-June},
+
+title = {Emergency maneuver library - {Ensuring} safe navigation in partially known environments},
 year = {2015}
 }
 @inproceedings{Zhen:2019jn,
@@ -631,11 +628,9 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2019.8794167},
 isbn = {9781538660263},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {4903--4908},
-publisher = {IEEE},
-title = {{Estimating the localizability in tunnel-like environments using LiDAR and UWB}},
-volume = {2019-May},
+title = {Estimating the localizability in tunnel-like environments using {LiDAR} and {UWB}},
 year = {2019}
 }
 @inproceedings{Fang:2014be,
@@ -647,8 +642,8 @@ doi = {10.1109/IROS.2014.6942632},
 isbn = {9781479969340},
 issn = {21530866},
 pages = {680--687},
-publisher = {IEEE},
-title = {{Experimental study of odometry estimation methods using RGB-D cameras}},
+
+title = {Experimental study of odometry estimation methods using {RGB-D} cameras},
 year = {2014}
 }
 @inproceedings{Scherer:jy,
@@ -659,10 +654,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2012.6225215},
 isbn = {9781467314039},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {951--956},
-publisher = {IEEE},
-title = {{First results in autonomous landing and obstacle avoidance by a full-scale helicopter}},
+
+title = {First results in autonomous landing and obstacle avoidance by a full-scale helicopter},
 year = {2012}
 }
 @inproceedings{Mori:2013dm,
@@ -673,10 +668,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2013.6630807},
 isbn = {9781467356411},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {1750--1757},
-publisher = {IEEE},
-title = {{First results in detecting and avoiding frontal obstacles from a monocular camera for micro unmanned aerial vehicles}},
+
+title = {First results in detecting and avoiding frontal obstacles from a monocular camera for micro unmanned aerial vehicles},
 year = {2013}
 }
 
@@ -689,7 +684,7 @@ journal = {International Journal of Robotics Research},
 keywords = {Aerial robotics,Learning},
 number = {5},
 pages = {549--574},
-title = {{Flying fast and low among obstacles: Methodology and experiments}},
+title = {Flying fast and low among obstacles: {Methodology} and experiments},
 volume = {27},
 year = {2008}
 }
@@ -700,9 +695,9 @@ doi = {10.1016/j.isprsjprs.2018.06.018},
 issn = {09242716},
 journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
 keywords = {Binary shape context,Hierarchical registration,Multiple overlaps,Point cloud registration,Point cloud similarity,Vector of locally aggregated descriptors},
-month = {oct},
+month = oct,
 pages = {61--79},
-title = {{Hierarchical registration of unordered TLS point clouds based on binary shape context descriptor}},
+title = {Hierarchical registration of unordered {TLS} point clouds based on binary shape context descriptor},
 volume = {144},
 year = {2018}
 }
@@ -713,10 +708,10 @@ doi = {10.1002/rob.21906},
 issn = {15564967},
 journal = {Journal of Field Robotics},
 keywords = {aerial robotics,learning,planning},
-month = {dec},
+month = dec,
 number = {8},
 pages = {1275--1332},
-title = {{High performance and safe flight of full-scale helicopters from takeoff to landing with an ensemble of planners}},
+title = {High performance and safe flight of full-scale helicopters from takeoff to landing with an ensemble of planners},
 volume = {36},
 year = {2019}
 }
@@ -725,10 +720,10 @@ abstract = {This paper addresses the problem of autonomous navigation of a micro
 address = {Pittsburgh, PA},
 author = {Yang, Shichao and Fang, Zheng and Jain, Sezal and Dubey, Geetesh and Maeta, Silvio and Roth, Stephan and Scherer, Sebastian and Zhang, Yu and Nuske, Stephen},
 institution = {Carnegie Mellon University},
-month = {feb},
+month = feb,
 number = {CMU-RI-TR-16-17},
 pages = {CMU--RI--TR--15--06},
-title = {{High-precision Autonomous Flight in Constrained Shipboard Environments}},
+title = {High-precision Autonomous Flight in Constrained Shipboard Environments},
 url = {https://www.ri.cmu.edu/pub{\_}files/2015/2/shipboard{\_}final{\_}report{\_}20151.pdf},
 year = {2015}
 }
@@ -740,8 +735,8 @@ arxivId = {1804.02573},
 author = {Arora, Sankalp and Choudhury, Sanjiban and Scherer, Sebastian},
 eprint = {1804.02573},
 journal = {arXiv.org},
-month = {apr},
-title = {{Hindsight is Only 50/50: Unsuitability of MDP based Approximate POMDP Solvers for Multi-resolution Information Gathering}},
+month = apr,
+title = {Hindsight is Only 50/50: {Unsuitability} of {MDP} based Approximate {POMDP} Solvers for Multi-resolution Information Gathering},
 url = {http://arxiv.org/abs/1804.02573},
 year = {2018}
 }
@@ -755,11 +750,10 @@ doi = {10.1109/ICRA.2019.8793994},
 eprint = {1903.11174},
 isbn = {9781538660263},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {5901--5907},
-publisher = {IEEE},
-title = {{Improved generalization of heading direction estimation for aerial filming using semi-supervised regression}},
-volume = {2019-May},
+
+title = {Improved generalization of heading direction estimation for aerial filming using semi-supervised regression},
 year = {2019}
 }
 @inproceedings{Chou:2017vd,
@@ -768,9 +762,9 @@ address = {Sydney},
 author = {Chou, Po Wei and Maturana, Daniel and Scherer, Sebastian},
 booktitle = {34th International Conference on Machine Learning, ICML 2017},
 isbn = {9781510855144},
-month = {aug},
+month = aug,
 pages = {1386--1396},
-title = {{Improving stochastic policy gradients in continuous control with deep reinforcement learning using the beta distribution}},
+title = {Improving stochastic policy gradients in continuous control with deep reinforcement learning using the beta distribution},
 volume = {2},
 year = {2017}
 }
@@ -782,10 +776,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2013.6630595},
 isbn = {9781467356411},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {323--330},
-publisher = {IEEE},
-title = {{Infrastructure-free shipdeck tracking for autonomous landing}},
+
+title = {Infrastructure-free shipdeck tracking for autonomous landing},
 year = {2013}
 }
 @inproceedings{yanfu-2018-111053,
@@ -795,9 +789,9 @@ arxivId = {1810.07225},
 author = {Zhang, Yanfu and Wang, Wenshan and Bonatti, Rogerio and Maturana, Daniel and Scherer, Sebastian},
 booktitle = {Conference on Robot Learning},
 eprint = {1810.07225},
-month = {oct},
+month = oct,
 publisher = {Journal of Machine Learning Research},
-title = {{Integrating kinematics and environment context into deep inverse reinforcement learning for predicting off-road vehicle trajectories}},
+title = {Integrating kinematics and environment context into deep inverse reinforcement learning for predicting off-road vehicle trajectories},
 url = {http://arxiv.org/abs/1810.07225},
 year = {2018}
 }
@@ -811,9 +805,9 @@ eprint = {1811.02563},
 isbn = {9781538680940},
 issn = {21530866},
 journal = {IEEE International Conference on Intelligent Robots and Systems},
-month = {nov},
+month = nov,
 pages = {6357--6363},
-title = {{Joint Point Cloud and Image Based Localization for Efficient Inspection in Mixed Reality}},
+title = {Joint Point Cloud and Image Based Localization for Efficient Inspection in Mixed Reality},
 year = {2018}
 }
 @techreport{Pereira:2016vx,
@@ -823,17 +817,17 @@ author = {Pereira, Guilherme A S and Choudhury, Sanjiban and Scherer, Sebastian}
 institution = {Carnegie Mellon University},
 keywords = {motion planning,navigation,optimal planners,rrt,vector fields},
 number = {CMU-RI-TR-16-17},
-title = {{Kinodynamic Motion Planning on Vector Fields using RRT *}},
+title = {Kinodynamic Motion Planning on Vector Fields using {RRT *}},
 year = {2016}
 }
-@article{Bhardwaj:2017tz,
+@inproceedings{Bhardwaj:2017tz,
 abstract = {Robotic motion planning problems are typically solved by constructing a search tree of valid maneuvers from a start to a goal configuration. Limited onboard computation and real-time planning constraints impose a limit on how large this search tree can grow. Heuristics play a crucial role in such situations by guiding the search towards potentially good directions and consequently minimizing search effort. Moreover, it must infer such directions in an efficient manner using only the information uncovered by the search up until that time. However, state of the art methods do not address the problem of computing a heuristic that explicitly minimizes search effort. In this paper, we do so by training a heuristic policy that maps the partial information from the search to decide which node of the search tree to expand. Unfortunately, naively training such policies leads to slow convergence and poor local minima. We present SaIL, an efficient algorithm that trains heuristic policies by imitating "clairvoyant oracles" - oracles that have full information about the world and demonstrate decisions that minimize search effort. We leverage the fact that such oracles can be efficiently computed using dynamic programming and derive performance guarantees for the learnt heuristic. We validate the approach on a spectrum of environments which show that SaIL consistently outperforms state of the art algorithms. Our approach paves the way forward for learning heuristics that demonstrate an anytime nature - finding feasible solutions quickly and incrementally refining it over time.},
 archivePrefix = {arXiv},
 arxivId = {1707.03034},
 author = {Bhardwaj, Mohak and Choudhury, Sanjiban and Scherer, Sebastian},
 eprint = {1707.03034},
-journal = {CoRL},
-title = {{Learning Heuristic Search via Imitation}},
+booktitle = {CoRL},
+title = {Learning Heuristic Search via Imitation},
 url = {http://arxiv.org/abs/1707.03034},
 year = {2017}
 }
@@ -842,11 +836,11 @@ abstract = {The performance of a motion planning algorithm is intrinsically link
 address = {Pittsburgh, PA},
 author = {Vemula, Anirudh and Choudhury, Sanjiban and Scherer, Sebastian},
 institution = {Carnegie Mellon University},
-month = {aug},
-number = {August},
+month = aug,
+number = {CMU-RI-TR-14-14},
 pages = {11},
-title = {{Learning Motion Planning Assumptions}},
-url = {https://www.ri.cmu.edu/publication{\_}techreports.html?menu{\_}id=381},
+title = {Learning Motion Planning Assumptions},
+url = {https://www.ri.cmu.edu/pub_files/2014/8/LearningMotionPlanningAssumptions.pdf},
 year = {2014}
 }
 @article{Hamner:2006tu,
@@ -857,7 +851,7 @@ issn = {15564959},
 journal = {Journal of Field Robotics},
 number = {11-12},
 pages = {1037--1058},
-title = {{Learning obstacle avoidance parameters from operator behavior}},
+title = {Learning obstacle avoidance parameters from operator behavior},
 volume = {23},
 year = {2006}
 }
@@ -868,10 +862,10 @@ author = {Hamner, Bradley and Scherer, Sebastian and Singh, Sanjiv},
 booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2006.281987},
 isbn = {142440259X},
-month = {oct},
+month = oct,
 pages = {2663--2669},
-publisher = {IEEE},
-title = {{Learning to drive among obstacles}},
+
+title = {Learning to drive among obstacles},
 year = {2006}
 }
 
@@ -880,8 +874,7 @@ year = {2006}
   author={Chandarana, Meghan and Hughes, Dana and Lewis, Michael and Sycara, Katia and Scherer, Sebastian},
   booktitle={2019 19th International Conference on Advanced Robotics (ICAR)},
   pages={714--719},
-  year={2019},
-  organization={IEEE}
+  year={2019}
 }
 
 @article{Bonatti:2019vp,
@@ -891,18 +884,18 @@ arxivId = {1909.06993},
 author = {Bonatti, Rogerio and Madaan, Ratnesh and Vineet, Vibhav and Scherer, Sebastian and Kapoor, Ashish},
 eprint = {1909.06993},
 journal = {arXiv:1909.06993v1 [cs.CV]},
-month = {sep},
-title = {{Learning Visuomotor Policies for Aerial Navigation Using Cross-Modal Representations}},
+month = sep,
+title = {Learning Visuomotor Policies for Aerial Navigation Using Cross-Modal Representations},
 url = {http://arxiv.org/abs/1909.06993},
 video = {https://www.youtube.com/watch?v=AxE7qGKJWaw},
 year = {2019}
 }
-@article{Zhen:2019up,
+@inproceedings{Zhen:2019up,
 abstract = {Although Structure-from-Motion (SfM) as a maturing technique has been widely used in many applications, state-of-the-art SfM algorithms are still not robust enough in certain situations. For example, images for inspection purposes are often taken in close distance to obtain detailed textures, which will result in less overlap between images and thus decrease the accuracy of estimated motion. In this paper, we propose a LiDAR-enhanced SfM pipeline that jointly processes data from a rotating LiDAR and a stereo camera pair to estimate sensor motions. We show that incorporating LiDAR helps to effectively reject falsely matched images and significantly improve the model consistency in large-scale environments. Experiments are conducted in different environments to test the performance of the proposed pipeline and comparison results with the state-of-the-art SfM algorithms are reported.},
 annote = {6 pages plus reference. Work has been submitted to ICRA 2020},
 author = {Zhen, Weikun and Hu, Yaoyu and Yu, Huai and Scherer, Sebastian},
 booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
-title={LiDAR-enhanced Structure-from-Motion}, 
+title={{LiDAR}-enhanced Structure-from-Motion}, 
 year={2020},
 volume={},
 number={},
@@ -914,7 +907,7 @@ abstract = {Accurate registration of 2D imagery with point clouds is a key techn
 author = {Yu, Huai and Zhen, Weikun and Yang, Wen and Scherer, Sebastian},
 journal={IEEE Transactions on Instrumentation and Measurement},
 month = {July},
-title={Line-Based 2D–3D Registration and Camera Localization in Structured Environments}, 
+title={Line-Based {2D–3D} Registration and Camera Localization in Structured Environments}, 
 year={2020},
 volume={69},
 number={11},
@@ -930,9 +923,8 @@ doi = {10.1109/ICRA.2016.7487136},
 isbn = {9781467380263},
 issn = {10504729},
 pages = {213--220},
-publisher = {IEEE},
-title = {{List prediction applied to motion planning}},
-volume = {2016-June},
+month = jun,
+title = {List prediction applied to motion planning},
 year = {2016}
 }
 @inproceedings{Maturana:2017kd,
@@ -943,9 +935,9 @@ doi = {10.1109/IROS.2017.8206585},
 isbn = {9781538626825},
 issn = {21530866},
 pages = {6691--6698},
-publisher = {IEEE},
-title = {{Looking forward: A semantic mapping system for scouting with micro-aerial vehicles}},
-volume = {2017-September},
+
+title = {Looking forward: A semantic mapping system for scouting with micro-aerial vehicles},
+month = sep,
 year = {2017}
 }
 @phdthesis{Scherer:2011tw,
@@ -957,10 +949,11 @@ isbn = {9781124819532},
 keywords = {0538:Aerospace engineering,0771:Robotics,0800:Artificial intelligence,Aerospace engineering,Applied sciences,Artificial intelligence,Low-altitude operation,Motion planning,Obstacle avoidance,Robotics,Rotorcraft,Unmanned aerial vehicles},
 pages = {138},
 school = {The Robotics Institute, Carnegie Mellon University},
-title = {{Low-Altitude Operation of Unmanned Rotorcraft}},
+title = {Low-Altitude Operation of Unmanned Rotorcraft},
 url = {http://ezproxy.net.ucf.edu/login?url=http://search.proquest.com/docview/884995854?accountid=10003{\%}5Cnhttp://sfx.fcla.edu/ucf?url{\_}ver=Z39.88-2004{\&}rft{\_}val{\_}fmt=info:ofi/fmt:kev:mtx:dissertation{\&}genre=dissertations+{\&}+theses{\&}sid=ProQ:ProQuest+Dissertations+{\&}+The},
 volume = {3468040},
-year = {2011}
+year = {2011},
+number = {CMU-RI-TR-11-03}
 }
 @article{Dorneich:2015kj,
 abstract = {This work developed and evaluated a human-machine interface for the control of a roadable air vehicle (RAV), capable of surface driving, vertical takeoff, sustained flight, and landing. Military applications seek to combine the benefits of ground and air vehicles to maximize flexibility of movement but require that the operator have minimal pilot training. This makes the operator vulnerable to automation complexity issues; however, the operator will expect to be able to interact extensively and control the vehicle during flight. A mixed-initiative control approach mitigates these vulnerabilities by integrating the operator into many complex control domains in the way that they often expect—flexibly in charge, aware, but not required to issue every command. Intrinsic safety aspects were evaluated by comparing performance, decision making, precision, and workload for three RAV control paradigms: human-only, fully automated, and mixed-initiative control. The results suggest that the mixed-initiative paradigm leverages the benefits of human and automated control while also avoiding the drawbacks associated with each.},
@@ -968,10 +961,10 @@ author = {Dorneich, Michael Christian and Letsu-Dake, Emmanuel and Singh, Sanjiv
 doi = {10.5898/jhri.4.3.dorneich},
 issn = {2163-0364},
 journal = {Journal of Human-Robot Interaction},
-month = {jan},
+month = jan,
 number = {3},
 pages = {38},
-title = {{Mixed-Initiative Control of a Roadable Air Vehicle for Non-Pilots}},
+title = {Mixed-Initiative Control of a Roadable Air Vehicle for Non-Pilots},
 volume = {4},
 year = {2015}
 }
@@ -982,10 +975,10 @@ author = {Scherer, S. and Lerda, F. and Clarke, E. M.},
 booktitle = {European Space Agency, (Special Publication) ESA SP},
 issn = {03796566},
 keywords = {Control Systems,Java,Model Checking,Software Testing,Verification},
-month = {sep},
+month = sep,
 number = {603},
 pages = {371--378},
-title = {{Model checking of robotic control systems}},
+title = {Model checking of robotic control systems},
 year = {2005}
 }
 @techreport{Lee:2016tl,
@@ -993,9 +986,11 @@ abstract = {There is a growing interest in the design and control of coaxial veh
 address = {Pittsburgh, PA},
 author = {Lee, Richard and Sreenath, Koushil and Scherer, Sebastian},
 institution = {Carnegie Mellon University},
-number = {June},
-title = {{Modeling and Control of Coaxial UAV with Swashplate Controlled Lower Propeller}},
-year = {2016}
+number = {CMU-RI-TR-16-33},
+title = {Modeling and Control of Coaxial {UAV} with Swashplate Controlled Lower Propeller},
+month = jun,
+year = {2016},
+url = {http://www.andrew.cmu.edu/user/rl1/lee-coax-technical-report.pdf}
 }
 @article{Garg:2018tc,
 abstract = {Autonomous and safe landing is important for unmanned aerial vehicles. We present a monocular and stereo image based method for fast and accurate landing zone evaluation for UAVs in various scenarios. Many existing methods rely on Lidar or depth sensor to provide accurate and dense surface reconstruction. We utilize stereo images to evaluate the slope and monocular images to compute homography error. By combining them together, our approach works for both rigid and non-rigid dynamic surfaces. Experiments on many outdoor scenes such as water, grass and roofs, demonstrate the robustness and effectiveness of our approach.},
@@ -1004,17 +999,17 @@ arxivId = {1812.03539},
 author = {Garg, Rohit and Yang, Shichao and Scherer, Sebastian},
 eprint = {1812.03539},
 journal = {arXiv.org},
-month = {dec},
-title = {{Monocular and Stereo Cues for Landing Zone Evaluation for Micro UAVs}},
+month = dec,
+title = {Monocular and Stereo Cues for Landing Zone Evaluation for Micro {UAVs}},
 url = {http://arxiv.org/abs/1812.03539},
 year = {2018}
 }
 
-@Article{yu2020monocular,
+@inproceedings{yu2020monocular,
   author        = {Yu, Huai and Zhen, Weikun and Yang, Wen and Zhang, Ji and Scherer, Sebastian},
-  title         = {{Monocular Camera Localization in Prior LiDAR Maps with 2D-3D Line Correspondences}},
+  title         = {Monocular Camera Localization in Prior {LiDAR} Maps with {2D-3D} Line Correspondences},
   year          = {2020},
-  month         = {oct.},
+  month         = oct,
   abstract      = {Light-weight camera localization in existing maps is essential for vision-based navigation. Currently, visual and visual-inertial odometry (VO$\backslash${\&}VIO) techniques are well-developed for state estimation but with inevitable accumulated drifts and pose jumps upon loop closure. To overcome these problems, we propose an efficient monocular camera localization method in prior LiDAR maps using directly estimated 2D-3D line correspondences. To handle the appearance differences and modality gaps between untextured point clouds and images, geometric 3D lines are extracted offline from LiDAR maps while robust 2D lines are extracted online from video sequences. With the pose prediction from VIO, we can efficiently obtain coarse 2D-3D line correspondences. After that, the camera poses and 2D-3D correspondences are iteratively optimized by minimizing the projection error of correspondences and rejecting outliers. The experiment results on the EurocMav dataset and our collected dataset demonstrate that the proposed method can efficiently estimate camera poses without accumulated drifts or pose jumps in urban environments. The code and our collected data are available at https://github.com/levenberg/2D-3D-pose-tracking.},
   archiveprefix = {arXiv},
   arxivid       = {2004.00740},
@@ -1032,7 +1027,7 @@ journal = {IEEE Robotics and Automation Letters},
 keywords = {Object and plane slam,Semantic scene understanding,Slam},
 number = {4},
 pages = {3145--3152},
-title = {{Monocular object and plane slam in structured environments}},
+title = {Monocular object and plane slam in structured environments},
 volume = {4},
 year = {2019}
 }
@@ -1042,9 +1037,9 @@ address = {Pittsburgh, PA},
 author = {Raj, Aman and Maturana, Daniel and Scherer, Sebastian},
 booktitle = {Cmu},
 institution = {Carnegie Mellon University},
-month = {oct},
-number = {September},
-title = {{Multi-Scale Convolutional Architecture for Semantic Segmentation}},
+month = oct,
+number = {CMU-RI-TR-15-21},
+title = {Multi-Scale Convolutional Architecture for Semantic Segmentation},
 url = {https://www.ri.cmu.edu/pub{\_}files/2015/10/CMU-RI-TR{\_}AmanRaj{\_}revision2.pdf},
 year = {2015}
 }
@@ -1055,11 +1050,9 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2019.8793852},
 isbn = {9781538660263},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {5657--5664},
-publisher = {IEEE},
-title = {{Multi-view reconstruction of wires using a catenary model}},
-volume = {2019-May},
+title = {Multi-view reconstruction of wires using a catenary model},
 year = {2019}
 }
 @inproceedings{Scherer_2011_6890,
@@ -1069,10 +1062,10 @@ author = {Scherer, Sebastian and Singh, Sanjiv},
 booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2011.6048126},
 isbn = {9781612844541},
-month = {sep},
+month = sep,
 pages = {2207--2214},
-publisher = {IEEE},
-title = {{Multiple-objective motion planning for unmanned aerial vehicles}},
+
+title = {Multiple-objective motion planning for unmanned aerial vehicles},
 year = {2011}
 }
 @techreport{Molero_Fernandez_2011_6866,
@@ -1084,7 +1077,7 @@ institution = {Carnegie Mellon University},
 keywords = {GPS-denied,MAV,UAV,control,navigation},
 month = jun,
 number = {CMU-RI-TR-10-08},
-title = {{Navigation and Control for Micro Aerial Vehicles in GPS-Denied Environments}},
+title = {Navigation and Control for Micro Aerial Vehicles in {GPS}-Denied Environments},
 year = {2011}
 }
 
@@ -1094,10 +1087,9 @@ abstract = {Robotic motion-planning problems, such as a UAV flying fast in a par
 author = {Choudhury, Sanjiban and Javdani, Shervin and Srinivasa, Siddhartha and Scherer, Sebastian},
 issn = {10495258},
 journal = {Advances in Neural Information Processing Systems},
-month = {jun},
+month = jun,
 pages = {4632--4642},
-title = {{Near-optimal edge evaluation in explicit generalized binomial graphs}},
-volume = {2017-December},
+title = {Near-optimal edge evaluation in explicit generalized binomial graphs},
 year = {2017}
 }
 @inproceedings{Pereira:wi,
@@ -1106,8 +1098,8 @@ address = {Vitoria, Brazil},
 author = {Pereira, Guilherme A S and Choudhury, Sanjiban and Scherer, Sebastian},
 booktitle = {Congresso Brasileiro de Automatica (CBA)},
 keywords = {este artigo apresenta uma,metodologia para integra,motion planning,optimal planning,resumo,robotics,rrt,vector fields},
-month = {oct},
-title = {{Nonholonomic Motion Planning in Partially Unknown Environments Using Vector Fields and Optimal Planners}},
+month = oct,
+title = {Nonholonomic Motion Planning in Partially Unknown Environments Using Vector Fields and Optimal Planners},
 url = {https://pdfs.semanticscholar.org/28ac/1260c50c9812711914a58ce687e00803cd13.pdf},
 year = {2016}
 }
@@ -1118,8 +1110,8 @@ arxivId = {1704.08759},
 author = {Yang, Shichao and Konam, Sandeep and Ma, Chen and Rosenthal, Stephanie and Veloso, Manuela and Scherer, Sebastian},
 eprint = {1704.08759},
 journal = {arXiv.org},
-month = {apr},
-title = {{Obstacle Avoidance through Deep Networks based Intermediate Perception}},
+month = apr,
+title = {Obstacle Avoidance through Deep Networks based Intermediate Perception},
 url = {http://arxiv.org/abs/1704.08759},
 year = {2017}
 }
@@ -1130,8 +1122,8 @@ author = {Scherer, Sebastian and Chamberlain, Lyle and Singh, Sanjiv},
 booktitle = {AIAA Infotech at Aerospace 2010},
 doi = {10.2514/6.2010-3358},
 isbn = {9781600867439},
-month = {apr},
-title = {{Online assessment of landing sites}},
+month = apr,
+title = {Online assessment of landing sites},
 year = {2010}
 }
 @inproceedings{Althoff_2015_8013,
@@ -1142,10 +1134,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2015.7353861},
 isbn = {9781479999941},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {3470--3477},
-title = {{Online safety verification of trajectories for unmanned flight with offline computed robust invariant sets}},
-volume = {2015-December},
+title = {Online safety verification of trajectories for unmanned flight with offline computed robust invariant sets},
 year = {2015}
 }
 @article{Gupta:2018tg,
@@ -1155,8 +1146,8 @@ arxivId = {1809.03565},
 author = {Gupta, Ritwik and Kurtz, Zachary T. and Scherer, Sebastian and Smereka, Jonathon M.},
 eprint = {1809.03565},
 journal = {arXiv.org},
-month = {sep},
-title = {{Open Problems in Robotic Anomaly Detection}},
+month = sep,
+title = {Open Problems in Robotic Anomaly Detection},
 url = {http://arxiv.org/abs/1809.03565},
 year = {2018}
 }
@@ -1167,11 +1158,10 @@ author = {Arora, Sankalp and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139680},
 issn = {10504729},
-month = {may},
+month = may,
 number = {June},
 pages = {3479--3486},
-title = {{PASP: Policy based approach for sensor planning}},
-volume = {2015-June},
+title = {{PASP: P}olicy based approach for sensor planning},
 year = {2015}
 }
 @inproceedings{Schopferer:2018wk,
@@ -1182,9 +1172,9 @@ booktitle = {2018 International Conference on Unmanned Aircraft Systems, ICUAS 2
 doi = {10.1109/ICUAS.2018.8453391},
 isbn = {9781538613535},
 keywords = {Fixed-Wing UAV,Path Planning,Trochoids,Wind},
-month = {jun},
+month = jun,
 pages = {503--512},
-title = {{Path Planning for Unmanned Fixed-Wing Aircraft in Uncertain Wind Conditions Using Trochoids}},
+title = {Path Planning for Unmanned Fixed-Wing Aircraft in Uncertain Wind Conditions Using Trochoids},
 video = {https://www.youtube.com/watch?v=cltd0eY2dcM},
 year = {2018}
 }
@@ -1195,10 +1185,10 @@ author = {Chambers, Andrew and Achar, Supreeth and Nuske, Stephen and Rehder, J{
 booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2011.6048799},
 isbn = {9781612844541},
-month = {sep},
+month = sep,
 pages = {227--234},
-publisher = {IEEE},
-title = {{Perception for a river mapping robot}},
+
+title = {Perception for a river mapping robot},
 year = {2011}
 }
 @inproceedings{Yang:2016hr,
@@ -1213,9 +1203,9 @@ eprint = {1703.07334},
 isbn = {9781509037629},
 issn = {21530866},
 pages = {1222--1229},
-publisher = {IEEE},
-title = {{Pop-up SLAM: Semantic monocular plane SLAM for low-texture environments}},
-volume = {2016-November},
+
+title = {Pop-up {SLAM}: Semantic monocular plane {SLAM} for low-texture environments},
+month = nov,
 year = {2016}
 }
 @inproceedings{Tian-2018-110482,
@@ -1223,10 +1213,10 @@ abstract = {Wireless sensor networks (WSN) is widely used for indoor positioning
 author = {Tian, Xiangrui and Zhen, Weikun and Scherer, Sebastian and Lu, Xiong},
 booktitle = {50th International Symposium on Robotics, ISR 2018},
 isbn = {9781510870314},
-month = {jun},
+month = jun,
 pages = {143--146},
 publisher = {VDE},
-title = {{Positioning error analysis of least squares method for wireless sensor networks}},
+title = {Positioning error analysis of least squares method for wireless sensor networks},
 year = {2018}
 }
 @inproceedings{Pluckter-2018-110919,
@@ -1234,10 +1224,10 @@ abstract = {Autonomous landing of a drone is a necessary part of autonomous flig
 author = {Pluckter, Kevin and Scherer, Sebastian},
 booktitle = {International Symposium on Experimental Robotics},
 doi = {10.1007/978-3-030-33950-0_16},
-month = {nov},
+month = nov,
 pages = {177--187},
-publisher = {Springer},
-title = {{Precision UAV Landing in Unstructured Environments}},
+
+title = {Precision {UAV} Landing in Unstructured Environments},
 year = {2020}
 }
 @inproceedings{Arora:2017tz,
@@ -1248,9 +1238,9 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2017.7989582},
 isbn = {9781509046331},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {4997--5004},
-title = {{Randomized algorithm for informative path planning with budget constraints}},
+title = {Randomized algorithm for informative path planning with budget constraints},
 year = {2017}
 }
 @inproceedings{ShichaoYang:2016bg,
@@ -1262,9 +1252,9 @@ doi = {10.1109/ICRA.2016.7487368},
 isbn = {9781467380263},
 issn = {10504729},
 pages = {2183--2189},
-publisher = {IEEE},
-title = {{Real-time 3D scene layout from a single image using Convolutional Neural Networks}},
-volume = {2016-June},
+
+title = {Real-time {3D} scene layout from a single image using Convolutional Neural Networks},
+month = jun,
 year = {2016}
 }
 @inproceedings{Fang:2015ed,
@@ -1274,11 +1264,10 @@ author = {Fang, Zheng and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139931},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {5253--5259},
-publisher = {IEEE},
-title = {{Real-time onboard 6DoF localization of an indoor MAV in degraded visual environments using a RGB-D camera}},
-volume = {2015-June},
+
+title = {Real-time onboard {6DoF} localization of an indoor {MAV} in degraded visual environments using a {RGB-D} camera},
 year = {2015}
 }
 @incollection{Maturana:2018jq,
@@ -1288,7 +1277,7 @@ booktitle = {Field and Service Robotics},
 doi = {10.1007/978-3-319-67361-5_22},
 pages = {335--350},
 publisher = {Springer, Cham},
-title = {{Real-Time Semantic Mapping for Autonomous Off-Road Navigation}},
+title = {Real-Time Semantic Mapping for Autonomous Off-Road Navigation},
 year = {2018}
 }
 @techreport{Choudhury:2012ua,
@@ -1296,8 +1285,8 @@ abstract = {Motion planning in the most general sense is an optimization problem
 address = {Pittsburgh, PA},
 author = {Choudhury, Sanjiban and Scherer, Sebastian and Singh, Sanjiv},
 institution = {Carnegie Mellon University},
-number = {December},
-title = {{Realtime alternate routes planning: the rrt*-ar algorithm}},
+number = {CMU-RI-TR-12-2},
+title = {Realtime alternate routes planning: the {RRT*-AR} algorithm},
 url = {http://repository.cmu.edu/robotics/918/?utm{\_}source=repository.cmu.edu/robotics/918{\&}utm{\_}medium=PDF{\&}utm{\_}campaign=PDFCoverPages},
 year = {2012}
 }
@@ -1311,10 +1300,10 @@ editor = {Ho, Yo-Sung and Sang, Jitao and Ro, Yong Man and Kim, Junmo and Wu, Fe
 isbn = {9783319240770},
 issn = {16113349},
 keywords = {Activity recognition,Human group activity,Video analytics},
-month = {sep},
+month = sep,
 pages = {161--169},
-publisher = {Springer},
-title = {{Recognition of human group activity for video analytics}},
+
+title = {Recognition of human group activity for video analytics},
 volume = {9315},
 year = {2015}
 }
@@ -1327,9 +1316,9 @@ doi = {10.1109/ICRA.2016.7487615},
 isbn = {9781467380263},
 issn = {10504729},
 pages = {4207--4214},
-publisher = {IEEE},
-title = {{Regionally accelerated batch informed trees (RABIT∗): A framework to integrate local information into optimal path planning}},
-volume = {2016-June},
+
+title = {Regionally accelerated batch informed trees {(RABIT∗)}: A framework to integrate local information into optimal path planning},
+month = jun,
 year = {2016}
 }
 @article{Scherer:2012hk,
@@ -1341,7 +1330,7 @@ journal = {Autonomous Robots},
 keywords = {3D ladar scanning,3D obstacle mapping,Micro aerial vehicles,Self supervised learning,Visual localization},
 number = {1-2},
 pages = {189--214},
-title = {{River mapping from a flying robot: State estimation, river detection, and obstacle mapping}},
+title = {River mapping from a flying robot: State estimation, river detection, and obstacle mapping},
 volume = {33},
 year = {2012}
 }
@@ -1353,7 +1342,7 @@ issn = {00189235},
 journal = {IEEE Spectrum},
 number = {10},
 pages = {28--33},
-title = {{Robocopters to the rescue}},
+title = {Robocopters to the rescue},
 volume = {50},
 year = {2013}
 }
@@ -1364,10 +1353,10 @@ author = {Fang, Zheng and Yang, Shichao and Jain, Sezal and Dubey, Geetesh and R
 doi = {10.1002/rob.21670},
 issn = {15564967},
 journal = {Journal of Field Robotics},
-month = {jan},
+month = jan,
 number = {1},
 pages = {25--52},
-title = {{Robust Autonomous Flight in Constrained and Visually Degraded Shipboard Environments}},
+title = {Robust Autonomous Flight in Constrained and Visually Degraded Shipboard Environments},
 volume = {34},
 year = {2017}
 }
@@ -1379,10 +1368,9 @@ doi = {10.1109/ICIP.2017.8296693},
 isbn = {9781509021758},
 issn = {15224880},
 keywords = {Concrete structure,Crack detection,Guided filter,Image enhancement},
-month = {sep},
+month = sep,
 pages = {2304--2308},
-title = {{Robust image-based crack detection in concrete structure using multi-scale enhancement and visual features}},
-volume = {2017-September},
+title = {Robust image-based crack detection in concrete structure using multi-scale enhancement and visual features},
 year = {2018}
 }
 @inproceedings{Zhen:2017uf,
@@ -1393,9 +1381,9 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2017.7989739},
 isbn = {9781509046331},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {6240--6245},
-title = {{Robust localization and localizability estimation with a rotating laser scanner}},
+title = {Robust localization and localizability estimation with a rotating laser scanner},
 year = {2017}
 }
 @article{Shah:2017ut,
@@ -1406,8 +1394,8 @@ arxivId = {1710.01701},
 author = {Shah, Dhruv and Scherer, Sebastian},
 eprint = {1710.01701},
 journal = {arXiv.org},
-month = {oct},
-title = {{Robust Localization of an Arbitrary Distribution of Radioactive Sources for Aerial Inspection}},
+month = oct,
+title = {Robust Localization of an Arbitrary Distribution of Radioactive Sources for Aerial Inspection},
 url = {http://arxiv.org/abs/1710.01701},
 year = {2017}
 }
@@ -1421,7 +1409,7 @@ isbn = {9781479932726},
 issn = {07431619},
 keywords = {Autonomous systems,Filtering,Vision-based control},
 pages = {1892--1899},
-title = {{Robust multi-sensor fusion for micro aerial vehicle navigation in GPS-degraded/denied environments}},
+title = {Robust multi-sensor fusion for micro aerial vehicle navigation in {GPS}-degraded/denied environments},
 year = {2014}
 }
 @inproceedings{Choudhury:2013ek,
@@ -1432,10 +1420,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2013.6631133},
 isbn = {9781467356411},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {3947--3952},
-publisher = {IEEE},
-title = {{RRT*-AR: Sampling-based alternate routes planning with applications to autonomous emergency landing of a helicopter}},
+
+title = {{RRT*-AR:} {Sampling}-based alternate routes planning with applications to autonomous emergency landing of a helicopter},
 year = {2013}
 }
 @incollection{Kim:2018ew,
@@ -1445,7 +1433,7 @@ booktitle = {Field and Service Robotics},
 doi = {10.1007/978-3-319-67361-5_17},
 pages = {255--270},
 publisher = {Springer, Cham},
-title = {{Season-Invariant Semantic Segmentation with a Deep Multimodal Network}},
+title = {Season-Invariant Semantic Segmentation with a Deep Multimodal Network},
 year = {2018}
 }
 @inproceedings{Chamberlain:2011uj,
@@ -1455,9 +1443,9 @@ author = {Chamberlain, Lyle and Scherer, Sebastian and Singh, Sanjiv},
 booktitle = {Annual Forum Proceedings - AHS International},
 isbn = {9781617828812},
 issn = {15522938},
-month = {mar},
+month = mar,
 pages = {3210--3219},
-title = {{Self-aware helicopters: Full-scale automated landing and obstacle avoidance in unmapped environments}},
+title = {Self-aware helicopters: {Full}-scale automated landing and obstacle avoidance in unmapped environments},
 volume = {4},
 year = {2011}
 }
@@ -1469,10 +1457,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2011.5980157},
 isbn = {9781612843865},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {6227--6232},
-publisher = {IEEE},
-title = {{Self-supervised segmentation of river scenes}},
+
+title = {Self-supervised segmentation of river scenes},
 year = {2011}
 }
 @inproceedings{ShichaoYang:2017ufa,
@@ -1486,10 +1474,9 @@ doi = {10.1109/IROS.2017.8202212},
 eprint = {1707.07388},
 isbn = {9781538626825},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {590--597},
-title = {{Semantic 3D occupancy mapping through efficient high order CRFs}},
-volume = {2017-September},
+title = {Semantic {3D} occupancy mapping through efficient high order {CRFs}},
 year = {2017}
 }
 @inproceedings{Dugar:2017un,
@@ -1498,9 +1485,9 @@ address = {Fort Worth, TX},
 author = {Dugar, Vishal and Choudhury, Sanjiban and Scherer, Sebastian},
 booktitle = {Annual Forum Proceedings - AHS International},
 issn = {15522938},
-month = {may},
+month = may,
 pages = {2924--2932},
-title = {{Smooth trajectory optimization in Wind: First results on a full-scale helicopter}},
+title = {Smooth trajectory optimization in Wind: {First} results on a full-scale helicopter},
 year = {2017}
 }
 @inproceedings{Cover:2013bv,
@@ -1511,10 +1498,10 @@ booktitle = {Proceedings - IEEE International Conference on Robotics and Automat
 doi = {10.1109/ICRA.2013.6630967},
 isbn = {9781467356411},
 issn = {10504729},
-month = {may},
+month = may,
 pages = {2820--2825},
-publisher = {IEEE},
-title = {{Sparse Tangential Network (SPARTAN): Motion planning for micro aerial vehicles}},
+
+title = {Sparse Tangential Network {(SPARTAN)}: Motion planning for micro aerial vehicles},
 year = {2013}
 }
 @inproceedings{Chandarana-2018-107674,
@@ -1523,22 +1510,21 @@ author = {Chandarana, Meghan and Lewis, Michael and Allen, Bonnie Danette and Sy
 booktitle = {2018 Aviation Technology, Integration, and Operations Conference},
 doi = {10.2514/6.2018-3846},
 isbn = {9781624105562},
-month = {sep},
-title = {{Swarm size planning tool for multi-job type missions}},
+month = sep,
+title = {Swarm size planning tool for multi-job type missions},
 year = {2018}
 }
 
-@Article{wang2020tartanair,
+@inproceedings{wang2020tartanair,
   author        = {Wang, Wenshan and Zhu, Delong and Wang, Xiangwei and Hu, Yaoyu and Qiu, Yuheng and Wang, Chen and Hu, Yafei and Kapoor, Ashish and Scherer, Sebastian},
-  title         = {{TartanAir: A Dataset to Push the Limits of Visual SLAM}},
+  title         = {{TartanAir:} A Dataset to Push the Limits of Visual {SLAM}},
   year          = {2020},
-  month         = {Oct.},
+  month         = oct,
   abstract      = {We present a challenging dataset, the TartanAir, for robot navigation task and more. The data is collected in photo-realistic simulation environments in the presence of various light conditions, weather and moving objects. By collecting data in simulation, we are able to obtain multi-modal sensor data and precise ground truth labels, including the stereo RGB image, depth image, segmentation, optical flow, camera poses, and LiDAR point cloud. We set up a large number of environments with various styles and scenes, covering challenging viewpoints and diverse motion patterns, which are difficult to achieve by using physical data collection platforms.},
   archiveprefix = {arXiv},
   arxivid       = {2003.14338},
   booktitle     = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   eprint        = {2003.14338},
-  publisher     = {IEEE},
   url           = {http://arxiv.org/abs/2003.14338},
   video         = {https://youtu.be/qDwfHvTbJx4},
 }
@@ -1549,11 +1535,10 @@ author = {Choudhury, Sanjiban and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139247},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {644--649},
-publisher = {IEEE},
-title = {{The Dynamics Projection Filter (DPF) - Real-time nonlinear trajectory optimization using projection operators}},
-volume = {2015-June},
+
+title = {The Dynamics Projection Filter {(DPF)} - Real-time nonlinear trajectory optimization using projection operators},
 year = {2015}
 }
 @inproceedings{Choudhury:2014tq,
@@ -1563,9 +1548,9 @@ author = {Choudhury, Sanjiban and Arora, Sankalp and Scherer, Sebastian},
 booktitle = {Annual Forum Proceedings - AHS International},
 isbn = {9781632666918},
 issn = {15522938},
-month = {may},
+month = may,
 pages = {2872--2891},
-title = {{The planner ensemble and trajectory executive: A high performance motion planning system with guaranteed safety}},
+title = {The planner ensemble and trajectory executive: A high performance motion planning system with guaranteed safety},
 volume = {4},
 year = {2014}
 }
@@ -1576,11 +1561,10 @@ author = {Choudhury, Sanjiban and Arora, Sankalp and Scherer, Sebastian},
 booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
 doi = {10.1109/ICRA.2015.7139517},
 issn = {10504729},
-number = {June},
+month = jun,
 pages = {2389--2395},
-publisher = {IEEE},
-title = {{The planner ensemble: Motion planning by executing diverse algorithms}},
-volume = {2015-June},
+
+title = {The planner ensemble: {Motion} planning by executing diverse algorithms},
 year = {2015}
 }
 @article{Choudhury_2015_7965,
@@ -1590,7 +1574,7 @@ doi = {10.15607/RSS.2015.XI.005},
 isbn = {9780992374716},
 issn = {2330765X},
 journal = {Robotics: Science and Systems},
-title = {{Theoretical limits of speed and resolution for kinodynamic planning in a poisson forest}},
+title = {Theoretical limits of speed and resolution for kinodynamic planning in a poisson forest},
 volume = {11},
 year = {2015}
 }
@@ -1601,10 +1585,10 @@ doi = {10.1177/1687814018815235},
 issn = {16878140},
 journal = {Advances in Mechanical Engineering},
 keywords = {Unmanned aerial vehicle,delay-tolerant,metaheuristic,optimization,scheduling},
-month = {dec},
+month = dec,
 number = {12},
 pages = {168781401881523},
-title = {{Toward delay-tolerant multiple-unmanned aerial vehicle scheduling system using Multi-strategy Coevolution algorithm}},
+title = {Toward delay-tolerant multiple-unmanned aerial vehicle scheduling system using Multi-strategy Coevolution algorithm},
 volume = {10},
 year = {2018}
 }
@@ -1612,10 +1596,10 @@ year = {2018}
 address = {Pittsburgh, PA},
 author = {Agarwal, Aditya and Maturana, Daniel and Scherer, Sebastian},
 institution = {Carnegie Mellon University},
-month = {jul},
+month = jul,
 number = {CMU-RI-TR-15-07},
 pages = {CMU--RI--TR--15--07},
-title = {{Visual Odometry in Smoke Occluded Environments}},
+title = {Visual Odometry in Smoke Occluded Environments},
 url = {https://www.ri.cmu.edu/pub{\_}files/2014/7/aditya{\_}tr.pdf},
 year = {2014}
 }
@@ -1625,11 +1609,10 @@ author = {Zhu, Jianliang and Ai, Yunfeng and Tian, Bin and Cao, Dongpu and Scher
 booktitle = {IEEE Intelligent Vehicles Symposium, Proceedings},
 doi = {10.1109/IVS.2018.8500686},
 isbn = {9781538644522},
-month = {oct},
+month = oct,
 pages = {1679--1685},
-publisher = {IEEE},
-title = {{Visual Place Recognition in Long-term and Large-scale Environment based on CNN Feature}},
-volume = {2018-June},
+
+title = {Visual Place Recognition in Long-term and Large-scale Environment based on {CNN} Feature},
 year = {2018}
 }
 @inproceedings{Maturana_2015_8004,
@@ -1640,10 +1623,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2015.7353481},
 isbn = {9781479999941},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {922--928},
-title = {{VoxNet: A 3D Convolutional Neural Network for real-time object recognition}},
-volume = {2015-December},
+title = {{VoxNet:} A {3D} Convolutional Neural Network for real-time object recognition},
 year = {2015}
 }
 @inproceedings{Madaan:2017wl,
@@ -1654,10 +1636,9 @@ booktitle = {IEEE International Conference on Intelligent Robots and Systems},
 doi = {10.1109/IROS.2017.8206190},
 isbn = {9781538626825},
 issn = {21530866},
-month = {sep},
+month = sep,
 pages = {3487--3494},
-title = {{Wire detection using synthetic data and dilated convolutional networks for unmanned aerial vehicles}},
-volume = {2017-September},
+title = {Wire detection using synthetic data and dilated convolutional networks for unmanned aerial vehicles},
 year = {2017}
 }
 
@@ -1669,12 +1650,12 @@ year = {2017}
   address   = {Rome, Italy},
   month     = may,
   pages     = {2023--2029},
-  publisher = {IEEE},
+  
 }
 
 @inproceedings{Chambers:2011vm,
 author = {Chambers, Andrew and Achar, Supreeth and Nuske, Stephen and Rehder, Joern and Kitt, Bernd and Chamberlain, Lyle and Haines, Justin and Scherer, Sebastian and Singh, Sanjiv},
-title = {{Perception for a River Mapping Robot}},
+title = {Perception for a River Mapping Robot},
 booktitle = {Workshop on 3D Exploration, Mapping, and Surveillance with Aerial Robots, RSS},
 year = {2011},
 month = jul
@@ -1682,46 +1663,21 @@ month = jul
 
 @techreport{Urmson_2007_6906,
 author = {Urmson, Christopher and Anhalt, Joshua and Bagnell, Drew and Baker, Christopher and Bittner, Robert and Dolan, John and Duggins, Dave and Ferguson, David and Galatali, Tugrul and Geyer, Hartmut and Gittleman, Michele and Harbaugh, Sam and Hebert, Martial and Howard, Thomas M and Kelly, Alonzo and Kohanbash, David and Likhachev, Maxim and Miller, Nick and Peterson, Kevin and Rajkumar, Raj and Rybski, Paul and Salesky, Bryan and Scherer, Sebastian and Seo, Young-Woo and Simmons, R and Singh, Sanjiv and Snider, Jarrod and Stentz, Anthony and Whittaker, William Red and Ziglar, Jason},
-title = {{Tartan Racing: A Multi-Modal Approach to the DARPA Urban Challenge}},
+title = {{Tartan Racing:} A Multi-Modal Approach to the {DARPA} Urban Challenge},
 year = {2007},
 abstract={The Urban Challenge represents a technological leap beyond the previous Grand Challenges. The challenge encompasses three primary behaviors: driving on roads, handling intersections and maneuvering in zones. In implementing urban driving we have decomposed the problem into five components. Mission Planning determines an efficient route through an urban network of roads. A behavioral layer executes the route through the environment, adapting to local traffic and exceptional situations as necessary. A motion planning layer safeguards the robot by considering the feasible trajectories available, and selecting the best option. Perception combines data from lidar, radar and vision systems to estimate the location of other vehicles, static obstacles and the shape of the road. Finally, the robot is a mechatronic system engineered to provide the power, sensing and mobility necessary to navigate an urban course. Rigorous component and system testing evaluates progress using standardized tests. Observations from these experiments shape the design of subsequent development spirals and enable the rapid detection and correction of bugs. The system described in the paper exhibits a majority of the basic navigation and traffic skills required for the Urban Challenge. From these building blocks more advanced capabilities will quickly develop.}, 
 url={https://kilthub.cmu.edu/articles/journal_contribution/Tartan_Racing_A_Multi-Modal_Approach_to_the_DARPA_Urban_Challenge/6561125/1}, 
 DOI={10.1184/R1/6561125.v1}, 
 publisher={Carnegie Mellon University}, 
-month = {Apr}
+month = apr
 }
 
-
-
-@Article{Hu2019,
-  author        = {Hu, Yaoyu and Zhen, Weikun and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction}},
-  year          = {2019},
-  month         = nov,
-  annote        = {Submitted to International Conference on Robotics and Automation (ICRA2020)},
-  archiveprefix = {arxiv},
-  eprint        = {1912.05012v1},
-  primaryclass  = {cs.CV},
-}
-
-@Article{Yu2019,
-  author        = {Yu, Huai and Zhen, Weikun and Yang, Wen and Scherer, Sebastian},
-  journal       = {arXiv.org},
-  title         = {{Line-based Camera Pose Estimation in Point Cloud of Structured Environments}},
-  year          = {2019},
-  month         = nov,
-  annote        = {8 pages, Work has been submitted to ICRA 2020},
-  archiveprefix = {arxiv},
-  eprint        = {1912.05013v2},
-  primaryclass  = {cs.CV},
-}
 
 
 @Article{Yang2017,
   author        = {Yang, Shichao and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Direct Monocular Odometry Using Points and Lines}},
+  title         = {Direct Monocular Odometry Using Points and Lines},
   year          = {2017},
   month         = mar,
   annote        = {ICRA 2017},
@@ -1733,7 +1689,7 @@ month = {Apr}
 @Article{Zhen2019,
   author        = {Zhen, Weikun and Hu, Yaoyu and Yu, Huai and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{LiDAR Enhanced Structure-from-Motion}},
+  title         = {{LiDAR} Enhanced Structure-from-Motion},
   year          = {2019},
   month         = nov,
   annote        = {6 pages plus reference. Work has been submitted to ICRA 2020},
@@ -1748,7 +1704,7 @@ month = {Apr}
 @Article{Bonatti2018a,
   author        = {Bonatti, Rogerio and Zhang, Yanfu and Choudhury, Sanjiban and Wang, Wenshan and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Autonomous drone cinematographer: Using artistic principles to create smooth, safe, occlusion-free trajectories for aerial filming}},
+  title         = {Autonomous drone cinematographer: {Using} artistic principles to create smooth, safe, occlusion-free trajectories for aerial filming},
   year          = {2018},
   month         = aug,
   archiveprefix = {arxiv},
@@ -1761,7 +1717,7 @@ month = {Apr}
 @Article{Choudhury2017a,
   author        = {Choudhury, Sanjiban and Srinivasa, Siddhartha and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Bayesian Active Edge Evaluation on Expensive Graphs}},
+  title         = {Bayesian Active Edge Evaluation on Expensive Graphs},
   year          = {2017},
   month         = nov,
   archiveprefix = {arxiv},
@@ -1772,7 +1728,7 @@ month = {Apr}
 @Article{Choudhury2017b,
   author        = {Choudhury, Sanjiban and Javdani, Shervin and Srinivasa, Siddhartha and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs}},
+  title         = {Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs},
   year          = {2017},
   month         = jun,
   archiveprefix = {arxiv},
@@ -1786,7 +1742,7 @@ month = {Apr}
 @Article{Bonatti2019,
   author        = {Bonatti, Rogerio and Madaan, Ratnesh and Vineet, Vibhav and Scherer, Sebastian and Kapoor, Ashish},
   journal       = {arXiv.org},
-  title         = {{Learning Controls Using Cross-Modal Representations: Bridging Simulation and Reality for Drone Racing}},
+  title         = {Learning Controls Using Cross-Modal Representations: Bridging Simulation and Reality for Drone Racing},
   year          = {2019},
   month         = sep,
   archiveprefix = {arxiv},
@@ -1799,7 +1755,7 @@ month = {Apr}
 @Article{Bonatti2019a,
   author        = {Bonatti, Rogerio and Wang, Wenshan and Ho, Cherie and Ahuja, Aayush and Gschwindt, Mirko and Camci, Efe and Kayacan, Erdal and Choudhury, Sanjiban and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Autonomous Aerial Cinematography In Unstructured Environments With Learned Artistic Decision-Making}},
+  title         = {Autonomous Aerial Cinematography In Unstructured Environments With Learned Artistic Decision-Making},
   year          = {2019},
   month         = oct,
   archiveprefix = {arxiv},
@@ -1810,7 +1766,7 @@ month = {Apr}
 @Article{Bhardwaj2017,
   author        = {Bhardwaj, Mohak and Choudhury, Sanjiban and Scherer, Sebastian},
   journal       = {arXiv.org},
-  title         = {{Learning Heuristic Search via Imitation}},
+  title         = {Learning Heuristic Search via Imitation},
   year          = {2017},
   month         = jul,
   annote        = {14 pages},
