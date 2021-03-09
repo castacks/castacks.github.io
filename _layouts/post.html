@@ -2,7 +2,11 @@
 layout: default
 ---
 
-{% if page.image %}
+{% if page.title_image %}
+	{% if page.title_image != 'None' %}
+		{% include post-featured-image.html image=page.title_image alt=page.title %}
+	{% endif %}
+{% elsif page.image %}
   {% include post-featured-image.html image=page.image alt=page.title %}
 {% endif %}
 
