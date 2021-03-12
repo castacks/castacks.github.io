@@ -68,6 +68,8 @@ GEM
       listen (~> 3.0)
     kramdown (2.3.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     latex-decode (0.3.2)
     liquid (4.0.3)
     listen (3.4.1)
@@ -105,6 +107,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown (>= 2.3.0)
+  kramdown-parser-gfm
   rake (~> 12.0)
 
 BUNDLED WITH
