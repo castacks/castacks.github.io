@@ -9,9 +9,10 @@ published: true
 sidebar: false
 permalink: /fully-actuated/
 image: /img/posts/2020-11-11-fully-actuated/fully-actuated.jpg
+link-new-tab: true
 ---
 
- The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots. In our research we aim to come up with innovative ideas to accelerate the integration of these new flying robots into the real world and push the boundaries of technology to develop new applications that have previously deemed impossible.
+The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots. In our research we aim to come up with innovative ideas to accelerate the integration of these new flying robots into the real world and push the boundaries of technology to develop new applications that have previously deemed impossible.
 
 As far as we know, all the groups currently working on the fully-actuated multirotors develop new full-pose (6-D) tools and methods to use their robots, which is inefficient, time-consuming, and requires many resources. As the first step towards our goal, we have proposed a way of bridging the gap between the tools already available for underactuated robots and the new fully-actuated vehicles. The approach can extend the existing underactuated flight controllers to support the fully-actuated robots, or enhance the existing fully-actuated controllers to support existing underactuated flight stacks. We have introduced attitude strategies that work with the underactuated controllers, tools, planners and remote control interfaces, all while allowing taking advantage of the full actuation. Moreover, new methods are proposed that can properly handle the limited lateral thrust suffered by many fully-actuated UAV designs. The strategies are lightweight, simple, and allow rapid integration of the available tools with these new vehicles for the fast development of new real-world applications. 
 
