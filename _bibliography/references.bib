@@ -1,15 +1,212 @@
 % Encoding: UTF-8
-@article{keipour:icra:2021,
-abstract = {The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots. As far as we know, all the groups currently working on the fully-actuated multirotors develop new full-pose (6-D) tools and methods to use their robots, which is inefficient, time-consuming, and requires many resources. We propose methods that extend the existing flight controllers to support the new fully-actuated robots and bridge the gap between the tools already available for underactuated robots and the new fully-actuated vehicles. We introduce attitude strategies that work with the underactuated planners, controllers, tools, and remote control interfaces, all while allowing taking advantage of the full actuation. Moreover, new methods are proposed that can properly handle the limited lateral thrust suffered by many fully-actuated UAV designs. The strategies are lightweight, simple, and allow rapid integration of the available tools with these new vehicles for the fast development of new real-world applications. The real experiments on our robots and simulations on several UAV architectures show how the strategies can be utilized. The source code of the PX4 firmware enhanced with the proposed methods and its simulator with our fully-actuated hexarotor model are provided with this paper. For more information, please visit https://theairlab.org/fully-actuated/.},
+
+@article{Scherer:2021,
+abstract = {Subterranean robot exploration is difficult with many mobility, communications, and navi- gation challenges that require an approach with a diverse set of systems, and reliable auton- omy. While prior work has demonstrated partial successes in addressing the problem here we convey a comprehensive approach to address the problem of SubT exploration in a wide range of tunnel, urban, and cave environments. Our approach that is driven by the themes of resiliency and modularity, and we show examples of how these themes influence the design of the different modules. In particular, we detail our approach to artifact detection, pose estimation, coordination, planning, control, and autonomy, and discuss our performance in the tunnel, urban, and self-organized cave circuits.},
+author = {
+ Scherer, Sebastian and  Agrawal, Vasu and  Best, Graeme and  Cao, Chao and  Cujic, Katarina and  Darnley, Ryan and  DeBortoli, Robert and  Dexheimer, Eric and  Drozd, Bill and  Garg, Rohit and  Higgins, Ian and  Keller, John and  Kohanbash, David and  Nogueira, Lucas and  Pradhan, Roshan and  Tatum, Michael and  K. Viswanathan, Vaibhav and  Willits, Steven and  Zhao, Shibo and  Zhu, Hongbiao and  Abad, Dan and  Angert, Tim and  Armstrong, Greg and  Boirum, Ralph and  Dongare, Adwait and  Dworman, Matthew and  Hu, Shengjie and  Jaekel, Joshua and  Ji, Ran and  Lai, Alice and  Hsuan Lee, Yu and  Luong, Anh and  Mangelson, Joshua and  Maier, Jay and  Picard, James and  Pluckter, Kevin and  Saba, Andrew and  Saroya, Manish and  Scheide, Emily and  Shoemaker-Trejo, Nathaniel and  Spisak, Joshua and  Teza, Jim and  Yang, Fan and  Wilson, Andrew and  Zhang, Henry and  Choset, Howie and  Kaess, Michael and  Rowe, Anthony and  Singh, Sanjiv and  Zhang, Ji and  A. Hollinger, Geoffrey and  Travers, Matthew},
+journal = {Submitted to the Journal of Field Robotics},
+title = {Resilient and Modular Subterranean Exploration with a Team of Roving and Flying Robots},
+year = {2021}
+}
+
+
+@InProceedings{yang2021,
+  author    = {Yang, Fan and Lee, Dung-Han and Keller, John and Scherer, Sebastian},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  title     = {Graph-Based Topological Exploration Planning in Large-Scale {3D} Environments},
+  year      = {2021},
+  month     = may,
+  address = {Xi'an, China},
+  abstract  = {Currently, state-of-the-art exploration methods make
+various efforts in constructing and maintaining
+high-resolution world representations to acquire positions
+in configuration space that maximize information gain.
+However, those “optimal” selections could quickly become
+obsolete due to the influx of new information, especially
+in large-scale environments, which results in
+high-frequency re-planning that hinders the exploration
+efﬁciency. In this paper, we propose a graph-based
+topological planning framework, building a sparse
+topological map in three-dimensional (3D) space to guide
+exploration steps with high-level intents so as to render
+consistent exploration maneuvers. Specifically, this work
+presents a novel method to represent 3D spaces as convex
+polyhedrons, whose geometry information is utilized to
+group spaces into distinctive regions. These distinctive
+regions are then added as nodes into the topological map,
+directing the exploration process. We compared our method
+with the state-of-art in simulated environments. The
+proposed method achieves better exploration performance in
+space coverage and outperforms exploration efﬁciency
+by more than 40%. Finally, a field experiment was conducted
+to further evaluate the applicability of our method to
+empower efficient and robust exploration in real-world
+environments.}
+}
+
+@InProceedings{bonatti2021,
+  author    = {Bonatti, Rogerio and Bucker, Arthur and Scherer, Sebastian and Mukadam, Mustafa and Hodgins, Jessica},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  title     = {Batteries, Camera, Action! Learning a Semantic Control Space for Expressive Robot Cinematography },
+  year      = {2021},
+  month     = may,
+  address   = {Xi'an, China},
+  video     = {https://www.youtube.com/watch?v=6WX2yEUE9_k},
+  abstract  = {Aerial vehicles are revolutionizing the way film-makers can
+capture shots of actors by composing novel aerial and
+dynamic viewpoints. However, despite great advancements in
+autonomous flight technology, generating expressive camera
+behaviors is still a challenge and requires non-technical
+users to edit a large number of unintuitive control
+parameters. In this work we develop a data-driven framework
+that enables editing of these complex camera positioning
+parameters in a semantic space (e.g. calm, enjoyable,
+establishing). First, we generate a database of video clips
+with a diverse range of shots in a photo-realistic
+simulator, and use hundreds of participants in a
+crowd-sourcing framework to obtain scores for a set of
+semantic descriptors for each clip. Next, we analyze
+correlations between descriptors and build a semantic
+control space based on cinematography guidelines and human
+perception studies. Finally, we learn a generative model
+that can map a set of desired semantic video descriptors
+into low-level camera trajectory parameters. We evaluate
+our system by demonstrating that our model successfully
+generates shots that are rated by participants as having
+the expected degrees of expression for each descriptor. We
+also show that our models generalize to different scenes in
+both simulation and real-world experiments. More results
+found on the supplementary video. }
+}
+
+@InProceedings{bucker2021,
+  author    = {Bucker, Arthur and Bonatti, Rogerio and Scherer, Sebastian},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  title     = {Do You See What I See? Coordinating Multiple Aerial Cameras for Robot Cinematography},
+  year      = {2021},
+  month     = may,
+  address   = {Xi'an, China},
+  video     = {https://www.youtube.com/watch?v=m2R3anv2ADE},
+  abstract  = {Aerial cinematography is significantly expanding the
+capabilities of film-makers. Recent progress in autonomous
+unmanned aerial vehicles (UAVs) has further increased the
+potential impact of aerial cameras, with systems that can
+safely track actors in unstructured cluttered environments.
+Professional productions, however, require the use of
+multiple cameras simultaneously to record different
+viewpoints of the same scene, which are edited into the
+final footage either in real time or in post-production.
+Such extreme motion coordination is particularly hard for
+unscripted action scenes, which are a common use case of
+aerial cameras. In this work we develop a real-time
+multi-UAV coordination system that is capable of recording
+dynamic targets while maximizing shot diversity and
+avoiding collisions and mutual visibility between cameras.
+We validate our approach in multiple cluttered environments
+of a photo-realistic simulator, and deploy the system using
+two UAVs in real-world experiments. We show that our
+coordination scheme has low computational cost and takes
+only 1.17 ms on average to plan for a team of 3 UAVs over a
+10 s time horizon. More results can be found on the
+supplementary video. }
+}
+
+@InProceedings{sivaprakasm2021,
+  author    = {Sivaprakasam, Matthew and Triest, Samuel and Wang, Wenshan and Yin, Peng and Scherer, Sebastian},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  title     = {Improving Off-Road Planning Techniques with Learned Costs from Physical Interactions},
+  year      = {2021},
+  month     = may,
+  address = {Xi'an, China},
+  abstract  = {Autonomous ground vehicles have improved greatly over the
+past decades, but they still have their limitations when it
+comes to off-road environments. There is still a need for
+planning techniques that effectively handle physical
+interactions between a vehicle and its surroundings. We
+present a method of modifying a standard path planning
+algorithm to address these problems by incorporating a
+learned model to account for complexities that would be too
+hard to address manually. The model predicts how well a
+vehicle will be able to follow a potential plan in a given
+environment. These predictions are then used to assign
+costs to their associated paths, where the path predicted
+to be the most feasible will be output as the final path.
+This results in a planner that doesn't rely solely on
+engineered features to evaluate traversability of
+obstacles, and can also choose a better path based on an
+understanding of its own capability that it has learned
+from previous interactions. This modification was
+integrated into the Hybrid A* algorithm and experimental
+results demonstrated an improvement of 14.29% over the
+original version on a physical platform. }
+}
+
+@InProceedings{choudhry2021,
+  author    = {Choudhry, Arnav and Moon, Brady, and Patrikar, Jay and Samaras, Constantine and Scherer, Sebastian},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  title     = {{CVaR}-Based Flight Energy Risk Assessment for Multirotor {UAVs} Using a Deep Energy Model},
+  year      = {2021},
+  month     = may,
+  address   = {Xi'an, China},
+  video     = {https://t.co/qcYHxa6oOW?amp=1},
+  abstract  = {An important aspect of risk assessment for UAV flights is
+energy consumption, as running out of battery during a
+flight brings almost guaranteed vehicle damage and a high
+risk of property damage or human injuries. Predicting the
+amount of energy a flight will consume is challenging as
+many factors affect the overall consumption. In this work,
+we propose a deep energy model that uses Temporal
+Convolutional Networks (TCNs) to capture the time varying
+features while incorporating static contextual information.
+Our energy model is trained on a real world dataset and
+doesn't require segregating flights into regimes. We
+showcase an improvement in power predictions by 35.6% on
+test flights when compared to a state-of-the-art analytical
+method. Once we have an accurate energy model, we can use
+it to predict the energy usage for a given trajectory and
+evaluate the risk of running out of battery during flight.
+We propose using Conditional Value-at-Risk (CVaR) as a
+metric for quantifying this risk. We show that CVaR
+captures the risk associated with worst-case energy
+consumption on a nominal path by transforming the output
+distribution of Monte Carlo forward simulations into a risk
+space and computing the CVaR on the risk-space
+distribution. Our state-of-the-art energy model and risk
+evaluation method helps guarantee safe flights and evaluate
+the coverage area from a proposed takeoff location.}
+}
+
+
+
+
+
+@article{keipour:ral:2021,
+abstract = {We propose a new algorithm for real-time detection and tracking of elliptic patterns suitable for real-world robotics applications. The method fits ellipses to each contour in the image frame and rejects ellipses that do not yield a good fit. It can detect complete, partial, and imperfect ellipses in extreme weather and lighting conditions and is lightweight enough to be used on robots' resource-limited onboard computers. The method is used on an example application of autonomous UAV landing on a fast-moving vehicle to show its performance indoors, outdoors, and in simulation on a real-world robotics task. The comparison with other well-known ellipse detection methods shows that our proposed algorithm outperforms other methods with the F1 score of 0.981 on a dataset with over 1500 frames. The videos of experiments, the source codes, and the collected dataset are provided with the paper. For more information, please visit https://theairlab.org/landing-on-vehicle/.},
+archivePrefix = {arXiv},
+arxivId = {2102.12670},
+journal={arXiv preprint arXiv:2102.12670},
+author={Azarakhsh Keipour and Guilherme A. S. Pereira and Sebastian Scherer},
+eprint = {2102.12670},
+title={Real-Time Ellipse Detection for Robotics Applications}, 
+url = {https://arxiv.org/abs/2102.12670},
+video = {https://www.youtube.com/watch?v=CzR-4aqlOhQ},
+year = {2021}
+}
+
+@article{keipour:iros:2021,
+abstract = {The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots.
+As far as we know, all the groups currently working on the fully-actuated multirotors develop new full-pose (6-D) tools and methods to use their robots, which is inefficient, time-consuming, and requires many resources.
+We propose a way of bridging the gap between the tools already available for underactuated robots and the new fully-actuated vehicles. The approach can extend the existing underactuated flight controllers to support the fully-actuated robots, or enhance the existing fully-actuated controllers to support existing underactuated flight stacks. We introduce attitude strategies that work with the underactuated controllers, tools, planners and remote control interfaces, all while allowing taking advantage of the full actuation. Moreover, new methods are proposed that can properly handle the limited lateral thrust suffered by many fully-actuated UAV designs. The strategies are lightweight, simple, and allow rapid integration of the available tools with these new vehicles for the fast development of new real-world applications.
+The real experiments on our robots and simulations on several UAV architectures with different underlying controller methods show how these strategies can be utilized to extend existing flight controllers for fully-actuated applications. We have provided the source code for the PX4 firmware enhanced with our proposed methods to showcase an example flight controller for underactuated multirotors that can be modified to seamlessly support fully-actuated vehicles while retaining the rest of the flight stack unchanged. For more information, please visit https://theairlab.org/fully-actuated/.},
 archivePrefix = {arXiv},
 arxivId = {2011.06666},
 journal={arXiv preprint arXiv:2011.06666},
 author={Azarakhsh Keipour and Mohammadreza Mousaei and Andrew Ashley and Sebastian Scherer},
 eprint = {2011.06666},
-title={Attitude and Thrust Strategies for Fully-Actuated Multirotors: The Fast-Track to Real-World Applications}, 
+title={Integration of Fully-Actuated Multirotors into Real-World Applications}, 
 url = {https://arxiv.org/abs/2011.06666},
 video = {https://www.youtube.com/watch?v=lZ3ye1il0W0},
-year = {2020}
+year = {2021}
 }
 
 
@@ -124,7 +321,6 @@ issn = {0278-3649},
 journal = {The International Journal of Robotics Research},
 keywords = {Dataset,actuator failure,anomaly detection,autonomous robots,engine failure,evaluation metrics,fault detection and isolation,fixed-wing robots,flight safety,unmanned aerial vehicles},
 month = oct,
-pages = {027836492096664},
 publisher = {SAGE Publications Ltd STM},
 title = {{ALFA:} A dataset for {UAV} fault and anomaly detection},
 url = {https://arxiv.org/abs/1907.06268},
