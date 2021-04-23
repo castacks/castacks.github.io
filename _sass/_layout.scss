@@ -50,3 +50,26 @@ div.highlight {
     padding: 1.5rem;
     margin-bottom: 3rem;
 }
+
+.circular_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    float: center;
+    object-fit:cover;
+    // margin-left: 125px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    display:inline-block;
+  }
+  .circular_image img{
+    width:100%;
+    height: auto;
+  }
+
+table.customFormat tr td{ 
+    line-height: 1.2rem; 
+}
