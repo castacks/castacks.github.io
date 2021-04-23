@@ -1,31 +1,24 @@
 ---
 title: Yuheng Qiu
-subtitle: Research Associate
-job_title: Research Associate I
-category: staff
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category: phd_student
 layout: team_member_personal_page
 image: /img/team/yuheng.jpg
 hide_footer: true
 ---
 
-Yuheng Qiu is a  visitor in the airlab at CMU. He received his Bachelor degree in Computer Science and Engineering from The Chinese University of HongKong (Shenzhen) in 2019. Now he is looking for a  PHD in the research area of robotics.
-
-### Projects
-
-* Visual SLAM (Simultaneous localization and mapping)
-  * dynamic environments
-  * with object perception
-* Video prediction and machine learning
-* Challenging Dataset for SLAM
+Yuheng Qiu received his Bachelor degree in Computer Science and Engineering from The Chinese University of HongKong (Shenzhen) in 2019. Now he is a  PHD student in the AirLab.
 
 ### Research Interest
 
 * Visual Simultaneous localization and mapping (SLAM)
 * Robotic perception
-* Computer vision
 * Machine learning
 
-### Contact me
+### About me
+
+[Google Scholar](https://scholar.google.com/citations?user=aEK45mEAAAAJ)
 
 yuhengq@andrew.cmu.edu
 
