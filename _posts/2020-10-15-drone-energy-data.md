@@ -3,7 +3,6 @@ layout: post
 title: "In-flight positional and energy use dataset of package delivery quadcopter UAVs"
 date: 2020-10-23 10:50:07
 categories: datasets
-description: "Energy Dataset"
 author: "Brady Moon"
 published: true
 sidebar: false
@@ -56,7 +55,7 @@ The dataset can be accessed through this link:
 
 [https://doi.org/10.1184/R1/12683453.v2](https://doi.org/10.1184/R1/12683453.v2) 
 
-
+<!-- <iframe src="https://widgets.figshare.com/articles/12683453/embed?show_title=true" width="568" height="351" allowfullscreen frameborder="0"></iframe> -->
 
 
 ### Contact

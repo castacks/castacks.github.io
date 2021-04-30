@@ -6,7 +6,7 @@ description: An interactive series of talks, tutorials, and learning on SLAM top
 show_sidebar: false
 hide_footer: false
 permalink: /tartanslamseries/
-hero_image: /img/tartan2.png
+hero_image: /img/slam_series/tartanSLAMbanner2.png
 ---
 
 # General Information
