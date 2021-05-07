@@ -135,6 +135,33 @@ The goal of this series is to expand the understanding of those both new and exp
       </div>
     </td>
   </tr>
+  <tr>
+    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
+    <td style="text-align: center;"> 
+      <div class="circular_image">
+        <img src="/img/slam_series/paul.png"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="http://copland.udel.edu/~ghuang/">Guoquan (Paul) Huang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Associate Professor</p>
+      <p>University of Delaware</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">Recent work on multi-sensor fusion</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">8 July 2021</p> 
+      <p>5:00 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>
+  </tr>
 </table> 
 
 
