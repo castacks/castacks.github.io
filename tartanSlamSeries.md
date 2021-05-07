@@ -39,17 +39,41 @@ The goal of this series is to expand the understanding of those both new and exp
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Overview of SLAM and previous AirLab SLAM work</p>
+      <p style="margin-bottom: 3px;">Challenges in SLAM: What's ahead</p>
       <a href="#basti"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">20 May 2021</p> 
-      <p>12:00 PM EST</p>
+      <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Super Odometry</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">27 May 2021</p> 
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -76,7 +100,7 @@ The goal of this series is to expand the understanding of those both new and exp
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/PhF3cbQRp2s" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -103,7 +127,7 @@ The goal of this series is to expand the understanding of those both new and exp
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/PHXGigqilOA" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -130,7 +154,7 @@ The goal of this series is to expand the understanding of those both new and exp
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>
@@ -157,7 +181,7 @@ The goal of this series is to expand the understanding of those both new and exp
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/Krx8A9B6Wl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </td>
@@ -198,7 +222,7 @@ The goal of this series is to expand the understanding of those both new and exp
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe>
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
@@ -206,3 +230,6 @@ The goal of this series is to expand the understanding of those both new and exp
   </tbody>
 </table>
 <hr>
+
+
+# Organizers
