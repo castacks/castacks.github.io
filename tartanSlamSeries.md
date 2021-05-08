@@ -12,6 +12,8 @@ hero_image: /img/slam_series/tartanSLAMbanner2.png
 # General Information
 The goal of this series is to expand the understanding of those both new and experienced with SLAM topics. Sessions will included research talks, as well as in depth tutorials and walkthroughs of common SLAM algorithms. 
 
+You can add the schedule to your google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
+
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
 # Schedule
@@ -58,7 +60,7 @@ The goal of this series is to expand the understanding of those both new and exp
     <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Shibo Zhao</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
@@ -233,3 +235,61 @@ The goal of this series is to expand the understanding of those both new and exp
 
 
 # Organizers
+
+ <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
+  <!-- <tr>
+    <b>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    </b>
+  </tr> -->
+  <tr>
+    <td style="text-align: center;"> 
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/> 
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;"> 
+      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/> 
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://github.com/Nik-V9">Nikhil Varma Keetha</a>
+      </p>
+      <p style="margin-bottom: 3px;">RISS Intern </p>
+      <p>Indian Institute of Technology</p>
+    </td>
+    <td style="text-align: center;"> 
+      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/> 
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Scientist </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;"> 
+      <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/> 
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Master's Student </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;"> 
+      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/> 
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+  </tr>
+</table>
+
+
+<!-- <iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+

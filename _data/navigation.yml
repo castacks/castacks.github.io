@@ -13,6 +13,8 @@
   link: /news/
 - name: Resources
   dropdown:
+    - name: Tartan SLAM Series
+      link: /tartanslamseries/
     - name: Summer School 2020
       link: /summer2020/
     - name: BitBucket
