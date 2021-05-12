@@ -45,37 +45,13 @@ You can add the schedule to your google calender [here](https://calendar.google.
       <a href="#basti"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">20 May 2021</p> 
-      <p>12:30 PM EST</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Super Odometry</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">27 May 2021</p> 
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -94,7 +70,7 @@ You can add the schedule to your google calender [here](https://calendar.google.
       <p style="margin-bottom: 3px;">Associate Research Professor</p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;"></td>
+    <td style="text-align: center;vertical-align: middle;">Factor Graphs</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">3 June 2021</p> 
       <p>4:00 PM EST</p>
@@ -116,7 +92,7 @@ You can add the schedule to your google calender [here](https://calendar.google.
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://research.qut.edu.au/qcr/Our%20people/michael-milford/">Michael Milford</a>
+        <a style="margin-bottom: 1px;" href="https://www.qut.edu.au/research/michael-milford">Michael Milford</a>
       </p>
       <p style="margin-bottom: 3px;">Professor in Electrical Engineering</p>
       <p>Queensland University of Technology</p>
@@ -148,10 +124,10 @@ You can add the schedule to your google calender [here](https://calendar.google.
       <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Mila</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable Models of the Physical World</td>
+    <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable programming for SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">1 July 2021</p> 
-      <p>12:00 PM EST</p>
+      <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -175,10 +151,10 @@ You can add the schedule to your google calender [here](https://calendar.google.
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>University of Delaware</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Recent work on multi-sensor fusion</td>
+    <td style="text-align: center;vertical-align: middle;">Visual-Inertial Estimation and Perception</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">8 July 2021</p> 
-      <p>5:00 PM EST</p>
+      <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -187,6 +163,84 @@ You can add the schedule to your google calender [here](https://calendar.google.
         </div>
       </div>
     </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Super Odometry</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">15 July 2021</p> 
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
+    <td style="text-align: center;"> 
+      <div class="circular_image">
+        <img src="/img/slam_series/john_leonard.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://marinerobotics.mit.edu/john-j-leonard">Michael Milford</a>
+      </p>
+      <p style="margin-bottom: 3px;">Professor of Mechanical and Ocean Engineering</p>
+      <p>Massachusetts Institute of Technology</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">The Past, Present and Future of SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">22 July 2021</p> 
+      <p>12:00 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
+    <td style="text-align: center;"> 
+      <div class="circular_image">
+        <img src="/img/team/wenshan.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://marinerobotics.mit.edu/john-j-leonard">Wenshan Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Scientist</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">Pushing the limits of Visual SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">5 August 2021</p> 
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
   </tr>
 </table> 
 
@@ -258,10 +312,10 @@ You can add the schedule to your google calender [here](https://calendar.google.
     <td style="text-align: center;"> 
       <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/> 
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://github.com/Nik-V9">Nikhil Varma Keetha</a>
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/nikhil-varma-keetha-612685193/">Nikhil Varma Keetha</a>
       </p>
-      <p style="margin-bottom: 3px;">RISS Intern </p>
-      <p>Indian Institute of Technology</p>
+      <p style="margin-bottom: 3px;">Robotics Institute Summer Scholar</p>
+      <p>IIT (ISM) Dhanbad</p>
     </td>
     <td style="text-align: center;"> 
       <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/> 
