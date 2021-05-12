@@ -12,7 +12,7 @@ hero_image: /img/slam_series/tartanSLAMbanner2.png
 # General Information
 The goal of this series is to expand the understanding of those both new and experienced with SLAM topics. Sessions will included research talks, as well as in depth tutorials and walkthroughs of common SLAM algorithms. 
 
-You can add the schedule to your google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
+You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
@@ -151,7 +151,10 @@ You can add the schedule to your google calender [here](https://calendar.google.
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>University of Delaware</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Visual-Inertial Estimation and Perception</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Visual-Inertial Estimation and Perception</p>
+      <a href="#huang"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">8 July 2021</p> 
       <p>12:30 PM EST</p>
@@ -197,7 +200,7 @@ You can add the schedule to your google calender [here](https://calendar.google.
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://marinerobotics.mit.edu/john-j-leonard">Michael Milford</a>
+        <a style="margin-bottom: 1px;" href="https://marinerobotics.mit.edu/john-j-leonard">John Leonard</a>
       </p>
       <p style="margin-bottom: 3px;">Professor of Mechanical and Ocean Engineering</p>
       <p>Massachusetts Institute of Technology</p>
@@ -210,21 +213,17 @@ You can add the schedule to your google calender [here](https://calendar.google.
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/FH6suW6_A5U" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
-      <div class="circular_image">
-        <img src="/img/team/wenshan.jpg"/>
-      </div>
-    </td>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/wenshan.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://marinerobotics.mit.edu/john-j-leonard">Wenshan Wang</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
       </p>
       <p style="margin-bottom: 3px;">Scientist</p>
       <p>Carnegie Mellon University</p>
@@ -237,7 +236,7 @@ You can add the schedule to your google calender [here](https://calendar.google.
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/Y4FNOeoX6h4" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -267,7 +266,7 @@ You can add the schedule to your google calender [here](https://calendar.google.
     <tr>
       <td>
         <h3>Sebastian Scherer</h3>
-        <i>Overview of SLAM and previous AirLab SLAM work</i>
+        <h4><i>Overview of SLAM and previous AirLab SLAM work</i></h4>
         <!-- <ul>
           <li>Graph Convolutional Networks</li>
           <li>Graph Sampling Methods</li>
@@ -288,6 +287,56 @@ You can add the schedule to your google calender [here](https://calendar.google.
 <hr>
 
 
+<a id="huang" />
+<table>
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <h3>Guoquan (Paul) Huang</h3>
+        <h4><i>Visual-Inertial Estimation and Perception</i></h4>
+          <p>Enabling centimeter-accuracy positioning and human-like
+            scene understanding for autonomous vehicles and mobile devices, holds
+            potentially huge implications for practical applications. Optimal
+            fusion of visual and inertial sensors provides a popular means of
+            navigating in 3D, in part because of their complementary sensing
+            modalities and their reduced cost and size.</p>
+          <p> In this talk, I will
+            present our recent research efforts on visual-inertial estimation and
+            perception. I will first discuss the observability-based methodology
+            for consistent state estimation in the context of simultaneous
+            localization and mapping (SLAM) and visual-inertial navigation system
+            (VINS), and then will highlight some of our recent results on
+            visual-inertial estimation, including OpenVINS, inertial
+            preintegration for graph-based VINS, robocentric visual-inertial
+            odometry, Schmidt-EKF for visual-inertial SLAM with deep loop
+            closures, visual-inertial moving object tracking and many others. </p>
+        <!-- <ul>
+          <li>Graph Convolutional Networks</li>
+          <li>Graph Sampling Methods</li>
+          <li>Application and PyTorch Implementation</li>
+        </ul> -->
+        <!-- <a href="https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA">slides</a> | <a href="https://classroom.github.com/a/h3ktCkJ5">repo</a> -->
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/Krx8A9B6Wl4" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+
+
+
+<br>
 # Organizers
 
  <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
