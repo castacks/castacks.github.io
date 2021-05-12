@@ -14,6 +14,8 @@ The goal of this series is to expand the understanding of those both new and exp
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
+Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and reminders about the presentations. 
+
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
 # Schedule
