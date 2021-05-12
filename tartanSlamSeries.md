@@ -44,7 +44,7 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Challenges in SLAM: What's ahead</p>
-      <a href="#basti"> Outline and Links</a>
+      <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">27 May 2021</p> 
@@ -155,7 +155,7 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Visual-Inertial Estimation and Perception</p>
-      <a href="#huang"> Outline and Links</a>
+      <a href="#huang" onclick="myFunction('huangButton', 'huangBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">8 July 2021</p> 
@@ -259,7 +259,9 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
 # Session Contents
 <hr>
 <a id="basti" />
-<table>
+<h3>Sebastian Scherer</h3>
+<h4><i>Challenges in SLAM: What's ahead &nbsp;</i> <button id="bastiButton" class="button2" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button></h4>
+<table id=bastiBlock style="display: none">
   <colgroup>
      <col span="1" style="width: 60%;">
      <col span="1" style="width: 40%;">
@@ -267,8 +269,6 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
   <tbody>
     <tr>
       <td>
-        <h3>Sebastian Scherer</h3>
-        <h4><i>Overview of SLAM and previous AirLab SLAM work</i></h4>
         <!-- <ul>
           <li>Graph Convolutional Networks</li>
           <li>Graph Sampling Methods</li>
@@ -289,8 +289,13 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
 <hr>
 
 
+
+
 <a id="huang" />
-<table>
+<h3>Guoquan (Paul) Huang </h3>
+<h4><i>Visual-Inertial Estimation and Perception &nbsp;</i> <button id="huangButton" class="button2" onclick="myFunction('huangButton', 'huangBlock')">Expand Contents</button></h4>
+
+<table id=huangBlock style="display: none">
   <colgroup>
      <col span="1" style="width: 60%;">
      <col span="1" style="width: 40%;">
@@ -298,8 +303,6 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
   <tbody>
     <tr>
       <td>
-        <h3>Guoquan (Paul) Huang</h3>
-        <h4><i>Visual-Inertial Estimation and Perception</i></h4>
           <p>Enabling centimeter-accuracy positioning and human-like
             scene understanding for autonomous vehicles and mobile devices, holds
             potentially huge implications for practical applications. Optimal
@@ -335,6 +338,24 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
 </table>
 <hr>
 
+
+
+<script>
+  function myFunction(buttonID, blockName) {
+    var x = document.getElementById(blockName);
+    if (x.style.display === "table") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "table";
+    }
+    var el = document.getElementById(buttonID);
+    if (el.childNodes[0].nodeValue === "Expand Contents"){
+      el.childNodes[0].nodeValue = "Collapse Contents";
+    } else {
+      el.childNodes[0].nodeValue = "Expand Contents";
+    }
+  }
+</script>
 
 
 
