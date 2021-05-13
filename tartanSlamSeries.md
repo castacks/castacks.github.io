@@ -170,17 +170,20 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     </td>
   </tr>
   <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
+    <td style="text-align: center;"> 
+      <div class="circular_image">
+        <img src="/img/slam_series/luca.png"/>
+      </div>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+        <a style="margin-bottom: 1px;" href="https://lucacarlone.mit.edu/">Luca Carlone</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
+      <p style="margin-bottom: 3px;">Assistant Professor in Department of Aeronautics and Astronautics</p>
+      <p>Massachusetts Institute of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Super Odometry</p>
-    </td>
+    <td style="text-align: center;vertical-align: middle;">TBA</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">15 July 2021</p> 
       <p>12:30 PM EST</p>
@@ -188,7 +191,7 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/j5g3efgdjRg" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -216,6 +219,30 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
           <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/FH6suW6_A5U" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Super Odometry</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">29 July 2021</p> 
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
