@@ -136,7 +136,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/svzQgfkrxZc" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
