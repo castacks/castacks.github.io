@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Tartan SLAM Series
-subtitle: An interactive series of talks, tutorials, and learning on SLAM topics
-description: An interactive series of talks, tutorials, and learning on SLAM topics
+subtitle: An interactive series of talks, tutorials, and learning on SLAM
+description: An interactive series of talks, tutorials, and learning on SLAM
 show_sidebar: false
 hide_footer: false
 permalink: /tartanslamseries/
@@ -10,11 +10,13 @@ hero_image: /img/slam_series/tartanSLAMbanner2.png
 ---
 
 # General Information
-The goal of this series is to expand the understanding of those both new and experienced with SLAM topics. Sessions will included research talks, as well as in depth tutorials and walkthroughs of common SLAM algorithms. 
+The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to varoius themes of SLAM and thought provoking open-ended discussions. 
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
-Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and reminders about the presentations. 
+Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and reminders about the presentations.
+
+Event Format: 40 min Talk & 20 min Open-ended Discussion
 
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
@@ -99,7 +101,7 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
       <p style="margin-bottom: 3px;">Professor in Electrical Engineering</p>
       <p>Queensland University of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Biologically inspired SLAM systems</td>
+    <td style="text-align: center;vertical-align: middle;">Biologically-inspired SLAM: Where are we coming from and where could we go?</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">10 June 2021</p> 
       <p>4:00 PM EST</p>
@@ -116,17 +118,17 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
     <td style="text-align: center;"> 
       <div class="circular_image">
-        <img src="/img/slam_series/krishna"/>
+        <img src="/img/slam_series/andy2013.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://krrish94.github.io/">Krishna Murthy Jatavallabhula</a>
+        <a style="margin-bottom: 1px;" href="https://www.doc.ic.ac.uk/~ajd/">Andrew Davison</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate</p>
-      <p>Mila</p>
+      <p style="margin-bottom: 3px;">Professor of Robot Vision</p>
+      <p>Imperial College London</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable programming for SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">Graph-based representations for Spatial-AI</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">1 July 2021</p> 
       <p>12:30 PM EST</p>
@@ -134,10 +136,10 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-    </td>
+    </td>  
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
@@ -183,7 +185,7 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
       <p style="margin-bottom: 3px;">Assistant Professor in Department of Aeronautics and Astronautics</p>
       <p>Massachusetts Institute of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">TBA</td>
+    <td style="text-align: center;vertical-align: middle;">The Future of Robot Perception: Recent Progress and Opportunities Beyond SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">15 July 2021</p> 
       <p>12:30 PM EST</p>
@@ -224,17 +226,20 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     </td>  
   </tr>
   <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
+    <td style="text-align: center;"> 
+      <div class="circular_image">
+        <img src="/img/slam_series/krishna"/>
+      </div>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+        <a style="margin-bottom: 1px;" href="https://krrish94.github.io/">Krishna Murthy Jatavallabhula</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
+      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p>Mila</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Super Odometry</p>
-    </td>
+    <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable programming for SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">29 July 2021</p> 
       <p>12:30 PM EST</p>
@@ -242,10 +247,10 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-    </td>  
+    </td>
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
@@ -266,6 +271,30 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
           <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/Y4FNOeoX6h4" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Super Odometry</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">12 August 2021</p> 
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -296,6 +325,10 @@ Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8) to receive email updates and
   <tbody>
     <tr>
       <td>
+          <p> Overview of SLAM</p>
+          <p> Learning-based methods for SLAM</p>
+          <p> How do we handle the hard cases in SLAM? What are the challenges ahead?</p>
+          <p> Bridging the gap between dataset validation and real-world system deployment</p>
         <!-- <ul>
           <li>Graph Convolutional Networks</li>
           <li>Graph Sampling Methods</li>
