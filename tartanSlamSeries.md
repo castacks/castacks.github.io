@@ -10,7 +10,7 @@ hero_image: /img/slam_series/tartanSLAMbanner2.png
 ---
 
 # General Information
-The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to varoius themes of SLAM and thought provoking open-ended discussions. 
+The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. 
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
