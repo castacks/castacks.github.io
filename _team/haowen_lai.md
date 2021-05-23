@@ -1,5 +1,5 @@
 ---
-title: Haowen Lia 
+title: Haowen Lai 
 subtitle: RISS Intern
 job_title: RISS Intern
 category: intern
