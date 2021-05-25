@@ -1,0 +1,42 @@
+I"�<hr />
+
+<p>Aerial cinematography is revolutionizing industries that require live and dynamic camera viewpoints such as entertainment, sports, and security. However, safely piloting a drone while filming a moving target in the presence of obstacles is immensely taxing, often requiring multiple expert human operators.</p>
+
+<p>Commercial drone products can tackle some automated tasks, but one thing those systems don’t address is filming artistically. Our team of researchers has proposed a complete system for aerial cinematography that learns humans’ visual preferences. The fully autonomous system does not require scripted scenes, GPS tags to localize targets or prior maps of the environment.</p>
+
+<figure>
+ <img src="/img/posts/2020-02-14-filming/lapse_car_web.jpg" alt="Drone filming" />
+ <figcaption>
+ Drone autonomously filming a moving vehicle
+ </figcaption>
+</figure>
+
+<p>We address the problem in its entirety and propose a complete system for real‐time aerial cinematography that for the first time combines: (a) vision‐based target estimation; (b) 3D signed‐distance mapping for occlusion estimation; (c) efficient trajectory optimization for long time horizon camera motion; and (d) learning‐based artistic shot selection. We extensively evaluate our system both in simulation and in field experiments by filming dynamic targets moving through unstructured environments. Our results indicate that our system can operate reliably in the real world without restrictive assumptions.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/ookhHnqmlaU" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h3 id="project-members">Project Members</h3>
+<ul>
+  <li>Rogerio Bonatti</li>
+  <li>Wenshan Wang</li>
+  <li>Cherie Ho</li>
+  <li>Aayush Ahuja</li>
+  <li>Mirko Gaschwindt</li>
+  <li>Efe Camci</li>
+</ul>
+
+<h3 id="publications">Publications</h3>
+
+<ul>
+  <li>R. Bonatti, W. Wang, C. Ho, A. Ahuja, M. Gschwindt, E. Camci, E. Kayacan, S. Choudhury, S. Scherer, “Autonomous Aerial Cinematography Among Unstructured Environments With Learned Artistic Decision-Making”. Journal of Field Robotics, 2019 [<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/rob.21931">Link</a>][<a href="https://www.cs.cmu.edu/~rbonatti/files/bonatti_jfr.pdf">PDF</a>][<a href="https://youtu.be/ookhHnqmlaU">Video</a>]</li>
+  <li>R. Bonatti, H. Cherie, W. Wenshan, S. Choudhury, S. Scherer, “Towards a Robust Aerial Cinematography Platform: Localizing and Tracking Moving Targets in Unstructured Environments”. International Conference on Intelligent Robots and Systems (IROS), 2019 [<a href="https://arxiv.org/abs/1904.02319">PDF</a>][<a href="https://youtu.be/ZE9MnCVmumc">Video</a>]</li>
+  <li>M. Gschwindt, E. Camci, R. Bonatti, W. Wenshan, S. Scherer, “Can a Robot Become a Movie Director? Learning Artistic Principles for Aerial Cinematography”. International Conference on Intelligent Robots and Systems (IROS), 2019 [<a href="https://arxiv.org/abs/1904.02579">PDF</a>][<a href="https://youtu.be/qmVw6mfyEmw">Video</a>]</li>
+  <li>W. Wang, A. Ahuja, Y. Zhang, R. Bonatti, S. Scherer, “Improved Generalization of Heading Direction Estimation for Aerial Filming Using Semi-supervised Regression”. International Conference on Robotics and Automation (ICRA), 2019 [<a href="https://arxiv.org/abs/1903.11174">PDF</a>][<a href="https://youtu.be/-UVSXSxtKN4">Video</a>]</li>
+  <li>R. Bonatti, Y.Zhang, S. Choudhury, W. Wang, S. Scherer, “Autonomous drone cinematographer: Using artistic principles to create smooth, safe, occlusion-free trajectories for aerial filming”. International Symposium on Experimental Robotics (ISER), 2018 [<a href="https://arxiv.org/abs/1808.09563">PDF</a>][<a href="https://youtu.be/oIVfeVBJK-o">Video 1</a>][<a href="https://youtu.be/QX73nBBwd28">Video 2</a>][<a href="https://youtu.be/XRL07MBLwHk">Video 3</a>]</li>
+  <li>Y.Zhang, W. Wang, R. Bonatti, D. Maturana, S. Scherer, “Integrating kinematics and environment context into deep inverse reinforcement learning for predicting off-road vehicle trajectories”. Conference on Robot Learning (CoRL), 2018 [<a href="https://arxiv.org/abs/1810.07225">PDF</a>][<a href="https://youtu.be/PQfPF0_KOyQ">Video</a>]</li>
+</ul>
+
+<h3 id="video-data">Video Data</h3>
+
+<p>We release a few <a href="https://cmu.box.com/s/pvwepmiyrgj9n49hexnr7qyoic9ld7yx">videos</a> of the field experiments. These videos were taken from different stages of our tests containing multiple types of actors in various seasons.</p>
+:ET

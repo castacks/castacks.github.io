@@ -1,0 +1,24 @@
+I"¤<p><a href="http://www.wangwenshan.com">Personal Website</a></p>
+
+<p><a href="https://www.ri.cmu.edu/ri-people/wenshan-wang/">CMU Link</a></p>
+
+<h2 id="research-interest">Research Interest</h2>
+
+<p>Wenshan in interested in understanding and modeling the intelligence and developing autonomous robots based on that intelligence model. She is currently working on improving the autonomy of the robots by utilizing learning-based methods, including supervised/unsupervised/semi-supervised learning and reinforcement learning.</p>
+
+<h2 id="projects">Projects</h2>
+
+<ul>
+  <li>Drone filming
+    <ul>
+      <li>Heading direction estimation based on Semi-supervised learning</li>
+      <li>Offroad motion forecasting based on inverse reinforcement learning</li>
+      <li>Understanding the cinematography from data</li>
+    </ul>
+  </li>
+  <li>
+    <p>SLAM in dynamic environments</p>
+  </li>
+  <li>Challenging Dataset for SLAM</li>
+</ul>
+:ET

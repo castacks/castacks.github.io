@@ -1,0 +1,37 @@
+I"Í<p>Below are various projects that allow a drone to fly and land safely in challenging environments.</p>
+
+<h3 id="return-to-home">Return To Home</h3>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/Ge_W4uE8qfM" frameborder="0" allowfullscreen=""></iframe></div>
+<p>A good method for ensuring safe retrieval of a drone after radio signal is lost is a return home behavior. Current state estimation techniques using GPS do not perform this task to a high degree of accuracy and are not always reliable. We propose a method using a monocular downward facing fisheye lens camera to estimate relative position and guide the drone back to its starting position safely and accurately.</p>
+
+<hr />
+
+<h3 id="landing-zone-evaluation">Landing Zone Evaluation</h3>
+<!-- [embed]https://www.youtube.com/watch?v=CxoG0qwIsUg[/embed]  -->
+<!-- <div class="video-wrapper"><iframe src="http://www.youtube.com/embed/CxoG0qwIsUg" frameborder="0" allowfullscreen></iframe></div> -->
+
+<p>For autonomous landing, it is important to detect whether the landing zone is safe or not, including water, grass, ground, trees and so on. Current approaches mainly rely on depth sensor or semantic segmentation, which may be unavailable or unreliable. We propose a monocular video approach by geometrically analyzing whether the optical flow can form a plane. It shows robustness and high accuracy in large amounts of experiments.</p>
+<hr />
+
+<h3 id="wire-detection">Wire Detection</h3>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/9VABb6Lc7B8" frameborder="0" allowfullscreen=""></iframe></div>
+<p>Wire detection, depth estimation and avoidance is one of the hardest challenges towards the ubiquitous presence of robust autonomous aerial vehicles. We present an approach and a system which tackles these three challenges along with generic obstacle avoidance as well. First, we perform monocular wire detection using a convolutional neural network under the semantic segmentation paradigm, and obtain a confidence map of wire pixels. Along with this, we also use a binocular stereo pair to detect other generic obstacles. We represent wires and generic obstacles using a disparity space representation and do a C-space expansion by using a non-linear sensor model we develop. Occupancy inference for collision checking is performed by maintaining a pose graph over multiple disparity images. For avoidance of wire and generic obstacles, we use a precomputed trajectory library, which is evaluated in an online fashion in accordance to a cost function over proximity to the goal. We follow this trajectory with a path tracking controller. Finally, we demonstrate the effectiveness of our proposed method in simulation for wire mapping, and on hardware by multiple runs for both wire and generic obstacle avoidance.</p>
+
+<hr />
+
+<h3 id="state-estimation">State Estimation</h3>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/0ifPnbA60BI" frameborder="0" allowfullscreen=""></iframe></div>
+<p>Visual-inertial odometry (VIO) is effective in navigating a GPS-denied environment. We developed an optimization-based fixed-lag smoother stereo VIO that utilizes information sparsification. From an information-theoretical point of view, our method obtains more optimal solutions compared to other state-of-the-art methods such as OKVIS and VINS-MONO. Experimental results show our method achieves accurate position estimates in both indoor and outdoor flight tests.</p>
+
+<hr />
+
+<h3 id="reflective-and-thin-obstacle-detection">Reflective and Thin Obstacle Detection</h3>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/ypLYC6c4hwQ" frameborder="0" allowfullscreen=""></iframe></div>
+<p>Reflective objects like windows are difficult to perceive using typical stereo camera setups. We use a micropolarizer camera capable of detecting reflective objects to estimate the depth of a scene. Thin obstacles like wires are also difficult to detect with typical binocular stereo camera setups. We use trinocular cameras and match the wire detection results to estimate depth to wires in a scene.</p>
+
+<hr />
+
+<h2 id="simulation">Simulation</h2>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/MroiDvXRfSE" frameborder="0" allowfullscreen=""></iframe></div>
+<p>We use AirSim, a plugin for Unreal Engine, to simulate our obstacle avoidance methods for a drone with five stereo camera pairs. The video above shows the drone trying to reach the green user controlled goal point while avoiding trees.</p>
+:ET
