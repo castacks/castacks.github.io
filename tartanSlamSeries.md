@@ -286,7 +286,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Super Odometry</p>
+      <p style="margin-bottom: 3px;">Super Odometry: Robust Localization and Mapping in Challenging Environments</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">12 August 2021</p> 
