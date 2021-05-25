@@ -1,2 +1,0 @@
-I"W<p>Visual odometry remains a challenging problem in real-world applications. Geometric-based methods are not robust enough to many real-life factors, including illumination change, bad weather, dynamic objects, and aggressive motion. Learning-based methods do not generalize well and have only been trained and tested on the same dataset.</p>
-:ET

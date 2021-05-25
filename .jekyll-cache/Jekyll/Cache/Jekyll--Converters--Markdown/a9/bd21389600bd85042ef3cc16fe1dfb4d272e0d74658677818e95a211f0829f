@@ -1,4 +1,0 @@
-I"á<hr />
-
-<p>We developed a method for real-time semantic understanding and 3D mapping in both static and dynamic environments, and demonstrate that the two parts can benefit each other. Semantic mapping has been used for many applications such as autonomous robots and AR/VR. However, most existing approaches treat semantic understanding and 3D mapping as separate problems. In addition, dynamic objects are often treated as outliers in the SLAM mapping of current approaches.</p>
-:ET
