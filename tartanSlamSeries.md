@@ -326,15 +326,19 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   <tbody>
     <tr>
       <td>
-          <p> Overview of SLAM</p>
+          <!-- <p> Overview of SLAM</p>
           <p> Learning-based methods for SLAM</p>
           <p> How do we handle the hard cases in SLAM? What are the challenges ahead?</p>
           <p> Bridging the gap between dataset validation and real-world system deployment</p>
-        <!-- <ul>
-          <li>Graph Convolutional Networks</li>
-          <li>Graph Sampling Methods</li>
-          <li>Application and PyTorch Implementation</li>
-        </ul> -->
+          <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides</a> -->
+        <p> Outline:</p>
+        <ul>
+          <li>Overview of SLAM</li>
+          <li>Learning-based methods for SLAM</li>
+          <li>How do we handle the hard cases in SLAM? What are the challenges ahead?</li>
+          <li> Bridging the gap between dataset validation and real-world system deployment</li>
+        </ul>
+        <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides</a>
         <!-- <a href="https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA">slides</a> | <a href="https://classroom.github.com/a/h3ktCkJ5">repo</a> -->
       </td>
       <td align="right">
