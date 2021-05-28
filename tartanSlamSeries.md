@@ -15,6 +15,8 @@ The goal of this series is to expand the understanding of those both new and exp
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
+**Join our Discord server [here](https://forms.gle/Zk5Jgecrxw6FhMVD8)**, where we occasionally attend to Q&A's regarding SLAM while also providing resources on SLAM. Through this discord, we aim to foster a fun and inclusive learning community for SLAM. If you are an expert or newcomer, we invite you to join the discord server to build the community.
+
 **Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8)** to receive email updates and reminders about the presentations.
 
 Event Format: 40 min Talk & 20 min Open-ended Discussion
@@ -336,9 +338,9 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
           <li>Overview of SLAM</li>
           <li>Learning-based methods for SLAM</li>
           <li>How do we handle the hard cases in SLAM? What are the challenges ahead?</li>
-          <li> Bridging the gap between dataset validation and real-world system deployment</li>
+          <li>Bridging the gap between dataset validation and real-world system deployment</li>
         </ul>
-        <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides</a>
+        <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides for the talk including resources to get started with SLAM</a>
         <!-- <a href="https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA">slides</a> | <a href="https://classroom.github.com/a/h3ktCkJ5">repo</a> -->
       </td>
       <td align="right">
