@@ -15,7 +15,7 @@ The goal of this series is to expand the understanding of those both new and exp
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
-**Join our Discord server [here](https://forms.gle/Zk5Jgecrxw6FhMVD8)**, where we occasionally attend to Q&A's regarding SLAM while also providing resources on SLAM. Through this discord, we aim to foster a fun and inclusive learning community for SLAM. If you are an expert or newcomer, we invite you to join the discord server to build the community.
+**Join our Discord server [here](https://discord.gg/v5FTsPaadN)**, where we occasionally attend to Q&A's regarding SLAM while also providing resources on SLAM. Through this discord, we aim to foster a fun and inclusive learning community for SLAM. If you are an expert or newcomer, we invite you to join the discord server to build the community.
 
 **Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8)** to receive email updates and reminders about the presentations.
 
