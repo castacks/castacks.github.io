@@ -77,7 +77,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">Associate Research Professor</p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Factor Graphs</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;"> Factor Graphs and Robust Perception</p>
+      <a href="#kaess" onclick="myFunction('kaessButton', 'kaessBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">3 June 2021</p> 
       <p>4:00 PM EST</p>
@@ -355,6 +358,33 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 </table>
 <hr>
 
+<a id="kaess" />
+<h3>Michael Kaess</h3>
+<h4><i>Factor Graphs and Robust Perception &nbsp;</i> <button id="kaessButton" class="button2" onclick="myFunction('kaessButton', 'kaessBlock')">Expand Contents</button></h4>
+<table id=kaessBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <!-- <p> Abstract:</p> -->
+        <p>Factor graphs have become a popular tool for modeling robot perception problems. Not only can they model the bipartite relationship between sensor measurements and variables of interest for inference, but they have also been instrumental in devising novel inference algorithms that exploit the spatial and temporal structure inherent in these problems.</p>
+        <p>I will start with a brief history of these inference algorithms and relevant applications. I will then discuss open challenges in particular related to robustness from the inference perspective and discuss some recent steps towards more robust perception algorithms.</p>
+        <!-- <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides for the talk including resources to get started with SLAM</a> -->
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 
 
