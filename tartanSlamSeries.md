@@ -372,7 +372,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
         <!-- <p> Abstract:</p> -->
         <p>Factor graphs have become a popular tool for modeling robot perception problems. Not only can they model the bipartite relationship between sensor measurements and variables of interest for inference, but they have also been instrumental in devising novel inference algorithms that exploit the spatial and temporal structure inherent in these problems.</p>
         <p>I will start with a brief history of these inference algorithms and relevant applications. I will then discuss open challenges in particular related to robustness from the inference perspective and discuss some recent steps towards more robust perception algorithms.</p>
-        <!-- <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides for the talk including resources to get started with SLAM</a> -->
+        <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1ozZFGf4MMKkxdTm39Xzfh52N1uZhODt0/view?usp=sharing">Slides for the talk</a>
       </td>
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
