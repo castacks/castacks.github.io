@@ -1,7 +1,7 @@
 ---
 title: Haowen Lai 
-subtitle: RISS Intern
-job_title: RISS Intern
+subtitle: Intern
+job_title: Intern
 category: intern
 layout: team_member_personal_page
 image: /img/team/haowen_lai.png
