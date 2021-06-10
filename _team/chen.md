@@ -1,8 +1,8 @@
 ---
 title: Chen Wang
-subtitle: Postdoctor
-job_title: Postdoctoral Fellow
-category: postdoc
+subtitle: Scientist
+job_title: Project Scientist
+category: scientist
 layout: team_member_personal_page
 image: /img/team/chen.jpg
 hide_footer: true
@@ -16,15 +16,12 @@ Chen Wang is currently a postdoctoral fellow with the Robotics Institute at Carn
 
 - [Google Scholar](https://scholar.google.com/citations?user=vZfmKl4AAAAJ)
 
-- Follow Chen Wang elsewhere:
-    <div class="sharethis-inline-follow-buttons"></div>
-
-- Office:
-    - NSH 2104, 5000 Forbes Ave, Pittsburgh, PA 15213
-
 - Contact:
     - <chenwang@dr.com> (Preferred)
     - <chenwan3@andrew.cmu.edu>
+
+- Follow Chen Wang elsewhere:
+    <div class="sharethis-inline-follow-buttons"></div>
 
 <a class="twitter-timeline"
         data-tweet-limit="5"
