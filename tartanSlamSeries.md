@@ -78,7 +78,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;"> Factor Graphs and Robust Perception</p>
+      <p style="margin-bottom: 3px;">Factor Graphs and Robust Perception</p>
       <a href="#kaess" onclick="myFunction('kaessButton', 'kaessBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -107,7 +107,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">Professor in Electrical Engineering</p>
       <p>Queensland University of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Biologically-inspired SLAM: Where are we coming from and where could we go?</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Biologically-inspired SLAM: Where are we coming from and where could we go?</p>
+      <a href="#mm" onclick="myFunction('mmButton', 'mmBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">10 June 2021</p> 
       <p>4:00 PM EST</p>
@@ -386,7 +389,40 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 </table>
 <hr>
 
-
+<a id="mm" />
+<h3>Michael Milford</h3>
+<h4><i>Biologically-inspired SLAM &nbsp;</i> <button id="mmButton" class="button2" onclick="myFunction('mmButton', 'mmBlock')">Expand Contents</button></h4>
+<table id=mmBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <!-- <p> Abstract:</p> -->
+        <p>In this session, Prof. Michael Milford discusses five key questions and open research areas in the bio-inspired mapping, navigation, and SLAM area, linking into past and recent neuroscience and biological discoveries:</p>
+        <ul>
+          <li>The Loop Closure Question</li>
+          <li>The 3D Question</li>
+          <li>The Probabilistic Question</li>
+          <li>The Multi-Scale Question</li>
+          <li>The Behavioural Question</li>
+        </ul>
+        <p>Prof. Michael also presents an objective take on opportunities and mysteries in the area that also recognizes the practical realities and requirements of modern-day SLAM applications.</p>
+        <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1EOeEyJAfzfrcZFq2dzFfnBE64FsTlJOR/view?usp=sharing">Slides for the talk</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 <a id="huang" />
 <h3>Guoquan (Paul) Huang </h3>
