@@ -9,7 +9,7 @@ category: past_phd
 starting_year: 2016
 graduation_year: 2021
 graduation_month: May
-thesis_title: Active Vision: Autonomous Aerial Cinematography with Learned Artistic Decision-Making
+thesis_title: "Active Vision: Autonomous Aerial Cinematography with Learned Artistic Decision-Making"
 thesis_link: https://www.ri.cmu.edu/publications/active-vision-autonomous-aerial-cinematography-with-learned-artistic-decision-making/
 linkedin: http://rogeriobonatti.com
 linkedin_ori: https://www.linkedin.com/in/rogerio-bonatti-026a9961/
