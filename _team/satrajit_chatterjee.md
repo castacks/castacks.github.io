@@ -4,7 +4,7 @@ subtitle: Research Associate
 job_title: Research Associate I
 category: staff
 layout: team_member_personal_page
-image: /img/team/satrajit_chatterjee.jpg
+image: /img/team/satrajit.png
 hide_footer: true
 ---
 
