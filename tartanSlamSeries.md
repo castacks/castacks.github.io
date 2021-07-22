@@ -295,7 +295,8 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Pushing the limits of Visual SLAM and Super Odometry: Robust Localization and Mapping in Challenging Environments</p>
+      <p style="margin-bottom: 3px;">Wenshan - Pushing the limits of Visual SLAM</p>
+      <p>Shibo - Super Odometry: Robust Localization and Mapping in Challenging Environments</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">12 August 2021</p>
@@ -319,7 +320,8 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
+      <p style="margin-bottom: 3px;">Paloma -Learning in factor graphs for tactile perception</p>
+      <p>Sudharshan - Tactile SLAM: inferring object shape and pose through touch</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">19 August 2021</p>
