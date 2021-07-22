@@ -11,7 +11,7 @@ image: /img/slam_series/title.png
 ---
 
 # General Information
-The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. This is the inaugural series in the lineup of events aiming to foster fun, provocative discussions on robotics. 
+The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. This is the inaugural series in the lineup of events aiming to foster fun, provocative discussions on robotics.
 
 You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
@@ -52,7 +52,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">27 May 2021</p> 
+      <p style="margin-bottom: 3px;">27 May 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -65,7 +65,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/kaess.jpg"/>
       </div>
@@ -82,7 +82,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <a href="#kaess" onclick="myFunction('kaessButton', 'kaessBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">3 June 2021</p> 
+      <p style="margin-bottom: 3px;">3 June 2021</p>
       <p>4:00 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -95,7 +95,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/mmildford.jpg"/>
       </div>
@@ -112,7 +112,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <a href="#mm" onclick="myFunction('mmButton', 'mmBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">10 June 2021</p> 
+      <p style="margin-bottom: 3px;">10 June 2021</p>
       <p>4:00 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -125,7 +125,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/andy2013.jpg"/>
       </div>
@@ -139,7 +139,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </td>
     <td style="text-align: center;vertical-align: middle;">Graph-based representations for Spatial-AI</td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1 July 2021</p> 
+      <p style="margin-bottom: 3px;">1 July 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -152,7 +152,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/paul.png"/>
       </div>
@@ -169,7 +169,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <a href="#huang" onclick="myFunction('huangButton', 'huangBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">8 July 2021</p> 
+      <p style="margin-bottom: 3px;">8 July 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -182,7 +182,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/luca.png"/>
       </div>
@@ -196,7 +196,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </td>
     <td style="text-align: center;vertical-align: middle;">The Future of Robot Perception: Recent Progress and Opportunities Beyond SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">15 July 2021</p> 
+      <p style="margin-bottom: 3px;">15 July 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -209,7 +209,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/john_leonard.jpg"/>
       </div>
@@ -223,7 +223,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </td>
     <td style="text-align: center;vertical-align: middle;">The Past, Present and Future of SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">22 July 2021</p> 
+      <p style="margin-bottom: 3px;">22 July 2021</p>
       <p>12:00 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -236,7 +236,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
   </tr>
   <tr>
     <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> 
+    <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/slam_series/krishna"/>
       </div>
@@ -250,7 +250,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </td>
     <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable programming for SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">29 July 2021</p> 
+      <p style="margin-bottom: 3px;">29 July 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -260,44 +260,45 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
         </div>
       </div>
     </td>
-  </tr>
-  <tr>
-    <!-- <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/mmildford.jpg"/> </td> -->
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/wenshan.jpg"/> </td>
+  </tr>  
+  <!-- <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/ali2.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
+        <a style="margin-bottom: 1px;" href="https://aliagha.site">Ali Agha</a>
       </p>
-      <p style="margin-bottom: 3px;">Scientist</p>
-      <p>Carnegie Mellon University</p>
+      <p style="margin-bottom: 3px;">Principal Investigator and Research Technologist </p>
+      <p>JPL & Center for Autonomous Systems and Technologies</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Pushing the limits of Visual SLAM</td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">5 August 2021</p> 
+      <p style="margin-bottom: 3px;">TBD</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">5 August 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/Y4FNOeoX6h4" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
-  </tr>
+  </tr> -->
   <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/shibozNew.png"/> </td>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/logos/StackedPadded.png"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a> & <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p style="margin-bottom: 3px;">AirLab </p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Super Odometry: Robust Localization and Mapping in Challenging Environments</p>
+      <p style="margin-bottom: 3px;">Pushing the limits of Visual SLAM and Super Odometry: Robust Localization and Mapping in Challenging Environments</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">12 August 2021</p> 
+      <p style="margin-bottom: 3px;">12 August 2021</p>
       <p>12:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
@@ -308,7 +309,55 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       </div>
     </td>  
   </tr>
-</table> 
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/rpl4_cropped_transparent2.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://psodhi.github.io">Paloma Sodhi</a> & <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~sudhars1/">Sudharshan Suresh</a>
+      </p>
+      <p style="margin-bottom: 3px;">Robot Perception Lab </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">19 August 2021</p>
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/IjuTxa8andk" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/kjd_photo.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="http://people.csail.mit.edu/kdoherty/">Kevin Doherty</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p>Massachusetts Institute of Technology</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">26 August 2021</p>
+      <p>12:30 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/PoJXxrhDnB8" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+</table>
 
 
 
@@ -506,40 +555,40 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </b>
   </tr> -->
   <tr>
-    <td style="text-align: center;"> 
-      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/> 
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;"> 
-      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/> 
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/nikhil-varma-keetha-612685193/">Nikhil Varma Keetha</a>
       </p>
       <p style="margin-bottom: 3px;">Robotics Institute Summer Scholar</p>
       <p>IIT (ISM) Dhanbad</p>
     </td>
-    <td style="text-align: center;"> 
-      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/> 
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
       </p>
       <p style="margin-bottom: 3px;">Scientist </p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;"> 
-      <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/> 
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
       </p>
       <p style="margin-bottom: 3px;">Master's Student </p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;"> 
-      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/> 
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
       </p>
@@ -551,4 +600,3 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-
