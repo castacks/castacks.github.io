@@ -137,7 +137,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">Professor of Robot Vision</p>
       <p>Imperial College London</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">Graph-based representations for Spatial-AI</td>
+    <td style="text-align: center;vertical-align: middle;">
+    <p style="margin-bottom: 3px;">Graph-based representations for Spatial-AI</p>
+    <a href="#ad" onclick="myFunction('adButton', 'adBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">1 July 2021</p>
       <p>12:30 PM EST</p>
@@ -194,7 +197,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">Assistant Professor in Department of Aeronautics and Astronautics</p>
       <p>Massachusetts Institute of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">The Future of Robot Perception: Recent Progress and Opportunities Beyond SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">
+    <p style="margin-bottom: 3px;">The Future of Robot Perception: Recent Progress and Opportunities Beyond SLAM</p>
+    <a href="#lc" onclick="myFunction('lcButton', 'lcBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">15 July 2021</p>
       <p>12:30 PM EST</p>
@@ -221,7 +227,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">Professor of Mechanical and Ocean Engineering</p>
       <p>Massachusetts Institute of Technology</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">The Past, Present and Future of SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">The Past, Present and Future of SLAM</p>
+      <a href="#jl" onclick="myFunction('jlButton', 'jlBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">22 July 2021</p>
       <p>12:00 PM EST</p>
@@ -475,6 +484,34 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 </table>
 <hr>
 
+<a id="ad" />
+<h3>Andrew Davison</h3>
+<h4><i>Graph-based representations for Spatial-AI &nbsp;</i> <button id="adButton" class="button2" onclick="myFunction('adButton', 'adBlock')">Expand Contents</button></h4>
+<table id=adBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <!-- <p> Abstract:</p> -->
+        <p>To enable the next generation of smart robots and devices which can truly interact with their environments, Simultaneous Localisation and Mapping (SLAM) will progressively develop into a general real-time geometric and semantic 'Spatial AI' perception capability. </p>
+        <p>Andrew will give many examples from their work on gradually increasing visual SLAM capability over the years. However, much research must still be done to achieve true Spatial AI performance. A key issue is how estimation and machine learning components can be used and trained together as we continue to search for the best long-term scene representations to enable intelligent interaction.  Further, to enable the performance and efficiency required by real products, computer vision algorithms must be developed together with the sensors and processors which form full systems, and Andrew will cover research on vision algorithms for non-standard visual sensors and graph-based computing architectures.</p>
+        <!-- <a style="margin-bottom: 1px;" href="https://www.dropbox.com/s/l43dtgcl4h1cpld/20210722_leonard_tartan_slam.pdf?dl=0">Slide Deck</a> -->
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/svzQgfkrxZc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
 <a id="huang" />
 <h3>Guoquan (Paul) Huang </h3>
 <h4><i>Visual-Inertial Estimation and Perception &nbsp;</i> <button id="huangButton" class="button2" onclick="myFunction('huangButton', 'huangBlock')">Expand Contents</button></h4>
@@ -514,6 +551,60 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
             <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/Krx8A9B6Wl4" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+<a id="lc" />
+<h3>Luca Carlone</h3>
+<h4><i>The Future of Robot Perception &nbsp;</i> <button id="lcButton" class="button2" onclick="myFunction('lcButton', 'lcBlock')">Expand Contents</button></h4>
+<table id=lcBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+      <p>Spatial perception has witnessed unprecedented progress in the last decade. Robots are now able to detect objects and create large-scale maps of an unknown environment, which are crucial capabilities for navigation and manipulation. Despite these advances, both researchers and practitioners are well aware of the brittleness of current perception systems, and a large gap still separates robot and human perception. For instance, while humans are able to quickly grasp both geometric and semantic aspects of a scene, high-level scene understanding remains a challenge for robotics.</p>
+      <p> This talk discusses recent efforts targeted at bridging this gap. I present our recent work on high-level scene understanding and hierarchical representations, including Kimera and 3D Dynamic Scene Graphs, and discuss their potential impact on planning and decision-making, human-robot interaction, long-term autonomy, and scene prediction. The creation of a 3D Dynamic Scene Graph requires a variety of algorithms, ranging from model-based estimation to deep learning, and offers new opportunities to both researchers and practitioners. Similar to the role played by occupancy grid maps or landmark-based maps in the past, 3D Dynamic Scene Graphs offer a new, general, and powerful representation, and the grand challenge of designing Spatial Perception Engines that can estimate 3D Scene Graphs in real-time from sensor data has the potential to spark new research ideas and can push the community outside the “SLAM comfort zone”. </p>
+        <!-- <p> Abstract:</p> -->
+        <!-- <a style="margin-bottom: 1px;" href="https://www.dropbox.com/s/l43dtgcl4h1cpld/20210722_leonard_tartan_slam.pdf?dl=0">Slide Deck</a> -->
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/j5g3efgdjRg" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+<a id="jl" />
+<h3>John Leonard</h3>
+<h4><i>The Past, Present and Future of SLAM &nbsp;</i> <button id="jlButton" class="button2" onclick="myFunction('jlButton', 'jlBlock')">Expand Contents</button></h4>
+<table id=jlBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <!-- <p> Abstract:</p> -->
+        <a style="margin-bottom: 1px;" href="https://www.dropbox.com/s/l43dtgcl4h1cpld/20210722_leonard_tartan_slam.pdf?dl=0">Slide Deck</a>
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/FH6suW6_A5U" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </td>
