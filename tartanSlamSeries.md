@@ -258,7 +258,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Mila</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      Differentiable Programming for Spatial AI: Representation, Reasoning, and Planning
+      <p style="margin-bottom: 3px;">Differentiable Programming for Spatial AI: Representation, Reasoning, and Planning</p>    
       <a href="#km" onclick="myFunction('kmButton', 'kmBlock')"> Outline and Links</a>
     </td>
     <td style="text-align: center;vertical-align: middle;">
