@@ -257,7 +257,10 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Mila</p>
     </td>
-    <td style="text-align: center;vertical-align: middle;">GradSLAM: Differentiable programming for SLAM</td>
+    <td style="text-align: center;vertical-align: middle;">
+      Differentiable Programming for Spatial AI: Representation, Reasoning, and Planning
+      <a href="#km" onclick="myFunction('kmButton', 'kmBlock')"> Outline and Links</a>
+    </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">29 July 2021</p>
       <p>12:30 PM EST</p>
@@ -613,7 +616,38 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 </table>
 <hr>
 
-
+<a id="km" />
+<h3>Krishna Murthy Jatavallabhula</h3>
+<h4><i>Differentiable Programming for Spatial AI: Representation, Reasoning, and Planning &nbsp;</i> <button id="kmButton" class="button2" onclick="myFunction('kmButton', 'kmBlock')">Expand Contents</button></h4>
+<table id=kmBlock style="display: none">
+  <colgroup>
+     <col span="1" style="width: 60%;">
+     <col span="1" style="width: 40%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+      <p>Over the last four decades, research in SLAM and spatial AI has revolved around the question of map "representation". Where "classical" techniques in the SLAM community have focused on building general-purpose---but handcrafted---representations; modern gradient-based learning techniques have focused on building representations specialized to a set of downstream tasks of interest. Krishna postulates that a flexible blend of "classical" and learned methods is the most promising path to developing flexible, interpretable, and actionable models of the world: a necessity for intelligent embodied agents.</p>
+      <p> In this talk, Krishna will present two recent research efforts that tightly integrate spatial representations with gradient based learning.
+      <ul>
+          <li>1. GradSLAM - a fully differentiable dense SLAM system that can be plugged as a "layer" into neural networks</li>
+          <li>2. Taskography - a differentiable sparsification mechanism to build relational abstractions for enabling efficient task planning over large 3D scene graphs</li>
+      </ul>
+      </p>
+        <!-- <p> Abstract:</p> -->
+        <!-- <a style="margin-bottom: 1px;" href="https://www.dropbox.com/s/l43dtgcl4h1cpld/20210722_leonard_tartan_slam.pdf?dl=0">Slide Deck</a> -->
+      </td>
+      <td align="right">
+        <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+          <div class="extensions extensions--video">
+            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
 
 <script>
   function myFunction(buttonID, blockName) {
