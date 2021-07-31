@@ -1,5 +1,48 @@
 % Encoding: UTF-8
 
+@InProceedings{Yin:RAL2021_1,
+  author = {Peng Yin and Lingyun Xu and Jianmin Ji and Sebastian Scherer and Howie Choset},
+  title = {3D Segmentation Learning from Sparse Annotations and Hierarchical Descriptors},
+  journal = {IEEE Robotics and Automation Letters},
+  year = {2021},
+  month = {July},
+  volume = {6},
+  number = {3},
+  pages = {5953 - 5960},
+  keywords = {3D Segmentation, Sparse Annotation},
+  url = {https://www.ri.cmu.edu/wp-content/uploads/2021/06/RAL_SparseSeg.pdf},
+  abstract  = {One of the main obstacles to 3D semantic segmentation is the significant amount of endeavor required to generate expensive point-wise annotations for fully supervised training. 
+  To alleviate manual efforts, we propose GIDSeg, a novel approach that can simultaneously learn segmentation from sparse annotations via reasoning global-regional structures and individual-vicinal properties. 
+  GIDSeg depicts global- and individual- relation via a dynamic edge convolution network coupled with a kernelized identity descriptor. 
+  The ensemble effects are obtained by endowing a fine-grained receptive field to a low-resolution voxelized map. 
+  In our GIDSeg, an adversarial learning module is also designed to further enhance the conditional constraint of identity descriptors within the joint feature distribution. 
+  Despite the apparent simplicity, our proposed approach achieves superior performance over state-of-the-art for inferencing 3D dense segmentation with only sparse annotations. 
+  Particularly, with 5% annotations of raw data, GIDSeg outperforms other 3D segmentation methods.}
+}
+
+
+@InProceedings{Yin:RSS2021,
+  author = {Peng Yin and Lingyun Xu and Ji Zhang and Howie Choset and Sebastian Scherer},
+  title = {i3dLoc: Image-to-range Cross-domain Localization Robust to Inconsistent Environmental Conditions},
+  booktitle = {Proceedings of Robotics: Science and Systems (RSS '21)},
+  year = {2021},
+  month = {July},
+  publisher = {Robotics: Science and Systems 2021},
+  keywords = {Visual SLAM, Place Recognition, Condition Invariant, Viewpoint Invariant},  
+  url = {https://arxiv.org/abs/2105.12883},
+  video     = {https://www.youtube.com/watch?v=ta1_CeJV5nI},
+  abstract  = {We present a method for localizing a single camera with respect to a point cloud map in indoor and outdoor scenes. 
+  The problem is challenging because correspondences of local invariant features are inconsistent across the domains between image and 3D. 
+  The problem is even more challenging as the method must handle various environmental conditions such as illumination, weather, and seasonal changes. 
+  Our method can match equirectangular images to the 3D range projections by extracting cross-domain symmetric place descriptors. 
+  Our key insight is to retain condition-invariant 3D geometry features from limited data samples while eliminating the condition-related features by a designed Generative Adversarial Network. 
+  Based on such features, we further design a spherical convolution network to learn viewpoint-invariant symmetric place descriptors. 
+  We evaluate our method on extensive self-collected datasets, which involve \textit{Long-term} (variant appearance conditions), \textit{Large-scale} (up to 2km structure/unstructured environment), and \textit{Multistory} (four-floor confined space). 
+  Our method surpasses other current state-of-the-arts by achieving around 3 times higher place retrievals to inconsistent environments, and above 3 times accuracy on online localization. 
+  To highlight our method's generalization capabilities, we also evaluate the recognition across different datasets. With a single trained model, i3dLoc can demonstrate reliable visual localization in random conditions.}
+}
+
+
 @article{rodrigues2021inflight,
       title={In-flight positional and energy use data set of a DJI Matrice 100 quadcopter for small package delivery}, 
       author={Thiago A. Rodrigues and Jay Patrikar and Arnav Choudhry and Jacob Feldgoise and Vaibhav Arcot and Aradhana Gahlaut and Sophia Lau and Brady Moon and Bastian Wagner and H. Scott Matthews and Sebastian Scherer and Constantine Samaras},
