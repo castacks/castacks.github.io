@@ -34,7 +34,7 @@ In summer 2020, the AirLab held an [online summer shcool](http://theairlab.org/s
 
 ### Source Code
 
-The source code for the PX4 autopilot modified to work with fully-actuated robots and enhanced with our thrust and attitude strategies can be found [here](https://github.com/castacks/PX4-fully-actuated). Note that the code has been published with our ICRA 2021 paper (under review). For the correct citation, please see the Publications section below.
+The source code for the PX4 autopilot modified to work with fully-actuated robots and enhanced with our thrust and attitude strategies can be found [here](https://github.com/castacks/PX4-fully-actuated). Note that the code has been published with our paper (under review). For the correct citation, please see the Publications section below.
 
 ### Publications
 
@@ -43,9 +43,9 @@ The general ideas on how to simplify the integration of fully-actuated UAVs into
 *BibTeX:* 
 
 ```
-@article{keipour:iros:2021,
+@article{keipour:fa:2021,
 author={Azarakhsh Keipour and Mohammadreza Mousaei and Andrew Ashley and Sebastian Scherer},
-booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+booktitle={arXiv},
 title={Integration of Fully-Actuated Multirotors into Real-World Applications}, 
 year={in press},
 pages={1-8},
@@ -56,7 +56,7 @@ link={https://arxiv.org/abs/2011.06666},
 *IEEE Style:* 
 
 ```
-A. Keipour, M. Mousaei, A. Ashley, and S. Scherer, “Integration of Fully-Actuated Multirotors into Real-World Applications,” 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Under review. 
+A. Keipour, M. Mousaei, A. Ashley, and S. Scherer, “Integration of Fully-Actuated Multirotors into Real-World Applications,”, Under review. 
 ```
 
 <br/>
