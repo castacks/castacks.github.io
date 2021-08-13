@@ -11,16 +11,12 @@
   link: /publications/
 - name: News
   link: /news/
-- name: Resources
+- name: Seminars
   dropdown:
     - name: Tartan SLAM Series
       link: /tartanslamseries/
     - name: Summer School 2020
       link: /summer2020/
-    - name: BitBucket
-      link: https://bitbucket.org/castacks/
-    - name: GitHub
-      link: https://github.com/castacks
 - name: Datasets
   link: /datasets/
 - name: Openings

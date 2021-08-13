@@ -13,7 +13,7 @@ image: /img/slam_series/title.png
 # General Information
 The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. This is the inaugural series in the lineup of events aiming to foster fun, provocative discussions on robotics.
 
-You can add the schedule to your Google calender [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
+You can add the schedule to your Google calendar [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
 
 **Sign up [here](https://forms.gle/Zk5Jgecrxw6FhMVD8)** to receive email updates and reminders about the presentations.
 
@@ -21,7 +21,6 @@ You can add the schedule to your Google calender [here](https://calendar.google.
 
 Event Format: 40 min Talk & 20 min Open-ended Discussion
 
-<!-- Test YouTube Streaming and add instructions for how streaming will work-->
 
 # Schedule
 
@@ -380,10 +379,65 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 </div> -->
 
 <br>
-<br>
 <!-- ### <span style="color:red">Outlines and Links</span> -->
 
+# Organizers
+<hr>
+ <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
+  <!-- <tr>
+    <b>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;"></th>
+    </b>
+  </tr> -->
+  <tr>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/nikhil-varma-keetha-612685193/">Nikhil Varma Keetha</a>
+      </p>
+      <p style="margin-bottom: 3px;">Robotics Institute Summer Scholar</p>
+      <p>IIT (ISM) Dhanbad</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Scientist </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Master's Student </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+  </tr>
+</table>
 
+<br>
 # Session Contents
 <hr>
 <a id="basti" />
@@ -668,62 +722,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
 
 
 
-<br>
-# Organizers
 
- <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
-  <!-- <tr>
-    <b>
-    <th style="width:20%;text-align: center;"></th>
-    <th style="width:20%;text-align: center;"></th>
-    <th style="width:20%;text-align: center;"></th>
-    <th style="width:20%;text-align: center;"></th>
-    <th style="width:20%;text-align: center;"></th>
-    </b>
-  </tr> -->
-  <tr>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/nikhil-varma-keetha-612685193/">Nikhil Varma Keetha</a>
-      </p>
-      <p style="margin-bottom: 3px;">Robotics Institute Summer Scholar</p>
-      <p>IIT (ISM) Dhanbad</p>
-    </td>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
-      </p>
-      <p style="margin-bottom: 3px;">Scientist </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
-      </p>
-      <p style="margin-bottom: 3px;">Master's Student </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-  </tr>
-</table>
 
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
