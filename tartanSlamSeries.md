@@ -356,7 +356,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Massachusetts Institute of Technology</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
+      <p style="margin-bottom: 3px;">Robust Semantic SLAM: Representation and Inference</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">26 August 2021</p>
