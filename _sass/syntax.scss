@@ -304,6 +304,29 @@
   border-radius: 5px;
 }
 
+.button6 {
+    /*background-color: #DC143C;*/
+    background-color: white;
+    // border: none;
+    border: 1.5px solid #c9c9c9;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button6:hover {
+  background-color: #a80707;
+  color: white;
+  border: 1.5px solid #a80707;
+}
+
 @media (min-width: 48em) {
   .button0 {
       background-color: #a80707;
