@@ -33,7 +33,7 @@ We chose **X-Plane 11** as our simulator since it is compatible on multiple Oper
  <img src="/img/posts/2021-08-31-xplane-ros/front_view.png" style="width:41%" />
   <img src="/img/posts/2021-08-31-xplane-ros/side_view.png" style="width:41%" />
  <figcaption>
-Figure caption here.
+XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier for Autonomous Fixed wing aircrafts.
  </figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Figure caption here.
 <figure>
  <img src="/img/posts/2021-08-31-xplane-ros/xplane_ros_arch.png" alt="Planning" style="width:70%"/>
  <figcaption>
-Figure caption here
+A pictorial overview of the ROS wrapper
  </figcaption>
 </figure>
 <!-- ![XPlaneROS Arch](images/xplane_ros_arch.png) -->
@@ -79,7 +79,7 @@ Tuning the controllers can also be challenging and slow. To tackle this, a simpl
 <figure>
  <img src="/img/posts/2021-08-31-xplane-ros/plot_plus_rviz.png" alt="Planning" style="width:70%"/>
  <figcaption>
-Figure caption here
+rqt_plot visualizes the commanded values and the real values. The rqt_reconfigure behaves as the GUI for ease of giving commands and tuning
  </figcaption>
 </figure>
 
