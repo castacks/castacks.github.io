@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications and Learning using Realistic Dynamics"
+title: "XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications"
 date: 2021-06-29 9:00:07
 categories: datasets
 description: "XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications and Learning using Realistic Dynamics"
@@ -27,7 +27,7 @@ As is the case with such systems, we need to be sure about the safety of models 
 
 Recent research work in the lab related to Imitation Learning and Social Navigation for aircraft necessitated a proper way to test these algorithms in realistic conditions. A number of realistic flight simulators exist in the market like Microsoft Flight Simulator and X-Plane but without much proper ROS integrations. We developed these tools for this very purpose. 
 
-We chose **X-Plane 11** as our simulator since it is compatible on multiple Operating Systems and provides many realistic options for aircraft and visuals. 
+We chose **X-Plane 11** as our simulator since it is compatible on multiple Operating Systems and provides many realistic options for aircraft and visuals. Along with XPlaneROS we have also integrated **rosplane** as the controller and the autopilot. [rosplane](https://github.com/byu-magicc/rosplane) is a famous auopilot for fixed-wing aircrafts developed by byu-magicc lab.
 
 <figure>
  <img src="/img/posts/2021-08-31-xplane-ros/front_view.png" style="width:41%" />
@@ -48,7 +48,7 @@ XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier
 
 ## XPlaneROS Overview
 
-**XPlaneROS** is the ROS wrapper which interfaces with the simulator using NASA's XPlaneConnect. Once this is running, the user doesn't need to worry about getting into the workings and can simply take up the useful information from existing messages published over ROS topics.
+**XPlaneROS** is the ROS wrapper which interfaces with the simulator using NASA's [XPlaneConnect](https://github.com/nasa/XPlaneConnect). Once this is running, the user can simply take up the useful information from existing messages published over ROS topics and hence, provides an abstraction layer over the simulator.
 
 <!-- <img src="images/xplane_ros_arch.png" alt="architecture"
 	title="architectur" />  -->
@@ -60,14 +60,16 @@ A pictorial overview of the ROS wrapper
 </figure>
 <!-- ![XPlaneROS Arch](images/xplane_ros_arch.png) -->
 
-In addition, we decided to integrate **ROSPlane** with **XPlaneROS** for the controllers. A whole traffic-pattern following was run using the path following algorithms and PID controllers. There have been some extensions to ROSPlane like employing a proper takeoff, additional control loops for vertical velocity rates and a rudimentary landing sequence. 
+In addition, we decided to integrate **rosplane** with **XPlaneROS** for the controllers. rosplane makes use of Dubins' Path Theory and Vector Fields for waypoint following and uses PID controllers. 
+A whole traffic-pattern following was run using the stack. There have also been some extensions to rosplane like employing a proper takeoff, additional control loops for vertical velocity rates and a rudimentary autonomous landing sequence. 
+
 
 <!-- [![Autonomous Takeoff with XPlaneROS](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=UGCb0Ccn-VI&list=PLeWqkg3BNnzHeSgbRMOHzG30cd8xPP357&index=1 "Autonomous Takeoff with XplaneROS") -->
 
 {% youtube UGCb0Ccn-VI %}
 
 ## Repository Access
-The repository for XPlaneRos can be found [here](https://bitbucket.org/castacks/xplane_ros/src/master/). The accompanying README gives details on how to setup and run the codebase. 
+The repository for XPlaneROS can be found [here](https://github.com/castacks/xplane_ros). The accompanying README gives details on how to setup and run the codebase. 
 
 ## Controller Tuning Tools
 
