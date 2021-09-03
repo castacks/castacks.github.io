@@ -98,7 +98,7 @@ There are efforts underway to use this system along with a Behaviour Cloning fra
 
 ## Additional Info
 
-### Contributers
+### Contributors
 * Rohan Baijal (Maintainer): [Email](rbaijal@iitk.ac.in)
 
 * [Jay Patrikar](https://theairlab.org/team/jay/) (Maintainer)
