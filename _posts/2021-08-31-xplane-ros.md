@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications"
-date: 2021-06-29 9:00:07
-categories: datasets
+date: 2021-09-03 2:00:07
+categories: research
 description: "A ROS wrapper for the XPlane-11 flight simulator"
 author: "Rohan Baijal"
 published: true
@@ -18,8 +18,6 @@ remove_hero_title: true
 menubar_toc: true
 ---
 
-<!-- # XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications and Learning using Realistic Dynamics -->
-
 
 Research in Autonomous Vehicles has boomed a lot, with a huge push towards self-driving cars and autonomous robots. Another interesting use case is life-size Autonomous Fixed Wing aircraft which could be used in a number of places. Here we try to take a step in that direction by getting some architecture in place.  
 
@@ -30,8 +28,8 @@ Recent research work in the lab related to Imitation Learning and Social Navigat
 We chose **X-Plane 11** as our simulator since it is compatible on multiple Operating Systems and provides many realistic options for aircraft and visuals. Along with XPlaneROS we have also integrated **ROSplane** as the controller and the autopilot. [ROSplane](https://github.com/byu-magicc/rosplane) is a famous autopilot for fixed-wing aircraft developed by the BYU MAGICC Lab.
 
 <figure>
- <img src="/img/posts/2021-08-31-xplane-ros/front_view.png" style="width:41%" />
-  <img src="/img/posts/2021-08-31-xplane-ros/side_view.png" style="width:41%" />
+ <img src="/img/posts/2021-08-31-xplane-ros/front_view.png" style="width:49%" />
+  <img src="/img/posts/2021-08-31-xplane-ros/side_view.png" style="width:49%" />
  <figcaption>
 XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier for Autonomous Fixed wing aircraft.
  </figcaption>
@@ -53,7 +51,7 @@ XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier
 <!-- <img src="images/xplane_ros_arch.png" alt="architecture"
 	title="architectur" />  -->
 <figure>
- <img src="/img/posts/2021-08-31-xplane-ros/xplane_ros_arch.png" alt="Planning" style="width:70%"/>
+ <img src="/img/posts/2021-08-31-xplane-ros/xplane_ros_arch.png" alt="Planning" style="width:99%"/>
  <figcaption>
 A pictorial overview of the ROS wrapper
  </figcaption>
@@ -98,8 +96,20 @@ The following video gives a tutorial on how to implement pattern following with 
 
 There are efforts underway to use this system along with a Behaviour Cloning framework and a native Trajectory Library. We hope this tool also becomes useful to other researchers out there wanting to try out Learning-based approaches for autonomous aircraft. The ROS integration is an added benefit which allows people to go beyond only Learning and use the trained algorithms within a whole system.
 
+## Additional Info
 
-## Term of use
+### Contributers
+* Rohan Baijal (Maintainer): [Email](rbaijal@iitk.ac.in)
+
+* [Jay Patrikar](https://theairlab.org/team/jay/) (Maintainer)
+
+* [Brady Moon](https://theairlab.org/team/bradym/)
+
+* [Dr. Sebastian Scherer](https://theairlab.org/team/sebastian/)
+
+* [Dr. Jean Oh](https://www.cs.cmu.edu/~./jeanoh/)
+
+### Term of use
 [BSD 4-Clause License](https://choosealicense.com/licenses/bsd-4-clause/)
 
 <!-- <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. -->
