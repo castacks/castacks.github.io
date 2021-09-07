@@ -14,22 +14,22 @@ published: true
 # General Information
 The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. The lineup of events aim to foster fun, provocative discussions on robotics.
 
-<center>
-<iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz" style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
-</center>
 
-<br>
+
+<!-- <br> -->
 
 <!-- You can add the schedule to your Google calendar [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).  -->
 
 Join our [mailing list](https://forms.gle/Zk5Jgecrxw6FhMVD8) for Zoom links, updates and reminders about the presentations. Our [Tartan SLAM Series Discord server](https://discord.gg/v5FTsPaadN), aims to foster an inclusive learning community for SLAM. If you are an expert or newcomer, we invite you to join the discord server to build the community.
 
+<br>
+
 <center>
-<a href="https://forms.gle/Zk5Jgecrxw6FhMVD8" class="button is-info is-small"><i class="far fa-envelope fa-2x"></i> &nbsp; Join our Mailing List</a>
+<a href="https://forms.gle/Zk5Jgecrxw6FhMVD8" class="button is-info"><i class="far fa-envelope fa-2x"></i> &nbsp; Join our Mailing List</a>
 &nbsp;
-<a href="https://www.youtube.com/c/AirLab?sub_confirmation=1" class="button is-info is-small"><i class="fab fa-youtube fa-2x"></i> &nbsp; Subscribe to our YouTube Channel</a>
+<a href="https://www.youtube.com/c/AirLab?sub_confirmation=1" class="button is-info"><i class="fab fa-youtube fa-2x"></i> &nbsp; Subscribe to our YouTube Channel</a>
 &nbsp;
-<a href="https://discord.gg/v5FTsPaadN" class="button is-info is-small"><i class="fab fa-discord fa-2x"></i> &nbsp; Join our Discord</a>
+<a href="https://discord.gg/v5FTsPaadN" class="button is-info"><i class="fab fa-discord fa-2x"></i> &nbsp; Join our Discord</a>
 </center>
 
 <!-- <a href="https://forms.gle/Zk5Jgecrxw6FhMVD8" class="button6 is-large">Tester Button 6</a> -->
@@ -65,7 +65,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">TBA</p>
-      <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -173,7 +173,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/W2VmUrUrYZc" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -202,7 +202,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/3oqTGrnSkrY" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -231,7 +231,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/-hxg8aLg8kk" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -260,7 +260,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/vtnh9TExdOI" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -289,7 +289,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gq4dnYCtTtw" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -318,7 +318,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/b5fOM2pM2zI" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -347,7 +347,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/z9IeZ_U0uqY" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -378,7 +378,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/FaYFYd2ZxlQ" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -407,7 +407,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JDNjiqF0SAs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -436,7 +436,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/Pyk_oljyCS8" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -465,14 +465,16 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/ppc7uRQqti4" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
   </tr>
 </table>
 
-
+<center>
+<iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz" style="border: 0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+</center>
 
 <!-- <div class="circular_image">
   <img src="http://placekitten.com/500/500"/>
