@@ -7,7 +7,7 @@ show_sidebar: false
 hide_footer: false
 permalink: /tartanslamseries2/
 hero_image: /img/slam_series/tartanSLAMbannerFall.png
-image: /img/slam_series/title.png
+image: /img/slam_series/thumbAllFallv6.png
 published: true
 ---
 
