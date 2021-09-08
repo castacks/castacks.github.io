@@ -18,20 +18,24 @@ remove_hero_title: true
 menubar_toc: true
 ---
 
+Today, manned and unmanned vehicles are separated, limiting the utility and flexibility of
+operations and reducing efficiency. One area that is particularly challenging for autonomous
+aircraft are airport/heliport operations where conflicts between aircraft are common and
+need to be resolved. Mastering visual flight rules (VFR) operations for autonomous
+aircraft has significant operational advantages at unimproved sites, as well as in achievable
+traffic density compared to instrument flight rules (IFR) or completely separated operations
+between manned and unmanned systems.
 
-Research in Autonomous Vehicles has boomed a lot, with a huge push towards self-driving cars and autonomous robots. Another interesting use case is life-size Autonomous Fixed Wing aircraft which could be used in a number of places. Here we try to take a step in that direction by getting some architecture in place.  
 
-As is the case with such systems, we need to be sure about the safety of models and algorithms before deploying them in the real world. There exist realistic simulators for testing driving cars (CARLA) and autonomous drones (AirSim) which make the whole process much more efficient and safe. However, for fixed-wing aircraft, the testbeds haven't quite caught on. 
+As is the case with such systems, we need the ability to verify the safety of the algorithms before deploying them in the real world. There exist realistic simulators for testing driving cars (CARLA) and autonomous drones (AirSim) which makes testing and deployment more efficient and safe. A number of high-fidelity flight simulators exist, such as Microsoft Flight Simulator and X-Plane, but natively do not integrate with traditional deep learning and robotics pipelines. 
 
-Recent research work in the lab related to Imitation Learning and Social Navigation for aircraft necessitated a proper way to test these algorithms in realistic conditions. A number of realistic flight simulators exist in the market like Microsoft Flight Simulator and X-Plane but without much proper ROS integrations. We developed these tools for this very purpose. 
-
-We chose **X-Plane 11** as our simulator since it is compatible on multiple Operating Systems and provides many realistic options for aircraft and visuals. Along with XPlaneROS we have also integrated **ROSplane** as the controller and the autopilot. [ROSplane](https://github.com/byu-magicc/rosplane) is a famous autopilot for fixed-wing aircraft developed by the BYU MAGICC Lab.
+In this work we present **XPlaneROS** that integrate a high-fidelity simulator with a state-of-the-art autopilot. The complete system enables the use of high-level or lower-level commands to control a general aviation aircraft in realistic world scenarios anywhere in the world. We chose **X-Plane 11** as our simulator because of its open API and realistic aircraft models and visuals. For the lower-level control, we've integrated **ROSplane** as the autopilot. [ROSplane](https://github.com/byu-magicc/rosplane) is control stack for fixed-wing aircraft developed by the [BYU MAGICC Lab](https://magicc.byu.edu/).
 
 <figure>
  <img src="/img/posts/2021-08-31-xplane-ros/front_view.png" style="width:49%" />
   <img src="/img/posts/2021-08-31-xplane-ros/side_view.png" style="width:49%" />
  <figcaption>
-XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier for Autonomous Fixed wing aircraft.
+XPlaneROS integrates XPlane 11 with ROSplane to enable higher-level autonomy in general aviation.
  </figcaption>
 </figure>
 
@@ -46,20 +50,21 @@ XPlaneROS is a ROS wrapper over XPlane which can make tasks like Learning easier
 
 ## XPlaneROS Overview
 
-**XPlaneROS** is the ROS wrapper which interfaces with the simulator using NASA's [XPlaneConnect](https://github.com/nasa/XPlaneConnect). Once this is running, the user can simply take up the useful information from existing messages published over ROS topics and hence, provides an abstraction layer over the simulator.
+**XPlaneROS** interfaces with XPlane 11 using NASA's [XPlaneConnect](https://github.com/nasa/XPlaneConnect). With XPlaneROS, the information from XPlane is published over ROS topics. The ROSplane integration then uses this information to generate actuator commands for ailerons, rudder, elevator, and throttle based on higher-level input to the system. These actuator commands are then sent to XPlane through XPlaneConnect. 
 
 <!-- <img src="images/xplane_ros_arch.png" alt="architecture"
 	title="architectur" />  -->
 <figure>
  <img src="/img/posts/2021-08-31-xplane-ros/xplane_ros_arch.png" alt="Planning" style="width:99%"/>
  <figcaption>
-A pictorial overview of the ROS wrapper
+A pictorial overview of the XPlaneROS.
  </figcaption>
 </figure>
 <!-- ![XPlaneROS Arch](images/xplane_ros_arch.png) -->
 
-In addition, we decided to integrate **ROSplane** with **XPlaneROS** for the controllers. ROSplane makes use of Dubins' Path Theory and Vector Fields for waypoint following and uses PID controllers. 
-A whole traffic-pattern following was run using the stack. There have also been some extensions to ROSplane like employing a proper takeoff, additional control loops for vertical velocity rates and a rudimentary autonomous landing sequence. 
+ROSplane uses a cascaded control structure and has the ability to follow waypoints with Dubin's Paths. XPlaneROS provides additional capabilities to follow a select set of motion primitives. There have also been some extensions to ROSplane like employing a proper takeoff, additional control loops for vertical velocity rates and a rudimentary autonomous landing sequence. 
+
+The video below shows an aircraft taking off from a general aviation airport. 
 
 
 <!-- [![Autonomous Takeoff with XPlaneROS](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=UGCb0Ccn-VI&list=PLeWqkg3BNnzHeSgbRMOHzG30cd8xPP357&index=1 "Autonomous Takeoff with XplaneROS") -->
@@ -94,7 +99,9 @@ The following video gives a tutorial on how to implement pattern following with 
 
 ## Future Work
 
-There are efforts underway to use this system along with a Behaviour Cloning framework and a native Trajectory Library. We hope this tool also becomes useful to other researchers out there wanting to try out Learning-based approaches for autonomous aircraft. The ROS integration is an added benefit which allows people to go beyond only Learning and use the trained algorithms within a whole system.
+We hope this tool enables research in higher-level autonomy for general aviation aircraft. Extensions to this work include integrating real-world traffic data to enable social navigation and coordination, as well as testing vision-based detect and avoid systems. Extensions might also include adding language as a modality for safe navigation within the national airspace. 
+
+<!-- becomes useful to other researchers wanting to implement learning-based approaches for autonomous aircraft. The ROS integration is an added benefit which allows people to go beyond only Learning and use the trained algorithms within a whole system. -->
 
 ## Additional Info
 
