@@ -13,6 +13,8 @@
   link: /news/
 - name: Seminars
   dropdown:
+    - name: Tartan SLAM Series Fall Edition
+      link: /tartanslamseries2/
     - name: Tartan SLAM Series
       link: /tartanslamseries/
     - name: Summer School 2020
