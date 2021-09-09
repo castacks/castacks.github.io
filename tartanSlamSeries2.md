@@ -279,8 +279,8 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>U.S. Department of Agriculture</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+      <p style="margin-bottom: 3px;">Reconstructing small things in large spaces, and other reconstruction stories.</p>
+      <button id="amyButton" class="button6" onclick="myFunction('amyButton', 'amyBlock')">Expand Contents</button>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">1 Nov 2021</p>
@@ -293,6 +293,16 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
         </div>
       </div>
     </td>  
+  </tr>
+  <tr id=amyBlock style="display: none">
+    <td colspan="5" style="vertical-align: middle;margin-left: 20px;">
+      <p style="margin-left: 3%"><strong> Bio: </strong></p>
+      <p style="margin-left: 6%; margin-right: 3%"> Amy Tabb holds degrees from Sweet Briar College (B.A. Math/Computer Science and Music), Duke University (M.A. Musicology), and Purdue University (M.S. and Ph.D. Electrical and Computer Engineering) and is a
+Research Agricultural Engineer at a US Department of Agriculture, Agricultural Research Service laboratory in Kearneysville, West Virginia. There, she has been engaged in creating systems for automation in the tree fruit industry. Her research interests are within the fields of computer vision and robotics, in particular robust three-dimensional reconstruction and perception in outdoor conditions.</p>
+      <p style="margin-left: 3%"><strong>Abstract: </strong></p>
+      <p style="margin-left: 6%; margin-right: 3%">Three-dimensional reconstruction is an intermediate step needed for many applications in agriculture, including automation and phenotyping of plants and fruits. The nature of agricultural objects is that they have low texture compared to objects in typical computer vision datasets and consequently many classical approaches do not work well for camera pose localization and reconstruction.  In this talk, I will discuss some work I have done on reconstructing a range of objects, from leafless trees with a robot-camera system to individual fruits with a tabletop system.  Throughout, I will discuss failures and motivations for choosing one approach over another, as well as why working on three-dimensional reconstruction in agriculture has led to work on calibration systems.</p>
+      <!-- <a style="margin-bottom: 1px;" href="https://docs.google.com/presentation/d/1wW2BfEC7n0d78aajhLq-OBG1DQG0mATwpwwYFvwQ04g/edit?usp=sharing">Slides for the talk including resources to get started with SLAM</a> -->
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;">
