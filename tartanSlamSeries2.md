@@ -70,7 +70,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">30 Sept 2021</p>
-      <p>12:30 PM EST</p>
+      <p>1:30 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -517,7 +517,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td style="text-align: center;">
       <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/nikhil-varma-keetha-612685193/">Nikhil Varma Keetha</a>
+        <a style="margin-bottom: 1px;" href="https://nik-v9.github.io/">Nikhil Varma Keetha</a>
       </p>
       <p style="margin-bottom: 3px;">Robotics Institute Summer Scholar</p>
       <p>IIT (ISM) Dhanbad</p>
