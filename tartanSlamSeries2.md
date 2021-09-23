@@ -507,14 +507,6 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
   </tr> -->
   <tr>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;">
       <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://nik-v9.github.io/">Nikhil Varma Keetha</a>
@@ -523,11 +515,19 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>IIT (ISM) Dhanbad</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/wenshan.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/wenshan/">Wenshan Wang</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
       </p>
-      <p style="margin-bottom: 3px;">Scientist </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
@@ -535,15 +535,15 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
       </p>
-      <p style="margin-bottom: 3px;">Master's Student </p>
-      <p>Carnegie Mellon University</p>
+      <p style="margin-bottom: 3px;">Localization Engineer</p>
+      <p>Motional</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/lucas_nogueira_crop.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Lucas Nogueira</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p style="margin-bottom: 3px;">Master's Student</p>
       <p>Carnegie Mellon University</p>
     </td>
   </tr>
