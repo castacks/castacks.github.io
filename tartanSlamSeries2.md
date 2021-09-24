@@ -64,7 +64,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>Georgia Tech</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Factor Graphs for Perception and​ Action</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
