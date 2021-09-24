@@ -507,7 +507,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
   </tr> -->
   <tr>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/slam_series/nikhil.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/nikhil_varma_keetha.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://nik-v9.github.io/">Nikhil Varma Keetha</a>
       </p>
