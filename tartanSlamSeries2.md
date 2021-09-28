@@ -347,7 +347,8 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>University of Toronto</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Where Can Machine Learning Help Robotic State Estimation?</p>
+      <button id="timButton" class="button6" onclick="myFunction('timButton', 'timBlock')">Expand Contents</button>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -361,6 +362,12 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
         </div>
       </div>
     </td>  
+  </tr>
+ <tr id=timBlock style="display: none">
+    <td colspan="5" style="vertical-align: middle;margin-left: 20px;">
+      <p style="margin-left: 3%"><strong>Abstract: </strong></p>
+      <p style="margin-left: 6%; margin-right: 3%">Classic state estimation tools (e.g., determining position/velocity of a robot from noisy sensor data) have been in use since the 1960s, perhaps the most famous technique being the Kalman filter.  For difficult-to-model nonlinear systems with rich sensing (e.g., almost any real-world robot), clever adaptations are needed to the classic tools.  In this talk, I will first briefly summarize a few ideas that have become standard practice in our group over the last several years: continuous-time trajectory estimation (and its connection to sparse Gaussian process regression) as well as estimation on matrix Lie groups (to handle rotations cleanly). I will also discuss two new frameworks we have been pursuing lately:  exactly sparse Gaussian variational inference (ESGVI) and Koopman state estimation (KoopSE). ESGVI seeks to minimize the Kullback-Leibler divergence between a Gaussian state estimate and the full Bayesian posterior; however, the framework also easily allows for parameter learning through Expectation Maximization and we’ve used this to learn simple parameters such as constant system matrices and covariances, but also to model rich sensors using Deep Neural Networks and learn the weights from data.  KoopSE takes a different approach by lifting a nonlinear system into a high-dimensional Reproducing Kernel Hilbert Space where we can treat it as linear and apply classic estimation tools; it also allows for the system to be learned from training data quite efficiently.  For all these ideas, I will give simple intuitive explanations of the mathematics and show some examples of things working in practice.</p>
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;">
