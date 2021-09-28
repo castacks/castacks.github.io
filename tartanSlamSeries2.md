@@ -58,7 +58,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
     <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/frankd.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html">Frank Delleart</a>
+        <a style="margin-bottom: 1px;" href="https://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html">Frank Dellaert</a>
       </p>
       <p style="margin-bottom: 3px;">Professor in Interactive Computing</p>
       <p>Georgia Tech</p>
