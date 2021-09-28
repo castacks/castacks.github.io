@@ -533,7 +533,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/hengruiz.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/hengruiz/">Henry Zhang</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/alumni/hengruiz/">Henry Zhang</a>
       </p>
       <p style="margin-bottom: 3px;">Localization Engineer</p>
       <p>Motional</p>
