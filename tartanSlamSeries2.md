@@ -106,7 +106,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>University of Chile</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Autonomous Navigation & Multi-Target Tracking with Detection & Measurement Uncertainty</p>
+      <p style="margin-bottom: 3px;">Unifying the SLAM Back and Front Ends with Random Finite Sets</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">7 Oct 2021</p>
