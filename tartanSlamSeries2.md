@@ -189,7 +189,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
         <a style="margin-bottom: 1px;" href="http://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>
       </p>
       <p style="margin-bottom: 3px;">Professor of Robotics and Perception</p>
-      <p>ETH Zurich</p>
+      <p>University of Zurich</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">TBA</p>
