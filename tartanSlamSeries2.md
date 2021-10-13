@@ -221,8 +221,8 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>University of Toronto</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+      <p style="margin-bottom: 3px;">Unlocking Dynamic Cameras for Visual Navigation</p>
+      <button id="stevenButton" class="button6" onclick="myFunction('stevenButton', 'stevenBlock')">Expand Contents</button>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">25 Oct 2021</p>
@@ -235,6 +235,12 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
         </div>
       </div>
     </td>  
+  </tr>
+  <tr id=stevenBlock style="display: none">
+    <td colspan="5" style="vertical-align: middle;margin-left: 20px;">
+      <p style="margin-left: 3%"><strong>Abstract: </strong></p>
+      <p style="margin-left: 6%; margin-right: 3%">Gimbal-stabilized dynamic cameras provide many advantages in robotic applications governed by highly dynamic motion profiles and uneven feature distributions, due to their ability to provide smooth image capture independent of robot motion. In order to integrate information received from  gimballed cameras, an accurate time-varying extrinsic calibration between the dynamic camera and other sensors, such as static cameras and IMUs, needs to be determined. In this talk, I will first present our work on the extrinsic calibration for dynamic and static camera clusters. I will then talk about our recent efforts to perform the calibration between a dynamic camera and an IMU, online and in flight while presenting results in simulation and real hardware data.</p>
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;">
