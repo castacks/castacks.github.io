@@ -163,7 +163,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>University of Michigan</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Deep Learning for Marine Robot Perception</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -192,7 +192,7 @@ Each talk format is 40 minutes of presentation and 20 minutes of open-ended disc
       <p>University of Zurich</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">SLAM: from Frames to Events</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
