@@ -11,6 +11,9 @@ image: /img/slam_series/title.png
 ---
 
 # General Information
+
+Check out our [latest Fall Edition](https://theairlab.org/tartanslamseries2/)!
+
 The goal of this series is to expand the understanding of those both new and experienced with SLAM. Sessions will include research talks, as well as introductions to various themes of SLAM and thought provoking open-ended discussions. This is the inaugural series in the lineup of events aiming to foster fun, provocative discussions on robotics.
 
 You can add the schedule to your Google calendar [here](https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York) or iCal [here](https://calendar.google.com/calendar/ical/fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com/public/basic.ics).
