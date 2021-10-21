@@ -38,6 +38,7 @@ Join our [mailing list](https://forms.gle/Zk5Jgecrxw6FhMVD8) for Zoom links, upd
 
 Each talk format is 40 minutes of presentation and 20 minutes of open-ended discussion.
 
+Check out our previous edition of the Tartan SLAM Series [here](https://theairlab.org/tartanslamseries/).
 
 # Schedule
 
