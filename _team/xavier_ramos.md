@@ -1,7 +1,7 @@
-job_title: Visiting Undergraduate Researcher
+ job_title: Visiting Undergraduate Researcher
  category: master_student
  layout: team_member_personal_page
- image: /img/team/
+ image: /img/team/xavier_ramos.jpg
  image: /img/team/
  hide_footer: true
  link-new-tab: true
