@@ -13,12 +13,10 @@ link-new-tab: true
   
  Research Interests:
   
- Algorithm Complexity
- Software Engineering 
- Artificial Intelligence (Machine Learning and Robotics)
-  
+- Algorithm Complexity
+- Software Engineering 
+- Artificial Intelligence (Machine Learning and Robotics)
  
-
 
 ## Email ##
 xramos@andrew.cmu.edu
