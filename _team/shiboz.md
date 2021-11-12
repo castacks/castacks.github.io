@@ -14,6 +14,8 @@ He is focusing on the simultaneous localization and mapping (SLAM) in challengin
 # Email #
 shiboz@andrew.cmu.edu
 
+# Twitter #
+ShiboZhaoSLAM
 # Personal page #
 <a href="https://shibowing.github.io" target="_blank">shibowing.github.io</a>
 
