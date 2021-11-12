@@ -11,8 +11,8 @@ hide_footer: true
 Shibo Zhao is the first year phd student in the Field Robotics Center of the Robotics Institute at CMU. 
 He is focusing on the simultaneous localization and mapping (SLAM) in challenging environments and accurate 3D model reconstruction.
 
- # Email #
-shibowing@gmail.com
+# Email #
+shiboz@andrew.cmu.edu
 
 # Personal page #
 <a href="https://shibowing.github.io" target="_blank">shibowing.github.io</a>
