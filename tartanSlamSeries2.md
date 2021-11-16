@@ -430,7 +430,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://youtu.be/YCE1Aj0k1UA" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/YCE1Aj0k1UA" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
