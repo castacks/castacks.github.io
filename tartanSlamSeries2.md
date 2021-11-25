@@ -449,7 +449,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>NASA JPL</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Resilient Robotic Autonomy Under Uncertainty</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
