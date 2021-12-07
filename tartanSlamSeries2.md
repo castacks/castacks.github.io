@@ -507,7 +507,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>University of Freiburg</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Probabilistic and Deep Learning Techniques for Robot Navigation and Automated Driving</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
