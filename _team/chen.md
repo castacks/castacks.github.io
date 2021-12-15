@@ -10,6 +10,8 @@ hide_footer: true
 
 Chen Wang is currently a project scientist with the Robotics Institute at Carnegie Mellon University (CMU). He received the B.Eng. degree in Electrical Engineering from Beijing Institute of Technology (BIT) in 2014 and Ph.D. degree in Electrical Engineering from Nanyang Technological University (NTU) Singapore in 2019. His research interests include robot perception, vision, and machine learning.
 
+He is currently serving as an Associate Editor for IEEE Robotics and Automation Letters (RA-L).
+
 - [CMU Scholar Page](https://scholars.cmu.edu/8810-chen-wang)
 
 - [Personal Website](https://chenwang.site)

@@ -410,6 +410,34 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
+        <img src="/img/slam_series/kasra.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="http://www.mit.edu/~mrrobot/">Kasra Khosoussi</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior Research Scientist</p>
+      <p>CSIRO Data61</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">CSIRO's Wildcat SLAM: A Robust SLAM System for Robot Teams in the Wild</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">22 Nov 2021</p>
+      <p>5:00 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/YCE1Aj0k1UA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
         <img src="/img/slam_series/alia.jpg"/>
       </div>
     </td>
@@ -421,7 +449,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>NASA JPL</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Resilient Robotic Autonomy Under Uncertainty</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -479,7 +507,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <p>University of Freiburg</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBA</p>
+      <p style="margin-bottom: 3px;">Probabilistic and Deep Learning Techniques for Robot Navigation and Automated Driving</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
