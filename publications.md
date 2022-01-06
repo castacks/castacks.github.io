@@ -29,6 +29,9 @@ hide_footer: false
    list-style-type: none;
 }
 </style>
+# 2022
+{% bibliography --query @*[year=2022] %}
+
 # 2021
 {% bibliography --query @*[year=2021] %}
 
