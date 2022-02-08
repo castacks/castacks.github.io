@@ -74,6 +74,33 @@ The data can be downloaded directly from [here](https://drive.google.com/file/d/
 }
 ```
 
+### Related work also from the AirLab ###
+```
+@inproceedings{Madaan:2019kb,
+  author = {Madaan, Ratnesh and Kaess, Michael and Scherer, Sebastian},
+  booktitle = {Proceedings - IEEE International Conference on Robotics and Automation},
+  doi = {10.1109/ICRA.2019.8793852},
+  isbn = {9781538660263},
+  issn = {10504729},
+  month = may,
+  pages = {5657--5664},
+  title = {Multi-view reconstruction of wires using a catenary model},
+  year = {2019}
+}
+
+@inproceedings{Dubey-2018-107515,
+  author = {Dubey, Geetesh and Madaan, Ratnesh and Scherer, Sebastian},
+  booktitle = {IEEE International Conference on Intelligent Robots and Systems},
+  doi = {10.1109/IROS.2018.8593499},
+  isbn = {9781538680940},
+  issn = {21530866},
+  month = oct,
+  pages = {6311--6318},
+  title = {{DROAN - D}isparity-Space Representation for Obstacle Avoidance: Enabling Wire Mapping Avoidance},
+  year = {2018}
+}
+```
+
 ### Contact ###
 
 [Yaoyu Hu (editor)](https://theairlab.org/team/yaoyuh/) - [yaoyuh@andrew.cmu.edu](mailto:yaoyuh@andrew.cmu.edu)
