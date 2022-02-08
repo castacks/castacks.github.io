@@ -9,7 +9,7 @@ published: true
 show_sidebar: false
 # slim_content_width: true
 permalink: /wire-detection/
-# image: /img/posts/2021-06-15-trajair/trajAirBannerV2.png
+image: /img/posts/2022-02-06-wire-detection/paper_screenshot_01.png
 datatable: true
 title_image: None
 # hero_image: /img/posts/2021-06-15-trajair/trajAirBannerV2.png
