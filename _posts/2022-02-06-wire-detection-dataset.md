@@ -96,7 +96,7 @@ The data can be downloaded directly from [here](https://drive.google.com/file/d/
   issn = {21530866},
   month = oct,
   pages = {6311--6318},
-  title = {{DROAN - D}isparity-Space Representation for Obstacle Avoidance: Enabling Wire Mapping Avoidance},
+  title = {DROAN - Disparity-Space Representation for Obstacle Avoidance: Enabling Wire Mapping Avoidance},
   year = {2018}
 }
 ```
