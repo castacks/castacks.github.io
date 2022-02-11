@@ -1,6 +1,6 @@
 ---
 title: Xavier Ramos
-subtitle: Visiting Undergraduate Researcher
+subtitle: Visiting Researcher
 job_title: Visiting Scholar
 category: visitor
 layout: team_member_personal_page

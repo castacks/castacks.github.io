@@ -524,9 +524,9 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
   </tr>
 </table>
 
-<center>
+<!-- <center>
 <iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz" style="border: 0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
-</center>
+</center> -->
 
 <!-- <div class="circular_image">
   <img src="http://placekitten.com/500/500"/>

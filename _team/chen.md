@@ -8,7 +8,12 @@ image: /img/team/chen.jpg
 hide_footer: true
 ---
 
-Chen Wang is currently a project scientist with the Robotics Institute at Carnegie Mellon University (CMU). He received the B.Eng. degree in Electrical Engineering from Beijing Institute of Technology (BIT) in 2014 and Ph.D. degree in Electrical Engineering from Nanyang Technological University (NTU) Singapore in 2019. His research interests include robot perception, vision, and machine learning.
+Chen Wang is currently a project scientist with the Robotics Institute at Carnegie Mellon University (CMU). He received the B.Eng. degree from Beijing Institute of Technology (BIT) in 2014 and Ph.D. degree from Nanyang Technological University (NTU) Singapore in 2019.
+
+His research goal is to achieve **human-level spatial awareness on robotic systems**. He is interested in all aspects of algorithm development, including creating **efficient algorithms**, proving their **theoretical properties**, distributing them to **open-source communities**, and validating them on **real-world robots**.
+
+His research interests include **robotic perception, vision, and learning**.
+He is also engaged in delivering simple and efficient [source code](https://github.com/wang-chen).
 
 He is currently serving as an Associate Editor for IEEE Robotics and Automation Letters (RA-L).
 
