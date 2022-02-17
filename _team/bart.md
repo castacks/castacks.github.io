@@ -3,6 +3,7 @@ title: Bardienus Duisterhof
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/bart.png
 hide_footer: true

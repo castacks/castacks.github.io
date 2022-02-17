@@ -3,6 +3,7 @@ title: Seungchan Kim
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2020
 layout: team_member_personal_page
 image: /img/team/seungchan_kim.png
 hide_footer: true

@@ -3,6 +3,7 @@ title: John Keller
 subtitle: Engineer
 job_title: Software / Robotics Engineer
 category: staff
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/johnk.png
 hide_footer: true

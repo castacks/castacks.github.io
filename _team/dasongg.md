@@ -3,6 +3,7 @@ title: Dasong Gao
 subtitle: Master's Student
 job_title: Master's Student
 category: master_student
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/dasongg.jpg
 hide_footer: true

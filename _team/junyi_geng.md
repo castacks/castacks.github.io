@@ -3,6 +3,7 @@ title: Junyi (Jenny) Geng
 subtitle: Postdoctor
 job_title: Postdoctoral Fellow
 category: postdoc
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/junyi_geng.jpg
 hide_footer: true

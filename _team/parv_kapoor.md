@@ -3,6 +3,7 @@ title: Parv Kapoor
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/parv_kapoor.jpg
 hide_footer: true

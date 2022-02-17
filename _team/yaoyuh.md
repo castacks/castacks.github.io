@@ -3,6 +3,7 @@ title: Yaoyu Hu
 subtitle: Scientist
 job_title: Project Scientist
 category: scientist
+join_year: 2018
 layout: team_member_personal_page
 image: /img/team/yaoyuh.png
 hide_footer: true

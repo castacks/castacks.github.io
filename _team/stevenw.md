@@ -3,6 +3,7 @@ title: Steven Willits
 subtitle: Scientist
 job_title: Lead Scientist
 category: scientist
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/stevenw.png
 hide_footer: true

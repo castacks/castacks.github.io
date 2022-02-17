@@ -3,6 +3,7 @@ title: Jacky He
 subtitle: Undergraduate
 job_title: Undergraduate
 category: undergraduate
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/jacky_he.jpg
 hide_footer: true

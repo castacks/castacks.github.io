@@ -3,6 +3,7 @@ title: Andrew Jong
 subtitle: Master's Student
 job_title: Master's Student
 category: master_student
+join_year: 2020
 layout: team_member_personal_page
 image: /img/team/andrew_jong.png
 hide_footer: true

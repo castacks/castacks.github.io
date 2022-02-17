@@ -3,6 +3,7 @@ title: Haowen Lai
 subtitle: Intern
 job_title: Intern
 category: intern
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/haowen_lai.png
 hide_footer: true

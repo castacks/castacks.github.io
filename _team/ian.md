@@ -3,6 +3,7 @@ title: Ian Higgins
 subtitle: Research Associate
 job_title: Research Associate II
 category: staff
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/ian.jpg
 hide_footer: true

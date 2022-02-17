@@ -3,6 +3,7 @@ title: Micah Corah
 subtitle: Postdoctor
 job_title: Postdoctoral Fellow
 category: postdoc
+join_year: 2022
 layout: team_member_personal_page
 image: /img/team/micahcorah.jpg
 hide_footer: true

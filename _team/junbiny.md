@@ -3,6 +3,7 @@ title: Junbin Yuan
 subtitle: Research Associate
 job_title: Research Associate I
 category: staff
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/junbin.jpg
 hide_footer: true

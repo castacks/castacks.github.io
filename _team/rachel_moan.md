@@ -3,6 +3,7 @@ title: Rachel Moan
 subtitle: RISS Intern
 job_title: RISS Intern
 category: to_be_removed
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/rachelm.jpg
 hide_footer: true

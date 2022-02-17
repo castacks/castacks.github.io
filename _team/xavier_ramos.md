@@ -3,6 +3,7 @@ title: Xavier Ramos
 subtitle: Visiting Researcher
 job_title: Visiting Scholar
 category: visitor
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/xavier_ramos.jpg
 hide_footer: true

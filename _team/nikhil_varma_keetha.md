@@ -3,6 +3,7 @@ title: Nikhil Varma Keetha
 subtitle: RISS Intern
 job_title: RISS Intern
 category: intern
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/nikhil_varma_keetha.png
 hide_footer: true

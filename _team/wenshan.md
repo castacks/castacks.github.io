@@ -3,6 +3,7 @@ title: Wenshan Wang
 subtitle: Scientist
 job_title: Project Scientist
 category: scientist
+join_year: 2017
 layout: team_member_personal_page
 image: /img/team/wenshan.jpg
 hide_footer: true

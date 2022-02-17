@@ -3,6 +3,7 @@ title: Cherie Ho
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2018
 layout: team_member_personal_page
 image: /img/team/cherie.jpg
 hide_footer: true

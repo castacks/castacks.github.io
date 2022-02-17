@@ -3,6 +3,7 @@ title: Chen Wang
 subtitle: Scientist
 job_title: Project Scientist
 category: scientist
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/chen.jpg
 hide_footer: true

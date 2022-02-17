@@ -3,6 +3,7 @@ title: Rohit Garg
 subtitle: Master's Student
 job_title: Master's Student
 category: master_student
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/rohitg.png
 hide_footer: true

@@ -3,6 +3,7 @@ title: Mukhtar Maulimov
 subtitle: Software Developer
 job_title: Software Developer
 category: staff
+join_year: 2022
 layout: team_member_personal_page
 image: /img/team/mukhtar.jpg
 hide_footer: true

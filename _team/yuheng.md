@@ -3,6 +3,7 @@ title: Yuheng Qiu
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2019
 layout: team_member_personal_page
 image: /img/team/yuheng.jpg
 hide_footer: true

@@ -3,6 +3,7 @@ title: Greg Armstrong
 subtitle: Research Technician
 job_title: Research Technician
 category: staff
+join_year: 2010
 layout: team_member_personal_page
 image: /img/team/greg_armstrong.png
 hide_footer: true

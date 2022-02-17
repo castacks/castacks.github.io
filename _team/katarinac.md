@@ -3,6 +3,7 @@ title: Katarina Cujic
 subtitle: Engineer
 job_title: Software / Robotics Engineer
 category: staff
+join_year: 2018
 layout: team_member_personal_page
 image: /img/team/katarina_cujic.png
 hide_footer: true

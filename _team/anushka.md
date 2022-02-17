@@ -3,6 +3,7 @@ title: Anushka Agarwal
 subtitle:  Research Intern
 job_title:  Research Intern
 category: intern
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/anushka.png
 hide_footer: true

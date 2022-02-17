@@ -94,50 +94,35 @@ show_sidebar: false
 <h1 style="font-size:35px;">Graduate Students</h1>
 <br>
 <div class="columns is-multiline">
-{% assign sorted_products = site.team | where:"category","phd_student" %}
-{% for product in sorted_products %}
-<div class="column is-one-fifth-desktop is-6-tablet">
-  <a href="{{ product.url | prepend: site.baseurl }}">
-    <div class="card">
-      {% if product.image %}
-      <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
-        </figure>
-      </div>
-      {% endif %}
-      <div class="card-content">
-        <p class="title is-6">{{ product.title }}</h2>
-        <p class="subtitle is-6">{{ product.subtitle }}</p>
-      </div>
-    </div>
-  </a>
-</div>
-{% endfor %}
-</div>
-
-<div class="columns is-multiline">
-  {% assign sorted_products = site.team | where:"category","master_student" %}
-  {% for product in sorted_products %}
-  <div class="column is-one-fifth-desktop is-6-tablet">
-    <a href="{{ product.url | prepend: site.baseurl }}">
-      <div class="card">
-        {% if product.image %}
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="{{ product.image }}" alt="{{ product.title }}" />
-          </figure>
+  {% assign phds = site.team | where: "category","phd_student" %}
+  {% assign masters = site.team | where: "category","master_student" %}
+  {% assign graduates = phds | concat: masters %}
+  {% assign graduatesByYear = graduates | group_by: "join_year" %}
+  {% assign graduatesByYearSorted = graduatesByYear | sort: "name" %}  <!-- this 'name' field is actually the year-->
+  {% for year in graduatesByYearSorted %}
+    {% assign yearTitlesSorted = year.items | sort: "title" %}
+    {% for product in yearTitlesSorted %}
+        <div class="column is-one-fifth-desktop is-6-tablet">
+          <a href="{{ product.url | prepend: site.baseurl }}">
+            <div class="card">
+              {% if product.image %}
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="{{ product.image }}" alt="{{ product.title }}" />
+                </figure>
+              </div>
+              {% endif %}
+              <div class="card-content">
+                <p class="title is-6">{{ product.title }}</h2>
+                <p class="subtitle is-6">{{ product.subtitle }} </p>
+              </div>
+            </div>
+          </a>
         </div>
-        {% endif %}
-        <div class="card-content">
-          <p class="title is-6">{{ product.title }}</h2>
-          <p class="subtitle is-6">{{ product.subtitle }}</p>
-        </div>
-      </div>
-    </a>
-  </div>
+    {% endfor %}
   {% endfor %}
 </div>
+
 <hr>
 
 {% assign sorted_products = site.team | where:"category","undergraduate" %}

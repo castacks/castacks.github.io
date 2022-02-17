@@ -3,6 +3,7 @@ title: Charles Noren
 subtitle: Ph.D. Student
 job_title: Ph.D. Student
 category: phd_student
+join_year: 2018
 layout: team_member_personal_page
 image: /img/team/charles_noren.jpg
 hide_footer: true

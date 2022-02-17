@@ -3,6 +3,7 @@ title: Matthew Sivaprakasam
 subtitle: RISS Intern
 job_title: RISS Intern
 category: intern
+join_year: 2021
 layout: team_member_personal_page
 image: /img/team/matthew_sivaprakasam.png
 hide_footer: true

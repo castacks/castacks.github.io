@@ -3,6 +3,7 @@ title: Joao Dantas
 subtitle: Research Scholar
 job_title: Research Scholar
 category: visitor
+join_year: 2022
 layout: team_member_personal_page
 image: /img/team/joao.jpg
 hide_footer: true
