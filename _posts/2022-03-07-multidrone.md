@@ -3,7 +3,7 @@ layout: post
 title: "3D Human Reconstruction with Collaborative Aerial Cameras"
 date: 2022-03-07 12:00:00
 categories: research
-description: "3D Recontruction with Multi-drone teams"
+description: "3D Recontruction with Multiple Drones"
 author: "Rebecca Martin"
 published: true
 sidebar:  false
@@ -11,6 +11,9 @@ permalink: /multidrone/
 image: /img/posts/2022-03-07-multidrone/poster-demo.gif
 datatable: true
 title_image: None
+hero_image: /img/posts/2022-03-07-multidrone/multidrone-timelapse-hero.png
+hero_height: is-large
+remove_hero_title: true
 link-new-tab: true
 ---
 
@@ -18,7 +21,8 @@ Aerial vehicles are revolutionizing applications that require capturing the 3D s
 <figure>
     <img src="/img/posts/2022-03-07-multidrone/poster-demo.gif" />
     <figcaption>
-        A tracking and reconstruction demo.
+        We present a multi-drone motion capture system for 3D human reconstruction in the wild. Our framework coordinates 
+aerial cameras to optimally reconstruct the target’s body pose while avoiding obstacles and occlusions outdoors.
     </figcaption>
 </figure>
 
@@ -29,29 +33,47 @@ We formulate a multi-camera coordination scheme with the goal of maximizing the 
 <figure>
     <img src="/img/posts/2022-03-07-multidrone/real-life-flight.png" />
     <figcaption>
-        Placeholder
+        Real-life flight among obstacle. Our adaptive formation rotates clockwise avoiding the mound to maintain optimal reconstruction angle.
     </figcaption>
 </figure>
 
 We provide studies evaluating system performance in simulation, and validate real-world performance using two drones while a target performs activities such as jogging and playing soccer.
 <figure>
-    <img src="/img/posts/2021-10-06-aircode/reconstruction-comp.png" />
-    <img src="/img/posts/2021-10-06-aircode/reconstruction-dynamic.png" />
+    <img src="/img/posts/2022-03-07-multidrone/reconstruction-dynamic.png" />
+    <figcaption>
+        3D reconstruction of a highly dynamic target
+playing soccer.
+    </figcaption>
 </figure>
 
 ## Video
 
 {% youtube jxt91vx0cns %}
 
-## Publication
+## Additional Info
 
- - Cherie Ho, Andrew Jong, Harry Freeman, Rohan Rao, Rogerio Bonatti, Sebastian Scherer. 3D Human Reconstruction in the Wild with Collaborative Aerial Cameras. *arXiv preprint arXiv:2108.03936 (2021)*.
+### Citation
+```
+@inproceedings{ho2021_human3d,
+  author = {Ho, Cherie and Jong, Andrew and Freeman, Harry and Rao, Rohan and Bonatti, Rogerio and Scherer, Sebastian},
+  title = {3D Human Reconstruction in the Wild with Collaborative Aerial Cameras},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year = {2021},
+  month = sep,
+  url = {https://arxiv.org/abs/2108.03936},
+  video = {https://youtu.be/jxt91vx0cns}
+}
+```
 
 
-Please refer to our [Paper](https://arxiv.org/pdf/2108.03936.pdf) for details.
+Please refer to our [paper](https://arxiv.org/pdf/2108.03936.pdf) for details.
 
 
-## Contact
+### Contributors
 
  - [Cherie Ho](https://cherieho.com) <cherieh [at] cmu [dot] edu>
- - [Sebastian Scherer](http://theairlab.org/team/sebastian/) <basti [at] cmu [dot] edu>
+ - Andrew Jong
+ - Harry Freeman
+ - Rohan Rao
+ - Rogerio Bonatti
+ - [Prof. Sebastian Scherer](http://theairlab.org/team/sebastian/) <basti [at] cmu [dot] edu>
