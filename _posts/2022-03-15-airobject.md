@@ -39,7 +39,13 @@ Intuitively, a group of feature points on an object form a graphical representat
 Our proposed method is very simple and only contains three modules. Specifically, we use extracted deep learned keypoint features across multiple frames to form sequences of object-wise topological graph neural networks (GNNs), which on embedding generate temporal object descriptors. We employ a graph attention-based sparse encoding method on these topological GNNs to generate content graph features and location graph features representing the structural information of the object. Then, these graph features are aggregated across multiple frames using a single-layer temporal convolutional network to generate a temporal object descriptor. These generated object descriptors are robust to severe occlusion, perceptual aliasing, viewpoint shift, deformation, and scale transform, outperforming the state-of-the-art single-frame and sequential descriptors.
 
 <figure>
-    <img src="/img/posts/2022-03-15-airobject/airobject_teaser.gif" />
+    <figcaption>
+       Video Object Identification
+    </figcaption>
+    <img src="/img/posts/2022-03-15-airobject/obj_1.gif" />
+    <img src="/img/posts/2022-03-15-airobject/obj_2.gif" />
+    <img src="/img/posts/2022-03-15-airobject/obj_3.gif" />
+    <img src="/img/posts/2022-03-15-airobject/obj_4.gif" />
 </figure>
 
 ## Video
