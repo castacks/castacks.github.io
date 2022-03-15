@@ -8,13 +8,20 @@ author: "Nikhil Varma Keetha"
 published: true
 sidebar:  false
 permalink: /airobject/
-image: /img/posts/2022-03-15-airobject/airobject_teaser.gif
+image: /img/posts/2022-03-15-airobject/obj_1_org.gif
 datatable: true
 title_image: None
 link-new-tab: true
 ---
 
 Object encoding and identification are vital for robotic tasks such as autonomous exploration, semantic scene understanding, and re-localization. Previous approaches have attempted to either track objects or generate descriptors for object identification. However, such systems are limited to a "fixed" object representation from a single viewpoint and are not robust to severe occlusion, viewpoint shift, perceptual aliasing, or scale transform. These single frame representations tend to lead to false correspondences amongst perceptually-aliased objects, especially when severely occluded. Hence, we propose one of the first temporal object encoding methods, **AirObject**, that aggregates the temporally "evolving" object structure as the camera or object moves. The AirObject descriptors, which accumulate knowledge across multiple evolving representations of the objects, are robust to severe occlusion, viewpoint changes, deformation, perceptual aliasing, and the scale transform.
+
+<figure>
+    <img src="/img/posts/2022-03-15-airobject/obj_1_org.gif" />
+    <figcaption>
+       Video Object Identification
+    </figcaption>
+</figure>
 
 <figure>
     <img src="/img/posts/2022-03-15-airobject/overview.jpg" />
@@ -42,7 +49,6 @@ Our proposed method is very simple and only contains three modules. Specifically
     <figcaption>
        Video Object Identification
     </figcaption>
-    <img src="/img/posts/2022-03-15-airobject/obj_1.gif" />
     <img src="/img/posts/2022-03-15-airobject/obj_2.gif" />
     <img src="/img/posts/2022-03-15-airobject/obj_3.gif" />
     <img src="/img/posts/2022-03-15-airobject/obj_4.gif" />
