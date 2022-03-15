@@ -5,7 +5,7 @@ date: 2022-03-15 12:00:00
 categories: research
 description: "A Temporal Object Encoding Method"
 author: "Nikhil Varma Keetha"
-published: false
+published: true
 sidebar:  false
 permalink: /airobject/
 image: /img/posts/2022-03-15-airobject/airobject_teaser.gif
