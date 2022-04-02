@@ -13,7 +13,7 @@ advisors:
  - name: Sebastian Scherer
 current_status: Founder & CSO at GatherAI (Nabla Ascent)
 layout: team_past_member_personal_page
-image: /img/team/placeholder_male.png
+image: /img/team/past_members/Geetesh+Dubey.png
 hide_footer: true
 ---
 
