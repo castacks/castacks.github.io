@@ -25,7 +25,7 @@ He is currently serving as an Associate Editor for IEEE Robotics and Automation 
 
 - Contact:
     - <chenwang@dr.com> (Preferred)
-    - <chenwan3@andrew.cmu.edu>
+    - <wangchen@cmu.edu>
 
 - Follow Chen Wang elsewhere:
     <div class="sharethis-inline-follow-buttons"></div>
