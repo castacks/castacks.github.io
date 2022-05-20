@@ -2,9 +2,9 @@
 title: Satrajit Chatterjee
 subtitle: Research Associate
 job_title: Research Associate I
-category: staff
+category: former_staff
 layout: team_member_personal_page
-image: /img/team/satrajit.png
+image: /img/team/past_members/satrajit.png
 hide_footer: true
 ---
 
