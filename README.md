@@ -24,4 +24,3 @@ Adding your profile is very simple. First follow the instructions above and laun
 # Adding your publication
 Edit the `_bibliography/references.bib` file to add your bibtex and commit to `master`.
 
-test
