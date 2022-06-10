@@ -246,7 +246,7 @@
             <group display="block csl-author" delimiter="">
      	      <text macro="author" prefix="By " suffix="."/>
             </group>
-            <group display="block csl-event" delimiter="">
+            <group display="block csl-event" delimiter=", ">
               <text macro="event"/>
             <text macro="locators" suffix=", "/>
             <text macro="page" prefix=", " suffix=", "/>
