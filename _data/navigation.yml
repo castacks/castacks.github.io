@@ -1,32 +1,14 @@
-header:
-  - titles:
-      # @start locale config
-      en      : &EN      Home
-      # @end locale config
-    url: /index.html
-  - titles:
-      # @start locale config
-      en      : &EN      Page 1
-      # @end locale config
-    url: /archive1.html
-  - titles:
-      # @start locale config
-      en      : &EN      Page 2
-      # @end locale config
-    url: /archive2.html
-  - titles:
-      # @start locale config
-      en      : &EN      Page 3
-      # @end locale config
-    url: /archive3.html
-  - titles:
-      # @start locale config
-      en      : &EN       Archive
-      # @end locale config
-    url: /archive.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      # @end locale config
-    url: /about.html
+- name: Datasets
+  link: /datasets
+- name: TP-TIO
+  link: /tptio
+- name: Super Loop
+  link: /superloop
+- name: Super Odometry 2
+  link: /superodometry2
+- name: MS-VIO
+  link: /msvio
+- name: MVIO
+  link: /mvio
+- name: Team
+  link: /team
