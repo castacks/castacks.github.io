@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: img/superodom.gif
+hero_image: img/super_odometry/superodom_video.gif
 hero_link: /team
 hero_link_text: See Our Team
 ---
