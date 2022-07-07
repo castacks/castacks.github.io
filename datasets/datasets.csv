@@ -1,0 +1,4 @@
+Timestamp,Email Address,Name of dataset,Dataset description,Azure link to bag files,Robot type,Size of all bag files,Duration of entire trajectory,Length of entire trajectory,Trajectory returned to origin at the end,Sensor types,Anything additional information?,Image of the dataset's environment,Sensor Degraded
+7/7/2022 17:26:05,haoxiangsun02@gmail.com,subt-2019-12-08-run-3,Hawkins + corridor,superodometry.com,UGV,5.1GB,260s,600m,Yes,"IMU, Lidar, Thermal",,,"Low light, Stairs"
+7/7/2022 17:26:44,haoxians@andrew.cmu.edu,subt-2019,Hawkins ,seansun.org,UGV,5.1GB,260s,600m,No,"IMU, Thermal",,,"Large outdoor field, Dust"
+7/7/2022 17:28:57,haoxiangsun02@gmail.com,subt-2019-12-08-run-3,Hawkins + corridor,google.com,Spot,5.1GB,260s,600m,Yes,"IMU, Lidar",,,"Long corridor, Dust"
