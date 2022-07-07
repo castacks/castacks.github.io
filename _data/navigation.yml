@@ -1,27 +1,32 @@
-- name: Team
-  link: /current-members/
-  dropdown:
-    - name: Current Members
-      link: /current-members/
-    - name: Alumni
-      link: /alumni/
-- name: Research
-  link: /research/
-- name: Publications
-  link: /publications/
-- name: News
-  link: /news/
-- name: Seminars
-  dropdown:
-    - name: Tartan SLAM Series Fall Edition
-      link: /tartanslamseries2/
-    - name: Tartan SLAM Series
-      link: /tartanslamseries/
-    - name: Summer School 2020
-      link: /summer2020/
-- name: Datasets
-  link: /datasets/
-- name: Openings
-  link: /openings/
-- name: Contact
-  link: /contact/
+header:
+  - titles:
+      # @start locale config
+      en      : &EN      Home
+      # @end locale config
+    url: /index.html
+  - titles:
+      # @start locale config
+      en      : &EN      Page 1
+      # @end locale config
+    url: /archive1.html
+  - titles:
+      # @start locale config
+      en      : &EN      Page 2
+      # @end locale config
+    url: /archive2.html
+  - titles:
+      # @start locale config
+      en      : &EN      Page 3
+      # @end locale config
+    url: /archive3.html
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      # @end locale config
+    url: /about.html
