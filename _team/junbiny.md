@@ -1,14 +1,14 @@
 ---
 title: Junbin Yuan
-subtitle: Visitor
-job_title: Visiting Scholar
-category: visitor
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category: phd_student
 layout: team_member_personal_page
 image: /img/team/junbin.jpg
 hide_footer: true
 ---
 
-Junbin Yuan is a visiting scholar. In 2019, he received his Bachelor's degree in Electronic and Computer Engineering from the Hong Kong University of Science and Technology.
+Junbin Yuan is a PhD student. In 2019, he received his Bachelor's degree in Electronic and Computer Engineering from the Hong Kong University of Science and Technology.
 
 ### Projects
 
