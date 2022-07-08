@@ -67,6 +67,7 @@ We present the first real-world datasets collected in Subterranean Environments 
 let datasetsStr, datasets;
 let datasetTable;
 let chipsInput;
+let numImagesLoaded, loadStartTime;
 let options = {
     placeholder: 'Filter datasets...',
     secondaryPlaceholder: '+Tag',
@@ -107,6 +108,8 @@ function onFilterButton(){
 }
 
 function loadDatasetCsv(){
+    numImagesLoaded = 0;
+    loadStartTime = new Date().getTime();
     makeRequest("/datasets/datasets.csv", "", (str)=>{
         datasetsStr = str.split("\n");
         for (let i = 0; i < datasetsStr.length; i++) {
@@ -186,14 +189,20 @@ function makePicture(idx){
         getImageUri(`/datasets/img/${datasets[idx].name}.jpg`, (uri) => {
             datasets[idx].image = uri;
             document.getElementById(`picture-${idx}`).src = datasets[idx].image;
-            console.log("Caching image " + idx);
+            // console.log("Caching image " + idx);
+            numImagesLoaded++;
+            if (numImagesLoaded === datasets.length - 1) 
+                console.log("All images loaded in " + (new Date().getTime() - loadStartTime) + "ms");
         });
     }
 
     let img = document.createElement("img");
     img.id = `picture-${idx}`;
     img.idx = idx;
-    img.src = datasets[idx].image;
+    if (datasets[idx].image !== "") 
+        setTimeout(function(){
+            img.src = datasets[idx].image;
+        }, 1);
     img.alt = "Loading...";
     img.style.width = "178px";
     img.style.height = "100px";
@@ -210,9 +219,8 @@ function makeDownloadLink(name, link){
 
 
 function makeDownloadButton(link){
-    if (link.indexOf("http://") < 0){
+    if (link.indexOf("http://") < 0)
         link = "http://" + link;
-    }
     return `<a class="waves-effect waves-light btn-small" onclick="window.open('${link}','_blank')">Download</a>`;
 }
 
