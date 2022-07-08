@@ -119,17 +119,17 @@ function loadDatasetCsv(){
         datasets = [];
         for (let i = 0; i < rows.length; i++) {
             let dataset = {};
-            dataset.name = rows[i][2];
-            dataset.description = rows[i][3];
-            dataset.robot = rows[i][5];
-            dataset.sensors = rows[i][10];
-            dataset.degraded = rows[i][13];
-            dataset.trajectoryLength = rows[i][8];
-            dataset.duration = rows[i][7];
-            dataset.returnToOrigin = rows[i][9];
-            dataset.size = rows[i][6];
-            dataset.image = rows[i][12];
-            dataset.link = rows[i][4];
+            dataset.name = rows[i][2].trim();
+            dataset.description = rows[i][3].trim();
+            dataset.robot = rows[i][5].trim();
+            dataset.sensors = rows[i][10].trim();
+            dataset.degraded = rows[i][13].trim();
+            dataset.trajectoryLength = rows[i][8].trim();
+            dataset.duration = rows[i][7].trim();
+            dataset.returnToOrigin = rows[i][9].trim();
+            dataset.size = rows[i][6].trim();
+            dataset.image = rows[i][12].trim();
+            dataset.link = rows[i][4].trim();
             datasets.push(dataset);
         }
         generateTable();
