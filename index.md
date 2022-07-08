@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: img/superodom.gif
+hero_image: img/super_odometry/superodom_video.gif
 hero_link: /team
 hero_link_text: See Our Team
 ---
@@ -16,9 +16,9 @@ We propose Super Odometry, a high-precision multi-modal sensor fusion framework,
 
 <div>
     <div style="float: left; width: 48%">
-    <div class="video-wrapper"><iframe src="http://www.youtube.com/embed/aa4whgmYTqY" frameborder="0" allowfullscreen></iframe></div>
+    <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/aa4whgmYTqY" frameborder="0" allowfullscreen></iframe></div>
     </div>
     <div style="float: right; width: 48%;">
-    <div class="video-wrapper"><iframe src="http://www.youtube.com/embed/nHVOW_jl2m8" frameborder="0" allowfullscreen></iframe></div>
+    <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/nHVOW_jl2m8" frameborder="0" allowfullscreen></iframe></div>
     </div>
 </div>
