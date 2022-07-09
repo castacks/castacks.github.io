@@ -33,7 +33,8 @@ We present the first real-world datasets collected in Subterranean Environments 
 
 # Sensors
 
-<iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/G8KaflyapIE?list=TLGGHuleU1VVcXswNzA3MjAyMg" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/G8KaflyapIE" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <img src="/img/datasets/specs.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
 # Download
@@ -67,7 +68,6 @@ We present the first real-world datasets collected in Subterranean Environments 
 let datasetsStr, datasets;
 let datasetTable;
 let chipsInput;
-let numImagesLoaded, loadStartTime;
 let options = {
     placeholder: 'Filter datasets...',
     secondaryPlaceholder: '+Tag',
@@ -103,13 +103,11 @@ function openAutoComplete(){
 function onFilterButton(){
     let startTime = new Date().getTime();
     let filter = chipsInput.chipsData.map((chip) => chip.tag.toLowerCase());
-    generateTable(filter);
+    filterTable(filter);
     console.log("Filter time used: " + (new Date().getTime() - startTime) + "ms");
 }
 
 function loadDatasetCsv(){
-    numImagesLoaded = 0;
-    loadStartTime = new Date().getTime();
     makeRequest("/datasets/datasets.csv", "", (str)=>{
         datasetsStr = str.split("\n");
         for (let i = 0; i < datasetsStr.length; i++) {
@@ -128,20 +126,34 @@ function loadDatasetCsv(){
             dataset.duration = rows[i][7];
             dataset.returnToOrigin = rows[i][9];
             dataset.size = rows[i][6];
-            dataset.image = rows[i][12];
+            dataset.image = rows[i][12] !== "" ? rows[i][12] : `/datasets/img/${dataset.name}.jpg`;
             dataset.link = rows[i][4];
             datasets.push(dataset);
         }
-        generateTable();
+
+        datasetTable.innerHTML = "";
+        for (let i = 1; i < datasets.length; i++) {
+            let row = datasets[i];
+            generateRow(datasetTable, i, [
+                makeDownloadLink(row.name, row.link),
+                row.description,
+                row.robot,
+                row.sensors,
+                row.degraded,
+                makeLengthDuration(row.trajectoryLength, row.duration),
+                row.returnToOrigin,
+                row.size,
+                makePicture(i)
+            ]);
+        }
+        filterTable();
     });
 }
 
-function generateTable(filters){
+function filterTable(filters){
     if (filters === undefined) filters = [];
-    datasetTable.innerHTML = "";
     let count = 0;
     for (let i = 1; i < datasets.length; i++) {
-        let row = datasets[i];
         let isIncluded = true;
         for (let j = 0; j < filters.length; j++) {
             if (datasetsStr[i].indexOf(filters[j]) < 0) {
@@ -149,25 +161,20 @@ function generateTable(filters){
                 break;
             }
         }
-        if (!isIncluded) continue;
-        count++;
-        generateRow(datasetTable, [
-            makeDownloadLink(row.name, row.link),
-            row.description,
-            row.robot,
-            row.sensors,
-            row.degraded,
-            makeLengthDuration(row.trajectoryLength, row.duration),
-            row.returnToOrigin,
-            row.size,
-            makePicture(i)
-        ]);
+        if (isIncluded) {
+            document.getElementById(`row-${i}`).style.display = "";
+            count++;
+        } else {
+            document.getElementById(`row-${i}`).style.display = "none";
+        }
+        
     }
     document.getElementById("numResultLabel").innerHTML = `(Showing ${count} datasets)`;
 }
 
-function generateRow(table, dataArr) {
+function generateRow(table, rowIdx, dataArr) {
     let row = document.createElement("tr");
+    row.id = "row-" + rowIdx;
     for (let i = 0; i < dataArr.length; i++) {
         let cell = document.createElement("td");
         if (typeof dataArr[i] === "string") {
@@ -185,24 +192,10 @@ function makeLengthDuration(length, duration){
 }
 
 function makePicture(idx){
-    if (datasets[idx].image === "") {
-        getImageUri(`/datasets/img/${datasets[idx].name}.jpg`, (uri) => {
-            datasets[idx].image = uri;
-            document.getElementById(`picture-${idx}`).src = datasets[idx].image;
-            // console.log("Caching image " + idx);
-            numImagesLoaded++;
-            if (numImagesLoaded === datasets.length - 1) 
-                console.log("All images loaded in " + (new Date().getTime() - loadStartTime) + "ms");
-        });
-    }
-
     let img = document.createElement("img");
     img.id = `picture-${idx}`;
     img.idx = idx;
-    if (datasets[idx].image !== "") 
-        setTimeout(function(){
-            img.src = datasets[idx].image;
-        }, 1);
+    img.src = datasets[idx].image;
     img.alt = "Loading...";
     img.style.width = "178px";
     img.style.height = "100px";
@@ -247,21 +240,5 @@ function makeRequest(url, data, callback) {
     httpRequest.open("GET", url, true);
     httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     httpRequest.send(data);
-}
-
-function getImageUri(url, callback) {
-    let img = new Image();
-    img.setAttribute('crossOrigin', 'anonymous');
-    img.onload = function () {
-        let canvas = document.createElement("canvas");
-        canvas.width = this.width;
-        canvas.height = this.height;
-        let ctx = canvas.getContext("2d");
-        ctx.drawImage(this, 0, 0);
-        let dataURL = canvas.toDataURL("image/png");
-        // let result = dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-        callback(dataURL);
-    };
-    img.src = url;
 }
 </script>
