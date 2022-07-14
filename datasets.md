@@ -37,6 +37,10 @@ We present the first real-world datasets collected in Subterranean Environments 
 <iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/G8KaflyapIE" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <img src="/img/datasets/specs.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
+# Contribute
+
+How to contribute to this dataset? Coming soon...
+
 # Download
 
 <div id="chips" class="chips" onclick="openAutoComplete()">

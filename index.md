@@ -16,7 +16,7 @@ We propose Super Odometry, a high-precision multi-modal sensor fusion framework,
 
 <div>
     <div style="float: left; width: 48%">
-    <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/aa4whgmYTqY" frameborder="0" allowfullscreen></iframe></div>
+    <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/YN1T4mQgWmY" frameborder="0" allowfullscreen></iframe></div>
     </div>
     <div style="float: right; width: 48%;">
     <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/nHVOW_jl2m8" frameborder="0" allowfullscreen></iframe></div>
