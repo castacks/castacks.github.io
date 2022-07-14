@@ -33,13 +33,18 @@ We present the first real-world datasets collected in Subterranean Environments 
 
 # Sensors
 
-
 <iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/G8KaflyapIE" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <img src="/img/datasets/specs.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
 # Contribute
 
-How to contribute to this dataset? Coming soon...
+How to contribute to this dataset?
+
+1. Have your dataset ready.
+2. Use Rosbag Utils to filter the topics you want to publish. (Tutorial [here](/rosbagutils))
+3. Rosbag Utils can also provide some statistics for your robot trajectory.
+4. Complete this form to submit your dataset. (Submit [here](https://forms.gle/HA1Qm7YFfT4rtWNS7))
+5. Check back after sometime to see this page updated.
 
 # Download
 
