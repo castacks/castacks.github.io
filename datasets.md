@@ -41,9 +41,9 @@ We present the first real-world datasets collected in Subterranean Environments 
 How to contribute to this dataset?
 
 1. Have your dataset ready.
-2. Use Rosbag Utils to filter the topics you want to publish. (Tutorial [here](/rosbagutils))
+2. Use <a href="/rosbagutils" style="color:#cc002b;">Rosbag Utils</a> to filter the topics you want to publish.
 3. Rosbag Utils can also provide some statistics for your robot trajectory.
-4. Complete this form to submit your dataset. (Submit [here](https://forms.gle/HA1Qm7YFfT4rtWNS7))
+4. Complete <a href="https://forms.gle/HA1Qm7YFfT4rtWNS7" style="color:#cc002b;">this form</a> to submit your dataset.
 5. Check back after sometime to see this page updated.
 
 # Download
@@ -71,6 +71,55 @@ How to contribute to this dataset?
 </thead>
 
 <tbody id="datasetTable"></tbody>
+</table>
+<br>
+
+# Organizers
+
+<hr>
+ <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
+  <tr>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/lucas_nogueira_crop.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Lucas Nogueira</a>
+      </p>
+      <p style="margin-bottom: 3px;">Master's Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/ian.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/ian/">Ian Higgins</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research Associate</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
+      </p>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/rushan_jiang.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/">Rushan Jiang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+  </tr>
 </table>
 
 <script>
