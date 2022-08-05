@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: /img/airlab_picnic_rise.gif
+hero_image: /img/airlab_picnic_rise2.gif
 hero_link: /research/
 hero_link_text: See Our Research
 
