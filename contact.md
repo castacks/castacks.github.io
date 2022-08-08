@@ -25,9 +25,9 @@ Email: [basti@andrew.cmu.edu](mailto:basti@andrew.cmu.edu)
 
 ## Administrative Assistant
 
-### Nora Kazour
+### Amanda Axelson
 NSH 2107, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
 
 Phone: (412) 268-6556
 
-Email: [nkazour@andrew.cmu.edu](mailto:nkazour@andrew.cmu.edu)
+Email: [aaxelson@andrew.cmu.edu](mailto:aaxelson@andrew.cmu.edu)
