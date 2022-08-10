@@ -185,12 +185,12 @@ function loadDatasetCsv(){
             dataset.name = rows[i][2].trim();
             dataset.description = rows[i][3].trim();
             dataset.robot = rows[i][5].trim();
-            dataset.sensors = rows[i][10].trim();
-            dataset.degraded = rows[i][13].trim();
-            dataset.trajectoryLength = rows[i][8].trim();
-            dataset.duration = rows[i][7].trim();
-            dataset.returnToOrigin = rows[i][9].trim();
-            dataset.size = rows[i][6].trim();
+            dataset.sensors = rows[i][6].trim();
+            dataset.degraded = rows[i][11].trim();
+            dataset.trajectoryLength = rows[i][9].trim();
+            dataset.duration = rows[i][8].trim();
+            dataset.returnToOrigin = rows[i][10].trim();
+            dataset.size = rows[i][7].trim();
             dataset.image = rows[i][12].trim() !== "" ? rows[i][12].trim() : `/datasets/img/${dataset.name}.jpg`;
             dataset.link = rows[i][4].trim();
             datasets.push(dataset);
@@ -269,16 +269,15 @@ function makePicture(idx){
 }
 
 function makeDownloadLink(name, link){
-    if (link.indexOf("http://") < 0){
-        link = "http://" + link;
-    }
+    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0)
+        link = "https://" + link;
     return `<a onclick="window.open('${link}','_blank')">${name}</a>`;
 }
 
 
 function makeDownloadButton(link){
-    if (link.indexOf("http://") < 0)
-        link = "http://" + link;
+    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0)
+        link = "https://" + link;
     return `<a class="waves-effect waves-light btn-small" onclick="window.open('${link}','_blank')">Download</a>`;
 }
 
