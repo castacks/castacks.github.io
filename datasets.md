@@ -118,6 +118,13 @@ How to contribute to this dataset?
       </p>
       <p style="margin-bottom: 3px;">Undergradate Student</p>
       <p>Carnegie Mellon University</p>
+    </td> <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/chuck-whittaker.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-people/warren-whittaker/">Warren Whittaker</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior Field Robotics Specialist</p>
+      <p>Carnegie Mellon University</p>
     </td>
   </tr>
 </table>
