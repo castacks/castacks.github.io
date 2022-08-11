@@ -42,8 +42,9 @@ background: rgba(10, 10, 10, 0.5); border-radius: 20px;
 
 ## Citation
 
-Zhao, Shibo, et al. "Tp-tio: A robust thermal-inertial odometry with deep thermalpoint." 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020.
+Zhao, Shibo, et al. "Tp-tio: A robust thermal-inertial odometry with deep thermalpoint." 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020. [Paper](https://arxiv.org/abs/2012.03455)
 
+```
 @inproceedings{zhao2020tp,
   title={Tp-tio: A robust thermal-inertial odometry with deep thermalpoint},
   author={Zhao, Shibo and Wang, Peng and Zhang, Hengrui and Fang, Zheng and Scherer, Sebastian},
@@ -52,3 +53,4 @@ Zhao, Shibo, et al. "Tp-tio: A robust thermal-inertial odometry with deep therma
   year={2020},
   organization={IEEE}
 }
+```

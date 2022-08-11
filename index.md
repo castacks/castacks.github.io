@@ -26,8 +26,9 @@ We propose Super Odometry, a high-precision multi-modal sensor fusion framework,
 
 ## Citation
 
-Zhao, Shibo, et al. "Super odometry: IMU-centric LiDAR-visual-inertial estimator for challenging environments." 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2021.
+Zhao, Shibo, et al. "Super odometry: IMU-centric LiDAR-visual-inertial estimator for challenging environments." 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2021. [Paper](https://arxiv.org/abs/2104.14938)
 
+```
 @inproceedings{zhao2021super,
   title={Super odometry: IMU-centric LiDAR-visual-inertial estimator for challenging environments},
   author={Zhao, Shibo and Zhang, Hengrui and Wang, Peng and Nogueira, Lucas and Scherer, Sebastian},
@@ -36,6 +37,7 @@ Zhao, Shibo, et al. "Super odometry: IMU-centric LiDAR-visual-inertial estimator
   year={2021},
   organization={IEEE}
 }
+```
 
 
 
