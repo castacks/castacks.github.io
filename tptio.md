@@ -17,10 +17,6 @@ To achieve robust motion estimation in visually degraded environments, thermal o
     <iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/aa4whgmYTqY" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
-background: rgba(10, 10, 10, 0.5); border-radius: 20px;
-          max-width: 1300px; text-align: center; top: 500px; left: 0; right: 0; margin-left: auto; margin-right: auto; position: absolute; color: #F5F5F5;
-
 <script>
 
     window.onload = function () {
