@@ -1,15 +1,15 @@
 ---
 title: Sam Triest
-subtitle: Master's Student
-job_title: Master's Student
-category: master_student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category: phd_student
 layout: team_member_personal_page
 image: /img/team/sam_triest.png
 hide_footer: true
 link-new-tab: true
 ---
 
-Sam is an M.S.R. student at Carnegie Mellon University. His research interests are in reinforcement learning and planning, and their applications to real-world robotics. Sam graduated from the University of Rochester in 2020 with a B.S. in Computer Science and a B.A. in Business.
+Sam is an PhD student at Carnegie Mellon University. His research interests are in reinforcement learning and planning, and their applications to real-world robotics. Sam graduated from the University of Rochester in 2020 with a B.S. in Computer Science and a B.A. in Business.
 
 ## Email ##
 striest@andrew.cmu.edu
