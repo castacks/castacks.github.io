@@ -1,18 +1,22 @@
 ---
 title: Nikhil Varma Keetha 
-subtitle: RISS Intern
-job_title: RISS Intern
-category: intern
+subtitle: Master's Student
+job_title: Master's Student
+category:  master_student
 layout: team_member_personal_page
-image: /img/team/nikhil_varma_keetha.png
+image: /img/team/nikhil_keetha.jpg
 hide_footer: true
 link-new-tab: true
 ---
 
-Nikhil is a rising senior at the Indian Institute of Techonology (ISM) Dhanbad pursuing a major in Engineering Physics. He has a profound interest in Computer Vision, Localization & Mapping and understanding how human's perceive and navigate the world. Apart from AI and coding, he finds recreation also in movies, gaming, cooking and music.
+Nikhil is a first-year MS in Robotics student at Carnegie Mellon University. He graduated from the Indian Institute of Techonology (ISM) Dhanbad with a B.Tech (Distinction) in Engineering Physics. 
 
-## LinkedIn Profile ##
-[https://www.linkedin.com/in/nikhil-varma-keetha-612685193/](https://www.linkedin.com/in/nikhil-varma-keetha-612685193/)
+Nikhil's current research is focused on certifiability of learning-based algorithms for Detect and Avoid (DAA). He has a profound interest in Robotic Perception, Localization & Mapping and understanding how human's perceive and navigate the world. Apart from AI and coding, he finds recreation also in movies, gaming, cooking and music.
 
-## Twitter ##
-[https://twitter.com/Nik__V__](https://twitter.com/Nik__V__)
+<br>
+
+**Website**: [nik-v9.github.io/](https://nik-v9.github.io/)
+
+**LinkedIn**: [linkedin.com/in/nik-v9/](https://www.linkedin.com/in/nik-v9/)
+
+**Twitter**: [Nik__V__](https://twitter.com/Nik__V__)
