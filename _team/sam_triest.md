@@ -9,7 +9,7 @@ hide_footer: true
 link-new-tab: true
 ---
 
-Sam is an PhD student at Carnegie Mellon University. His research interests are in applying deep learning to planning and controls. As a member of the AirLab, Sam has worked on several projects focusing on perception and model learning for large mobile robots. Sam graduated from the University of Rochester in 2020 with a B.S. in Computer Science and a B.A. in Business.
+Sam is a PhD student at Carnegie Mellon University. His research interests are in applying deep learning to planning and controls. As a member of the AirLab, Sam has worked on several projects focusing on perception and model learning for large mobile robots. Sam graduated from the University of Rochester in 2020 with a B.S. in Computer Science and a B.A. in Business.
 
 ## Email ##
 striest@andrew.cmu.edu
