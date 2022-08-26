@@ -2,7 +2,7 @@
 title: Shiqi Zhao
 subtitle: Intern
 job_title: Intern
-category: intern
+category: former_intern
 layout: team_member_personal_page
 image: /img/team/shiqi.jpeg
 hide_footer: true

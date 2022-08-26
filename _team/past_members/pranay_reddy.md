@@ -2,7 +2,7 @@
 title: Pranay Reddy
 subtitle: Intern
 job_title: Intern
-category: intern
+category: former_intern
 layout: team_member_personal_page
 image: /img/team/pranay_reddy.jpg
 hide_footer: true

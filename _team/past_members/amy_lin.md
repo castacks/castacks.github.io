@@ -2,7 +2,7 @@
 title: Amy Lin
 subtitle: Undergraduate
 job_title: Undergraduate
-category: undergraduate
+category: former_undergraduate
 layout: team_member_personal_page
 image: /img/team/amy_lin.png
 hide_footer: true

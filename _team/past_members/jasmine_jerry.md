@@ -2,7 +2,7 @@
 title: Jasmine Jerry Aloor
 subtitle: RISS Intern
 job_title: RISS Intern
-category: intern
+category: former_intern
 layout: team_member_personal_page
 image: /img/team/jasmine_jerry.png
 hide_footer: true

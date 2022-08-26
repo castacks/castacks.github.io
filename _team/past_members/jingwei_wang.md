@@ -2,7 +2,7 @@
 title: Jingwei Wang
 subtitle: Undergraduate
 job_title: Undergraduate
-category: undergraduate
+category: former_undergraduate
 layout: team_member_personal_page
 image: /img/team/jingwei_wang.jpg
 hide_footer: true
