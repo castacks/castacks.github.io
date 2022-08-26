@@ -289,8 +289,10 @@
 	  </group>
         </else-if>
         <else-if type="thesis">
-          <group delimiter=", ">
-            <text macro="title"/>
+          <group display="block csl-content" delimiter=" ">
+	    <group display="block csl-title" delimiter=" ">
+              <text macro="title"/>
+	    </group>
             <text variable="genre"/>
             <text macro="publisher"/>
             <text macro="issued"/>
