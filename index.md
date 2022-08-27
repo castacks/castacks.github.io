@@ -39,5 +39,23 @@ Zhao, Shibo, et al. "Super odometry: IMU-centric LiDAR-visual-inertial estimator
 }
 ```
 
+## Acknowledgments
+
+The authors would like to express sincere thanks to Professor [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Professor Michael Kaess [https://www.cs.cmu.edu/~kaess/] for their constructive advice. Meawhile, we would like to thank these great works from which we learned to develop Super Odometry. 
+
+[LOAM](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf) 
+[VINS-MONO] (https://ieeexplore.ieee.org/document/8421746?arnumber=8421746&source=authoralert) 
+[GTSAM] (https://github.com/borglab/gtsam)
+
+
+## Contacts
+
+If you have any question or want to contribute this work, please feel free to send email to Shibo Zhao (shiboz@andrew.cmu.edu).  Thank you! :)
+
+
+
+
+
+
 
 
