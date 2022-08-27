@@ -53,11 +53,12 @@ Zhao, Shibo, et al. "Tp-tio: A robust thermal-inertial odometry with deep therma
 
 ## Acknowledgments
 
-The authors would like to express sincere thanks to Professor [Michael Kaess][https://www.cs.cmu.edu/~kaess/],Professor [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/), Dr [Shehryar Khattak](https://scholar.google.com/citations?user=CZ1hgVoAAAAJ&hl=en) and Dr [Chen Wang](https://scholar.google.com/citations?user=vZfmKl4AAAAJ&hl=en) for their constructive advice. Meawhile, we would like to thank following great works from which we learned to develop Tp-tio. 
+The authors would like to express sincere thanks to Professor [Michael Kaess](https://www.cs.cmu.edu/~kaess/),Professor [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/), Dr [Shehryar Khattak](https://scholar.google.com/citations?user=CZ1hgVoAAAAJ&hl=en) and Dr [Chen Wang](https://scholar.google.com/citations?user=vZfmKl4AAAAJ&hl=en) for their constructive advice. Meawhile, we would like to thank following great works from which we learned to develop Tp-tio. 
 
-[KTIO](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21932)
+[KTIO](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21932) Keyframe‐based thermal–inertial odometry Journal of Field Robotics 37.4 (2020): 552-579.
 
-[VINS-MONO](https://ieeexplore.ieee.org/document/8421746?arnumber=8421746&source=authoralert) 
+
+[VINS-MONO](https://ieeexplore.ieee.org/document/8421746?arnumber=8421746&source=authoralert) VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Robotic 
 
 [GTSAM](https://github.com/borglab/gtsam)
 
