@@ -43,9 +43,9 @@ Zhao, Shibo, et al. "Super odometry: IMU-centric LiDAR-visual-inertial estimator
 
 The authors would like to express sincere thanks to Professor [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Professor [Michael Kaess](https://www.cs.cmu.edu/~kaess/) for their constructive advice. Meawhile, we would like to thank these great works from which we learned to develop Super Odometry. 
 
-[LOAM](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf) LOAM: Lidar Odometry and Mapping in Real-time, Ji Zhang and Sanjiv Singh, Robotics: Science and Systems Conference (RSS 2014)  
+[LOAM](https://www.ri.cmu.edu/pub_files/2014/7/Ji_LidarMapping_RSS2014_v8.pdf)  Lidar Odometry and Mapping in Real-time, Ji Zhang and Sanjiv Singh, Robotics: Science and Systems Conference (RSS 2014)  
 
-[VINS-MONO](https://ieeexplore.ieee.org/document/8421746?arnumber=8421746&source=authoralert) VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Robotic 
+[VINS-MONO](https://ieeexplore.ieee.org/document/8421746?arnumber=8421746&source=authoralert)  A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Robotic 
 
 [GTSAM](https://github.com/borglab/gtsam) Georgia Tech Smoothing and Mapping Library
 
