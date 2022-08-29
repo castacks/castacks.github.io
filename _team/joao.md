@@ -12,10 +12,10 @@ Joao Dantas received his B.Sc. degree in Mechanical-Aeronautical Engineering fro
 
 <br>
 
+**Website**: [joaopadantas.com](http://www.joaopadantas.com)
+
 **Email**: [jdantas@andrew.cmu.edu](mailto:jdantas@andrew.cmu.edu)
 
 **LinkedIn**: [linkedin.com/in/jpdantas](https://www.linkedin.com/in/jpdantas/)
 
 **Google Scholar**: [Joao P. A. Dantas](https://scholar.google.com/citations?hl=pt-BR&user=RjeTT9cAAAAJ)
-
-
