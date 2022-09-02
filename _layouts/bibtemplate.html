@@ -15,7 +15,23 @@
             x.style.display = 'block';
         }
     }
-    </script>
+</script>
+
+
+<button class="button3"  onclick="toggle3{{entry.key  | replace: '-':'' | replace: ':':''}}()">plain text</button>
+
+<script>
+    function toggle3{{entry.key | replace : '-':'' | replace : ':':''}}() {
+        var x= document.getElementById('c{{entry.key}}');
+        // console.log("haha %o",typeof {{entry.key}});
+        if (x.style.display === 'block') {
+            x.style.display = 'none';
+        } else {
+            x.style.display = 'block';
+        }
+    }
+</script>
+
 {% if entry.abstract %}
 <button class="button3" onclick="toggle2{{entry.key  | replace: '-':'' | replace: ':':''}}()">abstract</button>
 {% endif %}
@@ -51,3 +67,4 @@
 
 <div id="a{{entry.key}}" style="display:none"><pre>{{entry.bibtex}}</pre></div>
 <div id="b{{entry.key}}" style="display:none"><pre>{{entry.abstract}}</pre></div>
+<div id="c{{entry.key}}" style="display:none"><pre>{{entry.author}}, "{{{entry.title}}," {{entry.journal}} {{entry.booktitle}}, {{entry.year}}.</pre></div>
