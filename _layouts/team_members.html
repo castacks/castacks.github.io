@@ -169,30 +169,9 @@ show_sidebar: false
 <h1 style="font-size:35px;">Visitors & Interns</h1>
 <br>
 <div class="columns is-multiline">
-{% assign sorted_products = site.team | where:"category","visitor" %}
-{% for product in sorted_products %}
-<div class="column is-one-fifth-desktop is-6-tablet">
-  <a href="{{ product.url | prepend: site.baseurl }}">
-    <div class="card">
-      {% if product.image %}
-      <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
-        </figure>
-      </div>
-      {% endif %}
-      <div class="card-content">
-        <p class="title is-6">{{ product.title }}</h2>
-        <p class="subtitle is-6">{{ product.subtitle }}</p>
-      </div>
-    </div>
-  </a>
-</div>
-{% endfor %}
-</div>
-
-<div class="columns is-multiline">
-{% assign sorted_products = site.team | where:"category","intern" %}
+{% assign sorted_visitor = site.team | where:"category","visitor" %}
+{% assign sorted_intern = site.team | where:"category","intern" %}
+{% assign sorted_products = sorted_visitor | concat: sorted_intern %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">

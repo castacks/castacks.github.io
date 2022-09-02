@@ -2,7 +2,7 @@
 title: Zifa Zhu
 subtitle: Visitor
 job_title: Visiting Scholar
-category: visitor
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/zifa_zhu.jpg
 hide_footer: true
