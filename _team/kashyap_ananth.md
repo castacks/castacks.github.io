@@ -9,7 +9,7 @@ hide_footer: true
 link-new-tab: true
 ---
 
-Ananth Kashyap is currently a senior at Fox Chapel Area High School. His research interests include **Mechanical Design**, **Path Planning** , **Deep Learning**, and **Robotics**. He is currently working on design optimization for the aerial manipulation project as well as path interpolation for Pypose. In the future, he hopes to start a career in robotics and work on self-driving cars and other autonomous technology.
+Ananth Kashyap is currently a senior at Fox Chapel Area High School. His research interests include **Mechanical Design**, **Path Planning**, **Deep Learning**, and **Robotics**. He is currently working on design optimization for the aerial manipulation project as well as path interpolation for Pypose. In the future, he hopes to start a career in robotics and work on self-driving cars and other autonomous technology.
 
 ## Github
 
