@@ -1,9 +1,9 @@
 # Site Settings
 title: AirLab
-tagline: We build intelligent aerial robots
+tagline: We build intelligent autonomous robots
 email: contact@theairlab.org
 description: >
-  Researching, developing, and testing autonomous flying robots at Carnegie Mellon University
+  Researching, developing, and testing autonomous robots at Carnegie Mellon University
 baseurl:
 url: "https://theairlab.org"
 permalink: pretty
