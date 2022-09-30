@@ -5,7 +5,6 @@ job_title: Visiting Scholar
 category: former_visitor
 layout: team_member_personal_page
 image: /img/team/xavier_ramos.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

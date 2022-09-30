@@ -5,7 +5,6 @@ job_title:  Research Intern
 category: former_intern
 layout: team_member_personal_page
 image: /img/team/anushka.png
-hide_footer: true
 link-new-tab: true
 ---
 Hi, I'm Anushka. I'm a pre-final year undergraduate student at SRM Univeristy. My research goals are inclined towards **Deep  Learning**, **Computer Vision** , **Human-computer Interactions** and **Robotics** and am actively looking for research problems to solve.

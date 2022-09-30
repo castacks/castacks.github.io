@@ -14,7 +14,6 @@ advisors:
 current_status: PhD student at UPenn
 layout: team_past_member_personal_page
 image: /img/team/past_members/anishb.png
-hide_footer: true
 ---
 
 Anish is a PhD student at the GRASP lab at University of Pennsylvania, working with Nikolai Matni and Vijay Kumar. While a Masters student in the AirLab, he focused on UAV aerial manipulation and was team lead for the CMU Team Tartan entry in the MBZIRC 2020 competition. His thesis was titled Toward Increased Airspace Safety: Quadrotor Guidance for Targeting Aerial Objects. He holds a BS in electrical engineering from University of Illinois at Urbana Champaign.

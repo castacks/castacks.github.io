@@ -5,7 +5,6 @@ job_title: Undergraduate
 category: former_undergraduate
 layout: team_member_personal_page
 image: /img/team/jingwei_wang.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

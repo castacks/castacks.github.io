@@ -14,7 +14,6 @@ advisors:
 current_status: Co-founder of Gather AI
 layout: team_past_member_personal_page
 image: /img/team/past_members/Sankalp+Arora.png
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

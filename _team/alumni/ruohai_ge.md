@@ -13,7 +13,6 @@ image: /img/team/ruohai_ge.png
 advisors:
  - name: Sebastian Scherer
 current_status: Software Engineer, Nuro
-hide_footer: true
 link-new-tab: true
 linkedin: https://www.linkedin.com/in/ruohai-ge-3753aa13b/
 ---

@@ -5,7 +5,6 @@ job_title: Software Developer
 category: staff
 layout: team_member_personal_page
 image: /img/team/mukhtar.jpg
-hide_footer: true
 ---
 
 Mukhtar Maulimov is a Software Developer in the AirLab. Mukhtar graduated from the Oregon State University with an M.S. in Mechanical Engineering in 2018 and was advised by Dr. Burak Sencer where he worked on Chatter Vibrations. He graduated from Middle East Techinical University with an B.S. in Mechanical Engineering in 2016.

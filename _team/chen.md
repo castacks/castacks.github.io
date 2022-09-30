@@ -5,7 +5,6 @@ job_title: Project Scientist
 category: scientist
 layout: team_member_personal_page
 image: /img/team/chen.jpg
-hide_footer: true
 ---
 
 Chen Wang is currently a project scientist with the Robotics Institute at Carnegie Mellon University (CMU). He received the B.Eng. degree from Beijing Institute of Technology (BIT) in 2014 and Ph.D. degree from Nanyang Technological University (NTU) Singapore in 2019.

@@ -14,7 +14,6 @@ advisors:
 current_status: Nuro
 layout: team_past_member_personal_page
 image: /img/team/past_members/jingfengl.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

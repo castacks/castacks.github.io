@@ -5,7 +5,6 @@ job_title: Research Associate I
 category: former_staff
 layout: team_member_personal_page
 image: /img/team/past_members/satrajit.png
-hide_footer: true
 ---
 
 Satrajit Chatterjee is a Research Associate with the AirLab, currently working on informative path planning for teams of UAVs. He is extremely passionate about robotics and artificial intelligence, and in solving difficult problems through unique approaches. 

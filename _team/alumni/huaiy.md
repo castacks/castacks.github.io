@@ -5,7 +5,6 @@ job_title: Postdoctoral Fellow
 category: past_postdoc
 layout: team_member_personal_page
 image: /img/team/huaiy.jpg
-hide_footer: true
 current_status: Research Associate Professor at Wuhan University
 starting_year: 2018
 graduation_year: 2021

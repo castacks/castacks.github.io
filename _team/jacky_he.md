@@ -5,7 +5,6 @@ job_title: Undergraduate
 category: undergraduate
 layout: team_member_personal_page
 image: /img/team/jacky_he.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

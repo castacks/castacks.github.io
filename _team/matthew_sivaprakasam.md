@@ -5,7 +5,6 @@ job_title: RISS Intern
 category: intern
 layout: team_member_personal_page
 image: /img/team/matthew_sivaprakasam.png
-hide_footer: true
 link-new-tab: true
 ---
 

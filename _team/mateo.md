@@ -5,7 +5,6 @@ job_title: Master's Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/mateo.jpg
-hide_footer: true
 ---
 
 Mateo Guaman Castro is a Masters in Robotics student in the [Robotics Institute](https://www.ri.cmu.edu "Robotics Institute Homepage") at Carnegie Mellon University. He graduated *summa cum laude* from Tufts University with a B.S. in electrical engineering.

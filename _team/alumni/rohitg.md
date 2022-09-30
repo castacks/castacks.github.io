@@ -8,7 +8,6 @@ graduation_year: 2021
 graduation_month: October
 layout: team_past_member_personal_page
 image: /img/team/rohitg.png
-hide_footer: true
 thesis_title: Coordinated Aerial Exploration of Subterranean Voids
 thesis_link: https://www.ri.cmu.edu/publications/coordinated-aerial-exploration-of-subterranean-voids/
 linkedin: https://www.linkedin.com/in/rgarg617

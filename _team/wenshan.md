@@ -5,7 +5,6 @@ job_title: Project Scientist
 category: scientist
 layout: team_member_personal_page
 image: /img/team/wenshan.jpg
-hide_footer: true
 ---
 
 [Personal Website](http://www.wangwenshan.com)

@@ -5,7 +5,6 @@ job_title: Ph.D. Student
 category: phd_student
 layout: team_member_personal_page
 image: /img/team/bowen_li.png
-hide_footer: true
 link-new-tab: true
 ---
 

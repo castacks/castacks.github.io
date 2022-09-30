@@ -15,7 +15,6 @@ advisors:
 current_status: Aurora
 layout: team_past_member_personal_page
 image: /img/team/past_members/sanjiban_choudhury_2020.png
-hide_footer: true
 link-new-tab: true
 ---
 

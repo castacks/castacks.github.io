@@ -14,7 +14,6 @@ advisors:
 current_status: Vision Learning Engineer at Innovasea
 layout: team_past_member_personal_page
 image: /img/team/placeholder_female.png
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

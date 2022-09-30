@@ -5,7 +5,6 @@ job_title: Ph.D. Student
 category: phd_student
 layout: team_member_personal_page
 image: /img/team/brady.jpg
-# hide_footer: true
 ---
 
 Brady Moon is a PhD student in the [Robotics Institute](https://www.ri.cmu.edu "Robotics Institute Homepage") at Carnegie Mellon University. He graduated *summa cum laude* from Brigham Young University with a B.S. in electrical engineering.

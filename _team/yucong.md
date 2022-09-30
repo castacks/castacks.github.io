@@ -5,7 +5,6 @@ job_title: Intern
 category: intern
 layout: team_member_personal_page
 image: /img/team/yucong.png
-hide_footer: true
 link-new-tab: true
 ---
 

@@ -5,7 +5,6 @@ job_title: Ph.D. Student
 category: phd_student
 layout: team_member_personal_page
 image: /img/team/seungchan_kim.png
-hide_footer: true
 link-new-tab: true
 ---
 

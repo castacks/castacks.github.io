@@ -5,7 +5,6 @@ job_title: Intern
 category: former_intern
 layout: team_member_personal_page
 image: /img/team/shivam_verma.png
-hide_footer: true
 link-new-tab: true
 ---
 

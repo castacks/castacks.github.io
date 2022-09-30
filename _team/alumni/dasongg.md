@@ -8,7 +8,6 @@ graduation_year: 2021
 graduation_month: December
 layout: team_past_member_personal_page
 image: /img/team/dasongg.jpg
-hide_footer: true
 # thesis_title: "Toward Increased Airspace Safety Quadrotor Guidance for Targeting Aerial Objects"
 # thesis_link: https://www.ri.cmu.edu/publications/toward-increased-airspace-safety-quadrotor-guidance-for-targeting-aerial-objects/
 linkedin: https://www.linkedin.com/in/dasong-gao-4b3598138/

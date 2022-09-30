@@ -5,7 +5,6 @@ job_title: Ph.D. Student
 category: past_phd
 layout: team_past_member_personal_page
 image: /img/team/weikun.jpg
-hide_footer: true
 starting_year: 2016
 graduation_year: 2021
 graduation_month: December

@@ -14,7 +14,6 @@ advisors:
 current_status: Localization Engineer at Motional
 layout: team_past_member_personal_page
 image: /img/team/hengruiz.jpg
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

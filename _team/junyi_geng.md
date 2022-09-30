@@ -5,7 +5,6 @@ job_title: Postdoctoral Fellow
 category: postdoc
 layout: team_member_personal_page
 image: /img/team/junyi_geng.jpg
-hide_footer: true
 link-new-tab: true
 ---
 
