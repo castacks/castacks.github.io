@@ -14,6 +14,3 @@ advisors:
 ---
 
  Chao-te Chou was an MSR student. His research interest lies in the intersection of computer vision, machine learning and robotics. He worked on SLAM related projects.
-
-# Email #
-chaotec@andrew.cmu.edu
