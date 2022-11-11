@@ -13,7 +13,7 @@ advisors:
  - name: Sebastian Scherer
 current_status: Vision Learning Engineer at Innovasea
 layout: team_past_member_personal_page
-image: /img/team/placeholder_female.png
+image: /img/team/past_members/chenma.jpeg
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
