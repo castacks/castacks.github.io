@@ -13,7 +13,7 @@ hero_link_text: Download
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="http://code.jquery.com/jquery-3.3.1.slim.js"
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"
     integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
 <script src="/datasets/jquery.csv.min.js"></script>
 <style> html { scroll-behavior: smooth; }
@@ -57,16 +57,15 @@ How to contribute to this dataset?
 <thead>
     <tr>
         <th>Name</th>
-        <th>Description</th>
+        <th>Location</th>
         <th>Robot</th>
         <th>Sensors</th>
+        <th>Description</th>
         <th>Degraded types</th>
         <th>Length</th>
-        <!-- <th>Duration</th> -->
         <th>Return to origin</th>
         <th>Size</th>
         <th>Picture</th>
-        <!-- <th>Download</th> -->
     </tr>
 </thead>
 
@@ -140,7 +139,10 @@ let options = {
       data: {
         'Lidar': null,
         'IMU': null,
-        'Thermal': null
+        'Thermal': null,
+        "Subt": null,
+        "UAV": null,
+        "UGV": null,
       },
       limit: Infinity,
       minLength: 0
@@ -182,17 +184,19 @@ function loadDatasetCsv(){
         datasets = [];
         for (let i = 0; i < rows.length; i++) {
             let dataset = {};
-            dataset.name = rows[i][2].trim();
+            dataset.id = rows[i][0].trim();
+            dataset.name = rows[i][1].trim();
+            dataset.location = rows[i][2].trim();
             dataset.description = rows[i][3].trim();
-            dataset.robot = rows[i][5].trim();
-            dataset.sensors = rows[i][6].trim();
-            dataset.degraded = rows[i][11].trim();
-            dataset.trajectoryLength = rows[i][9].trim();
+            dataset.robot = rows[i][4].trim();
+            dataset.sensors = rows[i][5].trim();
+            dataset.degraded = rows[i][6].trim();
+            dataset.trajectoryLength = rows[i][7].trim();
             dataset.duration = rows[i][8].trim();
-            dataset.returnToOrigin = rows[i][10].trim();
-            dataset.size = rows[i][7].trim();
-            dataset.image = rows[i][12].trim() !== "" ? rows[i][12].trim() : `/datasets/img/${dataset.name}.jpg`;
-            dataset.link = rows[i][4].trim();
+            dataset.returnToOrigin = rows[i][9].trim();
+            dataset.size = rows[i][10].trim();
+            dataset.image = rows[i][11].trim() !== "" ? rows[i][11].trim() : `/datasets/img/${dataset.id}.png`;
+            dataset.link = rows[i][12].trim();
             datasets.push(dataset);
         }
 
@@ -201,8 +205,9 @@ function loadDatasetCsv(){
             let row = datasets[i];
             generateRow(datasetTable, i, [
                 makeDownloadLink(row.name, row.link),
-                row.description,
+                row.location,
                 row.robot,
+                row.description,
                 row.sensors,
                 row.degraded,
                 makeLengthDuration(row.trajectoryLength, row.duration),
