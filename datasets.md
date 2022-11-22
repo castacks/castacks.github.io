@@ -22,6 +22,31 @@ td th {
 text-align: center !important;
 vertical-align: middle !important;
 }
+
+.tooltip {
+position: relative;
+display: inline-block;
+}
+
+.tooltip .tooltiptext {
+opacity: 0%;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+opacity: 40%;
+}
 </style>
 
 # About
@@ -129,37 +154,38 @@ How to contribute to this dataset?
 </table>
 
 <script>
+let calibrations;
 let datasetsStr, datasets;
 let datasetTable;
 let chipsInput;
 let options = {
-    placeholder: 'Filter datasets...',
-    secondaryPlaceholder: '+Tag',
+    placeholder: "Filter datasets...",
+    secondaryPlaceholder: "+Tag",
     autocompleteOptions: {
-      data: {
-        'Lidar': null,
-        'IMU': null,
-        'Thermal': null,
-        "Subt": null,
-        "UAV": null,
-        "UGV": null,
-      },
-      limit: Infinity,
-      minLength: 0
-    }
-  };
+        data: {
+            Lidar: null,
+            IMU: null,
+            Thermal: null,
+            Subt: null,
+            UAV: null,
+            UGV: null,
+        },
+        limit: Infinity,
+        minLength: 0,
+    },
+};
 
-document.addEventListener('DOMContentLoaded', function() {
-    let elems = document.querySelectorAll('.chips');
+document.addEventListener("DOMContentLoaded", function () {
+    let elems = document.querySelectorAll(".chips");
     M.Chips.init(elems, options);
     chipsInput = M.Chips.getInstance(elems[0]);
 });
 
-datasetTable = document.getElementById('datasetTable');
-loadDatasetCsv()
+datasetTable = document.getElementById("datasetTable");
+loadCalibrationCsv(() => { loadDatasetCsv(); });
 
-function openAutoComplete(){
-    setTimeout(function(){
+function openAutoComplete() {
+    setTimeout(function () {
         if (!chipsInput.autocomplete.isOpen) {
             console.log("openAutoComplete");
             chipsInput.autocomplete.open();
@@ -167,15 +193,26 @@ function openAutoComplete(){
     }, 200);
 }
 
-function onFilterButton(){
+function onFilterButton() {
     let startTime = new Date().getTime();
     let filter = chipsInput.chipsData.map((chip) => chip.tag.toLowerCase());
     filterTable(filter);
     console.log("Filter time used: " + (new Date().getTime() - startTime) + "ms");
 }
 
-function loadDatasetCsv(){
-    makeRequest("/datasets/datasets.csv", "", (str)=>{
+function loadCalibrationCsv(callback) {
+    makeRequest("/datasets/calibrations.csv", "", (str) => {
+        let rows = $.csv.toArrays(str);
+        calibrations = {};
+        for (let i = 0; i < rows.length; i++) {
+           calibrations[rows[i][0]] = rows[i][1];
+        }
+        if (callback) callback();
+    });
+}
+
+function loadDatasetCsv(callback) {
+    makeRequest("/datasets/datasets.csv", "", (str) => {
         datasetsStr = str.split("\n");
         for (let i = 0; i < datasetsStr.length; i++) {
             datasetsStr[i] = datasetsStr[i].toLowerCase();
@@ -195,7 +232,8 @@ function loadDatasetCsv(){
             dataset.duration = rows[i][8].trim();
             dataset.returnToOrigin = rows[i][9].trim();
             dataset.size = rows[i][10].trim();
-            dataset.image = rows[i][11].trim() !== "" ? rows[i][11].trim() : `/datasets/img/${dataset.id}.png`;
+            dataset.image =
+                rows[i][11].trim() !== "" ? rows[i][11].trim() : `/datasets/img/${dataset.id}.png`;
             dataset.link = rows[i][12].trim();
             datasets.push(dataset);
         }
@@ -206,21 +244,22 @@ function loadDatasetCsv(){
             generateRow(datasetTable, i, [
                 makeDownloadLink(row.name, row.link),
                 row.location,
-                row.robot,
+                makeRobotIDs(row.robot),
                 row.sensors,
                 row.description,
                 row.degraded,
                 makeLengthDuration(row.trajectoryLength, row.duration),
                 row.returnToOrigin,
                 row.size,
-                makePicture(i)
+                makePicture(i),
             ]);
         }
         filterTable();
+        if (callback) callback();
     });
 }
 
-function filterTable(filters){
+function filterTable(filters) {
     if (filters === undefined) filters = [];
     let count = 0;
     for (let i = 1; i < datasets.length; i++) {
@@ -237,7 +276,6 @@ function filterTable(filters){
         } else {
             document.getElementById(`row-${i}`).style.display = "none";
         }
-        
     }
     document.getElementById("numResultLabel").innerHTML = `(Showing ${count} datasets)`;
 }
@@ -257,11 +295,11 @@ function generateRow(table, rowIdx, dataArr) {
     return table.appendChild(row);
 }
 
-function makeLengthDuration(length, duration){
+function makeLengthDuration(length, duration) {
     return `${length} (${duration})`;
 }
 
-function makePicture(idx){
+function makePicture(idx) {
     let img = document.createElement("img");
     img.id = `picture-${idx}`;
     img.idx = idx;
@@ -273,23 +311,44 @@ function makePicture(idx){
     return img;
 }
 
-function makeDownloadLink(name, link){
-    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0)
-        link = "https://" + link;
-    return `<a onclick="window.open('${link}','_blank')">${name}</a>`;
+function makeRobotIDs(allIds) {
+    let ids = allIds.split(",");
+    let result = "";
+    for (let i = 0; i < ids.length; i++) {
+        let id = ids[i].trim();
+        if (id === "") continue;
+        result += makeCalibrationLink(id);
+        if (i < ids.length - 1) result += ", ";
+    }
+    return result;
 }
 
+function makeCalibrationLink(name) {
+    if (calibrations[name] === undefined) alert("Calibration not found: " + name);
+    let link = calibrations[name];
+    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
+    let result = `<a class="tooltip" onclick="window.open('${link}','_blank')">${name}`;
+    result += `<span class="tooltiptext">Download ${name} calibration</span>`;
+    result += `</a>`;
+    return result;
+}
 
-function makeDownloadButton(link){
-    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0)
-        link = "https://" + link;
+function makeDownloadLink(name, link) {
+    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
+    let result = `<a class="tooltip" onclick="window.open('${link}','_blank')">${name}`;
+    result += `<span class="tooltiptext">Download dataset</span>`;
+    result += `</a>`;
+    return result;
+}
+
+function makeDownloadButton(link) {
+    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
     return `<a class="waves-effect waves-light btn-small" onclick="window.open('${link}','_blank')">Download</a>`;
 }
 
 function makeRequest(url, data, callback) {
     let httpRequest = new XMLHttpRequest();
-    if (!httpRequest)
-        return false;
+    if (!httpRequest) return false;
 
     function receivedResponse() {
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
@@ -298,16 +357,16 @@ function makeRequest(url, data, callback) {
                 callback(httpRequest.responseText);
             } else {
                 console.log("ERROR: Request failed");
-                alert("Unable to load datasets.")
+                alert("Unable to load datasets.");
             }
         }
     }
 
-    httpRequest.timeout = 0
+    httpRequest.timeout = 0;
     httpRequest.onreadystatechange = receivedResponse;
     console.log("SENDING REQUEST: " + url);
     httpRequest.open("GET", url, true);
-    httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     httpRequest.send(data);
 }
 </script>
