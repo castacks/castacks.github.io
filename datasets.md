@@ -295,7 +295,7 @@ function generateRow(table, rowIdx, dataArr) {
 }
 
 function makeLengthDuration(length, duration) {
-    return `${length} (${duration})`;
+    return `${length} <br> (${duration})`;
 }
 
 function makePicture(idx) {
@@ -306,7 +306,7 @@ function makePicture(idx) {
     img.alt = "Loading...";
     img.style.width = "178px";
     img.style.height = "100px";
-    img.style.objectFit = "cover";
+    img.style.objectFit = "scale-down";
     return img;
 }
 
