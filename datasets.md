@@ -68,8 +68,7 @@ How to contribute to this dataset?
 1. Have your dataset ready.
 2. Use <a href="/rosbagutils" style="color:#cc002b;">Rosbag Utils</a> to filter the topics you want to publish.
 3. Rosbag Utils can also provide some statistics for your robot trajectory.
-4. Complete <a href="https://forms.gle/HA1Qm7YFfT4rtWNS7" style="color:#cc002b;">this form</a> to submit your dataset.
-5. Check back after sometime to see this page updated.
+4. Contact Haoxiang Sun (<haoxians@andrew.cmu.edu>) for more information.
 
 # Download
 
