@@ -8,9 +8,9 @@ image: /img/team/andrew_jong.png
 link-new-tab: true
 ---
 
-Hi, nice to meet you! I'm Andrew, a Master's student at Carnegie Mellon University's Robotics Institute. My research interests involve multi-agent systems, reinforcement learning, and planning for real world applications. Currently I'm working on autonomous drones for wildfire fighting and disaster relief. I previously graduated from San Jose State University with a B.S. in Computer Science and minor in Mathematics.
+Hi, nice to meet you! I'm Andrew, a Master's student at Carnegie Mellon University's Robotics Institute. My research interests involve multi-agent systems and planning for real world applications. I work on autonomous drones for wildfire assistance and disaster relief. I previously graduated from San Jose State University with a B.S. in Computer Science and minor in Mathematics.
 
-On weekends, I enjoy basketball, badminton, and ping pong.
+On weekends, I enjoy playing sports and music.
 
 ## Email ## 
 ajong@andrew.cmu.edu
