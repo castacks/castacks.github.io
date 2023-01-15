@@ -4,3 +4,31 @@
 // Import Main CSS file from theme
 @import "main";
 
+.search-container {
+    position: relative;
+    .search-input {
+      border: 1px solid #069;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 16px;
+    }
+    .results-container {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      background-color: #FFF;
+      box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+      border-radius: 4px;
+      z-index: 10;
+      li {
+        list-style: none;
+        padding: 8px;
+        &:hover{
+          background-color: rgba(0,0,0,0.1);
+          cursor: pointer;
+        }
+      }
+    }
+  }
