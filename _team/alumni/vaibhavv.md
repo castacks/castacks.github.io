@@ -14,7 +14,6 @@ advisors:
 current_status: Founder of CanaryAreo
 layout: team_past_member_personal_page
 image: /img/team/past_members/vaibhavv.png
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}. He started a compony named CanaryAero making high-end drones.

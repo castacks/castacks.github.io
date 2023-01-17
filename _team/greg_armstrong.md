@@ -5,7 +5,6 @@ job_title: Research Technician
 category: staff
 layout: team_member_personal_page
 image: /img/team/greg_armstrong.png
-hide_footer: true
 link-new-tab: true
 ---
 

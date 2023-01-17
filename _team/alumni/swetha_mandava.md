@@ -14,7 +14,6 @@ advisors:
 current_status: Deep Learning Software Engineer
 layout: team_past_member_personal_page
 image: /img/team/past_members/swetha_mandava.png
-hide_footer: true
 link-new-tab: true
 ---
 

@@ -5,6 +5,6 @@ layout: team_members
 show_sidebar: false
 hide_footer: false
 sort: subtitle
-hero_image: /img/group_pic.JPG
+hero_image: /img/airlab_picnic_rise2.gif
 hero_height: is-large
 ---

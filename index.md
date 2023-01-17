@@ -1,11 +1,11 @@
 ---
 title: AirLab
-subtitle: We research autonomous aerial robots
+subtitle: We research autonomous robots
 layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: /img/mine.gif
+hero_image: /img/homepage_slideshow.gif
 hero_link: /research/
 hero_link_text: See Our Research
 
@@ -14,7 +14,7 @@ hero_link_text2: See Our Team
 ---
 
 # About Us
-Our mission is to advance state-of-the-art aerial autonomy.
+Our mission is to advance state-of-the-art autonomy.
 
 We are proud to be part of the [Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/).
 

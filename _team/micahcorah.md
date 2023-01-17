@@ -5,7 +5,6 @@ job_title: Postdoctoral Fellow
 category: postdoc
 layout: team_member_personal_page
 image: /img/team/micahcorah.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

@@ -11,10 +11,9 @@ thesis_link: https://www.ri.cmu.edu/wp-content/uploads/2019/08/Kevin_Pluckter_Ma
 linkedin: https://www.linkedin.com/in/kevin-pluckter/
 advisors:
  - name: Sebastian Scherer
-current_status: Navigation Engineer
+current_status: Navigation Engineer, Intuitive
 layout: team_past_member_personal_page
 image: /img/team/past_members/kevin_pluckter.png
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

@@ -11,10 +11,9 @@ thesis_link: https://www.ri.cmu.edu/publications/safe-data-gathering-in-physical
 linkedin: https://www.linkedin.com/in/sankalp-arora-3515a511/
 advisors:
  - name: Sebastian Scherer
-current_status: Gather AI
+current_status: Co-founder of Gather AI
 layout: team_past_member_personal_page
-image: /img/team/placeholder_male.png
-hide_footer: true
+image: /img/team/past_members/Sankalp+Arora.png
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

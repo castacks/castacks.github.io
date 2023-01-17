@@ -5,7 +5,6 @@ job_title: Postdoctoral Fellow
 category: postdoc
 layout: team_member_personal_page
 image: /img/team/junyi_geng.jpg
-hide_footer: true
 link-new-tab: true
 ---
 
@@ -13,8 +12,10 @@ Jenny is currently a Postdoctoral Fellow of Robotic Institute at Carnegie Mellon
 Jenny is a remote pilot for UAS. She loves flying drones and building robots.
 
 ## Email: ##
-
 junyigen@andrew.cmu.edu
 
 ## LinkedIn: ###
 [https://www.linkedin.com/in/junyi-geng-ph-d-9823a3b5/](https://www.linkedin.com/in/junyi-geng-ph-d-9823a3b5/)
+
+## Personal Website: ##
+[aerogjy.github.io](http://aerogjy.github.io/)

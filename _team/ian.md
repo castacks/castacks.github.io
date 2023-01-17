@@ -5,7 +5,6 @@ job_title: Research Associate II
 category: staff
 layout: team_member_personal_page
 image: /img/team/ian.jpg
-hide_footer: true
 ---
 
 Ian Higgins is a Research Associate with the AirLab, currently working on the DARPA Subterranean Challenge.

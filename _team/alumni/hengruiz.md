@@ -12,9 +12,8 @@ linkedin: https://www.linkedin.com/in/hengruihenryzhang/
 advisors:
  - name: Sebastian Scherer
 current_status: Localization Engineer at Motional
-layout: team_member_personal_page
+layout: team_past_member_personal_page
 image: /img/team/hengruiz.jpg
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

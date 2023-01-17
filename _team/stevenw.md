@@ -5,7 +5,6 @@ job_title: Lead Scientist
 category: scientist
 layout: team_member_personal_page
 image: /img/team/stevenw.png
-hide_footer: true
 link-new-tab: true
 ---
 

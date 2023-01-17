@@ -13,8 +13,7 @@ advisors:
  - name: Sebastian Scherer
 current_status: Aurora
 layout: team_past_member_personal_page
-image: /img/team/placeholder_male.png
-hide_footer: true
+image: /img/team/past_members/dugar_vishal.jpg
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.

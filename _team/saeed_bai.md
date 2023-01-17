@@ -5,7 +5,6 @@ job_title: Master's Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/saeed_bai.png
-hide_footer: true
 link-new-tab: true
 ---
 

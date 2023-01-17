@@ -5,7 +5,6 @@ job_title: RISS Intern
 category: to_be_removed
 layout: team_member_personal_page
 image: /img/team/rachelm.jpg
-hide_footer: true
 link-new-tab: true
 ---
 

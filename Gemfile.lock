@@ -93,11 +93,14 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
   universal-darwin-20
+  x64-unknown
   x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   bulma-clean-theme!
@@ -110,6 +113,7 @@ DEPENDENCIES
   kramdown (>= 2.3.0)
   kramdown-parser-gfm
   rake (~> 12.0)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.2

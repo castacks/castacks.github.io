@@ -14,7 +14,6 @@ advisors:
 current_status: Cruise
 layout: team_past_member_personal_page
 image: /img/team/past_members/sam_zeng.png
-hide_footer: true
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
