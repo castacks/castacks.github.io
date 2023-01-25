@@ -7,7 +7,13 @@ layout: team_member_personal_page
 image: /img/team/yafeih.png
 ---
 
-Yafei Hu is currently working on visual SLAM (both learning based and geometry based) in dynamic environments. He is also interested in 2D/3D object tracking.
+# about me #
 
-# Email #
-yafeih@andrew.cmu.edu
+I’m currently a PhD student at CMU ECE department. I work with Prof. Sebastian Scherer in CMU Robotics Institute. I’m interested in perception, reinforcement learning, and decision making for robotics.
+
+# contact info #
+**email** : yafeih@andrew.cmu.edu
+
+**website**: https://jeffreyyh.github.io/
+
+
