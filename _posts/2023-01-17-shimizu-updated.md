@@ -9,10 +9,10 @@ published: true
 show_sidebar: false
 # slim_content_width: true
 permalink: /shimizu/
-image: /img/posts/2020-01-31-shimizu/models.jpg
+image: /img/posts/2023-01-17-shimizu-updated/thumbnail_sfm.jpg
 datatable: true
 title_image: None
-hero_image: /img/posts/2020-01-31-shimizu/models.jpg
+hero_image: /img/posts/2023-01-17-shimizu-updated/hero.jpg
 hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
@@ -278,11 +278,7 @@ Turn a heavy point cloud map into a lightweight abstract map represented by prim
 - __Achieving Robust Localization in Geometrically Degenerated Tunnels.__ By Zhen, W. and Scherer, S. In Workshop on Challenges and Opportunities for Resilient Collective Intelligence in Subterranean Environments, Pittsburgh, Pa, 2018.
 - __Robust localization and localizability estimation with a rotating laser scanner.__ By Zhen, W., Zeng, S. and Scherer, S. In Proceedings - IEEE International Conference on Robotics and Automation, Singapore, Singapore, pp. 6240–6245, 2017.
 
-
-
-
 # Contributors #
-
 
 Long term
 - [Dr. Sebastian Scherer](https://theairlab.org/team/sebastian/) (PI)
