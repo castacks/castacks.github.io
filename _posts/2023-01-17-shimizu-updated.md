@@ -95,7 +95,7 @@ The sensor components are featured as the following. It is a multi-modal sensor 
  </figcaption>
 </figure>
 
-{% youtube Gy-LWZ738zo  %}
+{% youtube Gy-LWZ738zo %}
 
 <figure>
   <img src="/img/posts/2023-01-17-shimizu-updated/05_dual_lidar.jpg" style="width:100%" />
@@ -155,7 +155,7 @@ __IMU orientation calibration.__
 Detected procedure for calibrating the rotated angle of the IMU once the payload changes its configuration.
 
 <figure>
-  <img src="/img/posts/2023-01-17-shimizu-updated/14_IMU_angle.jpg" style="width:100%" />
+  <img src="/img/posts/2023-01-17-shimizu-updated/14_IMU_angle.jpg" style="width:80%" />
 </figure>
 
 ## Autonomy ##
@@ -223,6 +223,13 @@ We developed new algorithms by introducing stereo image constrain and LiDAR info
   <img src="/img/posts/2023-01-17-shimizu-updated/19_sfm.jpg" style="width:100%" />
 </figure>
 
+{% youtube GUcKZ2PLPRQ %}
+{% youtube dJaaF8POB64 %}
+
+Related work: Estimating the Localizability of Tunnel-like Environments using LiDAR and UWB.
+
+{% youtube ZK8wA3pyPyE %}
+
 ## High-resolution binocular stereo vision ##
 Perform reconstruction on a single pair of 4K-resolution stereo images. A single stereo pair results in ~12M reconstructed points that allow us to preserve as much detail as possible. Deep-learning methods are utilized.
 
@@ -262,6 +269,7 @@ Turn a heavy point cloud map into a lightweight abstract map represented by prim
  </figcaption>
 </figure>
 
+{% youtube dTuwAkVQGnQ %}
 
 # Publications #
 - __Unified Representation of Geometric Primitives for Graph-SLAM Optimization Using Decomposed Quadrics.__ By Zhen, W., Yu, H., Hu, Y. and Scherer, S. In 2022 International Conference on Robotics and Automation (ICRA), 2022.
