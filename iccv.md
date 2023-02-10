@@ -5,27 +5,15 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: img/tptio/tp-tio.gif
+hero_image: img/iccv/iccv2023_background.jpg
+# hero_link: /iccv#schedule
+# hero_link_text: View Schedule
 ---
 
 | <img src="img/iccv/iccv_show_1.png" width="850" /> | <img src="img/iccv/iccv_show_3.png" width="650" /> |
 
-# Announcements
-- **Outcome:**: The workshop had the highest number of registrants among all ICRA workshops/tutorials. We are grateful to all who participated.
-- **Speaker slides:** Slides can be downloaded from this [page](#TODO) 
-- **High registration:** The workshop now has 1170 registrants (608 in-person, 562 virtual). We are excited and look forward to seeing you!
-- **Live broadcast:** The workshop Zoom link is available at https://events.infovaya.com/session?id=14353. To access the link, you need to register for ICRA (virtual access is free) and create an account on Infovaya.
-- **Contributions:** Accepted submissions are posted and are available for download.
-- **Posters:** While optional, we encourage authors of accepted papers to prepare a poster of their work. Posters will be displayed in a central hallway on poster boards - boards will be provided. Authors are responsible for printing their posters. Each poster should fit within a 4 foot x 4 foot space.
-- **High number of submissions:** We received 48 paper submissions. We are grateful to all researchers who contributed to the workshop.
-
-<!-- <div>
-<br>
-    <iframe width="100%" height="400" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  src="https://www.youtube.com/embed/YN1T4mQgWmY" title="Website - Sensor Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 <script>
-
+    
     window.onload = function () {
         let p = document.getElementsByClassName("title is-2")[0].parentElement;
         p.style.background = "rgba(10, 10, 10, 0.5)";
@@ -41,66 +29,109 @@ hero_image: img/tptio/tp-tio.gif
     p.style.padding = "20px";
     p.style.width = "fit-content";
     p.style.margin = "0px";
-</script> -->
+</script>
+
+# Announcements
 
 ## Outline
-This workshop aims to present the latest results on the theory and practice of learning and algorithmic techniques for robotic perception and mapping. A series of contributed and invited talks by academic leaders and renowned researchers will discuss ground-breaking perception and mapping methods based on optimization and filtering, learning and data-driven models, uncertainty-aware and certifiable perception, multi-agent and distributed mapping, semantic representation, and mesh-based compression. The workshop will also discuss the current challenges and research directions in the next 5-10 years, and will include posters and spotlight talks to facilitate interaction between the speakers and the audience. The workshop plans to have a hybrid format with in-person speakers/attendees and a live broadcast to convey the message to a broader audience. Talk recordings and accepted contributions will be published on the workshop's webpage to broaden the research impact.
 
-***EXPECTED OUTCOME:***
-By facilitating discussion among participants, authors of contributed papers, and invited speakers, the workshop aims to study and answer the following fundamental questions:
+This workshop aims to present the latest results on the theory and practice of both traditional
+and modern techniques for robot learning, robot perception, and SLAM. A series of contributed and invited talks by academic leaders and renowned researchers will discuss ground-breaking perception and mapping methods for long-term autonomy based on current cutting-edge traditional solutions and modern learning methods. The workshop will also discuss the current challenges and future research directions and will include posters and spotlight talks to facilitate interaction between the speakers and the audience. The workshop plans to have a hybrid format with in-person speakers/attendees and a live broadcast to convey the message to a broader audience. Talk recordings and accepted contributions will be published on the workshop’s webpage to broaden the research impact.
 
-1) What are the latest results and emerging research directions for algorithmic perception and mapping (such as optimization and graph-theoretic techniques)?
+## Impact
 
-2) What are the latest results and emerging research directions for end-to-end and data-driven robotic perception and mapping?
+**Pushing the generalization ability of robot learning: physics-based optimization v.s. learning-based methods**
 
-3) How can existing solutions be used in multi-robot and distributed settings with asynchronous and/or incremental data?
+Deep learning has had remarkable success in robotic perception, but its data-centric nature suffers when it comes to generalizing to ever-changing environments. By contrast, physics-based optimization generalizes better, especially in robotics, but it does not perform as well in complicated tasks due to the lack of high-level semantic information and reliance on manual parametric tuning. For example, in visual SLAM, supervised learning-based methods showed promising results in the front-end odometry, while non-linear graph optimization plays a vital role in the back-end. Although some efforts have been made to combine learning models with physics-based optimization, we still lack a systematic methodology with unsupervised learning that can bridge the two worlds.
 
-4) How to utilize these methods in real-time systems with limited computational resources or in distributed systems with limited communication capacity and what are the trade-offs?
+In this workshop, we will invite speakers to discuss the future of the generalization ability of robot learning and the potential direction of the methodology for combing physics-based optimization and learning-based methods. We will cover broad topics in robot planning including learning-based control, planning, visual SLAM, and inertial navigation. We expect that this workshop will inspire a new level of self-learning ability for various autonomous systems, thereby significantly reducing the time, cost, and need for human assistance of diverse missions.
 
-5) What are the correct notions, quantifications, and measures of accuracy for perception and mapping?
+We will also talk about the roles of open-source projects in this direction. The organizers are
+engaging in providing efficient and user-friendly open-source libraries, e.g., PyPose to solve the technical challenges of combining deep perceptual models with physics-based optimization. We believe that by organizing a workshop on this topic, we will be able to encourage more researchers and developers to contribute to the entire open-source community. As a result, we will be able to lower the barriers developers face during designing, improve accessibility for workers to learn how to build and execute new tasks, and will be a catalyst for many developers to develop new methods.
 
-6) How is "failure" defined in perception and mapping and what is the consequence of failure in downstream applications?
+This is a direction that previous ICCV workshops seldom cover but is extremely important for the
+community. Moreover, since we will also talk about their application specifically in the entire field of robotics, we believe we attract more audience beyond the ICCV community.
+
+**A Challenge to push SLAM Towards All-weather Environments**
+
+Robust odometry system is an indispensable need of autonomous robots operating navigation, exploration, and locomotion in unknown environments. In recent years, various robots are being deployed in increasingly complex environments for a broad spectrum of applications such as off-road driving, search-and-rescue in extreme environments, and robotic rovers on planetary missions. Despite the progress made, most of state estimation algorithms are still vulnerable in long-term operation and still struggle in these scenarios. A key necessity in progressing SLAM for long-term autonomy is the availability of high-quality datasets including various challenging scenerios.
+
+To push the limits of robust SLAM and robust perception, we will organize a SLAM challenge and evaluate the performance from **virtual to real world robotics**. For virtual environments,
+
+Multi Degradation: The dataset contains a broad set of perceptually degraded environments such as darkness, airbone obscurats conditions such as fog, dust, smoke and lack of prominent perceptual features in self-similar areas (Figure2).
+
+- **Multi Robots**: The dataset is collected by various heterogeneous robots including aerial, wheeled and legged robots over multiple seasons. Most importantly, our dataset also provide the extrinsic and communication signal between robots which allows the map could be merged in the single world frame. These features are very important for resarcher to study multi agent SLAM.
+- **Multi Spectral**: The dataset also contains different modalities not only visual, LiDAR, and inertial sensors but also the thermal data which is beyond the human eye.
+- **Multi Motion**: The existing popular datasets such as KITTI and Cityscapes only covers very limited motion patterns, which are mostly moving straight forward plus small left or right turns. This regular motion is too simple to sufficiently test a visual SLAM algorithm. Our dataset covers much more diverse motion combinations in 3D space, which is significantly more difficult than existing datasets.
+- **Multi Dynamic**: Our dataset contains dynamic objects including human, vehicles, dust and snow.
+- **Friendly to learning methods**: Our dataset not only provide the benchmark for traditional method but also will provide the benchmark for learning based methods.
+
+The dataset can be used for a number of visual tasks, including optical flow, visual odometry, lidar odometry, thermal odometry and multi agent odometry. Preliminary experiments show that methods performing well on established benchmarks such as KITTI does not achieve satisfactory results on SubT-MRS dataset. In this competition, we will focus on robustness and efficiency. We will provide an evaluation metric (same with the KITTI dataset) and evaluation website for comparison and submission.
+
+## Relationship to previous workshops
+
+It is of great interests in past conferences about the topics of robot learning, navigation and SLAM. There has been many workshops that related to this topic, such as Long-Term Visual Localization under Changing Conditions(**ECCV 2020**), Deep Learning for Visual SLAM (**ICCV 2019**). Most relevant one is the SLAM challenge in **CVPR2020**, which is hosted by one of the organizers,
+primarily looking at visual SLAM in challenging environments. This workshop takes a step further to incorporate more modalities, with real-world challenging testing cases. More importantly, this workshop goes beyond visual SLAM and discusses the generalization ability for learning-based robotic methods, which will attract more attention both from CV and robotics communities.
 
 ## Schedule
+
+### Session 1 (8:30-10:00 AM)
+
  <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
     <b>
     <th style="width:10%;text-align: center;"></th>
-    <th style="width:20%;text-align: center;"><b>Presenter</b></th>
+    <th style="width:20%;text-align: center;">Presenter</th>
     <th style="width:35%;text-align: center;">Session Title</th>
-    <th style="width:15%;text-align: center;">Date/Time</th>
+    <th style="width:15%;text-align: center;">Time</th>
     <th style="width:20%;text-align: center;">YouTube Link</th>
     </b>
   </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">Welcome message by organizers & overview of workshop</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">8:30 - 8:40 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/lucacarlone.png"/>
+        <img src="img/iccv_organizers/letizia.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://lucacarlone.mit.edu/">Luca Carlone</a>
+        <a style="margin-bottom: 1px;" href="https://scholar.harvard.edu/letiziagionfrida/bio">Letizia Gionfrida</a>
       </p>
-      <p style="margin-bottom: 3px;">Associate Professor in the Department of Aeronautics and Astronautics</p>
-      <p>Massachusetts Institute of Technology</p>
+      <p style="margin-bottom: 3px;">Postdoctoral Research Fellow, Biorobotics Lab</p>
+      <p>Harvard University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">TDB</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Date: TBD</p>
-      <p>Time: TBD</p>
+      <p style="margin-bottom: 3px;">8:40 - 9:00 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
   </tr>
-  <tr>
+
+<tr>
     <td style="text-align: center;">
       <div class="circular_image">
         <img src="img/invited_speakers/johnleonard.jpg"/>
@@ -124,7 +155,36 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="img/invited_speakers/lucacarlone.png"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://lucacarlone.mit.edu/">Luca Carlone</a>
+      </p>
+      <p style="margin-bottom: 3px;">Associate Professor in the Department of Aeronautics and Astronautics</p>
+      <p>Massachusetts Institute of Technology</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TDB</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Date: TBD</p>
+      <p>Time: TBD</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -153,7 +213,7 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -182,7 +242,7 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -211,7 +271,7 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -240,7 +300,7 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -269,7 +329,7 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -298,53 +358,28 @@ By facilitating discussion among participants, authors of contributed papers, an
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="TODO" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
   </tr>
 </table>
 
+## Diversity
 
-## Call For Papers/Posters/Videos
-We cordially invite researchers to submit short papers, extended abstracts, posters, and/or videos. We accept original papers, as well as in-review or accepted manuscripts. Submitted contributions can describe work in progress, preliminary results, novel concepts, or industrial applications.
+The organizing committee has taken a proactive approach to diversity by actively seeking out individuals from underrepresented groups, including women, people of color, to join our team. Our organizing committee is a diverse group of individuals from both academia and industry, bringing a unique blend of perspectives and expertise to the workshop. We believe that a diverse committee will bring fresh ideas and approaches to the workshop, and will help to create a more inclusive and welcoming environment for all attendees.
 
-All manuscripts are limited to 4+n pages (i.e., additional pages over 4 are ONLY allowed for references), should use the IEEE standard two-column conference format (paper template available on the IEEE ICRA 2022 website), and must be in the PDF format with size less than 20 MB. We encourage authors to submit a video for their manuscript as supplementary material. All video submissions must have the mp4 format with a size less than 100 MB.
+In addition to our efforts to promote diversity among the organizing committee, we have also made a conscious effort to ensure that our invited speakers reflect the diversity of the computer vision community. Our invited speakers hail from different universities across North America, Europe, and Asia, bringing a wide range of perspectives and experiences to the workshop. We believe that this diverse representation of speakers will provide a rich and stimulating environment for attendees to learn and engage with one another.
 
-All original submissions will be peer-reviewed. Authors who submit a paper are expected to provide (up to) 3 single-blind reviews for the papers submitted to this workshop. Submissions will be selected by workshop organizers based on the reviews, their originality, relevance to the workshop topics, contributions, technical clarity, and presentation. All accepted manuscripts will be presented as posters during the workshop, which will be displayed throughout the day. Two top contributions will be selected for 10-minute oral presentations at spotlight sessions. Accepted posters and videos will be posted on the workshop website. You can contact the corresponding organizer with any questions: Mr. Kaveh Fathian, kavehf@mit.edu.
+## Format
 
-### TOPICS OF INTEREST:
-- Machine learning methods, algorithmic techniques, and their synergy for robotic perception and mapping
-- Multi-agent, distributed, and/or asynchronous methods for mapping and structure from motion
-- Perception-based robotic navigation and planning
-- Methods based on synergetic mathematical and learned models
-- Certifiable and risk-aware perception, localization, and mapping
-- Filter-based estimation, statistical techniques, and uncertainty-aware methods
-- Factor graphs, pose graphs, rotation/translation averaging, and graph-based optimization techniques
-- Point cloud, mesh-based, and occupancy maps
-- Semantic segmentation, object detection, and pose estimation
-- Perception algorithms for autonomous ground, air, and underwater vehicles, bipedal robots, and industrial applications
+We will hold a **hybrid** workshop with in-person speakers/attendees and a live broadcast over Zoom to allow people who are unable to travel to the conference to be able to participate. We will record highquality videos of the talks using a professional camera and a dedicated microphone for the speakers. These recordings will be published on the workshop’s webpage after the event.
 
-### Submisstion Platform
-To submit your contributions please follow:
-​https://cmt3.research.microsoft.com/ROPM2022
-
-You will need to create a new account if you have not used Microsoft CMT before.
-
-### Important Dates:
-**Submission Deadline:** Sunday, April 24, 2022, 8:00 PM EDT
-
-**Reviews due:** Tuesday, May 03, 2022, 7:00 PM EDT
-
-**Acceptance Notification:** Monday, May 9, 2022
-
-**Camera-ready submission:** Sunday, May 15, 2022, 7:00 PM EDT
-
-**Workshop:** Monday, May 23, 2022
-
-**Location:** Room 119 AB, Pennsylvania Convention Center
+The workshop will consist of three main sessions with coffee/lunch breaks in between. Each session
+will include 15-minute talks by invited speakers interleaved with 5-minute questions/discussions. The discussions will be based on questions solicited from the audience and session chair during the event. We will employ online audience engagement tools (such as Zoom or https://www.sli.do) for collecting questions and observations from the attendants to be addressed by the invited speakers. The schedule further includes two spotlight talks for top selected contributions. Each spotlight session will consist of a 15-minute oral presentation by authors of the selected work.
 
 ## Organizers & Committee
+
 <hr>
  <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
@@ -416,224 +451,9 @@ You will need to create a new account if you have not used Microsoft CMT before.
   </tr>
 </table>
 
+
 <script>
-let calibrations;
-let datasetsStr, datasets;
-let datasetTable;
-let chipsInput;
-let options = {
-    placeholder: "Filter datasets...",
-    secondaryPlaceholder: "+Tag",
-    autocompleteOptions: {
-        data: {
-            Lidar: null,
-            IMU: null,
-            Thermal: null,
-            Subt: null,
-            UAV: null,
-            UGV: null,
-        },
-        limit: Infinity,
-        minLength: 0,
-    },
-};
-
-document.addEventListener("DOMContentLoaded", function () {
-    let elems = document.querySelectorAll(".chips");
-    M.Chips.init(elems, options);
-    chipsInput = M.Chips.getInstance(elems[0]);
-});
-
-datasetTable = document.getElementById("datasetTable");
-loadCalibrationCsv(() => { loadDatasetCsv(); });
-
-function openAutoComplete() {
-    setTimeout(function () {
-        if (!chipsInput.autocomplete.isOpen) {
-            console.log("openAutoComplete");
-            chipsInput.autocomplete.open();
-        }
-    }, 200);
-}
-
-function onFilterButton() {
-    let startTime = new Date().getTime();
-    let filter = chipsInput.chipsData.map((chip) => chip.tag.toLowerCase());
-    filterTable(filter);
-    console.log("Filter time used: " + (new Date().getTime() - startTime) + "ms");
-}
-
-function loadCalibrationCsv(callback) {
-    makeRequest("/datasets/calibrations.csv", "", (str) => {
-        let rows = $.csv.toArrays(str);
-        calibrations = {};
-        for (let i = 0; i < rows.length; i++) {
-           calibrations[rows[i][0]] = rows[i][1];
-        }
-        if (callback) callback();
-    });
-}
-
-function loadDatasetCsv(callback) {
-    makeRequest("/datasets/datasets.csv", "", (str) => {
-        datasetsStr = str.split("\n");
-        for (let i = 0; i < datasetsStr.length; i++) {
-            datasetsStr[i] = datasetsStr[i].toLowerCase();
-        }
-        let rows = $.csv.toArrays(str);
-        datasets = [];
-        for (let i = 0; i < rows.length; i++) {
-            let dataset = {};
-            dataset.id = rows[i][0].trim();
-            dataset.name = rows[i][1].trim();
-            dataset.location = rows[i][2].trim();
-            dataset.description = rows[i][3].trim();
-            dataset.robot = rows[i][4].trim();
-            dataset.sensors = rows[i][5].trim();
-            dataset.degraded = rows[i][6].trim();
-            dataset.trajectoryLength = rows[i][7].trim();
-            dataset.duration = rows[i][8].trim();
-            dataset.returnToOrigin = rows[i][9].trim();
-            dataset.size = rows[i][10].trim();
-            dataset.image =
-                rows[i][11].trim() !== "" ? rows[i][11].trim() : `/datasets/img/${dataset.id}.png`;
-            dataset.link = rows[i][12].trim();
-            datasets.push(dataset);
-        }
-
-        datasetTable.innerHTML = "";
-        for (let i = 1; i < datasets.length; i++) {
-            let row = datasets[i];
-            generateRow(datasetTable, i, [
-                makeDownloadLink(row.name, row.link),
-                row.location,
-                makeRobotIDs(row.robot),
-                row.sensors,
-                row.description,
-                row.degraded,
-                makeLengthDuration(row.trajectoryLength, row.duration),
-                row.returnToOrigin,
-                row.size,
-                makePicture(i),
-            ]);
-        }
-        filterTable();
-        if (callback) callback();
-    });
-}
-
-function filterTable(filters) {
-    if (filters === undefined) filters = [];
-    let count = 0;
-    for (let i = 1; i < datasets.length; i++) {
-        let isIncluded = true;
-        for (let j = 0; j < filters.length; j++) {
-            if (datasetsStr[i].indexOf(filters[j]) < 0) {
-                isIncluded = false;
-                break;
-            }
-        }
-        if (isIncluded) {
-            document.getElementById(`row-${i}`).style.display = "";
-            count++;
-        } else {
-            document.getElementById(`row-${i}`).style.display = "none";
-        }
-    }
-    document.getElementById("numResultLabel").innerHTML = `(Showing ${count} datasets)`;
-}
-
-function generateRow(table, rowIdx, dataArr) {
-    let row = document.createElement("tr");
-    row.id = "row-" + rowIdx;
-    for (let i = 0; i < dataArr.length; i++) {
-        let cell = document.createElement("td");
-        if (typeof dataArr[i] === "string") {
-            cell.innerHTML = dataArr[i];
-        } else {
-            cell.appendChild(dataArr[i]);
-        }
-        row.appendChild(cell);
-    }
-    return table.appendChild(row);
-}
-
-function makeLengthDuration(length, duration) {
-    return `${length} <br> (${duration})`;
-}
-
-function makePicture(idx) {
-    let img = document.createElement("img");
-    img.id = `picture-${idx}`;
-    img.idx = idx;
-    img.src = datasets[idx].image;
-    img.alt = "Loading...";
-    img.style.width = "178px";
-    img.style.height = "100px";
-    img.style.objectFit = "scale-down";
-    return img;
-}
-
-function makeRobotIDs(allIds) {
-    let ids = allIds.split(",");
-    let result = "";
-    for (let i = 0; i < ids.length; i++) {
-        let id = ids[i].trim();
-        if (id === "") continue;
-        result += makeCalibrationLink(id);
-        if (i < ids.length - 1) result += ", ";
-    }
-    return result;
-}
-
-function makeCalibrationLink(name) {
-    if (calibrations[name] === undefined) alert("Calibration not found: " + name);
-    let link = calibrations[name];
-    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
-    let result = `<a class="tooltip" onclick="window.open('${link}','_blank')">${name}`;
-    result += `<span class="tooltiptext">Download ${name} calibration</span>`;
-    result += `</a>`;
-    return result;
-}
-
-function makeDownloadLink(name, link) {
-    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
-    let result = `<a class="tooltip" onclick="window.open('${link}','_blank')">${name}`;
-    result += `<span class="tooltiptext">Download dataset</span>`;
-    result += `</a>`;
-    return result;
-}
-
-function makeDownloadButton(link) {
-    if (link.indexOf("https://") < 0 && link.indexOf("http://") < 0) link = "https://" + link;
-    return `<a class="waves-effect waves-light btn-small" onclick="window.open('${link}','_blank')">Download</a>`;
-}
-
-function makeRequest(url, data, callback) {
-    let httpRequest = new XMLHttpRequest();
-    if (!httpRequest) return false;
-
-    function receivedResponse() {
-        if (httpRequest.readyState === XMLHttpRequest.DONE) {
-            if (httpRequest.status === 200) {
-                console.log("RECEIVED RESPONSE: " + httpRequest.responseText);
-                callback(httpRequest.responseText);
-            } else {
-                console.log("ERROR: Request failed");
-                alert("Unable to load datasets.");
-            }
-        }
-    }
-
-    httpRequest.timeout = 0;
-    httpRequest.onreadystatechange = receivedResponse;
-    console.log("SENDING REQUEST: " + url);
-    httpRequest.open("GET", url, true);
-    httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    httpRequest.send(data);
-}
-
-function myFunction(buttonID, blockName) {
+  function myFunction(buttonID, blockName) {
     var x = document.getElementById(blockName);
     if (x.style.display === "table-row") {
       x.style.display = "none";
@@ -648,5 +468,3 @@ function myFunction(buttonID, blockName) {
     }
   }
 </script>
-
-
