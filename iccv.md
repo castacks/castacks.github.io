@@ -102,7 +102,6 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       </div>
     </td>  
   </tr>
-
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -130,8 +129,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       </div>
     </td>  
   </tr>
-
-<tr>
+  <tr>
     <td style="text-align: center;">
       <div class="circular_image">
         <img src="img/invited_speakers/johnleonard.jpg"/>
@@ -149,8 +147,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
+      <p style="margin-bottom: 3px;">9:00 - 9:20 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -160,7 +157,6 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       </div>
     </td>  
   </tr>
-
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -178,8 +174,62 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <p style="margin-bottom: 3px;">TDB</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Date: TBD</p>
-      <p>Time: TBD</p>
+      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="img/invited_speakers/basti.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>
+      </p>
+      <p style="margin-bottom: 3px;">Associate Research Professor, Robotics Institute</p>
+      <p>Georgia Tech</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">9:40 - 10:00 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+</table>
+
+### Coffee Break and Posters (10:00 - 10:25 AM)
+
+### Sesstion 2 (10:25 AM - 12:00 PM)
+<table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
+  <tr>
+    <b>
+    <th style="width:10%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;">Presenter</th>
+    <th style="width:35%;text-align: center;">Session Title</th>
+    <th style="width:15%;text-align: center;">Time</th>
+    <th style="width:20%;text-align: center;">YouTube Link</th>
+    </b>
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">Spotlight Talk 1</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">10:25 - 10:40 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -207,8 +257,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
+      <p style="margin-bottom: 3px;">10:40 - 11:00 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -236,8 +285,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
+      <p style="margin-bottom: 3px;">11:20 - 11:40 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -265,8 +313,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
+      <p style="margin-bottom: 3px;">11:20 - 11:40 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -294,8 +341,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
+      <p style="margin-bottom: 3px;">11:40 - 11:59 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -364,6 +410,167 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>  
   </tr>
 </table>
+
+### Lunck Break and Posters (12:00  - 13:00 PM)
+
+### Session 3 (1:00 - 2:45 PM)
+
+<table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
+  <tr>
+    <b>
+    <th style="width:10%;text-align: center;"></th>
+    <th style="width:20%;text-align: center;">Presenter</th>
+    <th style="width:35%;text-align: center;">Session Title</th>
+    <th style="width:15%;text-align: center;">Time</th>
+    <th style="width:20%;text-align: center;">YouTube Link</th>
+    </b>
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">SubT-MRS SLAM Challenge Summary</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:00 - 1:20 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">TartanAir Challenge Summary</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:20 - 1:40 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="img/invited_speakers/shubham_tulsiani.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="http://shubhtuls.github.io/">Shubham Tulsiani</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor, Robotics Institute</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:40 - 2:00 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">Spotlight Talk 2</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:00 - 2:20 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="img/invited_speakers/ayong_kim.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://ayoungk.github.io/">Ayoung Kim</a>
+      </p>
+      <p style="margin-bottom: 3px;">Associate Professor</p>
+      <p>Seoul National University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:20 - 2:40 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="img/invited_speakers/chenwang.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/wang-chen.html">Chen Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor in Department of Computer Science and Engineering</p>
+      <p>University of Buffalo</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:40 - 2:55 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">Concluding Remarks</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:35 - 2:45 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+</table>
+
 
 ## Diversity
 
