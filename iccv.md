@@ -10,7 +10,7 @@ hero_image: img/iccv/iccv2023_background.jpg
 # hero_link_text: View Schedule
 ---
 
-| <img src="img/iccv/iccv_show_1.png" width="850" /> | <img src="img/iccv/iccv_show_3.png" width="650" /> |
+<img src="img/iccv/iccv_show_5.png" width="10000" />
 
 <script>
     
@@ -55,6 +55,8 @@ community. Moreover, since we will also talk about their application specificall
 **A Challenge to push SLAM Towards All-weather Environments**
 
 Robust odometry system is an indispensable need of autonomous robots operating navigation, exploration, and locomotion in unknown environments. In recent years, various robots are being deployed in increasingly complex environments for a broad spectrum of applications such as off-road driving, search-and-rescue in extreme environments, and robotic rovers on planetary missions. Despite the progress made, most of state estimation algorithms are still vulnerable in long-term operation and still struggle in these scenarios. A key necessity in progressing SLAM for long-term autonomy is the availability of high-quality datasets including various challenging scenerios.
+
+<img src="img/iccv/tartanair.png" width="10000" />
 
 To push the limits of robust SLAM and robust perception, we will organize a SLAM challenge and evaluate the performance from **virtual to real world robotics**. For virtual environments,
 
@@ -351,69 +353,12 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       </div>
     </td>  
   </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="img/invited_speakers/shubham_tulsiani.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://shubhtuls.github.io/">Shubham Tulsiani</a>
-      </p>
-      <p style="margin-bottom: 3px;">Assistant Professor, Robotics Institute</p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="img/invited_speakers/ayong_kim.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://ayoungk.github.io/">Ayoung Kim</a>
-      </p>
-      <p style="margin-bottom: 3px;">Associate Professor</p>
-      <p>Seoul National University</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <p>TBD</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
+
 </table>
 
 ### Lunck Break and Posters (12:00  - 13:00 PM)
 
-### Session 3 (1:00 - 2:45 PM)
+### Session 3 (1:00 - 3:05 PM)
 
 <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
@@ -559,7 +504,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
         <b style="margin-bottom: 3px;">Concluding Remarks</b>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:35 - 2:45 PM</p>
+      <p style="margin-bottom: 3px;">2:55 - 3:05 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -571,6 +516,17 @@ primarily looking at visual SLAM in challenging environments. This workshop take
   </tr>
 </table>
 
+## Competition
+The workshop has an associated new benchmark dataset (Subt-MRS datasets and TartanAir V2 datasets) that we will publish three months before the workshop.
+### 01/June - 01/July Release Datasets Stage:
+- *Release the SubT-MRS Datasets and TartanAir V2 Datasets*
+
+### 01/July - 30/Sep Competition Start
+- *Organize Competition and Submission Results*
+
+### 01/Oct - 02/Oct Competition End
+- 9:00 - 9:30 AM: Subt-MRS SLAM Challenge Summary
+- 9:30 - 10:00 AM: TartanAir V2 SLAM Challenge Summary
 
 ## Diversity
 
@@ -583,7 +539,7 @@ In addition to our efforts to promote diversity among the organizing committee, 
 We will hold a **hybrid** workshop with in-person speakers/attendees and a live broadcast over Zoom to allow people who are unable to travel to the conference to be able to participate. We will record highquality videos of the talks using a professional camera and a dedicated microphone for the speakers. These recordings will be published on the workshop’s webpage after the event.
 
 The workshop will consist of three main sessions with coffee/lunch breaks in between. Each session
-will include 15-minute talks by invited speakers interleaved with 5-minute questions/discussions. The discussions will be based on questions solicited from the audience and session chair during the event. We will employ online audience engagement tools (such as Zoom or https://www.sli.do) for collecting questions and observations from the attendants to be addressed by the invited speakers. The schedule further includes two spotlight talks for top selected contributions. Each spotlight session will consist of a 15-minute oral presentation by authors of the selected work.
+will include **15-minute** talks by invited speakers interleaved with **5-minute** questions/discussions. The discussions will be based on questions solicited from the audience and session chair during the event. We will employ online audience engagement tools (such as Zoom or https://www.sli.do) for collecting questions and observations from the attendants to be addressed by the invited speakers. The schedule further includes two spotlight talks for top selected contributions. Each spotlight session will consist of a **15-minute** oral presentation by authors of the selected work.
 
 ## Organizers & Committee
 
