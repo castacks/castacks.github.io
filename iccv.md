@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: img/iccv/iccv_background_3.png
+hero_image: img/iccv/iccv_background_4.png
 # hero_link: /iccv#schedule
 # hero_link_text: View Schedule
 ---
@@ -547,14 +547,6 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
  <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
     <td style="text-align: center;">
-      <img class="circular_image" src="img/invited_speakers/basti.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sebastian/">Sebastian Scherer</a>
-      </p>
-      <p style="margin-bottom: 3px;">Research Associate Professor, Robotics Institute </p>
-      <p>Carnegie Mellon University</p>
-    </td>
-    <td style="text-align: center;">
       <img class="circular_image" src="img/invited_speakers/chenwang.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Chen Wang</a>
@@ -578,6 +570,14 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p style="margin-bottom: 3px;">Project Scientist, Robotics Institute</p>
       <p>Carnegie Mellon University</p>
     </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/invited_speakers/basti.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sebastian/">Sebastian Scherer</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research Associate Professor, Robotics Institute </p>
+      <p>Carnegie Mellon University</p>
+    </td>
   </tr>
   <tr>
    <td style="text-align: center;">
@@ -588,13 +588,6 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
     </td>
-    <td style="text-align: center;">
-      <img class="circular_image" src="img/iccv_organizers/yi_du.jpg" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
-      </p>
-      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
-      <p>University at Buffalo</p>
     </td> <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/letizia.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
@@ -611,6 +604,48 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p style="margin-bottom: 3px;">Robust Perception and Mobile Robotics Lab</p>
       <p>Seoul National University</p>
     </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/mashuang.jpeg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.shuangma.me/">Shuang Ma</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior researcher,  Autonomous Systems Research Team</p>
+      <p>Microsoft</p>
+    </td> 
+  </tr>
+  <tr>
+   <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/shaoshu.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Shao Shu</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
+      <p>University at Buffalo</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
+      </p>
+      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
+      <p>University at Buffalo</p>
+    </td> 
+   <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
+      </p>
+      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
+      <p>University at Buffalo</p>
+    </td> 
+  <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
+      </p>
+      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
+      <p>University at Buffalo</p>
+    </td>   
   </tr>
 </table>
 
