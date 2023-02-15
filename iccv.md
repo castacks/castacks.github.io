@@ -216,6 +216,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
 ### Coffee Break and Posters (10:00 - 10:25 AM)
 
 ### Sesstion 2 (10:25 AM - 12:00 PM)
+
 <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
     <b>
@@ -356,7 +357,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
 
 </table>
 
-### Lunck Break and Posters (12:00  - 13:00 PM)
+### Lunck Break and Posters (12:00 - 13:00 PM)
 
 ### Session 3 (1:00 - 3:05 PM)
 
@@ -517,14 +518,19 @@ primarily looking at visual SLAM in challenging environments. This workshop take
 </table>
 
 ## Competition
+
 The workshop has an associated new benchmark dataset (Subt-MRS datasets and TartanAir V2 datasets) that we will publish three months before the workshop.
+
 ### 01/June - 01/July Release Datasets Stage:
-- *Release the SubT-MRS Datasets and TartanAir V2 Datasets*
+
+- _Release the SubT-MRS Datasets and TartanAir V2 Datasets_
 
 ### 01/July - 30/Sep Competition Start
-- *Organize Competition and Submission Results*
+
+- _Organize Competition and Submission Results_
 
 ### 01/Oct - 02/Oct Competition End
+
 - 9:00 - 9:30 AM: Subt-MRS SLAM Challenge Summary
 - 9:30 - 10:00 AM: TartanAir V2 SLAM Challenge Summary
 
@@ -630,25 +636,24 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
       <p>University at Buffalo</p>
     </td> 
-   <td style="text-align: center;">
-      <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/rushan_jiang.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
+        <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1qWiMQoJsAF4oOikU0akjOOveBn-SUOLl/view">Rushan Jiang</a>
       </p>
-      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
-      <p>University at Buffalo</p>
-    </td> 
-  <td style="text-align: center;">
-      <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
+        <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
       </p>
-      <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
-      <p>University at Buffalo</p>
-    </td>   
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
   </tr>
 </table>
-
 
 <script>
   function myFunction(buttonID, blockName) {

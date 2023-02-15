@@ -25,6 +25,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-unknown)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -74,6 +75,8 @@ GEM
     minitest (5.16.0)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.6-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.13.6-x64-unknown)
       racc (~> 1.4)
     nokogiri (1.13.6-x86_64-linux)
@@ -100,7 +103,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
-  x64-unknown
+  x64-mingw-ucrt
   x64-unknown
   x86_64-linux
 
@@ -111,4 +114,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.6
+   2.3.7
