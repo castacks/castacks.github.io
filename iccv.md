@@ -622,7 +622,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
     </td>
-    </td> <td style="text-align: center;">
+    <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/letizia.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://scholar.harvard.edu/letiziagionfrida/bio">Letizia Gionfrida</a>
