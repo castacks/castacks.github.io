@@ -359,7 +359,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
 
 ### Lunck Break and Posters (12:00 - 13:00 PM)
 
-### Session 3 (1:00 - 3:05 PM)
+### Session 3 (1:00 - 3:20 PM)
 
 <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
@@ -475,15 +475,15 @@ primarily looking at visual SLAM in challenging environments. This workshop take
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/chenwang.jpg"/>
+        <img src="img/invited_speakers/michaelkawss.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/wang-chen.html">Chen Wang</a>
+        <a style="margin-bottom: 1px;" href="https://www.cs.cmu.edu/~kaess/">Michael Kaess</a>
       </p>
-      <p style="margin-bottom: 3px;">Assistant Professor in Department of Computer Science and Engineering</p>
-      <p>University of Buffalo</p>
+      <p style="margin-bottom: 3px;">Associate Professor in Robotics Institute</p>
+      <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">TBD</p>
@@ -500,12 +500,40 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       </div>
     </td>  
   </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="img/invited_speakers/chenwang.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/wang-chen.html">Chen Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor in Department of Computer Science and Engineering</p>
+      <p>University of Buffalo</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:55 - 3:10 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
   <tr style="height: 100px;">
     <td style="text-align: center; vertical-align: middle;" colspan="3">
         <b style="margin-bottom: 3px;">Concluding Remarks</b>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:55 - 3:05 PM</p>
+      <p style="margin-bottom: 3px;">3:10 - 3:20 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
