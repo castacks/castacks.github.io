@@ -8,6 +8,7 @@ hide_footer: false
 permalink: /tartanplanningseries/
 hero_image: /img/planning_series/banner.jpeg
 image: /img/planning_series/graphic.png
+series_nav_color: true
 published: true
 ---
 
@@ -19,9 +20,9 @@ Join our [mailing list](https://forms.gle/sxGqhs2hPyoDuMGG7) for Zoom links, upd
 <br>
 
 <center>
-<a href="https://forms.gle/sxGqhs2hPyoDuMGG7" class="button is-info"><i class="far fa-envelope fa-2x"></i> &nbsp; Join our Mailing List</a>
+<a href="https://forms.gle/sxGqhs2hPyoDuMGG7" class="button" style="background-color: #182C4B;color: white;"><i class="far fa-envelope fa-2x"></i> &nbsp; Join our Mailing List</a>
 &nbsp;
-<a href="https://www.youtube.com/c/AirLab?sub_confirmation=1" class="button is-info"><i class="fab fa-youtube fa-2x"></i> &nbsp; Subscribe to our YouTube Channel</a>
+<a href="https://www.youtube.com/c/AirLab?sub_confirmation=1" class="button" style="background-color: #182C4B;color: white;"><i class="fab fa-youtube fa-2x"></i> &nbsp; Subscribe to our YouTube Channel</a>
 </center>
 
 <br>
