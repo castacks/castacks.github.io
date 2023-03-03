@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Tartan Planning Series
-subtitle: Spring 2023 interactive series of talks, tutorials, and learning on Planning for Robotics
-description: Spring 2023 interactive series of talks, tutorials, and learning on Planning for Robotics
+subtitle: Spring 2023 interactive series of talks and learning on Planning for Robotics
+description: Spring 2023 interactive series of talks and learning on Planning for Robotics
 show_sidebar: false
 hide_footer: false
 permalink: /tartanplanningseries/
-hero_image: /img/planning_series/banner.png
+hero_image: /img/planning_series/banner.jpeg
 image: /img/planning_series/graphic.png
 published: true
 ---
@@ -397,12 +397,12 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
   </tr>
   <tr>
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/nayana.jpg" style="margin-bottom: 6px;"/>
+  <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/nikhil_keetha.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/nayana_suvarna/">Nayana Suvarna</a>
+        <a style="margin-bottom: 1px;" href="https://nik-v9.github.io/">Nikhil Varma Keetha</a>
       </p>
-      <p style="margin-bottom: 3px;">Master's Student</p>
+      <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
@@ -416,17 +416,17 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/seungchan_kim.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/seungchan_kim/">Jay Karhade</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/seungchan_kim/">Seungchan Kim</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/nikhil_keetha.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/nayana.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://nik-v9.github.io/">Nikhil Varma Keetha</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/nayana_suvarna/">Nayana Suvarna</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p style="margin-bottom: 3px;">Master's Student</p>
       <p>Carnegie Mellon University</p>
     </td>
   </tr>
