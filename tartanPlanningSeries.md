@@ -7,8 +7,8 @@ show_sidebar: false
 hide_footer: false
 permalink: /tartanplanningseries/
 hero_image: /img/planning_series/banner.jpeg
-image: /img/planning_series/graphic.png
 series_nav_color: true
+image: /img/planning_series/TartanPlanningPromov2.png
 published: true
 ---
 
@@ -75,7 +75,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~maxim/">Maxim Likachev</a>
+        <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>Carnegie Mellon University</p>
@@ -91,6 +91,34 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
           <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/QZ_2ROI7Tfs" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/planning_series/speakers/karen.jpeg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="http://faculty.washington.edu/kymleung/">Karen Leung</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor</p>
+      <p>University of Washington</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Tentative Theme: Safe Planning</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">30 Mar 2023</p>
+      <p>12:00 PM EST</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <div class="extensions extensions--video">
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/cT4khR8L5c0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
@@ -322,27 +350,27 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="/img/planning_series/speakers/karen.jpeg"/>
+        <img src="/img/planning_series/speakers/kostas.jpeg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://faculty.washington.edu/kymleung/">Karen Leung</a>
+        <a style="margin-bottom: 1px;" href="http://www.kostasalexis.com/">Kostas Alexis</a>
       </p>
-      <p style="margin-bottom: 3px;">Assistant Professor</p>
-      <p>University of Washington</p>
+      <p style="margin-bottom: 3px;">Professor</p>
+      <p>Norwegian University of Science and Technology</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Safe Planning</p>
+      <p style="margin-bottom: 3px;">Tentative Theme: Resilient Autonomous Navigation and Exploration</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
+      <p style="margin-bottom: 3px;">4 April 2023</p>
       <p>12:00 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/cT4khR8L5c0" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/uhRKMxDuu5s" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </td>  
