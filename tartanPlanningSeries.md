@@ -53,7 +53,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Technical University of Munich</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Safe Planning</p>
+      <p style="margin-bottom: 3px;">Ensuring Legal Safety of Autonomous Systems through Online Verification</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">09 Mar 2023</p>
@@ -364,7 +364,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p style="margin-bottom: 3px;">Tentative Theme: Resilient Autonomous Navigation and Exploration</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">4 April 2023</p>
+      <p style="margin-bottom: 3px;">4 May 2023</p>
       <p>12:00 PM EST</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
