@@ -7,7 +7,7 @@ show_sidebar: false
 hide_footer: false
 permalink: /tartanplanningseries/
 hero_image: /img/planning_series/banner.jpeg
-image: /img/planning_series/graphic.png
+image: /img/planning_series/TartanPlanningPromov2.png
 published: true
 ---
 
@@ -74,7 +74,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~maxim/">Maxim Likachev</a>
+        <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>Carnegie Mellon University</p>
