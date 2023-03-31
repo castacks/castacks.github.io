@@ -5,7 +5,7 @@ $ docker pull jekyll/jekyll:latest
 ```
 Run a container:
 ```bash
-$ docker-compose up
+$ docker compose up
 ```
 View the site here: `http://0.0.0.0:4000`
 # Build locally
