@@ -12,17 +12,28 @@ hide_footer: false
 - Run `pip3 install laspy tdigest websocket_server`
 - Run `python3 app.py`
 
-<!-- # Get started
-<img src="/img/rosbagutils/Picture2.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture3.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture4.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture5.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture6.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture7.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture8.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture9.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture10.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture11.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture12.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture13.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
-<img src="/img/rosbagutils/Picture14.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br> -->
+<img src="/img/rosbagutils/image1.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+# Open bag files
+
+## <center> Click add bags and select bag files </center>
+
+<img src="/img/rosbagutils/image2.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+# Export Point Cloud
+
+## <center> Select the point cloud topic and add point cloud export task </center>
+
+<img src="/img/rosbagutils/image3.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+## <center> Configure the export task </center>
+
+<img src="/img/rosbagutils/image4.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+## <center> Add more tasks or start exporting </center>
+
+<img src="/img/rosbagutils/image5.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+## <center> The result will be saved at the location of the bag files </center>
+
+<img src="/img/rosbagutils/image6.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
