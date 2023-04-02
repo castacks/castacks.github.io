@@ -193,7 +193,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
         <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Research Professor, Robotics Institute</p>
-      <p>Georgia Tech</p>
+      <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">TBD</p>
