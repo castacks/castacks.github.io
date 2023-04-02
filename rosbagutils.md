@@ -37,3 +37,19 @@ hide_footer: false
 ## <center> The result will be saved at the location of the bag files </center>
 
 <img src="/img/rosbagutils/image6.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+# Export Video
+
+## <center> Open bag files like before </center>
+
+## <center> Select the point cloud topic and add video export task </center>
+
+<img src="/img/rosbagutils/image7.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+## <center> Configure the export task </center>
+
+<img src="/img/rosbagutils/image8.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
+
+## <center> The result will be saved at the location of the bag files </center>
+
+<img src="/img/rosbagutils/image9.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;" /><br>
