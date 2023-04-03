@@ -681,6 +681,48 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p>Carnegie Mellon University</p>
     </td>
   </tr>
+  <tr>
+   <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/yaohe.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-people/yao-he/">Yao He</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research Associate</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/tianhao.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/mwlite/in/tianhao-wu-112688a6">Tian Hao Wu</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research Associate</p>
+      <p>Carnegie Mellon University</p>
+    </td> 
+    <!-- <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/rushan_jiang.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1qWiMQoJsAF4oOikU0akjOOveBn-SUOLl/view">Rushan Jiang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td> -->
+    <!-- <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
+      </p>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
+      </p>
+      <p style="margin-bottom: 3px;">Undergradate Student</p>
+      <p>Carnegie Mellon University</p>
+    </td> -->
+  </tr>
 </table>
 
 <script>
