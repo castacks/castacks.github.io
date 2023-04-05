@@ -409,7 +409,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/yao_he.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/yaohe.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/current-members/">Yao He</a>
       </p>
