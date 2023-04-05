@@ -4,11 +4,11 @@ subtitle: Master's Student
 job_title: Master's Student
 category: master_student
 layout: team_member_personal_page
-image: /img/team/guangzhao.jpeg
+image: /img/team/Guangzhao__Li.png
 link-new-tab: true
 ---
 
-Guangzhao(Zack) Li is an M.R.S.D student at Carnegie Mellon University. His primary interest lies in autonomous robotics and its commercialization in the markets, such as (field) service robots and self-driving cars. While currently working on learning-based exploration projects, he loves playing piano and Chopin is my favorite. He also grew up with ice hockey and badminton. As a certified AASI snowboard instructor, I often teach my friends tricks in terrain parks and halfpipes.
+Guangzhao(Zack) Li is an MRSD student at The Robotics Institute. He also has academic background in Aeronautical Engineering, Nuclear Engineering, and industry background in robotics product, with a current interest in robot autonomy and its commercialization. He is currently working on quadruped search and rescue in unstructured environments.
 
 ## Email ##
 guangzhl@andrew.cmu.edu
