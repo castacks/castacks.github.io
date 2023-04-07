@@ -2,7 +2,7 @@
 title: Marcelo Jacinto
 subtitle: Visiting Scholar
 job_title: Visiting Scholar
-category: visitor
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/marcelo_jacinto.png
 ---

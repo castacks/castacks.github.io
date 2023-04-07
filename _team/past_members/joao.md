@@ -2,7 +2,7 @@
 title: Joao Dantas
 subtitle: Research Scholar
 job_title: Research Scholar
-category: visitor
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/joao.jpg
 ---

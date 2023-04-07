@@ -2,7 +2,7 @@
 title: Yash Jangir
 subtitle: Visiting Researcher
 job_title: Visiting Researcher
-category: visitor
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/yash.jpg
 link-new-tab: true
