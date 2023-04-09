@@ -616,7 +616,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
   </tr>
   <tr>
    <td style="text-align: center;">
-      <img class="circular_image" src="/img/iccv_organizers/iccv_members/shibozNew.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
@@ -666,7 +666,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p>University at Buffalo</p>
     </td> 
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/iccv_organizers/rushan_jiang.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/rushan_jiang.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1qWiMQoJsAF4oOikU0akjOOveBn-SUOLl/view">Rushan Jiang</a>
       </p>
@@ -674,7 +674,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/iccv_organizers/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
       </p>
