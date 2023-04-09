@@ -691,9 +691,9 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
 </table>
 
 
-## Calendar
+## Workshop Registration
 
-<iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBylBl2_07IWboKWyUZw0VWyUVjzDLNuDoXEMmV0oYHeyV9A/viewform?embedded=true" width="640" height="684" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 <script>
