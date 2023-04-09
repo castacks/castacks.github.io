@@ -575,6 +575,7 @@ We will hold a **hybrid** workshop with in-person speakers/attendees and a live 
 The workshop will consist of three main sessions with coffee/lunch breaks in between. Each session
 will include **15-minute** talks by invited speakers interleaved with **5-minute** questions/discussions. The discussions will be based on questions solicited from the audience and session chair during the event. We will employ online audience engagement tools (such as Zoom or https://www.sli.do) for collecting questions and observations from the attendants to be addressed by the invited speakers. The schedule further includes two spotlight talks for top selected contributions. Each spotlight session will consist of a **15-minute** oral presentation by authors of the selected work.
 
+
 ## Organizers & Committee
 
 <hr>
@@ -583,7 +584,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
     <td style="text-align: center;">
       <img class="circular_image" src="img/invited_speakers/chenwang.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Chen Wang</a>
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/chen/">Chen Wang</a>
       </p>
       <p style="margin-bottom: 3px;">Assistant Professor, Spatial AI & Robotics Lab</p>
       <p>University at Buffalo</p>
@@ -615,7 +616,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
   </tr>
   <tr>
    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/iccv_organizers/iccv_members/shibozNew.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
@@ -633,7 +634,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
     <td style="text-align: center;">
       <img class="circular_image" src="img/invited_speakers/ayong_kim.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Ayoung Kim</a>
+        <a style="margin-bottom: 1px;" href="https://ayoungk.github.io/">Ayoung Kim</a>
       </p>
       <p style="margin-bottom: 3px;">Robust Perception and Mobile Robotics Lab</p>
       <p>Seoul National University</p>
@@ -651,7 +652,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
    <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/iccv_members/shaoshu.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Shao Shu</a>
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/shaoshu/">Shaoshu Shu</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>University at Buffalo</p>
@@ -665,7 +666,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p>University at Buffalo</p>
     </td> 
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/rushan_jiang.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/iccv_organizers/rushan_jiang.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://drive.google.com/file/d/1qWiMQoJsAF4oOikU0akjOOveBn-SUOLl/view">Rushan Jiang</a>
       </p>
@@ -673,7 +674,7 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/iccv_organizers/haoxiangsun.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://seansun.org">Haoxiang Sun</a>
       </p>
@@ -724,6 +725,12 @@ will include **15-minute** talks by invited speakers interleaved with **5-minute
     </td> -->
   </tr>
 </table>
+
+
+## Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?src=fvmu1rsn897tkj0qiqjcujis2c%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 
 <script>
   function myFunction(buttonID, blockName) {
