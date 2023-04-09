@@ -98,16 +98,14 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/iccv_organizers/letizia.jpg"/>
+        <img src="/img/iccv_organizers/letizia.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -125,16 +123,14 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/johnleonard.jpg"/>
+        <img src="/img/invited_speakers/johnleonard.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -153,16 +149,14 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/lucacarlone.png"/>
+        <img src="/img/invited_speakers/lucacarlone.png"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -180,14 +174,12 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="img/invited_speakers/basti.jpg"/> </td>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/invited_speakers/basti.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>
@@ -205,9 +197,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
@@ -215,7 +205,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
 
 ### Coffee Break and Posters (10:00 - 10:25 AM)
 
-### Sesstion 2 (10:25 AM - 12:00 PM)
+### Session 2 (10:25 AM - 12:00 PM)
 
 <table class="customFormat" style="width:100%border-collapse: collapse; border: none;">
   <tr>
@@ -236,16 +226,14 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/tim_barfoot.jpg"/>
+        <img src="/img/invited_speakers/tim_barfoot.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -264,16 +252,40 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/andrew_davison.jpg"/>
+        <img src="/img/invited_speakers/chenwang.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/chen/">Chen Wang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor in Department of Computer Science and Engineering</p>
+      <p>University of Buffalo</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">11:20 - 11:40 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/invited_speakers/andrew_davison.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -292,16 +304,14 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/daniel_cremers.png"/>
+        <img src="/img/invited_speakers/daniel_cremers.png"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -316,41 +326,11 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:20 - 11:40 AM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="img/invited_speakers/marc_pollefeys.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
-      </p>
-      <p style="margin-bottom: 3px;">Full Professor</p>
-      <p>ETH Zurich</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">11:40 - 11:59 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
@@ -380,9 +360,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
@@ -395,16 +373,53 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/shubham_tulsiani.jpg"/>
+        <img src="/img/invited_speakers/marc_pollefeys.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
+      </p>
+      <p style="margin-bottom: 3px;">Full Professor</p>
+      <p>ETH Zurich</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">TBD</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:40 - 2:00 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr style="height: 100px;">
+    <td style="text-align: center; vertical-align: middle;" colspan="3">
+        <b style="margin-bottom: 3px;">Spotlight Talk 2</b>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:00 - 2:20 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/invited_speakers/shubham_tulsiani.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -419,35 +434,18 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:40 - 2:00 PM</p>
+      <p style="margin-bottom: 3px;">2:20 - 2:40 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
-  <tr style="height: 100px;">
-    <td style="text-align: center; vertical-align: middle;" colspan="3">
-        <b style="margin-bottom: 3px;">Spotlight Talk 2</b>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:00 - 2:20 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/ayong_kim.jpg"/>
+        <img src="/img/invited_speakers/ayong_kim.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -462,20 +460,18 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:20 - 2:40 PM</p>
+      <p style="margin-bottom: 3px;">2:40 - 2:55 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="img/invited_speakers/michaelkawss.jpg"/>
+        <img src="/img/invited_speakers/michaelkawss.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -490,41 +486,11 @@ primarily looking at visual SLAM in challenging environments. This workshop take
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:40 - 2:55 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="img/invited_speakers/chenwang.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/wang-chen.html">Chen Wang</a>
-      </p>
-      <p style="margin-bottom: 3px;">Assistant Professor in Department of Computer Science and Engineering</p>
-      <p>University of Buffalo</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">2:55 - 3:10 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
@@ -537,9 +503,7 @@ primarily looking at visual SLAM in challenging environments. This workshop take
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="coming_soon.html" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </td>  
   </tr>
