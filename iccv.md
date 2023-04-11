@@ -529,11 +529,11 @@ The workshop has an associated new benchmark dataset (Subt-MRS datasets and Tart
       <p>University at Buffalo</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="img/iccv_organizers/yuhengqiu.jpeg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=aEK45mEAAAAJ">Yuheng Qiu</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
@@ -545,23 +545,15 @@ The workshop has an associated new benchmark dataset (Subt-MRS datasets and Tart
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="img/invited_speakers/basti.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="img/iccv_organizers/yuhengqiu.jpeg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sebastian/">Sebastian Scherer</a>
+        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=aEK45mEAAAAJ">Yuheng Qiu</a>
       </p>
-      <p style="margin-bottom: 3px;">Research Associate Professor, Robotics Institute </p>
+      <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Carnegie Mellon University</p>
     </td>
   </tr>
   <tr>
-   <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/shibozNew.png" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Shibo Zhao</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>Carnegie Mellon University</p>
-    </td>
     <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/letizia.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
@@ -569,6 +561,14 @@ The workshop has an associated new benchmark dataset (Subt-MRS datasets and Tart
       </p>
       <p style="margin-bottom: 3px;">Postdoctoral Research Fellow, Biorobotics Lab</p>
       <p>Harvard University</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/invited_speakers/basti.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sebastian/">Sebastian Scherer</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research Associate Professor, Robotics Institute </p>
+      <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
       <img class="circular_image" src="img/invited_speakers/ayong_kim.jpg" style="margin-bottom: 6px;"/>
@@ -588,20 +588,20 @@ The workshop has an associated new benchmark dataset (Subt-MRS datasets and Tart
     </td> 
   </tr>
   <tr>
-   <td style="text-align: center;">
-      <img class="circular_image" src="img/iccv_organizers/iccv_members/shaoshu.png" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/shaoshu/">Shaoshu Shu</a>
-      </p>
-      <p style="margin-bottom: 3px;">PhD Candidate </p>
-      <p>University at Buffalo</p>
-    </td>
     <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/iccv_members/yidu.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Yi Du</a>
       </p>
       <p style="margin-bottom: 3px;">Ph.D. student, Spatial AI & Robotics Lab</p>
+      <p>University at Buffalo</p>
+    </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="img/iccv_organizers/iccv_members/shaoshu.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/shaoshu/">Shaoshu Shu</a>
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>University at Buffalo</p>
     </td> 
     <td style="text-align: center;">
@@ -622,7 +622,7 @@ The workshop has an associated new benchmark dataset (Subt-MRS datasets and Tart
     </td>
   </tr>
   <tr>
-   <td style="text-align: center;">
+    <td style="text-align: center;">
       <img class="circular_image" src="img/iccv_organizers/iccv_members/yaohe.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-people/yao-he/">Yao He</a>
