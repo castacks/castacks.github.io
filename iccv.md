@@ -5,12 +5,12 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: img/iccv/iccv_background_4.png
+hero_image: img/iccv/iccv2023_background.jpg
 # hero_link: /iccv#schedule
 # hero_link_text: View Schedule
 ---
 
-<img src="img/iccv/iccv_show_5.png" width="10000" />
+<!-- <img src="img/iccv/iccv_show_5.png" width="10000" /> -->
 
 <script>
     
