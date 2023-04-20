@@ -109,7 +109,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>University of Washington</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Safe Planning</p>
+      <p style="margin-bottom: 3px;">Revisiting "what it means to be safe" for human-robot interactions</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">30 Mar 2023</p>
@@ -137,7 +137,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Technica University of Munich</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Planning for Autonomous Aerial Systems</p>
+      <p style="margin-bottom: 3px;">Path and Trajectory Planning for Autonomous Agents</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">04 April 2023</p>
@@ -165,7 +165,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Social Navigation</p>
+      <p style="margin-bottom: 3px;">Measurable Artificial Intelligence in Robotics Systems</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">06 April 2023</p>
@@ -193,7 +193,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Cornell University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Imitation Learning for Planning</p>
+      <p style="margin-bottom: 3px;">The Virtues of Laziness in Model-based RL</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">11 April 2023</p>
@@ -221,7 +221,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>University of Bonn</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Informative Path Planning for Agricultural Robotics</p>
+      <p style="margin-bottom: 3px;">Robot Learning and Informative Path Planning</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">13 April 2023</p>
@@ -249,7 +249,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>University of Illinois at Urbana-Champaign</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Multi-agent Path Planning</p>
+      <p style="margin-bottom: 3px;">Interactive Autonomy: Learning and Control for Multi-Agent Interactions</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">18 April 2023</p>
@@ -277,7 +277,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Oregon State University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Planning for Field Robotics</p>
+      <p style="margin-bottom: 3px;">Decision Making for Marine Robotics</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">20 April 2023</p>
@@ -305,7 +305,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Informative Path Planning and Intent Prediction</p>
+      <p style="margin-bottom: 3px;">Informative Path Planning, Exploration, and Intent Prediction</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">25 April 2023</p>
@@ -333,7 +333,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Cambridge University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Multi-agent Path Planning</p>
+      <p style="margin-bottom: 3px;">Multi-agent Path Planning</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">27 April 2023</p>
@@ -361,7 +361,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
       <p>Norwegian University of Science and Technology</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Tentative Theme: Resilient Autonomous Navigation and Exploration</p>
+      <p style="margin-bottom: 3px;">Resilient Autonomous Navigation and Exploration</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">4 May 2023</p>
