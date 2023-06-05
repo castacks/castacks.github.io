@@ -1,16 +1,16 @@
 ---
 title: Andrew Jong
-subtitle: Master's Student
-job_title: Master's Student
-category: master_student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category: phd_student
 layout: team_member_personal_page
 image: /img/team/andrew_jong.png
 link-new-tab: true
 ---
 
-Hi, nice to meet you! I'm Andrew, a Master's student at Carnegie Mellon University's Robotics Institute. My research interests involve multi-agent systems and planning for real world applications. I work on autonomous drones for wildfire assistance and disaster relief. I previously graduated from San Jose State University with a B.S. in Computer Science and minor in Mathematics.
+Hi, nice to meet you! I'm Andrew. I completed my Master's degree at Carnegie Mellon University's Robotics Institute and am continuing for my PhD. I work on robust drone autonomy to aid in wildfires and disaster relief (see https://theairlab.org/wildfire). I previously graduated from San Jose State University with a B.S. in Computer Science and minor in Mathematics.
 
-On weekends, I enjoy playing basketball, volleyball, badminton, and tennis. I'm also part of CMU's [C# vocal music club](https://www.cmucsharp.com/). I'm always on the lookout for my next adventure.
+On weekends, I enjoy playing basketball, volleyball, badminton, and tennis. I'm also part of CMU's [C# vocal music organization](https://www.cmucsharp.com/). I'm always on the lookout for my next adventure.
 
 ## Email ## 
 ajong@andrew.cmu.edu
