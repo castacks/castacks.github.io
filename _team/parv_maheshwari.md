@@ -2,7 +2,7 @@
 title: Parv Maheshwari
 subtitle: RISS Intern
 job_title: RISS Intern
-category: former_intern
+category: intern
 layout: team_member_personal_page
 image: /img/team/parv_maheshwari.jpg
 link-new-tab: true
