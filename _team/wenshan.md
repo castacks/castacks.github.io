@@ -1,8 +1,8 @@
 ---
 title: Wenshan Wang
-subtitle: Scientist
-job_title: Project Scientist
-category: scientist
+subtitle: Systems Scientist
+job_title: Systems Scientist
+category: lab_head
 layout: team_member_personal_page
 image: /img/team/wenshan.jpg
 ---
