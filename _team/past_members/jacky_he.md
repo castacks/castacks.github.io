@@ -2,7 +2,7 @@
 title: Jacky He
 subtitle: Undergraduate
 job_title: Undergraduate
-category: undergraduate
+category: past_undergraduate
 layout: team_member_personal_page
 image: /img/team/jacky_he.jpg
 link-new-tab: true
