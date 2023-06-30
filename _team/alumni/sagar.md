@@ -1,4 +1,4 @@
-hau---
+---
 title: Sagar Sachdev
 subtitle: Master's Student
 job_title: Master's Student
@@ -23,10 +23,10 @@ Sagar was a Masters student pursuing Mechanical Engineering - Research track and
 Sagar worked on the ONR-IPP project and was focusing on aspects of hardware integration and testing as well as multi-agent path-planning. 
 
 
-**LinkedIn**: [sagar-sachdev](https://www.linkedin.com/in/sagar-sachdev)
+<!-- **LinkedIn**: [sagar-sachdev](https://www.linkedin.com/in/sagar-sachdev) -->
 
 **Website**: [sagars2.com](https://sagars2.com)
 
-**Email**: [sagarsac@andrew.cmu.edu](mailto:sagarsac@andrew.cmu.edu)
+<!-- **Email**: [sagarsac@andrew.cmu.edu](mailto:sagarsac@andrew.cmu.edu) -->
 
 **Github**: [sagars2](https://github.com/sagars2)

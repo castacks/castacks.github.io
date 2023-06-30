@@ -3,12 +3,12 @@ title: Rupanjali Kukal
 subtitle: Master's Student
 job_title: Master's Student
 category: past_master
-layout: team_member_personal_page
+layout: team_past_member_personal_page
 image: /img/team/rupanjali.jpg
 starting_year: 2022
 graduation_year: 2023
 graduation_month: May
-thesis_title: 
+thesis_title: Perception for real-time high-speed off-road driving
 thesis_link: 
 linkedin: https://www.linkedin.com/in/rupanjali-kukal/
 advisors:
@@ -25,11 +25,11 @@ Rupanjali Kukal was a Masters in Mechanical Engineering-Research and research st
 
 <!-- **Website**: [bradymoon.com](https://bradymoon.com) -->
 
-## Email ## 
-rkukal@andrew.cmu.edu
+<!-- ## Email ## 
+rkukal@andrew.cmu.edu -->
 
-## LinkedIn ##
-[https://www.linkedin.com/in/rupanjali-kukal/](https://www.linkedin.com/in/rupanjali-kukal/)
+<!-- ## LinkedIn ##
+[https://www.linkedin.com/in/rupanjali-kukal/](https://www.linkedin.com/in/rupanjali-kukal/) -->
 
 ## GitHub ##
 [https://github.com/RupanjaliKukal](https://github.com/RupanjaliKukal)
