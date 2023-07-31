@@ -4,7 +4,7 @@ subtitle: Research Associate
 job_title: Research Associate I
 category: staff
 layout: team_member_personal_page
-image: /img/team/mukai_yu.png
+image: /img/team/mukai_yu_temp.png
 link-new-tab: true
 ---
 
