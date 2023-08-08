@@ -8,7 +8,7 @@ image: /img/team/seungchan_kim.png
 link-new-tab: true
 ---
 
-Seungchan Kim is a first-year PhD student at Robotics Institute, Carnegie Mellon University. He received his B.S. and M.S. degrees from Brown University. His research interests span reinforcement learning, perception, and robotics.
+Seungchan is a PhD student at Robotics Institute, Carnegie Mellon University. His research interests are developing and applying computer vision & machine learning algorithms to improve real-world mobile robot navigation/exploration. He is currently working on multi-robot coordination and semantic exploration. He graduated from Brown University with B.S. in Applied Mathematics & Computer Science and M.S. in Computer Science.
 
 ## Website ##
 [https://seungchan-kim.github.io/](https://seungchan-kim.github.io/)

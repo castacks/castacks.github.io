@@ -2,7 +2,7 @@
 layout: default
 show_sidebar: false
 ---
-<h1 style="font-size:35px;">Lab Head</h1>
+<h1 style="font-size:35px;">Faculty</h1>
 <br>
 <div class="columns is-multiline">
   <div class="column is-12">
@@ -43,6 +43,8 @@ show_sidebar: false
 {% assign sorted_scientists = site.team | where:"category","scientist" %}
 {% assign sorted_postdocs = site.team | where:"category","postdoc" %}
 {% assign sorted_persons = sorted_scientists | concat: sorted_postdocs %}
+{% assign n = sorted_persons | size %}
+{% assign sorted_persons = sorted_persons | sample: n %}
 {% for person in sorted_persons %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ person.url | prepend: site.baseurl }}">
@@ -95,6 +97,8 @@ show_sidebar: false
 <br>
 <div class="columns is-multiline">
 {% assign sorted_products = site.team | where:"category","phd_student" %}
+{% assign n = sorted_products | size %}
+{% assign sorted_products = sorted_products | sample: n %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
@@ -118,6 +122,8 @@ show_sidebar: false
 
 <div class="columns is-multiline">
   {% assign sorted_products = site.team | where:"category","master_student" %}
+  {% assign n = sorted_products | size %}
+  {% assign sorted_products = sorted_products | sample: n %}
   {% for product in sorted_products %}
   <div class="column is-one-fifth-desktop is-6-tablet">
     <a href="{{ product.url | prepend: site.baseurl }}">
@@ -144,6 +150,8 @@ show_sidebar: false
 <br>
 <div class="columns is-multiline">
 {% assign sorted_products = site.team | where:"category","staff" %}
+{% assign n = sorted_products | size %}
+{% assign sorted_products = sorted_products | sample: n %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
@@ -172,6 +180,8 @@ show_sidebar: false
 {% assign sorted_visitor = site.team | where:"category","visitor" %}
 {% assign sorted_intern = site.team | where:"category","intern" %}
 {% assign sorted_products = sorted_visitor | concat: sorted_intern %}
+{% assign n = sorted_products | size %}
+{% assign sorted_products = sorted_products | sample: n %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
@@ -195,6 +205,8 @@ show_sidebar: false
 <hr>
 
 {% assign sorted_products = site.team | where:"category","undergraduate" %}
+{% assign n = sorted_products | size %}
+{% assign sorted_products = sorted_products | sample: n %}
 {% if sorted_products.size > 0 %}
 <h1 style="font-size:35px;">Undergraduate Students</h1>
 <br>

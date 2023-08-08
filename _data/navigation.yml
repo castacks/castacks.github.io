@@ -13,6 +13,8 @@
   link: /news/
 - name: Seminars
   dropdown:
+    - name: Tartan Planning Series
+      link: /tartanplanningseries/
     - name: Tartan SLAM Series Fall Edition
       link: /tartanslamseries2/
     - name: Tartan SLAM Series

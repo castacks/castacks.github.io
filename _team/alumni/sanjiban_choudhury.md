@@ -3,7 +3,7 @@ title: Sanjiban Choudhury
 subtitle: Ph.D.
 job_title: Ph.D.
 category: past_phd
-starting_year: 2016
+starting_year: 2013
 graduation_year: 2018
 graduation_month: May
 thesis_title: Adaptive Motion Planning

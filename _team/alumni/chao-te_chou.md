@@ -10,10 +10,7 @@ graduation_year: 2021
 linkedin: https://www.linkedin.com/in/chao-te-chou/
 advisors:
  - name: Sebastian Scherer
-# current_status: Master's Student at UC San Diego
+current_status: Software Engineer, Google
 ---
 
  Chao-te Chou was an MSR student. His research interest lies in the intersection of computer vision, machine learning and robotics. He worked on SLAM related projects.
-
-# Email #
-chaotec@andrew.cmu.edu
