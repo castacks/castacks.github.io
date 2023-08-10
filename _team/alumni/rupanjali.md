@@ -13,7 +13,7 @@ thesis_link:
 linkedin: https://www.linkedin.com/in/rupanjali-kukal/
 advisors:
  - name: Sebastian Scherer
-current_status: Research Associate, Dr. Donglai Wei
+current_status: Data Scientist, Microsoft
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
