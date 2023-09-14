@@ -13,7 +13,7 @@ thesis_link: http://arxiv.org/abs/2306.11845
 linkedin: https://www.linkedin.com/in/sagar-sachdev
 advisors:
  - name: Sebastian Scherer
-# current_status: TBA
+current_status: Robot Deployment Engineer, Path Robotics
 ---
 
 {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}.
