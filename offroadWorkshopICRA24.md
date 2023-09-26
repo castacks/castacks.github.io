@@ -387,7 +387,7 @@ Topics of interest include but are not limited to the following (all under the c
     <td style="text-align: center;">
       <img class="circular_image" src="/img/icra2014_offroad/eric-spero.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Eric Spero</a>
+        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=FoD0Cm8AAAAJ&hl=en">Eric Spero</a>
       </p>
       <p style="margin-bottom: 3px;">Supervisory Engineer </p>
       <p>US Army Research Laboratory</p>
