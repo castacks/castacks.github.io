@@ -180,7 +180,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:30 - 12:00 AM</p>
+      <p style="margin-bottom: 3px;">11:30 - 12:00 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -203,7 +203,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">13:00 - 13:30 AM</p>
+      <p style="margin-bottom: 3px;">1:00 - 1:30 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -226,7 +226,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">13:30 - 14:00 AM</p>
+      <p style="margin-bottom: 3px;">1:30 - 2:00 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -249,7 +249,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">14:00 - 14:30 AM</p>
+      <p style="margin-bottom: 3px;">2:00 - 2:30 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -272,7 +272,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">14:30 - 15:15 AM</p>
+      <p style="margin-bottom: 3px;">2:30 - 3:15 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -290,12 +290,35 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p>Agency for Defense Development (ADD), Korea</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Self-supervised Costmap Learning for Off-road Vehicle Traversability</p>
+      <p style="margin-bottom: 3px;">Title TBD</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">15:15 - 15:45 AM</p>
+      <p style="margin-bottom: 3px;">3:15 - 3:45 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/paulo_borges.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://people.csiro.au/B/P/Paulo-Borges">Paulo Borges</a>
+      </p>
+      <p style="margin-bottom: 3px;">Principal Research Scientist</p>
+      <p>CSIRO</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Title TBD</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">3:45 - 4:15 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -318,7 +341,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p style="margin-bottom: 3px;">Panel Discussion</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">15:45 - 16:45 AM</p>
+      <p style="margin-bottom: 3px;">4:15 - 4:45 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -341,7 +364,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p style="margin-bottom: 3px;">Workshop ends</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">16:45 - 17:00 AM</p>
+      <p style="margin-bottom: 3px;">4:45 - 5:00 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -439,7 +462,7 @@ Topics of interest include but are not limited to the following (all under the c
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/matthew_sivaprakasam">Matthew Sivaprakasam</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate, Robotics Institute</p>
+      <p style="margin-bottom: 3px;">MSR Student, Robotics Institute</p>
       <p>Carnegie Mellon University</p>
     </td>
   </tr>
@@ -449,7 +472,7 @@ Topics of interest include but are not limited to the following (all under the c
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sam_triest">Samuel Triest</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate, Robotics Institute </p>
+      <p style="margin-bottom: 3px;">PhD Student, Robotics Institute </p>
       <p>Carnegie Mellon University</p>
     </td> 
     <td style="text-align: center;">
@@ -489,9 +512,9 @@ Topics of interest include but are not limited to the following (all under the c
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/mateo.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        Mateo Guaman Castro
+        <a style="margin-bottom: 1px;" href="https://www.mateoguaman.com/">Mateo Guaman Castro</a>
       </p>
-      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p style="margin-bottom: 3px;">PhD Student</p>
       <p>University of Washington</p>
     </td>
   </tr>
