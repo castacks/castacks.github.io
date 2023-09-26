@@ -486,5 +486,13 @@ Topics of interest include but are not limited to the following (all under the c
       <p style="margin-bottom: 3px;">Systems Engineer</p>
       <p>US Army Research Laboratory</p>
     </td>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/mateo.jpg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        Mateo Guaman Castro
+      </p>
+      <p style="margin-bottom: 3px;">PhD Candidate</p>
+      <p>University of Washington</p>
+    </td>
   </tr>
 </table>
