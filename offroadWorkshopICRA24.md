@@ -355,7 +355,22 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
 
 ## Call for Posters
 
-Coming Soon
+Topics of interest include but are not limited to the following (all under the context of their roles in off-road autonomy):
+
+- Multi-modal perception
+- Self-supervised learning
+- Sim-to-real transfer
+- Online adaptation
+- Traversability estimation
+- Foundation models for navigation
+- Heterogeneous collaborative robots
+- Off-road driving dataset
+- Safe robot operation in uncertain and dynamic environments
+- Planning without prior knowledge of an environment
+- Approaches to off-road driving that work on multiple types of robots
+- Long-term localization and mapping in complex environments
+- Representations of terrain that model physical properties and robot-environment interaction
+
 
 ## Organizers & Committee
 <hr>
@@ -454,6 +469,22 @@ Coming Soon
       <p>US Army Research Laboratory</p>
     </td>
     <td style="text-align: center;">
+      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=8egf8skAAAAJ&hl=en">David Baran</a>
+      </p>
+      <p style="margin-bottom: 3px;">Chief, Intelligence for Robotics Branch</p>
+      <p>US Army Research Laboratory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/icra2014_offroad/UdamSilva.jpeg" style="margin-bottom: 6px;"/>
+      <p style="margin-bottom: 3px;">
+        Udam Silva
+      </p>
+      <p style="margin-bottom: 3px;">Systems Engineer</p>
+      <p>US Army Research Laboratory</p>
     </td>
   </tr>
 </table>
