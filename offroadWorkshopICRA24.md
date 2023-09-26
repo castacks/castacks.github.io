@@ -35,7 +35,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
         <b style="margin-bottom: 3px;">Welcome message by organizers & overview of workshop</b>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">8:30 - 8:40 AM</p>
+      <p style="margin-bottom: 3px;">8:45 - 9:00 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -46,21 +46,21 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="/img/team/placeholder.png"/>
+        <img src="/img/icra2014_offroad/MarcoHutter.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://scholar.harvard.edu/letiziagionfrida/bio">Marco Hutter</a>
+        <a style="margin-bottom: 1px;" href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html">Marco Hutter</a>
       </p>
-      <p style="margin-bottom: 3px;">Postdoctoral Research Fellow, Biorobotics Lab</p>
-      <p>Harvard University</p>
+      <p style="margin-bottom: 3px;">Professor of Robotics </p>
+      <p>ETH Zurich</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Rough terrain locomotion</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">8:40 - 9:00 AM</p>
+      <p style="margin-bottom: 3px;">9:00 - 9:30 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -71,22 +71,22 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="/img/team/placeholder.png"/>
+        <img src="/img/icra2014_offroad/xuesu_xiao.jpg"/>
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://meche.mit.edu/people/faculty/JLEONARD@MIT.EDU">Xuesu Xiao</a>
+        <a style="margin-bottom: 1px;" href="https://cs.gmu.edu/directory/detail/132/">Xuesu Xiao</a>
       </p>
-      <p style="margin-bottom: 3px;">Professor of Mechanical and Ocean Engineering</p>
-      <p>Massachusetts Institute of Technology</p>
+      <p style="margin-bottom: 3px;">Assistant Professor</p>
+      <p>George Mason University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Learning Extreme Off-Road Mobility</p>
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:00 - 9:20 AM</p>
+      <p style="margin-bottom: 3px;">9:30 - 10:00 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -97,21 +97,67 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
-        <img src="/img/team/placeholder.png"/>
+        <!-- <img src="/img/team/placeholder.png"/> -->
       </div>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://lucacarlone.mit.edu/">Byron Boots</a>
+        Poster Lightning Session
       </p>
-      <p style="margin-bottom: 3px;">Associate Professor in the Department of Aeronautics and Astronautics</p>
-      <p>Massachusetts Institute of Technology</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">From SLAM to Spatial Perception: Hierarchical Models, Certification, and Self-Supervision</p>
+      <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+      <p style="margin-bottom: 3px;">10:00 - 10:20 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster session
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">10:20 - 11:00 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>  
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/icra2014_offroad/ByronBoots.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://homes.cs.washington.edu/~bboots/">Byron Boots</a>
+      </p>
+      <p style="margin-bottom: 3px;">Professor of Machine Learning</p>
+      <p>University of Washington</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Visual Modeling of Complex Terrain for High-speed, Off-road Navigation</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">11:00 - 11:30 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -129,12 +175,12 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">TBD</p>
+      <p style="margin-bottom: 3px;">Self-supervised Costmap Learning for Off-road Vehicle Traversability</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:40 - 10:00 AM</p>
+      <p style="margin-bottom: 3px;">11:30 - 12:00 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -142,13 +188,174 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       </div>
     </td>  
   </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/Ali.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://aliagha.site/">Ali Agha</a>
+      </p>
+      <p style="margin-bottom: 3px;">Principal Investigator and Research Technologist </p>
+      <p>JPL and CAST of Caltech</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Resilient Robotic Autonomy Under Uncertainty</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">13:00 - 13:30 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/maggie.jpeg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/maggie-wigness-907a0984/">Maggie Wigness</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior Computer Scientist </p>
+      <p>U.S. Army Research Laboratory</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Human-Centered Machine Learning for Autonomous Navigation</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">13:30 - 14:00 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster Lightning Session
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">14:00 - 14:30 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster session
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">14:30 - 15:15 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>  
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior researcher</p>
+      <p>Agency for Defense Development (ADD), Korea</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Self-supervised Costmap Learning for Off-road Vehicle Traversability</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">15:15 - 15:45 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Panel
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Panel Discussion</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">15:45 - 16:45 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Closing remarks
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Workshop ends</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">16:45 - 17:00 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>  
 </table>
 
 
 
+## Call for Posters
 
-
-
+Coming Soon
 
 ## Organizers & Committee
 <hr>
@@ -163,7 +370,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/eric-spero.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/shiboz/">Eric Spero</a>
       </p>
@@ -171,9 +378,9 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
       <p>US Army Research Laboratory</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/YoungwooSeo.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.wangwenshan.com/">Youngwoo Seo</a>
+        <a style="margin-bottom: 1px;" href="https://ywseo.github.io/">Youngwoo Seo</a>
       </p>
       <p style="margin-bottom: 3px;">Executive Vice President</p>
       <p>Hanwha Aerospace</p>
@@ -181,7 +388,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/cherie.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=aEK45mEAAAAJ">Cherie Ho</a>
+        <a style="margin-bottom: 1px;" href="https://cherieho.com ">Cherie Ho</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate, Robotics Institute</p>
       <p>Carnegie Mellon University</p>
@@ -189,23 +396,23 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/CarlosNieto-Granda.jpeg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://scholar.harvard.edu/letiziagionfrida/bio">Carlos Nieto-Granda</a>
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/carlos-nieto-granda-62446641">Carlos Nieto-Granda</a>
       </p>
       <p style="margin-bottom: 3px;">Research Scientist</p>
       <p>US Army Research Laboratory</p>
     </td>
-      <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+    <td style="text-align: center;">
+      <img class="circular_image" src="/img/icra2014_offroad/John_Rogers_mid_scale.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?hl=en&user=uH_LDocAAAAJ&view_op=list_works&sortby=pubdate">John Rogers</a>
+        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=uH_LDocAAAAJ&hl=en">John Rogers</a>
       </p>
-      <p style="margin-bottom: 3px;">Research Scientist </p>
+      <p style="margin-bottom: 3px;">Research Scientist</p>
       <p>US Army Research Laboratory</p>
     </td> 
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/icra2014_offroad/basti.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/basti.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sebastian/">Sebastian Scherer</a>
       </p>
@@ -215,7 +422,7 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/matthew_sivaprakasam.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://ayoungk.github.io/">Matthew Sivaprakasam</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/matthew_sivaprakasam">Matthew Sivaprakasam</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate, Robotics Institute</p>
       <p>Carnegie Mellon University</p>
@@ -225,34 +432,28 @@ The off-road autonomy will be a full-day workshop. It will feature a mix of pres
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/sam_triest.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/shaoshu/">Samuel Triest</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/sam_triest">Samuel Triest</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate, Robotics Institute </p>
       <p>Carnegie Mellon University</p>
     </td> 
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/Katerina.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.shuangma.me/">John Rogers</a>
-      </p>
-      <p style="margin-bottom: 3px;">Research Scientist</p>
-      <p>US Army Research Laboratory</p>
-    </td> 
-    <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sairlab.org/team/yidu/">Katerina Fragkiadaki</a>
+        <a style="margin-bottom: 1px;" href="https://www.cs.cmu.edu/~katef">Katerina Fragkiadaki</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Professor, Machine Learning Department</p>
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/placeholder.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/JasonGregory.jpeg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://seansun.org">Jason Gregory</a>
+        <a style="margin-bottom: 1px;" href="https://scholar.google.com/citations?user=VXFnCEsAAAAJ&hl=en">Jason Gregory</a>
       </p>
       <p style="margin-bottom: 3px;">Robotics Researcher</p>
       <p>US Army Research Laboratory</p>
+    </td>
+    <td style="text-align: center;">
     </td>
   </tr>
 </table>
