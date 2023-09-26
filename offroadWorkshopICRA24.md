@@ -416,7 +416,7 @@ Topics of interest include but are not limited to the following (all under the c
       <p>US Army Research Laboratory</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/icra2014_offroad/YoungwooSeo.png" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/icra2014_offroad/YoungwooSeo.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://ywseo.github.io/">Youngwoo Seo</a>
       </p>
