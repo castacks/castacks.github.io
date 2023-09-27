@@ -290,7 +290,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p>Agency for Defense Development (ADD), Korea</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Title TBD</p>
+      <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
