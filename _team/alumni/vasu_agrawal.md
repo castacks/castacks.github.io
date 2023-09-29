@@ -11,7 +11,7 @@ thesis_link: https://www.ri.cmu.edu/publications/ground-up-design-of-a-multi-mod
 linkedin: https://www.linkedin.com/in/vasuagrawal/
 advisors:
  - name: Sebastian Scherer
-current_status: Software engineer at Facebook Reality Labs in Pittsburgh
+current_status: Software engineer, Meta Reality Labs
 layout: team_past_member_personal_page
 image: /img/team/placeholder_male.png
 ---

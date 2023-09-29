@@ -11,7 +11,7 @@ thesis_link: https://www.ri.cmu.edu/publications/the-beta-policy-for-continuous-
 linkedin: https://www.linkedin.com/in/poweichou/
 advisors:
  - name: Sebastian Scherer
-current_status: Software Engineer at Facebook
+current_status: Software Engineer at Meta
 layout: team_past_member_personal_page
 image: /img/team/past_members/po-wei.jpeg
 ---
