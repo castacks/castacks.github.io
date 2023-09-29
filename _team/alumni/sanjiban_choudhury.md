@@ -12,7 +12,7 @@ linkedin: http://www.sanjibanchoudhury.com/
 linkedin_ori: https://www.linkedin.com/in/sanjiban-choudhury-689a9711/
 advisors:
  - name: Sebastian Scherer
-current_status: Aurora
+current_status: Assistant Professor, Cornell 
 layout: team_past_member_personal_page
 image: /img/team/past_members/sanjiban_choudhury_2020.png
 link-new-tab: true
