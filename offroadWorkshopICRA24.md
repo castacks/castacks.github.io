@@ -249,7 +249,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:00 - 2:30 PM</p>
+      <p style="margin-bottom: 3px;">2:00 - 2:15 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -272,7 +272,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:30 - 3:15 PM</p>
+      <p style="margin-bottom: 3px;">2:15 - 2:45 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -280,6 +280,29 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>  
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/amy.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://amytabb.com/">Amy Tabb</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research PI</p>
+      <p>USDA</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Calibration of Multiple-Camera Imaging Systems</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:45 - 3:15 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </td>  
+  </tr>
   <tr>
     <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
