@@ -13,7 +13,7 @@ graduation_month: Aug
 linkedin: https://www.linkedin.com/in/mateoguaman/
 advisors:
  - name: Sebastian Scherer
-current_status: PhD Student, WSU
+current_status: PhD Student, UW
 ---
 
 <!-- {{page.title}} graduated in {{ page.graduation_month }} {{page.graduation_year}}. -->
