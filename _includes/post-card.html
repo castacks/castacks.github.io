@@ -1,4 +1,8 @@
+{% if post.redirect %}
+<a href="{{ post.redirect }}" target="_blank">
+{% else %}
 <a href="{{ site.baseurl }}{{ post.url }}">
+{% endif %}
 <div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
     {% if post.image %}
         <div style="height: 200px;">
