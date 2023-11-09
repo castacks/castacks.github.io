@@ -11,7 +11,7 @@ hide_hero: true
 
 
 
-### What is the Subterranean (SubT) Challenge?
+### What is the DARPA Triage Challenge?
 As stated on the [DARPA Triage page](https://triagechallenge.darpa.mil/):
 >
 The DARPA Triage Challenge (DTC) will use a series of challenge events to spur development of novel physiological features for medical triage. The DARPA Triage Challenge aims to drive breakthrough innovations in identification of “signatures” of injury that will help medical responders perform scalable, timely, and accurate triage. Of particular interest are mass casualty incidents (MCIs), in both civilian and military settings, when medical resources are limited relative to the need.
