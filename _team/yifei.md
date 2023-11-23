@@ -4,7 +4,7 @@ subtitle: Master's Student
 job_title: Master's Student
 category:  master_student
 layout: team_member_personal_page
-image: /img/team/yifei_liu.jpg
+image: /img/team/yifeil.jpg
 link-new-tab: true
 ---
 
