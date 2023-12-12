@@ -137,7 +137,7 @@ We present a novel vision-based pipeline that works exclusively with a nadir-fac
 ## Contributors
 * [Jay Patrikar](https://www.jaypatrikar.me/) 
 
-* [Nikhil Keetha](hhttps://nik-v9.github.io/) 
+* [Nikhil Keetha](https://nik-v9.github.io/) 
 
 * [Ivan Cisneros](https://www.ivancisneros.com/) 
 
