@@ -7,7 +7,7 @@ layout: team_member_personal_page
 image: /img/team/yaohe.png
 ---
 
-Yao He is a research associate in the AirLab. His research focuses robot perception and navigation. He is currently working on the wildfire project.
+Yao He is a research associate in the AirLab. His research focuses on robot perception and navigation. He is currently working on the wildfire project. 
 
 Prior to his current experience, Yao received his bachelor degree in Electronic Information Engineering from [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en).
 
@@ -17,4 +17,4 @@ Prior to his current experience, Yao received his bachelor degree in Electronic 
 # GitHub #
 [https://github.com/shockwaveHe](https://github.com/shockwaveHe)
 # Personal webpage #
-[shockwaveHe.github.io](shockwaveHe.github.io)
+[shockwaveHe.github.io](https://shockwavehe.github.io/)
