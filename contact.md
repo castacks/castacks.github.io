@@ -17,7 +17,7 @@ To reach our lab by car please park in Squirrel Hill. Darlington Ave is typicall
 ## Associate Research Professor
 
 ### Sebastian Scherer
-Robotics Institute, Squirrel Hill Location, Carnegie Mellon University, 1723 Murray Ave, Pittsburgh, PA 15213
+Robotics Institute, Squirrel Hill Location, Carnegie Mellon University, 1723 Murray Ave, Pittsburgh, PA 15217
 
 Phone: (412) 589-9581
 
@@ -25,9 +25,7 @@ Email: [basti@andrew.cmu.edu](mailto:basti@andrew.cmu.edu)
 
 ## Administrative Assistant
 
-### Brian Hutchinson
- Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213
+### Janice Phillips <janicek@andrew.cmu.edu>
+Robotics Institute, Squirrel Hill Location, Carnegie Mellon University, 1723 Murray Ave, Pittsburgh, PA 15217
 
-Phone: (412) 268-7414
-
-Email: [bhutchis@andrew.cmu.edu](mailto:bhutchis@andrew.cmu.edu)
+Email: [janicek@andrew.cmu.edu](mailto:janicek@andrew.cmu.edu)
