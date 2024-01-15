@@ -1,6 +1,3 @@
-% Basti: sed this tool to cleanup bibtex:
-% https://flamingtempura.github.io/bibtex-tidy/index.html?opt=%7B%22modify%22%3Atrue%2C%22curly%22%3Atrue%2C%22numeric%22%3Atrue%2C%22months%22%3Atrue%2C%22space%22%3A2%2C%22tab%22%3Atrue%2C%22align%22%3A13%2C%22sort%22%3A%5B%22-year%22%2C%22author%22%5D%2C%22duplicates%22%3A%5B%22key%22%2C%22doi%22%2C%22citation%22%2C%22abstract%22%5D%2C%22stripEnclosingBraces%22%3Atrue%2C%22dropAllCaps%22%3Afalse%2C%22escape%22%3Afalse%2C%22sortFields%22%3A%5B%22title%22%2C%22shorttitle%22%2C%22author%22%2C%22year%22%2C%22month%22%2C%22day%22%2C%22journal%22%2C%22booktitle%22%2C%22location%22%2C%22on%22%2C%22publisher%22%2C%22address%22%2C%22series%22%2C%22volume%22%2C%22number%22%2C%22pages%22%2C%22doi%22%2C%22isbn%22%2C%22issn%22%2C%22url%22%2C%22urldate%22%2C%22copyright%22%2C%22category%22%2C%22note%22%2C%22metadata%22%5D%2C%22stripComments%22%3Afalse%2C%22trailingCommas%22%3Afalse%2C%22encodeUrls%22%3Afalse%2C%22tidyComments%22%3Atrue%2C%22removeEmptyFields%22%3Afalse%2C%22removeDuplicateFields%22%3Atrue%2C%22generateKeys%22%3A%22%5Bauth%3Arequired%3Alower%5D%5Byear%3Arequired%5D%5Bveryshorttitle%3Alower%5D%5BduplicateNumber%5D%22%2C%22lowercase%22%3Atrue%2C%22backup%22%3Atrue%7D
-
 @inproceedings{chen2024unified,
 	title        = {A Unified MPC Strategy for a Tilt-rotor VTOL UAV Towards Seamless Mode Transitioning},
 	author       = {Chen, Qizhao and Hu, Ziqi and Geng, Junyi and Bai, Dongwei and Mousaei, Mohammadreza and Scherer, Sebastian},
@@ -42,7 +39,8 @@
 	author       = {Cao, C. and Nogueira, L. and Zhu, H. and Keller, J. and Best, G. and Garg, R. and Kohanbash, D. and Maier, J. and Zhao, S. and Yang, F. and Cujic, K. and Darnley, R. and DeBortoli, R. and Drozd, B. and Sun, B. and Higgins, I. and Willits, S. and Armstrong, G. and Zhang, J. and Hollinger, G. and Travers, M. and Scherer, Sebastian},
 	year         = 2023,
 	journal      = {Field Robotics},
-	number       = 3,
+	volume       = 3,
+	number       = 25,
 	pages        = {801--836},
 	doi          = {10.55417/fr.2023025},
 	url          = {https://fieldrobotics.net/Field_Robotics/Volume_3_files/Vol3_25.pdf}
@@ -582,7 +580,10 @@
 	author       = {Triest, Samuel and Sivaprakasam, Matthew and Wang, Sean J. and Wang, Wenshan and Johnson, Aaron M. and Scherer, Sebastian},
 	year         = 2022,
 	booktitle    = {2022 International Conference on Robotics and Automation (ICRA)},
-	doi          = {10.1109/ICRA46639.2022.9811648}
+	doi          = {10.1109/ICRA46639.2022.9811648},
+	url          = {https://arxiv.org/pdf/2205.01791.pdf},
+	code         = {https://github.com/castacks/tartan drive}
+}
 }
 @inproceedings{wang2022lifelong,
 	title        = {Lifelong graph learning},
@@ -653,10 +654,6 @@
 	number       = 1,
 	pages        = {256--263},
 	doi          = {10.1109/LRA.2022.3223555}
-}
-,
-  url={https://arxiv.org/pdf/2205.01791.pdf},
-  code={https://github.com/castacks/tartan drive}
 }
 @inproceedings{zhen2022unified,
 	title        = {Unified Representation of Geometric Primitives for Graph-SLAM Optimization Using Decomposed Quadrics},
@@ -778,7 +775,7 @@
 	video        = {https://www.youtube.com/watch?v=ta1_CeJV5nI},
 	abstract     = {We present a method for localizing a single camera with respect to a point cloud map in indoor and outdoor scenes. The problem is challenging because correspondences of local invariant features are inconsistent across the domains between image and 3D. The problem is even more challenging as the method must handle various environmental conditions such as illumination, weather, and seasonal changes. Our method can match equirectangular images to the 3D range projections by extracting cross-domain symmetric place descriptors. Our key insight is to retain condition-invariant 3D geometry features from limited data samples while eliminating the condition-related features by a designed Generative Adversarial Network. Based on such features, we further design a spherical convolution network to learn viewpoint-invariant symmetric place descriptors. We evaluate our method on extensive self-collected datasets, which involve \textit{Long-term} (variant appearance conditions), \textit{Large-scale} (up to 2km structure/unstructured environment), and \textit{Multistory} (four-floor confined space). Our method surpasses other current state-of-the-arts by achieving around 3 times higher place retrievals to inconsistent environments, and above 3 times accuracy on online localization. To highlight our method's generalization capabilities, we also evaluate the recognition across different datasets. With a single trained model, i3dLoc can demonstrate reliable visual localization in random conditions.}
 }
-@inproceedings{yin20213d,
+@article{yin20213d,
 	title        = {3D Segmentation Learning from Sparse Annotations and Hierarchical Descriptors},
 	author       = {Peng Yin and Lingyun Xu and Jianmin Ji and Sebastian Scherer and Howie Choset},
 	year         = 2021,
@@ -972,7 +969,6 @@
 	doi          = {10.1007/978-3-642-41610-1_221-1},
 	isbn         = {978-3-642-41610-1},
 	url          = {https://doi.org/10.1007/978-3-642-41610-1_221-1},
-	editor       = {Ang, Marcelo H. and Khatib, Oussama and Siciliano, Bruno}
 }
 @inproceedings{patrikar2020real,
 	title        = {Real-time Motion Planning of Curvature Continuous Trajectories for Urban {UAV} Operations in Wind},
@@ -1140,7 +1136,7 @@
 	author       = {Keller, John and Scherer, Sebastian},
 	year         = 2019,
 	month        = oct,
-	journal      = {arXiv.org},
+	journal      = {arXiv preprint arXiv:1910.04874},
 	url          = {http://arxiv.org/abs/1910.04874},
 	abstract     = {Stereo cameras are a popular choice for obstacle avoidance for outdoor lighweight, low-cost robotics applications. However, they are unable to sense thin and reflective objects well. Currently, many algorithms are tuned to perform well on indoor scenes like the Middlebury dataset. When navigating outdoors, reflective objects, like windows and glass, and thin obstacles, like wires, are not well handled by most stereo disparity algorithms. Reflections, repeating patterns and objects parallel to the cameras' baseline causes mismatches between image pairs which leads to bad disparity estimates. Thin obstacles are difficult for many sliding window based disparity methods to detect because they do not take up large portions of the pixels in the sliding window. We use a trinocular camera setup and micropolarizer camera capable of detecting reflective objects to overcome these issues. We present a hierarchical disparity algorithm that reduces noise, separately identify wires using semantic object triangulation in three images, and use information about the polarization of light to estimate the disparity of reflective objects. We evaluate our approach on outdoor data that we collected. Our method contained an average of 9.27{\%} of bad pixels compared to a typical stereo algorithm's 18.4{\%} of bad pixels in scenes containing reflective objects. Our trinocular and semantic wire disparity methods detected 53{\%} of wire pixels, whereas a typical two camera stereo algorithm detected 5{\%}.},
 	annote       = {6 pages, 5 figures},
@@ -1249,7 +1245,7 @@
 	year         = 2019,
 	month        = mar,
 	url          = {http://arxiv.org/abs/1710.01701},
-	bootitle     = {44th Annual Waste Management Conference (WM2018)},
+	booktitle    = {44th Annual Waste Management Conference (WM2018)},
 	abstract     = {Radiation source detection has seen various applications in the past decade, ranging from the detection of dirty bombs in public places to scanning critical nuclear facilities for leakage or flaws, and in the autonomous inspection of nuclear sites. Despite the success in detecting single point sources or a small number of spatially separated point sources, most of the existing algorithms fail to localize sources in complex scenarios with a large number of point sources or non-trivial distributions {\&} bulk sources. Even in simpler environments, most existing algorithms are not scalable to larger regions and/or higher dimensional spaces. For effective autonomous inspection, we not only need to estimate the positions of the sources, but also the number, distribution, and intensities of each of them. In this paper, we present a novel algorithm for the robust localization of an arbitrary distribution of radiation sources using multi-layer sequential Monte Carlo methods coupled with suitable clustering algorithms. We achieve near-perfect accuracy, in terms of F1-scores ({\textgreater} 0.95), while allowing the algorithm to scale, both to large regions in space and to higher dimensional spaces (5 tested).},
 	archiveprefix = {arXiv},
 	arxivid      = {1710.01701},
@@ -1260,7 +1256,7 @@
 	author       = {Arora, Sankalp and Choudhury, Sanjiban and Scherer, Sebastian},
 	year         = 2018,
 	month        = apr,
-	journal      = {arXiv.org},
+	journal      = {arXiv preprint arXiv:1804.02573},
 	url          = {http://arxiv.org/abs/1804.02573},
 	abstract     = {Partially Observable Markov Decision Processes (POMDPs) offer an elegant framework to model sequential decision making in uncertain environments. Solving POMDPs online is an active area of research and given the size of real-world problems approximate solvers are used. Recently, a few approaches have been suggested for solving POMDPs by using MDP solvers in conjunction with imitation learning. MDP based POMDP solvers work well for some cases, while catastrophically failing for others. The main failure point of such solvers is the lack of motivation for MDP solvers to gain information, since under their assumption the environment is either already known as much as it can be or the uncertainty will disappear after the next step. However for solving POMDP problems gaining information can lead to efficient solutions. In this paper we derive a set of conditions where MDP based POMDP solvers are provably sub-optimal. We then use the well-known tiger problem to demonstrate such sub-optimality. We show that multi-resolution, budgeted information gathering cannot be addressed using MDP based POMDP solvers. The contribution of the paper helps identify the properties of a POMDP problem for which the use of MDP based POMDP solvers is inappropriate, enabling better design choices.},
 	annote       = {6 pages, 1 figure},
@@ -1380,7 +1376,7 @@
 	author       = {Garg, Rohit and Yang, Shichao and Scherer, Sebastian},
 	year         = 2018,
 	month        = dec,
-	journal      = {arXiv.org},
+	journal      = {arXiv preprint arXiv:1812.03539},
 	url          = {http://arxiv.org/abs/1812.03539},
 	abstract     = {Autonomous and safe landing is important for unmanned aerial vehicles. We present a monocular and stereo image based method for fast and accurate landing zone evaluation for UAVs in various scenarios. Many existing methods rely on Lidar or depth sensor to provide accurate and dense surface reconstruction. We utilize stereo images to evaluate the slope and monocular images to compute homography error. By combining them together, our approach works for both rigid and non-rigid dynamic surfaces. Experiments on many outdoor scenes such as water, grass and roofs, demonstrate the robustness and effectiveness of our approach.},
 	archiveprefix = {arXiv},
@@ -1392,7 +1388,7 @@
 	author       = {Gupta, Ritwik and Kurtz, Zachary T. and Scherer, Sebastian and Smereka, Jonathon M.},
 	year         = 2018,
 	month        = sep,
-	journal      = {arXiv.org},
+	journal      = {arXiv preprint arXiv:1809.03565},
 	url          = {http://arxiv.org/abs/1809.03565},
 	abstract     = {Failures in robotics can have disastrous consequences that worsen rapidly over time. This, the ability to rely on robotic systems, depends on our ability to monitor them and intercede when necessary, manually or autonomously. Prior work in this area surveys intrusion detection and security challenges in robotics, but a discussion of the more general anomaly detection problems is lacking. As such, we provide a brief insight-focused discussion and frameworks of thought on some compelling open problems with anomaly detection in robotic systems. Namely, we discuss non-malicious faults, invalid data, intentional anomalous behavior, hierarchical anomaly detection, distribution of computation, and anomaly correction on the fly. We demonstrate the need for additional work in these areas by providing a case study which examines the limitations of implementing a basic anomaly detection (AD) system in the Robot Operating System (ROS) 2 middleware. Showing that if even supporting a basic system is a significant hurdle, the path to more complex and advanced AD systems is even more problematic. We discuss these ROS 2 platform limitations to support solutions in robotic anomaly detection and provide recommendations to address the issues discovered.},
 	archiveprefix = {arXiv},
@@ -1696,7 +1692,7 @@
 	author       = {Yang, Shichao and Konam, Sandeep and Ma, Chen and Rosenthal, Stephanie and Veloso, Manuela and Scherer, Sebastian},
 	year         = 2017,
 	month        = apr,
-	journal      = {arXiv.org},
+	journal      = {arXiv preprint arXiv:1704.08759},
 	url          = {http://arxiv.org/abs/1704.08759},
 	abstract     = {Obstacle avoidance from monocular images is a challenging problem for robots. Though multi-view structure-from-motion could build 3D maps, it is not robust in textureless environments. Some learning based methods exploit human demonstration to predict a steering command directly from a single image. However, this method is usually biased towards certain tasks or demonstration scenarios and also biased by human understanding. In this paper, we propose a new method to predict a trajectory from images. We train our system on more diverse NYUv2 dataset. The ground truth trajectory is computed from the designed cost functions automatically. The Convolutional Neural Network perception is divided into two stages: first, predict depth map and surface normal from RGB images, which are two important geometric properties related to 3D obstacle representation. Second, predict the trajectory from the depth and normal. Results show that our intermediate perception increases the accuracy by 20{\%} than the direct prediction. Our model generalizes well to other public indoor datasets and is also demonstrated for robot flights in simulation and experiments.},
 	archiveprefix = {arXiv},
@@ -1899,7 +1895,6 @@
 	month        = may,
 	booktitle    = {Proceedings - IEEE International Conference on Robotics and Automation},
 	address      = {Seattle, WA},
-	number       = {June},
 	pages        = {3479--3486},
 	doi          = {10.1109/ICRA.2015.7139680},
 	issn         = 10504729,
@@ -1917,11 +1912,11 @@
 	issn         = 10504729,
 	abstract     = {Autonomous systems that navigate in unknown environments encounter a variety of planning problems. The success of any one particular planning strategy depends on the validity of assumptions it leverages about the structure of the problem, e.g., Is the cost map locally convex? Does the feasible state space have good connectivity? We address the problem of determining suitable motion planning strategies that can work on a diverse set of applications. We have developed a planning system that does this by running competing planners in parallel. In this paper, we present an approach that constructs a planner ensemble - a set of complementary planners that lever-age a diverse set of assumptions. Our approach optimizes the submodular selection criteria with a greedy approach and lazy evaluation. We seed our selection with learnt priors on planner performance, thus allowing us to solve new applications without evaluating every planner on that application. We present results in simulation where the selected ensemble outperforms the best single planner and does almost as well as an off-line planner. We also present results from an autonomous helicopter that has flown missions several kilometers long at speeds of up to 56m/s which involved avoiding unmapped mountains, no-fly zones and landing in cluttered areas with trees and buildings. This work opens the door on the more general problem of adaptive motion planning.}
 }
-@article{choudhury2015theoretical,
+@inproceedings{choudhury2015theoretical,
 	title        = {Theoretical limits of speed and resolution for kinodynamic planning in a poisson forest},
 	author       = {Choudhury, Sanjiban and Scherer, Sebastian and Bagnell, J. Andrew},
 	year         = 2015,
-	journal      = {Robotics: Science and Systems},
+	booktitle    = {Robotics: Science and Systems},
 	volume       = 11,
 	doi          = {10.15607/RSS.2015.XI.005},
 	isbn         = 9780992374716,
@@ -1987,6 +1982,7 @@
 	booktitle    = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
 	address      = {Cham},
 	volume       = 9315,
+	publisher    = {Springer},
 	pages        = {161--169},
 	doi          = {10.1007/978-3-319-24078-7_16},
 	isbn         = 9783319240770,
@@ -2388,13 +2384,13 @@
 	pages        = {2023--2029},
 	doi          = {10.1109/ROBOT.2007.363619}
 }
-}
+
 @techreport{urmson2007tartan,
 	title        = {{Tartan Racing:} A Multi-Modal Approach to the {DARPA} Urban Challenge},
 	author       = {Urmson, Christopher and Anhalt, Joshua and Bagnell, Drew and Baker, Christopher and Bittner, Robert and Dolan, John and Duggins, Dave and Ferguson, David and Galatali, Tugrul and Geyer, Hartmut and Gittleman, Michele and Harbaugh, Sam and Hebert, Martial and Howard, Thomas M and Kelly, Alonzo and Kohanbash, David and Likhachev, Maxim and Miller, Nick and Peterson, Kevin and Rajkumar, Raj and Rybski, Paul and Salesky, Bryan and Scherer, Sebastian and Seo, Young-Woo and Simmons, R and Singh, Sanjiv and Snider, Jarrod and Stentz, Anthony and Whittaker, William Red and Ziglar, Jason},
 	year         = 2007,
 	month        = apr,
-	publisher    = {Carnegie Mellon University},
+	institution  = {Carnegie Mellon University},
 	doi          = {10.1184/R1/6561125.v1},
 	url          = {https://kilthub.cmu.edu/articles/journal_contribution/Tartan_Racing_A_Multi-Modal_Approach_to_the_DARPA_Urban_Challenge/6561125/1},
 	abstract     = {The Urban Challenge represents a technological leap beyond the previous Grand Challenges. The challenge encompasses three primary behaviors: driving on roads, handling intersections and maneuvering in zones. In implementing urban driving we have decomposed the problem into five components. Mission Planning determines an efficient route through an urban network of roads. A behavioral layer executes the route through the environment, adapting to local traffic and exceptional situations as necessary. A motion planning layer safeguards the robot by considering the feasible trajectories available, and selecting the best option. Perception combines data from lidar, radar and vision systems to estimate the location of other vehicles, static obstacles and the shape of the road. Finally, the robot is a mechatronic system engineered to provide the power, sensing and mobility necessary to navigate an urban course. Rigorous component and system testing evaluates progress using standardized tests. Observations from these experiments shape the design of subsequent development spirals and enable the rapid detection and correction of bugs. The system described in the paper exhibits a majority of the basic navigation and traffic skills required for the Urban Challenge. From these building blocks more advanced capabilities will quickly develop.}
@@ -2423,6 +2419,13 @@
 	issn         = 15564959,
 	abstract     = {This paper concerns an outdoor mobile robot that learns to avoid collisions by observing a human driver operate a vehicle equipped with sensors that continuously produce a map of the local environment. We have implemented steering control that models human behavior in trying to avoid obstacles while trying to follow a desired path. Here we present the formulation for this control system and its independent parameters and then show how these parameters can be automatically estimated by observing a human driver. We also present results from operation on an autonomous robot as well as in simulation, and compare the results from our method to another commonly used learning method. We find that the proposed method generalizes well and is capable of learning from a small number of samples. {\textcopyright} 2007 Wiley Periodicals, Inc.}
 }
+@inproceedings{hamner2005learning,
+	title        = {Learning to {Drive} {Among} {Obstacles}},
+	author       = {Hamner, Bradley and Scherer, Sebastian and Singh, Sanjiv},
+	year         = 2005,
+	month        = jan,
+	booktitle    = {NIPS Workshop on Machine Learning Based Robotics in Unstructured Environments}
+}
 @inproceedings{scherer2005model,
 	title        = {Model checking of robotic control systems},
 	author       = {Scherer, Sebastian and Lerda, Flavio and Clarke, Edmund M.},
@@ -2430,7 +2433,6 @@
 	month        = sep,
 	booktitle    = {European Space Agency, (Special Publication) ESA SP},
 	address      = {Munich, Germany},
-	number       = 603,
 	pages        = {371--378},
 	issn         = {03796566},
 	abstract     = {Reliable software is important for robotic applications. We propose a new method for the verification of control software based on Java PathFinder, a discrete model checker developed at NASA Ames Research Center. Our extension of Java PathFinder supports modeling of a real-time scheduler and a physical system, defined in terms of differential equations. This approach not only is able to detect programming errors, like null-pointer dereferences, but also enables the verification of control software whose correctness depends on the physical, real-time environment. We applied this method to the control software of a line-following robot. The verified source code, written in Java, can be executed without any modifications on the microcontroller of the actual robot. Performance evaluation and bug finding are demonstrated on this example.},
