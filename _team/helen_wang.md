@@ -16,7 +16,7 @@ In her free time, she likes to snowboard at the mountains in the winter, hangout
 
 <br>
 
-**Website**: [helenwanghh.github.io/](https://helenwanghh.github.io/)
+**Website & Portfolio**: [helenwanghh.github.io/](https://helenwanghh.github.io/)
 
 **Email**: [haohuiw@andrew.cmu.edu](mailto:haohuiw@andrew.cmu.edu)
 
