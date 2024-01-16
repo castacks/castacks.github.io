@@ -12,7 +12,7 @@ Helen Wang is a Master's student in Mechanical Engineering with passions for avi
 
 Helen's research focuses on understanding the limits of UAV-based active thermography for inspecting subsurface defects in aviation assets. 
 
-In her free time, she likes to snowboard at the mountains in the winter, hangout by the lake in the summer, other than that, play with composites and build a prototype at the makerspace! 
+In her free time, she likes to snowboard at the mountains in the winter, hangout by the lake in the summer, other than that, she likes to play with composites and build a prototype at the makerspace.  
 
 <br>
 
