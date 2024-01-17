@@ -309,8 +309,8 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
       </p>
-      <p style="margin-bottom: 3px;">Senior researcher</p>
-      <p>Agency for Defense Development (ADD), Korea</p>
+      <p style="margin-bottom: 3px;">Assistant Professor</p>
+      <p>Inha University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
