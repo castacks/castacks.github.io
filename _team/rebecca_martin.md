@@ -8,10 +8,10 @@ image: /img/team/rebecca_martin.jpg
 link-new-tab: true
 ---
 
-Rebecca is a first-year PhD student at the Robotics Institute, Carnegie Mellon University. She received a B.S.E. in Computer Systems Engineering and a B.S. in Mathematics from Arizona State University. Her research interests span cybersecurity, multi-agent systems, and perception. In her free time, Rebecca enjoys playing the piano, cooking, and reading.
+Rebecca is a third year PhD student at the Robotics Institute, Carnegie Mellon University. She received a B.S.E. in Computer Systems Engineering and a B.S. in Mathematics from Arizona State University. Her research interests span robustness for machine learning, multi-agent systems, and perception. In her free time, Rebecca enjoys playing the piano, cooking, and reading.
 
 ## LinkedIn ##
 [https://www.linkedin.com/in/rebeccacmartin](https://www.linkedin.com/in/rebeccacmartin)
 
 ## Email ##
-rebecca2@andrew.cmu.edu
+rebeccacm@cmu.edu
