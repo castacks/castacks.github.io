@@ -3,7 +3,7 @@ name: Jekyll CI
 on:
   push:
     branches:
-      - master
+      - test
 
 jobs:
   github-pages:
