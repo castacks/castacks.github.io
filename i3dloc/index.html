@@ -1,0 +1,590 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>i3dLoc: Image-to-range Cross-domain Localization - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>i3dLoc: Image-to-range Cross-domain Localization | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="i3dLoc: Image-to-range Cross-domain Localization" />
+<meta name="author" content="Peng Yin" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="i3dLoc: Image-to-range Cross-domain Localization" />
+<meta property="og:description" content="i3dLoc: Image-to-range Cross-domain Localization" />
+<link rel="canonical" href="https://theairlab.org/i3dloc/" />
+<meta property="og:url" content="https://theairlab.org/i3dloc/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2021-05-25-i3dloc/2d3d.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-25T17:28:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2021-05-25-i3dloc/2d3d.gif" />
+<meta property="twitter:title" content="i3dLoc: Image-to-range Cross-domain Localization" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2021-05-25-i3dloc/2d3d.gif","author":{"@type":"Person","name":"Peng Yin"},"headline":"i3dLoc: Image-to-range Cross-domain Localization","dateModified":"2021-05-25T17:28:00+00:00","datePublished":"2021-05-25T17:28:00+00:00","description":"i3dLoc: Image-to-range Cross-domain Localization","url":"https://theairlab.org/i3dloc/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/i3dloc/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">i3dLoc: Image-to-range Cross-domain Localization</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2021-05-25T17:28:00+00:00">May 25, 2021</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/peng_yin">Peng Yin</a>
+		
+		</div>
+	</div></p>
+
+    <h1>i3dLoc: Image-to-range Cross-domain Localization</h1>
+
+    <hr />
+
+<p>We present a method for localizing a single camera with respect to a point cloud map in indoor and outdoor scenes.
+The problem is challenging because correspondences of local invariant features are inconsistent across the domains between image and 3D.
+The problem is even more challenging as the method must handle various environmental conditions such as illumination, weather, and seasonal changes.
+Our method can match equirectangular images to the 3D range projections by extracting cross-domain symmetric place descriptors.
+Our key insight is to retain condition-invariant 3D geometry features from limited data samples while eliminating the condition-related features by a designed Generative Adversarial Network.
+Based on such features, we further design a spherical convolution network to learn viewpoint-invariant symmetric place descriptors.
+We evaluate our method on extensive self-collected datasets, which involve Long-term(variant appearance conditions), Large-scale (up to 2km structure/unstructured environment), and Multistory (four-floor confined space).
+Our method surpasses other current state-of-the-arts by achieving around 3 times higher place retrievals to inconsistent environments, and above 3 times accuracy on online localization.
+To highlight our method’s generalization capabilities, we also evaluate the recognition across different datasets.
+With one single trained model, i3dLoc can achieve reliable visual localization under random conditions and viewpoints.</p>
+
+<figure>
+ <img src="/img/posts/2021-05-25-i3dloc/framework.png" style="width:100%" />
+<!-- <img src="/img/posts/2021-05-25-ulsd/smith.png" style="width:31%" /> -->
+ <figcaption>
+The framework of the proposed i3dLoc.
+It is the combination of two generator networks between 2D imagery domain and range prediction domain, a classification module estimating the environmental conditions, and a discriminator module distinguishing the generated range predictions from the real LiDAR projections.
+ </figcaption>
+</figure>
+
+<p>Mobile robots and self-driving cars have entered our daily life in the recent years with the development of High-Definition maps-based accurate localization. Cameras have the huge potential to provide low-cost, compact and self-contained visual localization against point cloud maps. However, visual methods are inherently limited by inconsistent environmental conditions in the real world, e.g., illumination, weather, season and viewpoint differences. Whereas, accurate matching can be challenging to perform on point cloud data due to sensor sparsity with no sufficient texture feature guarantees. Transitional geometry-based methods implicitly assume a static environment, such as stable lighting conditions, sunny weather, and fixed seasonal attributes. Recent learning-based visual localization methods are either constrained under limit environments(structure road) or only fit for limited viewpoints (forwards or backwards on the street). Current image-to-range localization methods are difficult to leverage in real-world applications, or can hardly address the above issues simultaneously.</p>
+
+<p>The major contributions of i3dLoc are:</p>
+
+<ul>
+  <li>We put forth a new end-to-end large-scale visual localization method with the assistance of offline 3D maps, providing reliable 3D localization.</li>
+  <li>We introduce a Generative adversarial Network (GAN) based cross-domain transfer learning network to extract condition-invariant features while eliminating the condition-related factors.</li>
+  <li>We design an innovative symmetric feature learning network performing on spherical convolution networks, where intrinsic characteristics of a spherical harmonica naturally help place descriptor matching under variant viewpoints.</li>
+  <li>We design an evaluation framework (includes Long-term, Large-scale and Multistory datasets), which can analyze the visual localization performance under significant environmental appearance changes, casual viewpoints and also the generalization ability for unseen datasets.</li>
+</ul>
+
+<h2 id="cross-domain-image-transfer">Cross Domain Image Transfer</h2>
+
+<hr />
+
+<figure>
+ <img src="/img/posts/2021-05-25-i3dloc/domain.png" style="width:100%" />
+ <figcaption>
+  The cross domain image transfer network. We assume the visual inputs include two kinds of features: geometry feature (related to the 3D geometries) and conditional feature (related to illuninations, weathers and seasons, etc).
+ </figcaption>
+</figure>
+
+<p>To generate constant geometry features from visual inputs under different environmental conditions, we construct a cross domain transfer network between 2D imagery and 3D range projections. Before we introduce the details, we will introduce the visual features from the point view of information entropy. Naturally, the condition- related feature (illumination, weather, seasons) and invariant features (geometry) in the image domain are tightly coupled. The above figure shows the relationship between geometry and conditional features. H and I are the joint entropy and the mutual entropies conditioned on the given data samples x in the image domain. Our domain transfer network can extract the geometry features for place recognition.</p>
+
+<h3 id="key-results">Key Results</h3>
+
+<p>The training and evaluation dataset includes:</p>
+<ul>
+  <li>Long-term Dataset: we create 15 long-term dataset by generating trajectories in 2020\06~2021\01 with variant season, weather changes. Distance for each trajectory is around 200~400m. Trajectories 1~10 for training, and 11~15 for evaluation.</li>
+  <li>Large-scale Dataset: we create a large-scale outdoor dataset with 8 trajectories by traversing 1.5~2km routes under structured/unstructured outdoor environments. Trajectories 1~6 for training procedure, and trajectories 7~8 for evaluation.</li>
+  <li>Multistory Dataset: we create a indoor dataset by traversing 8 trajectories within a multi-floor area under daytime/nighttime. The average distance for indoor routines is 100~150m. We use trajectories 1~6 for network training, and 7~8 for evaluation.</li>
+</ul>
+
+<figure>
+ <img src="/img/posts/2021-05-25-i3dloc/platform.png" style="width:40%" />
+ <img src="/img/posts/2021-05-25-i3dloc/map.png" style="width:45%" />
+ <figcaption>
+
+    The dataset are collected with a LiDAR (VLP16) device, an 360 camera and an inertial measurement unit (IMU). We gathered the indoor and outdoor datasets via recording the raw data from above sensors. Since lacking the ground truth position in indoor or other GPS-denied environments, we use the LiDAR odometry outputs as the ground truth estimation.
+
+ </figcaption>
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/5G9ORZK4kUY" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><br /></p>
+
+<h2 id="publications">Publications</h2>
+
+<hr />
+
+<ul>
+  <li>Peng Yin, Lingyun Xu, Sebastian Scherer “<strong>i3dLoc: Image-to-range Cross-domain Localization Robust to Inconsistent Environmental Conditions</strong>”, Robotics: Science and Systems 2021.</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="contact">Contact</h3>
+
+<ul>
+  <li><a href="https://maxtomcmu.github.io/">Peng Yin</a>: (pyin2 [at] andrew [dot] cmu [dot] edu)</li>
+  <li><a href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>: (basti [at] cmu [dot] edu)</li>
+</ul>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/i3dloc/';
+      this.page.identifier = 'https://theairlab.org/i3dloc/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

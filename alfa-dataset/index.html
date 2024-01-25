@@ -1,0 +1,1077 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>AirLab Failure and Anomaly (ALFA) Dataset - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>AirLab Failure and Anomaly (ALFA) Dataset | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="AirLab Failure and Anomaly (ALFA) Dataset" />
+<meta name="author" content="Azarakhsh Keipour" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ALFA" />
+<meta property="og:description" content="ALFA" />
+<link rel="canonical" href="https://theairlab.org/alfa-dataset/" />
+<meta property="og:url" content="https://theairlab.org/alfa-dataset/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2019-08-01-alfa/alfa.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-15T10:50:07+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2019-08-01-alfa/alfa.jpg" />
+<meta property="twitter:title" content="AirLab Failure and Anomaly (ALFA) Dataset" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2019-08-01-alfa/alfa.jpg","author":{"@type":"Person","name":"Azarakhsh Keipour"},"headline":"AirLab Failure and Anomaly (ALFA) Dataset","dateModified":"2020-07-15T10:50:07+00:00","datePublished":"2020-07-15T10:50:07+00:00","description":"ALFA","url":"https://theairlab.org/alfa-dataset/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/alfa-dataset/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">AirLab Failure and Anomaly (ALFA) Dataset</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+  <div style="text-align: center; display: block; margin-left:auto; margin-right:auto">
+    <img style="text" src="/img/posts/2019-08-01-alfa/alfa.jpg" alt="AirLab Failure and Anomaly (ALFA) Dataset" />
+</div>
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2020-07-15T10:50:07+00:00">Jul 15, 2020</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/alumni/azarakhsh">Azarakhsh Keipour</a>
+		
+		</div>
+	</div></p>
+
+    <h1>AirLab Failure and Anomaly (ALFA) Dataset</h1>
+
+    <p>The <em>AirLab Failure and Anomaly</em> (<em>ALFA</em>) Dataset includes the data collected from tens of autonomous flights for failure detection and anomaly detection research. The data is provided in 4 collections:</p>
+
+<p><strong><em>- Processed Data:</em></strong> 47 sequences of fully autonomous flight sequences with eight different types of faults happening during the flights. The files include the ground truth of the type and the time of the failure and are provided in the ROS <strong>.bag</strong> format, as well as in <strong>.csv</strong> and <strong>.mat</strong> formats. The original <strong>.bag</strong> files are recorded using the modified <a href="http://wiki.ros.org/mavros">mavros</a> ROS package connected to the Pixhawk running the modified Ardupilot 3.9.0beta1 through <a href="https://mavlink.io/en/">MAVLink 2.0</a> protocol.</p>
+
+<p><strong><em>- Raw Bag Files:</em></strong> The raw .bag files of the flights. It contains both the manual and autonomous flight sequences collected during the flights, without any processing. These files are recorded using the modified <a href="http://wiki.ros.org/mavros">mavros</a> ROS package connected to the Pixhawk running the modified Ardupilot 3.9.0beta1 through <a href="https://mavlink.io/en/">MAVLink</a> protocol.</p>
+
+<p><strong><em>- Telemetry Logs:</em></strong> The telemetry logs from the onboard NVidia TX2 computer connected to the Pixhawk autopilot.</p>
+
+<p><strong><em>- Dataflash Logs:</em></strong> The logs recorded on the Pixhawk during the flights. A supplemental code is provided for working with the dataset in C++, Python and MATLAB. The codes are written independent of ROS or any other external library and are cross-platform (tested in Linux, Mac OS and Windows). The dataset was collected during our research on a novel real-time anomaly detection method for autonomous aerial vehicles. More information about the project is available on the project page <a href="http://theairlab.org/fault-detection/">(link)</a>.</p>
+
+<p><strong><span style="color: #800000;">Please refer to the <em>Download</em> section below to download the dataset and the code.</span></strong></p>
+
+<p>Two publications provide the description of the dataset (including the structure, data collection, etc.). Please proceed to the citation section for more details.</p>
+
+<h3 id="processed-sequences">Processed Sequences</h3>
+
+<p>The main focus of ALFA dataset is the processed data sequences. The list of the sequences is as followed:</p>
+
+<div class="datatable-begin"></div>
+<style>
+	th { font-size: 13px; }
+	td { font-size: 13px; }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Sequence Name <span style="color: red;">*</span></th>
+      <th>Failed Surface</th>
+      <th>Type of Failure</th>
+      <th>Emergency Reaction? <span style="color: red;">**</span></th>
+      <th>Flight Time Pre-Failure (s)</th>
+      <th>Flight Time Post-Failure (s)</th>
+      <th>Total Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2018-07-18-12-10-11 <span style="color: red;">†</span></td>
+      <td>N/A</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>205.5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2018-07-18-15-53-31_1 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>116.3</td>
+      <td>16</td>
+      <td>132.3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2018-07-18-15-53-31_2 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>73.4</td>
+      <td>15.3</td>
+      <td>88.7</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2018-07-18-16-22-01</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>116.6</td>
+      <td>15.9</td>
+      <td>132.5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2018-07-18-16-37-39_1 <span style="color: red;">†</span></td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>30.3</td>
+      <td>0</td>
+      <td>30.3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2018-07-18-16-37-39_2</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>114.2</td>
+      <td>16.3</td>
+      <td>130.5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2018-07-30-16-29-45</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>123.1</td>
+      <td>19.2</td>
+      <td>142.3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>2018-07-30-16-39-00_1 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>116.7</td>
+      <td>14.9</td>
+      <td>131.6</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>2018-07-30-16-39-00_2 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>91.6</td>
+      <td>14.6</td>
+      <td>106.2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>2018-07-30-16-39-00_3 <span style="color: red;">†</span></td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>79.1</td>
+      <td>0</td>
+      <td>79.1</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>2018-07-30-17-10-45</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>117.2</td>
+      <td>15.9</td>
+      <td>133.1</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2018-07-30-17-20-01</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>87.7</td>
+      <td>19</td>
+      <td>106.7</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>2018-07-30-17-36-35</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>133.4</td>
+      <td>23.6</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2018-07-30-17-46-31</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>90.3</td>
+      <td>22.4</td>
+      <td>112.7</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>2018-09-11-11-56-30 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>103.6</td>
+      <td>20.8</td>
+      <td>124.4</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>2018-09-11-14-16-55 <span style="color: red;">†</span></td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>33.5</td>
+      <td>0</td>
+      <td>33.5</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>2018-09-11-14-22-07_1 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>104.8</td>
+      <td>9.4</td>
+      <td>114.2</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>2018-09-11-14-22-07_2 <span style="color: red;">†</span></td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>No</td>
+      <td>49.9</td>
+      <td>12.5</td>
+      <td>62.4</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>2018-09-11-14-41-38 <span style="color: red;">†</span></td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>43.3</td>
+      <td>0</td>
+      <td>43.3</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>2018-09-11-14-41-51 <span style="color: red;">†</span></td>
+      <td>Elevator</td>
+      <td>Stuck at zero</td>
+      <td>No</td>
+      <td>117.8</td>
+      <td>10.7</td>
+      <td>128.5</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>2018-09-11-14-52-54 <span style="color: red;">†</span></td>
+      <td>Aileron</td>
+      <td>Left stuck at zero, then only right stuck at zero</td>
+      <td>No</td>
+      <td>105.2</td>
+      <td>128.2</td>
+      <td>233.4</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>2018-09-11-15-05-11_1 <span style="color: red;">†</span></td>
+      <td>Elevator</td>
+      <td>Stuck at zero</td>
+      <td>No</td>
+      <td>63.4</td>
+      <td>12.8</td>
+      <td>76.2</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>2018-09-11-15-05-11_2 <span style="color: red;">†</span></td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>67.4</td>
+      <td>0</td>
+      <td>67.4</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2018-09-11-15-06-34_1 <span style="color: red;">†</span></td>
+      <td>Rudder</td>
+      <td>Stuck to the right</td>
+      <td>No</td>
+      <td>55.5</td>
+      <td>14.8</td>
+      <td>70.3</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>2018-09-11-15-06-34_2 <span style="color: red;">†</span></td>
+      <td>Rudder</td>
+      <td>Stuck to the right</td>
+      <td>No</td>
+      <td>51.9</td>
+      <td>17.3</td>
+      <td>69.2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>2018-09-11-15-06-34_3 <span style="color: red;">†</span></td>
+      <td>Rudder</td>
+      <td>Stuck to the left</td>
+      <td>No</td>
+      <td>60.1</td>
+      <td>9.3</td>
+      <td>69.4</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>2018-09-11-17-27-13_1 <span style="color: red;">†</span></td>
+      <td>Rudder &amp; Aileron</td>
+      <td>Left Aileron and Rudder stuck at zero</td>
+      <td>No</td>
+      <td>116.3</td>
+      <td>27.2</td>
+      <td>143.5</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>2018-09-11-17-27-13_2 <span style="color: red;">†</span></td>
+      <td>Aileron</td>
+      <td>Both stuck at zero</td>
+      <td>No</td>
+      <td>65.8</td>
+      <td>35.9</td>
+      <td>101.7</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>2018-09-11-17-55-30_1 <span style="color: red;">†</span></td>
+      <td>Aileron</td>
+      <td>Right stuck at zero</td>
+      <td>No</td>
+      <td>111.9</td>
+      <td>21.3</td>
+      <td>133.2</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>2018-09-11-17-55-30_2 <span style="color: red;">†</span></td>
+      <td>Aileron</td>
+      <td>Left stuck at zero</td>
+      <td>No</td>
+      <td>50</td>
+      <td>31.4</td>
+      <td>81.4</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>2018-10-05-14-34-20_1</td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>66.8</td>
+      <td>0</td>
+      <td>66.8</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>2018-10-05-14-34-20_2</td>
+      <td>Aileron</td>
+      <td>Right stuck at zero</td>
+      <td>Yes</td>
+      <td>152.2</td>
+      <td>10</td>
+      <td>162.2</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>2018-10-05-14-37-22_1</td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>72.7</td>
+      <td>0</td>
+      <td>72.7</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>2018-10-05-14-37-22_2</td>
+      <td>Aileron</td>
+      <td>Right stuck at zero</td>
+      <td>No</td>
+      <td>73.4</td>
+      <td>71.5</td>
+      <td>144.9</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>2018-10-05-14-37-22_3</td>
+      <td>Aileron</td>
+      <td>Left stuck at zero</td>
+      <td>No</td>
+      <td>72.4</td>
+      <td>24</td>
+      <td>96.4</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>2018-10-05-15-52-12_1</td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>89.7</td>
+      <td>0</td>
+      <td>89.7</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>2018-10-05-15-52-12_2</td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>48.5</td>
+      <td>0</td>
+      <td>48.5</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>2018-10-05-15-52-12_3</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>49.1</td>
+      <td>17.5</td>
+      <td>66.6</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>2018-10-05-15-55-10</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>100.1</td>
+      <td>13.1</td>
+      <td>113.2</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>2018-10-05-16-04-46</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>76.2</td>
+      <td>16.1</td>
+      <td>92.3</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>2018-10-18-11-03-57</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>104.2</td>
+      <td>12.2</td>
+      <td>116.4</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>2018-10-18-11-04-00</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>111.1</td>
+      <td>11.4</td>
+      <td>122.5</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>2018-10-18-11-04-08_1</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>100.3</td>
+      <td>14.4</td>
+      <td>114.7</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>2018-10-18-11-04-08_2</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>98.2</td>
+      <td>19.7</td>
+      <td>117.9</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>2018-10-18-11-04-35</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>101.3</td>
+      <td>8</td>
+      <td>109.3</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>2018-10-18-11-06-06</td>
+      <td>Engine</td>
+      <td>Full Power Loss</td>
+      <td>Yes</td>
+      <td>102.5</td>
+      <td>14</td>
+      <td>116.5</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>2018-10-18-11-08-24</td>
+      <td>No Failure</td>
+      <td>-</td>
+      <td>No</td>
+      <td>26.4</td>
+      <td>0</td>
+      <td>26.4</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="datatable-end"></div>
+
+<p><span style="color: red;">*</span> The complete sequence name also includes *‘carbonZ_’ *at the beginning of the name in the table and the type of the failure at the end. Please refer to the dataset files for the complete names.</p>
+
+<p><span style="color: red;">**</span> Some sequences include an emergency trajectory activated (a new trajectory replaces the previous one) as soon as the failure happens.</p>
+
+<p><span style="color: red;">†</span> These sequences are published with the ICRA 2019 paper. Please cite the paper if you use them for research purposes.</p>
+
+<h3 id="publications">Publications</h3>
+
+<p>The tools and the dataset are provided with a publication (access on <a href="https://arxiv.org/abs/1907.06268">arXiv</a> or <a href="https://doi.org/10.1177/0278364920966642">The International Journal of Robotics Research website</a>). Please use the following citation if you use either the tools or the dataset:</p>
+
+<p><em>BibTeX:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{keipour:dataset:2019,
+author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer},
+title={ALFA: A Dataset for UAV Fault and Anomaly Detection},
+journal = {The International Journal of Robotics Research},
+volume = {0},
+number = {0},
+pages = {1-6},
+month = {October},
+year = {2020},
+doi = {10.1177/0278364920966642},
+URL = {https://doi.org/10.1177/0278364920966642},
+eprint = {https://doi.org/10.1177/0278364920966642}
+} 
+</code></pre></div></div>
+
+<p><em>IEEE Style:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A. Keipour, M. Mousaei, and S. Scherer, “ALFA: A dataset for UAV fault and anomaly detection,” The International Journal of Robotics Research, vol. 0. no.  0,  pp.  1–6,  October  2020.  [Online]. Available:https://doi.org/10.1177/0278364920966642
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p>The sequences marked with <span style="color: red;">†</span> are released with another publication (access on <a href="https://arxiv.org/abs/1907.00511">arXiv</a> or <a href="https://ieeexplore.ieee.org/document/8794286">IEEE Xplore</a>). If you use any of those sequences, please use the following citation:</p>
+
+<p><em>BibTeX:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{keipour:detection:2019,
+author={Azarakhsh Keipour and Mohammadreza Mousaei and Sebastian Scherer},
+booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)},
+title={Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles},
+year={2019},
+month={May},
+pages={5679-5685},
+doi={10.1109/ICRA.2019.8794286},
+}
+</code></pre></div></div>
+
+<p><em>IEEE Style:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A. Keipour, M. Mousaei, and S. Scherer, “Automatic Real-time Anomaly Detection for Autonomous Aerial Vehicles,” in 2019 IEEE International Conference on Robotics and Automation (ICRA), May 2019, pp.5679-5685. doi: 10.1109/ICRA.2019.8794286. 
+</code></pre></div></div>
+
+<p>Please contact us if you encounter issues or to ask additional questions.</p>
+
+<h3 id="download">Download</h3>
+
+<p>You can download the whole or a portion of the ALFA dataset from <a href="https://doi.org/10.1184/R1/12707963">here</a> (alternative location <a href="https://cmu.box.com/s/u7vne29uiips4n5p1dl2k514s3j3ozby">here</a>). The size of the complete dataset for download is <strong>1.7 GB</strong> (12.5 GB unzipped). Please check the Version History file inside the dataset to see if there are any changes since the last time you have downloaded the dataset.</p>
+
+<p>The supplemental code and the documentation are available at the following link:</p>
+
+<p><a href="https://github.com/castacks/alfa-dataset-tools">https://github.com/castacks/alfa-dataset-tools</a></p>
+
+<p>In addition, the source code of an online fault detection method using this dataset can be accessed from <a href="http://theairlab.org/fault-detection/">this page</a>.</p>
+
+<p>To access the publications please refer to the <em>Publications</em> section above or contact us.</p>
+
+<h3 id="contact">Contact</h3>
+
+<p>Azarakhsh Keipour - (keipour [at] cmu [dot] edu)</p>
+
+<p>Mohammadreza Mousaei - (mmousaei [at] cmu [dot] edu)</p>
+
+<p>Sebastian Scherer - (basti [at] cmu [dot] edu)</p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>This work was supported through NASA Grant Number NNX17CL06C.</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/alfa-dataset/';
+      this.page.identifier = 'https://theairlab.org/alfa-dataset/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

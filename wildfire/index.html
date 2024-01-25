@@ -1,0 +1,589 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Wildland Fire Safety Monitoring - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Wildland Fire Safety Monitoring | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Wildland Fire Safety Monitoring" />
+<meta name="author" content="Andrew Jong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Making wildland fires safer through autonomous overwatch" />
+<meta property="og:description" content="Making wildland fires safer through autonomous overwatch" />
+<link rel="canonical" href="https://theairlab.org/wildfire/" />
+<meta property="og:url" content="https://theairlab.org/wildfire/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2022-12-08-wildfire/wildfire_display_card.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-12-26T02:00:01+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2022-12-08-wildfire/wildfire_display_card.gif" />
+<meta property="twitter:title" content="Wildland Fire Safety Monitoring" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2022-12-08-wildfire/wildfire_display_card.gif","author":{"@type":"Person","name":"Andrew Jong"},"headline":"Wildland Fire Safety Monitoring","dateModified":"2022-12-26T02:00:01+00:00","datePublished":"2022-12-26T02:00:01+00:00","description":"Making wildland fires safer through autonomous overwatch","url":"https://theairlab.org/wildfire/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/wildfire/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-large  is-bold is-primary"  style="background: linear-gradient(180deg, rgba(204,0,44,.1),rgba(204,0,44,0)), url('/img/posts/2022-12-08-wildfire/wildfire_hero.jpg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#systems-drone-platform">Systems: Drone Platform</a></li>
+  <li><a href="#planning">Planning</a></li>
+  <li><a href="#simulator-wildfire-airsim">Simulator: Wildfire AirSim</a></li>
+  <li><a href="#field-tests">Field Tests</a>
+    <ul>
+      <li><a href="#in-the-wild-prescribed-fires">In the wild: prescribed fires</a></li>
+      <li><a href="#controlled-sites-gascola">Controlled sites: Gascola</a></li>
+    </ul>
+  </li>
+  <li><a href="#future-plans">Future Plans</a></li>
+  <li><a href="#contributors">Contributors</a></li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2022-12-26T02:00:01+00:00">Dec 26, 2022</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			Andrew Jong
+		
+		</div>
+	</div></p>
+
+    <h1>Wildland Fire Safety Monitoring</h1>
+
+    <p>The dangers of wildfire continues to grow due to climate change. Mere minutes can turn a previously safe situation into a near-death scenario, as shown in the video below. Firefighters need more detailed and timely situational awareness to operate safely in these chaotic environments.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/P8zU1MjZSnE" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>We are conducting research to develop Unmanned Aerial Systems to aid in wildfire monitoring. The hazardous, dynamic, and visually degraded environment of wildfire gives rise to many unsolved fundamental research challenges.</p>
+
+<ul>
+  <li><strong>Planning:</strong> how should the system decide when and where to observe in a constantly evolving and uncertain environment?</li>
+  <li><strong>Perception:</strong> how do we overcome severe visual degradation to detect crew members and obstacles?</li>
+  <li><strong>Forecasting:</strong> how can we use our observations to predict how the environment will evolve in the short and long term?</li>
+  <li><strong>Integration:</strong> how do we incorporate all these challenges into a cohesive closed-loop system?</li>
+</ul>
+
+<p>We aim to conduct integrative research that enables autonomous systems to operate robustly under high uncertainty and risk.</p>
+
+<h2 id="systems-drone-platform">Systems: Drone Platform</h2>
+
+<figure>
+  <img src="/img/posts/2022-12-08-wildfire/wildfire_team_front.jpg" style="width:100%" />
+  <figcaption>
+  (Left to right) Andrew, Kevin, Sabrina, Aksahy, Arjun, and Manuj with the lab's Wildfire drone, built on top of a DJI M600. Photo taken at prescribed fire site State Game Lands 174 in Pennsylvania.
+ </figcaption>
+</figure>
+
+<p>We built an aerial robotics platform for wildland fire monitoring.
+Powered by a compact yet powerful NVIDIA Jetson onboard computer, our UAS processes and plans on high density information in real time.
+Its RGB, thermal, and lidar sensors give the drone multiple sources of information to work with, letting it
+to perceive, map, and communicate fire-position up to a 1-km distance.</p>
+
+<figure>
+  <img src="/img/posts/2022-12-08-wildfire/wildfire_drone_closeup.jpg" style="width:100%" />
+  <figcaption>
+  Closeup shot of the drone, showing lidar (round puck) and housing for downward-facing thermal and RGB sensors (center, blue). The onboard computer is mounted to the drone's frame (right).
+ </figcaption>
+</figure>
+
+<p>Our UAS is also intelligent.
+It autonomously forms and executes a plan from human-in-the-loop input. The UAS continues to plan autonomously in real time based on its new observations about the world. Throughout, the drone streams back real-time HD video to the ground station. See the <a href="#field-tests">Field Tests</a> section below for video demonstration.</p>
+
+<!-- <figure>
+  <img src="/img/posts/2022-12-08-wildfire/wildfire_functional_architecture.png" style="width:100%" />
+  <img src="/img/posts/2022-12-08-wildfire/wildfire_cyberphysical_architecture.png" style="width:100%" />
+  <figcaption>
+  Functional (top) and cyber-physical (bottom) architecture diagrams of our wildfire multirotor drone.
+ </figcaption>
+</figure> -->
+
+<p>Detailed documentation about the system may be found on the <a href="https://mrsdprojects.ri.cmu.edu/2022teamd/">Fireflies system website</a>, developed in collaboration with CMU’s MRSD program.</p>
+
+<h2 id="planning">Planning</h2>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/IgvxBOlDikw" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Informative path planning is an important research topic in robotics with several applications in the spatiotemporal monitoring domain. Most works only consider planning on static information maps or short-horizon planning, whereas many real world scenarios call for planning on the dynamics of an environment with evolving information. Planning with growing and dynamic uncertainty presents a unique challenge requiring long-term horizon planning for globally optimal trajectories. In this work we describe dynamic information maps and develop approaches based on Monte Carlo Tree Search (MCTS) for long-horizon planning. We first develop an MCTS that uses informed time-aware actions to plan an optimal trajectory in the dynamic map. We further build upon this method with a learned approach that directly predicts the future value of a state instead of requiring a computationally intensive rollout. We demonstrate that both these methods outperform a primitive action MCTS baseline on a multitude of randomly generated experiments.</p>
+
+<p>This work is submitted and under review for <a href="https://www.icra2023.org/">ICRA 2023</a>. Paper may be found <a href="https://drive.google.com/file/d/1IV4F7ksh9xjiFDN8v4Y11nxaV9DE6x38/view?usp=share_link">here</a>.</p>
+
+<h2 id="simulator-wildfire-airsim">Simulator: Wildfire AirSim</h2>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/HrZQgI72u5I" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Wildfires are obviously dangerous environments to fly in. Therefore it’s of utmost importance to validate as much as possible about any planning algorithms before deploying them in the field.</p>
+
+<p>We develop an open-source robotics simulator for autonomous aerial monitoring of wildland fires. We implement the simulator with <a href="https://microsoft.github.io/AirSim/">AirSim</a>, <a href="https://www.unrealengine.com/">Unreal Engine</a>, and <a href="https://github.com/sig-gis/gridfire">GridFire</a>.
+AirSim permits flexible API control through ROS. Unreal Engine provides high quality graphics, visualization, and powerful environment editing. GridFire is an open source scientific wildfire model, allowing one to import real-world landsat data of any location on earth, to simulate realistic growth of fires. We combine the advantages of all these sources into one cohesive simulator: Wildfire AirSim.</p>
+
+<p>The alpha release of our open source simulator may be found on our <a href="https://github.com/castacks/WildfireAirSim">GitHub</a>. We will continue development over the next few years to close the sim-to-real gap.</p>
+
+<h2 id="field-tests">Field Tests</h2>
+
+<h3 id="in-the-wild-prescribed-fires">In the wild: prescribed fires</h3>
+
+<p>Over the past two years, we’ve had the opportunity to collect data and test autonomy over prescribed fires. Thusfar, our team has flown over four prescribed burns in western Pennsylvania.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/fpyI2Rul7GQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h3 id="controlled-sites-gascola">Controlled sites: Gascola</h3>
+
+<p>Since prescribed fire season only occurs twice per year in spring and fall, we instead test frequently at our own field testing site.
+Below shows our latest test conducted at CMU’s <a href="https://goo.gl/maps/jQHA8THia2ufj3ZQ7">Gascola test site</a> for field robotics, featuring planning and streaming back of information in real time.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/lFPr57q1Zng" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Further photos in our <a href="https://photos.app.goo.gl/vc6PZrPTPL2asXpq8">Google Photos album</a>.</p>
+
+<h2 id="future-plans">Future Plans</h2>
+
+<p>We’re fortunate and thankful to have been awarded a three-year grant from the <a href="https://beta.nsf.gov/funding/opportunities/national-robotics-initiative-30-innovations">National Science Foundation’s National Robotics Initiative</a>.
+The funding is scheduled for 2023-2026.
+In essence, we observe that existing technology gives information on the scale of kilometers and hours, but crew on the frontlines need situational awareness at <em>their</em> scale, i.e. meters and minutes.
+Our proposed solution is to fly much closer to the ground to provide this needed micro-scale monitoring.
+We aim to pursue the following research initiatives:</p>
+
+<figure>
+  <img src="/img/posts/2022-12-08-wildfire/nsf_nri_tradeoffs.jpg" style="width:100%" />
+  <img src="/img/posts/2022-12-08-wildfire/nsf_nri_flowchart.jpg" style="width:100%" />
+  <figcaption>
+  Planned research contributions.
+ </figcaption>
+</figure>
+
+<h2 id="contributors">Contributors</h2>
+<ul>
+  <li>
+    <p><a href="https://theairlab.org/team/andrew_jong">Andrew Jong</a> (Lead - Planning, Perception, Systems, Simulation)</p>
+  </li>
+  <li>
+    <p><a href="https://theairlab.org/team/bradym/">Brady Moon</a> (Planning)</p>
+  </li>
+  <li>
+    <p><a href="https://arjunchauhan0910.github.io/">Arjun Chauhan</a> (Systems)</p>
+  </li>
+  <li>
+    <p><a href="https://sites.google.com/view/kevin-gmelin">Kevin Gmelin</a> (Systems)</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/in/snshen/">Sabrina Shen</a> (Systems)</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/in/manuj-trehan/">Manuj Trehan</a> (Systems)</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/in/akshay-venkatesh/?trk=public_profile_project_contributor-image">Akshay Venkatesh</a> (Systems)</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/in/siva-kailas-a35316138/">Siva Kailas</a> (Perception, Planning)</p>
+  </li>
+  <li>
+    <p><a href="https://theairlab.org/team/junbiny/">Junbin Yuan</a> (Perception, Planning)</p>
+  </li>
+  <li>
+    <p>Calvin Nguyen (Simulation)</p>
+  </li>
+  <li>
+    <p>Jacky He (Simulation)</p>
+  </li>
+  <li>
+    <p><a href="http://www.cs.cmu.edu/~sycara/">Dr. Katia Sycara</a> (Co-PI)</p>
+  </li>
+  <li>
+    <p><a href="https://theairlab.org/team/sebastian/">Dr. Sebastian Scherer</a> (PI)</p>
+  </li>
+</ul>
+
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/wildfire/';
+      this.page.identifier = 'https://theairlab.org/wildfire/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

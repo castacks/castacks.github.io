@@ -1,0 +1,704 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new) - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new) | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new)" />
+<meta name="author" content="Yaoyu Hu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="What challenges to build accurate dense 3D models for bridges?" />
+<meta property="og:description" content="What challenges to build accurate dense 3D models for bridges?" />
+<link rel="canonical" href="https://theairlab.org/shimizu/" />
+<meta property="og:url" content="https://theairlab.org/shimizu/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2023-01-17-shimizu-updated/thumbnail_sfm.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-17T18:58:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2023-01-17-shimizu-updated/thumbnail_sfm.jpg" />
+<meta property="twitter:title" content="Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new)" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2023-01-17-shimizu-updated/thumbnail_sfm.jpg","author":{"@type":"Person","name":"Yaoyu Hu"},"headline":"Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new)","dateModified":"2023-01-17T18:58:00+00:00","datePublished":"2023-01-17T18:58:00+00:00","description":"What challenges to build accurate dense 3D models for bridges?","url":"https://theairlab.org/shimizu/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/shimizu/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-large  is-bold is-primary"  style="background: linear-gradient(180deg, rgba(204,0,44,.1),rgba(204,0,44,0)), url('/img/posts/2023-01-17-shimizu-updated/hero.jpg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#hardware-at-a-glance">Hardware at a glance</a></li>
+  <li><a href="#software-created-for-working-with-the-sensors-and-robots">Software created for working with the sensors and robots</a></li>
+  <li><a href="#autonomy">Autonomy</a></li>
+  <li><a href="#data-processing">Data processing</a></li>
+  <li><a href="#stereo--lidar-enhanced-sfm">Stereo &amp; LiDAR-enhanced SfM</a></li>
+  <li><a href="#high-resolution-binocular-stereo-vision">High-resolution binocular stereo vision</a></li>
+  <li><a href="#line-based-2d-3d-localization">Line-based 2D-3D localization</a></li>
+  <li><a href="#abstract-mapping">Abstract mapping</a></li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2023-01-17T18:58:00+00:00">Jan 17, 2023</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/yaoyuh">Yaoyu Hu</a>
+		
+		</div>
+	</div></p>
+
+    <h1>Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new)</h1>
+
+    <p>During a 4-year research collaboration with an international corporation in civil engineering (<a href="https://www.shimz.co.jp/en/company/about/sit/">Shimizu Institute of Technology</a>), people in the AirLab built several specialized sensor components and robots to explore the possibilities of applying our knowledge and skills to the commonwealth of the general public.</p>
+
+<p>With the target of enabling automated infrastructure inspection for structures such as buildings and bridges, we developed a series of sensor payload and drone systems that are able to automatically collect multi-model data, with an offline reconstruction system that utilizes the data collected to reconstruct the dense 3D model of the structure with geometric details and colored textures. The reconstructed data can be utilized for inspection purposes such as surface defect detection and quantification. They can also be further processed into 3D geometries that are suitable for scientific and engineering computation and analysis, e.g. structural safety analysis.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/01_overview.jpg" style="width:100%" />
+  <figcaption>
+  Overview of automated infrastruture inspection. <br />
+  *: Collaborations with the KLab and .CerLab. at Carnegie Mellon University.
+ </figcaption>
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/f8_asLTRino" frameborder="0" allowfullscreen=""></iframe></div>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/f6rbAVIwvnk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>To fulfill the infrastructure inspection requirements, the sensor components and the robot platform need to deliver some important features:</p>
+<ul>
+  <li>Sub-millimeter 3D reconstruction for better defect quantification.</li>
+  <li>Computer-aided inspection capability for working with human inspectors.</li>
+  <li>Automatic defect detection in images.</li>
+  <li>Reconstruction of the inspected target for computer-aided engineering such as Finite Element Method (FEM) computations of structural safety analysis.</li>
+</ul>
+
+<p>There are several challenges we have addressed:</p>
+<ul>
+  <li>Extremely dense 3D reconstruction.</li>
+  <li>Stereo Structure-from-Motion (SfM).</li>
+  <li>High-resolution binocular stereo vision.</li>
+  <li>Robust robot state estimation.</li>
+  <li>Abstract mapping for lightweight localization.</li>
+</ul>
+
+<p>Some highlights of our reconstruction results from real-world data.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/ov_01_connecticut.jpg" style="width:100%" />
+  <img src="/img/posts/2023-01-17-shimizu-updated/ov_02_connecticut.jpg" style="width:100%" />
+  <figcaption>
+  A bridge girder of ~70m long.
+ </figcaption>
+</figure>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/ov_03_beam.jpg" style="width:100%" />
+  <figcaption>
+  A concrete beam specimen.
+ </figcaption>
+</figure>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/ov_04_bridge_section.jpg" style="width:100%" />
+  <figcaption>
+  A bridge section.
+ </figcaption>
+</figure>
+
+<p>In the course of resolving the challenges and fulfilling the research objectives, the team in the AirLab built a series of hardware and software.</p>
+
+<h1 id="sensors--robots">Sensors &amp; Robots</h1>
+
+<h2 id="hardware-at-a-glance">Hardware at a glance</h2>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/02_hardware_at_a_glance.jpg" style="width:100%" />
+  <figcaption>
+  The sensor components and the robots we worked on.
+ </figcaption>
+</figure>
+
+<p>The sensor components are featured as the following. It is a multi-modal sensor payload with the capability of real-time SLAM and high-resolution imaging.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/03_sensors.jpg" style="width:100%" />
+  <img src="/img/posts/2023-01-17-shimizu-updated/04_installation_configurations.jpg" style="width:100%" />
+  <figcaption>
+  Rotating LiDAR with various installation configurations.
+ </figcaption>
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/Gy-LWZ738zo" frameborder="0" allowfullscreen=""></iframe></div>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/05_dual_lidar.jpg" style="width:100%" />
+  <figcaption>
+  Dual-LiDAR for better SLAM in deteriorated environments.
+ </figcaption>
+</figure>
+
+<h2 id="software-created-for-working-with-the-sensors-and-robots">Software created for working with the sensors and robots</h2>
+
+<p>For our specialized sensor payloads, we have developed many pieces of software to effectively utilize them.</p>
+
+<p><strong>Customized time serving and time synchronization.</strong>
+A customized solution for easy synchronizing multiple sensors and the computer.</p>
+
+<p><strong>Camera driver for binocular stereo camera.</strong>
+Hardware time synchronization and external hardware triggers for the stereo camera. Custom exposure control for better consistency between the two cameras of the stereo camera.</p>
+
+<p><strong>LiDAR-camera extrinsic calibration.</strong></p>
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/10_lidar_camera_calibration.jpg" style="width:100%" />
+  <figcaption>
+  Calibrating the extrinsics between LiDAR and camera using edge information in the scene
+ </figcaption>
+</figure>
+
+<p><strong>Stereo camera calibration.</strong>
+Intrinsic and extrinsic calibration of the stereo camera.</p>
+
+<p><strong>Thermal camera calibration.</strong>
+We designed several thermal targets for calibrating the intrinsics of the thermal camera.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/11_thermal_intrinsics.jpg" style="width:100%" />
+  <figcaption>
+  Different targets for thermal camera calibration.
+ </figcaption>
+</figure>
+
+<p><strong>Thermal-RGB-LiDAR calibration.</strong>
+Joint calibration for the extrinsics among thermal camera, RGB camera, and LiDAR.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/12_thermal_rgb_lidar_calib.jpg" style="width:100%" />
+</figure>
+
+<p><strong>Automatic color correction.</strong>
+Automatically detect the color target using a deep-learning method. Automatically locate the target color block and correct the image color. Vignetting correction with multiple frames of detection.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/13_auto_color_correction.jpg" style="width:100%" />
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/9D_ScohNFko" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><strong>IMU orientation calibration.</strong>
+Detected procedure for calibrating the rotated angle of the IMU once the payload changes its configuration.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/14_IMU_angle.jpg" style="width:80%" />
+</figure>
+
+<h2 id="autonomy">Autonomy</h2>
+
+<p><strong>Dual-LiDAR-IMU real-time state estimation.</strong></p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/15_luce_drone_duo_lidar.jpg" style="width:100%" />
+  <img src="/img/posts/2023-01-17-shimizu-updated/16_odometry.jpg" style="width:100%" />
+  <figcaption>
+  Robust dual-LiDAR-IMU odometry runs in real-time.
+ </figcaption>
+</figure>
+
+<p><strong>Full-stack autonomy software.</strong>
+A full-stack autonomy software developed in the AirLab has been deployed on our drone. The autonomy software implements the robot state machine, global and local trajectory planning, and robot control.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/9PEF0UA6OkI" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><strong>Computer-aid inspection route planning.</strong>
+A simple GUI for the human inspector to design and manage inspection routes.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/Y2SE4JpLVWE" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/KnuLxzohJVk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="data-processing">Data processing</h2>
+
+<p>Due to the sheer amount of data we need to handle, many of the data processing procedures are facilitated by automatic scripts and run on remote servers.</p>
+
+<p><strong>Data extraction and pre-processing.</strong>
+Images and point clouds are extracted from a large amount of raw data and preprocessed by leveraging the multi-core structure of the remote server. Parallel computing is applied whenever we can.</p>
+
+<p><strong>Large-scale 3D reconstruction.</strong>
+We have a set of dedicated programs and scripts to process the collected data and perform large-scale 3D reconstruction on HPCs. Similar to pre-processing, we try to leverage the multi-core architectures on the remote server to accelerate the process. This allows us to do reconstructions with billions of 3D points.</p>
+
+<p><strong>Meshing.</strong>
+Customized program for automatically converting a point cloud to a surface mesh. Automatically, fill the holes in the surface mesh. The following is an example where we scanned a concrete beam specimen and reconstructed a dense point cloud of it. Then a surface mesh is generated with hole-filling.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/17_meshing.jpg" style="width:100%" />
+  <figcaption>
+  Conversion from a point cloud to a surface mesh.
+ </figcaption>
+</figure>
+
+<p><strong>Thermal-mapping.</strong>
+With the reconstructed dense 3D point cloud based on RGB images, we can project the thermal image to the point cloud. Special treatments are applied to smooth the intensity values of the thermal images to have temporal-consistent thermal pixel values.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/18_thermal_mapping.jpg" style="width:100%" />
+  <figcaption>
+  Project thermal data to a point cloud.
+ </figcaption>
+</figure>
+
+<h1 id="research">Research</h1>
+
+<p>Apart from the engineering efforts, we also identified several research topics and pushed the relevant state-of-the-art toward more accurate, efficient, and robust algorithms.</p>
+
+<h2 id="stereo--lidar-enhanced-sfm">Stereo &amp; LiDAR-enhanced SfM</h2>
+<p>We developed new algorithms by introducing stereo image constrain and LiDAR information to Structure-from-Motion (SfM). By doing this, the SfM becomes much more robust to noise and mismatches and the reconstructed point clouds have the correct scale.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/19_sfm.jpg" style="width:100%" />
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/GUcKZ2PLPRQ" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/dJaaF8POB64" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Related work: Estimating the Localizability of Tunnel-like Environments using LiDAR and UWB.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/ZK8wA3pyPyE" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="high-resolution-binocular-stereo-vision">High-resolution binocular stereo vision</h2>
+<p>Perform reconstruction on a single pair of 4K-resolution stereo images. A single stereo pair results in ~12M reconstructed points that allow us to preserve as much detail as possible. Deep-learning methods are utilized.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/20_stereo.jpg" style="width:100%" />
+  <figcaption>
+  Sample scenes and reconstructed dense point clouds.
+ </figcaption>
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/X7j2-vkyZ9A" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/MibLMu-f14I" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="line-based-2d-3d-localization">Line-based 2D-3D localization</h2>
+<p>Exploit that line features in the inspected scenes to do better localization against a pre-built map. Can also be used to aid real-time visual odometry for more accurate and robust performance.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/21_line_based_localization.jpg" style="width:100%" />
+  <figcaption>
+  Sample scenes and reconstructed dense point clouds.
+ </figcaption>
+</figure>
+
+<p>Line detection.</p>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/fUstzW7VsF0" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Visual odometry and localization by line matching.</p>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/3AjgdmW4RCQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="abstract-mapping">Abstract mapping</h2>
+<p>Turn a heavy point cloud map into a lightweight abstract map represented by primitive geometries such as second-order surfaces (quadrics). Utilize the abstract map to do faster localization.</p>
+
+<figure>
+  <img src="/img/posts/2023-01-17-shimizu-updated/22_abstract_mapping.jpg" style="width:100%" />
+  <figcaption>
+  Sample scenes and reconstructed dense point clouds.
+ </figcaption>
+</figure>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/dTuwAkVQGnQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h1 id="publications">Publications</h1>
+<ul>
+  <li><strong>Unified Representation of Geometric Primitives for Graph-SLAM Optimization Using Decomposed Quadrics.</strong> By Zhen, W., Yu, H., Hu, Y. and Scherer, S. In 2022 International Conference on Robotics and Automation (ICRA), 2022.</li>
+  <li><strong>ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images.</strong> By Hu, Y., Wang, W., Yu, H., Zhen, W. and Scherer, S. In 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 5671-5678, 2021.</li>
+  <li><strong>ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras.</strong> By Li, H., Yu, H., Yang, W., Yu, L. and Scherer, S. In ISPRS Journal of Photogrammetry and Remote Sensing, vol. 178, pp. 187–202, 2021.</li>
+  <li><strong>Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction.</strong> By Hu, Y., Zhen, W. and Scherer, S. In 2020 IEEE International Conference on Robotics and Automation (ICRA), pp. 8637–8643, , 2020.</li>
+  <li><strong>LiDAR-enhanced Structure-from-Motion.</strong> By Zhen, W., Hu, Y., Yu, H. and Scherer, S. In 2020 IEEE International Conference on Robotics and Automation (ICRA), , pp. 6773–6779, , 2020.</li>
+  <li><strong>Line-Based 2D–3D Registration and Camera Localization in Structured Environments.</strong> By Yu, H., Zhen, W., Yang, W. and Scherer, S. In IEEE Transactions on Instrumentation and Measurement, vol. 69, no. 11, pp. 8962–8972, Jul. 2020.</li>
+  <li><strong>Monocular Camera Localization in Prior LiDAR Maps with 2D-3D Line Correspondences.</strong> By Yu, H., Zhen, W., Yang, W., Zhang, J. and Scherer, S. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020.</li>
+  <li><strong>A Joint Optimization Approach of LiDAR-Camera Fusion for Accurate Dense 3-D Reconstructions.</strong> By Zhen, W., Hu, Y., Liu, J. and Scherer, S. In IEEE Robotics and Automation Letters, vol. 4, no. 4, pp. 3585–3592, Oct. 2019.</li>
+  <li><strong>A Unified 3D Mapping Framework Using a 3D or 2D LiDAR.</strong> By Zhen, W. and Scherer, S. In International Symposium on Experimental Robotics, pp. 702–711, 2018.</li>
+  <li><strong>Achieving Robust Localization in Geometrically Degenerated Tunnels.</strong> By Zhen, W. and Scherer, S. In Workshop on Challenges and Opportunities for Resilient Collective Intelligence in Subterranean Environments, Pittsburgh, Pa, 2018.</li>
+  <li><strong>Robust localization and localizability estimation with a rotating laser scanner.</strong> By Zhen, W., Zeng, S. and Scherer, S. In Proceedings - IEEE International Conference on Robotics and Automation, Singapore, Singapore, pp. 6240–6245, 2017.</li>
+</ul>
+
+<h1 id="contributors">Contributors</h1>
+
+<p>Long term</p>
+<ul>
+  <li><a href="https://theairlab.org/team/sebastian/">Dr. Sebastian Scherer</a> (PI)</li>
+  <li><a href="https://theairlab.org/team/alumni/weikun/">Weikun Zhen</a></li>
+  <li><a href="https://theairlab.org/team/yaoyuh/">Yaoyu Hu</a></li>
+  <li><a href="https://levenberg.github.io">Huai Yu</a></li>
+  <li><a href="https://theairlab.org/team/junbiny/">Junbin Yuan</a></li>
+</ul>
+
+<p>Short term. Thank you so much for your help! (Alphabetical order)</p>
+<ul>
+  <li><a href="https://theairlab.org/team/andrews/">Andrew Saba</a></li>
+  <li>Chenxi Ji, Intern from Tsinghua University, China</li>
+  <li><a href="https://theairlab.org/team/alumni/hengruiz/">Henry (Hengrui) Zhang</a></li>
+  <li><a href="https://theairlab.org/team/alumni/jingfengl/">Jingfeng Liu</a></li>
+  <li><a href="https://theairlab.org/team/johnk/">John Keller</a></li>
+  <li>Longwen Zhang, Intern from ShanghaiTech University, China</li>
+  <li>Punit Bhatt, MSCV at CMU</li>
+  <li><a href="https://theairlab.org/team/alumni/sam_zeng/">Sam Zeng</a></li>
+  <li>Weyne (Ruixuan) Liu, Intern at CMU</li>
+</ul>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/shimizu/';
+      this.page.identifier = 'https://theairlab.org/shimizu/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

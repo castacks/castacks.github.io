@@ -1,0 +1,516 @@
+[
+  
+    {
+
+      "title"    : "Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition",
+      "url"      : "/multi-robot-multi-room/",
+      "date"     : "2023-12-06 02:00:01 +0000",
+      "author"   : "Seungchan Kim"
+
+    } ,
+  
+    {
+
+      "title"    : "SplaTAM: Splat, Track &amp; Map 3D Gaussians for Dense RGB-D SLAM",
+      "url"      : "/splatam/",
+      "date"     : "2023-12-04 12:00:01 +0000",
+      "author"   : "Nikhil Keetha"
+
+    } ,
+  
+    {
+
+      "title"    : "FoundLoc: Vision-based Onboard Aerial Localization in the Wild",
+      "url"      : "/foundloc/",
+      "date"     : "2023-11-24 12:00:01 +0000",
+      "author"   : "Yao He"
+
+    } ,
+  
+    {
+
+      "title"    : "Shared Airspace",
+      "url"      : "/Shared_Airspace/",
+      "date"     : "2023-11-23 02:00:01 +0000",
+      "author"   : "Yao He"
+
+    } ,
+  
+    {
+
+      "title"    : "DARPA TRIAGE CHALLENGE",
+      "url"      : "/research/2023/11/08/DARPA-TRIAGE-CHALLENGE/",
+      "date"     : "2023-11-08 02:00:01 +0000",
+      "author"   : "AirLab"
+
+    } ,
+  
+    {
+
+      "title"    : "Time-Optimal Path Planning in a Constant Wind for Uncrewed Aerial Vehicles using Dubins Set Classification",
+      "url"      : "/trochoids/",
+      "date"     : "2023-11-06 02:00:01 +0000",
+      "author"   : "Brady Moon"
+
+    } ,
+  
+    {
+
+      "title"    : "Image Sharing",
+      "url"      : "/research/2023/10/26/image_sharing/",
+      "date"     : "2023-10-26 10:50:07 +0000",
+      "author"   : "John Keller"
+
+    } ,
+  
+    {
+
+      "title"    : "Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision",
+      "url"      : "/gicandidates/",
+      "date"     : "2023-10-10 20:00:00 +0000",
+      "author"   : "Conner Pulling"
+
+    } ,
+  
+    {
+
+      "title"    : "Off-road driving by learning from interaction and demonstration",
+      "url"      : "/offroad/",
+      "date"     : "2023-08-08 10:17:07 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "AnyLoc: Towards Universal Place Recognition",
+      "url"      : "/anyloc/",
+      "date"     : "2023-08-01 12:00:01 +0000",
+      "author"   : "Nikhil Keetha"
+
+    } ,
+  
+    {
+
+      "title"    : "Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection (new)",
+      "url"      : "/shimizu/",
+      "date"     : "2023-01-17 18:58:00 +0000",
+      "author"   : "Yaoyu Hu"
+
+    } ,
+  
+    {
+
+      "title"    : "Wildland Fire Safety Monitoring",
+      "url"      : "/wildfire/",
+      "date"     : "2022-12-26 02:00:01 +0000",
+      "author"   : "Andrew Jong"
+
+    } ,
+  
+    {
+
+      "title"    : "How do you train AI Pilots?",
+      "url"      : "/aitf/",
+      "date"     : "2022-09-12 06:19:00 +0000",
+      "author"   : "Joao Dantas"
+
+    } ,
+  
+    {
+
+      "title"    : "Design, Modeling and Control for a Tilt-rotor VTOL UAV in the Presence of Actuator Failure",
+      "url"      : "/vtol/",
+      "date"     : "2022-05-20 10:40:07 +0000",
+      "author"   : "AirLab"
+
+    } ,
+  
+    {
+
+      "title"    : "TartanDrive is selected as an outstanding learning paper finalist in ICRA2022",
+      "url"      : "/highlight-tartandrive/",
+      "date"     : "2022-05-03 10:33:07 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "TartanDrive: A Large-Scale Dataset for Learning Off-Road Dynamics Models",
+      "url"      : "/tartandrive-dataset/",
+      "date"     : "2022-05-03 10:33:07 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "SubT UAV Code Release",
+      "url"      : "/research/2022/05/02/subt_code/",
+      "date"     : "2022-05-02 10:50:07 +0000",
+      "author"   : "AirLab"
+
+    } ,
+  
+    {
+
+      "title"    : "TIGRIS: An Informed Sampling-based Algorithm for Informative Path Planning",
+      "url"      : "/tigris/",
+      "date"     : "2022-03-25 02:00:07 +0000",
+      "author"   : "Brady Moon"
+
+    } ,
+  
+    {
+
+      "title"    : "AirObject: A Temporally Evolving Graph Embedding for Object Identification",
+      "url"      : "/airobject/",
+      "date"     : "2022-03-15 12:00:00 +0000",
+      "author"   : "Nikhil Varma Keetha"
+
+    } ,
+  
+    {
+
+      "title"    : "Air Series Articles Released",
+      "url"      : "/airseries/",
+      "date"     : "2022-03-12 00:00:00 +0000",
+      "author"   : "Chen Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "3D Human Reconstruction with Collaborative Aerial Cameras",
+      "url"      : "/multidrone/",
+      "date"     : "2022-03-07 12:00:00 +0000",
+      "author"   : "Rebecca Martin"
+
+    } ,
+  
+    {
+
+      "title"    : "Lifelong Graph Learning",
+      "url"      : "/lgl/",
+      "date"     : "2022-03-05 12:00:00 +0000",
+      "author"   : "Chen Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Wire detection dataset",
+      "url"      : "/wire-detection/",
+      "date"     : "2022-02-06 18:53:00 +0000",
+      "author"   : "Edited by Yaoyu Hu"
+
+    } ,
+  
+    {
+
+      "title"    : "AirDOS: Dynamic SLAM benefits from Articulated Objects",
+      "url"      : "/airdos/",
+      "date"     : "2022-02-06 12:00:00 +0000",
+      "author"   : "Yuheng Qiu"
+
+    } ,
+  
+    {
+
+      "title"    : "AirCode: A Robust Object Encoding Method",
+      "url"      : "/aircode/",
+      "date"     : "2021-10-06 12:00:00 +0000",
+      "author"   : "Chen Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "AirLoop: Lifelong loop closure detection",
+      "url"      : "/airloop/",
+      "date"     : "2021-09-28 02:00:07 +0000",
+      "author"   : "Dasong Gao"
+
+    } ,
+  
+    {
+
+      "title"    : "XPlaneROS : ROS Wrapper for Autonomous Fixed Wing Applications",
+      "url"      : "/xplane_ros/",
+      "date"     : "2021-09-03 02:00:07 +0000",
+      "author"   : "Rohan Baijal"
+
+    } ,
+  
+    {
+
+      "title"    : "TrajAir: A General Aviation Trajectory Dataset",
+      "url"      : "/trajair/",
+      "date"     : "2021-06-29 09:00:07 +0000",
+      "author"   : "Brady Moon and Jay Patrikar"
+
+    } ,
+  
+    {
+
+      "title"    : "i3dLoc: Image-to-range Cross-domain Localization",
+      "url"      : "/i3dloc/",
+      "date"     : "2021-05-25 17:28:00 +0000",
+      "author"   : "Peng Yin"
+
+    } ,
+  
+    {
+
+      "title"    : "Unified line segment detection and line based 2D-3D registration/localization",
+      "url"      : "/ulsd/",
+      "date"     : "2021-05-25 10:50:07 +0000",
+      "author"   : "Huai Yu"
+
+    } ,
+  
+    {
+
+      "title"    : "Increasing Energy Productivity of First/Last Mile Goods Movement",
+      "url"      : "/doe/",
+      "date"     : "2021-04-02 10:50:07 +0000",
+      "author"   : "Jay Patrikar and Brady Moon"
+
+    } ,
+  
+    {
+
+      "title"    : "Fully-Actuated UAVs: Control, Analysis and Applications",
+      "url"      : "/fully-actuated/",
+      "date"     : "2021-03-10 10:50:07 +0000",
+      "author"   : "Azarakhsh Keipour"
+
+    } ,
+  
+    {
+
+      "title"    : "ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images",
+      "url"      : "/orstereo/",
+      "date"     : "2021-03-05 02:23:37 +0000",
+      "author"   : "Yaoyu Hu"
+
+    } ,
+  
+    {
+
+      "title"    : "Yamaha-CMU Off-Road Dataset",
+      "url"      : "/yamaha-offroad-dataset/",
+      "date"     : "2021-02-01 13:17:07 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "TartanVO: A Generalizable Learning-based VO",
+      "url"      : "/tartanvo/",
+      "date"     : "2020-12-13 13:13:37 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection",
+      "url"      : "/landing-on-vehicle/",
+      "date"     : "2020-12-06 10:50:07 +0000",
+      "author"   : "Azarakhsh Keipour"
+
+    } ,
+  
+    {
+
+      "title"    : "Long-range Aircraft Detection and Tracking",
+      "url"      : "/aircraft-detection/",
+      "date"     : "2020-11-30 00:00:00 +0000",
+      "author"   : "Sourish Ghosh and Jay Patrikar"
+
+    } ,
+  
+    {
+
+      "title"    : "In-flight positional and energy use dataset of package delivery quadcopter UAVs",
+      "url"      : "/energy-dataset/",
+      "date"     : "2020-10-23 10:50:07 +0000",
+      "author"   : "Brady Moon"
+
+    } ,
+  
+    {
+
+      "title"    : "Exploiting Physical Interactions to Increase the Understanding of Dynamics and Environment Properties for Enhanced Autonomy",
+      "url"      : "/Intuitive Physics/",
+      "date"     : "2020-08-26 10:50:07 +0000",
+      "author"   : "Junbin Yuan and Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Real-time Fault Detection for Autonomous Aerial Vehicles",
+      "url"      : "/fault-detection/",
+      "date"     : "2020-07-15 10:50:07 +0000",
+      "author"   : "Azarakhsh Keipour"
+
+    } ,
+  
+    {
+
+      "title"    : "AirLab Failure and Anomaly (ALFA) Dataset",
+      "url"      : "/alfa-dataset/",
+      "date"     : "2020-07-15 10:50:07 +0000",
+      "author"   : "Azarakhsh Keipour"
+
+    } ,
+  
+    {
+
+      "title"    : "Unsupervised Online Learning for Visual Interestingness",
+      "url"      : "/interestingness/",
+      "date"     : "2020-05-01 10:50:07 +0000",
+      "author"   : "Chen Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Semantic &amp; Dynamic SLAM",
+      "url"      : "/s-d-slam/",
+      "date"     : "2020-04-24 10:50:07 +0000",
+      "author"   : "Yuheng Qiu"
+
+    } ,
+  
+    {
+
+      "title"    : "MBZIRC 2020: Team Tartans",
+      "url"      : "/mbzirc-2020/",
+      "date"     : "2020-04-05 10:00:00 +0000",
+      "author"   : "Anish Bhattacharya"
+
+    } ,
+  
+    {
+
+      "title"    : "TartanAir: A Dataset to Push the Limits of Visual SLAM",
+      "url"      : "/tartanair-dataset/",
+      "date"     : "2020-02-29 13:55:07 +0000",
+      "author"   : "Wenshan Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Autonomous Aerial Cinematography",
+      "url"      : "/drone-filming/",
+      "date"     : "2020-02-14 10:50:07 +0000",
+      "author"   : "Rogerio Bonatti"
+
+    } ,
+  
+    {
+
+      "title"    : "Autonomous UAV-based Multi-Model High-Resolution Reconstruction for Aging Bridge Inspection",
+      "url"      : "/research/2020/01/31/shimizu/",
+      "date"     : "2020-01-31 10:50:07 +0000",
+      "author"   : "Weikun Zhen"
+
+    } ,
+  
+    {
+
+      "title"    : "Robotic Interestingness: A Dataset to Push the Limits of Online Visual Interesting Scene Prediction",
+      "url"      : "/dataset/interestingness",
+      "date"     : "2019-11-01 00:00:00 +0000",
+      "author"   : "Chen Wang"
+
+    } ,
+  
+    {
+
+      "title"    : "Team Explorer wins DARPA SubT Challenge Tunnel Circuit",
+      "url"      : "/highlight-subt-tunnel/",
+      "date"     : "2019-08-22 10:50:07 +0000",
+      "author"   : "Cherie Ho"
+
+    } ,
+  
+    {
+
+      "title"    : "SubT  Challenge",
+      "url"      : "/research/2019/08/01/subt/",
+      "date"     : "2019-08-01 10:50:07 +0000",
+      "author"   : "AirLab"
+
+    } ,
+  
+    {
+
+      "title"    : "Smart Landing and Obstacle Avoidance",
+      "url"      : "/smart-landing-obstacle-avoidance/",
+      "date"     : "2019-08-01 10:50:07 +0000",
+      "author"   : "Brady Moon"
+
+    } ,
+  
+    {
+
+      "title"    : "Mapping and SLAM Datasets",
+      "url"      : "/slam_datasets/",
+      "date"     : "2018-05-05 10:50:07 +0000",
+      "author"   : "Shichao Yang"
+
+    } ,
+  
+    {
+
+      "title"    : "AACUS wins Howard Hughes Award, nominated for Collier Trophy",
+      "url"      : "/aacus/",
+      "date"     : "2018-03-09 10:50:07 +0000",
+      "author"   : "Cherie Ho"
+
+    } ,
+  
+    {
+
+      "title"    : "Open Source Planning Packages",
+      "url"      : "/research/2016/11/01/opensourceplanning/",
+      "date"     : "2016-11-01 10:50:07 +0000",
+      "author"   : "Sanjiban Choudhury"
+
+    } ,
+  
+    {
+
+      "title"    : "Real-time 3D Scene Layout from Images",
+      "url"      : "/research/2016/11/01/indoor-scence-understanding/",
+      "date"     : "2016-11-01 10:50:07 +0000",
+      "author"   : "Sanjiban Choudhury"
+
+    } ,
+  
+    {
+
+      "title"    : "AirLab showcases research at the White House Frontiers Conference",
+      "url"      : "/obama/",
+      "date"     : "2016-10-13 10:50:07 +0000",
+      "author"   : "Cherie Ho"
+
+    } ,
+  
+    {
+
+      "title"    : "Autonomous Drone Safety",
+      "url"      : "/other/2016/05/01/autonomous-drone-safety/",
+      "date"     : "2016-05-01 10:50:07 +0000",
+      "author"   : "AirLab"
+
+    } 
+  
+]

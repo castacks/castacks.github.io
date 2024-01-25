@@ -1,0 +1,578 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection" />
+<meta name="author" content="Azarakhsh Keipour" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="UAV Landing and Ellipse Detection" />
+<meta property="og:description" content="UAV Landing and Ellipse Detection" />
+<link rel="canonical" href="https://theairlab.org/landing-on-vehicle/" />
+<meta property="og:url" content="https://theairlab.org/landing-on-vehicle/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2019-08-01-landing/visual-servoing-landing.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-06T10:50:07+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2019-08-01-landing/visual-servoing-landing.jpg" />
+<meta property="twitter:title" content="Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2019-08-01-landing/visual-servoing-landing.jpg","author":{"@type":"Person","name":"Azarakhsh Keipour"},"headline":"Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection","dateModified":"2020-12-06T10:50:07+00:00","datePublished":"2020-12-06T10:50:07+00:00","description":"UAV Landing and Ellipse Detection","url":"https://theairlab.org/landing-on-vehicle/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/landing-on-vehicle/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+  <div style="text-align: center; display: block; margin-left:auto; margin-right:auto">
+    <img style="text" src="/img/posts/2019-08-01-landing/visual-servoing-landing.jpg" alt="Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection" />
+</div>
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2020-12-06T10:50:07+00:00">Dec 6, 2020</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/alumni/azarakhsh">Azarakhsh Keipour</a>
+		
+		</div>
+	</div></p>
+
+    <h1>Autonomous UAV Landing on a Moving Vehicle and Real-Time Ellipse Detection</h1>
+
+    <p>The autonomous landing of an Unmanned Aerial Vehicle (UAV) on moving platforms has been an active area of research for several years. The applications include safer landing of aircraft on the ship, more efficient delivery networks and entertainment. Some of the key challenges of the problem include dealing with environmental conditions, such as changes in light and wind, and robust detection of the landing zone. The subsequent maneuver in trying to land also needs to take care of the potential ground effects at the proximity of the landing surface.</p>
+
+<p>We have developed a method to autonomously land an Unmanned Aerial Vehicle on a moving vehicle with a circular (or elliptical) pattern on the top. A visual servoing controller is developed to approach the ground vehicle using velocity commands calculated directly in image space. The control laws generate velocity commands in all three dimensions, eliminating the need for a separate height controller. Our method has shown the ability to approach and land on the moving deck in simulation, indoor and outdoor environments, and compared to the other available methods, it has provided the fastest landing approach. It does not rely on additional external setup, such as RTK, motion capture system, ground station, offboard processing or communication with the ground vehicle, and it requires only the minimal set of hardware and localization sensors.</p>
+
+<p>Additionally, we propose a new algorithm for real-time detection and tracking of elliptic patterns suitable for real-world robotics applications. The method fits ellipses to each contour in the image frame and rejects ellipses that do not yield a good fit. It can detect complete, partial, and imperfect ellipses in extreme weather and lighting conditions and is lightweight enough to be used on robots’ resource-limited onboard computers. The method is used on in the autonomous UAV landing to show its performance indoors, outdoors, and in simulation on a real-world robotics task. The comparison with other well-known ellipse detection methods shows that our proposed algorithm outperforms other methods with the F1 score of 0.981 on a dataset with over 1500 frames. The videos of experiments, the source codes, and the collected dataset are provided with the paper.</p>
+
+<p>For more details about the methods, dataset and the project, please refer to the publication section below.</p>
+
+<h3 id="source-code-and-dataset">Source Code and Dataset</h3>
+
+<p>The project code base and the collected datasets can be accessed from the AirLab’s BitBucket: <a href="https://bitbucket.org/account/user/castacks/projects/MBZIRC">https://bitbucket.org/account/user/castacks/projects/MBZIRC</a></p>
+
+<p>A good starting point is the <a href="https://bitbucket.org/castacks/mbzirc_documents/wiki/Home">documents repository</a>.</p>
+
+<p>More specifically, the code base for the ellipse detection can be found <a href="https://bitbucket.org/castacks/mbzirc_commons/">here</a> and the code showing how to use the ellipse detector is available <a href="https://bitbucket.org/castacks/mbzirc_decktrack">here</a>.</p>
+
+<p>The collected dataset for the elliptic pattern is available <a href="http://bit.ly/airlabmbzdataset">here</a>.</p>
+
+<p>Please refer to the publication section below for more details and the proper citation.</p>
+
+<h3 id="videos">Videos</h3>
+
+<p>The following videos show the proposed elliptic pattern detection method in real scenarios. The videos only show the detection method performed on the frames without the added information from the flight or the vehicle movement.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/CzR-4aqlOhQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/shWToIHk9Bw" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>The following video shows the autonomous UAV landing approach on the vehicle moving at 15 km/h in a simulated environment.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/2Eeh3ZXxK0A" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>The following videos show the autonomous UAV landing on the vehicle moving at 15 km/h in outdoors settings with and without the magnets on the legs.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/xs1R44dH96M" frameborder="0" allowfullscreen=""></iframe></div>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/TCAcf4XN6sE" frameborder="0" allowfullscreen=""></iframe></div>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/tn7wpeSXgFw" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>The following video shows the autonomous UAV landing on the platform moving at ~8 km/h indoors.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/QNGihlpGRAk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>The following video shows 11 consecutive trials to test the robustness of the autonomous UAV landing on the moving platform indoors. One of the trials fails due to the perception problem (not detecting the landing zone).</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/fcsfQqqfA-4" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h3 id="publication">Publication</h3>
+
+<p>The real-time ellipse detection and tracking method is published in Robotics and Automation Letters (RA-L) journal and is being presented in IROS 2021 conference. It includes the details of our novel real-time ellipse detection method for robotics applications and releases the the dataset created from an elliptic pattern on top of a vehicle moving at 15 km/h for testing real-time ellipse detection methods.</p>
+
+<p>Please cite the publication if our dataset or ellipse detection method is used in your research (access on <a href="https://arxiv.org/abs/2102.12670">arXiv</a> and on <a href="https://ieeexplore.ieee.org/document/9484730">IEEEXplore</a>):</p>
+
+<p><em>BibTeX:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{keipour:ral:2021,
+author={Azarakhsh Keipour and Guilherme A.S. Pereira and Sebastian Scherer},
+title={Real-Time Ellipse Detection for Robotics Applications},
+journal = {IEEE Robotics and Automation Letters},
+year={2021},
+month={Oct},
+volume={6},
+number={4},
+pages={7009-7016},
+doi={10.1109/LRA.2021.3097057},
+link={https://ieeexplore.ieee.org/document/9484730},
+} 
+</code></pre></div></div>
+
+<p><em>IEEE Style:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A. Keipour, G.A.S. Pereira, and S. Scherer, “Real-Time Ellipse Detection for Robotics Applications,” in IEEE Robotics and Automation Letters, vol. 6, no. 4, pp. 7009-7016, Oct. 2021, doi: 10.1109/LRA.2021.3097057.
+</code></pre></div></div>
+
+<p>The publication on the whole approach is available on arXiv. It includes the details of our visual servoing approach for autonomous UAV landing on a moving vehicle.</p>
+
+<p>Please cite the publication if any part of this project is used in your research (access on <a href="https://arxiv.org/abs/2104.01272">arXiv</a>):</p>
+
+<p><em>BibTeX:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{keipour:landing:2021,
+author={Azarakhsh Keipour and Guilherme A.S. Pereira and Rogerio Bonatti and Rohit Garg and Puru Rastogi and Geetesh Dubey and Sebastian Scherer},
+title={Visual Servoing Approach for Autonomous UAV Landing on a Moving Vehicle},
+journal = {arXiv},
+year={2021},
+pages={1-24},
+link={https://arxiv.org/abs/2104.01272},
+} 
+</code></pre></div></div>
+
+<p><em>IEEE Style:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A. Keipour, G.A.S. Pereira, R. Bonatti, R. Garg, P. Rastogi, G. Dubey, and S. Scherer, “Visual Servoing Approach for Autonomous UAV Landing on a Moving Vehicle,” arXiv, eprint 2104.01272, 2021. 
+</code></pre></div></div>
+
+<h3 id="contact">Contact</h3>
+
+<p>Azarakhsh Keipour - (keipour [at] cmu [dot] edu)</p>
+
+<p>Guilherme A.S. Pereira - (guilherme.pereira [at] mail [dot] wvu [dot] edu)</p>
+
+<p>Sebastian Scherer - (basti [at] cmu [dot] edu)</p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>This work was supported by Carnegie Mellon University Robotics Institute and Mohamed Bin Zayed International Robotics Challenge.</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/landing-on-vehicle/';
+      this.page.identifier = 'https://theairlab.org/landing-on-vehicle/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

@@ -1,0 +1,560 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>How do you train AI Pilots? - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>How do you train AI Pilots? | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="How do you train AI Pilots?" />
+<meta name="author" content="Joao Dantas" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We present certain key areas of development where improvements on current state-of-the-art are needed to enable VFR-like autonomous aerial operations" />
+<meta property="og:description" content="We present certain key areas of development where improvements on current state-of-the-art are needed to enable VFR-like autonomous aerial operations" />
+<link rel="canonical" href="https://theairlab.org/aitf/" />
+<meta property="og:url" content="https://theairlab.org/aitf/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2022-09-12-aitf/fig1.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-12T06:19:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2022-09-12-aitf/fig1.jpeg" />
+<meta property="twitter:title" content="How do you train AI Pilots?" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2022-09-12-aitf/fig1.jpeg","author":{"@type":"Person","name":"Joao Dantas"},"headline":"How do you train AI Pilots?","dateModified":"2022-09-12T06:19:00+00:00","datePublished":"2022-09-12T06:19:00+00:00","description":"We present certain key areas of development where improvements on current state-of-the-art are needed to enable VFR-like autonomous aerial operations","url":"https://theairlab.org/aitf/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/aitf/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-large  is-bold is-primary"  style="background: linear-gradient(180deg, rgba(204,0,44,.1),rgba(204,0,44,0)), url('/img/posts/2022-09-12-aitf/fig1.jpeg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#aircraft-detection--tracking">Aircraft Detection &amp; Tracking</a></li>
+  <li><a href="#intent-prediction">Intent Prediction</a></li>
+  <li><a href="#safe-and-socially-compliant-navigation">Safe and Socially-Compliant Navigation</a></li>
+  <li><a href="#guaranteeing-safety">Guaranteeing Safety</a></li>
+  <li><a href="#automated-speech-recognition-and-production">Automated Speech Recognition and Production</a></li>
+  <li><a href="#high-fidelity-simulators">High-fidelity Simulators</a></li>
+  <li><a href="#big-picture">Big Picture</a></li>
+  <li><a href="#video">Video</a></li>
+  <li><a href="#additional-info">Additional Info</a>
+    <ul>
+      <li><a href="#acknowledgments">Acknowledgments</a></li>
+      <li><a href="#references">References</a></li>
+      <li><a href="#contributors">Contributors</a></li>
+      <li><a href="#term-of-use">Term of use</a></li>
+    </ul>
+  </li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2022-09-12T06:19:00+00:00">Sep 12, 2022</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			Joao Dantas
+		
+		</div>
+	</div></p>
+
+    <h1>How do you train AI Pilots?</h1>
+
+    <p>We need more pilots. AI can help! Advanced Aerial Mobility (AAM) is an inclusive term that covers urban (UAM), regional (RAM), intraregional (IAM), and suburban air mobility (SAM) solutions. All of these proposed solutions have one thing in common: they all envision a future where autonomous or semi-autonomous aerial vehicles are seamlessly integrated into the current airspace system. AAM solutions open doors to significant socio-economic benefits while at the same time presenting challenges in the seamless integration of these systems with human-operated aircraft and controlling agencies.</p>
+
+<p>Today, manned and unmanned vehicles are separated, limiting the utility and flexibility of operations and reducing efficiency. Human operated aircraft follow one of the two rules for operation: Visual Flight Rules (VFR) or Instrument Flight Rules (IFR). The choice of flying under VFR or IFR is typically a function of weather conditions. Under VFR, an aircraft is flown just like driving a car within the FAA established rules of the road. IFR flying on the other hand is typically associated with flying aircraft under degraded weather conditions where separation is provided by the ATC. While a pursuit to integrate AAM can start either under IFR or VFR, automated-VFR operations often have better scalability than automated-IFR operations [1]. Another option involves UTM solutions [2​] which in its current iteration only focuses on small unmanned aerial aircraft operating close to the ground (&lt;700 ft) in uncontrolled airspace.</p>
+
+<p>Mastering visual flight rules (VFR) operations for autonomous aircraft has significant operational advantages at unimproved sites, as well as in achievable traffic density compared to instrument flight rules (IFR) or completely separated operations between manned and unmanned systems. For (semi-)autonomous aircraft to operate in tandem with human pilots and ATC controllers under VFR, technological advancements in certain key areas are required.</p>
+
+<p>Specifically:</p>
+
+<ol>
+  <li>Unmanned aircraft should be able to guarantee self-separation even in a tightly-spaced terminal airspace environment;</li>
+  <li>Unmanned vehicles should be able to interpret high-level instructions by ATC to meet the expectations of a normal traffic flow;</li>
+  <li>Autonomous aircraft need to understand the expected and unexpected behaviour of other aircraft;</li>
+  <li>Communications by other pilots and ATC need to be parsed and valid, corresponding responses should be produced; and</li>
+  <li>Other aircraft need to be detected and estimated, as well as their future trajectories need to be predicted.</li>
+</ol>
+
+<p>Many of these challenges have parallels in the self-driving industry and the technological improvements there can be leveraged to produce domain specific solutions for AAM. While this is promising, VFR-like AAM integration introduces newer challenges while pushing boundaries on the current state of technology.</p>
+
+<p>Given the domain transfer, we list below certain key areas of development where improvements on current state-of-the-art are needed to enable VFR-like autonomous aerial operations.</p>
+
+<h2 id="aircraft-detection--tracking">Aircraft Detection &amp; Tracking</h2>
+
+<p>See-and-Avoid is one of the key tenets of VFR operation. The ability to spot other aircraft or aerial hazards like birds, balloons, gliders etc and execute maneuvers so as to mitigate a collision hazard is critical to successfully deploying AAM solutions in the NAS.</p>
+
+<figure>
+ <img src="/img/posts/2022-09-12-aitf/fig2.png" style="width:100%" />
+ <figcaption>
+ Visualization of the detected aircraft bounding boxes from the data onboard a general aviation aircraft. At long ranges, the SnR is really poor and our algorithms are trained to detect aircraft even in low SnR situations.
+ </figcaption>
+</figure>
+
+<p>A more detailed update on the recent work is available in this <a href="https://theairlab.org/aircraft-detection/">blog post</a></p>
+
+<h2 id="intent-prediction">Intent Prediction</h2>
+
+<p>Reasoning about the potential set of future trajectories that other aircraft can take is critical to ensure that the best actions are taken that also minimise risk. Typical prediction methods use short horizons and fail to capture the long term intent of other aircraft. The majority of trajectory prediction work has been explored in the pedestrian and autonomous vehicle domains. Within AAM, goal points such as airports, pilots and ATC communications, and rules of way (such as FAR §91.113) are often known. The use of this explicit source of information as well as implicit sources like weather can help decipher the intent of other aircraft and increase the length of reliable predictions.</p>
+
+<figure>
+ <img src="/img/posts/2022-09-12-aitf/fig3.png" style="width:100%" />
+ <figcaption>
+The figure shows the dataset and its collection setup at the Pittsburgh-Butler Regional Airport (KBTP) — a non-towered GA airport that serves as a primary location for the dataset. Lighter colour indicates lower altitude. a) Shown is a snippet of the processed dataset with aircraft trajectories showing clear lobes for traffic patterns for both runways. b) The left traffic pattern and nomenclature for the runways at the airport. c) Picture of the data-collection setup.
+ </figcaption>
+</figure>
+
+<p>The lack of datasets and baseline methods makes it difficult to conduct meaningful research. Towards this end, we have been collecting traffic data from transponders at select controlled and uncontrolled airports to understand and train models for intent prediction. To capture the influence of weather on pilot decisions, the weather data was also collected by parsing Meteorological Aerodrome Reports (METARs) to gather the relevant sections from the full weather report. We recently published the first chunk of the trajectory data TrajAir along with a baseline method christened TrajAirNet to predict aircraft trajectories trained on the collected data. More information on this is available on this <a href="https://theairlab.org/trajair/">blog post</a>.</p>
+
+<p><em>Patrikar, Jay, et al. “Predicting Like A Pilot: Dataset and Method to Predict Socially-Aware Aircraft Trajectories in Non-Towered Terminal Airspace.” IEEE International Conference on Robotics and Automation (2022).</em> <a href="https://arxiv.org/abs/2109.15158">[Link]</a> <a href="https://www.youtube.com/watch?v=elAQXrxB2gw">[Video]</a></p>
+
+<h2 id="safe-and-socially-compliant-navigation">Safe and Socially-Compliant Navigation</h2>
+
+<p>As the FAR rules only specify a rough guideline, autonomous vehicles must be equipped with the capability to make flexible decisions to comply with the traffic norm of arbitrary situations. The idea of social navigation is to learn to follow the observed traffic patterns in a socially-compliant manner. Generating actions that are not only safe but also socially compliant while following rules is thus critical in generating behaviour that is acceptable to human pilots co-habiting the same airspace. We use variants of Monte Carlo Tree Search algorithms that combine learned behaviour with logic specifications like Signal Temporal Logic to enable safe and socially compliant navigation.</p>
+
+<figure>
+ <img src="/img/posts/2022-09-12-aitf/fig4.png" style="width:100%" />
+ <figcaption>
+Figure shows the proposed planning setup for a single agent. The offline policy is trained using Generative Adversarial Imitation Learning algorithm that learns system behaviour from the recorded trajectories from KBTP airport. Online this behaviour is executed using a Monte Carlo Tree Search algorithm that uses multiple roll-outs to model possible future states of the human agent. The roll-outs are constrained using Signal Temporal Logic specifications that ensure that the actions follow the rules established by the FAA.
+ </figcaption>
+</figure>
+
+<h2 id="guaranteeing-safety">Guaranteeing Safety</h2>
+
+<p>The safety system ensures that the future trajectory of the aircraft is always safe and a safe fallback trajectory always exists. The safety system also checks plans made by the planning/inference engine to ensure that these plans will not violate safety invariants. Effectively, the safety system serves to encode a safe envelope and guarantees collision-free flight.</p>
+
+<h2 id="automated-speech-recognition-and-production">Automated Speech Recognition and Production</h2>
+
+<p>It is critical to establish clear communication between a human operator/pilot and an AI system in our target problem domain. Specific to the aviation domain is the challenge of understanding and decoding aviation-specific terminology that is different from everyday speech constructions. Other challenges such as radio background noise, incomplete instructions and radio phraseology also need to be addressed.</p>
+
+<h2 id="high-fidelity-simulators">High-fidelity Simulators</h2>
+
+<figure>
+ <img src="/img/posts/2022-09-12-aitf/fig5.png" style="width:100%" />
+ <figcaption>
+The figure shows the high-fidelity simulator setup that enables Human-AI interaction. Figure a) shows a top-down view with one human agent (magenta) interacting and one AI agent (lime) while trying to land on the same runway. The most likely branch of the MCTS forward propagation tree for both the agents is shown in cyan. White lines show the reference trajectories. Figure b) shows the physical simulator setup with an immersive environment for the human pilot. Figure c) shows a screengrab of the visual rendering of the simulator using the X-Plane 11 flight simulator backend.
+ </figcaption>
+</figure>
+
+<p>For safety critical domains, accurate high-fidelity simulators are required to test algorithms before real-world testing. Given the lack of simulators in the public domain, we designed our simulator christened XPlaneROS. With X-Plane 11 as the high-fidelity flight simulator and ROSplane as the autopilot, we obtain realistic aircraft models and visuals of similar aircraft. The X-Plane Connect Toolbox interfaces between X-Plane and Robot Operating System (ROS) topics. Based on the high-level commands input by the planner, ROSPlane generates the actuator commands for ailerons, rudder, elevator, and throttle, which are in turn sent to X-Plane through XPlaneConnect.</p>
+
+<p>More information is available in this <a href="https://theairlab.org/xplane_ros/">blog post</a>.</p>
+
+<h2 id="big-picture">Big Picture</h2>
+
+<p>We believe that the current understanding of integrating unmanned aircraft within National Airspace System (NAS) needs a more human-pilot centered approach. Pilots and aircraft already operating in the national airspace are important stakeholders in the larger discourse. Technological developments enabling close-proximity safe and seamless operation of manned and unmanned aircraft in a shared airspace need an understanding of the rules and conventions already in place. The NAS is a dynamic environment with in-built flexibility and protocols to handle traffic volumes and emergencies. Our core understanding is then rather than having the current NAS adapt to changing autonomy needs, we need to move towards identifying technological requirements that enable unmanned systems to operate along with humans in a collaborative fashion.</p>
+
+<p><em>“Our hope is to build true AI-pilots that are indistinguishable from a human pilot to enable a seamless integration within the current NAS.”</em></p>
+
+<h2 id="video">Video</h2>
+
+<p>The video below gives a general overview of these challenges and potential applications.</p>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/NfnR7dm6_78" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="additional-info">Additional Info</h2>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+<p>This work is supported by the Army Futures Command Artificial Intelligence Integration Center (AI2C).</p>
+
+<h3 id="references">References</h3>
+
+<p>[1] Mueller, Eric R., Parmial H. Kopardekar, and Kenneth H. Goodrich. “Enabling airspace integration for high-density on-demand mobility operations.” 17th AIAA Aviation Technology, Integration, and Operations Conference. 2017.</p>
+
+<p>[2] Aweiss, Arwa S., et al. “Unmanned Aircraft Systems (UAS) Traffic Management (UTM) National Campaign II.” 2018 AIAA Information Systems-AIAA Infotech@ Aerospace. 2018. 1727.</p>
+
+<h3 id="contributors">Contributors</h3>
+
+<p><a href="https://theairlab.org/team/jay/">Jay Patrikar</a>, <a href="https://theairlab.org/team/joao/">Joao Dantas</a>, <a href="https://navars.xyz/">Ingrid Navarro</a>, <a href="https://theairlab.org/team/ian/">Ian Higgins</a>, <a href="https://jaroan.github.io/jasminejerrya/">Jasmine Aloor</a>, <a href="https://theairlab.org/team/parv_kapoor/">Parv Kapoor</a>, <a href="https://www.ri.cmu.edu/ri-people/milad-moghassem-hamidi/">Milad Hamidi</a>, <a href="https://jiminsun.github.io/">Jimin Sun</a>, <a href="https://benstoler.com/">Ben Stoler</a>, <a href="https://www.linkedin.com/in/rohan-baijal-10009baa/?originalSubdomain=in">Rohan Baijal</a>, <a href="http://127.0.0.1:4000/team/bradym/">Brady Moon</a>, <a href="https://sourishghosh.com/">Sourish Ghosh</a>, <a href="https://www.cs.cmu.edu/~./jeanoh/">Dr Jean Oh</a>, <a href="https://theairlab.org/team/sebastian/">Dr Sebastian Scherer</a></p>
+
+<h3 id="term-of-use">Term of use</h3>
+<p><a href="https://choosealicense.com/licenses/bsd-4-clause/">BSD 4-Clause License</a></p>
+
+<!-- <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. -->
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/aitf/';
+      this.page.identifier = 'https://theairlab.org/aitf/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

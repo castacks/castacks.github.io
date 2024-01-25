@@ -1,0 +1,597 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision" />
+<meta name="author" content="Conner Pulling" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Omnidirectional Multiview Stereo Vision with Fisheye Images" />
+<meta property="og:description" content="Omnidirectional Multiview Stereo Vision with Fisheye Images" />
+<link rel="canonical" href="https://theairlab.org/gicandidates/" />
+<meta property="og:url" content="https://theairlab.org/gicandidates/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-10-10T20:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif" />
+<meta property="twitter:title" content="Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif","author":{"@type":"Person","name":"Conner Pulling"},"headline":"Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision","dateModified":"2023-10-10T20:00:00+00:00","datePublished":"2023-10-10T20:00:00+00:00","description":"Omnidirectional Multiview Stereo Vision with Fisheye Images","url":"https://theairlab.org/gicandidates/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/gicandidates/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#100k-samples-multiview-stereo-vision-dataset">100k-Samples Multiview Stereo Vision Dataset</a></li>
+  <li><a href="#more-results">More Results</a></li>
+  <li><a href="#manuscript">Manuscript</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2023-10-10T20:00:00+00:00">Oct 10, 2023</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			Conner Pulling
+		
+		</div>
+	</div></p>
+
+    <h1>Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision</h1>
+
+    <p><a class="button" itemprop="github" href="https://github.com/castacks/mvs_gi" target="_blank">
+    <svg class="svg-inline--fa fa-github fa-w-16 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="button" itemprop="pdf" href="/img/posts/2023-10-10-dsta-depth-gicandidates/ICRA_2024__Pulling__Tan__Hu__Scherer.pdf" target="_blank">
+    <i class="fas fa-file"></i>
+</a></p>
+
+<p>This is the project page of the ICRA submission, “Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images”. For code, dataset, and the pre-trained models, please refer to the <a href="https://github.com/castacks/mvs_gi">GitHub page</a>.</p>
+
+<figure>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/SMDn6UkYAu8" frameborder="0" allowfullscreen=""></iframe></div>
+<figcaption>ICRA '24 Submission Video.</figcaption>
+</figure>
+
+<h3 id="overview">Overview</h3>
+
+<p>Depth perception is essential for mobile robots in navigation and obstacle avoidance. LiDAR devices are commonly used due to their accuracy and speed, but they have mechanical complexities and can be costly. Current multiview stereo (MVS) vision methods with fisheye images are either not robust enough or cannot run in real-time. Many learning-based methods are very computationally-expensive due to the cost volume approach.</p>
+
+<p>The study introduces Geometry-Informed (GI) distance candidates which can be integrated into many omnidirectional MVS models that use a fixed number of distance candidates. GI candidates aim to improve depth estimation accuracy and decrease the inference time by reducing the number of candidates needed.</p>
+
+<p>Additionally, GI candidates convey an interesting property onto MVS models. The GI candidate distribution is dependent on baseline distance. So as the baseline distance between reference and query cameras changes, so does the GI candidates chosen. We show that this dependency allows camera locations can be adjusted post-training and the model still can perform well by adjusting the GI candidates to the new distribution.</p>
+
+<figure>
+ <img src="/img/posts/2023-10-10-dsta-depth-gicandidates/gicandidates_banner.png" alt="Sample results on the Scene Flow dataset" style="width:450px;height:300px;" />
+ <figcaption>Geometry-Informed (GI) Candidate Distribution compared to even candidate spacing in the inverse distance space.</figcaption>
+</figure>
+
+<h3 id="100k-samples-multiview-stereo-vision-dataset">100k-Samples Multiview Stereo Vision Dataset</h3>
+
+<figure>
+ <img src="/img/posts/2023-10-10-dsta-depth-gicandidates/dataset_banner.png" alt="Sample results on the Scene Flow dataset" />
+ <figcaption>Overview of the 65+ environments available in the dataset.</figcaption>
+</figure>
+
+<p>The dataset consists of 112,344 samples collected from 68 environments. Each sample consists of RGB fisheye images and ground truth depth for each of the three cameras in our specific configuration. Our configuration uses an evaluation board with three fisheye cameras in a triangular configuration. Additionally, each sample has a ground truth RGB and distance map panorama at the reference camera’s location.</p>
+
+<p>The dataset will be released soon on our project github page.</p>
+
+<h3 id="more-results">More Results</h3>
+
+<figure>
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/Hb1dYEkeRDo" frameborder="0" allowfullscreen=""></iframe></div>
+<figcaption>Point cloud representation of real-world inferencing.</figcaption>
+</figure>
+
+<p>Results show a comparison of synthetically-generated images from unknown environments. The Geometry-Informed (GI) candidates distribution improves depth candidate selection. Using GI candidates leads to:</p>
+
+<ul>
+  <li>Better accuracy in distance estimation</li>
+  <li>Faster model performance</li>
+</ul>
+
+<p>An additional benefit of the GI candidates is their ability to accommodate changes in the distance between cameras after training without re-training.</p>
+
+<p>The following table presents performance metrics across various models:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Candidate Type</th>
+      <th>Number</th>
+      <th>MAE</th>
+      <th>RMSE</th>
+      <th>SSIM</th>
+      <th>Time (ms)</th>
+      <th>GPU Start (MB)</th>
+      <th>GPU Peak (MB)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RTSS[1]</td>
+      <td>EV</td>
+      <td>32</td>
+      <td>0.053</td>
+      <td>0.101</td>
+      <td>0.776</td>
+      <td>144</td>
+      <td>330</td>
+      <td>4240</td>
+    </tr>
+    <tr>
+      <td>E8</td>
+      <td>EV</td>
+      <td>8</td>
+      <td>0.013</td>
+      <td>0.032</td>
+      <td>0.862</td>
+      <td>65</td>
+      <td>790</td>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <td>G8</td>
+      <td>GI</td>
+      <td>8</td>
+      <td>0.012</td>
+      <td>0.029</td>
+      <td>0.867</td>
+      <td>65</td>
+      <td>790</td>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <td>E16</td>
+      <td>EV</td>
+      <td>16</td>
+      <td>0.011</td>
+      <td>0.028</td>
+      <td>0.876</td>
+      <td>111</td>
+      <td>790</td>
+      <td>1230</td>
+    </tr>
+    <tr>
+      <td>G16</td>
+      <td>GI</td>
+      <td>16</td>
+      <td>0.010</td>
+      <td>0.028</td>
+      <td>0.877</td>
+      <td>111</td>
+      <td>790</td>
+      <td>1230</td>
+    </tr>
+    <tr>
+      <td>G16V</td>
+      <td>GI</td>
+      <td>16</td>
+      <td>0.013</td>
+      <td>0.029</td>
+      <td>0.861</td>
+      <td>111</td>
+      <td>790</td>
+      <td>1230</td>
+    </tr>
+    <tr>
+      <td>G16VV</td>
+      <td>GI</td>
+      <td>16</td>
+      <td>0.012</td>
+      <td>0.028</td>
+      <td>0.872</td>
+      <td>114</td>
+      <td>800</td>
+      <td>1090</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pre-trained models will be released soon on our github project page.</p>
+
+<h3 id="manuscript">Manuscript</h3>
+
+<p>Please refer to this <a href="/img/posts/2023-10-10-dsta-depth-gicandidates/ICRA_2024__Pulling__Tan__Hu__Scherer.pdf">link</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{hu2021orstereo,
+      title={Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images}, 
+      author={Conner Pulling and Je Hon Tan and Yaoyu Hu and Sebastian Scherer},
+      year={2023},
+      primaryClass={cs.CV}
+}
+</code></pre></div></div>
+
+<h3 id="contact">Contact</h3>
+
+<ul>
+  <li>Conner Pulling: (cpulling [at] andrew [dot] cmu [dot] edu)</li>
+  <li>Yaoyu Hu: (yaoyuh [at] andrew [dot] cmu [dot] edu)</li>
+  <li>Sebastian Scherer: (basti [at] cmu [dot] edu)</li>
+</ul>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>This work was supported by Singapore’s Defence Science and Technology Agency (DSTA).</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/gicandidates/';
+      this.page.identifier = 'https://theairlab.org/gicandidates/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

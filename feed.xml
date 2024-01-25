@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://theairlab.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://theairlab.org/" rel="alternate" type="text/html" /><updated>2024-01-25T21:22:47+00:00</updated><id>https://theairlab.org/feed.xml</id><title type="html">AirLab</title><subtitle>Researching, developing, and testing autonomous robots at Carnegie Mellon University
+</subtitle><entry><title type="html">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</title><link href="https://theairlab.org/multi-robot-multi-room/" rel="alternate" type="text/html" title="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" /><published>2023-12-06T02:00:01+00:00</published><updated>2023-12-06T02:00:01+00:00</updated><id>https://theairlab.org/multirobot-multiroom</id><content type="html" xml:base="https://theairlab.org/multi-robot-multi-room/">&lt;p&gt;This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors of robots in an indoor environment composed of multiple rooms. Contrary to simple frontier-based exploration approaches, we aim to enable robots to methodically explore and observe an unknown set of rooms in a structured building, keeping track of which rooms are already explored and sharing this information among robots to coordinate their behaviors in a distributed manner. To this end, we propose (1) a geometric cue extraction method that processes 3D point cloud data and detects the locations of potential cues such as doors and rooms, (2) a circular decomposition for free spaces used for target assignment. Using these two components, our pipeline effectively assigns tasks among robots, and enables a methodical exploration of rooms. We evaluate the performance of our pipeline using a team of up to 3 aerial robots, and show that our method outperforms the baseline by 33.4% in simulation and 26.4% in real-world experiments.&lt;/p&gt;
+
+&lt;p&gt;Read more on the &lt;a href=&quot;https://seungchan-kim.github.io/multi-robot-multi-room&quot;&gt;paper website here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Seungchan Kim</name></author><category term="research" /><summary type="html">This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors of robots in an indoor environment composed of multiple rooms. Contrary to simple frontier-based exploration approaches, we aim to enable robots to methodically explore and observe an unknown set of rooms in a structured building, keeping track of which rooms are already explored and sharing this information among robots to coordinate their behaviors in a distributed manner. To this end, we propose (1) a geometric cue extraction method that processes 3D point cloud data and detects the locations of potential cues such as doors and rooms, (2) a circular decomposition for free spaces used for target assignment. Using these two components, our pipeline effectively assigns tasks among robots, and enables a methodical exploration of rooms. We evaluate the performance of our pipeline using a team of up to 3 aerial robots, and show that our method outperforms the baseline by 33.4% in simulation and 26.4% in real-world experiments.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SplaTAM: Splat, Track &amp;amp; Map 3D Gaussians for Dense RGB-D SLAM</title><link href="https://theairlab.org/splatam/" rel="alternate" type="text/html" title="SplaTAM: Splat, Track &amp;amp; Map 3D Gaussians for Dense RGB-D SLAM" /><published>2023-12-04T12:00:01+00:00</published><updated>2023-12-04T12:00:01+00:00</updated><id>https://theairlab.org/splatam</id><content type="html" xml:base="https://theairlab.org/splatam/">&lt;p&gt;Precise camera tracking &amp;amp; high-fidelity reconstruction of challenging real-world scenarios.&lt;/p&gt;</content><author><name>Nikhil Keetha</name></author><category term="research" /><summary type="html">Precise camera tracking &amp;amp; high-fidelity reconstruction of challenging real-world scenarios.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-12-04-splatam/SplaTAM.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-12-04-splatam/SplaTAM.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</title><link href="https://theairlab.org/foundloc/" rel="alternate" type="text/html" title="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" /><published>2023-11-24T12:00:01+00:00</published><updated>2023-11-24T12:00:01+00:00</updated><id>https://theairlab.org/foundloc</id><content type="html" xml:base="https://theairlab.org/foundloc/">&lt;p&gt;GPS-denied localization with no initial assumption of position (kidnapped robot problem).&lt;/p&gt;</content><author><name>Yao He</name></author><category term="research" /><summary type="html">GPS-denied localization with no initial assumption of position (kidnapped robot problem).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-11-24-foundloc/FoundLoc.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-11-24-foundloc/FoundLoc.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Shared Airspace</title><link href="https://theairlab.org/Shared_Airspace/" rel="alternate" type="text/html" title="Shared Airspace" /><published>2023-11-23T02:00:01+00:00</published><updated>2023-11-23T02:00:01+00:00</updated><id>https://theairlab.org/Darpa-Shared-Airspace</id><content type="html" xml:base="https://theairlab.org/Shared_Airspace/">&lt;p&gt;An autonomy system that keeps UAVs and manned traffic safely separated and behave as expected in GNSS-denied situations by anticipating, reacting, and coordinating with other aircraft in uncontrolled airspace with only passive (vision-based) sensing.&lt;/p&gt;
+
+&lt;p&gt;Currently, crewed and uncrewed traffic are strictly separated leading to reduced airspace efficiency and requiring explicit ATC coordination to guarantee safety. To achieve seamless shared crewed/uncrewed airspace:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Uncrewed:&lt;/strong&gt; low SWaP-C form factor class 1 and 2 UAVs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sensing:&lt;/strong&gt; reliable, and zero active emission, aircraft detection and trajectory prediction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Behavior:&lt;/strong&gt; hintelligently coordinates airspace and meet the expectations of a typical traffic flow.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Safety:&lt;/strong&gt; guarantees safe separation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Robustness:&lt;/strong&gt; GNSS-denied localization during outages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our focus is on the following research thrust areas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Passive aircraft detection and tracking&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Safety system&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GNSS-denied localization&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-systems&quot;&gt;1. Systems&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-1-drone-platform&quot;&gt;1. 1. Drone Platform&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/UAVs_cropped.jpg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 1:&lt;/b&gt; From Left to right: M600, VTOL, Areulia X6 (Ownship).
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;1-2-testbeds&quot;&gt;1. 2. Testbeds&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/testbed.png&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 2:&lt;/b&gt; Shared Airspace Testbeds.
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-aircraft-detection-and-tracking&quot;&gt;2. Aircraft Detection and Tracking&lt;/h2&gt;
+&lt;p&gt;Robust and long-range aircraft and drone detection in a small SWaP-C and without emitting radiation is a critical capability to enable small UAVs to be able to operate in close proximity
+to other aircraft. We use a multi-stage approach, where in downstream stages combine geometric and learning based methods to filter initial detections. We have found that such an approach maintains
+the ability to detect all relevant objects (i.e., high recall) while reducing the number of false positives. We propose to use a multi-object tracking management system that uses global
+inter-frame matching to track the geometric state of the observed aircraft. Relevant paper could be found &lt;a href=&quot;https://arxiv.org/abs/2209.12849&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/detection_and_tracking.png&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 3:&lt;/b&gt; Aircraft Detection and Tracking Overview. 
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;3-safety-system&quot;&gt;3. Safety System&lt;/h2&gt;
+&lt;p&gt;Our safety system module focuses on the dual problem of Traffic Avoidance (TA) (en-
+suring safe separation distance from other aircrafts) as well as Collision Avoidance (CA)
+(time-sensitive maneuvers to avoid Near Mid Air Collisions (NMAC)). There are multiple
+layers of complexity we aim to account for in ensuring safe behavior. We devise a hybrid
+safety system for providing an efficient solution for the Detect and Avoid problem.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/DAA.png&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 4:&lt;/b&gt; Safety System Overview.
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;3-1-homogeneous-agent-traffic-avoidance&quot;&gt;3. 1. Homogeneous Agent Traffic Avoidance&lt;/h3&gt;
+&lt;p&gt;We first focus on ensuring safe separation of drones in the airspace with other drones. This will be achieved by designing efficient
+supervisory filters that keep agents in the known safe space. This component of the safety
+module will act as a filter on existing plans generated by the planning module. It will
+ensure suggested plans do not result in the agent entering collision volumes of any other
+agent in the system. In case of violation of the defined safe separation, it will minimally
+modify the existing plan or pick from a fixed set of safe trajectories to ensure traffic avoidance.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-2-homogenous-agent-collision-avoidance&quot;&gt;3. 2. Homogenous Agent Collision Avoidance&lt;/h3&gt;
+&lt;p&gt;Collision avoidance will be performed based on decision-theoretic planning. Threat detection will be performed by computing
+multiple variables like time to closest approach, slant range, bearing, angular turn rate et
+cetera. These state variables will be calculated by fusing information from multiple surveil-
+lance sources like radar, ADS-B, and visual imagery while explicitly factoring in the sensors’
+uncertainty. We will build upon existing collision avoidance logics and modify them to cater
+to drone collision avoidance. Threat resolution will be performed using our drone collision
+avoidance logic based on estimated state variables from the previous step.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-3-hetergoenous-agent-ta-and-ca&quot;&gt;3. 3. Hetergoenous Agent TA and CA&lt;/h3&gt;
+&lt;p&gt;To account for heterogenous agents, we will factor in different dynamics model associated with different types of agents for state estimation and
+resolution. We also plan to improve on existing avoidance logics by straying away from the
+acceleration based models for intruders. This will be done by explicitly leveraging our intent
+and trajectory prediction modules while computing resolution advisories.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/daa.gif&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 5:&lt;/b&gt; Sampled DAA Field Test Demonstration of Head-On Scenario.
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;4-vision-based-gnss-denied-localization&quot;&gt;4. Vision-based GNSS-Denied Localization&lt;/h2&gt;
+
+&lt;p&gt;Robust and accurate localization for Unmanned Aerial Vehicles (UAVs) is an essential capability to achieve autonomous and long-range flights. Current methods rely heavily on GNSS, which is vulnerable to jamming, spoofing, and environmental interference. In this work, we develop a GNSS-denied localization approach for UAVs that harnesses both Visual-Inertial Odometry (VIO) and Visual Place Recognition (VPR) using a foundation model (AnyLoc).
+We present a novel vision-based pipeline that works exclusively with a nadir-facing camera, an Inertial Measurement Unit (IMU), and pre-existing satellite imagery for robust and accurate localization in varied environments and conditions. Our system demonstrated average localization accuracy within a 20-meter range, with a minimum error below 1 meter, under real-world conditions marked by drastic changes in environmental appearance and with no assumption of the vehicle’s initial pose. The method is proven to be effective and robust, addressing the crucial need for reliable UAV localization in GNSS-denied environments, while also being computationally efficient enough to be deployed on resource-constrained platforms. Check out AnyLoc and FoundLoc websites for more information and demos!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://anyloc.github.io/&quot;&gt;AnyLoc Website&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/anyloc.png&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 6:&lt;/b&gt; AnyLoc Overview. 
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://anyloc.github.io/FoundLoc/&quot;&gt;FoundLoc Website&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/img/posts/2023-11-23-darpa-shared-airspace/foundloc.png&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+  &lt;b&gt;Fig. 7:&lt;/b&gt; FoundLoc Overview.
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;contributors&quot;&gt;Contributors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.jaypatrikar.me/&quot;&gt;Jay Patrikar&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nik-v9.github.io/&quot;&gt;Nikhil Keetha&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.ivancisneros.com/&quot;&gt;Ivan Cisneros&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://shockwaveHe.github.io/&quot;&gt;Yao He&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/zelinye&quot;&gt;Zelin Ye&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;{https://www.linkedin.com/in/ian-higgins-53957718a&quot;&gt;Ian Higgins&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://parvkpr.github.io&quot;&gt;Parv Kapoor&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://theairlab.org/team/yaoyuh/&quot;&gt;Yaoyu Hu&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~jeanoh/&quot;&gt;Dr. Jean Oh&lt;/a&gt; (Co-PI)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://theairlab.org/team/sebastian/&quot;&gt;Dr. Sebastian Scherer&lt;/a&gt; (PI)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yao He</name></author><category term="research" /><summary type="html">An autonomy system that keeps UAVs and manned traffic safely separated and behave as expected in GNSS-denied situations by anticipating, reacting, and coordinating with other aircraft in uncontrolled airspace with only passive (vision-based) sensing.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-11-23-darpa-shared-airspace/DARPA_CMU_Collision_Avoidance_Demo.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-11-23-darpa-shared-airspace/DARPA_CMU_Collision_Avoidance_Demo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DARPA TRIAGE CHALLENGE</title><link href="https://theairlab.org/research/2023/11/08/DARPA-TRIAGE-CHALLENGE/" rel="alternate" type="text/html" title="DARPA TRIAGE CHALLENGE" /><published>2023-11-08T02:00:01+00:00</published><updated>2023-11-08T02:00:01+00:00</updated><id>https://theairlab.org/research/2023/11/08/DARPA-TRIAGE-CHALLENGE</id><content type="html" xml:base="https://theairlab.org/research/2023/11/08/DARPA-TRIAGE-CHALLENGE/">&lt;h3 id=&quot;what-is-the-darpa-triage-challenge&quot;&gt;What is the DARPA Triage Challenge?&lt;/h3&gt;
+&lt;p&gt;As stated on the &lt;a href=&quot;https://triagechallenge.darpa.mil/&quot;&gt;DARPA Triage page&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;The DARPA Triage Challenge (DTC) will use a series of challenge events to spur development of novel physiological features for medical triage. The DARPA Triage Challenge aims to drive breakthrough innovations in identification of “signatures” of injury that will help medical responders perform scalable, timely, and accurate triage. Of particular interest are mass casualty incidents (MCIs), in both civilian and military settings, when medical resources are limited relative to the need.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Team STRAPS is a partnership between labs from Carnegie Mellon University and University of Pittsburgh.&lt;/p&gt;
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-11-08-darpa_triage/challenge_task.png&quot; alt=&quot;Small picture of a kitten&quot; /&gt;
+ &lt;figcaption&gt;
+ A slide from DARPA explaining why we need this challenge
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;media&quot;&gt;Media&lt;/h3&gt;</content><author><name>AirLab</name></author><category term="research" /><summary type="html">What is the DARPA Triage Challenge? As stated on the DARPA Triage page: The DARPA Triage Challenge (DTC) will use a series of challenge events to spur development of novel physiological features for medical triage. The DARPA Triage Challenge aims to drive breakthrough innovations in identification of “signatures” of injury that will help medical responders perform scalable, timely, and accurate triage. Of particular interest are mass casualty incidents (MCIs), in both civilian and military settings, when medical resources are limited relative to the need.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-11-08-darpa_triage/challenge_logo.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-11-08-darpa_triage/challenge_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Time-Optimal Path Planning in a Constant Wind for Uncrewed Aerial Vehicles using Dubins Set Classification</title><link href="https://theairlab.org/trochoids/" rel="alternate" type="text/html" title="Time-Optimal Path Planning in a Constant Wind for Uncrewed Aerial Vehicles using Dubins Set Classification" /><published>2023-11-06T02:00:01+00:00</published><updated>2023-11-06T02:00:01+00:00</updated><id>https://theairlab.org/trochoids</id><content type="html" xml:base="https://theairlab.org/trochoids/">&lt;p&gt;We present a method to quickly find the time-optimal, curvature-constrained path between two states in a flow field.&lt;/p&gt;
+
+&lt;p&gt;Read more on the &lt;a href=&quot;https://bradymoon.com/trochoids&quot;&gt;paper website here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brady Moon</name></author><category term="research" /><summary type="html">We present a method to quickly find the time-optimal, curvature-constrained path between two states in a flow field.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-11-06-trochoids/trochoids_cover_crop.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-11-06-trochoids/trochoids_cover_crop.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Image Sharing</title><link href="https://theairlab.org/research/2023/10/26/image_sharing/" rel="alternate" type="text/html" title="Image Sharing" /><published>2023-10-26T10:50:07+00:00</published><updated>2023-10-26T10:50:07+00:00</updated><id>https://theairlab.org/research/2023/10/26/image_sharing</id><content type="html" xml:base="https://theairlab.org/research/2023/10/26/image_sharing/">&lt;p&gt;The image sharing library allows a user to transfer images between processes on an Nvidia Jetson computer. It
+has lower latency, higher FPS, drops less images, and uses less CPU than ROS. There are C++ and
+Python versions of the library. It uses a publisher subscriber paradigm and is designed to be as similar
+to ROS as possible. Also for image sharing, a publisher publishes a set of time synced images that are
+received as a list of images on the subscriber side. This avoids the ROS method where a special group
+of synced subscribers have to be created with the message_filters library and different callbacks are
+needed for different numbers of images. It includes the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Argus camera driver. This uses Nvidia’s Argus API to receive images from a camera and puts
+them directly into the format that the image sharing library uses for transferring images between processes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tools for converting to and from ROS image messages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tools for converting to and from gstreamer. For example, it can be converted to gstreamer to log images to mp4 or stream over a network.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interoperability with OpenCV, CUDA, VPI, and Numpy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quickly resize, rotate, crop, scale, and copy images without using the CPU.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Non-Jetson version for development without having to use a Jetson computer. This is a version
+of the image sharing library for non-Jetson computers which has the same C++ API so that
+development can be done without having to use a Jetson computer. It transfers images between
+processes in an inefficient way and is purely for development. It is also not compatible with
+CUDA and VPI in the same way that the Jetson version is.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are example programs showing everything listed above.&lt;/p&gt;
+
+&lt;p&gt;Image sharing is compatible with L4T 32.7.1 on the Xavier NX and L4T 35.1.0 on the Orin AGX.&lt;/p&gt;
+
+&lt;p&gt;Please contact us if you are interested in adopting the library.&lt;/p&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+
+&lt;p&gt;The graphs below show performance comparisons between image sharing and ROS for transferring
+images between processes on a Xavier NX. There is one node that publishes 1 megapixel images at 60
+Hz obtained from between 1 and 6 cameras using Nvidia’s Argus camera API and a second node that
+subscribes to the images. There are two versions of the nodes, one version using image sharing and the
+other using ROS.&lt;/p&gt;
+
+&lt;p&gt;The “Delay” graph shows the milliseconds of delay from when a set of images was published in the
+publisher node to when they were received in the callback of the subscriber node. For six images on a
+Xavier NX, the delay is 18 ms for image sharing and 82ms for ROS. Image sharing has 4.5 times less
+delay. For six images on an Orin AGX, the delay is 14ms for image sharing and 64ms for ROS. Image
+sharing has 4.6 times less delay.&lt;/p&gt;
+
+&lt;p&gt;In the “Published and Dropped Images” graph, an image is considered dropped if it was published by
+the image publisher node but wasn’t received by the subscriber node. For the Xavier NX with six
+cameras, 152 images are dropped with image sharing versus 491 dropped with ROS, a 3.2 times
+improvement. On the Orin AGX with six cameras, only 1 image is dropped with image sharing versus
+252 dropped with ROS.The “FPS” graph shows how many sets of synced images are received per second by the subscriber
+node. For the Xavier NX with six cameras, the FPS is 56.9 for image sharing and 4.5 for ROS, a 12.8
+times improvement. For the Orin AGX with six cameras, the FPS is 60 for image sharing and 12 for
+ROS, a 5 times improvement. ROS is significantly worse because it’s high CPU usage makes it less
+likely that images will be received from the camera and also less likely that once they are received from
+the camera, that they will make it to the subscriber. Since all six images are required for the subscriber
+to be triggered, missing just a single image will result in that whole group of images not being used.&lt;/p&gt;
+
+&lt;p&gt;The “CPU Usage” graph shows the CPU usage of the publisher and subscriber nodes, where 100%
+means that one core is being used. For both the Xavier NX and Orin AGX with six cameras, ROS uses
+close to 100% CPU for the publisher node versus 70% for image sharing. For the subscriber nodes,
+ROS uses 26% on the Xavier and 27% on the Orin versus 20% on the Xavier and 16% for image
+sharing. Image sharing uses less CPU for both the publisher and subscriber nodes than ROS, even
+though image sharing is publishing and receiving significantly more images than ROS.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-10-26-image_sharing/Orin_AGX_1_MP_60_Hz_.png&quot; alt=&quot;Orin AGX&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-10-26-image_sharing/Xavier_NX_1_MP_60_Hz_.png&quot; alt=&quot;Xavier NX&quot; /&gt;
+&lt;/figure&gt;</content><author><name>John Keller</name></author><category term="research" /><summary type="html">The image sharing library allows a user to transfer images between processes on an Nvidia Jetson computer. It has lower latency, higher FPS, drops less images, and uses less CPU than ROS. There are C++ and Python versions of the library. It uses a publisher subscriber paradigm and is designed to be as similar to ROS as possible. Also for image sharing, a publisher publishes a set of time synced images that are received as a list of images on the subscriber side. This avoids the ROS method where a special group of synced subscribers have to be created with the message_filters library and different callbacks are needed for different numbers of images. It includes the following features:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-10-26-image_sharing/image_sharing.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-10-26-image_sharing/image_sharing.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision</title><link href="https://theairlab.org/gicandidates/" rel="alternate" type="text/html" title="Geometry-Informed Distance Candidate Selection for Omnidirectional Stereo Vision" /><published>2023-10-10T20:00:00+00:00</published><updated>2023-10-10T20:00:00+00:00</updated><id>https://theairlab.org/dsta-depth-gicandidates</id><content type="html" xml:base="https://theairlab.org/gicandidates/">&lt;p&gt;&lt;a class=&quot;button&quot; itemprop=&quot;github&quot; href=&quot;https://github.com/castacks/mvs_gi&quot; target=&quot;_blank&quot;&gt;
+    &lt;svg class=&quot;svg-inline--fa fa-github fa-w-16 fa-lg&quot; aria-hidden=&quot;true&quot; data-prefix=&quot;fab&quot; data-icon=&quot;github&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; data-fa-i2svg=&quot;&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/a&gt;
+&lt;a class=&quot;button&quot; itemprop=&quot;pdf&quot; href=&quot;/img/posts/2023-10-10-dsta-depth-gicandidates/ICRA_2024__Pulling__Tan__Hu__Scherer.pdf&quot; target=&quot;_blank&quot;&gt;
+    &lt;i class=&quot;fas fa-file&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the project page of the ICRA submission, “Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images”. For code, dataset, and the pre-trained models, please refer to the &lt;a href=&quot;https://github.com/castacks/mvs_gi&quot;&gt;GitHub page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/SMDn6UkYAu8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;figcaption&gt;ICRA '24 Submission Video.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Depth perception is essential for mobile robots in navigation and obstacle avoidance. LiDAR devices are commonly used due to their accuracy and speed, but they have mechanical complexities and can be costly. Current multiview stereo (MVS) vision methods with fisheye images are either not robust enough or cannot run in real-time. Many learning-based methods are very computationally-expensive due to the cost volume approach.&lt;/p&gt;
+
+&lt;p&gt;The study introduces Geometry-Informed (GI) distance candidates which can be integrated into many omnidirectional MVS models that use a fixed number of distance candidates. GI candidates aim to improve depth estimation accuracy and decrease the inference time by reducing the number of candidates needed.&lt;/p&gt;
+
+&lt;p&gt;Additionally, GI candidates convey an interesting property onto MVS models. The GI candidate distribution is dependent on baseline distance. So as the baseline distance between reference and query cameras changes, so does the GI candidates chosen. We show that this dependency allows camera locations can be adjusted post-training and the model still can perform well by adjusting the GI candidates to the new distribution.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-10-10-dsta-depth-gicandidates/gicandidates_banner.png&quot; alt=&quot;Sample results on the Scene Flow dataset&quot; style=&quot;width:450px;height:300px;&quot; /&gt;
+ &lt;figcaption&gt;Geometry-Informed (GI) Candidate Distribution compared to even candidate spacing in the inverse distance space.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;100k-samples-multiview-stereo-vision-dataset&quot;&gt;100k-Samples Multiview Stereo Vision Dataset&lt;/h3&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-10-10-dsta-depth-gicandidates/dataset_banner.png&quot; alt=&quot;Sample results on the Scene Flow dataset&quot; /&gt;
+ &lt;figcaption&gt;Overview of the 65+ environments available in the dataset.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The dataset consists of 112,344 samples collected from 68 environments. Each sample consists of RGB fisheye images and ground truth depth for each of the three cameras in our specific configuration. Our configuration uses an evaluation board with three fisheye cameras in a triangular configuration. Additionally, each sample has a ground truth RGB and distance map panorama at the reference camera’s location.&lt;/p&gt;
+
+&lt;p&gt;The dataset will be released soon on our project github page.&lt;/p&gt;
+
+&lt;h3 id=&quot;more-results&quot;&gt;More Results&lt;/h3&gt;
+
+&lt;figure&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/Hb1dYEkeRDo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;figcaption&gt;Point cloud representation of real-world inferencing.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Results show a comparison of synthetically-generated images from unknown environments. The Geometry-Informed (GI) candidates distribution improves depth candidate selection. Using GI candidates leads to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Better accuracy in distance estimation&lt;/li&gt;
+  &lt;li&gt;Faster model performance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An additional benefit of the GI candidates is their ability to accommodate changes in the distance between cameras after training without re-training.&lt;/p&gt;
+
+&lt;p&gt;The following table presents performance metrics across various models:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Model&lt;/th&gt;
+      &lt;th&gt;Candidate Type&lt;/th&gt;
+      &lt;th&gt;Number&lt;/th&gt;
+      &lt;th&gt;MAE&lt;/th&gt;
+      &lt;th&gt;RMSE&lt;/th&gt;
+      &lt;th&gt;SSIM&lt;/th&gt;
+      &lt;th&gt;Time (ms)&lt;/th&gt;
+      &lt;th&gt;GPU Start (MB)&lt;/th&gt;
+      &lt;th&gt;GPU Peak (MB)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RTSS[1]&lt;/td&gt;
+      &lt;td&gt;EV&lt;/td&gt;
+      &lt;td&gt;32&lt;/td&gt;
+      &lt;td&gt;0.053&lt;/td&gt;
+      &lt;td&gt;0.101&lt;/td&gt;
+      &lt;td&gt;0.776&lt;/td&gt;
+      &lt;td&gt;144&lt;/td&gt;
+      &lt;td&gt;330&lt;/td&gt;
+      &lt;td&gt;4240&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E8&lt;/td&gt;
+      &lt;td&gt;EV&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;0.013&lt;/td&gt;
+      &lt;td&gt;0.032&lt;/td&gt;
+      &lt;td&gt;0.862&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+      &lt;td&gt;790&lt;/td&gt;
+      &lt;td&gt;1030&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;G8&lt;/td&gt;
+      &lt;td&gt;GI&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;0.012&lt;/td&gt;
+      &lt;td&gt;0.029&lt;/td&gt;
+      &lt;td&gt;0.867&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+      &lt;td&gt;790&lt;/td&gt;
+      &lt;td&gt;1030&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E16&lt;/td&gt;
+      &lt;td&gt;EV&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;0.011&lt;/td&gt;
+      &lt;td&gt;0.028&lt;/td&gt;
+      &lt;td&gt;0.876&lt;/td&gt;
+      &lt;td&gt;111&lt;/td&gt;
+      &lt;td&gt;790&lt;/td&gt;
+      &lt;td&gt;1230&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;G16&lt;/td&gt;
+      &lt;td&gt;GI&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;0.010&lt;/td&gt;
+      &lt;td&gt;0.028&lt;/td&gt;
+      &lt;td&gt;0.877&lt;/td&gt;
+      &lt;td&gt;111&lt;/td&gt;
+      &lt;td&gt;790&lt;/td&gt;
+      &lt;td&gt;1230&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;G16V&lt;/td&gt;
+      &lt;td&gt;GI&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;0.013&lt;/td&gt;
+      &lt;td&gt;0.029&lt;/td&gt;
+      &lt;td&gt;0.861&lt;/td&gt;
+      &lt;td&gt;111&lt;/td&gt;
+      &lt;td&gt;790&lt;/td&gt;
+      &lt;td&gt;1230&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;G16VV&lt;/td&gt;
+      &lt;td&gt;GI&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;0.012&lt;/td&gt;
+      &lt;td&gt;0.028&lt;/td&gt;
+      &lt;td&gt;0.872&lt;/td&gt;
+      &lt;td&gt;114&lt;/td&gt;
+      &lt;td&gt;800&lt;/td&gt;
+      &lt;td&gt;1090&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Pre-trained models will be released soon on our github project page.&lt;/p&gt;
+
+&lt;h3 id=&quot;manuscript&quot;&gt;Manuscript&lt;/h3&gt;
+
+&lt;p&gt;Please refer to this &lt;a href=&quot;/img/posts/2023-10-10-dsta-depth-gicandidates/ICRA_2024__Pulling__Tan__Hu__Scherer.pdf&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@misc{hu2021orstereo,
+      title={Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images}, 
+      author={Conner Pulling and Je Hon Tan and Yaoyu Hu and Sebastian Scherer},
+      year={2023},
+      primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;contact&quot;&gt;Contact&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Conner Pulling: (cpulling [at] andrew [dot] cmu [dot] edu)&lt;/li&gt;
+  &lt;li&gt;Yaoyu Hu: (yaoyuh [at] andrew [dot] cmu [dot] edu)&lt;/li&gt;
+  &lt;li&gt;Sebastian Scherer: (basti [at] cmu [dot] edu)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acknowledgments&quot;&gt;Acknowledgments&lt;/h3&gt;
+
+&lt;p&gt;This work was supported by Singapore’s Defence Science and Technology Agency (DSTA).&lt;/p&gt;</content><author><name>Conner Pulling</name></author><category term="research" /><summary type="html">This is the project page of the ICRA submission, “Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images”. For code, dataset, and the pre-trained models, please refer to the GitHub page. ICRA '24 Submission Video. Overview Depth perception is essential for mobile robots in navigation and obstacle avoidance. LiDAR devices are commonly used due to their accuracy and speed, but they have mechanical complexities and can be costly. Current multiview stereo (MVS) vision methods with fisheye images are either not robust enough or cannot run in real-time. Many learning-based methods are very computationally-expensive due to the cost volume approach. The study introduces Geometry-Informed (GI) distance candidates which can be integrated into many omnidirectional MVS models that use a fixed number of distance candidates. GI candidates aim to improve depth estimation accuracy and decrease the inference time by reducing the number of candidates needed. Additionally, GI candidates convey an interesting property onto MVS models. The GI candidate distribution is dependent on baseline distance. So as the baseline distance between reference and query cameras changes, so does the GI candidates chosen. We show that this dependency allows camera locations can be adjusted post-training and the model still can perform well by adjusting the GI candidates to the new distribution. Geometry-Informed (GI) Candidate Distribution compared to even candidate spacing in the inverse distance space. 100k-Samples Multiview Stereo Vision Dataset Overview of the 65+ environments available in the dataset. The dataset consists of 112,344 samples collected from 68 environments. Each sample consists of RGB fisheye images and ground truth depth for each of the three cameras in our specific configuration. Our configuration uses an evaluation board with three fisheye cameras in a triangular configuration. Additionally, each sample has a ground truth RGB and distance map panorama at the reference camera’s location. The dataset will be released soon on our project github page. More Results Point cloud representation of real-world inferencing. Results show a comparison of synthetically-generated images from unknown environments. The Geometry-Informed (GI) candidates distribution improves depth candidate selection. Using GI candidates leads to: Better accuracy in distance estimation Faster model performance An additional benefit of the GI candidates is their ability to accommodate changes in the distance between cameras after training without re-training. The following table presents performance metrics across various models: Model Candidate Type Number MAE RMSE SSIM Time (ms) GPU Start (MB) GPU Peak (MB) RTSS[1] EV 32 0.053 0.101 0.776 144 330 4240 E8 EV 8 0.013 0.032 0.862 65 790 1030 G8 GI 8 0.012 0.029 0.867 65 790 1030 E16 EV 16 0.011 0.028 0.876 111 790 1230 G16 GI 16 0.010 0.028 0.877 111 790 1230 G16V GI 16 0.013 0.029 0.861 111 790 1230 G16VV GI 16 0.012 0.028 0.872 114 800 1090 Pre-trained models will be released soon on our github project page. Manuscript Please refer to this link. @misc{hu2021orstereo, title={Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images}, author={Conner Pulling and Je Hon Tan and Yaoyu Hu and Sebastian Scherer}, year={2023}, primaryClass={cs.CV} } Contact Conner Pulling: (cpulling [at] andrew [dot] cmu [dot] edu) Yaoyu Hu: (yaoyuh [at] andrew [dot] cmu [dot] edu) Sebastian Scherer: (basti [at] cmu [dot] edu) Acknowledgments This work was supported by Singapore’s Defence Science and Technology Agency (DSTA).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Off-road driving by learning from interaction and demonstration</title><link href="https://theairlab.org/offroad/" rel="alternate" type="text/html" title="Off-road driving by learning from interaction and demonstration" /><published>2023-08-08T10:17:07+00:00</published><updated>2023-08-08T10:17:07+00:00</updated><id>https://theairlab.org/offroad</id><content type="html" xml:base="https://theairlab.org/offroad/">&lt;p&gt;Off-road driving is an important robotics task with applications in agriculture, mining, exploration, and defense. While off-road driving has many similarities to driving in urban areas, a major difference is a lack of an obstacle/no obstacle dichotomy. That is, in off-road scenarios, not all objects are obstacles, and identifying which objects are traversable in a reliable way is critical.&lt;/p&gt;
+
+&lt;p&gt;Our research covers a wide range of topics that aim at expanding the robot’s capability as well as improving its robustness in challenging environments. We utilize modern machine learning techniques while eliminating the exhausting hand-labeling process. In specific, we explore self-supervised learning and learning-from-demonstration to understand the terrain traversability cost and vehicle dynamics from large-scale interaction data, online adapt the cost and dynamics model to overcome the out-of-distribution failures. Our system doesn’t require human labeled data, instead, it relies on its own experiences of interacting with the environment, while being aware of the uncertainty in each model, and online adapt the model in novel situations. We will explain our design philosophy in more detail and introduce the key components in the following sections.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/overview.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;our-design-philosophy-moving-to-a-no-hand-labeling-paradigm&quot;&gt;Our Design Philosophy: Moving to a No-Hand Labeling Paradigm&lt;/h2&gt;
+
+&lt;p&gt;Identifying objects with object detection and semantic segmentation and then avoiding them has been a proven strategy for urban driving. As such, a common approach for off-road driving is to identify terrain regions such as trails, rocks and grass using semantic segmentation, assign them costs, and use a planner to avoid the high-cost semantic classes.&lt;/p&gt;
+
+&lt;p&gt;However, there are some limitations to this approach that are unique to the off-road driving case:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Intra-class variance&lt;/strong&gt;: Not all objects in the same semantic class should receive the same cost. For instance, in the following Figure, the terrains inside the two boxes are of similar height and ground color. Although both are segmented as mud, humans can perceive the green  part is safer than the red part.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Assigning costs to classes is difficult&lt;/strong&gt;: While a general ordering of classes is easy to obtain (i.e. trails should be low-cost, rocks should be high-cost), the exact cost values that the downstream planner uses are heuristically determined.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Semantic segmentation labels are time-consuming&lt;/strong&gt;: It takes minutes to label a single image frame for semantic segmentation. Furthermore, the boundaries between semantic classes are not well-defined.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/mud.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These limitations result in that designing an off-road driving system is a time-consuming, laborious process that involves months of data labeling, design and field testing. Furthermore, these systems are often overfit to a given environment. As such, this process often needs to be repeated for new environments (e.g. moving from a forest to a desert).&lt;/p&gt;
+
+&lt;p&gt;In order to design methods that scale more effectively, &lt;strong&gt;we have been developing methods that can learn how to navigate effectively without using human labels&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware-system-and-dataset&quot;&gt;Hardware System and Dataset&lt;/h2&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/vehicle_hardware.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/dataset.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;3d-multi-modal-semantic-mapping-for-high-speed-off-road-driving&quot;&gt;3D Multi-modal Semantic Mapping for High-Speed Off-road Driving&lt;/h2&gt;
+
+&lt;p&gt;Reliable and high-speed autonomous off-road driving has the potential to better
+connect previously hard-to-access areas that have few paved roads. While there have
+been wide efforts over the past decade towards building autonomous off-road agents,
+most are relatively slow due to their limited sensing range.&lt;/p&gt;
+
+&lt;p&gt;We therefore develop a 3D multi-modal semantic mapping module capable of delivering long-range and fine grained traversability information for intelligent high-speed off-road driving.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/mapping.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We derive 3 main requirements of high-speed off-road driving that drive our design decisions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Off-road environments are incredibly 3-dimensional&lt;/strong&gt;: Vehicles need to navigate extreme slopes and go through overhangs that may otherwise be marked as obstacles.
+    &lt;ul&gt;
+      &lt;li&gt;3D Voxel Map Representation, Denoised ground height estimation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Safe high-speed driving requires a large sensing range&lt;/strong&gt;: Laser range sensors (LiDARs) are often used for off-road sensing, however many environmental features important to determining traversability are difficult to differentiate beyond short range (&amp;lt; 30m) due to sparsity in sensing.
+    &lt;ul&gt;
+      &lt;li&gt;Use camera + LiDAR sensing for accurate long-range information&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intelligent driving requires fine-grained information on terrain traversability&lt;/strong&gt;: Using a occupancy-only traversability measure is insufficient as areas of similar heights can have different traversability: rock vs. traversable grass.
+    &lt;ul&gt;
+      &lt;li&gt;Augment geometric maps with semantic terrain information&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our resulting semantic mapping module has been tested in diverse environments: from highly-vegetated forests, extreme sloped hills and desert with hidden rocks. In all environments, our module has delivered accurate, long-range information for high-speed driving.&lt;/p&gt;
+
+&lt;p&gt;The base of our 3D multi-modal mapping is voxels. All 3D information coming from different perception sensors and components are processed and stored in a voxel. The data structure of the voxel map is composed of 2D grid cells (XY) where each cell contains a certain number of voxels (Z). The foundation of the voxel map is a lidar point cloud. Each lidar point is processed and stored in a corresponding voxel. Ground elevation is estimated based on the lowest reliable voxel point information in a 2D cell. In ground elevation estimation, Random Markov Field (MRF) is applied in order to more accurately depict ground changes. With the help of ground elevation map, height map and slope map(s) are generated. Besides, with all voxel point information in a cell, a singular value decomposition (SVD) map is generated. For semantics, after an image is inferenced with a trained visual semantic model, the corresponding lidar point cloud is projected onto the predicted image. The successfully projected points are assigned with the image pixel visual semantic information. Next, the visual semantic point cloud populates the voxel map and updates semantic information in a voxel. Finally, 3D voxel semantic information is projected onto 2D grid cells in order to generate a semantic map.&lt;/p&gt;
+
+&lt;h2 id=&quot;terrain-analysis-through-self-supervised-learning&quot;&gt;Terrain Analysis through Self-Supervised Learning&lt;/h2&gt;
+
+&lt;p&gt;Certain characteristics of the terrain, such as slope, irregularities in height, the deformability of the ground surface, and the compliance of the objects on the ground, affect the dynamics of the robot as it traverses over these features. While these interactions are easily captured by proprioceptive sensors, such as the linear acceleration experienced by the robot, this requires the robot to have already driven over these features to sense them. Sensors such as cameras and lidars are able to capture the visual and geometric characteristics of the terrain, but these alone are not good predictors of robot-terrain interactions without grounding them in what the robot actually feels while driving over the terrain.&lt;/p&gt;
+
+&lt;p&gt;Previous approaches for off-road traversability have focused on representing visual and geometric information as occupancy maps, or learning semantic classifiers from labeled data to map different terrains to different costs in a costmap. Yet, this abstracts away all the nuance of the interactions between the robot and different terrain types. Under an occupancy-based paradigm, concrete, sand, and mud would be equally traversable since they are terrain types with low height, whereas tall rocks, grass, and bushes would be equally non-traversable since they are taller features of the terrain. In reality, specific instances of a class may have varying degrees of traversability (e.g. some bushes are traversable but not all).&lt;/p&gt;
+
+&lt;p&gt;What we are really interested in capturing is roughness in traversability as the vehicle experienced it, rather than capturing the appearance or geometry of roughness. For instance, a point cloud of tall grass might appear rough, but traversing over this grass could still lead to smooth navigation if the terrain under the grass is smooth.&lt;/p&gt;
+
+&lt;p&gt;In our &lt;a href=&quot;https://arxiv.org/abs/2209.10788&quot;&gt;ICRA 2023 paper&lt;/a&gt; “How Does It Feel? Self-Supervised Costmap Learning for Off-Road Vehicle Traversability”, we propose a self-supervised method that predicts costmaps that reflect nuanced terrain interaction properties relevant to ground navigation. We approach this problem by learning a mapping from rich exteroceptive information and robot velocity to a continuous traversability cost derived from IMU data.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/hdif.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We find that our method outperforms occupancy-based baselines on short-scale and large-scale navigation trials. Our short-scale navigation results show that using our learned costmaps leads to overall smoother navigation, and provides the robot with a more fine-grained understanding of the interactions between the robot and different terrain types, such as grass and gravel. Our large-scale navigation trials show that we can reduce the number of interventions by up to 57% compared to an occupancy-based navigation baseline in challenging off-road courses ranging from 400 m to 3150 m.&lt;/p&gt;
+
+&lt;div class=&quot;video-wrapper&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/19sDs1S8IGk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;off-road-driving-through-imitating-human-experts&quot;&gt;Off-Road Driving through Imitating Human Experts&lt;/h2&gt;
+&lt;p&gt;Another source of unlabeled supervision for learning navigation behaviors are examples of teleoperation from human experts. Compared to human labeling of traversable and non-traversable terrain, collecting supervision by simply allowing humans to drive off-road dramatically simplifies and accelerates the data collection process.&lt;/p&gt;
+
+&lt;p&gt;In order to translate human-driven trajectories into a form consumable by planning and control, we use inverse reinforcement learning (IRL) to learn costmaps from lidar data. Compared to the alternative of learning actions directly from expert data, learning costmaps has the advantage of being human-interpretable.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/irl.png&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In order to achieve a practical algorithm that runs effectively on our platform, we leverage maximum entropy IRL (MaxEnt IRL) with several extensions, such as sampling-based MPC, risk estimation, and deep neural networks. We find that IRL significantly outperforms occupancy-based baselines on several kilometers of challenging off-road trails (reducing interventions by up to 70%). Furthermore, we find that we can leverage our risk-estimation to modulate how aggressive the ATV is with respect to terrains such as tall grass and slopes. Results are presented in our &lt;a href=&quot;https://arxiv.org/abs/2302.00134&quot;&gt;ICRA 2023 paper&lt;/a&gt; “Learning Risk-Aware Costmaps via Inverse Reinforcement Learning for Off-Road Navigation’’.&lt;/p&gt;
+
+&lt;!-- [![Watch the video]](https://drive.google.com/file/d/1SJqSMNusDhjc-EY9LCMec5UrZMVkxpa5/view?resourcekey) --&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1SJqSMNusDhjc-EY9LCMec5UrZMVkxpa5/preview&quot; width=&quot;1024&quot; height=&quot;720&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;learning-vehicle-dynamics&quot;&gt;Learning Vehicle Dynamics&lt;/h2&gt;
+
+&lt;p&gt;In order to create control rules that guarantee desirable qualities like safety, stability, and generalization of various operating situations, an accurate model of the dynamics of a control system is essential.&lt;/p&gt;
+
+&lt;p&gt;The Kinematic Bicycle Model (KBM), one of the examples of a model developed from first principles (purely physics-driven), is widely used in practice but tends to oversimplify the underlying structure of dynamical systems, resulting in prediction errors that cannot be corrected by optimizing over a few model parameters.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;/img/posts/2023-08-08-offroad/dynamicsmodel.png&quot; alt=&quot;&quot; style=&quot;width:80%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We therefore employ deep learning to address this, which offers very expressive models for function approximation. We leverage real-time information from gps-based odometry along with multiple other modalities like, First-Person View Image, Heightmaps and RGB-maps.  By reducing the RMSE loss in the anticipated state - [x, y, yaw, velocity] (See Table 1. For deeper analysis), these models outperform purely physics-driven models. Our &lt;a href=&quot;https://arxiv.org/abs/2205.01791&quot;&gt;ICRA 2022 work&lt;/a&gt;, “TartanDrive: A Large-Scale Dataset for Learning Off-Road Dynamics Models” provides a thorough description of the model.&lt;/p&gt;
+
+&lt;p&gt;Table 1: Here we show RMSE errors of the last predicted point in a 2-second horizon&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;x&lt;/th&gt;
+      &lt;th&gt;y&lt;/th&gt;
+      &lt;th&gt;yaw&lt;/th&gt;
+      &lt;th&gt;v&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KBM&lt;/td&gt;
+      &lt;td&gt;1.103&lt;/td&gt;
+      &lt;td&gt;0.737&lt;/td&gt;
+      &lt;td&gt;0.115&lt;/td&gt;
+      &lt;td&gt;1.189&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FPV&lt;/td&gt;
+      &lt;td&gt;0.746&lt;/td&gt;
+      &lt;td&gt;0.605&lt;/td&gt;
+      &lt;td&gt;0.056&lt;/td&gt;
+      &lt;td&gt;0.828&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FPV+Maps&lt;/td&gt;
+      &lt;td&gt;0.528&lt;/td&gt;
+      &lt;td&gt;0.488&lt;/td&gt;
+      &lt;td&gt;0.054&lt;/td&gt;
+      &lt;td&gt;0.598&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;While DL-based models perform better than KBM, they do poorly generalize because they find it difficult to grasp the symmetries and conservation rules that underlie dynamical systems. Consideration of a hybrid method, which encodes physics, laws, and geometric aspects of the underlying system in the construction of the neural network architecture or in the learning process, has been a current study direction in the field and for us. The resulting “physics-informed neural networks” feature superior generalization capabilities, enhanced design, and efficiency. Please check out our &lt;a href=&quot;https://arxiv.org/abs/2311.00815&quot;&gt;ICRA 2024 paper&lt;/a&gt;: “PIAug – Physics Informed Augmentation for Learning Vehicle Dynamics for Off-Road Navigation”.&lt;/p&gt;
+
+&lt;div class=&quot;video-wrapper&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/r0Dq61DIWZQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;online-adaptation-for-off-road-driving&quot;&gt;Online Adaptation for Off-road Driving&lt;/h2&gt;
+
+&lt;p&gt;For proper decision-making in off-road terrain, the robot needs to have an accurate ground estimate. The ground estimate describes the surface that the vehicle makes solid contact with the ground. For example, when driving in rocky terrain, the rocks are solid enough that the robot drives directly over them. In contrast, the robot is capable of driving directly through tall grass.&lt;/p&gt;
+
+&lt;p&gt;One common approach is using minimum-height lidar hits to form a ground estimate. In a given voxel, the lidar hit with the lowest height value is likely to be near the true ground. Unfortunately, in areas such as tall-grass and bushes the vegetation is so dense that the lidar scans can’t penetrate them to see the ground beneath, causing the robot to think that the ground plane is higher than it actually is. This error in ground height estimation can lead to unsafe behaviors. For example, certain obstacles partially hidden in vegetation might not get thresholded properly, causing the robot to think that it is safe to drive over.&lt;/p&gt;
+
+&lt;p&gt;One way to address this is to adapt the ground estimate online in a self-supervised manner. As the robot drives, the height at which the wheels make contact with the ground can be treated as ground truth. This value can be calculated by measuring the transform between the bottom of the wheels and the frame in which our odometry is calculated. As the vehicle drives through various terrain, it can compare this ground truth to its estimate and use that to adapt online.&lt;/p&gt;
+
+&lt;p&gt;Our ground adaptation pipeline involves comparing the past ground estimates with the ground truth estimate provided by the tire points at the current timestep. This allows us to measure the error of our ground estimate at different distances away from us. By querying our wheel measurements in a semantic top-down map, we can also measure our error in different semantic classes (e.g. trail, low-vegetation, high-vegetation). We can then look at our past errors at given distances for given semantics, and offset our ground estimate with these errors in future ground estimates so that they are more accurate. This leads to better ground estimates at range which in turn can lead to better decision making.&lt;/p&gt;
+
+&lt;h2 id=&quot;online-adaptation-for-off-road-long-range-perception&quot;&gt;Online Adaptation for Off-road Long-Range Perception&lt;/h2&gt;
+
+&lt;p&gt;When operating at high speed, the vehicle requires good estimates beyond reactive range (&amp;gt; 30m), for more deliberate and safe navigation. Off-road vehicles will also often operate in new out-of-distribution environments (e.g., desert, forest) or even the same environments with different weather conditions (e.g., sunny vs. cloudy condition). Laser sensors, i.e. LiDAR, are typically used to build a geometric understanding of the environment to generate traversability estimates. While LiDAR can provide accurate estimates robust to visual appearances, its noise grows as its range increases due to the sparsity of LiDAR points.
+On the contrary, camera-based methods output dense predictions at further distances. However, typical visual models rely on an immense amount of human-annotated data and perform poorly when the environmental appearance is out of training distribution.&lt;/p&gt;
+
+&lt;p&gt;We therefore present ALTER, an Adaptive Long-range Traversibility EstimatoR that
+adapts on the drive to combine the best of LiDAR and camera to increase the reliable deployment envelope of our perception system, both in range and in environments.
+Conceptually, we adapt a visual model online from new LiDAR measurements. First, our system labels near-range LiDAR measurements in 3D, then project the 3D labels to image space to produce pixel-wise labels. These labels are used to continuously train new visual models online. By rapidly learning from new measurements, our self-supervised, adaptive approach enables accurate long-range traversability prediction in novel environments without hand-labeling.&lt;/p&gt;
+
+&lt;p&gt;We show, within 1 minute of combined data collection and training, our adaptive visual method produces up to 30% improvement in traversability estimation over LiDAR-only estimates and 60% improvement over visual models trained in another environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgments&quot;&gt;Acknowledgments&lt;/h3&gt;
+
+&lt;p&gt;This work was supported by DARPA and ARL.&lt;/p&gt;</content><author><name>Wenshan Wang</name></author><category term="research" /><summary type="html">Off-road driving is an important robotics task with applications in agriculture, mining, exploration, and defense. While off-road driving has many similarities to driving in urban areas, a major difference is a lack of an obstacle/no obstacle dichotomy. That is, in off-road scenarios, not all objects are obstacles, and identifying which objects are traversable in a reliable way is critical.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-08-08-offroad/offroad.gif" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-08-08-offroad/offroad.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AnyLoc: Towards Universal Place Recognition</title><link href="https://theairlab.org/anyloc/" rel="alternate" type="text/html" title="AnyLoc: Towards Universal Place Recognition" /><published>2023-08-01T12:00:01+00:00</published><updated>2023-08-01T12:00:01+00:00</updated><id>https://theairlab.org/anyloc</id><content type="html" xml:base="https://theairlab.org/anyloc/">&lt;p&gt;Retrieving the location of an image taken anywhere, anytime and under anyview.&lt;/p&gt;</content><author><name>Nikhil Keetha</name></author><category term="research" /><summary type="html">Retrieving the location of an image taken anywhere, anytime and under anyview.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://theairlab.org/img/posts/2023-08-01-anyloc/AnyLoc.png" /><media:content medium="image" url="https://theairlab.org/img/posts/2023-08-01-anyloc/AnyLoc.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,600 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Shared Airspace - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Shared Airspace | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Shared Airspace" />
+<meta name="author" content="Yao He" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Safe and Seamless Operation of Crewed and Uncrewed Aircraft in Shared Airspace" />
+<meta property="og:description" content="Safe and Seamless Operation of Crewed and Uncrewed Aircraft in Shared Airspace" />
+<link rel="canonical" href="https://theairlab.org/Shared_Airspace/" />
+<meta property="og:url" content="https://theairlab.org/Shared_Airspace/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2023-11-23-darpa-shared-airspace/DARPA_CMU_Collision_Avoidance_Demo.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-11-23T02:00:01+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2023-11-23-darpa-shared-airspace/DARPA_CMU_Collision_Avoidance_Demo.png" />
+<meta property="twitter:title" content="Shared Airspace" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2023-11-23-darpa-shared-airspace/DARPA_CMU_Collision_Avoidance_Demo.png","author":{"@type":"Person","name":"Yao He"},"headline":"Shared Airspace","dateModified":"2023-11-23T02:00:01+00:00","datePublished":"2023-11-23T02:00:01+00:00","description":"Safe and Seamless Operation of Crewed and Uncrewed Aircraft in Shared Airspace","url":"https://theairlab.org/Shared_Airspace/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/Shared_Airspace/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-large  is-bold is-primary"  style="background: linear-gradient(180deg, rgba(204,0,44,.1),rgba(204,0,44,0)), url('/img/posts/2023-11-23-darpa-shared-airspace/team.jpg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#1-systems">1. Systems</a>
+    <ul>
+      <li><a href="#1-1-drone-platform">1. 1. Drone Platform</a></li>
+      <li><a href="#1-2-testbeds">1. 2. Testbeds</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-aircraft-detection-and-tracking">2. Aircraft Detection and Tracking</a></li>
+  <li><a href="#3-safety-system">3. Safety System</a>
+    <ul>
+      <li><a href="#3-1-homogeneous-agent-traffic-avoidance">3. 1. Homogeneous Agent Traffic Avoidance</a></li>
+      <li><a href="#3-2-homogenous-agent-collision-avoidance">3. 2. Homogenous Agent Collision Avoidance</a></li>
+      <li><a href="#3-3-hetergoenous-agent-ta-and-ca">3. 3. Hetergoenous Agent TA and CA</a></li>
+    </ul>
+  </li>
+  <li><a href="#4-vision-based-gnss-denied-localization">4. Vision-based GNSS-Denied Localization</a></li>
+  <li><a href="#contributors">Contributors</a></li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2023-11-23T02:00:01+00:00">Nov 23, 2023</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			Yao He
+		
+		</div>
+	</div></p>
+
+    <h1>Shared Airspace</h1>
+
+    <p>An autonomy system that keeps UAVs and manned traffic safely separated and behave as expected in GNSS-denied situations by anticipating, reacting, and coordinating with other aircraft in uncontrolled airspace with only passive (vision-based) sensing.</p>
+
+<p>Currently, crewed and uncrewed traffic are strictly separated leading to reduced airspace efficiency and requiring explicit ATC coordination to guarantee safety. To achieve seamless shared crewed/uncrewed airspace:</p>
+
+<ul>
+  <li><strong>Uncrewed:</strong> low SWaP-C form factor class 1 and 2 UAVs.</li>
+  <li><strong>Sensing:</strong> reliable, and zero active emission, aircraft detection and trajectory prediction.</li>
+  <li><strong>Behavior:</strong> hintelligently coordinates airspace and meet the expectations of a typical traffic flow.</li>
+  <li><strong>Safety:</strong> guarantees safe separation.</li>
+  <li><strong>Robustness:</strong> GNSS-denied localization during outages.</li>
+</ul>
+
+<p>Our focus is on the following research thrust areas:</p>
+<ul>
+  <li><strong>Passive aircraft detection and tracking</strong></li>
+  <li><strong>Safety system</strong></li>
+  <li><strong>GNSS-denied localization</strong></li>
+</ul>
+
+<h2 id="1-systems">1. Systems</h2>
+
+<h3 id="1-1-drone-platform">1. 1. Drone Platform</h3>
+
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/UAVs_cropped.jpg" style="width:100%" />
+  <figcaption>
+  <b>Fig. 1:</b> From Left to right: M600, VTOL, Areulia X6 (Ownship).
+ </figcaption>
+</figure>
+
+<h3 id="1-2-testbeds">1. 2. Testbeds</h3>
+
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/testbed.png" style="width:100%" />
+  <figcaption>
+  <b>Fig. 2:</b> Shared Airspace Testbeds.
+ </figcaption>
+</figure>
+
+<h2 id="2-aircraft-detection-and-tracking">2. Aircraft Detection and Tracking</h2>
+<p>Robust and long-range aircraft and drone detection in a small SWaP-C and without emitting radiation is a critical capability to enable small UAVs to be able to operate in close proximity
+to other aircraft. We use a multi-stage approach, where in downstream stages combine geometric and learning based methods to filter initial detections. We have found that such an approach maintains
+the ability to detect all relevant objects (i.e., high recall) while reducing the number of false positives. We propose to use a multi-object tracking management system that uses global
+inter-frame matching to track the geometric state of the observed aircraft. Relevant paper could be found <a href="https://arxiv.org/abs/2209.12849">here</a>.</p>
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/detection_and_tracking.png" style="width:100%" />
+  <figcaption>
+  <b>Fig. 3:</b> Aircraft Detection and Tracking Overview. 
+ </figcaption>
+</figure>
+
+<h2 id="3-safety-system">3. Safety System</h2>
+<p>Our safety system module focuses on the dual problem of Traffic Avoidance (TA) (en-
+suring safe separation distance from other aircrafts) as well as Collision Avoidance (CA)
+(time-sensitive maneuvers to avoid Near Mid Air Collisions (NMAC)). There are multiple
+layers of complexity we aim to account for in ensuring safe behavior. We devise a hybrid
+safety system for providing an efficient solution for the Detect and Avoid problem.</p>
+
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/DAA.png" style="width:100%" />
+  <figcaption>
+  <b>Fig. 4:</b> Safety System Overview.
+ </figcaption>
+</figure>
+
+<h3 id="3-1-homogeneous-agent-traffic-avoidance">3. 1. Homogeneous Agent Traffic Avoidance</h3>
+<p>We first focus on ensuring safe separation of drones in the airspace with other drones. This will be achieved by designing efficient
+supervisory filters that keep agents in the known safe space. This component of the safety
+module will act as a filter on existing plans generated by the planning module. It will
+ensure suggested plans do not result in the agent entering collision volumes of any other
+agent in the system. In case of violation of the defined safe separation, it will minimally
+modify the existing plan or pick from a fixed set of safe trajectories to ensure traffic avoidance.</p>
+
+<h3 id="3-2-homogenous-agent-collision-avoidance">3. 2. Homogenous Agent Collision Avoidance</h3>
+<p>Collision avoidance will be performed based on decision-theoretic planning. Threat detection will be performed by computing
+multiple variables like time to closest approach, slant range, bearing, angular turn rate et
+cetera. These state variables will be calculated by fusing information from multiple surveil-
+lance sources like radar, ADS-B, and visual imagery while explicitly factoring in the sensors’
+uncertainty. We will build upon existing collision avoidance logics and modify them to cater
+to drone collision avoidance. Threat resolution will be performed using our drone collision
+avoidance logic based on estimated state variables from the previous step.</p>
+
+<h3 id="3-3-hetergoenous-agent-ta-and-ca">3. 3. Hetergoenous Agent TA and CA</h3>
+<p>To account for heterogenous agents, we will factor in different dynamics model associated with different types of agents for state estimation and
+resolution. We also plan to improve on existing avoidance logics by straying away from the
+acceleration based models for intruders. This will be done by explicitly leveraging our intent
+and trajectory prediction modules while computing resolution advisories.</p>
+
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/daa.gif" style="width:100%" />
+  <figcaption>
+  <b>Fig. 5:</b> Sampled DAA Field Test Demonstration of Head-On Scenario.
+ </figcaption>
+</figure>
+
+<h2 id="4-vision-based-gnss-denied-localization">4. Vision-based GNSS-Denied Localization</h2>
+
+<p>Robust and accurate localization for Unmanned Aerial Vehicles (UAVs) is an essential capability to achieve autonomous and long-range flights. Current methods rely heavily on GNSS, which is vulnerable to jamming, spoofing, and environmental interference. In this work, we develop a GNSS-denied localization approach for UAVs that harnesses both Visual-Inertial Odometry (VIO) and Visual Place Recognition (VPR) using a foundation model (AnyLoc).
+We present a novel vision-based pipeline that works exclusively with a nadir-facing camera, an Inertial Measurement Unit (IMU), and pre-existing satellite imagery for robust and accurate localization in varied environments and conditions. Our system demonstrated average localization accuracy within a 20-meter range, with a minimum error below 1 meter, under real-world conditions marked by drastic changes in environmental appearance and with no assumption of the vehicle’s initial pose. The method is proven to be effective and robust, addressing the crucial need for reliable UAV localization in GNSS-denied environments, while also being computationally efficient enough to be deployed on resource-constrained platforms. Check out AnyLoc and FoundLoc websites for more information and demos!</p>
+
+<p><a href="https://anyloc.github.io/">AnyLoc Website</a></p>
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/anyloc.png" style="width:100%" />
+  <figcaption>
+  <b>Fig. 6:</b> AnyLoc Overview. 
+ </figcaption>
+</figure>
+
+<p><a href="https://anyloc.github.io/FoundLoc/">FoundLoc Website</a></p>
+<figure>
+  <img src="/img/posts/2023-11-23-darpa-shared-airspace/foundloc.png" style="width:100%" />
+  <figcaption>
+  <b>Fig. 7:</b> FoundLoc Overview.
+ </figcaption>
+</figure>
+
+<h2 id="contributors">Contributors</h2>
+<ul>
+  <li>
+    <p><a href="https://www.jaypatrikar.me/">Jay Patrikar</a></p>
+  </li>
+  <li>
+    <p><a href="https://nik-v9.github.io/">Nikhil Keetha</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.ivancisneros.com/">Ivan Cisneros</a></p>
+  </li>
+  <li>
+    <p><a href="https://shockwaveHe.github.io/">Yao He</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/in/zelinye">Zelin Ye</a></p>
+  </li>
+  <li>
+    <p><a href="{https://www.linkedin.com/in/ian-higgins-53957718a">Ian Higgins</a></p>
+  </li>
+  <li>
+    <p><a href="https://parvkpr.github.io">Parv Kapoor</a></p>
+  </li>
+  <li>
+    <p><a href="https://theairlab.org/team/yaoyuh/">Yaoyu Hu</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.cs.cmu.edu/~jeanoh/">Dr. Jean Oh</a> (Co-PI)</p>
+  </li>
+  <li>
+    <p><a href="https://theairlab.org/team/sebastian/">Dr. Sebastian Scherer</a> (PI)</p>
+  </li>
+</ul>
+
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/Shared_Airspace/';
+      this.page.identifier = 'https://theairlab.org/Shared_Airspace/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

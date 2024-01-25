@@ -1,0 +1,618 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Lifelong Graph Learning - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Lifelong Graph Learning | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Lifelong Graph Learning" />
+<meta name="author" content="Chen Wang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Lifelong Graph Learning" />
+<meta property="og:description" content="Lifelong Graph Learning" />
+<link rel="canonical" href="https://theairlab.org/lgl/" />
+<meta property="og:url" content="https://theairlab.org/lgl/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2022-03-05-lgl/matching.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-05T12:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2022-03-05-lgl/matching.jpg" />
+<meta property="twitter:title" content="Lifelong Graph Learning" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2022-03-05-lgl/matching.jpg","author":{"@type":"Person","name":"Chen Wang"},"headline":"Lifelong Graph Learning","dateModified":"2022-03-05T12:00:00+00:00","datePublished":"2022-03-05T12:00:00+00:00","description":"Lifelong Graph Learning","url":"https://theairlab.org/lgl/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/lgl/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-small  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">Lifelong Graph Learning</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2022-03-05T12:00:00+00:00">Mar 5, 2022</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/chen">Chen Wang</a>
+		
+		</div>
+	</div></p>
+
+    <h1>Lifelong Graph Learning</h1>
+
+    <p>Graph neural networks (GNNs) are powerful models for many graph-structured tasks. Existing models often assume that a complete structure of a graph is available during training. However, graph-structured data is often formed in a streaming fashion so that learning a graph continuously is often necessary.</p>
+
+<figure>
+    <img src="/img/posts/2022-03-05-lgl/growing-graph.jpg" />
+    <figcaption>
+        A temporally growing graph, which is challenging to learn the graph in a sequential way.
+    </figcaption>
+</figure>
+
+<p>Existing lifelong learning techniques are mostly designed for convolutional neural networks (CNNs), which <em>assumes the new data samples are independent</em>. However, in lifelong graph learning, <em>nodes are connected and dynamically added</em>.
+In this work, we have an important observation:</p>
+
+<ul>
+  <li><strong>The number of nodes increases dynamically, while the number of node features is stable.</strong></li>
+</ul>
+
+<p>Therefore, we introduce feature graph, which <strong>takes features as nodes and turns nodes into independent graphs</strong>. This successfully converts the original problem of node classification to graph classification, in which the increasing nodes are turned into independent training samples.</p>
+
+<figure>
+    <img src="/img/posts/2022-03-05-lgl/feature-graph.jpg" />
+    <figcaption>
+        Feature graph takes the features as nodes and turns nodes into graphs, resulting in a graph predictor instead of the node predictor. Take the node a with label <img src="https://render.githubusercontent.com/render/math?math=\mathbf{z}_a" /> in the regular graph <img src="https://render.githubusercontent.com/render/math?math=\mathcal{G}" /> as an example, its features <img src="https://render.githubusercontent.com/render/math?math=x_a = [1, 0, 0, 1]" />  are nodes <img src="https://render.githubusercontent.com/render/math?math=\{a1, a2, a3, a4\}" /> in feature graph <img src="https://render.githubusercontent.com/render/math?math=\mathcal{G}^F" />. 
+    </figcaption>
+</figure>
+
+<p>The feature adjacency is established via feature cross-correlation between <img src="https://render.githubusercontent.com/render/math?math=a" /> and its neighbors <img src="https://render.githubusercontent.com/render/math?math=\mathcal{N}(a) = \{a, b, c, d, e\}" /> to model feature “interaction.”  This makes the lifelong learning techniques for CNN applicable to GNN, as the new nodes in a regular graph become individual training samples.</p>
+
+<figure>
+    <figcaption>
+        The relationship of a graph and feature graph.
+    </figcaption>
+    <img src="/img/posts/2022-03-05-lgl/relationship.jpg" />
+</figure>
+
+<h2 id="applications">Applications</h2>
+
+<h4 id="1-feature-matching">1. Feature Matching</h4>
+
+<p>Image feature matching is crucial for many 3-D computer vision tasks including simultaneous localization and mapping (SLAM).
+As shown below, the interest point and their descriptors form an infinite temporal growing graph, in which the feature points are nodes and their descriptors are the node features. In this way, the problem of feature matching becomes edge prediction for a temporal growing graph.</p>
+
+<figure>
+    <img src="/img/posts/2022-03-05-lgl/matching.jpg" />
+    <figcaption>
+         Feature matching is a problem of edge prediction for temporal growing graph.
+    </figcaption>
+</figure>
+
+<p>In an environment with dynamic illumination, feature graph network can also achieve much better accuracy and robustness, which demonstrate its effectiveness.</p>
+
+<figure>
+    <img src="/img/posts/2022-03-05-lgl/matching.gif" />
+    <figcaption>
+        Feature fatching in an environment with dynamic illumination.
+    </figcaption>
+</figure>
+
+<h4 id="2-distributed-human-action-recognition-with-wearable-devices">2. Distributed Human Action Recognition with Wearable Devices</h4>
+
+<p>Five sensors, each of which consists of a triaxial accelerometer and a biaxial gyroscope, are located at the left and right forearms, waist, left and right ankles, respectively. Each sensor produces 5 data streams and totally 5 × 5 data streams is available. 13 daily action categories are considered, including rest at standing (ReSt), rest at sitting (ReSi), rest at lying (ReLi), walk forward (WaFo), walk forward left-circle (WaLe), walk forward right-circle (WaRi), turn left (TuLe), turn right (TuRi), go upstairs (Up), go downstairs (Down), jog (Jog), jump (Jump), and push wheelchair (Push). Therefore, action recognition is a problem of sub-graph classification.</p>
+
+<figure>
+    <img src="/img/posts/2022-03-05-lgl/ward.jpg" />
+    <figcaption>
+        Lifelong human action recognition is a problem of lifelong sub-graph classification.
+    </figcaption>
+</figure>
+
+<p>Our feature graph network (FGN) has a much higher and stable performance than all the other
+methods, including GCN, APPNP, and GAT. It also achieves a much higher final per-class precision in nearly all the categories.</p>
+
+<ul>
+  <li><strong>FGN is the first method to bridge graph learning to lifelong learning via a novel graph topology.</strong></li>
+</ul>
+
+<h2 id="publication">Publication</h2>
+
+<ul>
+  <li>
+    <p>Chen Wang, Yuheng Qiu, Dasong Gao, Sebastian Scherer. <a href="https://arxiv.org/pdf/2009.00647.pdf">Lifelong Graph Learning</a>. “<em>2022 Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2022.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://arxiv.org/pdf/2009.00647.pdf">Download PDF</a></strong></p>
+  </li>
+</ul>
+
+<h2 id="source-code">Source Code</h2>
+
+<ul>
+  <li>
+    <p><strong><a href="https://github.com/wang-chen/LGL">Lifelong Graph Learning (Citation Graph)</a></strong></p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/wang-chen/lgl-action-recognition">Lifelong Graph Learning (Action Recognition)</a></strong></p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/wang-chen/lgl-feature-matching">Lifelong Graph Learning (Feature Matching)</a></strong></p>
+  </li>
+</ul>
+
+<h2 id="citation">Citation</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{wang2022lifelong,
+ title={Lifelong graph learning},
+ author={Wang, Chen and Gao, Dasong and Qiu, Yuheng and Scherer, Sebastian},
+ booktitle={2022 Conference on Computer Vision and Pattern Recognition (CVPR)},
+ year={2022}
+}
+</code></pre></div></div>
+
+<h2 id="contact">Contact</h2>
+
+<ul>
+  <li><a href="https://chenwang.site">Chen Wang</a> &lt;chenwang [at] dr.com&gt;</li>
+</ul>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/lgl/';
+      this.page.identifier = 'https://theairlab.org/lgl/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

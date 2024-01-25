@@ -1,0 +1,690 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Off-road driving by learning from interaction and demonstration - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Include the standard DataTables bits -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+      $('table.display').DataTable({
+        paging: false,
+        stateSave: true,
+        searching: true
+      });
+    });
+  </script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Off-road driving by learning from interaction and demonstration | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Off-road driving by learning from interaction and demonstration" />
+<meta name="author" content="Wenshan Wang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TartanAir" />
+<meta property="og:description" content="TartanAir" />
+<link rel="canonical" href="https://theairlab.org/offroad/" />
+<meta property="og:url" content="https://theairlab.org/offroad/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2023-08-08-offroad/offroad.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-08-08T10:17:07+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2023-08-08-offroad/offroad.gif" />
+<meta property="twitter:title" content="Off-road driving by learning from interaction and demonstration" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2023-08-08-offroad/offroad.gif","author":{"@type":"Person","name":"Wenshan Wang"},"headline":"Off-road driving by learning from interaction and demonstration","dateModified":"2023-08-08T10:17:07+00:00","datePublished":"2023-08-08T10:17:07+00:00","description":"TartanAir","url":"https://theairlab.org/offroad/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/offroad/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">Off-road driving by learning from interaction and demonstration</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+  <div style="text-align: center; display: block; margin-left:auto; margin-right:auto">
+    <img style="text" src="/img/posts/2023-08-08-offroad/offroad.gif" alt="Off-road driving by learning from interaction and demonstration" />
+</div>
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2023-08-08T10:17:07+00:00">Aug 8, 2023</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/wenshan">Wenshan Wang</a>
+		
+		</div>
+	</div></p>
+
+    <h1>Off-road driving by learning from interaction and demonstration</h1>
+
+    <p>Off-road driving is an important robotics task with applications in agriculture, mining, exploration, and defense. While off-road driving has many similarities to driving in urban areas, a major difference is a lack of an obstacle/no obstacle dichotomy. That is, in off-road scenarios, not all objects are obstacles, and identifying which objects are traversable in a reliable way is critical.</p>
+
+<p>Our research covers a wide range of topics that aim at expanding the robot’s capability as well as improving its robustness in challenging environments. We utilize modern machine learning techniques while eliminating the exhausting hand-labeling process. In specific, we explore self-supervised learning and learning-from-demonstration to understand the terrain traversability cost and vehicle dynamics from large-scale interaction data, online adapt the cost and dynamics model to overcome the out-of-distribution failures. Our system doesn’t require human labeled data, instead, it relies on its own experiences of interacting with the environment, while being aware of the uncertainty in each model, and online adapt the model in novel situations. We will explain our design philosophy in more detail and introduce the key components in the following sections.</p>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/overview.png" alt="" />
+</figure>
+
+<h2 id="our-design-philosophy-moving-to-a-no-hand-labeling-paradigm">Our Design Philosophy: Moving to a No-Hand Labeling Paradigm</h2>
+
+<p>Identifying objects with object detection and semantic segmentation and then avoiding them has been a proven strategy for urban driving. As such, a common approach for off-road driving is to identify terrain regions such as trails, rocks and grass using semantic segmentation, assign them costs, and use a planner to avoid the high-cost semantic classes.</p>
+
+<p>However, there are some limitations to this approach that are unique to the off-road driving case:</p>
+<ul>
+  <li><strong>Intra-class variance</strong>: Not all objects in the same semantic class should receive the same cost. For instance, in the following Figure, the terrains inside the two boxes are of similar height and ground color. Although both are segmented as mud, humans can perceive the green  part is safer than the red part.</li>
+  <li><strong>Assigning costs to classes is difficult</strong>: While a general ordering of classes is easy to obtain (i.e. trails should be low-cost, rocks should be high-cost), the exact cost values that the downstream planner uses are heuristically determined.</li>
+  <li><strong>Semantic segmentation labels are time-consuming</strong>: It takes minutes to label a single image frame for semantic segmentation. Furthermore, the boundaries between semantic classes are not well-defined.</li>
+</ul>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/mud.png" alt="" />
+</figure>
+
+<p>These limitations result in that designing an off-road driving system is a time-consuming, laborious process that involves months of data labeling, design and field testing. Furthermore, these systems are often overfit to a given environment. As such, this process often needs to be repeated for new environments (e.g. moving from a forest to a desert).</p>
+
+<p>In order to design methods that scale more effectively, <strong>we have been developing methods that can learn how to navigate effectively without using human labels</strong>.</p>
+
+<h2 id="hardware-system-and-dataset">Hardware System and Dataset</h2>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/vehicle_hardware.png" alt="" />
+</figure>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/dataset.png" alt="" />
+</figure>
+
+<h2 id="3d-multi-modal-semantic-mapping-for-high-speed-off-road-driving">3D Multi-modal Semantic Mapping for High-Speed Off-road Driving</h2>
+
+<p>Reliable and high-speed autonomous off-road driving has the potential to better
+connect previously hard-to-access areas that have few paved roads. While there have
+been wide efforts over the past decade towards building autonomous off-road agents,
+most are relatively slow due to their limited sensing range.</p>
+
+<p>We therefore develop a 3D multi-modal semantic mapping module capable of delivering long-range and fine grained traversability information for intelligent high-speed off-road driving.</p>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/mapping.png" alt="" />
+</figure>
+
+<p>We derive 3 main requirements of high-speed off-road driving that drive our design decisions:</p>
+<ul>
+  <li><strong>Off-road environments are incredibly 3-dimensional</strong>: Vehicles need to navigate extreme slopes and go through overhangs that may otherwise be marked as obstacles.
+    <ul>
+      <li>3D Voxel Map Representation, Denoised ground height estimation</li>
+    </ul>
+  </li>
+  <li><strong>Safe high-speed driving requires a large sensing range</strong>: Laser range sensors (LiDARs) are often used for off-road sensing, however many environmental features important to determining traversability are difficult to differentiate beyond short range (&lt; 30m) due to sparsity in sensing.
+    <ul>
+      <li>Use camera + LiDAR sensing for accurate long-range information</li>
+    </ul>
+  </li>
+  <li><strong>Intelligent driving requires fine-grained information on terrain traversability</strong>: Using a occupancy-only traversability measure is insufficient as areas of similar heights can have different traversability: rock vs. traversable grass.
+    <ul>
+      <li>Augment geometric maps with semantic terrain information</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Our resulting semantic mapping module has been tested in diverse environments: from highly-vegetated forests, extreme sloped hills and desert with hidden rocks. In all environments, our module has delivered accurate, long-range information for high-speed driving.</p>
+
+<p>The base of our 3D multi-modal mapping is voxels. All 3D information coming from different perception sensors and components are processed and stored in a voxel. The data structure of the voxel map is composed of 2D grid cells (XY) where each cell contains a certain number of voxels (Z). The foundation of the voxel map is a lidar point cloud. Each lidar point is processed and stored in a corresponding voxel. Ground elevation is estimated based on the lowest reliable voxel point information in a 2D cell. In ground elevation estimation, Random Markov Field (MRF) is applied in order to more accurately depict ground changes. With the help of ground elevation map, height map and slope map(s) are generated. Besides, with all voxel point information in a cell, a singular value decomposition (SVD) map is generated. For semantics, after an image is inferenced with a trained visual semantic model, the corresponding lidar point cloud is projected onto the predicted image. The successfully projected points are assigned with the image pixel visual semantic information. Next, the visual semantic point cloud populates the voxel map and updates semantic information in a voxel. Finally, 3D voxel semantic information is projected onto 2D grid cells in order to generate a semantic map.</p>
+
+<h2 id="terrain-analysis-through-self-supervised-learning">Terrain Analysis through Self-Supervised Learning</h2>
+
+<p>Certain characteristics of the terrain, such as slope, irregularities in height, the deformability of the ground surface, and the compliance of the objects on the ground, affect the dynamics of the robot as it traverses over these features. While these interactions are easily captured by proprioceptive sensors, such as the linear acceleration experienced by the robot, this requires the robot to have already driven over these features to sense them. Sensors such as cameras and lidars are able to capture the visual and geometric characteristics of the terrain, but these alone are not good predictors of robot-terrain interactions without grounding them in what the robot actually feels while driving over the terrain.</p>
+
+<p>Previous approaches for off-road traversability have focused on representing visual and geometric information as occupancy maps, or learning semantic classifiers from labeled data to map different terrains to different costs in a costmap. Yet, this abstracts away all the nuance of the interactions between the robot and different terrain types. Under an occupancy-based paradigm, concrete, sand, and mud would be equally traversable since they are terrain types with low height, whereas tall rocks, grass, and bushes would be equally non-traversable since they are taller features of the terrain. In reality, specific instances of a class may have varying degrees of traversability (e.g. some bushes are traversable but not all).</p>
+
+<p>What we are really interested in capturing is roughness in traversability as the vehicle experienced it, rather than capturing the appearance or geometry of roughness. For instance, a point cloud of tall grass might appear rough, but traversing over this grass could still lead to smooth navigation if the terrain under the grass is smooth.</p>
+
+<p>In our <a href="https://arxiv.org/abs/2209.10788">ICRA 2023 paper</a> “How Does It Feel? Self-Supervised Costmap Learning for Off-Road Vehicle Traversability”, we propose a self-supervised method that predicts costmaps that reflect nuanced terrain interaction properties relevant to ground navigation. We approach this problem by learning a mapping from rich exteroceptive information and robot velocity to a continuous traversability cost derived from IMU data.</p>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/hdif.png" alt="" />
+</figure>
+
+<p>We find that our method outperforms occupancy-based baselines on short-scale and large-scale navigation trials. Our short-scale navigation results show that using our learned costmaps leads to overall smoother navigation, and provides the robot with a more fine-grained understanding of the interactions between the robot and different terrain types, such as grass and gravel. Our large-scale navigation trials show that we can reduce the number of interventions by up to 57% compared to an occupancy-based navigation baseline in challenging off-road courses ranging from 400 m to 3150 m.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/19sDs1S8IGk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="off-road-driving-through-imitating-human-experts">Off-Road Driving through Imitating Human Experts</h2>
+<p>Another source of unlabeled supervision for learning navigation behaviors are examples of teleoperation from human experts. Compared to human labeling of traversable and non-traversable terrain, collecting supervision by simply allowing humans to drive off-road dramatically simplifies and accelerates the data collection process.</p>
+
+<p>In order to translate human-driven trajectories into a form consumable by planning and control, we use inverse reinforcement learning (IRL) to learn costmaps from lidar data. Compared to the alternative of learning actions directly from expert data, learning costmaps has the advantage of being human-interpretable.</p>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/irl.png" alt="" />
+</figure>
+
+<p>In order to achieve a practical algorithm that runs effectively on our platform, we leverage maximum entropy IRL (MaxEnt IRL) with several extensions, such as sampling-based MPC, risk estimation, and deep neural networks. We find that IRL significantly outperforms occupancy-based baselines on several kilometers of challenging off-road trails (reducing interventions by up to 70%). Furthermore, we find that we can leverage our risk-estimation to modulate how aggressive the ATV is with respect to terrains such as tall grass and slopes. Results are presented in our <a href="https://arxiv.org/abs/2302.00134">ICRA 2023 paper</a> “Learning Risk-Aware Costmaps via Inverse Reinforcement Learning for Off-Road Navigation’’.</p>
+
+<!-- [![Watch the video]](https://drive.google.com/file/d/1SJqSMNusDhjc-EY9LCMec5UrZMVkxpa5/view?resourcekey) -->
+
+<iframe src="https://drive.google.com/file/d/1SJqSMNusDhjc-EY9LCMec5UrZMVkxpa5/preview" width="1024" height="720" allow="autoplay"></iframe>
+
+<h2 id="learning-vehicle-dynamics">Learning Vehicle Dynamics</h2>
+
+<p>In order to create control rules that guarantee desirable qualities like safety, stability, and generalization of various operating situations, an accurate model of the dynamics of a control system is essential.</p>
+
+<p>The Kinematic Bicycle Model (KBM), one of the examples of a model developed from first principles (purely physics-driven), is widely used in practice but tends to oversimplify the underlying structure of dynamical systems, resulting in prediction errors that cannot be corrected by optimizing over a few model parameters.</p>
+
+<figure>
+ <img src="/img/posts/2023-08-08-offroad/dynamicsmodel.png" alt="" style="width:80%" />
+</figure>
+
+<p>We therefore employ deep learning to address this, which offers very expressive models for function approximation. We leverage real-time information from gps-based odometry along with multiple other modalities like, First-Person View Image, Heightmaps and RGB-maps.  By reducing the RMSE loss in the anticipated state - [x, y, yaw, velocity] (See Table 1. For deeper analysis), these models outperform purely physics-driven models. Our <a href="https://arxiv.org/abs/2205.01791">ICRA 2022 work</a>, “TartanDrive: A Large-Scale Dataset for Learning Off-Road Dynamics Models” provides a thorough description of the model.</p>
+
+<p>Table 1: Here we show RMSE errors of the last predicted point in a 2-second horizon</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>x</th>
+      <th>y</th>
+      <th>yaw</th>
+      <th>v</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KBM</td>
+      <td>1.103</td>
+      <td>0.737</td>
+      <td>0.115</td>
+      <td>1.189</td>
+    </tr>
+    <tr>
+      <td>FPV</td>
+      <td>0.746</td>
+      <td>0.605</td>
+      <td>0.056</td>
+      <td>0.828</td>
+    </tr>
+    <tr>
+      <td>FPV+Maps</td>
+      <td>0.528</td>
+      <td>0.488</td>
+      <td>0.054</td>
+      <td>0.598</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>While DL-based models perform better than KBM, they do poorly generalize because they find it difficult to grasp the symmetries and conservation rules that underlie dynamical systems. Consideration of a hybrid method, which encodes physics, laws, and geometric aspects of the underlying system in the construction of the neural network architecture or in the learning process, has been a current study direction in the field and for us. The resulting “physics-informed neural networks” feature superior generalization capabilities, enhanced design, and efficiency. Please check out our <a href="https://arxiv.org/abs/2311.00815">ICRA 2024 paper</a>: “PIAug – Physics Informed Augmentation for Learning Vehicle Dynamics for Off-Road Navigation”.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/r0Dq61DIWZQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h2 id="online-adaptation-for-off-road-driving">Online Adaptation for Off-road Driving</h2>
+
+<p>For proper decision-making in off-road terrain, the robot needs to have an accurate ground estimate. The ground estimate describes the surface that the vehicle makes solid contact with the ground. For example, when driving in rocky terrain, the rocks are solid enough that the robot drives directly over them. In contrast, the robot is capable of driving directly through tall grass.</p>
+
+<p>One common approach is using minimum-height lidar hits to form a ground estimate. In a given voxel, the lidar hit with the lowest height value is likely to be near the true ground. Unfortunately, in areas such as tall-grass and bushes the vegetation is so dense that the lidar scans can’t penetrate them to see the ground beneath, causing the robot to think that the ground plane is higher than it actually is. This error in ground height estimation can lead to unsafe behaviors. For example, certain obstacles partially hidden in vegetation might not get thresholded properly, causing the robot to think that it is safe to drive over.</p>
+
+<p>One way to address this is to adapt the ground estimate online in a self-supervised manner. As the robot drives, the height at which the wheels make contact with the ground can be treated as ground truth. This value can be calculated by measuring the transform between the bottom of the wheels and the frame in which our odometry is calculated. As the vehicle drives through various terrain, it can compare this ground truth to its estimate and use that to adapt online.</p>
+
+<p>Our ground adaptation pipeline involves comparing the past ground estimates with the ground truth estimate provided by the tire points at the current timestep. This allows us to measure the error of our ground estimate at different distances away from us. By querying our wheel measurements in a semantic top-down map, we can also measure our error in different semantic classes (e.g. trail, low-vegetation, high-vegetation). We can then look at our past errors at given distances for given semantics, and offset our ground estimate with these errors in future ground estimates so that they are more accurate. This leads to better ground estimates at range which in turn can lead to better decision making.</p>
+
+<h2 id="online-adaptation-for-off-road-long-range-perception">Online Adaptation for Off-road Long-Range Perception</h2>
+
+<p>When operating at high speed, the vehicle requires good estimates beyond reactive range (&gt; 30m), for more deliberate and safe navigation. Off-road vehicles will also often operate in new out-of-distribution environments (e.g., desert, forest) or even the same environments with different weather conditions (e.g., sunny vs. cloudy condition). Laser sensors, i.e. LiDAR, are typically used to build a geometric understanding of the environment to generate traversability estimates. While LiDAR can provide accurate estimates robust to visual appearances, its noise grows as its range increases due to the sparsity of LiDAR points.
+On the contrary, camera-based methods output dense predictions at further distances. However, typical visual models rely on an immense amount of human-annotated data and perform poorly when the environmental appearance is out of training distribution.</p>
+
+<p>We therefore present ALTER, an Adaptive Long-range Traversibility EstimatoR that
+adapts on the drive to combine the best of LiDAR and camera to increase the reliable deployment envelope of our perception system, both in range and in environments.
+Conceptually, we adapt a visual model online from new LiDAR measurements. First, our system labels near-range LiDAR measurements in 3D, then project the 3D labels to image space to produce pixel-wise labels. These labels are used to continuously train new visual models online. By rapidly learning from new measurements, our self-supervised, adaptive approach enables accurate long-range traversability prediction in novel environments without hand-labeling.</p>
+
+<p>We show, within 1 minute of combined data collection and training, our adaptive visual method produces up to 30% improvement in traversability estimation over LiDAR-only estimates and 60% improvement over visual models trained in another environment.</p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>This work was supported by DARPA and ARL.</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/offroad/';
+      this.page.identifier = 'https://theairlab.org/offroad/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

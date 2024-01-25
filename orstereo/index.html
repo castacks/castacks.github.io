@@ -1,0 +1,723 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+    <script>
+      $(document).ready(function () {
+          $('.content a').attr({'target':'_blank', 'rel':'noopener noreferrer'});
+        });
+    </script>
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images" />
+<meta name="author" content="Yaoyu Hu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ORStereo" />
+<meta property="og:description" content="ORStereo" />
+<link rel="canonical" href="https://theairlab.org/orstereo/" />
+<meta property="og:url" content="https://theairlab.org/orstereo/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2021-03-05-orstereo/iros2021_2.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-05T02:23:37+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2021-03-05-orstereo/iros2021_2.gif" />
+<meta property="twitter:title" content="ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2021-03-05-orstereo/iros2021_2.gif","author":{"@type":"Person","name":"Yaoyu Hu"},"headline":"ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images","dateModified":"2021-03-05T02:23:37+00:00","datePublished":"2021-03-05T02:23:37+00:00","description":"ORStereo","url":"https://theairlab.org/orstereo/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/orstereo/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2021-03-05T02:23:37+00:00">Mar 5, 2021</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			<a href="/team/yaoyuh">Yaoyu Hu</a>
+		
+		</div>
+	</div></p>
+
+    <h1>ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images</h1>
+
+    <p>This is the project page of the IROS submission “ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images”</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/X7j2-vkyZ9A" frameborder="0" allowfullscreen=""></iframe></div>
+
+<h3 id="overview">Overview</h3>
+
+<p>Stereo reconstruction models trained on small images do not generalize well to high-resolution data. Training a model on high-resolution image size faces difficulties of data availability and is often infeasible due to limited computing resources. In this work, we present the Occlusion-aware Recurrent binocular Stereo matching (ORStereo), which deals with these issues by only training on available low disparity range stereo images. ORStereo generalizes to unseen high-resolution images with large disparity ranges by formulating the task as residual updates and refinements of an initial prediction. ORStereo is trained on images with disparity ranges limited to 256 pixels, yet it can operate 4K-resolution input with over 1000 disparities using limited GPU memory. We test the model’s capability on both synthetic and real-world high-resolution images. Experimental results demonstrate that ORStereo achieves comparable performance on 4K-resolution images compared to state-of-the-art methods trained on large disparity ranges. Compared to other methods that are only trained on low-resolution images, our method is 70% more accurate on 4K-resolution images.</p>
+
+<h3 id="4k-resolution-stereo-dataset">4K-resolution stereo dataset</h3>
+
+<p>We collected a set of 4K-resolution stereo images for evaluating ORStereo’s performance on high-resolution data. These images and ground truth data will be made publicly available. The images are collected in various simulated environments rendered by the Unreal Engine and the AirSim plugin. 100 pairs of photo-realistic stereo images from 7 indoor and outdoor scenes are collected. We set up a virtual stereo camera with a baseline of 0.38m. In 3 of the 7 scenes, the cameras have a horizontal viewing angle of 46 degrees. For the remaining 4 scenes, the horizontal viewing angle is 60 degrees. The image size of the virtual camera is 4112x3008 pixels. These camera parameters are selected to match the real-world sensor that we are using for data collection. The AirSim plugin provides us with a depth image for every captured RGB image. We compute the true disparities and occlusion masks from the depth images.</p>
+
+<figure>
+ <img src="/img/posts/2021-03-05-orstereo/Grid_Scaled.png" alt="The collected 4K-resolution iamges" />
+ <figcaption>Samples of the collected 4K-resolution images. The columns are the individual environments and there are 3 samples for each. The even-number rows are the disparities with occlusion. The 7 environments have different themes. From left to right: factory district, artistic architecture, indoor restaurant, underground work zone, indoor supermarket, train station, and city ruins. The first 3 columns are from the virtual camera with 46 degrees of horizontal viewing angle. The other 4 columns are from the 60 degrees camera.</figcaption>
+</figure>
+
+<p>The following figure shows another pair of the collected stereo images in detail. Note that all disparities and occlusion masks are associated with the left image.</p>
+
+<figure>
+ <img src="/img/posts/2021-03-05-orstereo/single_sample_4K_dataset_scaled.png" alt="A detailed sample 4K-resolution testing case" />
+ <figcaption>A detailed sample from the collected 4K-resolution stereo images. From left to right: the left image, right image, disparity, and occlusion mask. The disparity is computed from the depth provided by AirSim. The occlusion mask is obtained by comparing the depth images from both the cameras with exact extrinsic parameters.</figcaption>
+</figure>
+
+<h3 id="access-the-4k-resolution-dataset">Access the 4K-resolution dataset</h3>
+
+<p>All of the stereo images, together with the true disparity and occlusion mask are available <a href="https://cmu.box.com/s/eepyd7fpjzwdjqlz3507wxbzec50cd8i">here</a>.</p>
+
+<p>Concerning the large file size of a 4K-resolution floating point image, we save the disparity as compressed PNG files in RGBA format. We provide a simple Python function to read the floating point disparity back from those PNG files. Access the code <a href="https://github.com/castacks/iros_2021_orstereo">here</a>.</p>
+
+<h3 id="more-results">More results</h3>
+
+<h4 id="results-on-the-scene-flow-dataset">Results on the Scene Flow dataset</h4>
+
+<p>When trained on the Scene Flow dastaset only, ORStereo achieves similar EPE value (0.74)
+among the state-of-the-art models trained with low-resolution data.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">MCUA<sup id="fnref:nie2019multilevel" role="doc-noteref"><a href="#fn:nie2019multilevel" class="footnote" rel="footnote">1</a></sup></th>
+      <th style="text-align: center">Bi3D<sup id="fnref:badki2020bi3d" role="doc-noteref"><a href="#fn:badki2020bi3d" class="footnote" rel="footnote">2</a></sup></th>
+      <th style="text-align: center">GwcNet<sup id="fnref:guo2019group" role="doc-noteref"><a href="#fn:guo2019group" class="footnote" rel="footnote">3</a></sup></th>
+      <th style="text-align: center">FADNet<sup id="fnref:wang2020fadnet" role="doc-noteref"><a href="#fn:wang2020fadnet" class="footnote" rel="footnote">4</a></sup></th>
+      <th style="text-align: center">GA-Net<sup id="fnref:zhang2019ganet" role="doc-noteref"><a href="#fn:zhang2019ganet" class="footnote" rel="footnote">5</a></sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0.56</td>
+      <td style="text-align: center">0.73</td>
+      <td style="text-align: center">0.77</td>
+      <td style="text-align: center">0.83</td>
+      <td style="text-align: center">0.84</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">WaveletStereo<sup id="fnref:yang2020waveletstereo" role="doc-noteref"><a href="#fn:yang2020waveletstereo" class="footnote" rel="footnote">6</a></sup></th>
+      <th style="text-align: center">DeepPruner<sup id="fnref:duggal2019deeppruner" role="doc-noteref"><a href="#fn:duggal2019deeppruner" class="footnote" rel="footnote">7</a></sup></th>
+      <th style="text-align: center">SSPCV-Net<sup id="fnref:wu2019semantic" role="doc-noteref"><a href="#fn:wu2019semantic" class="footnote" rel="footnote">8</a></sup></th>
+      <th style="text-align: center">AANet<sup id="fnref:xu2020aanet" role="doc-noteref"><a href="#fn:xu2020aanet" class="footnote" rel="footnote">9</a></sup></th>
+      <th style="text-align: center">ORStereo (ours)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0.84</td>
+      <td style="text-align: center">0.86</td>
+      <td style="text-align: center">0.87</td>
+      <td style="text-align: center">0.87</td>
+      <td style="text-align: center">0.74</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When working on low-resolution inputs such as the Scene Flow dataset, ORStereo only goes through the first phase. Two sample results are shown as follows.</p>
+
+<figure>
+ <img src="/img/posts/2021-03-05-orstereo/scene_flow.png" alt="Sample results on the Scene Flow dataset" />
+ <figcaption>Two testing result samples on the Scene Flow dataset.</figcaption>
+</figure>
+
+<p>In the previous image:</p>
+
+<ul>
+  <li>a, b) Left and right images.</li>
+  <li>c, d) True disparity and prediction after NLR.</li>
+  <li>e, f) True disparity and prediction before NLR.</li>
+  <li>g, h) True disparity and prediction by RRU.</li>
+  <li>i, j) True disparity and prediction by BDE.</li>
+  <li>k, l) True occlusion and prediction by BME.</li>
+  <li>m, n) True occlusion and prediction by RRU.</li>
+  <li>The numbers on the predicted disparities are the EPE and standard deviation.</li>
+  <li>The true and predicted disparity values are all scaled according to the sizes of the feature levels. E.g., g) has a magnitude 1/2 of e) or c). The full-resolution versions of this figure can be found <a href="https://cmu.box.com/s/eepyd7fpjzwdjqlz3507wxbzec50cd8i">here</a>.</li>
+</ul>
+
+<h4 id="results-on-the-middlebury-dataset">Results on the Middlebury dataset</h4>
+
+<p>ORStereo acheives better accuracy on full resolution benchmark than the state-of-the-art models that trained on low-resolution data. Note that HSM is trained on high-resolution data.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model &amp; scale</th>
+      <th style="text-align: center">AANet<sup id="fnref:xu2020aanet:1" role="doc-noteref"><a href="#fn:xu2020aanet" class="footnote" rel="footnote">9</a></sup> 1/2</th>
+      <th style="text-align: center">DeepPruner<sup id="fnref:duggal2019deeppruner:1" role="doc-noteref"><a href="#fn:duggal2019deeppruner" class="footnote" rel="footnote">7</a></sup> 1/4</th>
+      <th style="text-align: center">SGBMP<sup id="fnref:hu2020deep" role="doc-noteref"><a href="#fn:hu2020deep" class="footnote" rel="footnote">10</a></sup> full</th>
+      <th style="text-align: center">ORStereo (ours) full</th>
+      <th style="text-align: center">HSM<sup id="fnref:yang2019hierarchical" role="doc-noteref"><a href="#fn:yang2019hierarchical" class="footnote" rel="footnote">11</a></sup> full</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">EPE</td>
+      <td style="text-align: center">6.37</td>
+      <td style="text-align: center">4.80</td>
+      <td style="text-align: center">7.58</td>
+      <td style="text-align: center">3.23</td>
+      <td style="text-align: center">2.07</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We have submitted our results to the Middlebury evaluation page. <a href="https://vision.middlebury.edu/stereo/eval3/">Check out our results under the name ORStereo</a>.</p>
+
+<h4 id="results-on-4k-resolution-stereo-images">Results on 4K-resolution stereo images</h4>
+
+<p>ORStereo achieves the best EPE among all the related state-of-the-art models including the HSM, which is a model trained on high-resolution data.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model</th>
+      <th style="text-align: center">Scale</th>
+      <th style="text-align: center">Range</th>
+      <th style="text-align: center">EPE</th>
+      <th style="text-align: center">GPU Memory (MB)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">AANet<sup id="fnref:xu2020aanet:2" role="doc-noteref"><a href="#fn:xu2020aanet" class="footnote" rel="footnote">9</a></sup></td>
+      <td style="text-align: center">1/8</td>
+      <td style="text-align: center">192</td>
+      <td style="text-align: center">9.96</td>
+      <td style="text-align: center">8366</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DeepPruner<sup id="fnref:duggal2019deeppruner:2" role="doc-noteref"><a href="#fn:duggal2019deeppruner" class="footnote" rel="footnote">7</a></sup></td>
+      <td style="text-align: center">1/8</td>
+      <td style="text-align: center">192</td>
+      <td style="text-align: center">8.31</td>
+      <td style="text-align: center">4196</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">SGBMP<sup id="fnref:hu2020deep:1" role="doc-noteref"><a href="#fn:hu2020deep" class="footnote" rel="footnote">10</a></sup></td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">256</td>
+      <td style="text-align: center">4.21</td>
+      <td style="text-align: center">3386</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>ORStereo (ours)</strong></td>
+      <td style="text-align: center"><strong>1</strong></td>
+      <td style="text-align: center"><strong>256</strong></td>
+      <td style="text-align: center"><strong>2.37</strong></td>
+      <td style="text-align: center"><strong>2059</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HSM<sup id="fnref:yang2019hierarchical:1" role="doc-noteref"><a href="#fn:yang2019hierarchical" class="footnote" rel="footnote">11</a></sup></td>
+      <td style="text-align: center">1/2</td>
+      <td style="text-align: center">768</td>
+      <td style="text-align: center">2.41</td>
+      <td style="text-align: center">3405</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The following figures are the sample cases shown in the submitted paper.</p>
+
+<figure>
+ <img src="/img/posts/2021-03-05-orstereo/fov46_000032_annotated.png" alt="Sample results on 4K-resolution case fov46_000032" />
+ <img src="/img/posts/2021-03-05-orstereo/fov60_000071_annotated.png" alt="Sample results on 4K-resolution case fov60_000071" />
+ <caption>Results on 4K-resolution stereo images. a) the left image. b, c) the disparity and error of the first phase. d) the true disparity. e, f) the disparity and error of the second phase. Note that the error gets improved in the second phase.</caption>
+</figure>
+
+<p>The full resolution version of the previous two figures are available <a href="https://cmu.box.com/s/eepyd7fpjzwdjqlz3507wxbzec50cd8i">here</a>.</p>
+
+<h3 id="manuscript">Manuscript</h3>
+
+<p>Please refer to this <a href="https://arxiv.org/abs/2103.07798">arXiv link</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{hu2021orstereo,
+      title={ORStereo: Occlusion-Aware Recurrent Stereo Matching for 4K-Resolution Images}, 
+      author={Yaoyu Hu and Wenshan Wang and Huai Yu and Weikun Zhen and Sebastian Scherer},
+      year={2021},
+      eprint={2103.07798},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+</code></pre></div></div>
+
+<h3 id="contact">Contact</h3>
+
+<ul>
+  <li>Yaoyu Hu: yaoyuh@andrew.cmu.edu</li>
+  <li>Sebastian Scherer: (basti [at] cmu [dot] edu)</li>
+</ul>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+
+<p>This work was supported by Shimizu Corporation.</p>
+
+<h3 id="references">References</h3>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:nie2019multilevel" role="doc-endnote">
+      <p>Nie, Guang-Yu, Ming-Ming Cheng, Yun Liu, Zhengfa Liang, Deng-Ping Fan, Yue Liu, and Yongtian Wang. “Multi-level context ultra-aggregation for stereo matching.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 3283-3291. 2019. <a href="#fnref:nie2019multilevel" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:badki2020bi3d" role="doc-endnote">
+      <p>Badki, Abhishek, Alejandro Troccoli, Kihwan Kim, Jan Kautz, Pradeep Sen, and Orazio Gallo. “Bi3d: Stereo depth estimation via binary classifications.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1600-1608. 2020. <a href="#fnref:badki2020bi3d" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:guo2019group" role="doc-endnote">
+      <p>Guo, Xiaoyang, Kai Yang, Wukui Yang, Xiaogang Wang, and Hongsheng Li. “Group-wise correlation stereo network.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 3273-3282. 2019. <a href="#fnref:guo2019group" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:wang2020fadnet" role="doc-endnote">
+      <p>Wang, Qiang, Shaohuai Shi, Shizhen Zheng, Kaiyong Zhao, and Xiaowen Chu. “FADNet: A Fast and Accurate Network for Disparity Estimation.” In 2020 IEEE International Conference on Robotics and Automation (ICRA), pp. 101-107. IEEE, 2020. <a href="#fnref:wang2020fadnet" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:zhang2019ganet" role="doc-endnote">
+      <p>Zhang, Feihu, Victor Prisacariu, Ruigang Yang, and Philip HS Torr. “Ga-net: Guided aggregation net for end-to-end stereo matching.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 185-194. 2019. <a href="#fnref:zhang2019ganet" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:yang2020waveletstereo" role="doc-endnote">
+      <p>Yang, Menglong, Fangrui Wu, and Wei Li. “Waveletstereo: Learning wavelet coefficients of disparity map in stereo matching.” In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 12885-12894. 2020. <a href="#fnref:yang2020waveletstereo" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:duggal2019deeppruner" role="doc-endnote">
+      <p>Duggal, Shivam, Shenlong Wang, Wei-Chiu Ma, Rui Hu, and Raquel Urtasun. “Deeppruner: Learning efficient stereo matching via differentiable patchmatch.” In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 4384-4393. 2019. <a href="#fnref:duggal2019deeppruner" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:duggal2019deeppruner:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:duggal2019deeppruner:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:wu2019semantic" role="doc-endnote">
+      <p>Wu, Zhenyao, Xinyi Wu, Xiaoping Zhang, Song Wang, and Lili Ju. “Semantic stereo matching with pyramid cost volumes.” In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 7484-7493. 2019. <a href="#fnref:wu2019semantic" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:xu2020aanet" role="doc-endnote">
+      <p>Xu, Haofei, and Juyong Zhang. “Aanet: Adaptive aggregation network for efficient stereo matching.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1959-1968. 2020. <a href="#fnref:xu2020aanet" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:xu2020aanet:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:xu2020aanet:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:hu2020deep" role="doc-endnote">
+      <p>Hu, Yaoyu, Weikun Zhen, and Sebastian Scherer. “Deep-learning assisted high-resolution binocular stereo depth reconstruction.” In 2020 IEEE International Conference on Robotics and Automation (ICRA), pp. 8637-8643. IEEE, 2020. <a href="#fnref:hu2020deep" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:hu2020deep:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:yang2019hierarchical" role="doc-endnote">
+      <p>Yang, Gengshan, Joshua Manela, Michael Happold, and Deva Ramanan. “Hierarchical deep stereo matching on high-resolution images.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 5515-5524. 2019. <a href="#fnref:yang2019hierarchical" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:yang2019hierarchical:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/orstereo/';
+      this.page.identifier = 'https://theairlab.org/orstereo/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

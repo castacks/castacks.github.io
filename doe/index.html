@@ -1,0 +1,548 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Increasing Energy Productivity of First/Last Mile Goods Movement - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Increasing Energy Productivity of First/Last Mile Goods Movement | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Increasing Energy Productivity of First/Last Mile Goods Movement" />
+<meta name="author" content="Jay Patrikar and Brady Moon" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Increasing energy productivity for goods delivery through autonomous vehicles." />
+<meta property="og:description" content="Increasing energy productivity for goods delivery through autonomous vehicles." />
+<link rel="canonical" href="https://theairlab.org/doe/" />
+<meta property="og:url" content="https://theairlab.org/doe/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:image" content="https://theairlab.org/img/posts/2020-05-02-doe/cover4.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-02T10:50:07+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://theairlab.org/img/posts/2020-05-02-doe/cover4.gif" />
+<meta property="twitter:title" content="Increasing Energy Productivity of First/Last Mile Goods Movement" />
+<script type="application/ld+json">
+{"image":"https://theairlab.org/img/posts/2020-05-02-doe/cover4.gif","author":{"@type":"Person","name":"Jay Patrikar and Brady Moon"},"headline":"Increasing Energy Productivity of First/Last Mile Goods Movement","dateModified":"2021-04-02T10:50:07+00:00","datePublished":"2021-04-02T10:50:07+00:00","description":"Increasing energy productivity for goods delivery through autonomous vehicles.","url":"https://theairlab.org/doe/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/doe/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-large  is-bold is-primary"  style="background: linear-gradient(180deg, rgba(204,0,44,.1),rgba(204,0,44,0)), url('/img/posts/2020-05-02-doe/cover4.gif') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">Increasing Energy Productivity of First/Last Mile Goods Movement</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-3-desktop is-3-tablet">
+                    
+                    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#energy-productivity">Energy Productivity</a></li>
+  <li><a href="#flight-energy-risk">Flight Energy Risk</a></li>
+  <li><a href="#flying-in-wind">Flying in Wind</a>
+    <ul>
+      <li><a href="#wind-field-estimation">Wind Field Estimation</a></li>
+      <li><a href="#wind-aware-path-planning">Wind-Aware Path Planning</a></li>
+    </ul>
+  </li>
+  <li><a href="#publications">Publications</a></li>
+  <li><a href="#project-members">Project Members</a></li>
+</ul>
+    </div>
+</div>
+
+
+
+                </div>
+                
+
+                
+                <div class="column is-7">
+                      
+	
+
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2021-04-02T10:50:07+00:00">Apr 2, 2021</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			Jay Patrikar and Brady Moon
+		
+		</div>
+	</div></p>
+
+    <h1>Increasing Energy Productivity of First/Last Mile Goods Movement</h1>
+
+    <hr />
+
+<p>The objective of this Department of Energy funded project is to use empirical testing, life cycle assessment, and systems analysis to research and demonstrate energy productivity of goods delivery improvement with drones, delivery robots and driverless cars compared to a baseline network. In addition, the research will develop proof-of-concept testing, model, and simulation for a smart curb space as an intelligently managed urban delivery zone for improved energy productivity and sustainability.</p>
+
+<p>The project is in collaboration with Environmental Engineering, Sustainability, and Science (EESS) led by Dr Constantine Samaras.</p>
+
+<p>Some of the current contributions are as follows:</p>
+
+<!-- <figure>
+ <img src="/img/posts/2020-02-14-filming/lapse_car_web.jpg" alt="Drone filming" />
+ <figcaption>
+ Drone autonomously filming a moving vehicle
+ </figcaption>
+</figure> -->
+
+<h2 id="energy-productivity">Energy Productivity</h2>
+<hr />
+
+<figure>
+ <img src="/img/posts/2020-05-02-doe/vtol.gif" style="width:31%" />
+  <img src="/img/posts/2020-05-02-doe/drone.gif" style="width:31%" />
+<img src="/img/posts/2020-05-02-doe/ugv.gif" style="width:31%" />
+ <figcaption>
+Platforms used to simulate last mile goods delivery. From left to right: VTOL, Quadrotor, UGV
+ </figcaption>
+</figure>
+
+<p>The project includes empirical field testing of air and ground delivery vehicles, collection of novel and existing traffic information, and modeling, optimization, and simulation of energy productivity improvements goods delivery. The project developed an open and repeatable experimental protocol for testing energy use of air and ground drones as a function of drone type and operation conditions (payload, velocity, wind, altitude, etc.). The protocol was then used to carry out a flight and ground test campaign wherein critical data like position, velocity, wind and power consumption for multiple simulated last-mile delivery scenarios was recorded to build a first-principles model of the underlying system. Each vehicle carried with it a light-weight low-energy sensor suite that has an ultrasonic anemometer, current and voltage sensors, a GNSS unit and a SBC to sync and record all the data. The sensor suite was integrated in-house and is replicated to maintain data consistency across the test campaigns.  The tests were carried in both autonomous and manual modes to access the effect of autonomy on energy usage.</p>
+
+<p>More information on and access to the UAV flights dataset can be found through this link: <a href="https://doi.org/10.1184/R1/12683453.v2">https://doi.org/10.1184/R1/12683453.v2</a>.</p>
+
+<h2 id="flight-energy-risk">Flight Energy Risk</h2>
+<p>Energy management is a critical aspect of risk assessment for Uncrewed Aerial Vehicle (UAV) flights, as a depleted battery during a flight brings almost guaranteed vehicle damage and a high risk of human injuries or property damage. Predicting the amount of energy a flight will consume is challenging as routing, weather, obstacles, and other factors affect the overall consumption.</p>
+
+<p>We develop a deep energy model for a UAV that uses Temporal Convolutional Networks to capture the time varying features while incorporating static contextual information. Our energy model is trained on a real world dataset and does not require segregating flights into regimes. We illustrate an improvement in power predictions by 29% on test flights when compared to a state-of-the-art analytical method.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/PHXGigqilOA" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Using the energy model, we can predict the energy usage for a given trajectory and evaluate the risk of running out of battery during flight. We propose using Conditional Value-at-Risk (CVaR) as a metric for quantifying this risk. We show that CVaR captures the risk associated with worst-case energy consumption on a nominal path by transforming the output distribution of Monte Carlo forward simulations into a risk space. Computing the CVaR on the risk-space distribution provides a metric that can evaluate the overall risk of a flight before take-off. Our energy model and risk evaluation method can improve flight safety and evaluate the coverage area from a proposed takeoff location.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="flying-in-wind">Flying in Wind</h2>
+<hr />
+
+<p>It was observed that wind played a signifcant role in affecting the energy use and safety of UAVs. A critical reseach gap was identified in enabling safe low-altitude operation of UAVs in windy urban areas. Two areas were focused on: Predicting global wind fields using onboard sensors and then usign these wind-field estimated to enable wind-aware path planning.</p>
+
+<h3 id="wind-field-estimation">Wind Field Estimation</h3>
+
+<p>A high-quality estimate of wind fields can potentially improve the safety and performance of Unmanned Aerial Vehicles (UAVs) operating in dense urban areas. Computational Fluid Dynamics (CFD) simulations can help provide a wind field estimate, but their accuracy depends on the knowledge of the distribution of the inlet boundary conditions.</p>
+
+<p>This work provides a real-time methodology using a Particle Filter (PF) that utilizes wind measurements from a UAV to solve the inverse problem of predicting the inlet conditions as the UAV traverses the flow field. A Gaussian Process Regression (GPR) approach is used as a surrogate function to maintain the real-time nature of the proposed methodology.</p>
+
+<div class="video-wrapper"><iframe src="http://www.youtube.com/embed/U4XdYgSJRZM" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Real-world experiments with a UAV at an urban test-site prove the efficacy of the proposed method.
+The flight test shows that the 95% confidence interval for the difference between the mean estimated inlet conditions and mean ground truth measurements closely bound zero, with the difference in mean angles being between -3.680 degrees and 1.250 degrees and the difference in mean magnitudes being between -0.206 m/s and 0.020 m/s.</p>
+
+<h3 id="wind-aware-path-planning">Wind-Aware Path Planning</h3>
+
+<p>A key challenge in enabling autonomous Unmanned Aerial Vehicles (UAVs) to operate in cluttered urban environments is to plan collision-free, smooth, dynamically feasible trajectories between two locations with the wind in real-time. This work presents a novel path planning strategy using sampling-based planning that uses a two-point boundary value problem (BVP) to connect states in the presence of wind. Unlike most approaches that use a curvature discontinuous solution, the proposed BVP is formulated as a nonlinear constrained optimization problem with curvature and curvature-rate continuous profile to generate smoother trajectories.</p>
+<figure>
+ <img src="/img/posts/2020-05-02-doe/first2.png" alt="Planning" style="width:70%" />
+ <figcaption>
+Figure shows a representative path planning scenario where blue lines indicate the BVP surrogate solutions chosen from the precomputed library, red indicates the wind-corrected solutions used for sampling-based planning algorithm (BIT*) and black lines represent the repaired final trajectory.
+ </figcaption>
+</figure>
+
+<p>To achieve real-time performance, our method involves using surrogate solutions from a pre-calculated library while solving the planning problem and then running a repair routine to generate the final trajectory. To prove the feasibility of the offline-online strategy, simulation results on a 3D model of an actual city block with a realistic wind-field are presented. Results with a trochoid-based BVP solver are also presented for comparison. For the given simulation scenario, we could demonstrate a 93% success rate for the algorithm in finding a valid trajectory.</p>
+
+<figure>
+ <img src="/img/posts/2020-05-02-doe/flow.png" style="width:70%" />
+ <figcaption>
+Overview of the Proposed Approach
+ </figcaption>
+</figure>
+<p><br /></p>
+
+<h2 id="publications">Publications</h2>
+<hr />
+
+<ul>
+  <li>Arnav Choudhry, Brady Moon, Jay Patrikar, Constantine Samaras, and Sebastian Scherer, “<strong>CVaR-Based Flight Energy Risk Assessment for Multirotor UAVs Using a Deep Energy Model</strong>”, IEEE International Conference on Robotics and Automation (ICRA), 2021</li>
+  <li>Thiago A. Rodrigues, Jay Patrikar, Arnav Choudhry, Jacob Feldgoise, Vaibhav Arcot, Aradhana Gahlaut, Sophia Lau, Brady Moon, Bastian Wagner, H. Scott Matthews, Sebastian Scherer, and Constantine Samaras, “<strong>In-flight positional and energy use data set of a DJI Matrice 100 quadcopter for small package delivery</strong>”, Submitted to Scientific Data, 2021</li>
+  <li>Jay Patrikar, Brady G. Moon, Sebastian Scherer, “<strong>Wind and the City: Utilizing UAV-Based In-Situ Measurements for Estimating Urban Wind Fields</strong>”, International Conference on Intelligent Robots and Systems (IROS), 2020</li>
+  <li>Jay Patrikar, Vishal Dugar, Vaibhav Arcot, Sebastian Scherer, “<strong>Real-time Motion Planning of Curvature Continuous Trajectories for Urban UAV Operations in Wind</strong>” International Conference on Unmanned Aircraft Systems (ICUAS), 2020</li>
+</ul>
+
+<p><br /></p>
+<h2 id="project-members">Project Members</h2>
+<hr />
+
+<h4 id="permanent">Permanent</h4>
+<ul>
+  <li>Dr. Costa Samaras</li>
+  <li><a href="/team/sebastian/">Dr. Sebastian Scherer</a></li>
+  <li><a href="/team/jay/">Jay Patrikar</a></li>
+  <li><a href="/team/bradym/">Brady Moon</a></li>
+  <li>Arnav Choudhry</li>
+  <li>Thiago Rodrigues</li>
+  <li>Jacob Feldgoise</li>
+</ul>
+
+<h4 id="visiting">Visiting</h4>
+<ul>
+  <li>Bastian Wagner</li>
+  <li>Vaibhav Arcot</li>
+  <li>Aradhana Gehlot</li>
+  <li>Sophia Lau</li>
+</ul>
+
+<!-- ### Publications
+* R. Bonatti, W. Wang, C. Ho, A. Ahuja, M. Gschwindt, E. Camci, E. Kayacan, S. Choudhury, S. Scherer, "Autonomous Aerial Cinematography Among Unstructured Environments With Learned Artistic Decision-Making". Journal of Field Robotics, 2019 [[Link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/rob.21931)][[PDF](https://www.cs.cmu.edu/~rbonatti/files/bonatti_jfr.pdf)][[Video](https://youtu.be/ookhHnqmlaU)] -->
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/doe/';
+      this.page.identifier = 'https://theairlab.org/doe/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>

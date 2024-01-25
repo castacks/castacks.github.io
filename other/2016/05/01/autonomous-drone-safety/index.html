@@ -1,0 +1,497 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Autonomous Drone Safety - AirLab</title>
+    
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon/favicon.ico" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#cc002b">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Autonomous Drone Safety | AirLab</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Autonomous Drone Safety" />
+<meta name="author" content="AirLab" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Safety" />
+<meta property="og:description" content="Safety" />
+<link rel="canonical" href="https://theairlab.org/other/2016/05/01/autonomous-drone-safety/" />
+<meta property="og:url" content="https://theairlab.org/other/2016/05/01/autonomous-drone-safety/" />
+<meta property="og:site_name" content="AirLab" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-05-01T10:50:07+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Autonomous Drone Safety" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"AirLab"},"headline":"Autonomous Drone Safety","dateModified":"2016-05-01T10:50:07+00:00","datePublished":"2016-05-01T10:50:07+00:00","description":"Safety","url":"https://theairlab.org/other/2016/05/01/autonomous-drone-safety/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://theairlab.org/other/2016/05/01/autonomous-drone-safety/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWFHDG4GX"></script>
+<script>
+  window['ga-disable-G-ERWFHDG4GX'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ERWFHDG4GX');
+</script><!-- head scripts --><!-- Added by Chen -->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ee902d30e78e50012567eb4&product=inline-follow-buttons&cms=sop' async='async'></script>
+
+    <!-- for mathjax support -->
+    
+
+</head>
+
+<body>
+    
+        
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item navbar-logo">
+                AirLab
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/current-members/" class="navbar-link ">Team</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/current-members/" class="navbar-item ">Current Members</a>
+                            
+                            <a href="/alumni/" class="navbar-item ">Alumni</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/research/" class="navbar-item ">Research</a>
+                    
+                
+                    
+                    <a href="/publications/" class="navbar-item ">Publications</a>
+                    
+                
+                    
+                    <a href="/news/" class="navbar-item ">News</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="" class="navbar-link ">Seminars</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/tartanplanningseries/" class="navbar-item ">Tartan Planning Series</a>
+                            
+                            <a href="/tartanslamseries2/" class="navbar-item ">Tartan SLAM Series Fall Edition</a>
+                            
+                            <a href="/tartanslamseries/" class="navbar-item ">Tartan SLAM Series</a>
+                            
+                            <a href="/summer2020/" class="navbar-item ">Summer School 2020</a>
+                            
+                            <a href="/icra2024_offroad_workshop/" class="navbar-item ">ICRA 2024 Off-road Workshop</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/datasets/" class="navbar-item ">Datasets</a>
+                    
+                
+                    
+                    <a href="/openings/" class="navbar-item ">Openings</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contact</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+     
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            
+                <p class="title is-2">Autonomous Drone Safety</p>
+                <p class="subtitle is-3"></p>
+                <p class="subtitle is-3">
+            
+            
+            
+        </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .button.is-info {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+    .button.is-info.is-hovered {
+     background-color:#cc002b;
+     border-color:transparent;
+     color:#fff
+    }
+</style>
+ 
+     
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+                <div class="column is-8">
+                      
+
+<!-- Figure out the relative link to the author -->
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div class="content">
+
+    <p><div style="font-size: 13px">Published: 
+		<time datetime="2016-05-01T10:50:07+00:00">May 1, 2016</time> by 
+		<div style="font-weight: bold; color: #3399ff; display: inline">
+		
+			AirLab
+		
+		</div>
+	</div></p>
+
+    <h1>Autonomous Drone Safety</h1>
+
+    <p>Imagine flying robots traveling vast distances to deliver packages and taking pictures- doing work that is either too expensive, time-consuming, dangerous or even impossible for humans to do. Not so long ago this may have sounded like pure science fiction, but today it is a reality. The commercial, governmental and hobby use of drones has grown exponentially in the last few years as they have become more widely available, less expensive, more versatile, and have seen significant increases in their performance and battery life. As drone technology became more and more affordable and the equipment became more easily available, business quickly discovered that drones offered a low-cost, effective alternative to commercial aviation providers.</p>
+
+<p>The use of drones was quickly adopted by the film and television industry, with sports broadcasting and law enforcement soon realizing the value and implementing the use of drones in their operations. Scientists have adopted the use of drones to monitor wildlife and to collect data in dangerous situations they have not had access to before such as inside a live volcano. As a basic concept, the idea of an Unmanned Aerial Vehicle (UAV or “drone”) is “childishly” simple: a miniature plane that can be piloted remotely. The major difference between UAVs and the toys of our childhood is the sophistication of the vehicles themselves and of their navigation and pilot systems. Given that these vehicles enter civil airspace and will continue to do so more and more as they begin to be used for an increasing number of civilian activities, the safety and security of UAV software has become critical. It’s paramount that we raise the stakes in terms of the inherent safety of these systems to avoid collisions, and formal guarantees on the <span class="skimlinks-unlinked">safety.This</span> expansion in UAV’s challenges the FAA’s goal “to provide the safest, most efficient aerospace system in the world.” With no human pilot onboard, the control software is chiefly responsible for maintaining UAV safety and security. As demanded by FAA airworthiness rules and the military, as well as for operations close to humans, it is generally necessary to make strong assertions about the safety of a system. This expansion in UAV’s challenges the FAA’s goal “to provide the safest, most efficient aerospace system in the world.” With no human pilot onboard, the control software is chiefly responsible for maintaining UAV safety and security. As demanded by FAA airworthiness rules and the military, as well as for operations close to humans, it is generally necessary to make strong assertions about the safety of a <span class="skimlinks-unlinked">system.The</span>FAA’s policy statement focused on safety concerns posed by the widespread use of UAVs, which the FAA noted “range in size from wingspans of six inches to 246 feet; and can weigh from approximately four ounces to over 25,600 pounds.” The rapid proliferation of UAV’s also worried the FAA, which noted that in 2007, at least 50 companies, universities, and government organizations were developing and producing some 155 unmanned aircraft designs. “The concern was not only that unmanned aircraft operations might interfere with commercial and general aviation aircraft operations,” wrote the FAA, “but that they could also pose a safety problem for other airborne vehicles, and persons or property on the ground.” The major primary safety concerns arising from the use of UAVs in the United States are:  Inability for UAVs to recognize and avoid other aircraft and airborne objects in a manner similar to manned aircraft;  Vulnerabilities in the command and control of UAV operations. In other words, GPS-jamming, hacking and the potential for cyber-terrorism;  Difficulties in guaranteeing the safety of the system  Complexity of autonomy algorithms and challenges in designing an autonomy architecture for certification. One of the primary consequences of the separation between aircraft and operator is that the operator is deprived of a range of sensory cues that are available to the pilot of a manned aircraft. Therefore, a robot must be able to reliably detect and recognize obstacles before it can avoid them. Rather than receiving direct sensory input from the environment in which his/her vehicle is operating, a UAV operator receives only that sensory information provided by onboard sensors via datalink. Currently, this consists primarily of visual imagery covering a restricted field-of-view. Sensory cues that are lost therefore include ambient visual information, kinesthetic/vestibular input, and sound. As compared to the pilot of a manned aircraft, thus, a UAV operator can be said perform in relative “sensory isolation” from the vehicle under his/her control. Some of the environmental challenges faced by the Drones are from different weather conditions like fog, wind while it can also face a lot of small obstacles on its way. Flying in wind can be difficult and in particular challenges the control and autonomy algorithms to guarantee that correct execution is possible. Collision avoidance is an important requirement for autonomous flights. Although multiple solutions for obstacle detection and collision avoidance of UAV’s exist, these solutions suffer from different drawbacks. In general, the existing solutions can be divided into two types: The first type contains simple collision avoidance solutions which are based on avoiding collisions by steering the vehicle into opposite direction using different techniques. The biggest drawback of such solutions is that it is challenging to guarantee that these steering/reactive methods will reach a goal and that the combined avoidance behavior will avoid all obstacles under all situations. The second type can be described as a search or optimization algorithm based solution. These solutions avoid collisions by mapping, positioning, and planning within a map. Planning enables the drones to deliberately avoid collisions. Compared to the first type, these solutions do not limit the mission, but the collision avoidance requires a more precise understanding of the world and potentially requires considerable memory and computational power compared to the already mentioned simple solutions. Software developed for use in larger drones falls under the guidelines of DO-178, “Software Considerations in Airborne Systems and Equipment Certification.” Both DO-178B and the recently ratifiedSoftware developed for use in larger drones falls under the guidelines of DO-178, “Software Considerations in Airborne Systems and Equipment Certification.” Both DO-178B and the recently ratified DO-178C provide detailed guidelines for the production of all software for airborne systems and equipment, whether safety-critical or not. As part of these guidelines, DO-178B/C defines Design Assurance Levels (DALs) with Level A involving the most rigorous safeguard against failure. Software developed for use in larger drones falls under the guidelines of DO-178, “Software Considerations in Airborne Systems and Equipment Certification.” Both DO-178B and the recently ratified DO-178C provide detailed guidelines for the production of all software for airborne systems and equipment, whether safety-critical or not. As part of these guidelines, DO-178B/C defines Design Assurance Levels (DALs) with Level A involving the most rigorous safeguard against failure. One of the challenges in guaranteeing that autonomous drone software is safe is that the number of test cases required for autonomy algorithms makes their exhaustive generation or testing infeasible with simple methods. The “smartness” of the drone is essentially the number of different behavior the drone can choose from. These choices make verification challenging. Another challenge in DO-178 verification is that the typical fallback for a failure in avionics systems is to hand back control to the pilot. However, for an autonomous drone flying out of line-of-sight this is not an option anymore. One of the focus areas of the AirLab at Carnegie Mellon is to develop safe drones and technologies. Over the years, we have developed many collision avoidance algorithms to avoid collision with the terrain from small quadrotors[4] to medium sized helicopters[5], and full-scale autonomous helicopters[6]. More recently, our group has also started to focus on giving stronger guarantees for the safety of an autonomous system. In particular, we have looked at if we can show the safety trajectories being disturbed by wind[7], guaranteeing avoidance of late detected wires[8], and showing the correctness of motion algorithms . <strong>Authors </strong> Sebastian Scherer Sahil Nyati <strong>References</strong> 1) Calhoun, G.L., Draper, M.H., Ruff, H.A., &amp; Fontejon, J.V. (2002). Utility of a tactile display for cueing faults. Proceedings of the Human Factors and Ergonomics Society 46th Annual Meeting,2144-2148. 2) Van Erp, J.B.F., &amp; Van Breda, L. (1999). Human factors issues and advanced interface design in maritime unmanned aerial vehicles: A project overview (Report TNO TM-99-A004). Soesterberg, The Netherlands: TNO Human Factors Research Institute. 3) Pitchford, Mark. “What’s Needed to Ensure Safety and Security in UAV Software.” Military EmbeddedSystems. 4) Stephen T. Nuske, Sanjiban Choudhury, Sezal Jain, Andrew D. Chambers, Luke Yoder, Sebastian Scherer, Lyle J. Chamberlain,Hugh Cover, and Sanjiv Singh, “Autonomous Exploration and Motion Planning for an Unmanned Aerial Vehicle Navigating Rivers,” Journal of Field Robotics, June, 2015 5) Sebastian Scherer, Sanjiv Singh, Lyle J. Chamberlain, and Mike Elgersma, “Flying Fast and Low Among Obstacles: Methodology and Experiments,” The International Journal of Robotics Research, Vol. 27, No. 5, pp. 549-574, May, 2008 6) Sankalp Arora, Sanjiban Choudhury, Sebastian Scherer, and Daniel Althoff, “A Principled Approach to Enable Safe and High-Performance Maneuvers for Autonomous Rotorcraft,” AHS 70th Annual Forum, Montre ́al, Que ́bec, Canada, May 20–22, May, 2014 7) Daniel Althoff and Sebastian Scherer, “Connected Invariant Sets for High-Speed Motion Planning in Partially-Known Environments,” 2015 IEEE International Conference on Robotics and Automation, March, 2015 8) Daniel Althoff, Matthias Althoff, and Sebastian Scherer, “Online Safety Verification of Trajectories for Unmanned Flight with Offline Computed Robust Invariant Sets,” IEEE/RSJ International Conference on Intelligent Robots and Systems, September, 2015</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://theairlab.org/other/2016/05/01/autonomous-drone-safety/';
+      this.page.identifier = 'https://theairlab.org/other/2016/05/01/autonomous-drone-safety/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://theairlab.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Research</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        
+<a href="https://seungchan-kim.github.io/multi-robot-multi-room" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-06-multirobot-multiroom/mrmr_intro_fig.png" alt="Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition</div>
+            
+            <p>This work proposes an autonomous multi-robot exploration pipeline that coordinates the behaviors ...</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 6, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://spla-tam.github.io/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-12-04-splatam/SplaTAM.png" alt="SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM</div>
+            
+            <p>Precise camera tracking &amp; high-fidelity reconstruction of challenging real-world scenarios.</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 4, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+    <div class="column is-12">
+        
+<a href="https://anyloc.github.io/FoundLoc/" target="_blank">
+
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
+        <div style="height: 200px;">
+            <img src="/img/posts/2023-11-24-foundloc/FoundLoc.png" alt="FoundLoc: Vision-based Onboard Aerial Localization in the Wild" style="object-fit: contain; height: 100%;">
+        </div>
+    
+    <div class="card-content" style="flex-grow: 3;">
+        <div class="content">
+            
+            <div class="title is-5">FoundLoc: Vision-based Onboard Aerial Localization in the Wild</div>
+            
+            <p>GPS-denied localization with no initial assumption of position (kidnapped robot problem).</p>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Nov 24, 2023</p>
+    </footer>
+</div>
+</a>
+
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <style>
+  #blocks {
+      width:100%;
+      height:60px;
+      margin:0 auto;
+      /* background-color: #ffe; */
+  }
+  #block1 {
+      height:33.33%;
+      width:30%;
+      /* background: red; */
+      float: left;
+  }
+  #block2 {
+      height:33.33%;
+      width:40%;
+      /* background: yellow; */
+      float: left;
+  }
+  #block3 {
+      height:33.33%;
+      width:30%;
+      /* background: green; */
+      float: right;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- 
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+         -->
+        <div id="blocks">
+          <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="AirLab Logo" style="width:60%;"></div>
+          <div id="block2">
+            <center>
+
+              <!-- <a class="button" itemprop="email" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a> -->
+              <a class="button" itemprop="linkedin" href="https://www.linkedin.com/company/the-air-lab-at-carnegie-mellon-university" target="_blank">
+                <i class="fab fa-linkedin fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="youtube" href="https://www.youtube.com/@airlab" target="_blank">
+                <i class="fab fa-youtube fa-lg" style="height:100%;"></i>
+              </a>
+              <a class="button" itemprop="twitter" href="https://www.twitter.com/airlabcmu/" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a class="button" itemprop="medium" href="https://medium.com/airlabcmu" target="_blank">
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
+              <a class="button" itemprop="github" href="https://github.com/castacks" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <a class="button" itemprop="bitbucket" href="https://bitbucket.org/castacks/" target="_blank">
+                <i class="fab fa-bitbucket fa-lg"></i>
+              </a>
+              <br>
+              <br>
+              <p class="">&copy; 2023 | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+            </center>
+          </div>
+          <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div>
+        </div>
+        <!-- <div>
+          <a href="" class="button is-large"><div class="icon"><i class="fab fa-facebook"</i></div></a>
+        </div> -->
+        <!-- <div class="content is-small has-text-centered">
+            <p class="">© 2020</p>
+        </div> -->
+    </div>
+
+
+</footer>
+ 
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+
+</html>
