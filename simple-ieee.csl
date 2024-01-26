@@ -248,8 +248,8 @@
             </group>
             <group display="block csl-event" delimiter=", ">
               <text macro="event"/>
-            <text macro="locators" suffix=", "/>
-            <text macro="page" prefix=", " suffix=", "/>
+            <text macro="locators" />
+            <text macro="page" />
             <text macro="issued" suffix="."/> 
           </group>
           </group>
