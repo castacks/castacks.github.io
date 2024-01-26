@@ -76,7 +76,7 @@ collections:
 
 scholar:
   style: simple-ieee.csl
-  bibliography_list_tag: "ul.no-bullet"
+  bibliography_list_tag: "ol"
   bibliography_template: bibtemplate
 
 exclude: [vendor]

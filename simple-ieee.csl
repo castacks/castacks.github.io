@@ -216,7 +216,7 @@
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix="">
       <!-- Citation Number -->
-      <text variable="citation-number" prefix="[" suffix="]"/> 
+      <!-- <text variable="citation-number" prefix="[" suffix="]"/> -->
       <!-- Rest of Citation -->
       <choose>
         <!-- Specific Formats -->
@@ -299,20 +299,25 @@
           </group>
         </else-if>
         <else-if type="webpage">
+	  <group display="block csl-content" delimiter=" ">
           <group delimiter=", " suffix=". ">
             <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
             <text macro="issued"/>
           </group>
           <text macro="access"/>
+	</group>
         </else-if>
         <else-if type="patent">
+	  <group display="block csl-content" delimiter=" ">
           <text macro="title" suffix=", "/>
           <text variable="number" prefix="U.S. Patent "/>
           <text macro="issued"/>
+	  </group>
         </else-if>
         <!-- Generic/Fallback Formats -->
         <else-if type="bill book graphic legal_case legislation motion_picture song" match="any">
+	  <group display="block csl-content" delimiter=" ">
           <group delimiter=", " suffix=". ">
             <text macro="title"/>
             <text macro="locators"/>
@@ -322,8 +327,10 @@
             <text macro="issued"/>
             <text macro="page" prefix="pp. "/>
           </group>
+	  </group>
         </else-if>
         <else-if type="article-magazine article-newspaper broadcast interview manuscript map patent personal_communication song speech thesis webpage" match="any">
+	  <group display="block csl-content" delimiter=" ">
           <group delimiter=", ">
             <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
@@ -332,6 +339,7 @@
             <text macro="page" prefix="pp. "/>
             <text macro="issued"/>
           </group>
+	  </group>
         </else-if>
         <else-if type="chapter paper-conference" match="any">
 	    <group display="block csl-content">
@@ -357,6 +365,7 @@
 	    </group>
         </else-if>
         <else>
+	  <group display="block csl-content">
           <group delimiter=", " suffix=". ">
             <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
@@ -367,6 +376,7 @@
             <text macro="page" prefix="pp. "/>
             <text macro="issued"/>
           </group>
+	  </group>
         </else>
       </choose>
     </layout>

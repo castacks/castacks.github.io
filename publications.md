@@ -26,8 +26,14 @@ hide_footer: false
 }
 
 .bibliography {
-   list-style-type: none;
+  list-style-type: none;
 }
+
+.bibliography > li::marker {
+  content: "[" counter(list-item) "]";
+  counter-increment: list;
+}
+
 </style>
 
 # 2024
