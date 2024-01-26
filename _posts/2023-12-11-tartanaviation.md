@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "TartanAviation: Image, Speech, and Trajectory Datasets for Terminal Airspace Operations"
-date: 2023-12-11 9:00:07
+date: 2024-01-25 9:00:07
 categories: datasets
 description: "TartanAviation is an open-source multi-modal dataset focused on terminal-area airspace operations and provides a holistic view of the airport environment by concurrently collecting image, speech, and ADS-B trajectory data."
 author: "Brady Moon"
-published: false
+published: true
 show_sidebar: false
 # slim_content_width: true
-permalink: /tartan-aviation/
-image: /img/posts/2023-12-11-tartanaviation/KAGC_Samples.png
+permalink: /tartanaviation/
+image: /img/posts/2023-12-11-tartanaviation/TartanAviationBanner.png
 datatable: true
 title_image: None
-hero_image: /img/posts/2023-12-11-tartanaviation/KAGC_Samples.png
+hero_image: /img/posts/2023-12-11-tartanaviation/TartanAviationBanner.png
 hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
@@ -218,7 +218,7 @@ It also contains a second paragraph.
 
 
 ### Acknowledgments
-This work is supported by Mitsubishi Heavy Industries (MHI) project #A025279. This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant No. DGE1745016
+This work is supported by Mitsubishi Heavy Industries (MHI) project #A025279. This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant No. DGE1745016.
 
 
 <!-- ### Term of use
