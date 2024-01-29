@@ -26,6 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-scholar
   - kramdown-parser-gfm
+  - nokogiri
 
 exclude:
   - Gemfile
@@ -72,6 +73,8 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+  medium_posts_json:
+    output: true
 
 
 scholar:
