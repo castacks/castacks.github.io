@@ -7,7 +7,7 @@ author: "Wenshan Wang"
 published: true
 sidebar:  false
 permalink: /highlight-tartandrive/
-image: /img/posts/2022-05-03-tartandrive/tartandrive.png
+image: /img/posts/2022-05-03-tartandrive/tartandrive.jpg
 ---
 
 
