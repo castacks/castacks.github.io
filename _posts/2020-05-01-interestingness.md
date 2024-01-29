@@ -46,7 +46,7 @@ In the [DARPA Subterranean (SubT) Challenge](https://www.darpa.mil/program/darpa
 <figure>
  <img src="/img/posts/2020-05-01-interestingness/image2.png" alt="interestingness score" />
  <figcaption>
-    Fig. 1. This figure shows several examples of both uninteresting and interesting scenes in <a href="http://theairlab.org/dataset/interestingness">SubTF dataset</a> taken by the Team Explorer who won the first place in DARPA SubT Challenge tunnel circuit. The height of green strip located at the right of each image indicates the interestingness level predicted by our unsupervised online learning algorithm when it sees the scene for the first time.
+    Fig. 1. This figure shows several examples of both uninteresting and interesting scenes in <a href="https://theairlab.org/dataset/interestingness">SubTF dataset</a> taken by the Team Explorer who won the first place in DARPA SubT Challenge tunnel circuit. The height of green strip located at the right of each image indicates the interestingness level predicted by our unsupervised online learning algorithm when it sees the scene for the first time.
  </figcaption>
 </figure>
 

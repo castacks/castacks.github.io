@@ -32,7 +32,7 @@ We consider the problem of understanding the 3D layout of indoor corridor scenes
 
 ## Dataset
 
- We assemble an image dataset (967 images) for corridor environments. All the images are annotated as ground or wall using polygons. More details and downloads could be found at <strong><span style="color: #008080;"><a style="color: #008080;" href="http://theairlab.org/cmu-corridor-dataset/">http://theairlab.org/cmu-corridor-dataset/</a></span></strong>. &nbsp;
+ We assemble an image dataset (967 images) for corridor environments. All the images are annotated as ground or wall using polygons. More details and downloads could be found at <strong><span style="color: #008080;"><a style="color: #008080;" href="https://theairlab.org/cmu-corridor-dataset/">https://theairlab.org/cmu-corridor-dataset/</a></span></strong>. &nbsp;
 
  <h2 class="overview" style="text-align: center;"><strong>Multiple Images</strong></h2>
  <hr>
