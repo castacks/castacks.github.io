@@ -7,6 +7,7 @@ description: "DARPA TRIAGE CHALLENGE"
 published: true
 image: /img/posts/2023-11-08-darpa_triage/challenge_logo.png
 hide_hero: true
+tags: Project Overview
 ---
 
 

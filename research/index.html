@@ -29,3 +29,120 @@ show_sidebar: false
     json: "/assets/json/search.json",
   });
 </script>
+
+<div id="button-holder" style="tag-div" />
+  <label>Filter by Tags: </label>
+</div>
+
+{% assign posts = site.posts | where:"categories","research" %}
+<script type="text/javascript" >
+  div_ids = [
+      {% for post in posts %}
+        "{{ post.title }}",
+      {% endfor %}
+  ];
+  div_tags = [
+      {% for post in posts %}
+        "{{ post.tags }}",
+      {% endfor %}
+  ];
+
+  tag_set = new Set()
+  for(let i in div_tags){
+      split = div_tags[i].split(',')
+      for(let j in split){
+	  tag_set.add(split[j])
+      }
+  }
+  tag_set = Array.from(tag_set).sort()
+  buttons = []
+
+  selected_tag_set = new Set()
+
+  // if there are more tags than predefined button-filter css styles, more can be added in _sass/syntax.scss
+
+  function filter_selected(){
+      for(let i in div_ids){
+	  // figure out which cards should be hidden or shown
+	  selected_elements = []
+	  all_elements = []
+	  for(tag of tag_set){
+	      e = document.getElementById(div_ids[i])
+	      all_elements.push(e)
+	      if(selected_tag_set.size == 0 || (div_tags[i].includes(tag) && selected_tag_set.has(tag)))
+		  selected_elements.push(e)
+	  }
+
+	  // toggle the buttons ON or OFF
+	  for(let j in tag_set){
+	      if(selected_tag_set.has(tag_set[j]))
+		  buttons[j].setAttribute('class', 'button-filter' + j.toString() + '-ON')
+	      else
+		  buttons[j].setAttribute('class', 'button-filter' + j.toString() + '-OFF')
+	  }
+
+	  // show or hide the cards
+	  for(e of all_elements){
+	      if(selected_elements.includes(e))
+		  e.style.display = 'block'
+	      else
+		  e.style.display = 'none'
+	  }
+
+	  // toggle the All button ON or OFF
+	  if(selected_tag_set.size == 0)
+	      all_button.setAttribute('class', 'button-filterALL-ON')
+	  else
+	      all_button.setAttribute('class', 'button-filterALL-OFF')
+      }
+  }
+
+  // add the All button
+  button_holder = document.getElementById('button-holder')
+
+  all_button = document.createElement('button')
+  all_button.appendChild(document.createTextNode('All'))
+  all_button.setAttribute('class', 'button-filterALL-ON')
+  all_button.onclick = function(){
+      if(selected_tag_set.size != 0)
+	  selected_tag_set.clear()
+      filter_selected()
+  }
+  button_holder.appendChild(all_button)
+  
+  // add a button for each tag
+  function add_button(name, index){
+      button_holder = document.getElementById('button-holder')
+
+      button = document.createElement('button')
+      button.appendChild(document.createTextNode(name))
+      button.setAttribute('class', 'button-filter' + index.toString() + '-OFF')
+      button.onclick = function(){
+	  if(selected_tag_set.has(name))
+	      selected_tag_set.delete(name)
+	  else
+	      selected_tag_set.add(name)
+	  filter_selected()
+      }
+
+      button_holder.appendChild(button)
+      buttons.push(button)
+  }
+  for(let index in tag_set)
+      add_button(tag_set[index], index)
+
+  // After the document is loaded, add the tags
+  document.addEventListener('DOMContentLoaded', function(){for(let i in div_ids){
+      e = document.getElementById(div_ids[i] + '-tags')
+      tags = div_tags[i].split(',').sort()
+
+      for(tag of tags){
+	  button = document.createElement('button')
+	  button.appendChild(document.createTextNode(tag))
+	  button.setAttribute('class', 'button-filter' + tag_set.indexOf(tag).toString() + '-ON button-disabled')
+
+	  e.appendChild(button)
+      }
+  }})
+  
+</script>

@@ -10,6 +10,7 @@ sidebar: false
 permalink: /fully-actuated/
 image: /img/posts/2020-11-11-fully-actuated/fully-actuated.jpg
 link-new-tab: true
+tags: Control
 ---
 
 The introduction of fully-actuated multirotors has opened the door to new possibilities and more efficient solutions to many real-world applications. However, their integration had been slower than expected, partly due to the need for new tools to take full advantage of these robots. In our research we aim to come up with innovative ideas to accelerate the integration of these new flying robots into the real world and push the boundaries of technology to develop new applications that have previously deemed impossible.

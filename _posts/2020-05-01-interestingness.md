@@ -9,6 +9,7 @@ published: true
 sidebar:  false
 permalink: /interestingness/
 image: /img/posts/2020-05-01-interestingness/cover.png
+tags: Learning, Perception
 ---
 
 

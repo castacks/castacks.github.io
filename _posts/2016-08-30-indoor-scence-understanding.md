@@ -8,6 +8,7 @@ author: "Sanjiban Choudhury"
 image: /img/posts/2016-08-20-indoor/screen.png
 published: true
 sidebar:  false
+tags: Perception
 ---
 
 In this project, we study the problem of understanding the 3D scene layout from images and combine it with traditional simultaneous localization and mapping (SLAM) to improve robot navigation ability in some challenging environments especially low-texture areas.

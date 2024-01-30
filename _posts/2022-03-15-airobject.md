@@ -12,6 +12,7 @@ image: /img/posts/2022-03-15-airobject/obj_1_org.gif
 datatable: true
 title_image: None
 link-new-tab: true
+tags: Learning, Perception
 ---
 
 <figure>

@@ -15,6 +15,7 @@ hero_image: /img/posts/2022-03-07-multidrone/multidrone-timelapse-hero.png
 hero_height: is-large
 remove_hero_title: true
 link-new-tab: true
+tags: Perception, Planning
 ---
 
 Aerial vehicles are revolutionizing applications that require capturing the 3D structure of dynamic targets in the wild, such as sports, medicine and entertainment. The core challenges in developing a motion-capture system that operates in outdoors environments are: (1) 3D inference requires multiple simultaneous viewpoints of the target, (2) occlusion caused by obstacles is frequent when tracking moving targets, and (3) the camera and vehicle state estimation is noisy. We present a real-time aerial system for multi-camera control that can reconstruct human motions in natural environments without the use of special-purpose markers.

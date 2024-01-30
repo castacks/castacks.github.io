@@ -8,6 +8,7 @@ author: "Sanjiban Choudhury"
 image: /img/posts/2016-08-20-indoor/plan.png
 published: true
 sidebar:  false
+tags: Planning
 ---
 
 Over the years our lab our lab has created various open-source planning packages. This list is by no means comprehensive, and you can find all our our open-source code on [BitBucket](https://bitbucket.org/castacks/) and [GitHub](https://github.com/castacks).

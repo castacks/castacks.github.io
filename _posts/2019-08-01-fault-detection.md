@@ -10,6 +10,7 @@ sidebar:  false
 permalink: /fault-detection/
 image: /img/posts/2019-08-01-fault-detection/AnomalyDetection2018.jpg
 link-new-tab: true
+tags: Perception
 ---
 
 The recent increase in the use of aerial vehicles raises concerns about the safety and reliability of autonomous operations. There is a growing need for methods to monitor the status of these aircraft and report any faults and anomalies to the safety pilot or to the autopilot to deal with the emergency situation. 

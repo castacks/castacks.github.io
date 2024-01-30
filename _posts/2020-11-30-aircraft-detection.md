@@ -10,6 +10,7 @@ sidebar:  false
 permalink: /aircraft-detection/
 image: /img/posts/2020-11-30-aircraft-detection/cover.gif
 usemathjax: true
+tags: Perception, Learning
 ---
 
 

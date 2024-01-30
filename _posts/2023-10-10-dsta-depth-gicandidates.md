@@ -16,6 +16,7 @@ hide_hero: true
 remove_hero_title: true
 menubar_toc: true
 link-new-tab: true
+tags: Perception, Learning
 ---
 
 <a class="button" itemprop="github" href="https://github.com/castacks/mvs_gi" target="_blank">

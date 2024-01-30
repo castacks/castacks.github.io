@@ -9,6 +9,7 @@ published: true
 sidebar:  false
 permalink: /Intuitive Physics/
 image: /img/posts/2020-08-26-intuitive-physics/cover_figure.png
+tags: Learning, Perception
 ---
 
 

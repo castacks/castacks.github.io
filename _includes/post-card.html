@@ -21,6 +21,10 @@
             <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
         </div>
     </div>
+
+    <!-- tags are added here by javascript in research/index.html -->
+    <div id="{{ post.title }}-tags">
+    </div>
     <footer class="card-footer">
         <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
     </footer>

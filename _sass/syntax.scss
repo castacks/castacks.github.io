@@ -420,3 +420,318 @@
       border-radius: 5px;
   }
 }
+
+
+.tag-div {
+    padding-bottom: 40px;
+};
+
+// The following buttons are used for the tags in the publications page
+.button-filterALL-ON {
+    background-color: #40E0D0;
+    border: 2px solid #40E0D0;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filterALL-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filterALL-OFF {
+    background-color: white;
+    border: 2px solid #40E0D0;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filterALL-OFF:hover {
+    background-color: lightgray;
+}
+
+
+.button-filter0-ON {
+    background-color: #DFFF00;
+    border: 2px solid #DFFF00;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter0-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter0-OFF {
+    background-color: white;
+    border: 2px solid #DFFF00;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter0-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter1-ON {
+    background-color: #FF3333;
+    border: 2px solid #FF3333;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter1-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter1-OFF {
+    background-color: white;
+    border: 2px solid #FF3333;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter1-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter2-ON {
+    background-color: #33FF4C;
+    border: 2px solid #33FF4C;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter2-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter2-OFF {
+    background-color: white;
+    border: 2px solid #33FF4C;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter2-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter3-ON {
+    background-color: #F633FF;
+    border: 2px solid #F633FF;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter3-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter3-OFF {
+    background-color: white;
+    border: 2px solid #F633FF;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter3-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter4-ON {
+    background-color: #CCCCFF;
+    border: 2px solid #CCCCFF;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter4-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter4-OFF {
+    background-color: white;
+    border: 2px solid #CCCCFF;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter4-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter5-ON {
+    background-color: #FFA533;
+    border: 2px solid #FFA533;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter5-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter5-OFF {
+    background-color: white;
+    border: 2px solid #FFA533;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter5-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-filter6-ON {
+    background-color: #33FFB2;
+    border: 2px solid #33FFB2;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter6-ON:hover {
+    background-color: lightgray;
+}
+
+.button-filter6-OFF {
+    background-color: white;
+    border: 2px solid #33FFB2;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-filter6-OFF:hover {
+    background-color: lightgray;
+}
+
+.button-disabled {
+    pointer-events: none;
+}

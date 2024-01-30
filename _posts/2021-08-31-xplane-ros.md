@@ -16,6 +16,7 @@ hero_image: /img/posts/2021-08-31-xplane-ros/scenic_view.png
 hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
+tags: Control, Simulation
 ---
 
 Today, manned and unmanned vehicles are separated, limiting the utility and flexibility of

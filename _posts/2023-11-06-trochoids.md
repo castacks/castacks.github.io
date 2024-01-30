@@ -17,6 +17,7 @@ hero_image: /img/posts/2023-11-06-trochoids/trochoids_cover_crop.png
 hero_height: is-large
 remove_hero_title: false
 menubar_toc: false
+tags: Planning
 ---
 
 We present a method to quickly find the time-optimal, curvature-constrained path between two states in a flow field.

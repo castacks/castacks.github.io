@@ -16,6 +16,7 @@ hero_image: /img/posts/2023-11-23-darpa-shared-airspace/team.jpg
 hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
+tags: Planning, Perception
 ---
 
 An autonomy system that keeps UAVs and manned traffic safely separated and behave as expected in GNSS-denied situations by anticipating, reacting, and coordinating with other aircraft in uncontrolled airspace with only passive (vision-based) sensing.

@@ -8,6 +8,7 @@ author: "John Keller"
 published: true
 image: /img/posts/2023-10-26-image_sharing/image_sharing.png
 hide_hero: true
+tags: Project Overview
 ---
 
 The image sharing library allows a user to transfer images between processes on an Nvidia Jetson computer. It

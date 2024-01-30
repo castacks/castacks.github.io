@@ -17,6 +17,7 @@ hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
 link-new-tab: true
+tags: Perception, Learning
 ---
 
 During a 4-year research collaboration with an international corporation in civil engineering ([Shimizu Institute of Technology](https://www.shimz.co.jp/en/company/about/sit/)), people in the AirLab built several specialized sensor components and robots to explore the possibilities of applying our knowledge and skills to the commonwealth of the general public.
