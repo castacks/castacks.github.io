@@ -39,7 +39,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -64,7 +64,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -90,7 +90,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -113,7 +113,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -136,7 +136,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>  
@@ -161,7 +161,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -184,7 +184,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -207,7 +207,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -230,7 +230,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -253,7 +253,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -276,7 +276,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>  
@@ -299,7 +299,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -322,7 +322,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -345,7 +345,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -368,7 +368,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>
@@ -391,7 +391,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gaM4AsfgnNs" title="ICCV'23 Workshop on Robot Learning and SLAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
   </tr>  
