@@ -399,9 +399,20 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
 
 
 
-## Call for Posters
+## Call for Papers
 
-Topics of interest include but are not limited to the following (all under the context of their roles in off-road autonomy):
+### Important dates (all times AoE)
+- Submissions open: Feb 1st 2024
+- Submission deadline: Apr 1st 2024
+- Decision notification: Apr 21th 2024
+- Camera-ready deadline: May 7th 2024
+- Workshop: May 13th or 17th 2024
+
+### Submission 
+
+Submission link: Coming Soon. 
+
+In this workshop, we aim to bring together machine learning and robotics researchers who work at the intersection of these fields. Topics of interest include but are not limited to the following (all under the context of their roles in off-road autonomy):
 
 - Multi-modal perception
 - Self-supervised learning
@@ -417,6 +428,12 @@ Topics of interest include but are not limited to the following (all under the c
 - Long-term localization and mapping in complex environments
 - Representations of terrain that model physical properties and robot-environment interaction
 
+### Accepted Talks and Posters
+Accepted papers will be presented in the form of posters (with lightning talks) or spotlight talks at the workshop. We encourage submissions of work in progress, as well as work that is not yet published.
+
+### Submission instructions
+Submissions should be short papers up to 4 pages in PDF format (not counting references and an optional appendix, which can go over the limit)
+This workshop will not provide formal official proceedings and the papers will be available on the workshop website.
 
 ## Organizers & Committee
 <hr>
