@@ -9,19 +9,19 @@
   link: /research/
 - name: Publications
   link: /publications/
-- name: News
-  link: /news/
+# - name: News
+#   link: /news/
 - name: Seminars
   dropdown:
-    - name: Tartan Planning Series
-      link: /tartanplanningseries/
-    - name: Tartan SLAM Series Fall Edition
-      link: /tartanslamseries2/
-    - name: Tartan SLAM Series
-      link: /tartanslamseries/
-    - name: Summer School 2020
+    - name: 2020 Summer School
       link: /summer2020/
-    - name: ICRA 2024 Off-road Workshop
+    - name: 2021 Tartan SLAM Series
+      link: /tartanslamseries/
+    - name: 2021 Tartan SLAM Series Fall Edition
+      link: /tartanslamseries2/
+    - name: 2023 Tartan Planning Series
+      link: /tartanplanningseries/
+    - name: 2024 ICRA Off-road Workshop
       link: /icra2024_offroad_workshop/
 - name: Datasets
   link: /datasets/
