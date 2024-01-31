@@ -62,7 +62,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/aSgOUik94zY" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="aSgOUik94zY"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -75,7 +75,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a>
+        <a style="margin-bottom: 1px;" href="https://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>Carnegie Mellon University</p>
@@ -90,7 +90,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/QZ_2ROI7Tfs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="QZ_2ROI7Tfs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -103,7 +103,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://faculty.washington.edu/kymleung/">Karen Leung</a>
+        <a style="margin-bottom: 1px;" href="https://faculty.washington.edu/kymleung/">Karen Leung</a>
       </p>
       <p style="margin-bottom: 3px;">Assistant Professor</p>
       <p>University of Washington</p>
@@ -118,7 +118,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/cT4khR8L5c0" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -146,7 +146,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/86QPWwGUP84" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="86QPWwGUP84"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -174,7 +174,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/1xX2v1_S6FI" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="1xX2v1_S6FI"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -187,7 +187,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.sanjibanchoudhury.com/">Sanjiban Choudhury</a>
+        <a style="margin-bottom: 1px;" href="https://www.sanjibanchoudhury.com/">Sanjiban Choudhury</a>
       </p>
       <p style="margin-bottom: 3px;">Assistant Professor</p>
       <p>Cornell University</p>
@@ -202,7 +202,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/ndtnvmwHKn0" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="ndtnvmwHKn0"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -230,7 +230,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gedSNLhBK98" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="gedSNLhBK98"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -243,7 +243,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://negar.web.illinois.edu/">Negar Mehr</a>
+        <a style="margin-bottom: 1px;" href="https://negar.web.illinois.edu/">Negar Mehr</a>
       </p>
       <p style="margin-bottom: 3px;">Assistant Professor</p>
       <p>University of Illinois at Urbana-Champaign</p>
@@ -258,7 +258,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/G3JoGvZABoE" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="G3JoGvZABoE"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -286,7 +286,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/X1YjUQq1h5A" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="X1YjUQq1h5A"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -314,7 +314,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/5621m_BXQW8" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="5621m_BXQW8"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -342,7 +342,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/ET33IvlTNAs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="ET33IvlTNAs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -355,7 +355,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.kostasalexis.com/">Kostas Alexis</a>
+        <a style="margin-bottom: 1px;" href="https://www.kostasalexis.com/">Kostas Alexis</a>
       </p>
       <p style="margin-bottom: 3px;">Professor</p>
       <p>Norwegian University of Science and Technology</p>
@@ -370,7 +370,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/uhRKMxDuu5s" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="uhRKMxDuu5s"></lite-youtube>
         </div>
       </div>
     </td>  
