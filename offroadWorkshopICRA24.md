@@ -410,7 +410,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
 
 ### Submission 
 
-Submission link: Coming Soon. 
+Submission link: [OpenReview](https://openreview.net/group?id=IEEE.org/2024/ICRA/Workshop/Off-road_Autonomy#tab-your-consoles). 
 
 In this workshop, we aim to bring together machine learning and robotics researchers who work at the intersection of these fields. Topics of interest include but are not limited to the following (all under the context of their roles in off-road autonomy):
 
