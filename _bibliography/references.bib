@@ -1,3 +1,17 @@
+@article{Saba2024,
+  title = {Fast and Modular Autonomy Software for Autonomous Racing Vehicles},
+  volume = {4},
+  ISSN = {2771-3989},
+  url = {http://dx.doi.org/10.55417/fr.2024001},
+  DOI = {10.55417/fr.2024001},
+  number = {1},
+  journal = {Field Robotics},
+  publisher = {Field Robotics Publication Society},
+  author = {Saba,  Andrew and Adetunji,  Aderotimi and Johnson,  Adam and Kothari,  Aadi and Sivaprakasam,  Matthew and Spisak,  Joshua and Bharatia,  Prem and Chauhan,  Arjun and Duff,  Brendan and Gasparro,  Noah and King,  Charles and Larkin,  Ryan and Mao,  Brian and Nye,  Micah and Parashar,  Anjali and Attias,  Joseph and Balciunas,  Aurimas and Brown,  Austin and Chang,  Chris and Gao,  Ming and Heredia,  Cindy and Keats,  Andrew and Lavariega,  Jose and Muckelroy,  William and Slavescu,  Andre and Stathas,  Nickolas and Suvarna,  Nayana and Zhang,  Chuan Tian and Scherer,  Sebastian and Ramanan,  Deva},
+  year = {2024},
+  month = jan,
+  pages = {1–45}
+}
 @inproceedings{chen2024unified,
 	title        = {A Unified {MPC} Strategy for a Tilt-rotor {VTOL UAV} Towards Seamless Mode Transitioning},
 	author       = {Chen, Qizhao and Hu, Ziqi and Geng, Junyi and Bai, Dongwei and Mousaei, Mohammadreza and Scherer, Sebastian},
@@ -285,7 +299,7 @@
 	journal      = {arXiv preprint arXiv:2310.10863},
 	url          = {https://arxiv.org/pdf/2310.10863}
 }
-@misc{taylor2023multimodal,
+@patent{taylor2023multimodal,
 	title        = {Multimodal beacon based precision landing system for autonomous aircraft},
 	author       = {Taylor, Jonathan and Singh, Sanjiv and Chamberlain, Lyle and Scherer, Sebastian and Grocholsky, Benjamin and Brajovic, Vladimir},
 	year         = 2023,
@@ -916,7 +930,7 @@
 	booktitle    = {2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
 	pages        = {1637--1644},
 	doi          = {10.1109/IROS45743.2020.9341049},
-	url          = {http://arxiv.org/pdf/1909.06993},
+	url          = {https://arxiv.org/pdf/1909.06993},
 	abstract     = {Machines are a long way from robustly solving open-world perception-control tasks, such as first-person view (FPV) aerial navigation. While recent advances in end-to-end Machine Learning, especially Imitation and Reinforcement Learning appear promising, they are constrained by the need of large amounts of difficult-to-collect labeled real-world data. Simulated data, on the other hand, is easy to generate, but generally does not render safe behaviors in diverse real-life scenarios. In this work we propose a novel method for learning robust visuomotor policies for real-world deployment which can be trained purely with simulated data. We develop rich state representations that combine supervised and unsupervised environment data. Our approach takes a cross-modal perspective, where separate modalities correspond to the raw camera data and the system states relevant to the task, such as the relative pose of gates to the drone in the case of drone racing. We feed both data modalities into a novel factored architecture, which learns a joint low-dimensional embedding via Variational Auto Encoders. This compact representation is then fed into a control policy, which we trained using imitation learning with expert trajectories in a simulator. We analyze the rich latent spaces learned with our proposed representations, and show that the use of our cross-modal architecture significantly improves control policy performance as compared to end-to-end learning or purely unsupervised feature extractors. We also present real-world results for drone navigation through gates in different track configurations and environmental conditions. Our proposed method, which runs fully onboard, can successfully generalize the learned representations and policies across simulation and reality, significantly outperforming baseline approaches. Supplementary video: https://youtu.be/VKc3A5HlUU8},
 	archiveprefix = {arXiv},
 	arxivid      = {1909.06993},
@@ -1101,7 +1115,7 @@
 	booktitle    = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
 	pages        = {4909--4916},
 	doi          = {10.1109/IROS45743.2020.9341801},
-	url          = {http://arxiv.org/pdf/2003.14338},
+	url          = {https://arxiv.org/pdf/2003.14338},
 	abstract     = {We present a challenging dataset, the TartanAir, for robot navigation task and more. The data is collected in photo-realistic simulation environments in the presence of various light conditions, weather and moving objects. By collecting data in simulation, we are able to obtain multi-modal sensor data and precise ground truth labels, including the stereo RGB image, depth image, segmentation, optical flow, camera poses, and LiDAR point cloud. We set up a large number of environments with various styles and scenes, covering challenging viewpoints and diverse motion patterns, which are difficult to achieve by using physical data collection platforms.},
 	archiveprefix = {arXiv},
 	arxivid      = {2003.14338},
@@ -1128,7 +1142,7 @@
 	booktitle    = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
 	pages        = {4588--4594},
 	doi          = {10.1109/IROS45743.2020.9341690},
-	url          = {http://arxiv.org/pdf/2004.00740},
+	url          = {https://arxiv.org/pdf/2004.00740},
 	abstract     = {Light-weight camera localization in existing maps is essential for vision-based navigation. Currently, visual and visual-inertial odometry (VO$\backslash${\&}VIO) techniques are well-developed for state estimation but with inevitable accumulated drifts and pose jumps upon loop closure. To overcome these problems, we propose an efficient monocular camera localization method in prior LiDAR maps using directly estimated 2D-3D line correspondences. To handle the appearance differences and modality gaps between untextured point clouds and images, geometric 3D lines are extracted offline from LiDAR maps while robust 2D lines are extracted online from video sequences. With the pose prediction from VIO, we can efficiently obtain coarse 2D-3D line correspondences. After that, the camera poses and 2D-3D correspondences are iteratively optimized by minimizing the projection error of correspondences and rejecting outliers. The experiment results on the EurocMav dataset and our collected dataset demonstrate that the proposed method can efficiently estimate camera poses without accumulated drifts or pose jumps in urban environments. The code and our collected data are available at https://github.com/levenberg/2D-3D-pose-tracking.},
 	archiveprefix = {arXiv},
 	arxivid      = {2004.00740},
@@ -1214,7 +1228,7 @@
 	year         = 2019,
 	month        = oct,
 	journal      = {arXiv preprint arXiv:1910.04874},
-	url          = {http://arxiv.org/pdf/1910.04874},
+	url          = {https://arxiv.org/pdf/1910.04874},
 	abstract     = {Stereo cameras are a popular choice for obstacle avoidance for outdoor lighweight, low-cost robotics applications. However, they are unable to sense thin and reflective objects well. Currently, many algorithms are tuned to perform well on indoor scenes like the Middlebury dataset. When navigating outdoors, reflective objects, like windows and glass, and thin obstacles, like wires, are not well handled by most stereo disparity algorithms. Reflections, repeating patterns and objects parallel to the cameras' baseline causes mismatches between image pairs which leads to bad disparity estimates. Thin obstacles are difficult for many sliding window based disparity methods to detect because they do not take up large portions of the pixels in the sliding window. We use a trinocular camera setup and micropolarizer camera capable of detecting reflective objects to overcome these issues. We present a hierarchical disparity algorithm that reduces noise, separately identify wires using semantic object triangulation in three images, and use information about the polarization of light to estimate the disparity of reflective objects. We evaluate our approach on outdoor data that we collected. Our method contained an average of 9.27{\%} of bad pixels compared to a typical stereo algorithm's 18.4{\%} of bad pixels in scenes containing reflective objects. Our trinocular and semantic wire disparity methods detected 53{\%} of wire pixels, whereas a typical two camera stereo algorithm detected 5{\%}.},
 	annote       = {6 pages, 5 figures},
 	archiveprefix = {arXiv},
@@ -1328,7 +1342,7 @@
 	year         = 2019,
 	month        = mar,
 	booktitle    = {44th Annual Waste Management Conference (WM2018)},
-	url          = {http://arxiv.org/pdf/1710.01701},
+	url          = {https://arxiv.org/pdf/1710.01701},
 	abstract     = {Radiation source detection has seen various applications in the past decade, ranging from the detection of dirty bombs in public places to scanning critical nuclear facilities for leakage or flaws, and in the autonomous inspection of nuclear sites. Despite the success in detecting single point sources or a small number of spatially separated point sources, most of the existing algorithms fail to localize sources in complex scenarios with a large number of point sources or non-trivial distributions {\&} bulk sources. Even in simpler environments, most existing algorithms are not scalable to larger regions and/or higher dimensional spaces. For effective autonomous inspection, we not only need to estimate the positions of the sources, but also the number, distribution, and intensities of each of them. In this paper, we present a novel algorithm for the robust localization of an arbitrary distribution of radiation sources using multi-layer sequential Monte Carlo methods coupled with suitable clustering algorithms. We achieve near-perfect accuracy, in terms of F1-scores ({\textgreater} 0.95), while allowing the algorithm to scale, both to large regions in space and to higher dimensional spaces (5 tested).}
 }
 @article{arora2018hindsight,
@@ -1337,7 +1351,7 @@
 	year         = 2018,
 	month        = apr,
 	journal      = {arXiv preprint arXiv:1804.02573},
-	url          = {http://arxiv.org/pdf/1804.02573},
+	url          = {https://arxiv.org/pdf/1804.02573},
 	abstract     = {Partially Observable Markov Decision Processes (POMDPs) offer an elegant framework to model sequential decision making in uncertain environments. Solving POMDPs online is an active area of research and given the size of real-world problems approximate solvers are used. Recently, a few approaches have been suggested for solving POMDPs by using MDP solvers in conjunction with imitation learning. MDP based POMDP solvers work well for some cases, while catastrophically failing for others. The main failure point of such solvers is the lack of motivation for MDP solvers to gain information, since under their assumption the environment is either already known as much as it can be or the uncertainty will disappear after the next step. However for solving POMDP problems gaining information can lead to efficient solutions. In this paper we derive a set of conditions where MDP based POMDP solvers are provably sub-optimal. We then use the well-known tiger problem to demonstrate such sub-optimality. We show that multi-resolution, budgeted information gathering cannot be addressed using MDP based POMDP solvers. The contribution of the paper helps identify the properties of a POMDP problem for which the use of MDP based POMDP solvers is inappropriate, enabling better design choices.},
 	annote       = {6 pages, 1 figure}
 }
@@ -1461,7 +1475,7 @@
 	year         = 2018,
 	month        = dec,
 	journal      = {arXiv preprint arXiv:1812.03539},
-	url          = {http://arxiv.org/pdf/1812.03539},
+	url          = {https://arxiv.org/pdf/1812.03539},
 	abstract     = {Autonomous and safe landing is important for unmanned aerial vehicles. We present a monocular and stereo image based method for fast and accurate landing zone evaluation for UAVs in various scenarios. Many existing methods rely on Lidar or depth sensor to provide accurate and dense surface reconstruction. We utilize stereo images to evaluate the slope and monocular images to compute homography error. By combining them together, our approach works for both rigid and non-rigid dynamic surfaces. Experiments on many outdoor scenes such as water, grass and roofs, demonstrate the robustness and effectiveness of our approach.},
 	archiveprefix = {arXiv},
 	arxivid      = {1812.03539},
@@ -1473,7 +1487,7 @@
 	year         = 2018,
 	month        = sep,
 	journal      = {arXiv preprint arXiv:1809.03565},
-	url          = {http://arxiv.org/pdf/1809.03565},
+	url          = {https://arxiv.org/pdf/1809.03565},
 	abstract     = {Failures in robotics can have disastrous consequences that worsen rapidly over time. This, the ability to rely on robotic systems, depends on our ability to monitor them and intercede when necessary, manually or autonomously. Prior work in this area surveys intrusion detection and security challenges in robotics, but a discussion of the more general anomaly detection problems is lacking. As such, we provide a brief insight-focused discussion and frameworks of thought on some compelling open problems with anomaly detection in robotic systems. Namely, we discuss non-malicious faults, invalid data, intentional anomalous behavior, hierarchical anomaly detection, distribution of computation, and anomaly correction on the fly. We demonstrate the need for additional work in these areas by providing a case study which examines the limitations of implementing a basic anomaly detection (AD) system in the Robot Operating System (ROS) 2 middleware. Showing that if even supporting a basic system is a significant hurdle, the path to more complex and advanced AD systems is even more problematic. We discuss these ROS 2 platform limitations to support solutions in robotic anomaly detection and provide recommendations to address the issues discovered.},
 	archiveprefix = {arXiv},
 	arxivid      = {1809.03565},
@@ -1578,7 +1592,7 @@
 	month        = oct,
 	booktitle    = {Conference on Robot Learning},
 	publisher    = {Journal of Machine Learning Research},
-	url          = {http://arxiv.org/pdf/1810.07225},
+	url          = {https://arxiv.org/pdf/1810.07225},
 	abstract     = {Predicting the motion of a mobile agent from a third-person perspective is an important component for many robotics applications, such as autonomous navigation and tracking. With accurate motion prediction of other agents, robots can plan for more intelligent behaviors to achieve specified objectives, instead of acting in a purely reactive way. Previous work addresses motion prediction by either only filtering kinematics, or using hand-designed and learned representations of the environment. Instead of separating kinematic and environmental context, we propose a novel approach to integrate both into an inverse reinforcement learning (IRL) framework for trajectory prediction. Instead of exponentially increasing the state-space complexity with kinematics, we propose a two-stage neural network architecture that considers motion and environment together to recover the reward function. The first-stage network learns feature representations of the environment using low-level LiDAR statistics and the second-stage network combines those learned features with kinematics data. We collected over 30 km of off-road driving data and validated experimentally that our method can effectively extract useful environmental and kinematic features. We generate accurate predictions of the distribution of future trajectories of the vehicle, encoding complex behaviors such as multi-modal distributions at road intersections, and even show different predictions at the same intersection depending on the vehicle's speed.}
 }
 @inproceedings{zhen2018unified,
@@ -1795,7 +1809,7 @@
 	year         = 2017,
 	month        = apr,
 	journal      = {arXiv preprint arXiv:1704.08759},
-	url          = {http://arxiv.org/pdf/1704.08759},
+	url          = {https://arxiv.org/pdf/1704.08759},
 	abstract     = {Obstacle avoidance from monocular images is a challenging problem for robots. Though multi-view structure-from-motion could build 3D maps, it is not robust in textureless environments. Some learning based methods exploit human demonstration to predict a steering command directly from a single image. However, this method is usually biased towards certain tasks or demonstration scenarios and also biased by human understanding. In this paper, we propose a new method to predict a trajectory from images. We train our system on more diverse NYUv2 dataset. The ground truth trajectory is computed from the designed cost functions automatically. The Convolutional Neural Network perception is divided into two stages: first, predict depth map and surface normal from RGB images, which are two important geometric properties related to 3D obstacle representation. Second, predict the trajectory from the depth and normal. Results show that our intermediate perception increases the accuracy by 20{\%} than the direct prediction. Our model generalizes well to other public indoor datasets and is also demonstrated for robot flights in simulation and experiments.}
 }
 @article{yang2017direct,
