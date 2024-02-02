@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ICRA 2024 Workshop on Resilient Off-road Autonomy
-subtitle: May 13th to 17th, 2024, in Yokohama, Japan (In submission)
+subtitle: May 13th to 17th, 2024, in Yokohama, Japan 
 show_sidebar: false
 hide_footer: false
 permalink: /icra2024_offroad_workshop/
@@ -9,9 +9,9 @@ hero_image: /img/icra2014_offroad/tartan_icra24.png
 ---
 
 # General Information
-The field of autonomous off-road driving has been a field of great interest due to applications in various industries, such as agriculture, search and rescue, and military operations. The dynamic and unpredictable nature of off-road environments poses unique challenges and opens avenues for all aspects of robotic research. The goal of this workshop is to engage experts and researchers in off-road driving, in a broad coverage of public datasets, benchmarks, software stacks, infrastructures, state estimation, semantic segmentation, traversability estimation, terrain analysis, planning, dynamics model, domain adaptation, and more. 
+The field of off-road autonomy has been of great interest due to applications in various industries, such as agriculture, search and rescue, an	d military operations. The dynamic and unpredictable nature of off-road environments poses unique challenges and opens avenues for all aspects of robotic research. The goal of this workshop is to engage experts and researchers in off-road autonomy, in a broad coverage of public datasets, benchmarks, software stacks, infrastructures, state estimation, semantic segmentation, traversability estimation, terrain analysis, planning, dynamics model, domain adaptation, and more.
 
-This will be a full-day workshop. It will feature a mix of presentations, open panel discussions, and an invited poster session. There will be eight invited speakers and a keynote speaker to discuss their related research, thoughts, and experiences in various directions of off-road autonomous driving. The workshop aims to foster discussion, share insights, and encourage collaborations among experts from academia, industry, and research institutions, as well as to identify the key challenges and opportunities in the advancement of autonomous off-road driving technologies.
+This will be a full-day workshop. It will feature a mix of presentations, open panel discussions, and an invited poster session. There will be eight invited speakers and a keynote speaker to discuss their related research, thoughts, and experiences in various directions within off-road autonomy. The workshop aims to foster discussion, share insights, and encourage collaborations among experts from academia, industry, and research institutions, as well as to identify the key challenges and opportunities in the advancement of off-road autonomy technologies.
 
 <!-- # Invited Speakers -->
 <!-- Test YouTube Streaming and add instructions for how streaming will work-->
