@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ICRA 2024 Workshop on Resilient Off-road Autonomy
-subtitle: May 13th to 17th, 2024, in Yokohama, Japan 
+subtitle: May 17th, 2024, in Yokohama, Japan 
 show_sidebar: false
 hide_footer: false
 permalink: /icra2024_offroad_workshop/
@@ -406,7 +406,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
 - Submission deadline: Apr 1st 2024
 - Decision notification: Apr 21th 2024
 - Camera-ready deadline: May 7th 2024
-- Workshop: May 13th or 17th 2024
+- Workshop: May 17th 2024
 
 ### Submission 
 
