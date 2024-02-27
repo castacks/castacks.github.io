@@ -10,7 +10,7 @@ link-new-tab: true
 
 Tyler is a first-year MS in Robotics at Carnegie Mellon University School of Computer Science. He also graduated from Cargnegie Mellon with a Bachelors in Mechanical Engineering and Robotics.
 
-Tyler is currently working on the Wildfire project, and his research interests lie in 3D Mapping, Localization, and SLAM. Outside of academics, Tyler is loves playing learning any sport, especailly soccer and skiing, trying new coffee spots, and working on cars. 
+Tyler is currently working on the Wildfire project, and his research interests lie in 3D Mapping, Localization, and SLAM. Outside of academics, he loves playing and learning any sport, especailly soccer and skiing, trying new coffee spots, and working on cars. 
 <br>
 
 ## Contact
