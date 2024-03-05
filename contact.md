@@ -23,6 +23,16 @@ Phone: (412) 589-9581
 
 Email: [basti@andrew.cmu.edu](mailto:basti@andrew.cmu.edu)
 
+[Contact card download (VCF)](basti.vcf)
+
+## Systems Scientist
+
+### Wenshan Wang
+Robotics Institute, Squirrel Hill Location, Carnegie Mellon University, 1723 Murray Ave, Pittsburgh, PA 15217
+
+Email: [wenshanw@andrew.cmu.edu](mailto:wenshanw@andrew.cmu.edu)
+
+
 ## Administrative Assistant
 
 ### Janice Phillips <janicek@andrew.cmu.edu>
