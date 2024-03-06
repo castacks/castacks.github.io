@@ -49,16 +49,16 @@
     </script>
 
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'https://doi.org/' }}"><input type='button' class='button1' value='doi'/></a>
+<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" aria-label="doi link for paper"><input type='button' class='button1' value='doi'/></a>
 {% endif %}
 {% if entry.preprint %}
 <a href="{{ entry.preprint }}"><input type='button' class='button2' value='preprint'/></a>
 {% endif %}
 {% if entry.url %}
-<a href='{{ entry.url | escape }}'><input type='button' class='button4' value='link'/></a>
+<a href='{{ entry.url | escape }}' aria-label="pdf link for paper"><input type='button' class='button4' value='link'/></a>
 {% endif %}
 {% if entry.video %}
-<a href="{{ entry.video}}"><input type='button' class='button5' value='video'/></a>
+<a href="{{ entry.video}}" aria-label="video link for paper"><input type='button' class='button5' value='video'/></a>
 {% endif %}
 <!-- {% if entry.code %} -->
 <!-- <a href="{{ entry.code }}"><input type='button' class='button3' value='code'/></a> -->
