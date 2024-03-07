@@ -10,7 +10,7 @@ lite-youtube {
 }
 
 /* gradient */
-lite-youtube::before {
+/* lite-youtube::before {
     content: '';
     display: block;
     position: absolute;
@@ -20,6 +20,16 @@ lite-youtube::before {
     background-repeat: repeat-x;
     height: 60px;
     padding-bottom: 50px;
+    width: 100%;
+    transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+} */
+lite-youtube::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    height: 40%;
     width: 100%;
     transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
 }
