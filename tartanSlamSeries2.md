@@ -76,7 +76,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/tm4E1o11kGo" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="tm4E1o11kGo"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -116,7 +116,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/XzSFUXo_FMs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="XzSFUXo_FMs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -145,7 +145,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/s9yc9-d-Vc8" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="s9yc9-d-Vc8"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -174,7 +174,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/W2VmUrUrYZc" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="W2VmUrUrYZc"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -187,7 +187,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>
+        <a style="margin-bottom: 1px;" href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>
       </p>
       <p style="margin-bottom: 3px;">Professor of Robotics and Perception</p>
       <p>University of Zurich</p>
@@ -203,7 +203,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/3oqTGrnSkrY" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="3oqTGrnSkrY"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -232,7 +232,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/-hxg8aLg8kk" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="-hxg8aLg8kk"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -267,7 +267,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/vtnh9TExdOI" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="vtnh9TExdOI"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -296,7 +296,7 @@ Check out our previous edition of the Tartan SLAM Series [here](https://theairla
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/gq4dnYCtTtw" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="gq4dnYCtTtw"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -335,7 +335,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/b5fOM2pM2zI" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="b5fOM2pM2zI"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -365,7 +365,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/z9IeZ_U0uqY" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="z9IeZ_U0uqY"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -402,7 +402,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/FaYFYd2ZxlQ" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="FaYFYd2ZxlQ"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -415,7 +415,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://www.mit.edu/~mrrobot/">Kasra Khosoussi</a>
+        <a style="margin-bottom: 1px;" href="https://www.mit.edu/~mrrobot/">Kasra Khosoussi</a>
       </p>
       <p style="margin-bottom: 3px;">Senior Research Scientist</p>
       <p>CSIRO Data61</p>
@@ -430,7 +430,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/YCE1Aj0k1UA" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="YCE1Aj0k1UA"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -459,7 +459,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JDNjiqF0SAs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="JDNjiqF0SAs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -488,7 +488,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/Pyk_oljyCS8" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="Pyk_oljyCS8"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -517,7 +517,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/ppc7uRQqti4" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="ppc7uRQqti4"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -619,7 +619,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="acYBSrDpEdQ"></lite-youtube>
           </div>
         </div>
       </td>

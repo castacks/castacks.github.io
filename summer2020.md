@@ -93,7 +93,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/LMzkk10CvJo" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="LMzkk10CvJo"></lite-youtube>
           </div>
         </div>
       </td>
@@ -143,7 +143,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/pG0B9hTiPRQ" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="pG0B9hTiPRQ"></lite-youtube>
           </div>
         </div>
       </td>
@@ -206,7 +206,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/lwX5S0MIFzs" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="lwX5S0MIFzs"></lite-youtube>
           </div>
         </div>
       </td>
@@ -249,7 +249,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/VOlYuK6AtAE" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="VOlYuK6AtAE"></lite-youtube>
           </div>
         </div>
       </td>
@@ -288,7 +288,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/FhwFyA0NQkE" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="FhwFyA0NQkE"></lite-youtube>
           </div>
         </div>
       </td>
@@ -331,7 +331,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/8uLsT-fAlMc" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="8uLsT-fAlMc"></lite-youtube>
           </div>
         </div>
       </td>
@@ -369,7 +369,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/yggi7QjfOUM" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="yggi7QjfOUM"></lite-youtube>
           </div>
         </div>
       </td>
@@ -415,7 +415,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/vCzQDLjywwU" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="vCzQDLjywwU"></lite-youtube>
           </div>
         </div>
       </td>
@@ -475,7 +475,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/vmRl8swiEyc" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="vmRl8swiEyc"></lite-youtube>
           </div>
         </div>
       </td>
@@ -515,7 +515,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/fLg7p8Yl984" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="fLg7p8Yl984"></lite-youtube>
           </div>
         </div>
       </td>
@@ -551,7 +551,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/BOK5cRdgVYM" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="BOK5cRdgVYM"></lite-youtube>
           </div>
         </div>
       </td>
@@ -587,7 +587,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/xNz92Qbesug" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="xNz92Qbesug"></lite-youtube>
           </div>
         </div>
       </td>
@@ -648,7 +648,7 @@ Various labs will require these specifications:
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/pcI08fHL9Nw" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="pcI08fHL9Nw"></lite-youtube>
           </div>
         </div>
       </td>

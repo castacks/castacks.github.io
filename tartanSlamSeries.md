@@ -60,7 +60,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="acYBSrDpEdQ"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -90,7 +90,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="JmR2YpkLNt0"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -120,7 +120,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="KeRYyvj9xgQ"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -150,7 +150,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/svzQgfkrxZc" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="svzQgfkrxZc"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -164,7 +164,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://copland.udel.edu/~ghuang/">Guoquan (Paul) Huang</a>
+        <a style="margin-bottom: 1px;" href="https://copland.udel.edu/~ghuang/">Guoquan (Paul) Huang</a>
       </p>
       <p style="margin-bottom: 3px;">Associate Professor</p>
       <p>University of Delaware</p>
@@ -180,7 +180,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/Krx8A9B6Wl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="Krx8A9B6Wl4"></lite-youtube>
         </div>
       </div>
     </td>
@@ -210,7 +210,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/j5g3efgdjRg" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="j5g3efgdjRg"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -240,7 +240,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/FH6suW6_A5U" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="FH6suW6_A5U"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -270,7 +270,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="1VE_3a-7pTg"></lite-youtube>
         </div>
       </div>
     </td>
@@ -294,7 +294,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="fU8IlmN6QOs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -319,7 +319,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/fU8IlmN6QOs" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="fU8IlmN6QOs"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -328,7 +328,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/rpl4_cropped_transparent2.png"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://psodhi.github.io">Paloma Sodhi</a> & <a style="margin-bottom: 1px;" href="http://www.cs.cmu.edu/~sudhars1/">Sudharshan Suresh</a>
+        <a style="margin-bottom: 1px;" href="https://psodhi.github.io">Paloma Sodhi</a> & <a style="margin-bottom: 1px;" href="https://www.cs.cmu.edu/~sudhars1/">Sudharshan Suresh</a>
       </p>
       <p style="margin-bottom: 3px;">Robot Perception Lab </p>
       <p>Carnegie Mellon University</p>
@@ -344,7 +344,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/IjuTxa8andk" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="IjuTxa8andk"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -353,7 +353,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td style="text-align: center;"> <img class="circular_image" src="/img/slam_series/kjd_photo.png"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="http://people.csail.mit.edu/kdoherty/">Kevin Doherty</a>
+        <a style="margin-bottom: 1px;" href="https://people.csail.mit.edu/kdoherty/">Kevin Doherty</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate</p>
       <p>Massachusetts Institute of Technology</p>
@@ -368,7 +368,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
         <div class="extensions extensions--video">
-          <iframe style="width:100%;height:100%;position:absolute;" src="https://www.youtube.com/embed/PoJXxrhDnB8" frameborder="0" allowfullscreen></iframe>
+          <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="PoJXxrhDnB8"></lite-youtube>
         </div>
       </div>
     </td>  
@@ -472,7 +472,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/acYBSrDpEdQ" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="acYBSrDpEdQ"></lite-youtube>
           </div>
         </div>
       </td>
@@ -500,7 +500,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/JmR2YpkLNt0" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="JmR2YpkLNt0"></lite-youtube>
           </div>
         </div>
       </td>
@@ -535,7 +535,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/KeRYyvj9xgQ" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="KeRYyvj9xgQ"></lite-youtube>
           </div>
         </div>
       </td>
@@ -563,7 +563,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/svzQgfkrxZc" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="svzQgfkrxZc"></lite-youtube>
           </div>
         </div>
       </td>
@@ -610,7 +610,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/Krx8A9B6Wl4" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="Krx8A9B6Wl4"></lite-youtube>
           </div>
         </div>
       </td>
@@ -638,7 +638,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/j5g3efgdjRg" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="j5g3efgdjRg"></lite-youtube>
           </div>
         </div>
       </td>
@@ -664,7 +664,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="https://www.youtube.com/embed/FH6suW6_A5U" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="FH6suW6_A5U"></lite-youtube>
           </div>
         </div>
       </td>
@@ -697,7 +697,7 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <td align="right">
         <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
           <div class="extensions extensions--video">
-            <iframe style="width:100%;height:100%;position:absolute;left: 0;top: 0" src="http://www.youtube.com/embed/1VE_3a-7pTg" frameborder="0" allowfullscreen></iframe>
+            <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="1VE_3a-7pTg"></lite-youtube>
           </div>
         </div>
       </td>
