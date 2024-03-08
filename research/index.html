@@ -137,9 +137,25 @@ show_sidebar: false
       tags = div_tags[i].split(',').sort()
 
       for(tag of tags){
+	  //console.log("top " + tag);
 	  button = document.createElement('button')
 	  button.appendChild(document.createTextNode(tag))
-	  button.setAttribute('class', 'button-filter' + tag_set.indexOf(tag).toString() + '-ON button-disabled')
+	  button.setAttribute('class', 'button-filter' + tag_set.indexOf(tag).toString() + '-ON')
+
+	  function get_onclick(name){
+	      return function(event){
+		  event.stopImmediatePropagation();
+		  //console.log(name);
+		  //console.log(event);
+		  if(selected_tag_set.has(name))
+		      selected_tag_set.delete(name)
+		  else
+		      selected_tag_set.add(name)
+		  filter_selected()
+	      }
+	  }
+	  
+	  button.onclick = get_onclick(tag)
 
 	  e.appendChild(button)
       }

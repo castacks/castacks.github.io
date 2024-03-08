@@ -1,9 +1,9 @@
 {% if post.redirect %}
-<a href="{{ post.redirect }}" target="_blank">
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;" onclick="window.open('{{ post.redirect }}', '_self')" >
 {% else %}
-<a href="{{ site.baseurl }}{{ post.url }}">
+<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;" onclick="window.open('{{ site.baseurl }}{{ post.url }}', '_self')" >
 {% endif %}
-<div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+    
     {% if post.image %}
         <div style="height: 200px;">
             <img src="{{ post.image }}" alt="{{ post.title }}" style="object-fit: contain; height: 100%;">
@@ -29,4 +29,3 @@
         <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
     </footer>
 </div>
-</a>
