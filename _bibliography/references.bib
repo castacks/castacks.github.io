@@ -1093,7 +1093,7 @@
 	url          = {https://www.ri.cmu.edu/app/uploads/2019/01/Pluckter_Scherer_ISER_2018_Precision_Landing.pdf},
 	abstract     = {Autonomous landing of a drone is a necessary part of autonomous flight. One way to have high certainty of safety in landing is to return to the same location the drone took-off from. Implementations of return-to-home functionality fall short when relying solely on GPS or odometry as inaccuracies in the measurements and drift in the state estimate guides the drone to a position with a large offset from the initial position. This can be particularly dangerous if the drone took-off next to something like a body of water. Current work on precision landing relies on localizing to a known landing pattern, which requires the pilot to carry a landing pattern with them. We propose a method using a downward facing fisheye lens camera to accurately land a UAV from where it took off on an unstructured surface, without a landing pattern. Specifically, this approach uses a position estimate relative to the take-off path of the drone to guide the drone back. With the large Field-of-View provided by the fisheye lens, our algorithm can provide visual feedback starting with a large position error at the beginning of the landing, until 25cm above the ground at the end of the landing. This algorithm empirically shows it can correct the drift error in the state estimation and land with an accuracy of 40cm.}
 }
-@misc{strabala2020contingency,
+@patent{strabala2020contingency,
 	title        = {Contingency landing site map generation system},
 	author       = {Strabala, Kyle and Scherer, Sebastian and Arcot, Vaibhav},
 	year         = 2020,
@@ -1265,7 +1265,7 @@
 	url          = {https://www.cs.cmu.edu/~kaess/pub/Madaan19icra.pdf},
 	abstract     = {Reliable detection and reconstruction of wires is one of the hardest problems in the UAV community, with a wide ranging impact in the industry in terms of wire avoidance capabilities and powerline corridor inspection. In this work, we introduce a real-time, model-based, multi-view algorithm to reconstruct wires from a set of images with known camera poses, while exploiting their natural shape-the catenary curve. Using a model-based approach helps us deal with partial wire detections in images, which may occur due to natural occlusion and false negatives. In addition, using a parsimonious model makes our algorithm efficient as we only need to optimize for 5 model parameters, as opposed to hundreds of 3D points in bundle-adjustment approaches. Our algorithm obviates the need for pixel correspondences by computing the reprojection error via the distance transform of binarized wire segmentation images. Further, we make our algorithm robust to arbitrary initializations by introducing an on-demand, approximate extrapolation of the distance transform based objective. We demonstrate the effectiveness of our algorithm against false negatives and random initializations in simulation, and show qualitative results with real data collected from a small UAV.}
 }
-@misc{scherer2019state,
+@patent{scherer2019state,
 	title        = {State estimation for aerial vehicles using multi-sensor fusion},
 	author       = {Scherer, Sebastian and Yu, Song and Nuske, Stephen},
 	year         = 2019,
@@ -1372,7 +1372,7 @@
 	abstract     = {Partially Observable Markov Decision Processes (POMDPs) offer an elegant framework to model sequential decision making in uncertain environments. Solving POMDPs online is an active area of research and given the size of real-world problems approximate solvers are used. Recently, a few approaches have been suggested for solving POMDPs by using MDP solvers in conjunction with imitation learning. MDP based POMDP solvers work well for some cases, while catastrophically failing for others. The main failure point of such solvers is the lack of motivation for MDP solvers to gain information, since under their assumption the environment is either already known as much as it can be or the uncertainty will disappear after the next step. However for solving POMDP problems gaining information can lead to efficient solutions. In this paper we derive a set of conditions where MDP based POMDP solvers are provably sub-optimal. We then use the well-known tiger problem to demonstrate such sub-optimality. We show that multi-resolution, budgeted information gathering cannot be addressed using MDP based POMDP solvers. The contribution of the paper helps identify the properties of a POMDP problem for which the use of MDP based POMDP solvers is inappropriate, enabling better design choices.},
 	annote       = {6 pages, 1 figure}
 }
-@misc{chamberlain2018board,
+@patent{chamberlain2018board,
 	title        = {On-board, computerized landing zone evaluation system for aircraft},
 	author       = {Chamberlain, Lyle and Cover, Hugh and Grocholsky, Ben and Hamner, Bradley and Scherer, Sebastian and Singh, Sanjiv},
 	year         = 2018,
@@ -1561,7 +1561,7 @@
 	url          = {https://www.ri.cmu.edu/app/uploads/2017/11/semantic-mapping-offroad-nav-compressed.pdf},
 	abstract     = {In this paper we describe a semantic mapping system for autonomous off-road driving with an All-Terrain Vehicle (ATVs). The system's goal is to provide a richer representation of the environment than a purely geometric map, allowing it to distinguish, e.g., tall grass from obstacles. The system builds a 2.5D grid map encoding both geometric (terrain height) and semantic information (navigation-relevant classes such as trail, grass, etc.). The geometric and semantic information are estimated online and in real-time from LiDAR and image sensor data, respectively. Using this semantic map, motion planners can create semantically aware trajectories. To achieve robust and efficient semantic segmentation, we design a custom Convolutional Neural Network (CNN) and train it with a novel dataset of labelled off-road imagery built for this purpose. We evaluate our semantic segmentation offline, showing comparable performance to the state of the art with slightly lower latency. We also show closed-loop field results with an autonomous ATV driving over challenging off-road terrain by using the semantic map in conjunction with a simple path planner. Our models and labelled dataset will be publicly available at http://dimatura.net/offroad.}
 }
-@misc{scherer2018robust,
+@patent{scherer2018robust,
 	title        = {Robust Localization and Localizability Prediction Using a Rotating Laser Scanner},
 	author       = {Scherer, Sebastian and Zhen, Weikun and Zeng, Sam},
 	year         = 2018,
@@ -1583,7 +1583,7 @@
 	keywords     = {Fixed-Wing UAV,Path Planning,Trochoids,Wind},
 	video        = {https://www.youtube.com/watch?v=cltd0eY2dcM}
 }
-@misc{stambler2018addressing,
+@patent{stambler2018addressing,
 	title        = {Addressing multiple time around (MTA) ambiguities, particularly for lidar systems, and particularly for autonomous aircraft},
 	author       = {Stambler, Adam and Chamberlain, Lyle J and Scherer, Sebastian},
 	year         = 2018,

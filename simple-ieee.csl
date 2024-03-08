@@ -310,9 +310,14 @@
         </else-if>
         <else-if type="patent">
 	  <group display="block csl-content" delimiter=" ">
-          <text macro="title" suffix=", "/>
-          <text variable="number" prefix="U.S. Patent "/>
-          <text macro="issued"/>
+            <text macro="title" suffix=", "/>
+	    <group display="block csl-author" delimiter=" ">
+     	      <text macro="author" prefix="By " suffix=". "/>
+            </group>
+	    <group delimiter=", ">
+              <text variable="note" font-style="italic" />
+              <text macro="issued"/>
+	    </group>
 	  </group>
         </else-if>
         <!-- Generic/Fallback Formats -->
