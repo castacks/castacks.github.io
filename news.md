@@ -6,9 +6,9 @@ hide_footer: false
 ---
 
 
-<center>
+<!-- <center>
 <a class="twitter-timeline" data-width="600" data-height="1500" href="https://twitter.com/AirLabCMU?ref_src=twsrc%5Etfw">Tweets by AirLabCMU</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-</center>
+</center> -->
 
 <h1><a href="https://medium.com/airlabcmu">Medium Posts</a></h1>
 
