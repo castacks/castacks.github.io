@@ -29,13 +29,3 @@ He is currently serving as an Associate Editor for IEEE Robotics and Automation 
     - <chenwang@dr.com> (Preferred)
     - <wangchen@cmu.edu>
 
-- Follow Chen Wang elsewhere:
-    <div class="sharethis-inline-follow-buttons"></div>
-
-<a class="twitter-timeline"
-        data-tweet-limit="5"
-        data-theme="light"
-        width="100%"
-        href="https://twitter.com/DrChenWang">News from Twitter @DrChenWang<br>You need VPN if you see this.
-</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
