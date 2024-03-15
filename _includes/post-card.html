@@ -4,7 +4,14 @@
 <div class="card" style="height: 100%; display: flex; flex-direction: column; align-items: center;" onclick="window.open('{{ site.baseurl }}{{ post.url }}', '_self')" >
 {% endif %}
     
-    {% if post.image %}
+    {% if post.card_video %}
+    <div style="height: 200px;">
+        <video autoplay loop muted playsinline alt="{{ post.title }}" style="object-fit: contain; height: 100%;">
+            <source src="{{ post.card_video }}.webm" type="video/webm" />
+            <source src="{{ post.card_video }}.mp4" type="video/mp4" />
+        </video>
+    </div>
+    {% elsif post.image %}
         <div style="height: 200px;">
             <img src="{{ post.image }}" alt="{{ post.title }}" style="object-fit: contain; height: 100%;">
         </div>
@@ -15,7 +22,7 @@
     {% endif %}
     <div class="card-content" style="flex-grow: 3;">
         <div class="content">
-            {% if post.image %}
+            {% if post.image or post.card_video %}
             <div class="title is-5">{{ post.title}}</div>
             {% endif %}
             <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
