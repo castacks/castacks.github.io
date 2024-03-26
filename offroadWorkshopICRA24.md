@@ -60,7 +60,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Rough terrain locomotion</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:00 - 9:30 AM</p>
+      <p style="margin-bottom: 3px;">9:00 - 9:20 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -86,7 +86,33 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:30 - 10:00 AM</p>
+      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/icra2014_offroad/tsiotras.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://dcsl.gatech.edu/tsiotras.html">Panagiotis Tsiotras</a>
+      </p>
+      <p style="margin-bottom: 3px;">David & Andrew Lewis Chair of Aerospace Engineering</p>
+      <p>Georgia Institute of Technology</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Resilient, Risk-Aware On-Line Planning and Control for Off-Road Aggressive Mobility</p>
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -157,7 +183,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Visual Modeling of Complex Terrain for High-speed, Off-road Navigation</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:00 - 11:30 AM</p>
+      <p style="margin-bottom: 3px;">11:00 - 11:20 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -180,7 +206,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:30 - 12:00 PM</p>
+      <p style="margin-bottom: 3px;">11:20 - 11:40 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -203,7 +229,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:00 - 1:30 PM</p>
+      <p style="margin-bottom: 3px;">1:00 - 1:20 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -226,7 +252,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:30 - 2:00 PM</p>
+      <p style="margin-bottom: 3px;">1:20 - 1:40 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -249,7 +275,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:00 - 2:15 PM</p>
+      <p style="margin-bottom: 3px;">1:40 - 2:15 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -295,7 +321,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:45 - 3:15 PM</p>
+      <p style="margin-bottom: 3px;">2:45 - 3:05 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -318,7 +344,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">3:15 - 3:45 PM</p>
+      <p style="margin-bottom: 3px;">3:05 - 3:25 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -341,7 +367,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">3:45 - 4:15 PM</p>
+      <p style="margin-bottom: 3px;">3:30 - 3:50 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -364,7 +390,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Panel Discussion</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">4:15 - 4:45 PM</p>
+      <p style="margin-bottom: 3px;">4:00 - 4:45 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
