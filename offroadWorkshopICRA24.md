@@ -429,7 +429,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
 
 ### Important dates (all times AoE)
 - Submissions open: Feb 1st 2024
-- Submission deadline: Apr 1st 2024
+- Submission deadline: Apr 8th 2024
 - Decision notification: Apr 21th 2024
 - Camera-ready deadline: May 7th 2024
 - Workshop: May 17th 2024
