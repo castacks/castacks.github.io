@@ -61,7 +61,7 @@ hide_footer: false
 </div>
 
 <hr>
-<h1 style="font-size:35px;">Former Postdoctoral Fellows</h1>
+<h1 style="font-size:35px;">Former Postdoctoral Fellows and Scientists</h1>
 <br>
 <div class="columns is-multiline">
 {% assign sorted_person = site.team | where:"category","past_postdoc" | sort: "graduation_year" | reverse %}

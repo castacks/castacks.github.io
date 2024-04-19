@@ -13,7 +13,26 @@
     </div>
     {% elsif post.image %}
         <div style="height: 200px;">
-            <img src="{{ post.image }}" alt="{{ post.title }}" style="object-fit: contain; height: 100%;">
+            <picture style="object-fit: contain; height: 100%;"> 
+                {% assign image_without_ext = post.image | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.gif' %}
+                {% assign webp_image = image_without_ext | append: '.webp' %}
+                {% capture webp_exists %}{% file_exists {{ webp_image }} %}{% endcapture %}
+                {% if webp_exists == "true" %}
+                    <source type="image/webp" srcset="{{ webp_image }}"> 
+                    <!-- backup image if browser doesn't support webp -->
+                    {% capture png_exists %}{% file_exists {{ image_without_ext | append: '.png' }} %}{% endcapture %}
+                    {% capture jpg_exists %}{% file_exists {{ image_without_ext | append: '.jpg' }} %}{% endcapture %}
+                    {% capture jpeg_exists %}{% file_exists {{ image_without_ext | append: '.jpeg' }} %}{% endcapture %}
+                    {% if jpg_exists == "true" %}
+                        <source type="image/jpeg" srcset="{{ image_without_ext }}.jpg"> 
+                    {% elsif png_exists == "true" %}
+                        <source type="image/png" srcset="{{ image_without_ext }}.png">
+                    {% elsif jpeg_exists == "true" %}
+                        <source type="image/jpeg" srcset="{{ image_without_ext }}.jpeg">
+                    {% endif %}
+                {% endif %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" style="object-fit: contain; height: 100%;"> 
+            </picture>
         </div>
     {% else %}
     <header class="card-header">
