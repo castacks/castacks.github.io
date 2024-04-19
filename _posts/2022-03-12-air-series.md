@@ -6,6 +6,7 @@ author: "Chen Wang"
 published: true
 permalink: /airseries/
 image: /img/posts/2022-03-12-air-series/AirDet-16x9.gif
+card_video: /img/posts/2022-03-12-air-series/AirDet-16x9
 datatable: true
 hero_height: is-small
 title_image: None

@@ -10,6 +10,7 @@ show_sidebar: false
 # slim_content_width: true
 permalink: /gicandidates/
 image: /img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller.gif
+card_video: /img/posts/2023-10-10-dsta-depth-gicandidates/result_video_smaller
 datatable: true
 title_image: None
 hide_hero: true

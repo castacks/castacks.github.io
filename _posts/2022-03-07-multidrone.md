@@ -9,6 +9,7 @@ published: true
 sidebar:  false
 permalink: /multidrone/
 image: /img/posts/2022-03-07-multidrone/poster-demo.gif
+card_video: /img/posts/2022-03-07-multidrone/poster-demo
 datatable: true
 title_image: None
 hero_image: /img/posts/2022-03-07-multidrone/multidrone-timelapse-hero.png
