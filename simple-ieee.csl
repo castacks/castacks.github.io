@@ -220,7 +220,7 @@
       <!-- Rest of Citation -->
       <choose>
         <!-- Specific Formats -->
-        <if type="article-journal">
+        <if type="article-journal misc" match="any">
 	  <group display="block csl-content" delimiter="">
 	  <group display="block csl-title" delimiter="">
             <text macro="title" suffix=". "/>
