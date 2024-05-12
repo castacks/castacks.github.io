@@ -156,7 +156,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+      <p style="margin-bottom: 3px;">10:20 - 10:40 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -404,30 +404,6 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
-
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <!-- <img src="/img/team/placeholder.png"/> -->
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        Poster Lightning Session
-      </p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">10:00 - 10:20 AM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
 <!-- 
   <tr>
     <td style="text-align: center;">
@@ -486,8 +462,8 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://aliagha.site/">Ali Agha</a>
       </p>
-      <p style="margin-bottom: 3px;">Principal Investigator and Research Technologist </p>
-      <p>JPL and CAST of Caltech</p>
+      <p style="margin-bottom: 3px;">CEO </p>
+      <p>Field AI</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Resilient Robotic Autonomy Under Uncertainty</p>
@@ -495,7 +471,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:00 - 1:20 PM</p>
+      <p style="margin-bottom: 3px;">3:50-4:10 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -512,29 +488,6 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        Poster Lightning Session
-      </p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">All poster presenters give a 1 min talk to present their work</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:40 - 2:15 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <!-- <img src="/img/team/placeholder.png"/> -->
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
         Poster session
       </p>
     </td>
@@ -542,7 +495,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:15 - 2:45 PM</p>
+      <p style="margin-bottom: 3px;">4:10-4:45 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
