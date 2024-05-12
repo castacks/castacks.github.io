@@ -67,6 +67,77 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>  
   </tr>
 
+<tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/icra2014_offroad/JiZhang.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://frc.ri.cmu.edu/~zhangji/">Ji Zhang</a>
+      </p>
+      <p style="margin-bottom: 3px;">Systems Scientist </p>
+      <p>CMU</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">From Lidar SLAM to Full-scale Autonomy and Beyond</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+<tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Coffee Break
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;"></p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">9:40-10:00 AM </p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+<tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/amy.png"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://amytabb.com/">Amy Tabb</a>
+      </p>
+      <p style="margin-bottom: 3px;">Research PI</p>
+      <p>USDA</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Calibration of Multiple-Camera Imaging Systems</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">10:00-10:20 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -93,6 +164,196 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
+<tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster Oral Session A
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Spotlight Talks</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">10:40 - 11:00 AM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster session
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">11:00 AM - 12 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr> 
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Lunch
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;"></p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">12:00 - 1:00 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>   
+
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
+      </p>
+      <p style="margin-bottom: 3px;">Assistant Professor</p>
+      <p>Inha University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:00 - 1:20 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
+<tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/maggie.jpeg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/maggie-wigness-907a0984/">Maggie Wigness</a>
+      </p>
+      <p style="margin-bottom: 3px;">Senior Computer Scientist </p>
+      <p>U.S. Army Research Laboratory</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Human-Guided Machine Learning for Autonomous Navigation</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:20 - 1:40 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
+  <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/paulo_borges.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://people.csiro.au/B/P/Paulo-Borges">Paulo Borges</a>
+      </p>
+      <p style="margin-bottom: 3px;">Principal Research Scientist</p>
+      <p>CSIRO</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Robots in the Woods: Challenges and Multimodal Alternatives</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">1:40-2:00 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
+<tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Coffee Break
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;"></p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:00-2:20 PM </p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Panel
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Panel Discussion</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:20-3:10 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -111,7 +372,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:20 - 9:40 AM</p>
+      <p style="margin-bottom: 3px;">3:10-3:30 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -119,6 +380,31 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
+
+<tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <!-- <img src="/img/team/placeholder.png"/> -->
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        Poster Oral Session B
+      </p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Spotlight Talks</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">3:30-3:50 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -142,29 +428,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <!-- <img src="/img/team/placeholder.png"/> -->
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        Poster session
-      </p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Attendees can walk around to view presenters’ posters</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">10:20 - 11:00 AM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>  
+<!-- 
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -189,8 +453,8 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
         <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/icra2014_offroad/MarcoHutter.jpg"/>
@@ -214,32 +478,8 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
         <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
       </div>
     </td>  
-  </tr>
-    <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="/img/icra2014_offroad/JiZhang.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://frc.ri.cmu.edu/~zhangji/">Ji Zhang</a>
-      </p>
-      <p style="margin-bottom: 3px;">Systems Scientist </p>
-      <p>CMU</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">From Lidar SLAM to Full-scale Autonomy and Beyond</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:40 - 12:00 AM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
+  </tr> -->
+  
   <tr>
     <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/Ali.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
@@ -263,29 +503,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/maggie.jpeg"/> </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.linkedin.com/in/maggie-wigness-907a0984/">Maggie Wigness</a>
-      </p>
-      <p style="margin-bottom: 3px;">Senior Computer Scientist </p>
-      <p>U.S. Army Research Laboratory</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Human-Centered Machine Learning for Autonomous Navigation</p>
-      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
-      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:20 - 1:40 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
+  
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
@@ -332,98 +550,9 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>  
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/amy.png"/> </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://amytabb.com/">Amy Tabb</a>
-      </p>
-      <p style="margin-bottom: 3px;">Research PI</p>
-      <p>USDA</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Calibration of Multiple-Camera Imaging Systems</p>
-      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
-      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:45 - 3:05 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
-      </p>
-      <p style="margin-bottom: 3px;">Assistant Professor</p>
-      <p>Inha University</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
-      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
-      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">3:05 - 3:25 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/paulo_borges.jpg"/> </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://people.csiro.au/B/P/Paulo-Borges">Paulo Borges</a>
-      </p>
-      <p style="margin-bottom: 3px;">Principal Research Scientist</p>
-      <p>CSIRO</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Title TBD</p>
-      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
-      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">3:30 - 3:50 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <!-- <img src="/img/team/placeholder.png"/> -->
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        Panel
-      </p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Panel Discussion</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">4:00 - 4:45 PM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr>
+  
+
+
   <tr>
     <td style="text-align: center;">
       <div class="circular_image">
