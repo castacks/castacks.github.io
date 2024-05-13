@@ -43,22 +43,22 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
-  <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/team/basti.jpg"/> </td>
+ <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>
+        <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
       </p>
-      <p style="margin-bottom: 3px;">Associate Research Professor, Robotics Institute</p>
-      <p>Carnegie Mellon University</p>
+      <p style="margin-bottom: 3px;">Assistant Professor</p>
+      <p>Inha University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Self-supervised Costmap Learning for Off-road Vehicle Traversability</p>
+      <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">9:00-9:20 AM</p>
+      <p style="margin-bottom: 3px;">9:00 - 9:20 AM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -233,23 +233,22 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>   
-
   <tr>
-    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/inwook.jpg"/> </td>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/team/basti.jpg"/> </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://sites.google.com/site/iwshimcv/home">Inwook Shim</a>
+        <a style="margin-bottom: 1px;" href="https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/">Sebastian Scherer</a>
       </p>
-      <p style="margin-bottom: 3px;">Assistant Professor</p>
-      <p>Inha University</p>
+      <p style="margin-bottom: 3px;">Associate Research Professor, Robotics Institute</p>
+      <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Learning Off-Road Terrain Traversability</p>
+      <p style="margin-bottom: 3px;">Self-supervised Costmap Learning for Off-road Vehicle Traversability</p>
       <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
       <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">1:00 - 1:20 PM</p>
+      <p style="margin-bottom: 3px;">1:00-1:20 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -257,6 +256,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr>
+ 
 
 <tr>
     <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/maggie.jpeg"/> </td>
