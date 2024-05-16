@@ -354,7 +354,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>  
   </tr>
 
-  <tr>
+  <!-- <tr>
     <td style="text-align: center;">
       <div class="circular_image">
         <img src="/img/icra2014_offroad/tsiotras.jpg"/>
@@ -369,10 +369,35 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">Resilient, Risk-Aware On-Line Planning and Control for Off-Road Aggressive Mobility</p>
-      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> -->
+      <!-- <button id="danButton" class="button6" onclick="myFunction('danButton', 'danBlock')">Expand Contents</button> 
     </td>
     <td style="text-align: center;vertical-align: middle;">
       <p style="margin-bottom: 3px;">3:10-3:30 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr> -->
+  <tr>
+    <td style="text-align: center;">
+      <div class="circular_image">
+        <img src="/img/icra2014_offroad/MarcoHutter.jpg"/>
+      </div>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html">Marco Hutter</a>
+      </p>
+      <p style="margin-bottom: 3px;">Professor of Robotics </p>
+      <p>ETH Zurich</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Autonomous legged navigation: From structured to unstructured environments</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">3:10 - 3:30 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
@@ -430,31 +455,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       </div>
     </td>  
   </tr> -->
-  <!-- <tr>
-    <td style="text-align: center;">
-      <div class="circular_image">
-        <img src="/img/icra2014_offroad/MarcoHutter.jpg"/>
-      </div>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html">Marco Hutter</a>
-      </p>
-      <p style="margin-bottom: 3px;">Professor of Robotics </p>
-      <p>ETH Zurich</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">Rough terrain locomotion</p>
-    </td>
-    <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">11:20 - 11:40 AM</p>
-    </td>
-    <td align="right;" style="vertical-align: middle;">
-      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
-        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
-      </div>
-    </td>  
-  </tr> -->
+
   
   <tr>
     <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/Ali.jpg"/> </td>
