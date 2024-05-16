@@ -331,6 +331,29 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
   </tr>
 
   <tr>
+    <td style="text-align: center;"> <img class="circular_image" src="/img/icra2014_offroad/martial-hebert.jpg"/> </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">
+        <a style="margin-bottom: 1px;" href="https://www.cs.cmu.edu/about-scs/about-dean">Martial Hebert</a>
+      </p>
+      <p style="margin-bottom: 3px;">Dean, School of Computer Science</p>
+      <p>Carnegie Mellon University</p>
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">Offroad Driving from 1984-2000</p>
+      <!-- <button id="bastiButton" class="button6" onclick="myFunction('bastiButton', 'bastiBlock')">Expand Contents</button> -->
+      <!-- <a href="#basti" onclick="myFunction('bastiButton', 'bastiBlock')"> Outline and Links</a> -->
+    </td>
+    <td style="text-align: center;vertical-align: middle;">
+      <p style="margin-bottom: 3px;">2:20-2:35 PM</p>
+    </td>
+    <td align="right;" style="vertical-align: middle;">
+      <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
+        <lite-youtube style="width:100%;height:100%;position:absolute;" videoid="cT4khR8L5c0fake"></lite-youtube>
+      </div>
+    </td>  
+  </tr>
+  <tr>
     <td style="text-align: center;">
       <div class="circular_image">
         <!-- <img src="/img/team/placeholder.png"/> -->
@@ -345,7 +368,7 @@ This will be a full-day workshop. It will feature a mix of presentations, open p
       <p style="margin-bottom: 3px;">Panel Discussion</p>
     </td>
     <td style="text-align: center;vertical-align: middle;">
-      <p style="margin-bottom: 3px;">2:20-3:10 PM</p>
+      <p style="margin-bottom: 3px;">2:35-3:10 PM</p>
     </td>
     <td align="right;" style="vertical-align: middle;">
       <div style="position:relative;width: 100%;height: 0;padding-bottom:56.25%;">
