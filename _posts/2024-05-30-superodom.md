@@ -11,10 +11,10 @@ redirect: "https://superodometry.com/"
 show_sidebar: false
 # slim_content_width: true
 permalink: /superodom/
-image: /img/posts/2024-05-30-superodom/superodom.png
+image: /img/posts/2024-05-30-superodom/superodom_video.gif
 datatable: true
 title_image: None
-hero_image: /img/posts/2024-05-30-superodom/superodom_hero.png
+hero_image: /img/posts/2024-05-30-superodom/superodom_video.gif
 hero_height: is-large
 remove_hero_title: true
 menubar_toc: true
