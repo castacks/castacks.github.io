@@ -2,7 +2,7 @@
 title: Yucong (Ethan) Chen
 subtitle: Intern
 job_title: Intern
-category: intern
+category: past_intern
 layout: team_member_personal_page
 image: /img/team/yucong.png
 link-new-tab: true

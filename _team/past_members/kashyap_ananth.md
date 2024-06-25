@@ -2,7 +2,7 @@
 title: Ananth Kashyap
 subtitle: Intern
 job_title: Intern
-category: intern
+category: past_intern
 layout: team_member_personal_page
 image: /img/team/kashyap_ananth.jpg
 hide_footer: true

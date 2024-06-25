@@ -2,7 +2,7 @@
 title: Zelin Ye
 subtitle: Software Engineer
 job_title: Software Engineer
-category: staff
+category: past_staff
 layout: team_member_personal_page
 image: /img/team/zelin_ye.jpg
 ---

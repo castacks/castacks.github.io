@@ -2,7 +2,7 @@
 title: Aryan
 subtitle: RISS Intern
 job_title: RISS Intern
-category: intern
+category: past_intern
 layout: team_member_personal_page
 image: /img/team/aryan.jpg
 link-new-tab: true

@@ -2,7 +2,7 @@
 title: Mukai (Tom Notch) Yu
 subtitle: Research Associate
 job_title: Research Associate I
-category: staff
+category: former_staff
 layout: team_member_personal_page
 image: /img/team/mukai_yu_temp.png
 link-new-tab: true

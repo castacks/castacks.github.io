@@ -2,7 +2,7 @@
 title: Yao He
 subtitle: Research Associate
 job_title: Research Associate
-category: staff
+category: former_staff
 layout: team_member_personal_page
 image: /img/team/yaohe.png
 ---

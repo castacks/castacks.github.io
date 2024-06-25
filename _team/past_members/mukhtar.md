@@ -2,7 +2,7 @@
 title: Mukhtar Maulimov
 subtitle: Software Developer
 job_title: Software Developer
-category: staff
+category: former_staff
 layout: team_member_personal_page
 image: /img/team/mukhtar.jpg
 ---

@@ -1,11 +1,18 @@
 ---
 title: Devansh Dhrafani
-subtitle: Master's Student
-job_title: Master's Student
-category: master_student
-layout: team_member_personal_page
+subtitle: Master
+job_title: Master
+category: past_master
+layout: team_past_member_personal_page
 image: /img/team/devansh.jpg
+starting_year: 2022
+graduation_year: 2024
+graduation_month: May
+linkedin: https://www.linkedin.com/in/devanshdhrafani/
+advisors:
+ - name: Sebastian Scherer
 ---
+
 
 Devansh is a Master's student pursuing a Research track in Mechanical Engineering at Carnegie Mellon University. He holds a Bachelor's in Mechanical Engineering and a Master's in Physics from the Birla Institute of Technology and Science (BITS), Pilani.
 

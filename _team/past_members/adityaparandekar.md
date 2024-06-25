@@ -2,7 +2,7 @@
 title: Aditya Parandekar
 subtitle: Long-term Visiting Intern
 job_title: Long-term Visiting Intern
-category: intern
+category: former_intern
 layout: team_member_personal_page
 image: /img/team/aditya-website.jpg
 link-new-tab: true
