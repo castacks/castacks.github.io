@@ -17,7 +17,7 @@ Before joining the PhD program, Omar received his B.S in Computer Engineering fr
 oalama@andrew.cmu.edu
 
 ## LinkedIn ##
-[https://www.linkedin.com/in/omaralama/](linkedin.com/in/omaralama)
+[linkedin.com/in/omaralama](https://www.linkedin.com/in/omaralama/)
 
 ## GitHub ##
-[https://github.com/OasisArtisan](github.com/OasisArtisan)
+[github.com/OasisArtisan](https://github.com/OasisArtisan)
