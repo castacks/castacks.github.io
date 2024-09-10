@@ -10,13 +10,11 @@ link-new-tab: true
 
 Yifei is a Master’s student in Robotics at Carnegie Mellon University. She graduated from University of California, Irvine with a B.S. in computer science.  
 
-Yifei's currently developing robust perception modules to enhance robot navigation in challenging real-world environments. Her research interests lie at the intersection of computer vision, deep learning, and robotics. 
+Yifei's currently developing robust 3D perception modules to enhance robot navigation in challenging real-world environments. Her research interests lie at the intersection of computer vision, deep learning, and robotics. 
 
 In her free time, she loves skiing, horseback riding, photography, and learning new languages. 
 
 <br>
-
-**Website**: [msfriendly.github.io](https://msfriendly.github.io/)
 
 **Email**: [yifeil5@cmu.edu](mailto:yifeil5@cmu.edu)
 
