@@ -16,6 +16,6 @@ In her free time, she loves skiing, horseback riding, photography, and learning 
 
 <br>
 
-**Email**: [yifeil5@cmu.edu](mailto:yifeil5@cmu.edu)
+**Email**: [yifeil5@andrew.cmu.edu](mailto:yifeil5@andrew.cmu.edu)
 
 **LinkedIn**: [yifei-migo-liu](https://www.linkedin.com/in/yifei-migo-liu/)
