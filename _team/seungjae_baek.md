@@ -2,7 +2,7 @@
 title: Seungjae Baek
 subtitle: Visitor
 job_title: Visitor
-category: Visitor
+category: intern
 layout: team_member_personal_page
 image: /img/team/seungjae_baek.jpg
 link-new-tab: true
