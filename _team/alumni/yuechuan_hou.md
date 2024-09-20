@@ -12,6 +12,7 @@ thesis_title: Multi-drone coordination
 linkedin: https://www.linkedin.com/in/yuechuanhou/
 advisors:
  - name: Sebastian Scherer
+current_status: Junior Project Manager, Hanshow
 ---
 
 

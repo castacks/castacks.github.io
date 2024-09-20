@@ -11,6 +11,7 @@ graduation_month: May
 linkedin: https://www.linkedin.com/in/devanshdhrafani/
 advisors:
  - name: Sebastian Scherer
+current_status: Software Engineer, ST Engineering
 ---
 
 
