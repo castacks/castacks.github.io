@@ -7,9 +7,9 @@ layout: team_member_personal_page
 image: /img/team/cherie.jpg
 ---
 
-Hi, I’m Cherie! I’m a second-year PhD at the CMU Robotics Institute. I graduated from Harvey Mudd College in 2017, where I worked with Prof. Chris Clark on shark-tracking underwater robots. I am supported by the Croucher Foundation.
+Hi, I’m Cherie! I’m a PhD student at the CMU Robotics Institute. I graduated from Harvey Mudd College in 2017, where I worked with Prof. Chris Clark on shark-tracking underwater robots. I was supported by the Croucher Foundation.
 
-My research interests lie at the intersection of field robotics, control theory and machine learning towards the goal of bringing robots into uncertain safety-critical applications. Specifically, I’m interested in developing robot learning and control algorithms that provide theoretical safety guarantees whilst deployed in the real world.
+My research interest is in the intersection of field robotics, computer vision and machine learning towards the goal of bringing robots to uncertain safety-critical environments. Specifically, I develop robot learning algorithms to enable reliable autonomy in dynamic real-world applications, such as motion capture in forests, high-speed offroad driving, and now autonomous wheelchairs.
 
 Email:
 cherieh@cs.cmu.edu

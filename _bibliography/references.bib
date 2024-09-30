@@ -1,3 +1,32 @@
+@inproceedings{ho2024map,
+	title={Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
+	author={Cherie Ho and Jiaye Zou and Omar Alama and Sai Mitheran Jagadesh Kumar and Benjamin Chiang and Taneesh Gupta and Chen Wang and Nikhil Keetha and Katia Sycara and Sebastian Scherer},
+	year={2024},
+	booktitle    = {Advances in Neural Information Processing Systems},
+	url          = {https://arxiv.org/abs/2407.08726},
+	code         = {https://github.com/MapItAnywhere/MapItAnywhere},
+	abstract     = {Top-down Bird's Eye View (BEV) maps are a popular representation for ground robot navigation due to their richness and flexibility for downstream tasks. While recent methods have shown promise for predicting BEV maps from First-Person View (FPV) images, their generalizability is limited to small regions captured by current autonomous vehicle-based datasets. In this context, we show that a more scalable approach towards generalizable map prediction can be enabled by using two large-scale crowd-sourced mapping platforms, Mapillary for FPV images and OpenStreetMap for BEV semantic maps. We introduce Map It Anywhere (MIA), a data engine that enables seamless curation and modeling of labeled map prediction data from existing open-source map platforms. Using our MIA data engine, we display the ease of automatically collecting a 1.2 million FPV & BEV pair dataset encompassing diverse geographies, landscapes, environmental factors, camera models & capture scenarios. We further train a simple camera model-agnostic model on this data for BEV map prediction. Extensive evaluations using established benchmarks and our dataset show that the data curated by MIA enables effective pretraining for generalizable BEV map prediction, with zero-shot performance far exceeding baselines trained on existing datasets by 35%. Our analysis highlights the promise of using large-scale public maps for developing & testing generalizable BEV perception, paving the way for more robust autonomous navigation.}
+}
+
+}
+@misc{ho2024mapex,
+      title={MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions}, 
+      author={Cherie Ho and Seungchan Kim and Brady Moon and Aditya Parandekar and Narek Harutyunyan and Chen Wang and Katia Sycara and Graeme Best and Sebastian Scherer},
+      year={2024},
+      eprint={2409.15590},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2409.15590}, 
+	  abstract={Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
+}
+@article{chen2024learning,
+	title        = {Learning-on-the-Drive: {Self-supervised} Adaptation of Visual Offroad Traversability Models},
+	author       = {Chen, Eric and Ho, Cherie and Maulimov, Mukhtar and Wang, Chen and Scherer, Sebastian},
+	year         = 2024,
+	journal      = {2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2306.15226},
+	abstract={Autonomous offroad driving is essential for applications like emergency rescue, military operations, and agriculture. Despite progress, systems struggle with high-speed vehicles exceeding 10m/s due to the need for accurate long-range (>50m) perception for safe navigation. Current approaches are limited by sensor constraints; LiDAR-based methods offer precise short-range data but are noisy beyond 30m, while visual models provide dense long-range measurements but falter with unseen scenarios. To overcome these issues, we introduce <i>ALTER</i>, a <i>learning-on-the-drive</i> perception framework that leverages both sensor types. ALTER uses a <i>self-supervised</i> visual model to learn and adapt from near-range LiDAR measurements, improving long-range prediction in new environments without manual labeling. It also includes a model selection module for better sensor failure response and adaptability to known environments. Testing in two real-world settings showed on average 43.4% better traversability prediction than LiDAR-only and 164% over non-adaptive state-of-the-art (SOTA) visual semantic methods after 45 seconds of online learning.}
+}
 @inproceedings{chen2024unified,
 	title        = {A Unified {MPC} Strategy for a Tilt-rotor {VTOL UAV} Towards Seamless Mode Transitioning},
 	author       = {Chen, Qizhao and Hu, Ziqi and Geng, Junyi and Bai, Dongwei and Mousaei, Mohammadreza and Scherer, Sebastian},
@@ -136,13 +165,6 @@
 	doi          = {10.1109/ICRA48891.2023.10160856},
 	url          = {https://arxiv.org/pdf/2209.10788},
 	organization = {IEEE}
-}
-@article{chen2023learning,
-	title        = {Learning-on-the-Drive: {Self-supervised} Adaptation of Visual Offroad Traversability Models},
-	author       = {Chen, Eric and Ho, Cherie and Maulimov, Mukhtar and Wang, Chen and Scherer, Sebastian},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2306.15226},
-	url          = {https://arxiv.org/pdf/2306.15226}
 }
 @article{guo2023aerial,
 	title        = {Aerial Interaction with Tactile Sensing},
