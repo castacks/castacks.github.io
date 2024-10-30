@@ -4,7 +4,7 @@ subtitle: Postdoctor
 job_title: Postdoctoral Fellow
 category: postdoc
 layout: team_member_personal_page
-image: /img/team/muqing_cao.png
+image: /img/team/muqing_cao.jpg
 link-new-tab: true
 ---
 
