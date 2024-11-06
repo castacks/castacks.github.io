@@ -23,7 +23,7 @@ Click on a session in the overview below to jump to its summary, video, outline,
 
 | Session |Host   |Links   |
 |---|---|---|
-|  <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/chen/)        | [slides](https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA) \| [repo](https://classroom.github.com/a/h3ktCkJ5)    |
+|  <a href="#1.1"><span style="color:blue">1.1 Graph Learning</span></a>                             | [Chen](/team/alumni/chen/)        | [slides](https://entuedu-my.sharepoint.com/:p:/g/personal/cwang017_e_ntu_edu_sg/EZP7dVKiaztAlZNiQwfako4BjRpVCUaRrBJpXIuUX2gZ7Q?e=xi9NaA) \| [repo](https://classroom.github.com/a/h3ktCkJ5)    |
 |<a href="#1.2"><span style="color:blue">1.2 Object Detection and Tracking</span></a>              | [Sourish](/team/sourish/) & [Anish](/team/anishb/) & [Andrew](/team/andrews/)|  [slides](#1.2) \| [repo](#1.2)  |
 | <a href="#1.3"><span style="color:blue">1.3 Stereo Basics and Advanced Stereo</span></a>              |[Yaoyu](/team/yaoyuh/)  |   [slides](https://docs.google.com/presentation/d/1jiO9KMu6uPo73UeOq4o3AKWudOhBYoTgVCaXE0UsoRY/edit?usp=sharing) \| [repo](#1.3) |
 | <a href="#2.1"><span style="color:#b50000">2.1 Visual Odometry </span></a>                    | [Yafei](/team/yafeih/)  |   [slides](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/slides/)  \| [repo](https://bitbucket.org/castacks/visual_odometry_tutorial/src/master/)

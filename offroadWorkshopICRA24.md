@@ -658,7 +658,7 @@ This workshop will not provide formal official proceedings and the papers will b
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/matthew_sivaprakasam.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/matthew_sivaprakasam">Matthew Sivaprakasam</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/alumni/matthew_sivaprakasam">Matthew Sivaprakasam</a>
       </p>
       <p style="margin-bottom: 3px;">MSR Student, Robotics Institute</p>
       <p>Carnegie Mellon University</p>

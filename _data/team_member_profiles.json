@@ -1,12 +1,12 @@
 {
 "links": [ 
-	{ "name": "vikram_bhat",	"link": "/team/bhat" },
-	{ "name": "anish_bhattacharya",	"link": "/team/anishb" },
-	{ "name": "rogerio_bonatti",	"link": "/team/rogeriob" },
+	{ "name": "vikram_bhat",	"link": "/team/alumni/bhat" },
+	{ "name": "anish_bhattacharya",	"link": "/team/alumni/anishb" },
+	{ "name": "rogerio_bonatti",	"link": "/team/alumni/rogeriob" },
 	{ "name": "sanjiban_choudhury",	"link": "/team/alumni/sanjiban_choudhury" },
-	{ "name": "katarina_cujic",	"link": "/team/katarinac" },
-	{ "name": "rohit_garg",	"link": "/team/rohitg" },
-	{ "name": "sourish_ghosh",	"link": "/team/sourish" },
+	{ "name": "katarina_cujic",	"link": "/team/alumni/katarinac" },
+	{ "name": "rohit_garg",	"link": "/team/alumni/rohitg" },
+	{ "name": "sourish_ghosh",	"link": "/team/alumni/sourish" },
 	{ "name": "ian_higgins",	"link": "/team/ian" },
 	{ "name": "cherie_ho",	"link": "/team/cherie" },
 	{ "name": "yafei_hu",	"link": "/team/yafeih" },
@@ -18,17 +18,17 @@
 	{ "name": "mohammadreza_mousaei",	"link": "/team/mohammadrezam" },
 	{ "name": "jay_patrikar",	"link": "/team/jay" },
 	{ "name": "yuheng_qiu",	"link": "/team/yuheng" },
-	{ "name": "andrew_saba",	"link": "/team/andrews" },
+	{ "name": "andrew_saba",	"link": "/team/alumni/andrews" },
 	{ "name": "sebastian_scherer",	"link": "/team/sebastian" },
 	{ "name": "vaibhav_(via)_viswanathan",	"link": "/team/vaibhavv" },
-	{ "name": "chen_wang",	"link": "/team/chen" },
+	{ "name": "chen_wang",	"link": "/team/alumni/chen" },
 	{ "name": "wenshan_wang",	"link": "/team/wenshan" },
 	{ "name": "steven_willits",	"link": "/team/stevenw" },
-	{ "name": "huai_yu",	"link": "/team/huaiy" },
+	{ "name": "huai_yu",	"link": "/team/alumni/huaiy" },
 	{ "name": "junbin_yuan",	"link": "/team/junbiny" },
 	{ "name": "henry_zhang",	"link": "/team/hengruiz" },
 	{ "name": "shibo_zhao",	"link": "/team/shiboz" },
-	{ "name": "weikun_zhen",	"link": "/team/weikun" },
-	{ "name": "peng_yin",	"link": "/team/peng_yin" }
+	{ "name": "weikun_zhen",	"link": "/team/alumni/weikun" },
+	{ "name": "peng_yin",	"link": "/team/alumni/peng_yin" }
 	]
 }

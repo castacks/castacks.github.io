@@ -583,7 +583,7 @@ Research Agricultural Engineer at a US Department of Agriculture, Agricultural R
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/lucas_nogueira_crop.png" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/lucas_nogueira/">Lucas Nogueira</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/alumni/lucas_nogueira/">Lucas Nogueira</a>
       </p>
       <p style="margin-bottom: 3px;">Master's Student</p>
       <p>Carnegie Mellon University</p>

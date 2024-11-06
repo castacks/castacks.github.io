@@ -419,7 +419,7 @@ Check out the previous edition of our Tartan Robotics Series featuring SLAM [her
     <td style="text-align: center;">
       <img class="circular_image" src="/img/team/micahcorah.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/micahcorah/">Micah Corah</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/alumni/micahcorah/">Micah Corah</a>
       </p>
       <p style="margin-bottom: 3px;">Postdoc</p>
       <p>Carnegie Mellon University</p>
