@@ -13,4 +13,4 @@ Passionate about aviation, Jack is interested in exploring autonomous solutions 
 
 [Email](mailto:hcwang@cmu.edu)
 
-[LinkdIn](https://www.linkedin.com/in/hcwang1/)
+[LinkedIn](https://www.linkedin.com/in/hcwang1/)
