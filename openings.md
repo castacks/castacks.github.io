@@ -16,3 +16,7 @@ Please send Sebastian an [email](mailto:basti@andrew.cmu.edu) if you are interes
 ## Staff/Postdoc Positions
 
 If you are interested in a research staff or postdoc position in our areas of research please send Sebastian an [email](mailto:basti@andrew.cmu.edu) with your resume/CV and a description of your particular skills.
+
+## Student Projects
+
+If you would like to help with student projects in the lab, check for openings [here](https://airlab.slite.page/p/fgCZEXEjdzjBUS/Student-Projects).
