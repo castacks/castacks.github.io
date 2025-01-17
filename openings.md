@@ -19,4 +19,9 @@ If you are interested in a research staff or postdoc position in our areas of re
 
 ## Student Projects
 
-If you would like to help with student projects in the lab, check for openings [here](https://airlab.slite.page/p/fgCZEXEjdzjBUS/Student-Projects).
+If you would like to help with student projects in the lab, check for openings listed [here](https://airlab.slite.page/p/fgCZEXEjdzjBUS/Student-Projects) and shown below:
+
+<iframe
+  src="https://airlab.slite.page/p/fgCZEXEjdzjBUS/Student-Projects"
+  style="width:100%; height:500px;"
+></iframe>
