@@ -2,9 +2,16 @@
 title: Nathan Litzinger
 subtitle: Master's Student
 job_title: Master's Student
-category: master_student
-layout: team_member_personal_page
+category: past_master
+layout: team_past_member_personal_page
 image: /img/team/nathan_litzinger.png
+link-new-tab: true
+starting_year: 2022
+graduation_year: 2024
+graduation_month: December
+advisors:
+ - name: Sebastian Scherer
+current_status: Near Earth Autonomy
 ---
 
 Nathan Litzinger is a second-year master's student in the Electrical and
