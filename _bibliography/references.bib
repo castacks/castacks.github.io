@@ -1,64 +1,47 @@
-@article{guo2024flying,
-  title={Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation},
-  author={Guo, Xiaofeng and He, Guanqi and Xu, Jiahe and Mousaei, Mohammadreza and Geng, Junyi and Scherer, Sebastian and Shi, Guanya},
-  journal={IEEE Robotics and Automation Letters},
-  abstract={Aerial manipulation has gained interest in completing high-altitude tasks that are challenging for human workers, such as contact inspection and defect detection, etc. Previous research has focused on maintaining static contact points or forces. This letter addresses a more general and dynamic task: simultaneously tracking time-varying contact force in the surface normal direction and motion trajectories on tangential surfaces. We propose a pipeline that includes a contact-aware trajectory planner to generate dynamically feasible trajectories, and a hybrid motion-force controller to track such trajectories. We demonstrate the approach in an aerial calligraphy task using a novel sponge pen design as the end-effector, whose stroke width is positively related to the contact force. Additionally, we develop a touchscreen interface for flexible user input. Experiments show our method can effectively draw diverse letters, achieving an IoU of 0.59 and an end-effector position (force) tracking RMSE of 2.9 cm (0.7N).},
-  video={https://www.youtube.com/watch?v=g5egNbtQCwA&pp=ygUTZmx5aW5nIGNhbGxpZ3JhcGhlcg%3D%3D},
-  year={2024},
-  publisher={IEEE},
-  doi={10.1109/LRA.2024.3486236},
-  url={https://arxiv.org/pdf/2407.05587}
+@article{noren2025interaction-aware,
+	title        = {Interaction-aware control for robotic vegetation override in off-road environments},
+	author       = {Noren, Charles and Vundurthy, Bhaskar and Scherer, Sebastian and Travers, Matthew},
+	year         = 2025,
+	journal      = {Journal of Terramechanics},
+	publisher    = {Pergamon},
+	volume       = 117,
+	pages        = 101034,
+	doi          = {10.1016/j.jterra.2024.101034}
 }
-
-@inproceedings{santos2024unisat,
-	title={UniSaT: Unified-Objective Belief Model and Planner to Search for and Track Multiple Objects}, 
-	author={Leonardo Santos and Brady Moon and Sebastian Scherer and Hoa Van Nguyen},
-	year={2025},
-	abstract={Path planning for autonomous search and tracking of multiple objects is a critical problem in applications such as reconnaissance, surveillance, and data gathering. Due to the inherent competing objectives of searching for new objects while maintaining tracks for found objects, most current approaches rely on multi-objective planning methods, leaving it up to the user to tune parameters to balance between the two objectives, usually based on heuristics or trial and error. In this paper, we introduce UniSaT (Unified Search and Track), a novel unified-objective formulation for the search and track problem based on Random Finite Sets (RFS). Our approach models unknown and known objects using a combined generalized labeled multi-Bernoulli (GLMB) filter. For unseen objects, UniSaT leverages both cardinality and spatial prior distributions, allowing it to operate without prior knowledge of the exact number of objects in the search space. The planner maximizes the mutual information of this unified belief model, creating balanced search and tracking behaviors. We demonstrate our work in a simulated environment, presenting both qualitative results and quantitative improvements over a multi-objective method.},
-	booktitle={AIAA SCITECH 2025 Forum},
-	url={https://arxiv.org/abs/2405.15997}, 
+@misc{rauniyar2025aug3d,
+	title        = {Aug3D: Augmenting large scale outdoor datasets for Generalizable Novel View Synthesis},
+	author       = {Rauniyar, Aditya  and Alama, Omar  and Yong, Silong and Sycara, Katia  and Scherer, Sebastian},
+	year         = 2025,
+	url          = {https://arxiv.org/abs/2501.06431},
+	eprint       = {2501.06431},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CV}
 }
-
-@inproceedings{parandekar2024sensorplanning,
-	title={Informative Sensor Planning for a Single-Axis Gimbaled Camera on a Fixed-Wing UAV}, 
-	author={Aditya Parandekar and Brady Moon and Nayana Suvarna and Sebastian Scherer},
-	year={2024},
-	abstract={Uncrewed Aerial Vehicles (UAVs) are a leading choice of platforms for a variety of information-gathering applications. Sensor planning can enhance the efficiency and success of these types of missions when coupled with a higher-level informative path-planning algorithm. This paper aims to address these data acquisition challenges by developing an informative non-myopic sensor planning framework for a single-axis gimbal coupled with an informative path planner to maximize information gain over a prior information map. This is done by finding reduced sensor sweep bounds over a planning horizon such that regions of higher confidence are prioritized. This novel sensor planning framework is evaluated against a predefined sensor sweep and no sensor planning baselines as well as validated in two simulation environments. In our results, we observe an improvement in the performance by 21.88% and 13.34% for the no sensor planning and predefined sensor sweep baselines respectively.},
-	booktitle={2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)}, 
-  	pages={1798-1804},
-	doi={10.1109/CASE59546.2024.10711697},
-	url={https://arxiv.org/abs/2407.04896}, 
+@inproceedings{santos2025unisat,
+	title        = {UniSaT: Unified-Objective Belief Model and Planner to Search for and Track Multiple Objects},
+	author       = {Santos, Leonardo  and Moon, Brady  and Scherer, Sebastian  and Nguyen, Hoa Van},
+	year         = 2025,
+	booktitle    = {AIAA SCITECH 2025 Forum},
+	doi          = {10.2514/6.2025-2114},
+	url          = {https://arxiv.org/abs/2405.15997},
+	abstract     = {Path planning for autonomous search and tracking of multiple objects is a critical problem in applications such as reconnaissance, surveillance, and data gathering. Due to the inherent competing objectives of searching for new objects while maintaining tracks for found objects, most current approaches rely on multi-objective planning methods, leaving it up to the user to tune parameters to balance between the two objectives, usually based on heuristics or trial and error. In this paper, we introduce UniSaT (Unified Search and Track), a novel unified-objective formulation for the search and track problem based on Random Finite Sets (RFS). Our approach models unknown and known objects using a combined generalized labeled multi-Bernoulli (GLMB) filter. For unseen objects, UniSaT leverages both cardinality and spatial prior distributions, allowing it to operate without prior knowledge of the exact number of objects in the search space. The planner maximizes the mutual information of this unified belief model, creating balanced search and tracking behaviors. We demonstrate our work in a simulated environment, presenting both qualitative results and quantitative improvements over a multi-objective method.}
 }
-
-
-@inproceedings{ho2024map,
-	title={Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
-	author={Cherie Ho and Jiaye Zou and Omar Alama and Sai Mitheran Jagadesh Kumar and Benjamin Chiang and Taneesh Gupta and Chen Wang and Nikhil Keetha and Katia Sycara and Sebastian Scherer},
-	year={2024},
-	booktitle    = {Advances in Neural Information Processing Systems},
-	url          = {https://arxiv.org/abs/2407.08726},
-	code         = {https://github.com/MapItAnywhere/MapItAnywhere},
-	abstract     = {Top-down Bird's Eye View (BEV) maps are a popular representation for ground robot navigation due to their richness and flexibility for downstream tasks. While recent methods have shown promise for predicting BEV maps from First-Person View (FPV) images, their generalizability is limited to small regions captured by current autonomous vehicle-based datasets. In this context, we show that a more scalable approach towards generalizable map prediction can be enabled by using two large-scale crowd-sourced mapping platforms, Mapillary for FPV images and OpenStreetMap for BEV semantic maps. We introduce Map It Anywhere (MIA), a data engine that enables seamless curation and modeling of labeled map prediction data from existing open-source map platforms. Using our MIA data engine, we display the ease of automatically collecting a 1.2 million FPV & BEV pair dataset encompassing diverse geographies, landscapes, environmental factors, camera models & capture scenarios. We further train a simple camera model-agnostic model on this data for BEV map prediction. Extensive evaluations using established benchmarks and our dataset show that the data curated by MIA enables effective pretraining for generalizable BEV map prediction, with zero-shot performance far exceeding baselines trained on existing datasets by 35%. Our analysis highlights the promise of using large-scale public maps for developing & testing generalizable BEV perception, paving the way for more robust autonomous navigation.}
+@misc{aich2024deep,
+	title        = {Deep Bayesian Future Fusion for Self-Supervised, High-Resolution, Off-Road Mapping},
+	author       = {Aich, Shubhra  and Wang, Wenshan  and Maheshwari, Parv  and Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Gregory, Jason M.  and Rogers, John G.  III and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/pdf/2403.11876.pdf},
+	eprint       = {2403.11876},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
 }
-
-}
-@misc{ho2024mapex,
-      title={MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions}, 
-      author={Cherie Ho and Seungchan Kim and Brady Moon and Aditya Parandekar and Narek Harutyunyan and Chen Wang and Katia Sycara and Graeme Best and Sebastian Scherer},
-      year={2024},
-      eprint={2409.15590},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2409.15590}, 
-	  abstract={Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
-}
-@article{chen2024learning,
+@article{chen2024learning-on-the-drive,
 	title        = {Learning-on-the-Drive: {Self-supervised} Adaptation of Visual Offroad Traversability Models},
 	author       = {Chen, Eric and Ho, Cherie and Maulimov, Mukhtar and Wang, Chen and Scherer, Sebastian},
 	year         = 2024,
 	journal      = {2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
 	url          = {https://arxiv.org/pdf/2306.15226},
-	abstract={Autonomous offroad driving is essential for applications like emergency rescue, military operations, and agriculture. Despite progress, systems struggle with high-speed vehicles exceeding 10m/s due to the need for accurate long-range (>50m) perception for safe navigation. Current approaches are limited by sensor constraints; LiDAR-based methods offer precise short-range data but are noisy beyond 30m, while visual models provide dense long-range measurements but falter with unseen scenarios. To overcome these issues, we introduce <i>ALTER</i>, a <i>learning-on-the-drive</i> perception framework that leverages both sensor types. ALTER uses a <i>self-supervised</i> visual model to learn and adapt from near-range LiDAR measurements, improving long-range prediction in new environments without manual labeling. It also includes a model selection module for better sensor failure response and adaptability to known environments. Testing in two real-world settings showed on average 43.4% better traversability prediction than LiDAR-only and 164% over non-adaptive state-of-the-art (SOTA) visual semantic methods after 45 seconds of online learning.}
+	abstract     = {Autonomous offroad driving is essential for applications like emergency rescue, military operations, and agriculture. Despite progress, systems struggle with high-speed vehicles exceeding 10m/s due to the need for accurate long-range (>50m) perception for safe navigation. Current approaches are limited by sensor constraints; LiDAR-based methods offer precise short-range data but are noisy beyond 30m, while visual models provide dense long-range measurements but falter with unseen scenarios. To overcome these issues, we introduce <i>ALTER</i>, a <i>learning-on-the-drive</i> perception framework that leverages both sensor types. ALTER uses a <i>self-supervised</i> visual model to learn and adapt from near-range LiDAR measurements, improving long-range prediction in new environments without manual labeling. It also includes a model selection module for better sensor failure response and adaptability to known environments. Testing in two real-world settings showed on average 43.4% better traversability prediction than LiDAR-only and 164% over non-adaptive state-of-the-art (SOTA) visual semantic methods after 45 seconds of online learning.}
 }
 @inproceedings{chen2024unified,
 	title        = {A Unified {MPC} Strategy for a Tilt-rotor {VTOL UAV} Towards Seamless Mode Transitioning},
@@ -66,6 +49,15 @@
 	year         = 2024,
 	booktitle    = {AIAA SCITECH 2024 Forum},
 	pages        = 2878
+}
+@misc{dhrafani2024firestereo,
+	title        = {FIReStereo: Forest InfraRed Stereo Dataset for UAS Depth Perception in Visually Degraded Environments},
+	author       = {Dhrafani, Devansh and Liu, Yifei and Jong, Andrew and Shin, Ukcheol and He, Yao and Harp, Tyler and Hu, Yaoyu and Oh, Jean and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/abs/2409.07715},
+	eprint       = {2409.07715},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CV}
 }
 @article{ebadi2024present,
 	title        = {Present and Future of {SLAM} in Extreme Environments: {The DARPA SubT Challenge}},
@@ -78,15 +70,99 @@
 	doi          = {10.1109/TRO.2023.3323938},
 	url          = {https://arxiv.org/pdf/2208.01787}
 }
-}
-@article{patrikar2024tartanaviation,
-	title        = {TartanAviation: Image, Speech, and ADS-B Trajectory Datasets for Terminal Airspace Operations},
-	author       = {Jay Patrikar and Joao Dantas and Brady Moon and Milad Hamidi and Sourish Ghosh and Nikhil Keetha and Ian Higgins and Atharva Chandak and Takashi Yoneyama and Sebastian Scherer},
+@inproceedings{guo2024aerial,
+	title        = {Aerial interaction with tactile sensing},
+	author       = {Guo, Xiaofeng and He, Guanqi and Mousaei, Mohammadreza and Geng, Junyi and Shi, Guanya and Scherer, Sebastian},
 	year         = 2024,
-	url          = {https://arxiv.org/pdf/2403.03372.pdf},
-	eprint       = {2403.03372},
+	booktitle    = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+	pages        = {1576--1582},
+	doi          = {https://doi.org/10.1109/ICRA57147.2024.10611282},
+	url          = {https://arxiv.org/pdf/2310.00142},
+	organization = {IEEE}
+}
+@article{guo2024flying,
+	title        = {Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation},
+	author       = {Guo, Xiaofeng and He, Guanqi and Xu, Jiahe and Mousaei, Mohammadreza and Geng, Junyi and Scherer, Sebastian and Shi, Guanya},
+	year         = 2024,
+	journal      = {IEEE Robotics and Automation Letters},
+	publisher    = {IEEE},
+	doi          = {10.1109/LRA.2024.3486236},
+	url          = {https://arxiv.org/pdf/2407.05587},
+	abstract     = {Aerial manipulation has gained interest in completing high-altitude tasks that are challenging for human workers, such as contact inspection and defect detection, etc. Previous research has focused on maintaining static contact points or forces. This letter addresses a more general and dynamic task: simultaneously tracking time-varying contact force in the surface normal direction and motion trajectories on tangential surfaces. We propose a pipeline that includes a contact-aware trajectory planner to generate dynamically feasible trajectories, and a hybrid motion-force controller to track such trajectories. We demonstrate the approach in an aerial calligraphy task using a novel sponge pen design as the end-effector, whose stroke width is positively related to the contact force. Additionally, we develop a touchscreen interface for flexible user input. Experiments show our method can effectively draw diverse letters, achieving an IoU of 0.59 and an end-effector position (force) tracking RMSE of 2.9 cm (0.7N).},
+	video        = {https://www.youtube.com/watch?v=g5egNbtQCwA&pp=ygUTZmx5aW5nIGNhbGxpZ3JhcGhlcg%3D%3D}
+}
+}
+@misc{ho2024mapex,
+	title        = {MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
+	author       = {Ho, Cherie  and Kim, Seungchan  and Moon, Brady  and Parandekar, Aditya  and Harutyunyan, Narek  and Wang, Chen  and Sycara, Katia  and Best, Graeme  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/abs/2409.15590},
+	eprint       = {2409.15590},
 	archiveprefix = {arXiv},
-	primaryclass = {cs.LG}
+	primaryclass = {cs.RO},
+	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
+}
+@inproceedings{ho2024map2,
+	title        = {Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
+	author       = {Ho, Cherie  and Zou, Jiaye  and Alama, Omar  and Kumar , Sai Mitheran Jagadesh and Chiang, Benjamin  and Gupta, Taneesh  and Wang, Chen  and Keetha, Nikhil  and Sycara, Katia  and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	url          = {https://arxiv.org/abs/2407.08726},
+	code         = {https://github.com/MapItAnywhere/MapItAnywhere},
+	abstract     = {Top-down Bird's Eye View (BEV) maps are a popular representation for ground robot navigation due to their richness and flexibility for downstream tasks. While recent methods have shown promise for predicting BEV maps from First-Person View (FPV) images, their generalizability is limited to small regions captured by current autonomous vehicle-based datasets. In this context, we show that a more scalable approach towards generalizable map prediction can be enabled by using two large-scale crowd-sourced mapping platforms, Mapillary for FPV images and OpenStreetMap for BEV semantic maps. We introduce Map It Anywhere (MIA), a data engine that enables seamless curation and modeling of labeled map prediction data from existing open-source map platforms. Using our MIA data engine, we display the ease of automatically collecting a 1.2 million FPV & BEV pair dataset encompassing diverse geographies, landscapes, environmental factors, camera models & capture scenarios. We further train a simple camera model-agnostic model on this data for BEV map prediction. Extensive evaluations using established benchmarks and our dataset show that the data curated by MIA enables effective pretraining for generalizable BEV map prediction, with zero-shot performance far exceeding baselines trained on existing datasets by 35%. Our analysis highlights the promise of using large-scale public maps for developing & testing generalizable BEV perception, paving the way for more robust autonomous navigation.}
+}
+@inproceedings{ho2024map1,
+	title        = {Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
+	author       = {Ho, Cherie and Zou, Jiaye and Alama, Omar and Mitheran, Sai and Chiang, Benjamin and Gupta, Taneesh and Wang, Chen and Keetha, Nikhil and Sycara, Katia and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {Advances in Neural Information Processing Systems (NeurIPS)},
+	url          = {https://mapitanywhere.github.io}
+}
+@misc{hughes2024multi-robot,
+	title        = {Multi-Robot Planning for Filming Groups of Moving Actors Leveraging Submodularity and Pixel Density},
+	author       = {Hughes, Skyler  and Martin, Rebecca  and Corah, Micah  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/pdf/2404.03103.pdf},
+	eprint       = {2404.03103},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
+}
+@inproceedings{jacinto2024pegasus,
+	title        = {Pegasus simulator: An isaac sim framework for multiple aerial vehicles simulation},
+	author       = {Jacinto, Marcelo and Pinto, Jo{\~a}o and Patrikar, Jay and Keller, John and Cunha, Rita and Scherer, Sebastian and Pascoal, Ant{\'o}nio},
+	year         = 2024,
+	booktitle    = {2024 International Conference on Unmanned Aircraft Systems (ICUAS)},
+	pages        = {917--922},
+	doi          = {10.1109/ICUAS60882.2024.10556959},
+	url          = {https://arxiv.org/pdf/2307.05263},
+	organization = {IEEE}
+}
+@inproceedings{keetha2024splatam,
+	title        = {{SplaTAM}: {Splat}, track \& map 3d gaussians for dense rgb-d {SLAM}},
+	author       = {Keetha, Nikhil and Karhade, Jay and Jatavallabhula, Krishna Murthy and Yang, Gengshan and Scherer, Sebastian and Ramanan, Deva and Luiten, Jonathon},
+	year         = 2024,
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+	pages        = {21357--21366},
+	doi          = {10.1109/CVPR52733.2024.02018},
+	url          = {https://spla-tam.github.io}
+}
+@inproceedings{li2024logicity,
+	title        = {{LogiCity}: Advancing Neuro-Symbolic AI with Abstract Urban Simulation},
+	author       = {Li, Bowen and Li, Zhaoyu and Du, Qiwei and Luo, Jinqi and Wang, Wenshan and Xie, Yaqi and Stepputtis, Simon and Wang, Chen and Sycara, Katia P. and Ravikumar, Pradeep Kumar and Gray, Alexander and Si, Xujie and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {Advances in Neural Information Processing Systems (NeurIPS)},
+	url          = {https://github.com/Jaraxxus-Me/LogiCity}
+}
+@inproceedings{martin2024targeted,
+	title        = {Targeted Image Transformation for Improving Robustness in Long Range Aircraft Detection},
+	author       = {Martin, Rebecca and Fung, Clement and Keetha, Nikhil and Bauer, Lujo and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	volume       = {},
+	number       = {},
+	pages        = {10431--10438},
+	doi          = {10.1109/IROS58592.2024.10801304},
+	keywords     = {Visualization;Navigation;Pipelines;Lighting;LoRa;Object detection;Robustness;Standards;Signal to noise ratio;Meteorology}
 }
 @article{navarro2024sorts,
 	title        = {SoRTS: Learned Tree Search for Long Horizon Social Robot Navigation},
@@ -100,12 +176,81 @@
 	url          = {https://arxiv.org/pdf/2309.13144.pdf},
 	keywords     = {Navigation;Robots;Social robots;Predictive models;Behavioral sciences;Monte Carlo methods;Costs;Aerial Systems: Perception and Autonomy;human-aware motion planning;safety in HRI}
 }
+@inproceedings{parandekar2024informative,
+	title        = {Informative Sensor Planning for a Single-Axis Gimbaled Camera on a Fixed-Wing UAV},
+	author       = {Parandekar, Aditya  and Moon, Brady  and Suvarna, Nayana  and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)},
+	pages        = {1798--1804},
+	doi          = {10.1109/CASE59546.2024.10711697},
+	url          = {https://arxiv.org/abs/2407.04896},
+	abstract     = {Uncrewed Aerial Vehicles (UAVs) are a leading choice of platforms for a variety of information-gathering applications. Sensor planning can enhance the efficiency and success of these types of missions when coupled with a higher-level informative path-planning algorithm. This paper aims to address these data acquisition challenges by developing an informative non-myopic sensor planning framework for a single-axis gimbal coupled with an informative path planner to maximize information gain over a prior information map. This is done by finding reduced sensor sweep bounds over a planning horizon such that regions of higher confidence are prioritized. This novel sensor planning framework is evaluated against a predefined sensor sweep and no sensor planning baselines as well as validated in two simulation environments. In our results, we observe an improvement in the performance by 21.88% and 13.34% for the no sensor planning and predefined sensor sweep baselines respectively.}
+}
+@inproceedings{park2024how,
+	title        = {How is the Pilot Doing: VTOL Pilot Workload Estimation by Multimodal Machine Learning on Psycho-physiological Signals},
+	author       = {Park, Jong Hoon and Chen, Lawrence and Higgins, Ian and Zheng, Zhaobo and Mehrotra, Shashank and Salubre, Kevin and Mousaei, Mohammadreza and Willits, Steven and Levedahl, Blaine and Buker, Timothy and Xing, Eliot and Misu, Teruhisa and Scherer, Sebastian and Oh, Jean},
+	year         = 2024,
+	booktitle    = {2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
+	volume       = {},
+	number       = {},
+	pages        = {2311--2318},
+	doi          = {10.1109/RO-MAN60168.2024.10731202},
+	url          = {https://arxiv.org/abs/2406.06448},
+	keywords     = {Accuracy;Time series analysis;Estimation;Training data;Machine learning;Predictive models;Transformers;Robot sensing systems;Aircraft;Monitoring}
+}
+@article{patrikar2024tartanaviation,
+	title        = {TartanAviation: Image, Speech, and ADS-B Trajectory Datasets for Terminal Airspace Operations},
+	author       = {Patrikar, Jay  and Dantas, Joao  and Moon, Brady  and Hamidi, Milad  and Ghosh, Sourish  and Keetha, Nikhil  and Higgins, Ian  and Chandak, Atharva  and Yoneyama, Takashi  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/pdf/2403.03372.pdf},
+	eprint       = {2403.03372},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.LG}
+}
+@misc{patrikar2024rulefuser,
+	title        = {RuleFuser: An Evidential Bayes Approach for Rule Injection in Imitation Learned Planners and Predictors for Robustness under Distribution Shifts},
+	author       = {Patrikar, Jay  and Veer, Sushant  and Sharma, Apoorva  and Pavone, Marco  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/abs/2405.11139},
+	eprint       = {2405.11139},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
+}
+@inproceedings{pulling2024geometry-informed,
+	title        = {Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images},
+	author       = {Pulling, Conner and Tan, Je Hon and Hu, Yaoyu and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+	volume       = {},
+	number       = {},
+	pages        = {12255--12261},
+	doi          = {10.1109/ICRA57147.2024.10611359},
+	url          = {https://arxiv.org/abs/2405.05355}
+}
 @misc{qiu2024learning,
 	title        = {Learning Generalizable Feature Fields for Mobile Manipulation},
-	author       = {Ri-Zhao Qiu and Yafei Hu and Ge Yang and Yuchen Song and Yang Fu and Jianglong Ye and Jiteng Mu and Ruihan Yang and Nikolay Atanasov and Sebastian Scherer and Xiaolong Wang},
+	author       = {Qiu, Ri-Zhao  and Hu, Yafei  and Yang, Ge  and Song, Yuchen  and Fu, Yang  and Ye, Jianglong and Mu, Jiteng  and Yang, Ruihan  and Atanasov, Nikolay  and Scherer, Sebastian  and Wang, Xiaolong},
 	year         = 2024,
 	url          = {https://arxiv.org/pdf/2403.07563.pdf},
 	eprint       = {2403.07563},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
+}
+@misc{qiu2024mac-vo,
+	title        = {MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry},
+	author       = {Qiu, Yuheng and Chen, Yutian and Zhang, Zihao  and Wang, Wenshan  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://mac-vo.github.io},
+	eprint       = {2409.09479},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
+}
+@misc{rauniyar2024cocap,
+	title        = {CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments},
+	author       = {Rauniyar, Aditya  and Corah, Micah  and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://cocapture.github.io},
+	eprint       = {2412.20695},
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO}
 }
@@ -123,25 +268,88 @@
 	issn         = {2771-3989},
 	url          = {http://dx.doi.org/10.55417/fr.2024001}
 }
-@misc{aich2024deep,
-	title        = {Deep Bayesian Future Fusion for Self-Supervised, High-Resolution, Off-Road Mapping},
-	author       = {Shubhra Aich and Wenshan Wang and Parv Maheshwari and Matthew Sivaprakasam and Samuel Triest and Cherie Ho and Jason M. Gregory and John G. Rogers III au2 and Sebastian Scherer},
+@misc{sivaprakasam2024salon,
+	title        = {SALON: Self-supervised Adaptive Learning for Off-road Navigation},
+	author       = {Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Aich, Shubhra  and Lew, Jeric  and Adu, Isaiah  and Wang, Wenshan and Scherer, Sebastian},
 	year         = 2024,
-	url          = {https://arxiv.org/pdf/2403.11876.pdf},
-	eprint       = {2403.11876},
+	url          = {https://theairlab.org/SALON/},
+	eprint       = {2412.07826},
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO}
 }
-@misc{hughes2024multi,
-	title        = {Multi-Robot Planning for Filming Groups of Moving Actors Leveraging Submodularity and Pixel Density},
-	author       = {Skyler Hughes and Rebecca Martin and Micah Corah and Sebastian Scherer},
+@misc{sivaprakasam2024tartandrive,
+	title        = {TartanDrive 2.0: More Modalities and Better Infrastructure to Further Self-Supervised Learning Research in Off-Road Driving Tasks},
+	author       = {Sivaprakasam, Matthew and Maheshwari, Parv and Castro, Mateo Guaman and  Triest, Samuel and Nye, Micah and Willits, Steve and Saba, Andrew and Wang, Wenshan and Scherer, Sebastian},
 	year         = 2024,
-	url          = {https://arxiv.org/pdf/2404.03103.pdf},
-	eprint       = {2404.03103},
+	url          = {https://theairlab.org/TartanDrive2/},
+	eprint       = {2402.01913},
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO}
 }
-@inproceedings{zhao2024subt,
+@inproceedings{suresh2024greedy,
+	title        = {Greedy Perspectives: Multi-Drone View Planning for Collaborative Perception in Cluttered Environments},
+	author       = {Suresh, Krishna and Rauniyar, Aditya and Corah, Micah and Scherer, Sebastian},
+	year         = 2024,
+	month        = oct,
+	booktitle    = {Proc. of the {IEEE/RSJ} Intl. Conf. on Intell. Robots and Syst.},
+	doi          = {10.1109/IROS58592.2024.10802601},
+	url          = {https://greedyperspectives.github.io}
+}
+@inproceedings{triest2024velociraptor,
+	title        = {Velociraptor: Leveraging Visual Foundation Models for Label-Free, Risk-Aware Off-Road Navigation},
+	author       = {Triest, Samuel  and Sivaprakasam, Matthew  and Aich, Shubhra  and Fan, David  and Wang, Wenshan  and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {8th Annual Conference on Robot Learning},
+	url          = {https://openreview.net/forum?id=AhEE5wrcLU}
+}
+@inproceedings{triest2024unrealnet,
+	title        = {UNRealNet: Learning Uncertainty-Aware Navigation Features from High-Fidelity Scans of Real Environments},
+	author       = {Triest, Samuel and Fan, David D. and Scherer, Sebastian and Agha-Mohammadi, Ali-Akbar},
+	year         = 2024,
+	booktitle    = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+	volume       = {},
+	number       = {},
+	pages        = {12627--12634},
+	doi          = {10.1109/ICRA57147.2024.10610724},
+	url          = {https://arxiv.org/pdf/2407.08720}
+}
+@inproceedings{wang2024airshot,
+	title        = {{AirShot}: Efficient Few-Shot Detection for Autonomous Exploration},
+	author       = {Wang, Zihan and Li, Bowen and Wang, Chen and Scherer, Sebastian},
+	year         = 2024,
+	booktitle    = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/abs/2404.05069}
+}
+@misc{xu2024mac-ego3d,
+	title        = {MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction},
+	author       = {Xu, Xiaohao and Xue, Feng and Zhao, Shibo and Pan, Yike and Scherer, Sebastian and Huang, Xiaonan},
+	year         = 2024,
+	url          = {https://github.com/xiaohao-xu/mac-ego3d},
+	eprint       = {2412.09723},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CV}
+}
+@misc{yin2024general,
+	title        = {General Place Recognition Survey: Towards Real-World Autonomy},
+	author       = {Yin, Peng and Jiao, Jianhao  and Zhao, Shiqi  and Xu, Lingyun  and Huang, Guoquan  and Choset, Howie  and Scherer, Sebastian  and Han, Jianda},
+	year         = 2024,
+	url          = {https://arxiv.org/abs/2405.04812},
+	eprint       = {2405.04812},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.RO}
+}
+@article{yu2024i2d-loc++,
+	title        = {I2D-Loc++: Camera Pose Tracking in LiDAR Maps With Multi-View Motion Flows},
+	author       = {Yu, Huai and Chen, Kuangyi and Yang, Wen and Scherer, Sebastian and Xia, Gui-Song},
+	year         = 2024,
+	journal      = {IEEE Robotics and Automation Letters},
+	volume       = 9,
+	number       = 9,
+	pages        = {8162--8169},
+	doi          = {10.1109/LRA.2024.3440851},
+	keywords     = {Cameras;Laser radar;Three-dimensional displays;Optical flow;Robot localization;Image motion analysis;Visualization;Camera localization;lidar maps;2d–3d correspondence;flow estimation}
+}
+@inproceedings{zhao2024subt-mrs1,
 	title        = {{SubT-MRS} Dataset: Pushing SLAM Towards All-weather Environments},
 	author       = {Zhao, Shibo and Gao, Yuanjun and Wu, Tianhao and Singh, Damanpreet and Jiang, Rushan and Sun, Haoxiang and Sarawata, Mansi and Whittaker, Warren C and Higgins, Ian and Su, Shaoshu and Du, Yi and Xu, Can and Keller, John and Karhade, Jay and Nogueira, Lucas and Saha, Sourojit and Qiu, Yuheng and Zhang, Ji and Wang, Wenshan and Wang, Chen and Scherer, Sebastian},
 	year         = 2024,
@@ -149,14 +357,23 @@
 	url          = {https://arxiv.org/pdf/2307.07607.pdf},
 	video        = {https://youtu.be/mkN72Lv8S7A}
 }
-@misc{wang2024airshot,
-	title        = {AirShot: Efficient Few-Shot Detection for Autonomous Exploration},
-	author       = {Zihan Wang and Bowen Li and Chen Wang and Sebastian Scherer},
+@inproceedings{zhao2024subt-mrs2,
+	title        = {{SubT-MRS} Dataset: Pushing SLAM Towards All-weather Environments},
+	author       = {Zhao, Shibo and Gao, Yuanjun and Wu, Tianhao and Singh, Damanpreet and Jiang, Rushan and Sun, Haoxiang and Sarawata, Mansi and Whittaker, Warren C and Higgins, Ian and Su, Shaoshu and Du, Yi and Xu, Can and Keller, John and Karhade, Jay and Nogueira, Lucas and Saha, Sourojit and Qiu, Yuheng and Zhang, Ji and Wang, Wenshan and Wang, Chen and Scherer, Sebastian},
 	year         = 2024,
-	url          = {https://arxiv.org/pdf/2404.05069.pdf},
-	eprint       = {2404.05069},
+	booktitle    = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	doi          = {10.1109/CVPR52733.2024.02137},
+	url          = {https://superodometry.com/datasets},
+	video        = {https://youtu.be/mkN72Lv8S7A}
+}
+@misc{zhao2024superloc,
+	title        = {SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks},
+	author       = {Zhao, Shibo and Zhu, Honghao and Gap, Yuanjun and Kim, Beomsoo and Qiu, Yuheng and Johnson, Aaron M. and Scherer, Sebastian},
+	year         = 2024,
+	url          = {https://arxiv.org/abs/2412.02901},
+	eprint       = {2412.02901},
 	archiveprefix = {arXiv},
-	primaryclass = {cs.CV}
+	primaryclass = {cs.RO}
 }
 @inproceedings{aloor2023follow,
 	title        = {Follow the rules: {Online} signal temporal logic tree search for guided imitation learning in stochastic domains},
@@ -168,14 +385,14 @@
 	url          = {https://arxiv.org/pdf/2209.13737},
 	organization = {IEEE}
 }
-@article{best2023multi,
+@article{best2023multi-robot,
 	title        = {Multi-robot, multi-sensor exploration of multifarious environments with full mission aerial autonomy},
 	author       = {Best, Graeme and Garg, Rohit and Keller, John and Hollinger, Geoffrey A and Scherer, Sebastian},
 	year         = 2023,
 	journal      = {The International Journal of Robotics Research},
 	publisher    = {SAGE Publications Sage UK: London, England},
 	doi          = {10.1177/02783649231203342},
-	url          = {https://doi.org/10.1177/02783649231203342},
+	url          = {https://www.researchgate.net/profile/Graeme-Best/publication/373756252_Multi-Robot_Multi-Sensor_Exploration_of_Multifarious_Environments_with_Full_Mission_Aerial_Autonomy/links/64fac40c8ea93c20d226b98b/Multi-Robot-Multi-Sensor-Exploration-of-Multifarious-Environments-with-Full-Mission-Aerial-Autonomy.pdf},
 	abstract     = {We present a coordinated autonomy pipeline for multi-sensor exploration of confined environments. We simultaneously address four broad challenges that are typically overlooked in prior work: (a) make effective use of both range and vision sensing modalities, (b) perform this exploration across a wide range of environments, (c) be resilient to adverse events, and (d) execute this onboard teams of physical robots. Our solution centers around a behavior tree architecture, which adaptively switches between various behaviors involving coordinated exploration and responding to adverse events. Our exploration strategy exploits the benefits of both visual and range sensors with a generalized frontier-based exploration algorithm and an OpenVDB-based map processing pipeline. Our local planner utilizes a dynamically feasible trajectory library and a GPU-based Euclidean distance transform map to allow fast and safe navigation through both tight doorways and expansive spaces. The autonomy pipeline is evaluated with an extensive set of field experiments, with teams of up to three robots that fly up to 3 m/s and distances exceeding 1 km in confined spaces. We provide a summary of various field experiments and detail resilient behaviors that arose: maneuvering narrow doorways, adapting to unexpected environment changes, and emergency landing. Experiments are also detailed from the DARPA Subterranean Challenge, where our proposed autonomy pipeline contributed to us winning the “Most Sectors Explored” award. We provide an extended discussion of lessons learned, release software as open source, and present a video that illustrates our extensive field trials.}
 }
 @article{cao2023exploring,
@@ -199,17 +416,16 @@
 	url          = {https://arxiv.org/pdf/2209.10788},
 	organization = {IEEE}
 }
-@inproceedings{guo2024aerial,
-  title={Aerial interaction with tactile sensing},
-  author={Guo, Xiaofeng and He, Guanqi and Mousaei, Mohammadreza and Geng, Junyi and Shi, Guanya and Scherer, Sebastian},
-  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={1576--1582},
-  year={2024},
-  doi = {https://doi.org/10.1109/ICRA57147.2024.10611282},
-  url = {https://arxiv.org/pdf/2310.00142},
-  organization={IEEE}
+@inproceedings{ghosh2023airtrack,
+	title        = {{AirTrack: Onboard} Deep Learning Framework for Long-Range Aircraft Detection and Tracking},
+	author       = {Ghosh, Sourish  and Patrikar, Jay and Moon, Brady  and Hamidi, Milad Moghassem  and Scherer, Sebastian},
+	year         = 2023,
+	booktitle    = {International Conference on Robotics and Automation (ICRA)},
+	doi          = {10.1109/ICRA48891.2023.10160627},
+	url          = {https://arxiv.org/pdf/2209.12849.pdf},
+	video        = {https://youtu.be/H3lL_Wjxjpw}
 }
-@inproceedings{he2023image,
+@inproceedings{he2023image-based,
 	title        = {Image-based Visual Servo Control for Aerial Manipulation Using a Fully-Actuated {UAV}},
 	author       = {He, Guanqi and Jangir, Yash and Geng, Junyi and Mousaei, Mohammadreza and Bai, Dongwei and Scherer, Sebastian},
 	year         = 2023,
@@ -226,7 +442,7 @@
 	journal      = {arXiv preprint arXiv:2310.16299},
 	url          = {https://arxiv.org/pdf/2310.16299}
 }
-@article{hu2023policy,
+@article{hu2023off-policy,
 	title        = {Off-Policy Evaluation With Online Adaptation for Robot Exploration in Challenging Environments},
 	author       = {Hu, Yafei and Geng, Junyi and Wang, Chen and Keller, John and Scherer, Sebastian},
 	year         = 2023,
@@ -237,21 +453,14 @@
 	doi          = {10.1109/LRA.2023.3271520},
 	url          = {https://arxiv.org/pdf/2204.03140}
 }
-@article{hu2023general,
+@article{hu2023general-purpose,
 	title        = {Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis},
 	author       = {Hu, Yafei and Xie, Quanting and Jain, Vidhi and Francis, Jonathan and Patrikar, Jay and Keetha, Nikhil and Kim, Seungchan and Xie, Yaqi and Zhang, Tianyi and Zhao, Zhibo and others},
 	year         = 2023,
 	journal      = {arXiv preprint arXiv:2312.08782},
-	url          = {https://arxiv.org/pdf/2312.08782}
+	url          = {https://robotics-fm-survey.github.io}
 }
-@article{jacinto2023pegasus,
-	title        = {Pegasus Simulator: An Isaac Sim Framework for Multiple Aerial Vehicles Simulation},
-	author       = {Jacinto, Marcelo and Pinto, Jo{\~a}o and Patrikar, Jay and Keller, John and Cunha, Rita and Scherer, Sebastian and Pascoal, Ant{\'o}nio},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2307.05263},
-	url          = {https://arxiv.org/pdf/2307.05263}
-}
-@inproceedings{jong2023wit,
+@inproceedings{jong2023wit-uas,
 	title        = {{WIT-UAS}: {A} Wildland-fire Infrared Thermal Dataset to Detect Crew Assets From Aerial Views},
 	author       = {Jong, Andrew and Yu, Mukai and Dhrafani, Devansh and Kailas, Siva and Moon, Brady and Sycara, Katia and Scherer, Sebastian},
 	year         = 2023,
@@ -260,13 +469,6 @@
 	doi          = {10.1109/IROS55552.2023.10341683},
 	url          = {https://arxiv.org/pdf/2312.09159},
 	organization = {IEEE}
-}
-@article{keetha2023splatam,
-	title        = {{SplaTAM}: {Splat}, track \& map 3d gaussians for dense rgb-d {SLAM}},
-	author       = {Keetha, Nikhil and Karhade, Jay and Jatavallabhula, Krishna Murthy and Yang, Gengshan and Scherer, Sebastian and Ramanan, Deva and Luiten, Jonathon},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2312.02126},
-	url          = {https://arxiv.org/pdf/2312.02126}
 }
 @article{keetha2023anyloc,
 	title        = {{AnyLoc}: {Towards} universal visual place recognition},
@@ -291,7 +493,7 @@
 	booktitle    = {The 2023 International Conference on Robotics and Automation (ICRA), Workshop on The Role of Robotics Simulators for Unmanned Aerial Vehicles},
 	url          = {https://arxiv.org/pdf/2305.07228}
 }
-@article{kim2023multi,
+@article{kim2023multi-robot,
 	title        = {Multi-Robot Multi-Room Exploration with Geometric Cue Extraction and Circular Decomposition},
 	author       = {Kim, Seungchan and Corah, Micah and Keller, John and Best, Graeme and Scherer, Sebastian},
 	year         = 2023,
@@ -311,7 +513,7 @@
 	url          = {https://arxiv.org/pdf/2209.14265},
 	organization = {IEEE}
 }
-@inproceedings{li2023pvt,
+@inproceedings{li2023pvt++,
 	title        = {{PVT++: A} Simple End-to-End Latency-Aware Visual Tracking Framework},
 	author       = {Li, Bowen and Huang, Ziyuan and Ye, Junjie and Li, Yiming and Scherer, Sebastian and Zhao, Hang and Fu, Changhong},
 	year         = 2023,
@@ -336,14 +538,14 @@
 	video        = {https://youtu.be/tiXpOV1ROOI},
 	addendum     = {Selected as Spotlight}
 }
-@article{maheshwari2023piaug,
+@article{maheshwari2023piaug--physics,
 	title        = {{PIAug--Physics} Informed Augmentation for Learning Vehicle Dynamics for Off-Road Navigation},
 	author       = {Maheshwari, Parv and Wang, Wenshan and Triest, Samuel and Sivaprakasam, Matthew and Aich, Shubhra and Rogers III, John G and Gregory, Jason M and Scherer, Sebastian},
 	year         = 2023,
 	journal      = {arXiv preprint arXiv:2311.00815},
 	url          = {https://arxiv.org/pdf/2311.00815}
 }
-@article{moon2023time,
+@article{moon2023time-optimal,
 	title        = {Time-Optimal Path Planning in a Constant Wind for Uncrewed Aerial Vehicles using Dubins Set Classification},
 	author       = {Moon, Brady and Sachdev, Sagar and Yuan, Junbin and Scherer, Sebastian},
 	year         = 2023,
@@ -374,11 +576,11 @@
 	journal      = {arXiv preprint arXiv:2310.04874},
 	url          = {https://arxiv.org/pdf/2310.04874}
 }
-@article{rauniyar2023enhancing,
+@inproceedings{rauniyar2023enhancing,
 	title        = {Enhancing Multi-Drone Coordination for Filming Group Behaviours in Dynamic Environments},
 	author       = {Rauniyar, Aditya and Li, Jiaoyang and Scherer, Sebastian},
 	year         = 2023,
-	journal      = {arXiv preprint arXiv:2310.13184},
+	booktitle    = {2023 IEEE International Conference on Intelligent Robots and Systems (IROS) Workshop on Multi-Agent Learning},
 	url          = {https://arxiv.org/pdf/2310.13184}
 }
 @article{sharma2023quantifying,
@@ -407,22 +609,6 @@
 	booktitle    = {ICRA2023 Workshop on Pretraining for Robotics (PT4R)},
 	url          = {https://openreview.net/forum?id=7Y1pnhFJUT}
 }
-@inproceedings{ghosh2023airtrack,
-	title        = {{AirTrack: Onboard} Deep Learning Framework for Long-Range Aircraft Detection and Tracking},
-	author       = {Sourish Ghosh and Jay Patrikar and Brady Moon and Milad Moghassem Hamidi and and Sebastian Scherer},
-	year         = 2023,
-	booktitle    = {International Conference on Robotics and Automation (ICRA)},
-	doi          = {10.1109/ICRA48891.2023.10160627},
-	url          = {https://arxiv.org/pdf/2209.12849.pdf},
-	video        = {https://youtu.be/H3lL_Wjxjpw}
-}
-@article{suresh2023greedy,
-	title        = {Greedy Perspectives: Multi-Drone View Planning for Collaborative Coverage in Cluttered Environments},
-	author       = {Suresh, Krishna and Rauniyar, Aditya and Corah, Micah and Scherer, Sebastian},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2310.10863},
-	url          = {https://arxiv.org/pdf/2310.10863}
-}
 @patent{taylor2023multimodal,
 	title        = {Multimodal beacon based precision landing system for autonomous aircraft},
 	author       = {Taylor, Jonathan and Singh, Sanjiv and Chamberlain, Lyle and Scherer, Sebastian and Grocholsky, Benjamin and Brajovic, Vladimir},
@@ -449,7 +635,7 @@
 	doi          = {10.1109/CVPR52729.2023.02109},
 	url          = {https://arxiv.org/pdf/2209.15428}
 }
-@article{yan2023mui,
+@article{yan2023mui-tare,
 	title        = {{MUI-TARE: Cooperative} Multi-Agent Exploration With Unknown Initial Position},
 	author       = {Yan, Jingtian and Lin, Xingqiao and Ren, Zhongqiang and Zhao, Shiqi and Yu, Jieqiong and Cao, Chao and Yin, Peng and Zhang, Ji and Scherer, Sebastian},
 	year         = 2023,
@@ -496,7 +682,7 @@
 	doi          = {10.1109/TRO.2023.3290448},
 	url          = {https://arxiv.org/pdf/2207.06965}
 }
-@article{yu20232d,
+@article{yu20232d-3d,
 	title        = {{2D-3D Pose} Tracking with Multi-View Constraints},
 	author       = {Yu, Huai and Chen, Kuangyi and Yang, Wen and Scherer, Sebastian and Xia, Gui-Song},
 	year         = 2023,
@@ -510,14 +696,7 @@
 	journal      = {arXiv preprint arXiv:2309.13035},
 	url          = {https://arxiv.org/pdf/2309.13035}
 }
-@article{zhao2023subt,
-	title        = {{SubT-MRS: A} Subterranean, Multi-Robot, Multi-Spectral and Multi-Degraded Dataset for Robust {SLAM}},
-	author       = {Zhao, Shibo and Singh, Damanpreet and Sun, Haoxiang and Jiang, Rushan and Gao, YuanJun and Wu, Tianhao and Karhade, Jay and Whittaker, Chuck and Higgins, Ian and Xu, Jiahe and others},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2307.07607},
-	url          = {https://arxiv.org/pdf/2307.07607}
-}
-@article{zhao2023attention,
+@article{zhao2023attention-enhanced,
 	title        = {Attention-Enhanced Cross-modal Localization Between Spherical Images and Point Clouds},
 	author       = {Zhao, Zhipeng and Yu, Huai and Lyu, Chenwei and Yang, Wen and Scherer, Sebastian},
 	year         = 2023,
@@ -535,7 +714,7 @@
 	booktitle    = {Proceedings of Robotics: Science and Systems},
 	url          = {https://www.roboticsproceedings.org/rss18/p004.pdf}
 }
-@article{bhattacharya2022mission,
+@article{bhattacharya2022mission-level,
 	title        = {Mission-level Robustness with Rapidly-deployed, Autonomous Aerial Vehicles by Carnegie Mellon Team Tartan at {MBZIRC 2020}},
 	author       = {Bhattacharya, Anish and Gandhi, Akshit and Merkle, Lukas and Tiwari, Rohan and Warrior, Karun and Winata, Stanley and Saba, Andrew and Zhang, Kevin and Kroemer, Oliver and Scherer, Sebastian},
 	year         = 2022,
@@ -545,7 +724,7 @@
 	doi          = {10.55417/fr.2022007},
 	url          = {https://fieldrobotics.net/Field_Robotics/Volume_2_files/Vol2_07.pdf}
 }
-@article{chen2022i2d,
+@article{chen2022i2d-loc,
 	title        = {{I2D-Loc: Camera} localization via image to {LiDAR} depth flow},
 	author       = {Chen, Kuangyi and Yu, Huai and Yang, Wen and Yu, Lei and Scherer, Sebastian and Xia, Gui-Song},
 	year         = 2022,
@@ -612,22 +791,19 @@
 	url          = {https://arxiv.org/pdf/2109.12030},
 	organization = {IEEE}
 }
-@inproceedings{patrikar2022predicting,
-	title        = {Predicting Like a Pilot: {Dataset} and Method to Predict Socially-Aware Aircraft Trajectories in Non-Towered Terminal Airspace},
-	author       = {Jay Patrikar and Brady Moon and Jean Oh and Sebastian Scherer},
+@inproceedings{keetha2022airobject,
+	title        = {{AirObject: A} Temporally Evolving Graph Embedding for Object Identification},
+	author       = {Keetha, Nikhil  and Wang, Chen  and Qiu, Yuheng  and Xu, Kuan  and Scherer, Sebastian},
 	year         = 2022,
-	booktitle    = {International Conference on Robotics and Automation (ICRA)},
-	doi          = {10.1109/ICRA46639.2022.9811972},
-	url          = {https://arxiv.org/pdf/2109.15158.pdf},
-	code         = {https://github.com/castacks/trajairnet},
-	video        = {https://youtu.be/elAQXrxB2gw}
-}
-@article{patrikar2022challenges,
-	title        = {Challenges in Close-Proximity Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace},
-	author       = {Jay Patrikar and Joao P. A. Dantas and Sourish Ghosh and Parv Kapoor and Ian Higgins and Jasmine J. Aloor and Ingrid Navarro and Jimin Sun and Ben Stoler and Milad Hamidi and Rohan Baijal and Brady Moon and Jean Oh and Sebastian Scherer},
-	year         = 2022,
-	journal      = {arXiv preprint arXiv:2211.06932},
-	url          = {https://arxiv.org/pdf/2211.06932}
+	month        = jun,
+	booktitle    = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	publisher    = {IEEE Computer Society},
+	address      = {Los Alamitos, CA, USA},
+	pages        = {8397--8406},
+	doi          = {10.1109/CVPR52688.2022.00822},
+	url          = {https://doi.ieeecomputersociety.org/10.1109/CVPR52688.2022.00822},
+	abstract     = {Object encoding and identification are vital for robotic tasks such as autonomous exploration, semantic scene understanding, and relocalization. Previous approaches have attempted to either track objects or generate descriptors for object identification. However, such systems are limited to a “fixed” partial object representation from a single viewpoint. In a robot exploration setup, there is a requirement for a temporally “evolving” global object representation built as the robot observes the object from multiple viewpoints. Furthermore, given the vast distribution of unknown novel objects in the real world, the object identification process must be class-agnostic. In this context, we propose a novel temporal 3D object encoding approach, dubbed AirObject, to obtain global keypoint graph-based embeddings of objects. Specifically, the global 3D object embeddings are generated using a temporal convolutional network across structural information of multiple frames obtained from a graph attention-based encoding method. We demonstrate that AirObject achieves the state-of-the-art performance for video object identification and is robust to severe occlusion, perceptual aliasing, viewpoint shift, deformation, and scale transform, outperforming the state-of-the-art single-frame and sequential descriptors. To the best of our knowledge, AirObject is one of the first temporal object encoding methods. Source code is available at https://github.com/Nik-v9/AirObject.},
+	keywords     = {location awareness;three-dimensional displays;semantics;transforms;encoding;pattern recognition;object recognition}
 }
 @inproceedings{keipour2022detection,
 	title        = {Detection and Physical Interaction with Deformable Linear Objects},
@@ -649,6 +825,15 @@
 	issn         = {1424-8220},
 	url          = {https://www.mdpi.com/1424-8220/22/17/6549},
 	abstract     = {Many aerial robotic applications require the ability to land on moving platforms, such as delivery trucks and marine research boats. We present a method to autonomously land an Unmanned Aerial Vehicle on a moving vehicle. A visual servoing controller approaches the ground vehicle using velocity commands calculated directly in image space. The control laws generate velocity commands in all three dimensions, eliminating the need for a separate height controller. The method has shown the ability to approach and land on the moving deck in simulation, indoor and outdoor environments, and compared to the other available methods, it has provided the fastest landing approach. Unlike many existing methods for landing on fast-moving platforms, this method does not rely on additional external setups, such as RTK, motion capture system, ground station, offboard processing, or communication with the vehicle, and it requires only the minimal set of hardware and localization sensors. The videos and source codes are also provided.}
+}
+@inproceedings{kim2022robotic,
+	title        = {Robotic Interestingness via Human-Informed Few-Shot Object Detection},
+	author       = {Kim, Seungchan  and Wang, Chen  and Li, Bowen  and Scherer, Sebastian},
+	year         = 2022,
+	booktitle    = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	pages        = {1756--1763},
+	doi          = {10.1109/IROS47612.2022.9981461},
+	url          = {https://arxiv.org/pdf/2208.01084.pdf}
 }
 @inbook{kulkarni2022aerial,
 	title        = {Aerial Field Robotics},
@@ -712,19 +897,22 @@
 	journal      = {arXiv preprint arXiv:2206.00588},
 	url          = {https://arxiv.org/pdf/2206.00588}
 }
-@inproceedings{keetha2022airobject,
-	title        = {{AirObject: A} Temporally Evolving Graph Embedding for Object Identification},
-	author       = {Nikhil Keetha and Chen Wang and Yuheng Qiu and Kuan Xu and Sebastian Scherer},
+@article{patrikar2022challenges,
+	title        = {Challenges in Close-Proximity Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace},
+	author       = {Patrikar, Jay  and Dantas, Joao P. A.  and Ghosh, Sourish  and Kapoor, Parv  and Higgins, Ian  and Aloor, Jasmine J.  and Navarro, Ingrid  and Sun, Jimin  and Stoler, Ben  and Hamidi, Milad  and Baijal, Rohan  and Moon, Brady  and Oh, Jean  and Scherer, Sebastian},
 	year         = 2022,
-	month        = jun,
-	booktitle    = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-	publisher    = {IEEE Computer Society},
-	address      = {Los Alamitos, CA, USA},
-	pages        = {8397--8406},
-	doi          = {10.1109/CVPR52688.2022.00822},
-	url          = {https://doi.ieeecomputersociety.org/10.1109/CVPR52688.2022.00822},
-	abstract     = {Object encoding and identification are vital for robotic tasks such as autonomous exploration, semantic scene understanding, and relocalization. Previous approaches have attempted to either track objects or generate descriptors for object identification. However, such systems are limited to a “fixed” partial object representation from a single viewpoint. In a robot exploration setup, there is a requirement for a temporally “evolving” global object representation built as the robot observes the object from multiple viewpoints. Furthermore, given the vast distribution of unknown novel objects in the real world, the object identification process must be class-agnostic. In this context, we propose a novel temporal 3D object encoding approach, dubbed AirObject, to obtain global keypoint graph-based embeddings of objects. Specifically, the global 3D object embeddings are generated using a temporal convolutional network across structural information of multiple frames obtained from a graph attention-based encoding method. We demonstrate that AirObject achieves the state-of-the-art performance for video object identification and is robust to severe occlusion, perceptual aliasing, viewpoint shift, deformation, and scale transform, outperforming the state-of-the-art single-frame and sequential descriptors. To the best of our knowledge, AirObject is one of the first temporal object encoding methods. Source code is available at https://github.com/Nik-v9/AirObject.},
-	keywords     = {location awareness;three-dimensional displays;semantics;transforms;encoding;pattern recognition;object recognition}
+	journal      = {arXiv preprint arXiv:2211.06932},
+	url          = {https://arxiv.org/pdf/2211.06932}
+}
+@inproceedings{patrikar2022predicting,
+	title        = {Predicting Like a Pilot: {Dataset} and Method to Predict Socially-Aware Aircraft Trajectories in Non-Towered Terminal Airspace},
+	author       = {Patrikar, Jay  and Moon, Brady  and Oh, Jean  and Scherer, Sebastian},
+	year         = 2022,
+	booktitle    = {International Conference on Robotics and Automation (ICRA)},
+	doi          = {10.1109/ICRA46639.2022.9811972},
+	url          = {https://arxiv.org/pdf/2109.15158.pdf},
+	code         = {https://github.com/castacks/trajairnet},
+	video        = {https://youtu.be/elAQXrxB2gw}
 }
 @inproceedings{qiu2022airdos,
 	title        = {{AirDOS: Dynamic SLAM} benefits from Articulated Objects},
@@ -736,38 +924,9 @@
 	url          = {https://arxiv.org/pdf/2109.09903},
 	code         = {https://github.com/haleqiu/airdos}
 }
-@article{scherer2022resilient,
-	title        = {Resilient and Modular Subterranean Exploration with a Team of Roving and Flying Robots},
-	author       = {Scherer, Sebastian and Agrawal, Vasu and Best, Graeme and Cao, Chao and Cujic, Katarina and Darnley, Ryan and DeBortoli, Robert and Dexheimer, Eric and Drozd, Bill and Garg, Rohit and Higgins, Ian and Keller, John and Kohanbash, David and Nogueira, Lucas and Pradhan, Roshan and Tatum, Michael and K. Viswanathan, Vaibhav and Willits, Steven and Zhao, Shibo and Zhu, Hongbiao and Abad, Dan and Angert, Tim and Armstrong, Greg and Boirum, Ralph and Dongare, Adwait and Dworman, Matthew and Hu, Shengjie and Jaekel, Joshua and Ji, Ran and Lai, Alice and Hsuan Lee, Yu and Luong, Anh and Mangelson, Joshua and Maier, Jay and Picard, James and Pluckter, Kevin and Saba, Andrew and Saroya, Manish and Scheide, Emily and Shoemaker-Trejo, Nathaniel and Spisak, Joshua and Teza, Jim and Yang, Fan and Wilson, Andrew and Zhang, Henry and Choset, Howie and Kaess, Michael and Rowe, Anthony and Singh, Sanjiv and Zhang, Ji and A. Hollinger, Geoffrey and Travers, Matthew},
-	year         = 2022,
-	month        = may,
-	journal      = {Field Robotics Journal},
-	pages        = {678--734},
-	doi          = {10.55417/fr.2022023},
-	url          = {https://fieldrobotics.net/Field_Robotics/Volume_2_files/Vol2_23.pdf}
-}
-@inproceedings{kim2022robotic,
-	title        = {Robotic Interestingness via Human-Informed Few-Shot Object Detection},
-	author       = {Seungchan Kim and Chen Wang and Bowen Li and Sebastian Scherer},
-	year         = 2022,
-	booktitle    = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-	pages        = {1756--1763},
-	doi          = {10.1109/IROS47612.2022.9981461},
-	url          = {https://arxiv.org/pdf/2208.01084.pdf}
-}
-@inproceedings{spisak2022robust,
-	title        = {Robust Modeling and Controls for Racing on the Edge},
-	author       = {Spisak, Joshua and Saba, Andrew and Suvarna, Nayana and Mao, Brian and Zhang, Chuan Tian and Chang, Chris and Scherer, Sebastian and Ramanan, Deva},
-	year         = 2022,
-	booktitle    = {arXiv preprint arXiv:2205.10841},
-	publisher    = {arXiv},
-	doi          = {10.48550/ARXIV.2205.10841},
-	url          = {https://arxiv.org/pdf/2205.10841.pdf},
-	video        = {https://youtu.be/3_ZFCYQqxyo?t=1334}
-}
 @article{rodrigues2022drone,
 	title        = {Drone flight data reveal energy and greenhouse gas emissions savings for very small package delivery},
-	author       = {Thiago A. Rodrigues and Jay Patrikar and Natalia L. Oliveira and H. Scott Matthews and Sebastian Scherer and Constantine Samaras},
+	author       = {Rodrigues, Thiago A.  and Patrikar, Jay  and Oliveira, Natalia L.  and Matthews, H. Scott  and Scherer, Sebastian  and Samaras, Constantine},
 	year         = 2022,
 	journal      = {Patterns},
 	publisher    = {Elsevier},
@@ -779,6 +938,26 @@
 	url          = {https://www.sciencedirect.com/science/article/pii/S2666389922001805},
 	keywords     = {quadcopter drone, last-mile delivery, energy consumption, greenhouse gas emissions, robot delivery, autonomous delivery},
 	abstract     = {Summary Uncrewed aerial vehicles (UAVs) for last-mile deliveries will affect the energy productivity of delivery and require new methods to understand energy consumption and greenhouse gas (GHG) emissions. We combine empirical testing of 188 quadcopter flights across a range of speeds with a first-principles analysis to develop a usable energy model and a machine-learning algorithm to assess energy across takeoff, cruise, and landing. Our model shows that an electric quadcopter drone with a very small package (0.5 kg) would consume approximately 0.08 MJ/km and result in 70 g of CO2e per package in the United States. We compare drone delivery with other vehicles and show that energy per package delivered by drones (0.33 MJ/package) can be up to 94% lower than conventional transportation modes, with only electric cargo bicycles providing lower GHGs/package. Our open model and coefficients can assist stakeholders in understanding and improving the sustainability of small package delivery.}
+}
+@article{scherer2022resilient,
+	title        = {Resilient and Modular Subterranean Exploration with a Team of Roving and Flying Robots},
+	author       = {Scherer, Sebastian and Agrawal, Vasu and Best, Graeme and Cao, Chao and Cujic, Katarina and Darnley, Ryan and DeBortoli, Robert and Dexheimer, Eric and Drozd, Bill and Garg, Rohit and Higgins, Ian and Keller, John and Kohanbash, David and Nogueira, Lucas and Pradhan, Roshan and Tatum, Michael and K. Viswanathan, Vaibhav and Willits, Steven and Zhao, Shibo and Zhu, Hongbiao and Abad, Dan and Angert, Tim and Armstrong, Greg and Boirum, Ralph and Dongare, Adwait and Dworman, Matthew and Hu, Shengjie and Jaekel, Joshua and Ji, Ran and Lai, Alice and Hsuan Lee, Yu and Luong, Anh and Mangelson, Joshua and Maier, Jay and Picard, James and Pluckter, Kevin and Saba, Andrew and Saroya, Manish and Scheide, Emily and Shoemaker-Trejo, Nathaniel and Spisak, Joshua and Teza, Jim and Yang, Fan and Wilson, Andrew and Zhang, Henry and Choset, Howie and Kaess, Michael and Rowe, Anthony and Singh, Sanjiv and Zhang, Ji and A. Hollinger, Geoffrey and Travers, Matthew},
+	year         = 2022,
+	month        = may,
+	journal      = {Field Robotics Journal},
+	pages        = {678--734},
+	doi          = {10.55417/fr.2022023},
+	url          = {https://fieldrobotics.net/Field_Robotics/Volume_2_files/Vol2_23.pdf}
+}
+@inproceedings{spisak2022robust,
+	title        = {Robust Modeling and Controls for Racing on the Edge},
+	author       = {Spisak, Joshua and Saba, Andrew and Suvarna, Nayana and Mao, Brian and Zhang, Chuan Tian and Chang, Chris and Scherer, Sebastian and Ramanan, Deva},
+	year         = 2022,
+	booktitle    = {arXiv preprint arXiv:2205.10841},
+	publisher    = {arXiv},
+	doi          = {10.48550/ARXIV.2205.10841},
+	url          = {https://arxiv.org/pdf/2205.10841.pdf},
+	video        = {https://youtu.be/3_ZFCYQqxyo?t=1334}
 }
 @inproceedings{triest2022tartandrive,
 	title        = {{TartanDrive: A} Large-Scale Dataset for Learning Off-Road Dynamics Models},
@@ -851,7 +1030,7 @@
 	journal      = {arXiv preprint arXiv:2205.10737},
 	url          = {https://arxiv.org/pdf/2205.10737}
 }
-@article{zhao2022spherevlad,
+@article{zhao2022spherevlad++,
 	title        = {{SphereVLAD++: Attention}-Based and Signal-Enhanced Viewpoint Invariant Descriptor},
 	author       = {Zhao, Shiqi and Yin, Peng and Yi, Ge and Scherer, Sebastian},
 	year         = 2022,
@@ -871,7 +1050,7 @@
 	doi          = {10.1109/ICRA46639.2022.9812162},
 	url          = {https://arxiv.org/pdf/2108.08957.pdf}
 }
-@article{keipour2021real,
+@article{keipour2021real-time,
 	title        = {Real-Time Ellipse Detection for Robotics Applications},
 	author       = {Azarakhsh Keipour and Guilherme A. S. Pereira and Sebastian Scherer},
 	year         = 2021,
@@ -938,7 +1117,7 @@
 	video        = {https://youtu.be/jxt91vx0cns},
 	abstract     = {Aerial vehicles are revolutionizing applications that require capturing the 3D structure of dynamic targets in the wild, such as sports, medicine, and entertainment. The core challenges in developing a motion-capture system that operates in outdoors environments are: (1) 3D inference requires multiple simultaneous viewpoints of the target, (2) occlusion caused by obstacles is frequent when tracking moving targets, and (3) the camera and vehicle state estimation is noisy. We present a real-time aerial system for multi-camera control that can reconstruct human motions in natural environments without the use of special-purpose markers. We develop a multi-robot coordination scheme that maintains the optimal flight formation for target reconstruction quality amongst obstacles. We provide studies evaluating system performance in simulation, and validate real-world performance using two drones while a target performs activities such as jogging and playing soccer.}
 }
-@inproceedings{choudhry2021cvar,
+@inproceedings{choudhry2021cvar-based,
 	title        = {{CVaR}-Based Flight Energy Risk Assessment for Multirotor {UAVs} Using a Deep Energy Model},
 	author       = {Choudhry, Arnav and Moon, Brady, and Patrikar, Jay and Samaras, Constantine and Scherer, Sebastian},
 	year         = 2021,
@@ -960,7 +1139,7 @@
 	doi          = {10.1016/j.isprsjprs.2021.06.004},
 	url          = {https://www.sciencedirect.com/science/article/pii/S0924271621001623}
 }
-@article{he2021model,
+@article{he2021model-based,
 	title        = {Model-based real-time robust controller for a small helicopter},
 	author       = {Miaolei He and Jilin He and Sebastian Scherer},
 	year         = 2021,
@@ -1010,7 +1189,7 @@
 	doi          = {10.1109/ICRA48506.2021.9561881},
 	abstract     = {Autonomous ground vehicles have improved greatly over the past decades, but they still have their limitations when it comes to off-road environments. There is still a need for planning techniques that effectively handle physical interactions between a vehicle and its surroundings. We present a method of modifying a standard path planning algorithm to address these problems by incorporating a learned model to account for complexities that would be too hard to address manually. The model predicts how well a vehicle will be able to follow a potential plan in a given environment. These predictions are then used to assign costs to their associated paths, where the path predicted to be the most feasible will be output as the final path. This results in a planner that doesn't rely solely on engineered features to evaluate traversability of obstacles, and can also choose a better path based on an understanding of its own capability that it has learned from previous interactions. This modification was integrated into the Hybrid A* algorithm and experimental results demonstrated an improvement of 14.29% over the original version on a physical platform.}
 }
-@article{rodrigues2021flight,
+@article{arodrigues2021in-flight,
 	title        = {In-flight positional and energy use data set of a DJI Matrice 100 quadcopter for small package delivery},
 	author       = {Thiago A. Rodrigues and Jay Patrikar and Arnav Choudhry and Jacob Feldgoise and Vaibhav Arcot and Aradhana Gahlaut and Sophia Lau and Brady Moon and Bastian Wagner and H. Scott Matthews and Sebastian Scherer and Constantine Samaras},
 	year         = 2021,
@@ -1036,7 +1215,7 @@
 	abstract     = {We present the first learning-based visual odometry (VO) model, which generalizes to multiple datasets and real-world scenarios and outperforms geometry-based methods in challenging scenes. We achieve this by leveraging the SLAM dataset TartanAir, which provides a large amount of diverse synthetic data in challenging environments. Furthermore, to make our VO model generalize across datasets, we propose an up-to-scale loss function and incorporate the camera intrinsic parameters into the model. Experiments show that a single model, TartanVO, trained only on synthetic data, without any finetuning, can be generalized to real-world datasets such as KITTI and EuRoC, demonstrating significant advantages over the geometry-based methods on challenging trajectories. Our code is available at https://github.com/castacks/tartanvo.},
 	video        = {https://www.youtube.com/watch?v=NQ1UEh3thbU}
 }
-@inproceedings{yang2021graph,
+@inproceedings{yang2021graph-based,
 	title        = {Graph-Based Topological Exploration Planning in Large-Scale {3D} Environments},
 	author       = {Yang, Fan and Lee, Dung-Han and Keller, John and Scherer, Sebastian},
 	year         = 2021,
@@ -1085,7 +1264,7 @@
 	url          = {https://arxiv.org/pdf/1808.09563},
 	abstract     = {Autonomous aerial cinematography has the potential to enable automatic capture of aesthetically pleasing videos without requiring human intervention, empowering individuals with the capability of high-end film studios. Current approaches either only handle off-line trajectory generation, or offer strategies that reason over short time horizons and simplistic representations for obstacles, which result in jerky movement and low real-life applicability. In this work we develop a method for aerial filming that is able to trade off shot smoothness, occlusion, and cinematography guidelines in a principled manner, even under noisy actor predictions. We present a novel algorithm for real-time covariant gradient descent that we use to efficiently find the desired trajectories by optimizing a set of cost functions. Experimental results show that our approach creates attractive shots, avoiding obstacles and occlusion 65 times over 1.25 hours of flight time, re-planning at 5 Hz with a 10 s time horizon. We robustly film human actors, cars and bicycles performing different motion among obstacles, using various shot types.}
 }
-@inproceedings{chandarana2020human,
+@inproceedings{chandarana2020human-in-the-loop,
 	title        = {Human-in-the-loop Planning and Monitoring of Swarm Search and Service Missions},
 	author       = {Chandarana, Meghan and Lewis, Michael and Sycara, Katia and Scherer, Sebastian},
 	year         = 2020,
@@ -1093,7 +1272,7 @@
 	url          = {http://d-scholarship.pitt.edu/39098/1/meghan-aamas.pdf},
 	organization = {IFMAS}
 }
-@article{dai2020rgb,
+@article{dai2020rgb-d,
 	title        = {{RGB-D SLAM} in Dynamic Environments Using Point Correlations},
 	author       = {Dai, Weichen and Zhang, Yu and Li, Ping and Fang, Zheng and Scherer, Sebastian},
 	year         = 2020,
@@ -1112,7 +1291,7 @@
 	url          = {https://www.cs.cmu.edu/~kaess/pub/Dexheimer20iros.pdf},
 	abstract     = {Fast, aerial navigation in cluttered environments requires a suitable map representation for path planning. In this paper, we propose the use of an efficient, structured multiresolution representation that expands the sensor range of dense local grids for memory-constrained platforms. While similar data structures have been proposed, we avoid processing redundant occupancy information and use the organization of the grid to improve efficiency. By layering 3D circular buffers that double in resolution at each level, obstacles near the robot are represented at finer resolutions while coarse spatial information is maintained at greater distances. We also introduce a novel method for efficiently calculating the Euclidean distance transform on the multiresolution grid by leveraging its structure. Lastly, we utilize our proposed framework to demonstrate improved stereo camera-based MAV obstacle avoidance with an optimization-based planner in simulation.}
 }
-@article{fang20203d,
+@article{fang20203d-siamrpn,
 	title        = {{3D-SiamRPN}: {An} End-to-end Learning Method for Real-time {3D} Single Object Tracking using Raw Point Cloud},
 	author       = {Fang, Zheng and Zhou, Sifan and Cui, Yubo and Scherer, Sebastian},
 	year         = 2020,
@@ -1121,7 +1300,7 @@
 	doi          = {10.1109/JSEN.2020.3033034},
 	url          = {https://arxiv.org/pdf/2108.05630}
 }
-@inproceedings{hu2020deep,
+@inproceedings{hu2020deep-learning,
 	title        = {Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction},
 	author       = {Hu, Yaoyu and Zhen, Weikun and Scherer, Sebastian},
 	year         = 2020,
@@ -1171,7 +1350,7 @@
 	eprint       = {1907.06268},
 	keywords     = {Dataset,actuator failure,anomaly detection,autonomous robots,engine failure,evaluation metrics,fault detection and isolation,fixed-wing robots,flight safety,unmanned aerial vehicles}
 }
-@inproceedings{patrikar2020real,
+@inproceedings{patrikar2020real-time,
 	title        = {Real-time Motion Planning of Curvature Continuous Trajectories for Urban {UAV} Operations in Wind},
 	author       = {Patrikar, Jay and Dugar, Vishal and Arcot, Vaibhav and Scherer, Sebastian},
 	year         = 2020,
@@ -1247,7 +1426,7 @@
 	eprint       = {2003.14338},
 	video        = {https://youtu.be/qDwfHvTbJx4}
 }
-@article{yu2020line,
+@article{yu2020line-based,
 	title        = {Line-Based {2D–3D} Registration and Camera Localization in Structured Environments},
 	author       = {Yu, Huai and Zhen, Weikun and Yang, Wen and Scherer, Sebastian},
 	year         = 2020,
@@ -1274,7 +1453,7 @@
 	eprint       = {2004.00740},
 	video        = {https://youtu.be/H80Bnxm8IPE}
 }
-@inproceedings{zhao2020tp,
+@inproceedings{zhao2020tp-tio,
 	title        = {{TP-TIO: A} Robust Thermal-Inertial Odometry with Deep ThermalPoint},
 	author       = {Zhao, Shibo and Wang, Peng and Zhang, Hengrui and Fang, Zheng and Scherer, Sebastian},
 	year         = 2020,
@@ -1284,7 +1463,7 @@
 	url          = {https://arxiv.org/pdf/2012.03455},
 	video        = {https://youtu.be/sBqW6GD9Vjg}
 }
-@inproceedings{zhen2020lidar,
+@inproceedings{zhen2020lidar-enhanced,
 	title        = {{LiDAR}-enhanced Structure-from-Motion},
 	author       = {Zhen, Weikun and Hu, Yaoyu and Yu, Huai and Scherer, Sebastian},
 	year         = 2020,
@@ -1360,7 +1539,7 @@
 	arxivid      = {1910.04874},
 	eprint       = {1910.04874}
 }
-@inproceedings{madaan2019multi,
+@inproceedings{madaan2019multi-view,
 	title        = {Multi-view reconstruction of wires using a catenary model},
 	author       = {Madaan, Ratnesh and Kaess, Michael and Scherer, Sebastian},
 	year         = 2019,
@@ -1480,7 +1659,7 @@
 	abstract     = {Partially Observable Markov Decision Processes (POMDPs) offer an elegant framework to model sequential decision making in uncertain environments. Solving POMDPs online is an active area of research and given the size of real-world problems approximate solvers are used. Recently, a few approaches have been suggested for solving POMDPs by using MDP solvers in conjunction with imitation learning. MDP based POMDP solvers work well for some cases, while catastrophically failing for others. The main failure point of such solvers is the lack of motivation for MDP solvers to gain information, since under their assumption the environment is either already known as much as it can be or the uncertainty will disappear after the next step. However for solving POMDP problems gaining information can lead to efficient solutions. In this paper we derive a set of conditions where MDP based POMDP solvers are provably sub-optimal. We then use the well-known tiger problem to demonstrate such sub-optimality. We show that multi-resolution, budgeted information gathering cannot be addressed using MDP based POMDP solvers. The contribution of the paper helps identify the properties of a POMDP problem for which the use of MDP based POMDP solvers is inappropriate, enabling better design choices.},
 	annote       = {6 pages, 1 figure}
 }
-@patent{chamberlain2018board,
+@patent{chamberlain2018on-board,
 	title        = {On-board, computerized landing zone evaluation system for aircraft},
 	author       = {Chamberlain, Lyle and Cover, Hugh and Grocholsky, Ben and Hamner, Bradley and Scherer, Sebastian and Singh, Sanjiv},
 	year         = 2018,
@@ -1512,7 +1691,7 @@
 	url          = {http://d-scholarship.pitt.edu/36815/1/IROS2018.pdf},
 	abstract     = {Swarm search and service (SSS) missions require large swarms to simultaneously search an area while servicing jobs as they are encountered. Jobs must be immediately serviced and can be one of several different job types - each requiring a different service time and number of vehicles to complete its service successfully. After jobs are serviced, vehicles are returned to the swarm and become available for reallocation. As part of SSS mission planning, human operators must determine the number of vehicles needed to achieve this balance. The complexities associated with balancing vehicle allocation to multiple as yet unknown tasks with returning vehicles makes this extremely difficult for humans. Previous work assumes that all system jobs are known ahead of time or that vehicles move independently of each other in a multi-agent framework. We present a dynamic vehicle routing (DVR) framework whose policies optimally allocate vehicles as jobs arrive. By incorporating time constraints into the DVR framework, an M/M/k/k queuing model can be used to evaluate overall steady state system performance for a given swarm size. Using these estimates, operators can rapidly compare system performance across different configurations, leading to more effective choices for swarm size. A sensitivity analysis is performed and its results are compared with the model, illustrating the appropriateness of our method to problems of plausible scale and complexity.}
 }
-@article{choudhury2018data,
+@article{choudhury2018data-driven,
 	title        = {Data-driven planning via imitation learning},
 	author       = {Choudhury, Sanjiban and Bhardwaj, Mohak and Arora, Sankalp and Kapoor, Ashish and Ranade, Gireeja and Scherer, Sebastian and Dey, Debadeepta},
 	year         = 2018,
@@ -1618,7 +1797,7 @@
 	arxivid      = {1809.03565},
 	eprint       = {1809.03565}
 }
-@article{khosiawan2018delay,
+@article{khosiawan2018delay-tolerant,
 	title        = {Toward delay-tolerant multiple-unmanned aerial vehicle scheduling system using Multi-strategy Coevolution algorithm},
 	author       = {Khosiawan, Yohanes and Scherer, Sebastian and Nielsen, Izabela},
 	year         = 2018,
@@ -1633,7 +1812,7 @@
 	abstract     = {Autonomous bridge inspection operations using unmanned aerial vehicles take multiple task assignments and constraints into account. To efficiently execute the operations, a schedule is required. Generating a cost optimum schedule of multiple-unmanned aerial vehicle operations is known to be Non-deterministic Polynomial-time (NP)-hard. This study approaches such a problem with heuristic-based algorithms to get a high-quality feasible solution in a short computation time. A constructive heuristic called Retractable Chain Task Assignment algorithm is presented to build an evaluable schedule from a task sequence. The task sequence representation is used during the search to perform seamless operations. Retractable Chain Task Assignment algorithm calculates and incorporates slack time to the schedule according to the properties of the task. The slack time acts as a cushion which makes the schedule delay-tolerant. This algorithm is incorporated with a metaheuristic algorithm called Multi-strategy Coevolution to search the solution space. The proposed algorithm is verified through numerical simulations, which take inputs from real flight test data. The obtained solutions are evaluated based on the makespan, battery consumption, computation time, and the robustness level of the schedules. The performance of Multi-strategy Coevolution is compared to Differential Evolution, Particle Swarm Optimization, and Differential Evolution–Fused Particle Swarm Optimization. The simulation results show that Multi-strategy Coevolution gives better objective values than the other algorithms.},
 	keywords     = {Unmanned aerial vehicle,delay-tolerant,metaheuristic,optimization,scheduling}
 }
-@incollection{kim2018season,
+@incollection{kim2018season-invariant,
 	title        = {Season-Invariant Semantic Segmentation with a Deep Multimodal Network},
 	author       = {Kim, Dong-Ki and Maturana, Daniel and Uenoyama, Masashi and Scherer, Sebastian},
 	year         = 2018,
@@ -1658,7 +1837,7 @@
 	abstract     = {Crack detection is an important technique to evaluate the safety and predict the life of a concrete asset. In order to improve the robustness of the crack detection in complex background, a new crack detection framework based on multi-scale enhancement and visual features is developed. Firstly, to deal with the effect of low contrast, a multi-scale enhancement method using guided filter and gradient information is proposed. Then, the adaptive threshold algorithm is used to obtain the binary image. Finally, the combination of morphological processing and visual features are adopted to purify the cracks. The experimental results with different images of real concrete surface demonstrate the high robustness and validity of the developed technique, in which the average TPR can reach 94.22{\%}.},
 	keywords     = {Concrete structure,Crack detection,Guided filter,Image enhancement}
 }
-@incollection{maturana2018real,
+@incollection{maturana2018real-time,
 	title        = {Real-Time Semantic Mapping for Autonomous Off-Road Navigation},
 	author       = {Maturana, Daniel and Chou, Po-Wei and Uenoyama, Masashi and Scherer, Sebastian},
 	year         = 2018,
@@ -1780,7 +1959,7 @@
 	editor       = {Levine, Sergey and Vanhoucke, Vincent and Goldberg, Ken},
 	abstract     = {Robotic motion planning problems are typically solved by constructing a search tree of valid maneuvers from a start to a goal configuration. Limited onboard computation and real-time planning constraints impose a limit on how large this search tree can grow. Heuristics play a crucial role in such situations by guiding the search towards potentially good directions and consequently minimizing search effort. Moreover, it must infer such directions in an efficient manner using only the information uncovered by the search up until that time. However, state of the art methods do not address the problem of computing a heuristic that \emphexplicitly minimizes search effort. In this paper, we do so by training a heuristic policy that maps the partial information from the search to decide which node of the search tree to expand. Unfortunately, naively training such policies leads to slow convergence and poor local minima. We present \textscSaIL, an efficient algorithm that trains heuristic policies by imitating \emphclairvoyant oracles - oracles that have full information about the world and demonstrate decisions that minimize search effort. We leverage the fact that such oracles can be efficiently computed using dynamic programming and derive performance guarantees for the learnt heuristic. We validate the approach on a spectrum of environments which show that \textscSaIL consistently outperforms state of the art algorithms. Our approach paves the way forward for learning heuristics that demonstrate an anytime nature - finding feasible solutions quickly and incrementally refining it over time. Open-source code and details can be found here: https://goo.gl/YXkQAC.}
 }
-@article{choudhury2017optimal,
+@article{choudhury2017near-optimal,
 	title        = {Near-optimal edge evaluation in explicit generalized binomial graphs},
 	author       = {Choudhury, Sanjiban and Javdani, Shervin and Srinivasa, Siddhartha and Scherer, Sebastian},
 	year         = 2017,
@@ -1899,7 +2078,7 @@
 	editor       = {Precup, Doina and Teh, Yee Whye},
 	abstract     = {Recently, reinforcement learning with deep neural networks has achieved great success in challenging continuous control problems such as 3D locomotion and robotic manipulation. However, in real-world control problems, the actions one can take are bounded by physical constraints, which introduces a bias when the standard Gaussian distribution is used as the stochastic policy. In this work, we propose to use the Beta distribution as an alternative and analyze the bias and variance of the policy gradients of both policies. We show that the Beta policy is bias-free and provides significantly faster convergence and higher scores over the Gaussian policy when both are used with trust region policy optimization (TRPO) and actor critic with experience replay (ACER), the state-of-the-art on- and off-policy stochastic methods respectively, on OpenAI Gym’s and MuJoCo’s continuous control environments.}
 }
-@article{song2017multi,
+@article{song2017multi-sensor,
 	title        = {A multi-sensor fusion {MAV} state estimation from long-range stereo, {IMU}, {GPS} and barometric sensors},
 	author       = {Song, Yu and Nuske, Stephen and Scherer, Sebastian},
 	year         = 2017,
@@ -2060,7 +2239,7 @@
 	url          = {https://www.ri.cmu.edu/pub_files/2016/5/main1.pdf},
 	abstract     = {There is growing interest in applying machine learning to motion planning. Potential applications are predicting an initial seed for trajectory optimization, predicting an effective heuristic for search based planning, and even predicting a planning algorithm for adaptive motion planning systems. In these situations, providing only a single prediction is unsatisfactory. It leads to many scenarios where the prediction suffers a high loss. In this paper, we advocate list prediction. Each predictor in a list focusses on different regions in the space of environments. This overcomes the shortcoming of a single predictor, and improves overall performance. A framework for list prediction, ConseqOpt, already exists. Our contribution is an extensive domain-specific treatment. We provide a rigorous and clear exposition of the procedure for training a list of predictors. We provide experimental results on a spectrum of motion planning applications. Each application contributes to understanding the behavior of list prediction. We observe that the benefit of list prediction over a single prediction is significant, irrespective of the application.}
 }
-@inproceedings{yang2016real,
+@inproceedings{yang2016real-time,
 	title        = {Real-time {3D} scene layout from a single image using Convolutional Neural Networks},
 	author       = {Yang, Shichao and Maturana, Daniel and Scherer, Sebastian},
 	year         = 2016,
@@ -2073,7 +2252,7 @@
 	issn         = 10504729,
 	abstract     = {We consider the problem of understanding the 3D layout of indoor corridor scenes from a single image in real time. Identifying obstacles such as walls is essential for robot navigation, but also challenging due to the diversity in structure, appearance and illumination of real-world corridor scenes. Many current single-image methods make Manhattan-world assumptions, and break down in environments that do not meet this mold. They also may require complicated hand-designed features for image segmentation or clear boundaries to form certain building models. In addition, most cannot run in real time In this paper, we propose to combine machine learning with geometric modelling to build a simplified 3D model from a single image.We first employ a supervised Convolutional Neural Network (CNN) to provide a dense, but coarse, geometric class labelling of the scene. We then refine this labelling with a fully connected Conditional Random Field (CRF). Finally, we fit line segments along wall-ground boundaries and ?pop up? a 3D model using geometric constraints. We assemble a dataset of 967 labelled corridor images. Our experiments on this dataset and another publicly available dataset show our method outperforms other single image scene understanding methods in pixelwise accuracy while labelling images at over 15 Hz..}
 }
-@inproceedings{yang2016pop,
+@inproceedings{yang2016pop-up,
 	title        = {Pop-up {SLAM}: {Semantic} monocular plane {SLAM} for low-texture environments},
 	author       = {Yang, Shichao and Song, Yu and Kaess, Michael and Scherer, Sebastian},
 	year         = 2016,
@@ -2185,7 +2364,7 @@
 	url          = {https://www.ri.cmu.edu/pub_files/2015/5/main.pdf},
 	abstract     = {Robotic navigation applications often require on-line generation of trajectories that respect underactuated non-linear dynamics, while optimizing a cost function that depends only on a low-dimensional workspace (collision avoidance). Approaches to non-linear optimization, such as differential dynamic programming (DDP), suffer from the drawbacks of slow convergence by being limited to stay within the trust-region of the linearized dynamics and having to integrate the dynamics with fine granularity at each iteration. We address the problem of decoupling the workspace optimization from the enforcement of non-linear constraints. In this paper, we introduce the Dynamics Projection Filter, a nonlinear projection operator based approach that first optimizes a workspace trajectory with reduced constraints and then projects (filters) it to a feasible configuration space trajectory that has a bounded sub-optimality guarantee. We show simulation results for various curvature and curvature-derivatives constrained systems, where the dynamics projection filter is able to, on average, produce similar quality solution 50 times faster than DDP. We also show results from flight tests on an autonomous helicopter that solved these problems on-line while avoiding mountains at high speed as well as trees and buildings as it came in to land.}
 }
-@article{dorneich2015mixed,
+@article{dorneich2015mixed-initiative,
 	title        = {Mixed-Initiative Control of a Roadable Air Vehicle for Non-Pilots},
 	author       = {Dorneich, Michael Christian and Letsu-Dake, Emmanuel and Singh, Sanjiv and Scherer, Sebastian and Chamberlain, Lyle and Bergerman, Marcel},
 	year         = 2015,
@@ -2199,7 +2378,7 @@
 	url          = {https://www.ri.cmu.edu/pub_files/2015/12/JHRI2015.pdf},
 	abstract     = {This work developed and evaluated a human-machine interface for the control of a roadable air vehicle (RAV), capable of surface driving, vertical takeoff, sustained flight, and landing. Military applications seek to combine the benefits of ground and air vehicles to maximize flexibility of movement but require that the operator have minimal pilot training. This makes the operator vulnerable to automation complexity issues; however, the operator will expect to be able to interact extensively and control the vehicle during flight. A mixed-initiative control approach mitigates these vulnerabilities by integrating the operator into many complex control domains in the way that they often expect—flexibly in charge, aware, but not required to issue every command. Intrinsic safety aspects were evaluated by comparing performance, decision making, precision, and workload for three RAV control paradigms: human-only, fully automated, and mixed-initiative control. The results suggest that the mixed-initiative paradigm leverages the benefits of human and automated control while also avoiding the drawbacks associated with each.}
 }
-@inproceedings{fang2015real,
+@inproceedings{fang2015real-time,
 	title        = {Real-time onboard {6DoF} localization of an indoor {MAV} in degraded visual environments using a {RGB-D} camera},
 	author       = {Fang, Zheng and Scherer, Sebastian},
 	year         = 2015,
@@ -2284,7 +2463,7 @@
 	url          = {https://www.ri.cmu.edu/pub_files/2015/6/nuske_jfr_2015.pdf},
 	abstract     = {Mapping a river's geometry provides valuable information to help understand the topology and health of an environment and deduce other attributes such as which types of surface vessels could traverse the river. While many rivers can be mapped from satellite imagery, smaller rivers that pass through dense vegetation are occluded. We develop a micro air vehicle (MAV) that operates beneath the tree line, detects and maps the river, and plans paths around three-dimensional (3D) obstacles (such as overhanging tree branches) to navigate rivers purely with onboard sensing, with no GPS and no prior map. We present the two enabling algorithms for exploration and for 3D motion planning. We extract high-level goal-points using a novel exploration algorithm that uses multiple layers of information to maximize the length of the river that is explored during a mission. We also present an efficient modification to the SPARTAN (Sparse Tangential Network) algorithm called SPARTAN-lite, which exploits geodesic properties on smooth manifolds of a tangential surface around obstacles to plan rapidly through free space. Using limited onboard resources, the exploration and planning algorithms together compute trajectories through complex unstructured and unknown terrain, a capability rarely demonstrated by flying vehicles operating over rivers or over ground. We evaluate our approach against commonly employed algorithms and compare guidance decisions made by our system to those made by a human piloting a boat carrying our system over multiple kilometers. We also present fully autonomous flights on riverine environments generating 3D maps over several hundred-meter stretches of tight winding rivers.}
 }
-@techreport{raj2015multi,
+@techreport{raj2015multi-scale,
 	title        = {Multi-Scale Convolutional Architecture for Semantic Segmentation},
 	author       = {Raj, Aman and Maturana, Daniel and Scherer, Sebastian},
 	year         = 2015,
@@ -2296,7 +2475,7 @@
 	abstract     = {Advances in 3D sensing technologies have made the availability of RGB and Depth information easier than earlier which can greatly assist in the semantic segmentation of 2D scenes. There are many works in literature that perform semantic segmentation in such scenes, but few relates to the environment that possesses a high degree of clutter in general e.g. indoor scenes. In this paper, we explore the use of depth information along with RGB and deep convolutional network for indoor scene understanding through semantic labeling. Our work exploits the geocentric encoding of a depth image and uses a multi-scale deep convolutional neural network architecture that captures high and low-level features of a scene to generate rich semantic labels. We apply our method on indoor RGBD images from NYUD2 dataset [1] and achieve a competitive performance of 70.45 {\%} accuracy in labeling four object classes compared with some prior approaches. The results show our system is capable of generating a pixel-map directly from an input image where each pixel-value corresponds to a particular class of object.},
 	institution  = {Carnegie Mellon University}
 }
-@techreport{yang2015high,
+@techreport{yang2015high-precision,
 	title        = {High-precision Autonomous Flight in Constrained Shipboard Environments},
 	author       = {Yang, Shichao and Fang, Zheng and Jain, Sezal and Dubey, Geetesh and Maeta, Silvio and Roth, Stephan and Scherer, Sebastian and Zhang, Yu and Nuske, Stephen},
 	year         = 2015,
@@ -2386,7 +2565,7 @@
 	abstract     = {The performance of a motion planning algorithm is intrinsically linked with applications that respect the assumptions being made. However, the mapping of these assumptions to actual environments is not always transparent. For example, a gradient descent algorithm is capable of tackling a complex opti- mization problem if some assurance of absence of bad local minimas can be ensured - however detecting the local minimas beforehand is very challenging. The state of the art technique relies on an expert to analyze the application, deduce assumptions that the planner can leverage and subsequently make key design decisions. In this work, we make an attempt to learn a mapping from environments to specific planning assumptions. This paper presents a diverse ensemble of planners that exploit very different aspects of the planning problem. A classifier is then trained to approximate the mapping from environment to performance difference between a pair of planners. Preliminary results hints at the role played by convexity, whilst also demonstrating the difficulty of the classification task at hand.},
 	institution  = {Carnegie Mellon University}
 }
-@inproceedings{arora2013infrastructure,
+@inproceedings{arora2013infrastructure-free,
 	title        = {Infrastructure-free shipdeck tracking for autonomous landing},
 	author       = {Arora, Sankalp and Jain, Sezal and Scherer, Sebastian and Nuske, Stephen and Chamberlain, Lyle and Singh, Sanjiv},
 	year         = 2013,
@@ -2509,7 +2688,7 @@
 	abstract     = {Accurately mapping the course and vegetation along a river is challenging, since overhanging trees block GPS at ground level and occlude the shore line when viewed from higher altitudes. We present a multimodal perception system for the active exploration and mapping of a river from a small rotorcraft. We describe three key components that use computer vision, laser scanning, inertial sensing and intermittant GPS to estimate the motion of the rotorcraft, detect the river without a prior map, and create a 3D map of the riverine environment. Our hardware and software approach is cognizant of the need to perform multi-kilometer missions below tree level with size, weight and power constraints. We present experimental results along a 2 km loop of river using a surrogate perception payload. Overall we can build an accurate 3D obstacle map and a 2D map of the river course and width from light onboard sensing. {\textcopyright} 2012 Springer Science+Business Media, LLC.},
 	keywords     = {3D ladar scanning,3D obstacle mapping,Micro aerial vehicles,Self supervised learning,Visual localization}
 }
-@inproceedings{achar2011self,
+@inproceedings{achar2011self-supervised,
 	title        = {Self-supervised segmentation of river scenes},
 	author       = {Achar, Supreeth and Sankaran, Bharath and Nuske, Stephen and Scherer, Sebastian and Singh, Sanjiv},
 	year         = 2011,
@@ -2523,7 +2702,7 @@
 	url          = {https://www.ri.cmu.edu/pub_files/2011/5/ICRA11_Achar.pdf},
 	abstract     = {Here we consider the problem of automatically segmenting images taken from a boat or low-flying aircraft. Such a capability is important for autonomous river following and mapping. The need for accurate segmentation in a wide variety of riverine environments challenges the state of the art vision-based methods that have been used in more structured environments such as roads and highways. Apart from the lack of structure, the principal difficulty is the large spatial and temporal variations in the appearance of water in the presence of nearby vegetation and with reflections from the sky. We propose a self-supervised method to segment images into 'sky', 'river' and 'shore' (vegetation + structures) regions. Our approach uses assumptions about river scene structure to learn appearance models based on features like color, texture and image location which are used to segment the image. We validated our algorithm by testing on four datasets captured under varying conditions on different rivers. Our self-supervised algorithm had higher accuracy rates than a supervised alternative, often significantly more accurate, and does not need to be retrained to work under different conditions. {\textcopyright} 2011 IEEE.}
 }
-@inproceedings{chamberlain2011self,
+@inproceedings{chamberlain2011self-aware,
 	title        = {Self-aware helicopters: {Full}-scale automated landing and obstacle avoidance in unmapped environments},
 	author       = {Chamberlain, Lyle and Scherer, Sebastian and Singh, Sanjiv},
 	year         = 2011,
@@ -2563,7 +2742,7 @@
 	institution  = {Carnegie Mellon University},
 	keywords     = {GPS-denied,MAV,UAV,control,navigation}
 }
-@inproceedings{scherer2011multiple,
+@inproceedings{scherer2011multiple-objective,
 	title        = {Multiple-objective motion planning for unmanned aerial vehicles},
 	author       = {Scherer, Sebastian and Singh, Sanjiv},
 	year         = 2011,
@@ -2576,7 +2755,7 @@
 	url          = {https://kilthub.cmu.edu/articles/journal_contribution/Multiple-Objective_Motion_Planning_for_Unmanned_Aerial_Vehicles/6555680},
 	abstract     = {Here we consider the problem of low-flying rotorcraft that must perform various missions such as navigating to specific goal points while avoiding obstacles, looking for acceptable landing sites or performing continuous surveillance. Not all of such missions can be expressed as safe, goal seeking, partly because in many cases there isn't an obvious goal. Rather than developing singular solutions to each mission, we seek a generalized formulation that enables us to express a wider range of missions. Here we propose a framework that allows for multiple objectives to be considered simultaneously and discuss corresponding planning algorithms that are capable of running in realtime on autonomous air vehicles. The algorithms create a set of initial hypotheses that are then optimized by a sub-gradient based trajectory algorithm that optimizes the multiple objectives, producing dynamically feasible trajectories. We have demonstrated the feasibility of our approach with changing cost functions based on newly discovered information. We report on results in simulation of a system that is tasked with navigating safely between obstacles while searching for an acceptable landing site. {\textcopyright} 2011 IEEE.}
 }
-@phdthesis{scherer2011low,
+@phdthesis{scherer2011low-altitude,
 	title        = {Low-Altitude Operation of Unmanned Rotorcraft},
 	author       = {Scherer, Sebastian},
 	year         = 2011,
@@ -2688,4 +2867,13 @@
 	url          = {https://www.ri.cmu.edu/pub_files/pub4/scherer_sebastian_2005_1/scherer_sebastian_2005_1.pdf},
 	abstract     = {Reliable software is important for robotic applications. We propose a new method for the verification of control software based on Java PathFinder, a discrete model checker developed at NASA Ames Research Center. Our extension of Java PathFinder supports modeling of a real-time scheduler and a physical system, defined in terms of differential equations. This approach not only is able to detect programming errors, like null-pointer dereferences, but also enables the verification of control software whose correctness depends on the physical, real-time environment. We applied this method to the control software of a line-following robot. The verified source code, written in Java, can be executed without any modifications on the microcontroller of the actual robot. Performance evaluation and bug finding are demonstrated on this example.},
 	keywords     = {Control Systems,Java,Model Checking,Software Testing,Verification}
+}
+@inbook{navarro2024amelia,
+	title        = {AmeliaTF: A Large Model and Dataset for Airport Surface Movement Forecasting},
+	author       = {Navarro, Ingrid  and Ortega, Pablo  and Patrikar, Jay  and Wang, Haichuan  and Ye,Zelin  and Park, Jong Hoon  and Oh, Jean  and Scherer, Sebastian},
+	booktitle    = {AIAA AVIATION FORUM AND ASCEND 2024},
+	pages        = {},
+	doi          = {10.2514/6.2024-4251},
+	url          = {https://ameliacmu.github.io/amelia-model/},
+	chapter      = {}
 }
