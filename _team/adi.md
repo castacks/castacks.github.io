@@ -1,8 +1,8 @@
 ---
 title: Aditya Rauniyar
-subtitle: Master's Student
-job_title: Master's Student
-category: master_student
+subtitle: Research Associate II
+job_title: Research Associate II
+category: staff
 layout: team_member_personal_page
 image: /img/team/adi.png
 link-new-tab: true
