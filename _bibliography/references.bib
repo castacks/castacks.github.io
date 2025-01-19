@@ -102,7 +102,7 @@
 	primaryclass = {cs.RO},
 	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
 }
-@inproceedings{ho2024map2,
+@inproceedings{ho2024map,
 	title        = {Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
 	author       = {Ho, Cherie  and Zou, Jiaye  and Alama, Omar  and Kumar , Sai Mitheran Jagadesh and Chiang, Benjamin  and Gupta, Taneesh  and Wang, Chen  and Keetha, Nikhil  and Sycara, Katia  and Scherer, Sebastian},
 	year         = 2024,
@@ -110,13 +110,6 @@
 	url          = {https://arxiv.org/abs/2407.08726},
 	code         = {https://github.com/MapItAnywhere/MapItAnywhere},
 	abstract     = {Top-down Bird's Eye View (BEV) maps are a popular representation for ground robot navigation due to their richness and flexibility for downstream tasks. While recent methods have shown promise for predicting BEV maps from First-Person View (FPV) images, their generalizability is limited to small regions captured by current autonomous vehicle-based datasets. In this context, we show that a more scalable approach towards generalizable map prediction can be enabled by using two large-scale crowd-sourced mapping platforms, Mapillary for FPV images and OpenStreetMap for BEV semantic maps. We introduce Map It Anywhere (MIA), a data engine that enables seamless curation and modeling of labeled map prediction data from existing open-source map platforms. Using our MIA data engine, we display the ease of automatically collecting a 1.2 million FPV & BEV pair dataset encompassing diverse geographies, landscapes, environmental factors, camera models & capture scenarios. We further train a simple camera model-agnostic model on this data for BEV map prediction. Extensive evaluations using established benchmarks and our dataset show that the data curated by MIA enables effective pretraining for generalizable BEV map prediction, with zero-shot performance far exceeding baselines trained on existing datasets by 35%. Our analysis highlights the promise of using large-scale public maps for developing & testing generalizable BEV perception, paving the way for more robust autonomous navigation.}
-}
-@inproceedings{ho2024map1,
-	title        = {Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
-	author       = {Ho, Cherie and Zou, Jiaye and Alama, Omar and Mitheran, Sai and Chiang, Benjamin and Gupta, Taneesh and Wang, Chen and Keetha, Nikhil and Sycara, Katia and Scherer, Sebastian},
-	year         = 2024,
-	booktitle    = {Advances in Neural Information Processing Systems (NeurIPS)},
-	url          = {https://mapitanywhere.github.io}
 }
 @misc{hughes2024multi-robot,
 	title        = {Multi-Robot Planning for Filming Groups of Moving Actors Leveraging Submodularity and Pixel Density},
@@ -349,15 +342,7 @@
 	doi          = {10.1109/LRA.2024.3440851},
 	keywords     = {Cameras;Laser radar;Three-dimensional displays;Optical flow;Robot localization;Image motion analysis;Visualization;Camera localization;lidar maps;2d–3d correspondence;flow estimation}
 }
-@inproceedings{zhao2024subt-mrs1,
-	title        = {{SubT-MRS} Dataset: Pushing SLAM Towards All-weather Environments},
-	author       = {Zhao, Shibo and Gao, Yuanjun and Wu, Tianhao and Singh, Damanpreet and Jiang, Rushan and Sun, Haoxiang and Sarawata, Mansi and Whittaker, Warren C and Higgins, Ian and Su, Shaoshu and Du, Yi and Xu, Can and Keller, John and Karhade, Jay and Nogueira, Lucas and Saha, Sourojit and Qiu, Yuheng and Zhang, Ji and Wang, Wenshan and Wang, Chen and Scherer, Sebastian},
-	year         = 2024,
-	booktitle    = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-	url          = {https://arxiv.org/pdf/2307.07607.pdf},
-	video        = {https://youtu.be/mkN72Lv8S7A}
-}
-@inproceedings{zhao2024subt-mrs2,
+@inproceedings{zhao2024subt-mrs,
 	title        = {{SubT-MRS} Dataset: Pushing SLAM Towards All-weather Environments},
 	author       = {Zhao, Shibo and Gao, Yuanjun and Wu, Tianhao and Singh, Damanpreet and Jiang, Rushan and Sun, Haoxiang and Sarawata, Mansi and Whittaker, Warren C and Higgins, Ian and Su, Shaoshu and Du, Yi and Xu, Can and Keller, John and Karhade, Jay and Nogueira, Lucas and Saha, Sourojit and Qiu, Yuheng and Zhang, Ji and Wang, Wenshan and Wang, Chen and Scherer, Sebastian},
 	year         = 2024,
