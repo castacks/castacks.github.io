@@ -2,11 +2,18 @@
 title: Muhammad Asghar 
 subtitle: Master's Student
 job_title: Master's Student
-category:  master_student
-layout: team_member_personal_page
+category: past_master
+layout: team_past_member_personal_page
 image: /img/team/muhammad_asghar.jpg
 link-new-tab: true
+starting_year: 2022
+graduation_year: 2024
+graduation_month: December
+advisors:
+ - name: Sebastian Scherer
+current_status: CMU
 ---
+
 
 Muhammad is a second-year MS in Public Policy, Management, and Data Analytics student at Carnegie Mellon University. He graduated from the City University of New York Lehman College with a BS in Computer Science and BA in Mathematics.
 
