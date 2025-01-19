@@ -2,10 +2,9 @@
 title: Kasper A. R. Grøntved
 subtitle: Visitor
 job_title: Visitor
-category: intern
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/kasper_grontved.jpg
-link-new-tab: true
 ---
 
 Kasper Grøntved is a visiting PhD student in the [Robotics Institute](https://www.ri.cmu.edu "Robotics Institute Homepage") at Carnegie Mellon University and is vising from the Mærsk Mckinney Møller Insitute at University of Southern Denmark.

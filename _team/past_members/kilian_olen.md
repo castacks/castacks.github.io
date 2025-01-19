@@ -2,7 +2,7 @@
 title: Kilian Olen
 subtitle: RISS Intern
 job_title: RISS Intern
-category: intern
+category: former_visitor
 layout: team_member_personal_page
 image: /img/team/kilian_olen.png
 link-new-tab: true
