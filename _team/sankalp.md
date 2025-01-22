@@ -8,7 +8,7 @@ image: /img/team/sankalp_chopkar.jpeg
 link-new-tab: true
 ---
 
-Sankalp Chopkar is a software engineer in the Airlab. He graduated from Carnegie Mellon University with an Masters in Robotics and Systems Development. 
+Sankalp Chopkar is a Robotics Hardware Engineer in the Airlab. He graduated from Carnegie Mellon University with an Masters in Robotics and Systems Development. 
 
 **Email**: [schopkar@andrew.cmu.edu](mailto:schopkar@andrew.cmu.edu)
 
