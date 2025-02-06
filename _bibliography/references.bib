@@ -1,3 +1,33 @@
+@inproceedings{ho2025mapex,
+	title        = {MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
+	author       = {Ho, Cherie  and Kim, Seungchan  and Moon, Brady  and Parandekar, Aditya  and Harutyunyan, Narek  and Wang, Chen  and Sycara, Katia  and Best, Graeme  and Scherer, Sebastian},
+	year         = 2025,
+	booktitle    = {IEEE International Conference on Robotics and Automation (ICRA) 2025},
+	url          = {https://arxiv.org/abs/2409.15590},
+	code         = {https://github.com/castacks/MapEx},
+	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
+}
+@inproceedings{qiu2025mac-vo,
+	title        = {MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry},
+	author       = {Qiu, Yuheng and Chen, Yutian and Zhang, Zihao  and Wang, Wenshan  and Scherer, Sebastian},
+	year         = 2025,
+	booktitle    = {IEEE International Conference on Robotics and Automation (ICRA) 2025},
+	url          = {https://mac-vo.github.io},
+}
+@inproceedings{sivaprakasam2025salon,
+	title        = {SALON: Self-supervised Adaptive Learning for Off-road Navigation},
+	author       = {Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Aich, Shubhra  and Lew, Jeric  and Adu, Isaiah  and Wang, Wenshan and Scherer, Sebastian},
+	year         = 2025,
+	booktitle    = {IEEE International Conference on Robotics and Automation (ICRA) 2025},
+	url          = {https://theairlab.org/SALON/},
+}
+@misc{zhao2025superloc,
+	title        = {SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks},
+	author       = {Zhao, Shibo and Zhu, Honghao and Gap, Yuanjun and Kim, Beomsoo and Qiu, Yuheng and Johnson, Aaron M. and Scherer, Sebastian},
+	year         = 2025,
+	booktitle    = {IEEE International Conference on Robotics and Automation (ICRA) 2025},
+	url          = {https://arxiv.org/abs/2412.02901},
+}
 @misc{qiu2025airio,
 	title        = {AirIO: Learning Inertial Odometry with Enhanced IMU Feature Observability},
 	author       = {Yuheng Qiu and Can Xu and Yutian Chen and Shibo Zhao and Junyi Geng and Sebastian Scherer},
@@ -99,17 +129,6 @@
 	url          = {https://arxiv.org/pdf/2407.05587},
 	abstract     = {Aerial manipulation has gained interest in completing high-altitude tasks that are challenging for human workers, such as contact inspection and defect detection, etc. Previous research has focused on maintaining static contact points or forces. This letter addresses a more general and dynamic task: simultaneously tracking time-varying contact force in the surface normal direction and motion trajectories on tangential surfaces. We propose a pipeline that includes a contact-aware trajectory planner to generate dynamically feasible trajectories, and a hybrid motion-force controller to track such trajectories. We demonstrate the approach in an aerial calligraphy task using a novel sponge pen design as the end-effector, whose stroke width is positively related to the contact force. Additionally, we develop a touchscreen interface for flexible user input. Experiments show our method can effectively draw diverse letters, achieving an IoU of 0.59 and an end-effector position (force) tracking RMSE of 2.9 cm (0.7N).},
 	video        = {https://www.youtube.com/watch?v=g5egNbtQCwA&pp=ygUTZmx5aW5nIGNhbGxpZ3JhcGhlcg%3D%3D}
-}
-}
-@misc{ho2024mapex,
-	title        = {MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
-	author       = {Ho, Cherie  and Kim, Seungchan  and Moon, Brady  and Parandekar, Aditya  and Harutyunyan, Narek  and Wang, Chen  and Sycara, Katia  and Best, Graeme  and Scherer, Sebastian},
-	year         = 2024,
-	url          = {https://arxiv.org/abs/2409.15590},
-	eprint       = {2409.15590},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO},
-	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
 }
 @inproceedings{ho2024map,
 	title        = {Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data},
@@ -238,15 +257,6 @@
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO}
 }
-@misc{qiu2024mac-vo,
-	title        = {MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry},
-	author       = {Qiu, Yuheng and Chen, Yutian and Zhang, Zihao  and Wang, Wenshan  and Scherer, Sebastian},
-	year         = 2024,
-	url          = {https://mac-vo.github.io},
-	eprint       = {2409.09479},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO}
-}
 @misc{rauniyar2024cocap,
 	title        = {CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments},
 	author       = {Rauniyar, Aditya  and Corah, Micah  and Scherer, Sebastian},
@@ -269,15 +279,6 @@
 	doi          = {10.55417/fr.2024001},
 	issn         = {2771-3989},
 	url          = {http://dx.doi.org/10.55417/fr.2024001}
-}
-@misc{sivaprakasam2024salon,
-	title        = {SALON: Self-supervised Adaptive Learning for Off-road Navigation},
-	author       = {Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Aich, Shubhra  and Lew, Jeric  and Adu, Isaiah  and Wang, Wenshan and Scherer, Sebastian},
-	year         = 2024,
-	url          = {https://theairlab.org/SALON/},
-	eprint       = {2412.07826},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO}
 }
 @misc{sivaprakasam2024tartandrive,
 	title        = {TartanDrive 2.0: More Modalities and Better Infrastructure to Further Self-Supervised Learning Research in Off-Road Driving Tasks},
@@ -359,15 +360,6 @@
 	doi          = {10.1109/CVPR52733.2024.02137},
 	url          = {https://superodometry.com/datasets},
 	video        = {https://youtu.be/mkN72Lv8S7A}
-}
-@misc{zhao2024superloc,
-	title        = {SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks},
-	author       = {Zhao, Shibo and Zhu, Honghao and Gap, Yuanjun and Kim, Beomsoo and Qiu, Yuheng and Johnson, Aaron M. and Scherer, Sebastian},
-	year         = 2024,
-	url          = {https://arxiv.org/abs/2412.02901},
-	eprint       = {2412.02901},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO}
 }
 @inproceedings{aloor2023follow,
 	title        = {Follow the rules: {Online} signal temporal logic tree search for guided imitation learning in stochastic domains},
