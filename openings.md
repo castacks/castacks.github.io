@@ -11,7 +11,11 @@ Admissions for graduate students in our department are conducted independent of 
 
 ## Current Carnegie Mellon Students
 
-Please send Sebastian an [email](mailto:basti@andrew.cmu.edu) if you are interested in working with the lab.
+Please check out our potential student projects below:
+
+1. Meet with the listed lab members, share your CV, and discuss the project you are interested in. Expect them to interview you. 
+2. If the lab member would like to work with you for the project please visit Basti in the office hour (Monday + Thursday 3-4pm) to discuss.
+   
 
 ## Staff/Postdoc Positions
 
