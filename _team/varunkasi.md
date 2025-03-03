@@ -1,8 +1,8 @@
 ---
 title: Varun Kasireddy
-subtitle: Postdoctor
-job_title: Postdoctoral Fellow
-category: postdoc
+subtitle: Scientist
+job_title: Project Scientist
+category: scientist
 layout: team_member_personal_page
 image: /img/team/kasireddy.png
 link-new-tab: true
