@@ -4,7 +4,7 @@ subtitle: Engineer
 job_title: Engineer
 category: staff
 layout: team_member_personal_page
-image: /img/team/kabir_kedia.jpeg
+image: /img/team/kabir_kedia.jpg
 link-new-tab: true
 ---
 Hi there, this is Kabir.
