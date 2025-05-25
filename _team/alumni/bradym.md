@@ -28,9 +28,4 @@ His research is primarily focused on path planning, motion planning, machine lea
 
 **Website**: [bradymoon.com](https://bradymoon.com)
 
-**Email**: [bradygmoon@cmu.edu](mailto:bradygmoon@cmu.edu)
-
 **Github**: [bradygm](https://github.com/bradygm)
-
-
-<!-- <big><i class="fab fa-github"></i></big> -->
