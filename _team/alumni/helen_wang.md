@@ -2,10 +2,16 @@
 title: Helen Wang
 subtitle: Master's Student
 job_title: Master's Student
-category:  master_student
-layout: team_member_personal_page
+category:  past_master
+layout: team_past_member_personal_page
 image: /img/team/helenwang.jpg
-link-new-tab: true
+starting_year: 2023
+graduation_year: 2025
+graduation_month: May
+linkedin: https://www.linkedin.com/in/helenwanghh/
+advisors:
+ - name: Sebastian Scherer
+current_status: TBD
 ---
 
 Helen Wang is a Master's student in Mechanical Engineering with passions for aviation, product design, eletric vehicle and robotics.  

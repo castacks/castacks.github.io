@@ -2,7 +2,7 @@
 title: Sankalp Chopkar
 subtitle: Robotics Hardware Engineer
 job_title: Robotics Hardware Engineer
-category:  staff
+category: former_staff
 layout: team_member_personal_page
 image: /img/team/sankalp_chopkar.jpeg
 link-new-tab: true
