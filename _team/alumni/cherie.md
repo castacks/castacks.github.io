@@ -11,7 +11,7 @@ thesis_link: https://www.ri.cmu.edu/app/uploads/2025/05/cherieh_phd_robotics_202
 linkedin: https://cherieho.com
 advisors:
  - name: Sebastian Scherer
-current_status: Postdoc at Stanford
+current_status: Postdoc, Stanford
 layout: team_past_member_personal_page
 image: /img/team/past_members/cherie.jpg
 link-new-tab: true
