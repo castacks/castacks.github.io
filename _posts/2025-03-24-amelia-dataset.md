@@ -9,7 +9,7 @@ published: true
 redirect: "https://ameliacmu.github.io/amelia-dataset/"
 show_sidebar: false
 # slim_content_width: true
-permalink: /amelia/
+permalink: /amelia-dataset/
 image: /img/posts/2025-03-24-amelia/klax_header.gif
 datatable: true
 title_image: None
