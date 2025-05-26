@@ -177,11 +177,7 @@ show_sidebar: false
 <h1 style="font-size:35px;">Visitors & Interns</h1>
 <br>
 <div class="columns is-multiline">
-{% assign sorted_visitor = site.team | where:"category","visitor" %}
-{% assign sorted_intern = site.team | where:"category","intern" %}
-{% assign sorted_products = sorted_visitor | concat: sorted_intern %}
-{% assign n = sorted_products | size %}
-{% assign sorted_products = sorted_products | sample: n %}
+{% assign sorted_products = site.team | where:"category","intern" %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
