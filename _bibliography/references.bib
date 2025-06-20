@@ -1,33 +1,80 @@
-@misc{moon2025ia-tigris,
-	title        = {IA-TIGRIS: An Incremental and Adaptive Sampling-Based Planner for Online Informative Path Planning},
-	author       = {Brady Moon and Nayana Suvarna and Andrew Jong and Satrajit Chatterjee and Junbin Yuan and Sebastian Scherer},
+@inproceedings{alama2025rayfronts,
+	title        = {RayFronts: Open-Set Semantic Ray Frontiers for Online Scene Understanding and Exploration},
+	author       = {Omar Alama and Avigyan Bhattacharya and Haoyang He and Seungchan Kim and Yuheng Qiu and Wenshan Wang and Cherie Ho and Nikhil Keetha and Sebastian Scherer},
 	year         = {2025},
-	url          = {https://arxiv.org/abs/2502.15961},
-	eprint       = {2502.15961},
+	booktitle    = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2504.06994},
+	eprint       = {2504.06994},
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO},
-	video        = {https://youtu.be/etFLanBdgHs},
-	abstract     = {Planning paths that maximize information gain for robotic platforms has wide-ranging applications and significant potential impact. To effectively adapt to real-time data collection, informative path planning must be computed online and be responsive to new observations. In this work, we present IA-TIGRIS, an incremental and adaptive sampling-based informative path planner that can be run efficiently with onboard computation. Our approach leverages past planning efforts through incremental refinement while continuously adapting to updated world beliefs. We additionally present detailed implementation and optimization insights to facilitate real-world deployment, along with an array of reward functions tailored to specific missions and behaviors. Extensive simulation results demonstrate IA-TIGRIS generates higher-quality paths compared to baseline methods. We validate our planner on two distinct hardware platforms: a hexarotor UAV and a fixed-wing UAV, each having unique motion models and configuration spaces. Our results show up to a 41% improvement in information gain compared to baseline methods, suggesting significant potential for deployment in real-world applications.}
+	video        = {https://youtu.be/fFSKUBHx5gA},
+	abstract     = {Open-set semantic mapping is crucial for open-world robots. Current mapping approaches either are limited by the depth range or only map beyond-range entities in constrained settings, where overall they fail to combine within-range and beyond-range observations. Furthermore, these methods make a trade-off between fine-grained semantics and efficiency. We introduce RayFronts, a unified representation that enables both dense and beyond-range efficient semantic mapping. RayFronts encodes task-agnostic open-set semantics to both in-range voxels and beyond-range rays encoded at map boundaries, empowering the robot to reduce search volumes significantly and make informed decisions both within & beyond sensory range, while running at 8.84 Hz on an Orin AGX. Benchmarking the within-range semantics shows that RayFronts's fine-grained image encoding provides 1.34x zero-shot 3D semantic segmentation performance while improving throughput by 16.5x. Traditionally, online mapping performance is entangled with other system components, complicating evaluation. We propose a planner-agnostic evaluation framework that captures the utility for online beyond-range search and exploration, and show RayFronts reduces search volume 2.2x more efficiently than the closest online baselines.}
 }
-@inproceedings{ho2025mapex,
-	title        = {MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
-	author       = {Ho, Cherie  and Kim, Seungchan  and Moon, Brady  and Parandekar, Aditya  and Harutyunyan, Narek  and Wang, Chen  and Sycara, Katia  and Best, Graeme  and Scherer, Sebastian},
+@inproceedings{baek2025pipe,
+	title        = {PIPE Planner: Pathwise Information Gain with Map Predictions for Indoor Robot Exploration},
+	author       = {Seungjae Baek and Brady Moon and Seungchan Kim and Muqing Cao and Cherie Ho and Sebastian Scherer and Jeonghwan Jeon},
 	year         = {2025},
-	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
-	url          = {https://arxiv.org/abs/2409.15590},
-	code         = {https://github.com/castacks/MapEx},
-	video        = {https://youtu.be/x6vEn8d6lN0},
-	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
+	booktitle    = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2503.07504},
+	abstract     = {Autonomous exploration in unknown environments requires estimating the information gain of an action to guide planning decisions. While prior approaches often compute information gain at discrete waypoints, pathwise integration offers a more comprehensive estimation but is often computationally challenging or infeasible and prone to overestimation. In this work, we propose the Pathwise Information Gain with Map Prediction for Exploration (PIPE) planner, which integrates cumulative sensor coverage along planned trajectories while leveraging map prediction to mitigate overestimation. To enable efficient pathwise coverage computation, we introduce a method to efficiently calculate the expected observation mask along the planned path, significantly reducing computational overhead. We validate PIPE on real-world floorplan datasets, demonstrating its superior performance over state-of-the-art baselines. Our results highlight the benefits of integrating predictive mapping with pathwise information gain for efficient and informed exploration.}
 }
-@misc{harutyunyan2025mapexrl,
-	title        = {MapExRL: Human-Inspired Indoor Exploration with Predicted Environment Context and Reinforcement Learning},
-	author       = {Narek Harutyunyan and Brady Moon and Seungchan Kim and Cherie Ho and Adam Hung and Sebastian Scherer},
+@inproceedings{patel2025tartanground,
+	title        = {TartanGround: A Large-Scale Dataset for Ground Robot Perception and Navigation},
+	author       = {Manthan Patel and Fan Yang and Yuheng Qiu and Cesar Cadena and Sebastian Scherer and Marco Hutter and Wenshan Wang},
 	year         = {2025},
-	url          = {https://arxiv.org/abs/2503.01548},
-	eprint       = {2503.01548},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO},
-	abstract     = {Path planning for robotic exploration is challenging, requiring reasoning over unknown spaces and anticipating future observations. Efficient exploration requires selecting budget-constrained paths that maximize information gain. Despite advances in autonomous exploration, existing algorithms still fall short of human performance, particularly in structured environments where predictive cues exist but are underutilized. Guided by insights from our user study, we introduce MapExRL, which improves robot exploration efficiency in structured indoor environments by enabling longer-horizon planning through reinforcement learning (RL) and global map predictions. Unlike many RL-based exploration methods that use motion primitives as the action space, our approach leverages frontiers for more efficient model learning and longer horizon reasoning. Our framework generates global map predictions from the observed map, which our policy utilizes, along with the prediction uncertainty, estimated sensor coverage, frontier distance, and remaining distance budget, to assess the strategic long-term value of frontiers. By leveraging multiple frontier scoring methods and additional context, our policy makes more informed decisions at each stage of the exploration. We evaluate our framework on a real-world indoor map dataset, achieving up to an 18.8% improvement over the strongest state-of-the-art baseline, with even greater gains compared to conventional frontier-based algorithms.}
+	booktitle    = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2505.10696},
+	abstract     = {We present TartanGround, a large-scale, multi-modal dataset to advance the perception and autonomy of ground robots operating in diverse environments. This dataset, collected in various photorealistic simulation environments includes multiple RGB stereo cameras for 360-degree coverage, along with depth, optical flow, stereo disparity, LiDAR point clouds, ground truth poses, semantic segmented images, and occupancy maps with semantic labels. Data is collected using an integrated automatic pipeline, which generates trajectories mimicking the motion patterns of various ground robot platforms, including wheeled and legged robots. We collect 910 trajectories across 70 environments, resulting in 1.5 million samples. Evaluations on occupancy prediction and SLAM tasks reveal that state-of-the-art methods trained on existing datasets struggle to generalize across diverse scenes. TartanGround can serve as a testbed for training and evaluation of a broad range of learning-based tasks, including occupancy prediction, SLAM, neural scene representation, perception-based navigation, and more, enabling advancements in robotic perception and autonomy towards achieving robust models generalizable to more diverse scenarios. The dataset and codebase for data collection will be made publicly available upon acceptance.}
+}
+@inproceedings{zantout2025sort3d,
+	title        = {SORT3D: Spatial Object-centric Reasoning Toolbox for Zero-Shot Grounding Using Large Language Models},
+	author       = {Nader Zantout and Haochen Zhang and Pujith Kachana and Jinkai Qiu and Ji Zhang and Wenshan Wang},
+	year         = {2025},
+	booktitle    = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2504.18684},
+	abstract     = {Interpreting object-referential language and grounding objects in 3D with spatial relations and attributes is essential for robots operating alongside humans. However, this task is often challenging due to the diversity of scenes, large number of fine-grained objects, and complex free-form nature of language references. Furthermore, in the 3D domain, obtaining large amounts of natural language training data is difficult. Thus, it is important for methods to learn from little data and zero-shot generalize to new environments. To address these challenges, we propose SORT3D, an approach that utilizes rich object attributes from 2D data and merges a heuristics-based spatial reasoning toolbox with the ability of large language models (LLMs) to perform sequential reasoning. Importantly, our method does not require text-to-3D data for training and can be applied zero-shot to unseen environments. We show that SORT3D achieves state-of-the-art performance on complex view-dependent grounding tasks on two benchmarks. We also implement the pipeline to run real-time on an autonomous vehicle and demonstrate that our approach can be used for object-goal navigation on previously unseen real-world environments. }
+}
+@inproceedings{qiu2025learning,
+	title        = {Learning Generalizable Feature Fields for Mobile Manipulation},
+	author       = {Ri-Zhao Qiu and Yafei Hu and Yuchen Song and Ge Yang and Yan Fu and Jianglong Ye and Jiten Mu and Ruihan Yang and Nikolay Atanasov and Sebastian Scherer and Xiaolong Wang},
+	year         = {2025},
+	booktitle    = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+	url          = {https://arxiv.org/pdf/2403.07563},
+	abstract     = {An open problem in mobile manipulation is how to represent objects and scenes in a unified manner so that robots can use both for navigation and manipulation. The latter requires capturing intricate geometry while understanding fine-grained semantics, whereas the former involves capturing the complexity inherent at an expansive physical scale. In this work, we present GeFF (Generalizable Feature Fields), a scene-level generalizable neural feature field that acts as a unified representation for both navigation and manipulation that performs in real-time. To do so, we treat generative novel view synthesis as a pre-training task, and then align the resulting rich scene priors with natural language via CLIP feature distillation. We demonstrate the effectiveness of this approach by deploying GeFF on a quadrupedal robot equipped with a manipulator. We quantitatively evaluate GeFF's ability for open-vocabulary object-/part-level manipulation and show that GeFF outperforms point-based baselines in runtime and storage-accuracy trade-offs, with qualitative examples of semantics-aware navigation and articulated object manipulation. }
+}
+@article{qiu2025airio,
+	title        = {AirIO: Learning Inertial Odometry with Enhanced IMU Feature Observability},
+	author       = {Yuheng Qiu and Can Xu and Yutian Chen and Shibo Zhao and Junyi Geng and Sebastian Scherer},
+	year         = {2025},
+	journal      = {IEEE Robotics and Automation Letters},
+	publisher    = {IEEE},
+	url          = {https://arxiv.org/abs/2501.15659},
+}
+@article{li2025bilevel,
+	title        = {Bilevel Learning for Bilevel Planning},
+	author       = {Bowen Li and Tom Silver and Sebastian Scherer and Alexander Gray},
+	year         = {2025},
+	booktitle    = {Robotics: Science and Systems (RSS)},
+	url          = {https://arxiv.org/pdf/2502.08697},
+	video		 = {https://youtu.be/a18yDb_yQOU?si=VZbNFAVqUHRgOvhy},
+	abstract     = {A robot that learns from demonstrations should not just imitate what it sees -- it should understand the high-level concepts that are being demonstrated and generalize them to new tasks. Bilevel planning is a hierarchical model-based approach where predicates (relational state abstractions) can be leveraged to achieve compositional generalization. However, previous bilevel planning approaches depend on predicates that are either hand-engineered or restricted to very simple forms, limiting their scalability to sophisticated, high-dimensional state spaces. To address this limitation, we present IVNTR, the first bilevel planning approach capable of learning neural predicates directly from demonstrations. Our key innovation is a neuro-symbolic bilevel learning framework that mirrors the structure of bilevel planning. In IVNTR, symbolic learning of the predicate "effects" and neural learning of the predicate "functions" alternate, with each providing guidance for the other. We evaluate IVNTR in six diverse robot planning domains, demonstrating its effectiveness in abstracting various continuous and high-dimensional states. While most existing approaches struggle to generalize (with <35% success rate), our IVNTR achieves an average of 77% success rate on unseen tasks. Additionally, we showcase IVNTR on a mobile manipulator, where it learns to perform real-world mobile manipulation tasks and generalizes to unseen test scenarios that feature new objects, new states, and longer task horizons. Our findings underscore the promise of learning and planning with abstractions as a path towards high-level generalization. }
+}
+@article{he2025flying,
+	title        = {Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning},
+	author       = {Guanqi He and Xiaofeng Guo and Luyi Tang and Yuanhang Zhang and Mohammadreza Mousaei and Jiahe Xu and Junyi Geng and Sebastian Scherer and Guanya Shi},
+	year         = {2025},
+	booktitle    = {Robotics: Science and Systems (RSS)},
+	url          = {https://arxiv.org/pdf/2504.10334},
+	abstract     = {Aerial manipulation has recently attracted increasing interest from both industry and academia. Previous approaches have demonstrated success in various specific tasks. However, their hardware design and control frameworks are often tightly coupled with task specifications, limiting the development of cross-task and cross-platform algorithms. Inspired by the success of robot learning in tabletop manipulation, we propose a unified aerial manipulation framework with an end-effector-centric interface that decouples high-level platform-agnostic decision-making from task-agnostic low-level control. Our framework consists of a fully-actuated hexarotor with a 4-DoF robotic arm, an end-effector-centric whole-body model predictive controller, and a high-level policy. The high-precision end-effector controller enables efficient and intuitive aerial teleoperation for versatile tasks and facilitates the development of imitation learning policies. Real-world experiments show that the proposed framework significantly improves end-effector tracking accuracy, and can handle multiple aerial teleoperation and imitation learning tasks, including writing, peg-in-hole, pick and place, changing light bulbs, etc. We believe the proposed framework provides one way to standardize and unify aerial manipulation into the general manipulation community and to advance the field. }
+}
+@article{kapoor2025demonstrating,
+	title        = {Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid},
+	author       = {Parv Kapoor and Ian Higgins and Nikhil Keetha and Jay Patrikar and Brady Moon and Zelin Ye and Yao He and Ivan Cisneros and Yaoyu Hu and Changliu Liu and Eunsuk Kang and Sebastian Scherer},
+	year         = {2025},
+	booktitle    = {Robotics: Science and Systems (RSS)},
+	url          = {https://arxiv.org/pdf/2505.03694},
+	video        = {https://youtu.be/oQxh6X9sDtw},
+	abstract     = {Assured safe-separation is essential for achieving seamless high-density operation of airborne vehicles in a shared airspace. To equip resource-constrained aerial systems with this safety-critical capability, we present ViSafe, a high-speed vision-only airborne collision avoidance system. ViSafe offers a full-stack solution to the Detect and Avoid (DAA) problem by tightly integrating a learning-based edge-AI framework with a custom multi-camera hardware prototype designed under SWaP-C constraints. By leveraging perceptual input-focused control barrier functions (CBF) to design, encode, and enforce safety thresholds, ViSafe can provide provably safe runtime guarantees for self-separation in high-speed aerial operations. We evaluate ViSafe's performance through an extensive test campaign involving both simulated digital twins and real-world flight scenarios. By independently varying agent types, closure rates, interaction geometries, and environmental conditions (e.g., weather and lighting), we demonstrate that ViSafe consistently ensures self-separation across diverse scenarios. In first-of-its-kind real-world high-speed collision avoidance tests with closure rates reaching 144 km/h, ViSafe sets a new benchmark for vision-only autonomous collision avoidance, establishing a new standard for safety in high-speed aerial navigation.}
 }
 @article{noren2025interaction-aware,
 	title        = {Interaction-aware control for robotic vegetation override in off-road environments},
@@ -39,31 +86,22 @@
 	pages        = {101034},
 	doi          = {10.1016/j.jterra.2024.101034}
 }
+@inproceedings{ho2025mapex,
+	title        = {MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
+	author       = {Ho, Cherie  and Kim, Seungchan  and Moon, Brady  and Parandekar, Aditya  and Harutyunyan, Narek  and Wang, Chen  and Sycara, Katia  and Best, Graeme  and Scherer, Sebastian},
+	year         = {2025},
+	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+	url          = {https://arxiv.org/abs/2409.15590},
+	code         = {https://github.com/castacks/MapEx},
+	video        = {https://youtu.be/x6vEn8d6lN0},
+	abstract     = {Exploration is a critical challenge in robotics, centered on understanding unknown environments. In this work, we focus on robots exploring structured indoor environments which are often predictable and composed of repeating patterns. Most existing approaches, such as conventional frontier approaches, have difficulty leveraging the predictability and explore with simple heuristics such as `closest first'. Recent works use deep learning techniques to predict unknown regions of the map, using these predictions for information gain calculation. However, these approaches are often sensitive to the predicted map quality or do not reason over sensor coverage. To overcome these issues, our key insight is to jointly reason over what the robot can observe and its uncertainty to calculate probabilistic information gain. We introduce MapEx, a new exploration framework that uses predicted maps to form probabilistic sensor model for information gain estimation. MapEx generates multiple predicted maps based on observed information, and takes into consideration both the computed variances of predicted maps and estimated visible area to estimate the information gain of a given viewpoint. Experiments on the real-world KTH dataset showed on average 12.4% improvement than representative map-prediction based exploration and 25.4% improvement than nearest frontier approach.}
+}
 @inproceedings{nye2025betty,
 	title        = {BETTY Dataset: A Multi-modal Dataset for Full-stack Autonomy},
 	author       = {Nye, Micah and Raji, Ayoub and Saba, Andrew and Erlich, Eidan and Exley, Robert and Goyal, Aragya and Matros, Alexander and Misra, Ritesh, and Sivaprakasam, Matthew and Ramanan, Deva and Scherer, Sebastian},
 	year         = {2025},
-	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)}
-}
-@misc{alama2025rayfronts,
-	title        = {RayFronts: Open-Set Semantic Ray Frontiers for Online Scene Understanding and Exploration},
-	author       = {Omar Alama and Avigyan Bhattacharya and Haoyang He and Seungchan Kim and Yuheng Qiu and Wenshan Wang and Cherie Ho and Nikhil Keetha and Sebastian Scherer},
-	year         = {2025},
-	url          = {https://arxiv.org/pdf/2504.06994},
-	eprint       = {2504.06994},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO},
-	video        = {https://youtu.be/fFSKUBHx5gA},
-	abstract     = {Open-set semantic mapping is crucial for open-world robots. Current mapping approaches either are limited by the depth range or only map beyond-range entities in constrained settings, where overall they fail to combine within-range and beyond-range observations. Furthermore, these methods make a trade-off between fine-grained semantics and efficiency. We introduce RayFronts, a unified representation that enables both dense and beyond-range efficient semantic mapping. RayFronts encodes task-agnostic open-set semantics to both in-range voxels and beyond-range rays encoded at map boundaries, empowering the robot to reduce search volumes significantly and make informed decisions both within & beyond sensory range, while running at 8.84 Hz on an Orin AGX. Benchmarking the within-range semantics shows that RayFronts's fine-grained image encoding provides 1.34x zero-shot 3D semantic segmentation performance while improving throughput by 16.5x. Traditionally, online mapping performance is entangled with other system components, complicating evaluation. We propose a planner-agnostic evaluation framework that captures the utility for online beyond-range search and exploration, and show RayFronts reduces search volume 2.2x more efficiently than the closest online baselines.}
-}
-@article{kapoor2025demonstrating,
-	title        = {Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid},
-	author       = {Parv Kapoor and Ian Higgins and Nikhil Keetha and Jay Patrikar and Brady Moon and Zelin Ye and Yao He and Ivan Cisneros and Yaoyu Hu and Changliu Liu and Eunsuk Kang and Sebastian Scherer},
-	year         = {2025},
-	booktitle    = {Robotics: Science and Systems (RSS)},
-	url          = {https://arxiv.org/pdf/2505.03694},
-	video        = {https://youtu.be/oQxh6X9sDtw},
-	abstract     = {Assured safe-separation is essential for achieving seamless high-density operation of airborne vehicles in a shared airspace. To equip resource-constrained aerial systems with this safety-critical capability, we present ViSafe, a high-speed vision-only airborne collision avoidance system. ViSafe offers a full-stack solution to the Detect and Avoid (DAA) problem by tightly integrating a learning-based edge-AI framework with a custom multi-camera hardware prototype designed under SWaP-C constraints. By leveraging perceptual input-focused control barrier functions (CBF) to design, encode, and enforce safety thresholds, ViSafe can provide provably safe runtime guarantees for self-separation in high-speed aerial operations. We evaluate ViSafe's performance through an extensive test campaign involving both simulated digital twins and real-world flight scenarios. By independently varying agent types, closure rates, interaction geometries, and environmental conditions (e.g., weather and lighting), we demonstrate that ViSafe consistently ensures self-separation across diverse scenarios. In first-of-its-kind real-world high-speed collision avoidance tests with closure rates reaching 144 km/h, ViSafe sets a new benchmark for vision-only autonomous collision avoidance, establishing a new standard for safety in high-speed aerial navigation.}
+	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+	url			 = {https://arxiv.org/pdf/2505.07266}
 }
 @inproceedings{qiu2025mac-vo,
 	title        = {MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry},
@@ -72,14 +110,19 @@
 	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
 	url          = {https://mac-vo.github.io}
 }
-@misc{rauniyar2025aug3d,
-	title        = {Aug3D: Augmenting large scale outdoor datasets for Generalizable Novel View Synthesis},
-	author       = {Rauniyar, Aditya  and Alama, Omar  and Yong, Silong and Sycara, Katia  and Scherer, Sebastian},
+@inproceedings{sivaprakasam2025salon,
+	title        = {SALON: Self-supervised Adaptive Learning for Off-road Navigation},
+	author       = {Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Aich, Shubhra  and Lew, Jeric  and Adu, Isaiah  and Wang, Wenshan and Scherer, Sebastian},
 	year         = {2025},
-	url          = {https://arxiv.org/abs/2501.06431},
-	eprint       = {2501.06431},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.CV}
+	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+	url          = {https://theairlab.org/SALON/}
+}
+@inproceedings{zhao2025superloc,
+	title        = {SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks},
+	author       = {Zhao, Shibo and Zhu, Honghao and Gap, Yuanjun and Kim, Beomsoo and Qiu, Yuheng and Johnson, Aaron M. and Scherer, Sebastian},
+	year         = {2025},
+	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
+	url          = {https://arxiv.org/abs/2412.02901}
 }
 @inproceedings{santos2025unisat,
 	title        = {UniSaT: Unified-Objective Belief Model and Planner to Search for and Track Multiple Objects},
@@ -90,38 +133,35 @@
 	url          = {https://arxiv.org/abs/2405.15997},
 	abstract     = {Path planning for autonomous search and tracking of multiple objects is a critical problem in applications such as reconnaissance, surveillance, and data gathering. Due to the inherent competing objectives of searching for new objects while maintaining tracks for found objects, most current approaches rely on multi-objective planning methods, leaving it up to the user to tune parameters to balance between the two objectives, usually based on heuristics or trial and error. In this paper, we introduce UniSaT (Unified Search and Track), a novel unified-objective formulation for the search and track problem based on Random Finite Sets (RFS). Our approach models unknown and known objects using a combined generalized labeled multi-Bernoulli (GLMB) filter. For unseen objects, UniSaT leverages both cardinality and spatial prior distributions, allowing it to operate without prior knowledge of the exact number of objects in the search space. The planner maximizes the mutual information of this unified belief model, creating balanced search and tracking behaviors. We demonstrate our work in a simulated environment, presenting both qualitative results and quantitative improvements over a multi-objective method.}
 }
-@misc{baek2025pipe,
-	title        = {PIPE Planner: Pathwise Information Gain with Map Predictions for Indoor Robot Exploration},
-	author       = {Seungjae Baek and Brady Moon and Seungchan Kim and Muqing Cao and Cherie Ho and Sebastian Scherer and Jeonghwan Jeon},
+@misc{moon2025ia-tigris,
+	title        = {IA-TIGRIS: An Incremental and Adaptive Sampling-Based Planner for Online Informative Path Planning},
+	author       = {Brady Moon and Nayana Suvarna and Andrew Jong and Satrajit Chatterjee and Junbin Yuan and Sebastian Scherer},
 	year         = {2025},
-	url          = {https://arxiv.org/pdf/2503.07504},
-	eprint       = {2503.07504},
+	url          = {https://arxiv.org/abs/2502.15961},
+	eprint       = {2502.15961},
 	archiveprefix = {arXiv},
 	primaryclass = {cs.RO},
-	abstract     = {Autonomous exploration in unknown environments requires estimating the information gain of an action to guide planning decisions. While prior approaches often compute information gain at discrete waypoints, pathwise integration offers a more comprehensive estimation but is often computationally challenging or infeasible and prone to overestimation. In this work, we propose the Pathwise Information Gain with Map Prediction for Exploration (PIPE) planner, which integrates cumulative sensor coverage along planned trajectories while leveraging map prediction to mitigate overestimation. To enable efficient pathwise coverage computation, we introduce a method to efficiently calculate the expected observation mask along the planned path, significantly reducing computational overhead. We validate PIPE on real-world floorplan datasets, demonstrating its superior performance over state-of-the-art baselines. Our results highlight the benefits of integrating predictive mapping with pathwise information gain for efficient and informed exploration.}
+	video        = {https://youtu.be/etFLanBdgHs},
+	abstract     = {Planning paths that maximize information gain for robotic platforms has wide-ranging applications and significant potential impact. To effectively adapt to real-time data collection, informative path planning must be computed online and be responsive to new observations. In this work, we present IA-TIGRIS, an incremental and adaptive sampling-based informative path planner that can be run efficiently with onboard computation. Our approach leverages past planning efforts through incremental refinement while continuously adapting to updated world beliefs. We additionally present detailed implementation and optimization insights to facilitate real-world deployment, along with an array of reward functions tailored to specific missions and behaviors. Extensive simulation results demonstrate IA-TIGRIS generates higher-quality paths compared to baseline methods. We validate our planner on two distinct hardware platforms: a hexarotor UAV and a fixed-wing UAV, each having unique motion models and configuration spaces. Our results show up to a 41% improvement in information gain compared to baseline methods, suggesting significant potential for deployment in real-world applications.}
 }
-@inproceedings{sivaprakasam2025salon,
-	title        = {SALON: Self-supervised Adaptive Learning for Off-road Navigation},
-	author       = {Sivaprakasam, Matthew  and Triest, Samuel  and Ho, Cherie  and Aich, Shubhra  and Lew, Jeric  and Adu, Isaiah  and Wang, Wenshan and Scherer, Sebastian},
+@misc{harutyunyan2025mapexrl,
+	title        = {MapExRL: Human-Inspired Indoor Exploration with Predicted Environment Context and Reinforcement Learning},
+	author       = {Narek Harutyunyan and Brady Moon and Seungchan Kim and Cherie Ho and Adam Hung and Sebastian Scherer},
 	year         = {2025},
-	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
-	url          = {https://theairlab.org/SALON/}
-}
-@misc{qiu2025airio,
-	title        = {AirIO: Learning Inertial Odometry with Enhanced IMU Feature Observability},
-	author       = {Yuheng Qiu and Can Xu and Yutian Chen and Shibo Zhao and Junyi Geng and Sebastian Scherer},
-	year         = {2025},
-	url          = {https://arxiv.org/abs/2501.15659},
-	eprint       = {2501.15659},
+	url          = {https://arxiv.org/abs/2503.01548},
+	eprint       = {2503.01548},
 	archiveprefix = {arXiv},
-	primaryclass = {cs.RO}
+	primaryclass = {cs.RO},
+	abstract     = {Path planning for robotic exploration is challenging, requiring reasoning over unknown spaces and anticipating future observations. Efficient exploration requires selecting budget-constrained paths that maximize information gain. Despite advances in autonomous exploration, existing algorithms still fall short of human performance, particularly in structured environments where predictive cues exist but are underutilized. Guided by insights from our user study, we introduce MapExRL, which improves robot exploration efficiency in structured indoor environments by enabling longer-horizon planning through reinforcement learning (RL) and global map predictions. Unlike many RL-based exploration methods that use motion primitives as the action space, our approach leverages frontiers for more efficient model learning and longer horizon reasoning. Our framework generates global map predictions from the observed map, which our policy utilizes, along with the prediction uncertainty, estimated sensor coverage, frontier distance, and remaining distance budget, to assess the strategic long-term value of frontiers. By leveraging multiple frontier scoring methods and additional context, our policy makes more informed decisions at each stage of the exploration. We evaluate our framework on a real-world indoor map dataset, achieving up to an 18.8% improvement over the strongest state-of-the-art baseline, with even greater gains compared to conventional frontier-based algorithms.}
 }
-@inproceedings{zhao2025superloc,
-	title        = {SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in Predicting Alignment Risks},
-	author       = {Zhao, Shibo and Zhu, Honghao and Gap, Yuanjun and Kim, Beomsoo and Qiu, Yuheng and Johnson, Aaron M. and Scherer, Sebastian},
+@misc{rauniyar2025aug3d,
+	title        = {Aug3D: Augmenting large scale outdoor datasets for Generalizable Novel View Synthesis},
+	author       = {Rauniyar, Aditya  and Alama, Omar  and Yong, Silong and Sycara, Katia  and Scherer, Sebastian},
 	year         = {2025},
-	booktitle    = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
-	url          = {https://arxiv.org/abs/2412.02901}
+	url          = {https://arxiv.org/abs/2501.06431},
+	eprint       = {2501.06431},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CV}
 }
 @misc{aich2024deep,
 	title        = {Deep Bayesian Future Fusion for Self-Supervised, High-Resolution, Off-Road Mapping},
