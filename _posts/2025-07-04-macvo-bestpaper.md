@@ -15,13 +15,18 @@ We are thrilled to announce that our paper **"[MAC-VO](https://mac-vo.github.io/
 
 This prestigious recognition at the IEEE International Conference on Robotics and Automation (ICRA) 2025 highlights the significant impact of our work in advancing stereo visual odometry through learning-based approaches. The dual awards underscore both the technical excellence and practical relevance of our research in the robotics community.
 
+<div style="display: flex; justify-content: space-around;">
+    <img src="img/posts/2025-07-04-macvo-bestpaper/bestconference.jpg" alt="Best Conference Paper Award" style="width: 48%;">
+    <img src="img/posts/2025-07-04-macvo-bestpaper/bestperception.jpg" alt="Best Paper Award on Robot Perception" style="width: 48%;">
+</div>
+
+
+
 ## About MAC-VO
 
 MAC-VO introduces a novel metrics-aware covariance framework that significantly improves the accuracy and reliability of learning-based stereo visual odometry systems. Our approach addresses key challenges in uncertainty quantification and performance optimization for autonomous navigation applications.
 
 - **Project Website**: [https://mac-vo.github.io](https://mac-vo.github.io)
-- **Paper**: Available on the project website
-- **Code**: Open-source implementation coming soon
 
 ## Conference Highlights
 
