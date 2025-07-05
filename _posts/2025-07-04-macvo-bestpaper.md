@@ -16,27 +16,28 @@ We are thrilled to announce that our paper **"[MAC-VO](https://mac-vo.github.io/
 This prestigious recognition at the IEEE International Conference on Robotics and Automation (ICRA) 2025 highlights the significant impact of our work in advancing stereo visual odometry through learning-based approaches. The dual awards underscore both the technical excellence and practical relevance of our research in the robotics community.
 
 
-<div style="display: flex; justify-content: space-around;">
-    <figure style="width: 48%;">
-        <img src="/img/posts/2025-07-04-macvo-bestpaper/bestconference.jpg" alt="Best Conference Paper Award" style="width: 100%;">
-        <figcaption style="text-align: center;">Best Conference Paper Award</figcaption>
-    </figure>
-    <figure style="width: 48%;">
-        <img src="/img/posts/2025-07-04-macvo-bestpaper/bestperception.jpg" alt="Best Paper Award on Robot Perception" style="width: 100%;">
-        <figcaption style="text-align: center;">Best Paper Award on Robot Perception</figcaption>
-    </figure>
-</div>
-
-
-
-
+<table>
+  <tr>
+    <td>
+      <img src="/img/posts/2025-07-04-macvo-bestpaper/bestconference.jpg" width="100%"><br>
+      Best Conference Paper Award
+    </td>
+    <td>
+      <img src="/img/posts/2025-07-04-macvo-bestpaper/bestperception.jpg" width="100%"><br>
+      Best Paper Award on Robot Perception
+    </td>
+  </tr>
+</table>
 
 
 ## About MAC-VO
 
-MAC-VO introduces a novel metrics-aware covariance framework that significantly improves the accuracy and reliability of learning-based stereo visual odometry systems. Our approach addresses key challenges in uncertainty quantification and performance optimization for autonomous navigation applications.
+MAC-VO introduces a novel metrics-aware covariance framework that significantly improves the accuracy and reliability of learning-based stereo visual odometry systems. Our model leverages learned uncertainty to filter out low-quality features, enhance keypoint selection, and thereby improve pose estimation accuracy. MAC-VO also enables dense mapping using only stereo input, without requiring bundle adjustment or multi-frame optimization. Our approach addresses key challenges in uncertainty quantification and performance optimization for autonomous navigation applications.
 
-- **Project Website**: [https://mac-vo.github.io](https://mac-vo.github.io)
+We conducted extensive evaluations on public benchmark datasets, such as VBR, EuRoC, and TartanAir, and our own collection, encompassing a wide range of environments, including indoor, outdoor, and scenarios with extreme lightining conditions. These tests demonstrate that MAC-VO outperforms existing visual odometry algorithms and even some SLAM systems in difficult scenarios.
+
+More details and open-source code can be found on our **[Project Website](https://mac-vo.github.io)**.
+
 
 ## Conference Highlights
 
@@ -50,3 +51,5 @@ Check out our live demonstrations from the conference:
 Congratulations to all team members who contributed to this achievement! This award represents the culmination of dedicated research efforts and collaborative work across our team.
 
 We look forward to continuing our research in visual odometry and contributing to the advancement of autonomous robotics technology.
+
+<video src="/img/posts/2025-07-04-macvo-bestpaper/macvo_bestpaper_web.mp4" autoplay loop muted width="95%"></video>
