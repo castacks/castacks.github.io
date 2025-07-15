@@ -622,7 +622,7 @@ This workshop will not provide formal official proceedings and the papers will b
       <p>Hanwha Aerospace</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/cherie.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/past_members/cherie.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
         <a style="margin-bottom: 1px;" href="https://cherieho.com ">Cherie Ho</a>
       </p>

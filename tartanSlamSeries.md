@@ -430,9 +430,9 @@ Event Format: 40 min Talk & 20 min Open-ended Discussion
       <p>Carnegie Mellon University</p>
     </td>
     <td style="text-align: center;">
-      <img class="circular_image" src="/img/team/brady.jpg" style="margin-bottom: 6px;"/>
+      <img class="circular_image" src="/img/team/past_members/brady.jpg" style="margin-bottom: 6px;"/>
       <p style="margin-bottom: 3px;">
-        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/bradym/">Brady Moon</a>
+        <a style="margin-bottom: 1px;" href="https://theairlab.org/team/alumni/bradym/">Brady Moon</a>
       </p>
       <p style="margin-bottom: 3px;">PhD Candidate </p>
       <p>Carnegie Mellon University</p>
