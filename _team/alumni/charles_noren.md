@@ -1,4 +1,3 @@
-
 ---
 title: Charles Noren
 subtitle: Ph.D. Student
