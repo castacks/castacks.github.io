@@ -8,9 +8,9 @@ image: /img/team/avigyan.jpg
 link-new-tab: true
 ---
 
-Avigyan is currently pursuing a Master's in Robotics at Carnegie Mellon University after graduating with a Bachelor's in Computer Science from Jadavpur University, India. He is interested in developing perception systems that are robust and efficient through both classical machine learning methods and modern deep learning techniques. Currently, his research focuses on how to apply foundational models like LLMs/VLMs in robotics and address challenges in scene understanding and interactive navigation.
+Avigyan is currently pursuing a Master's in Robotics at Carnegie Mellon University after graduating with a Bachelor's in Computer Science from Jadavpur University, India. He is interested in Computer Vision with a focus on enabling robust and efficient perception for robotic systems. Currently, his research is on applying foundational models like VFMs/LLMs/VLMs to address challenges in 3D scene understanding and interactive navigation.
 
-Previously, Avigyan was a Research Fellow in AI at IIT Bombay for a year before coming to CMU, working on the problem of Domain Generalization in Computer Vision using VLMs. He was also a Research Associate in the Responsible AI working group of [GPAI](https://gpai.ai/) in a social media content moderation project related to AI governance.
+Previously, Avigyan was a Research Fellow in AI at IIT Bombay for a year before coming to CMU, working on the problem of Domain Generalization in Computer Vision using VLMs. He was also a Research Associate in the Responsible AI working group of GPAI in a social media content moderation project related to AI governance.
 
 In his free time, he enjoys watching movies, and playing badminton and table tennis.
 
@@ -22,4 +22,6 @@ In his free time, he enjoys watching movies, and playing badminton and table ten
 
 **Google Scholar**: [Avigyan Bhattacharya](https://scholar.google.com/citations?user=1eNXA6oAAAAJ&hl=en)
 
-**Github**: [Avigyan2001](https://github.com/Avigyan2001)
+**Github**: [avigyanbh](https://github.com/avigyanbh)
+
+**Website**: [Personal-Homepage](https://avigyanbh.github.io/)
