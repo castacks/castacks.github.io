@@ -1,8 +1,8 @@
 ---
 title: Yuchen Zhang
-subtitle: Master's Student
-job_title: Master's Student
-category:  master_student
+subtitle: Ph.D. Student
+job_title: Ph.D. Student
+category:  phd_student
 layout: team_member_personal_page
 image: /img/team/yuchen.jpg
 link-new-tab: true

@@ -2,8 +2,8 @@
 title: Kabir Kedia
 subtitle: Engineer
 job_title: Engineer
-category: staff
-layout: team_member_personal_page
+category: past_staff
+layout: team_past_member_personal_page
 image: /img/team/kabir_kedia.jpg
 link-new-tab: true
 ---

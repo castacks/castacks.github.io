@@ -2,8 +2,8 @@
 title: Aditya Rauniyar
 subtitle: Research Engineer
 job_title: Research Engineer
-category: staff
-layout: team_member_personal_page
+category: past_staff
+layout: team_past_member_personal_page
 image: /img/team/adi.png
 link-new-tab: true
 ---
