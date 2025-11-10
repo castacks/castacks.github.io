@@ -8,6 +8,6 @@ image: /img/team/ian.jpg
 link-new-tab: true
 ---
 
-Ian Higgins is an Engineer with the AirLab, currently working on the DARPA Subterranean Challenge.
+Ian Higgins is an Engineer with the AirLab currently working on applications of vision-based autonomous drones.
 
-Ian has a bachelor's degree in Mathematics with a certificate in Computer Science from the University of Wisconsin - Madison.
+Ian has a Master's in Robotics from Carnegie Mellon University and a Bachelor's degree in Mathematics with a certificate in Computer Science from the University of Wisconsin - Madison.
