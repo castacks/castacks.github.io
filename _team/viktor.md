@@ -14,9 +14,6 @@ His research interests are relative localization of robots, computer vision, aer
 One of his primary results during his PhD studies was the development of the UVDAR (UltraViolet Direction and Ranging) system for mutual relative localization of UAVs in outdoor conditions.
 Viktor likes to work with robots in the field, and previously participated in the MBZIRC 2020 competition, in a  team that scored the overall victory.
 
-%% ## Website ##
-%% [https://vwalter.github.io/](https://vwalter.github.io/)
-
 ### [LinkedIn](https://www.linkedin.com/in/viktor-walter-37287a1a5) ###
 ### [Google Scholar](https://scholar.google.cz/citations?user=5QI-m0gAAAAJ&hl=cs&oi=ao) ###
 ### [Web of Science](https://www.webofscience.com/wos/author/record/3554829) ###
