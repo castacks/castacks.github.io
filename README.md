@@ -24,6 +24,17 @@ Adding your profile is very simple. First follow the instructions above and laun
 # Adding your publication
 Edit the `_bibliography/references.bib` file to add your bibtex and commit to `master`.
 
+Please follow the following conventions:
+- Always add a DOI entry if it exists. The DOI entry should not be a url but start with 10. ("10.xxxx/xxxxxxx"). It will be turned into a URL automatically.
+- Remove arxiv entries that are now actual publications to avoid duplication
+- Arxiv submissions should be an "@misc" entry since they are not published articles (not "@article")
+- The "url" field should point to the website of the paper, direct pdf link, or arxiv link or similar open easily accessible URL for the paper.
+- The "video" field should point to a youtube or similar URL
+- Add an "abstract"
+- Use the three letter month instead of month = {Jan} use month = jan for example
+- If a title has certain capitalization use a second set of "{}" around the text. Don't hardcode the capitalization. For example "{Monocular object and plane {SLAM} in structured environments}"
+- Format the final bibtex after updating it with the below tool. Make sure you didn't remove any references.
+
 [Please use this tools and url (it includes the settings) to format the bib file.](https://flamingtempura.github.io/bibtex-tidy/index.html?opt=%7B%22modify%22%3Atrue%2C%22curly%22%3Atrue%2C%22numeric%22%3Atrue%2C%22months%22%3Atrue%2C%22space%22%3A2%2C%22tab%22%3Atrue%2C%22align%22%3A13%2C%22sort%22%3A%5B%22-year%22%2C%22author%22%5D%2C%22duplicates%22%3A%5B%22key%22%2C%22doi%22%2C%22citation%22%2C%22abstract%22%5D%2C%22stripEnclosingBraces%22%3Atrue%2C%22dropAllCaps%22%3Afalse%2C%22escape%22%3Afalse%2C%22sortFields%22%3A%5B%22title%22%2C%22shorttitle%22%2C%22author%22%2C%22year%22%2C%22month%22%2C%22day%22%2C%22journal%22%2C%22booktitle%22%2C%22location%22%2C%22on%22%2C%22publisher%22%2C%22address%22%2C%22series%22%2C%22volume%22%2C%22number%22%2C%22pages%22%2C%22doi%22%2C%22isbn%22%2C%22issn%22%2C%22url%22%2C%22urldate%22%2C%22copyright%22%2C%22category%22%2C%22note%22%2C%22metadata%22%5D%2C%22stripComments%22%3Afalse%2C%22trailingCommas%22%3Afalse%2C%22encodeUrls%22%3Afalse%2C%22tidyComments%22%3Atrue%2C%22removeEmptyFields%22%3Afalse%2C%22removeDuplicateFields%22%3Atrue%2C%22generateKeys%22%3A%22%5Bauth%3Arequired%3Alower%5D%5Byear%3Arequired%5D%5Bveryshorttitle%3Alower%5D%5BduplicateNumber%5D%22%2C%22lowercase%22%3Atrue%2C%22backup%22%3Atrue%7D)
 
 
