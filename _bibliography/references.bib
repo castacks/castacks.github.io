@@ -1,3 +1,28 @@
+@inproceedings{keetha2026mapanything,
+	title        = {{MapAnything}: Universal Feed-Forward Metric 3D Reconstruction},
+	author       = {Keetha, Nikhil and M{\"u}ller, Norman and Sch{\"o}nberger, Johannes and Porzi, Lorenzo and Zhang, Yuchen and Fischer, Tobias and Knapitsch, Arno and Zauss, Duncan and Weber, Ethan and Antunes, Nelson and others},
+	year         = {2026},
+	booktitle    = {2026 International Conference on 3D Vision (3DV)},
+	url          = {https://map-anything.github.io/},
+	organization = {IEEE},
+	abstract     = {We introduce MapAnything, a unified transformer-based feed-forward model that ingests one or more images along with optional geometric inputs such as camera intrinsics, poses, depth, or partial reconstructions, and then directly regresses the metric 3D scene geometry and cameras. MapAnything leverages a factored representation of multi-view scene geometry, i.e., a collection of depth maps, local ray maps, camera poses, and a metric scale factor that effectively upgrades local reconstructions into a globally consistent metric frame. Standardizing the supervision and training across diverse datasets, along with flexible input augmentation, enables MapAnything to address a broad range of 3D vision tasks in a single feed-forward pass, including uncalibrated structure-from-motion, calibrated multi-view stereo, monocular depth estimation, camera localization, depth completion, and more. We provide extensive experimental analyses and model ablations demonstrating that MapAnything outperforms or matches specialist feed-forward models while offering more efficient joint training behavior, thus paving the way toward a universal 3D reconstruction backbone.}
+}
+@misc{karhade2025any4d,
+	title        = {{Any4D}: Unified Feed-Forward Metric 4D Reconstruction},
+	author       = {Karhade, Jay and Keetha, Nikhil and Zhang, Yuchen and Gupta, Tanisha and Sharma, Akash and Scherer, Sebastian and Ramanan, Deva},
+	year         = {2025},
+	journal      = {arXiv preprint arXiv:2512.10935},
+	url          = {https://any-4d.github.io/},
+	abstract     = {We present Any4D, a scalable multi-view transformer for metric-scale, dense feed-forward 4D reconstruction. Any4D directly generates per-pixel motion and geometry predictions for N frames, in contrast to prior work that typically focuses on either 2-view dense scene flow or sparse 3D point tracking. Moreover, unlike other recent methods for 4D reconstruction from monocular RGB videos, Any4D can process additional modalities and sensors such as RGB-D frames, IMU-based egomotion, and Radar Doppler measurements, when available. One of the key innovations that allows for such a flexible framework is a modular representation of a 4D scene; specifically, per-view 4D predictions are encoded using a variety of egocentric factors (depthmaps and camera intrinsics) represented in local camera coordinates, and allocentric factors (camera extrinsics and scene flow) represented in global world coordinates. We achieve superior performance across diverse setups - both in terms of accuracy (2-3X lower error) and compute efficiency (15X faster) - opening avenues for multiple downstream applications.}
+}
+@inproceedings{zhang2025ufm,
+	title        = {{UFM}: A Simple Path towards Unified Dense Correspondence with Flow},
+	author       = {Zhang, Yuchen and Keetha, Nikhil and Lyu, Chenwei and Jhamb, Bhuvan and Chen, Yutian and Qiu, Yuheng and Karhade, Jay and Jha, Shreyas and Hu, Yaoyu and Ramanan, Deva and others},
+	year         = {2025},
+	booktitle    = {Advances in Neural Information Processing Systems (NeurIPS)},
+	url          = {https://uniflowmatch.github.io/},
+	abstract     = {Dense image correspondence is central to many applications, such as visual odometry, 3D reconstruction, object association, and re-identification. Historically, dense correspondence has been tackled separately for wide-baseline scenarios and optical flow estimation, despite the common goal of matching content between two images. In this paper, we develop a Unified Flow & Matching model (UFM), which is trained on unified data for pixels that are co-visible in both source and target images. UFM uses a simple, generic transformer architecture that directly regresses the (u,v) flow . It is easier to train and more accurate for large flows compared to the typical coarse-to-find cost volumes in prior work. UFM is 28% more accurate than state-of-the-art flow methods (Unimatch), while also having 62% less error and 6.7x faster than dense wide-baseline matchers (RoMa). UFM is the first to demonstrate that unified training can outperform specialized approaches across both domains. This enables fast, general-purpose correspondence and opens new directions for multi-modal, long-range, and real-time correspondence tasks.}
+}
 @article{alama2025radseg,
 	title 		 = {RADSeg: Unleashing Parameter and Compute Efficient Zero-Shot Open-Vocabulary Segmentation Using Agglomerative Models},
 	author 		 = {Alama, Omar and Jariwala, Darshil and Bhattacharya, Avigyan and Kim, Seungchan and Wang, Wenshan and Scherer, Sebastian},
