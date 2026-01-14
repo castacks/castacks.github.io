@@ -23,19 +23,21 @@
 	url          = {https://uniflowmatch.github.io/},
 	abstract     = {Dense image correspondence is central to many applications, such as visual odometry, 3D reconstruction, object association, and re-identification. Historically, dense correspondence has been tackled separately for wide-baseline scenarios and optical flow estimation, despite the common goal of matching content between two images. In this paper, we develop a Unified Flow & Matching model (UFM), which is trained on unified data for pixels that are co-visible in both source and target images. UFM uses a simple, generic transformer architecture that directly regresses the (u,v) flow . It is easier to train and more accurate for large flows compared to the typical coarse-to-find cost volumes in prior work. UFM is 28% more accurate than state-of-the-art flow methods (Unimatch), while also having 62% less error and 6.7x faster than dense wide-baseline matchers (RoMa). UFM is the first to demonstrate that unified training can outperform specialized approaches across both domains. This enables fast, general-purpose correspondence and opens new directions for multi-modal, long-range, and real-time correspondence tasks.}
 }
+@article{he2025grndctrl,
+	title 		 = {GrndCtrl: Grounding World Models via Self-Supervised Reward Alignment},
+	author 		 = {He, Haoyang and Patrikar, Jay and Kim, Dong-Ki and Smith, Max and McGann, Daniel and Agha-mohammadi, Ali-akbar and Omidshafiei, Shayegan and Scherer, Sebastian},
+	year 		 = {2025},
+	url			 = {https://arxiv.org/abs/2512.01952},
+	journal 	 = {arXiv preprint arXiv:2512.01952},
+	abstract     = {Recent advances in video world modeling have enabled large-scale generative models to simulate embodied environments with high visual fidelity, providing strong priors for prediction, planning, and control. Yet, despite their realism, these models often lack geometric grounding, limiting their use in navigation tasks that require spatial coherence and long-horizon stability. We introduce Reinforcement Learning with World Grounding (RLWG), a self-supervised post-training framework that aligns pretrained world models with a physically verifiable structure through geometric and perceptual rewards. Analogous to reinforcement learning from verifiable feedback (RLVR) in language models, RLWG can use multiple rewards that measure pose cycle-consistency, depth reprojection, and temporal coherence. We instantiate this framework with GrndCtrl, a reward-aligned adaptation method based on Group Relative Policy Optimization (GRPO), yielding world models that maintain stable trajectories, consistent geometry, and reliable rollouts for embodied navigation. Like post-training alignment in large language models, GrndCtrl leverages verifiable rewards to bridge generative pretraining and grounded behavior, achieving superior spatial coherence and navigation stability over supervised fine-tuning in outdoor environments.}
+}
 @article{alama2025radseg,
 	title 		 = {RADSeg: Unleashing Parameter and Compute Efficient Zero-Shot Open-Vocabulary Segmentation Using Agglomerative Models},
 	author 		 = {Alama, Omar and Jariwala, Darshil and Bhattacharya, Avigyan and Kim, Seungchan and Wang, Wenshan and Scherer, Sebastian},
 	year 		 = {2025},
 	url			 = {https://arxiv.org/abs/2511.19704},
-	journal 	 = {arXiv preprint arXiv:2511.19704}
-}
-@article{kim2025raven,
-	title 		 = {RAVEN: Resilient Aerial Navigation via Open-Set Semantic Memory and Behavior Adaptation},
-	author 	     = {Kim, Seungchan and Alama, Omar and Kurdydyk, Dmytro and Keetha, Nikhil and Wang, Wenshan and Bisk, Yonatan and Scherer, Sebastian},
-	year 		 = {2025},
-	url 		 = {https://arxiv.org/abs/2509.23563},
-	journal      = {arXiv preprint arXiv:2509.23563}
+	journal 	 = {arXiv preprint arXiv:2511.19704},
+	abstract     = {Open-vocabulary semantic segmentation (OVSS) underpins many vision and robotics tasks that require generalizable semantic understanding. Existing approaches either rely on limited segmentation training data, which hinders generalization, or apply zero-shot heuristics to vision-language models (e.g CLIP), while the most competitive approaches combine multiple models to improve performance at the cost of high computational and memory demands. In this work, we leverage an overlooked agglomerative vision foundation model, RADIO, to improve zero-shot OVSS along three key axes simultaneously: mIoU, latency, and parameter efficiency. We present the first comprehensive study of RADIO for zero-shot OVSS and enhance its performance through self-correlating recursive attention, self-correlating global aggregation, and computationally efficient mask refinement. Our approach, RADSeg, achieves 6-30% mIoU improvement in the base ViT class while being 3.95x faster and using 2.5x fewer parameters. Surprisingly, RADSeg-base (105M) outperforms previous combinations of huge vision models (850-1350M) in mIoU, achieving state-of-the-art accuracy with substantially lower computational and memory cost.}
 }
 @article{chen2025cometokens,
 	title	  	 = {Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers},
@@ -44,6 +46,14 @@
 	url          = {https://arxiv.org/abs/2511.14751},
 	journal      = {arXiv preprint arXiv:2511.14751},
 	abstract 	 = {We propose Confidence-Guided Token Merging (Co-Me), an acceleration mechanism for visual geometric transformers without retraining or finetuning the base model. Co-Me distilled a light-weight confidence predictor to rank tokens by uncertainty and selectively merge low-confidence ones, effectively reducing computation while maintaining spatial coverage. Compared to similarity-based merging or pruning, the confidence signal in Co-Me reliably indicates regions emphasized by the transformer, enabling substantial acceleration without degrading performance. Co-Me applies seamlessly to various multi-view and streaming visual geometric transformers, achieving speedups that scale with sequence length. When applied to VGGT and MapAnything, Co-Me achieves up to 11.3x and 7.2x speedup, making visual geometric transformers practical for real-time 3D perception and reconstruction.}
+}
+@article{kim2025raven,
+	title 		 = {RAVEN: Resilient Aerial Navigation via Open-Set Semantic Memory and Behavior Adaptation},
+	author 	     = {Kim, Seungchan and Alama, Omar and Kurdydyk, Dmytro and Keetha, Nikhil and Wang, Wenshan and Bisk, Yonatan and Scherer, Sebastian},
+	year 		 = {2025},
+	url 		 = {https://arxiv.org/abs/2509.23563},
+	journal      = {arXiv preprint arXiv:2509.23563},
+	abstract 	 = {Aerial outdoor semantic navigation requires robots to explore large, unstructured environments to locate target objects. Recent advances in semantic navigation have demonstrated open-set object-goal navigation in indoor settings, but these methods remain limited by constrained spatial ranges and structured layouts, making them unsuitable for long-range outdoor search. While outdoor semantic navigation approaches exist, they either rely on reactive policies based on current observations, which tend to produce short-sighted behaviors, or precompute scene graphs offline for navigation, limiting adaptability to online deployment. We present RAVEN, a 3D memory-based, behavior tree framework for aerial semantic navigation in unstructured outdoor environments. It (1) uses a spatially consistent semantic voxel-ray map as persistent memory, enabling long-horizon planning and avoiding purely reactive behaviors, (2) combines short-range voxel search and long-range ray search to scale to large environments, (3) leverages a large vision-language model to suggest auxiliary cues, mitigating sparsity of outdoor targets. These components are coordinated by a behavior tree, which adaptively switches behaviors for robust operation. We evaluate RAVEN in 10 photorealistic outdoor simulation environments over 100 semantic tasks, encompassing single-object search, multi-class, multi-instance navigation and sequential task changes. Results show RAVEN outperforms baselines by 85.25% in simulation and demonstrate its real-world applicability through deployment on an aerial robot in outdoor field tests.}
 }
 @misc{yu2025unified,
 	title        = {Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Spherical Images from Any Camera},
