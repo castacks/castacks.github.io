@@ -1,3 +1,25 @@
+@inproceedings{kim2026raven,
+	title 		 = {RAVEN: Resilient Aerial Navigation via Open-Set Semantic Memory and Behavior Adaptation},
+	author 	     = {Kim, Seungchan and Alama, Omar and Kurdydyk, Dmytro and Keetha, Nikhil and Wang, Wenshan and Bisk, Yonatan and Scherer, Sebastian},
+	year 		 = {2026},
+	booktitle    = {2026 IEEE International Conference on Robotics and Automation (ICRA)},
+	url 		 = {https://arxiv.org/abs/2509.23563},
+	video 		 = {https://youtu.be/slLuZv3-zIs?si=zoYQKNCBQVVUJ6Ez},
+	abstract 	 = {Aerial outdoor semantic navigation requires robots to explore large, unstructured environments to locate target objects. Recent advances in semantic navigation have demonstrated open-set object-goal navigation in indoor settings, but these methods remain limited by constrained spatial ranges and structured layouts, making them unsuitable for long-range outdoor search. While outdoor semantic navigation approaches exist, they either rely on reactive policies based on current observations, which tend to produce short-sighted behaviors, or precompute scene graphs offline for navigation, limiting adaptability to online deployment. We present RAVEN, a 3D memory-based, behavior tree framework for aerial semantic navigation in unstructured outdoor environments. It (1) uses a spatially consistent semantic voxel-ray map as persistent memory, enabling long-horizon planning and avoiding purely reactive behaviors, (2) combines short-range voxel search and long-range ray search to scale to large environments, (3) leverages a large vision-language model to suggest auxiliary cues, mitigating sparsity of outdoor targets. These components are coordinated by a behavior tree, which adaptively switches behaviors for robust operation. We evaluate RAVEN in 10 photorealistic outdoor simulation environments over 100 semantic tasks, encompassing single-object search, multi-class, multi-instance navigation and sequential task changes. Results show RAVEN outperforms baselines by 85.25% in simulation and demonstrate its real-world applicability through deployment on an aerial robot in outdoor field tests.}
+}
+@inproceedings{gupta2026umi,
+	title        = {UMI-on-Air: Embodiment-Aware Guidance for Embodiment-Agnostic Visuomotor Policies},
+	author 		 = {Gupta, Harsh and Guo, Xiaofeng and Ha, Huy and Pan, Chuer and Cao, Muqing and Lee, Dongjae and Scherer, Sebastian and Song, Shuran and Shi, Guanya},
+	year 		 = {2026},
+	booktitle    = {2026 IEEE International Conference on Robotics and Automation (ICRA)},
+	url 		 = {https://arxiv.org/abs/2510.02614}
+}
+@inproceedings{maheshwari2026anythermal,
+	title 		 = {AnyThermal: Towards Learning Universal Representations for Thermal Perception},
+	author 		 = {Maheshwari, Parv and Karhade, Jay and Chawla, Yogesh and Adu, Isaiah and Heisen, Florian and Porco, Andrew and Jong, Andrew and Liu, Yifei and Pitla, Santosh and Scherer, Sebastian and Wang, Wenshan},
+	year 		 = {2026},
+	booktitle 	 = {2026 IEEE International Conference on Robotics and Automation (ICRA)}
+}
 @inproceedings{keetha2026mapanything,
 	title        = {{MapAnything}: Universal Feed-Forward Metric 3D Reconstruction},
 	author       = {Keetha, Nikhil and M{\"u}ller, Norman and Sch{\"o}nberger, Johannes and Porzi, Lorenzo and Zhang, Yuchen and Fischer, Tobias and Knapitsch, Arno and Zauss, Duncan and Weber, Ethan and Antunes, Nelson and others},
@@ -46,14 +68,6 @@
 	url          = {https://arxiv.org/abs/2511.14751},
 	journal      = {arXiv preprint arXiv:2511.14751},
 	abstract 	 = {We propose Confidence-Guided Token Merging (Co-Me), an acceleration mechanism for visual geometric transformers without retraining or finetuning the base model. Co-Me distilled a light-weight confidence predictor to rank tokens by uncertainty and selectively merge low-confidence ones, effectively reducing computation while maintaining spatial coverage. Compared to similarity-based merging or pruning, the confidence signal in Co-Me reliably indicates regions emphasized by the transformer, enabling substantial acceleration without degrading performance. Co-Me applies seamlessly to various multi-view and streaming visual geometric transformers, achieving speedups that scale with sequence length. When applied to VGGT and MapAnything, Co-Me achieves up to 11.3x and 7.2x speedup, making visual geometric transformers practical for real-time 3D perception and reconstruction.}
-}
-@article{kim2025raven,
-	title 		 = {RAVEN: Resilient Aerial Navigation via Open-Set Semantic Memory and Behavior Adaptation},
-	author 	     = {Kim, Seungchan and Alama, Omar and Kurdydyk, Dmytro and Keetha, Nikhil and Wang, Wenshan and Bisk, Yonatan and Scherer, Sebastian},
-	year 		 = {2025},
-	url 		 = {https://arxiv.org/abs/2509.23563},
-	journal      = {arXiv preprint arXiv:2509.23563},
-	abstract 	 = {Aerial outdoor semantic navigation requires robots to explore large, unstructured environments to locate target objects. Recent advances in semantic navigation have demonstrated open-set object-goal navigation in indoor settings, but these methods remain limited by constrained spatial ranges and structured layouts, making them unsuitable for long-range outdoor search. While outdoor semantic navigation approaches exist, they either rely on reactive policies based on current observations, which tend to produce short-sighted behaviors, or precompute scene graphs offline for navigation, limiting adaptability to online deployment. We present RAVEN, a 3D memory-based, behavior tree framework for aerial semantic navigation in unstructured outdoor environments. It (1) uses a spatially consistent semantic voxel-ray map as persistent memory, enabling long-horizon planning and avoiding purely reactive behaviors, (2) combines short-range voxel search and long-range ray search to scale to large environments, (3) leverages a large vision-language model to suggest auxiliary cues, mitigating sparsity of outdoor targets. These components are coordinated by a behavior tree, which adaptively switches behaviors for robust operation. We evaluate RAVEN in 10 photorealistic outdoor simulation environments over 100 semantic tasks, encompassing single-object search, multi-class, multi-instance navigation and sequential task changes. Results show RAVEN outperforms baselines by 85.25% in simulation and demonstrate its real-world applicability through deployment on an aerial robot in outdoor field tests.}
 }
 @misc{yu2025unified,
 	title        = {Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Spherical Images from Any Camera},
