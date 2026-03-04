@@ -2,8 +2,10 @@
 title: Viktor Walter
 subtitle: Postdoctor
 job_title: Postdoctoral Fellow
-category: postdoc
+category: past_postdoc
 layout: team_member_personal_page
+starting_year: 2024
+graduation_year: 2026
 image: /img/team/viktor_walter.jpg
 link-new-tab: true
 ---

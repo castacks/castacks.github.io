@@ -3,7 +3,11 @@ title: Yifei Liu
 subtitle: Master's Student
 job_title: Master's Student
 category:  master_student
-layout: team_member_personal_page
+category: past_master
+layout: team_past_member_personal_page
+starting_year: 2023
+graduation_year: 2025
+graduation_month: May
 image: /img/team/yifeil.png
 link-new-tab: true
 ---
