@@ -1,3 +1,14 @@
+@article{moon2026ia-tigris,
+	title        = {IA-TIGRIS: An Incremental and Adaptive Sampling-Based Planner for Online Informative Path Planning},
+	author       = {Moon, Brady and Suvarna, Nayana and Jong, Andrew and Chatterjee, Satrajit and Yuan, Junbin and Cao, Muqing and Scherer, Sebastian},
+	year         = {2026},
+	journal 	 = {IEEE Transactions on Robotics},
+	publisher 	 = {IEEE},
+	doi			 = {10.1109/TRO.2026.3672542},
+	url          = {https://arxiv.org/abs/2502.15961},
+	video        = {https://youtu.be/etFLanBdgHs},
+	abstract     = {Planning paths that maximize information gain for robotic platforms has wide-ranging applications and significant potential impact. To effectively adapt to real-time data collection, informative path planning must be computed online and be responsive to new observations. In this work, we present IA-TIGRIS, an incremental and adaptive sampling-based informative path planner that can be run efficiently with onboard computation. Our approach leverages past planning efforts through incremental refinement while continuously adapting to updated world beliefs. We additionally present detailed implementation and optimization insights to facilitate real-world deployment, along with an array of reward functions tailored to specific missions and behaviors. Extensive simulation results demonstrate IA-TIGRIS generates higher-quality paths compared to baseline methods. We validate our planner on two distinct hardware platforms: a hexarotor UAV and a fixed-wing UAV, each having unique motion models and configuration spaces. Our results show up to a 41% improvement in information gain compared to baseline methods, suggesting significant potential for deployment in real-world applications.}
+}
 @inproceedings{karhade2026any4d,
 	title        = {{Any4D}: Unified Feed-Forward Metric 4D Reconstruction},
 	author       = {Karhade, Jay and Keetha, Nikhil and Zhang, Yuchen and Gupta, Tanisha and Sharma, Akash and Scherer, Sebastian and Ramanan, Deva},
@@ -221,17 +232,6 @@
 	url          = {https://arxiv.org/abs/2503.01548},
 	video        = {https://youtu.be/aprE3y0vcpY?si=vxqieR6T68L9oXX4},
 	abstract     = {Path planning for robotic exploration is challenging, requiring reasoning over unknown spaces and anticipating future observations. Efficient exploration requires selecting budget-constrained paths that maximize information gain. Despite advances in autonomous exploration, existing algorithms still fall short of human performance, particularly in structured environments where predictive cues exist but are underutilized. Guided by insights from our user study, we introduce MapExRL, which improves robot exploration efficiency in structured indoor environments by enabling longer-horizon planning through reinforcement learning (RL) and global map predictions. Unlike many RL-based exploration methods that use motion primitives as the action space, our approach leverages frontiers for more efficient model learning and longer horizon reasoning. Our framework generates global map predictions from the observed map, which our policy utilizes, along with the prediction uncertainty, estimated sensor coverage, frontier distance, and remaining distance budget, to assess the strategic long-term value of frontiers. By leveraging multiple frontier scoring methods and additional context, our policy makes more informed decisions at each stage of the exploration. We evaluate our framework on a real-world indoor map dataset, achieving up to an 18.8% improvement over the strongest state-of-the-art baseline, with even greater gains compared to conventional frontier-based algorithms.}
-}
-@misc{moon2025ia-tigris,
-	title        = {IA-TIGRIS: An Incremental and Adaptive Sampling-Based Planner for Online Informative Path Planning},
-	author       = {Brady Moon and Nayana Suvarna and Andrew Jong and Satrajit Chatterjee and Junbin Yuan and Sebastian Scherer},
-	year         = {2025},
-	url          = {https://arxiv.org/abs/2502.15961},
-	eprint       = {2502.15961},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.RO},
-	video        = {https://youtu.be/etFLanBdgHs},
-	abstract     = {Planning paths that maximize information gain for robotic platforms has wide-ranging applications and significant potential impact. To effectively adapt to real-time data collection, informative path planning must be computed online and be responsive to new observations. In this work, we present IA-TIGRIS, an incremental and adaptive sampling-based informative path planner that can be run efficiently with onboard computation. Our approach leverages past planning efforts through incremental refinement while continuously adapting to updated world beliefs. We additionally present detailed implementation and optimization insights to facilitate real-world deployment, along with an array of reward functions tailored to specific missions and behaviors. Extensive simulation results demonstrate IA-TIGRIS generates higher-quality paths compared to baseline methods. We validate our planner on two distinct hardware platforms: a hexarotor UAV and a fixed-wing UAV, each having unique motion models and configuration spaces. Our results show up to a 41% improvement in information gain compared to baseline methods, suggesting significant potential for deployment in real-world applications.}
 }
 @misc{rauniyar2025aug3d,
 	title        = {Aug3D: Augmenting large scale outdoor datasets for Generalizable Novel View Synthesis},
