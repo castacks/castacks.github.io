@@ -1,7 +1,7 @@
 # Build with Docker
-Assuming you have Docker installed, pull the following image:
+Assuming you have Docker installed, build the container:
 ```bash
-$ docker pull jekyll/jekyll:latest
+$ docker compose build
 ```
 Run a container:
 ```bash
