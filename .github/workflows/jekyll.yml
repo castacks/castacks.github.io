@@ -59,16 +59,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   # inputs are empty (false) on automatic triggering of workflows, and want to run deploy
-  #   # in these cases
-  #   if: ${{ !inputs.skip_deploy }}
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    # inputs are empty (false) on automatic triggering of workflows, and want to run deploy
+    # in these cases
+    if: ${{ !inputs.skip_deploy }}
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
