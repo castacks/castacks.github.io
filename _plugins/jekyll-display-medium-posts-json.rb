@@ -6,16 +6,29 @@ module Jekyll
   class JekyllDisplayMediumPosts < Generator
     safe true
     priority :high
-def generate(site)
+    def generate(site)
       jekyll_coll = Jekyll::Collection.new(site, 'medium_posts_json')
       site.collections['medium_posts_json'] = jekyll_coll
       uri = URI("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/airlabcmu")
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.use_ssl = true
-      request = Net::HTTP::Get.new(uri)
-      response = http.request(request)
-      data = JSON.parse(response.read_body)
-      data['items'].each do |item|
+      begin
+        http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = true
+        http.open_timeout = 10
+        http.read_timeout = 15
+        request = Net::HTTP::Get.new(uri)
+        response = http.request(request)
+        data = JSON.parse(response.read_body)
+      rescue StandardError => e
+        Jekyll.logger.warn 'MediumPosts:', "fetch/parse failed (#{e.class}: #{e.message}); skipping Medium posts"
+        return
+      end
+      items = data.is_a?(Hash) ? data['items'] : nil
+      unless items.is_a?(Array)
+        status = data.is_a?(Hash) ? data['status'] : 'n/a'
+        Jekyll.logger.warn 'MediumPosts:', "rss2json returned no items (status=#{status}); skipping Medium posts"
+        return
+      end
+      items.each do |item|
         title = item['title']
         path = "./medium_posts/" + title + ".md"
         path = site.in_source_dir(path)
@@ -28,7 +41,7 @@ def generate(site)
         doc.data['categories'] = item['categories'];
         html_document = Nokogiri::HTML.fragment(item['description']);
         doc.data['description'] = html_document.search('p').to_html;
-        img_srcs = html_document.css('img').map{ |i| i['src'] } 
+        img_srcs = html_document.css('img').map{ |i| i['src'] }
         doc.data['image'] = img_srcs[0];#item['thumbnail'];
         jekyll_coll.docs << doc
       end
