@@ -16,4 +16,4 @@ I am a remote pilot and a student pilot trying to get my private pilot license.
 yikuanf@andrew.cmu.edu
 
 ## LinkedIn ##
-[www.linkedin.com/in/yikuanfang](www.linkedin.com/in/yikuanfang)
+[https://www.linkedin.com/in/yikuanfang](https://www.linkedin.com/in/yikuanfang)
