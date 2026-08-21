@@ -16,8 +16,8 @@ He earned his B.S. in [Integrative Systems and Design](https://isd.hkust.edu.hk/
 Before his graduate studies, he worked as a research assistant on [the WildFire Project](https://www.cs.cmu.edu/news/2024/wildfire-drones) from January to August 2023 and [the 360 Camera Project](https://github.com/MetaSLAM/iFastLoc) from July to August 2022.
 He has participated in various robotics competitions including [WRO](https://wro-association.org/), [RCJ](https://junior.robocup.org/), [FLL](https://www.firstlegoleague.org/), [FRC](https://www.firstinspires.org/robotics/frc)([6179 Photon Box](https://frc-staging-events.firstinspires.org/2019/team/6179)), and [RoboMaster](https://www.robomaster.com/en-US) since elementary school.
 
-His work includes the Unified Spherical Frontend, a lens-neutral perception method for pinhole, fisheye, and 360-degree panoramic cameras.
-He also collaborates with [Starlife Technologies](https://starlife.ai/) to provide an immersive operator experience.
+His work includes the [Unified Spherical Frontend](https://tomnotch.com/USF/), a lens-neutral perception method for pinhole, fisheye, and 360-degree panoramic cameras.
+He also collaborates with [Starlife Technologies](https://starlife.ai/) (co-founded by AirLab alumnus [Satrajit Chatterjee](https://www.linkedin.com/in/satrajit-chatterjee/)) to provide an immersive operator experience.
 
 He loves movies, video games, basketball, and travel in his free time.
 
