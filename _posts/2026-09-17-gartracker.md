@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GAR-Tracker: Target-Visible Trajectory Planning for a Ground Assistant Robot"
-date: 2026-09-17 12:00:01
+date: 2026-09-17 00:00:01
 categories: research
 description: "Trajectory Planning for Target Following with a Wheeled Robot
 t."
