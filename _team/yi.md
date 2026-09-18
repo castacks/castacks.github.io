@@ -1,7 +1,7 @@
 ---
 title: Yi Zhao
-subtitle: Research Assistant
-job_title: Research Assistant (M.S. in Computer Vision)
+subtitle: Master's Student
+job_title: Master's Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/yi.jpg
