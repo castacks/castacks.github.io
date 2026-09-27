@@ -8,9 +8,9 @@ image: /img/team/neelay_joglekar.png
 link-new-tab: true
 ---
 
-Hi! I'm Neelay, a 1st year PhD student in the CMU Robotics Institute and an NSF GRFP Fellow. I previously completed my undergrad at UC San Diego in Computer Engineering.
+Hi! I'm Neelay, a 2nd year PhD student in the CMU Robotics Institute and an NSF GRFP Fellow. I previously completed my undergrad at UC San Diego in Computer Engineering.
 
-I'm interested in enabling robots to adapt online to unexpected/out-of-distribution conditions and failure modes. I'm specifically exploring how closely integrating planning and perception, e.g. active perception, informed path planning, etc., can help achieve this goal.
+My high-level goal is to enable resilient autonomy in field robotics. A key property of resilient systems is *resourcefulness*, i.e. the capability for robots to reconfigure their behavior to achieve novel tasks they weren’t designed for. I’m currently focused on cultivating resourcefulness for drones by enabling them to solve novel, unconventional manipulation tasks without any hardware modifications. (E.g. teaching drones to use their downwash to kick a soccer ball!).
 
 **Email:** njogleka@andrew.cmu.edu
 
