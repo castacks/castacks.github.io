@@ -4,7 +4,7 @@ subtitle: Master's Student
 job_title: Master's Student
 category:  master_student
 layout: team_member_personal_page
-image: /img/team/trevor_chartier.png
+image: /img/team/trevor_chartier.jpg
 link-new-tab: true
 ---
 Trevor is a Master’s student in Robotics at Carnegie Mellon University. He graduated from Colorado State University with a B.S. in Computer Science, concentrating in Machine Learning and Artificial Intelligence.
