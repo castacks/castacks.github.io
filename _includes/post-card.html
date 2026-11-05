@@ -52,6 +52,10 @@
     <div id="{{ post.title }}-tags">
     </div>
     <footer class="card-footer">
+        {% if post.ongoing %}
+        <p class="card-footer-item">Ongoing</p>
+        {% else %}
         <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+        {% endif %}
     </footer>
 </div>
